@@ -146,6 +146,8 @@ HTML = f"""<!doctype html>
 <section>
   <div class="kicker">TL;DR · <span class="ta">சுருக்கம்</span></div>
   <h2>The five-sentence version, in both languages</h2>
+  <details class="tldr-box">
+  <summary><span class="s-lab when-closed">Expand · <span class="ta">விரிவாக்கு</span></span><span class="s-lab when-open">Collapse · <span class="ta">சுருக்கு</span></span><span class="s-figs">{total} records screened · {hij} hijacked · {inr(a_cost+k_cost)} in bills</span></summary>
   <div class="tldr">
     <div class="tldr-ta">
       <div class="tldr-lang"><span class="ta">தமிழ்</span></div>
@@ -169,6 +171,7 @@ HTML = f"""<!doctype html>
       </ol>
     </div>
   </div>
+  </details>
 </section>
 
 <section>
