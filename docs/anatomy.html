@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Anatomy of a Fake Book — how a fake was cooked from real works</title>
+<meta name="description" content="Three fake books from the Anna Centenary Library catalog, taken apart: their catalog blurbs are lifted verbatim from real books, their titles are remixes, their authors are fabricated or borrowed, and their ISBNs belong to an unrelated Hindi textbook registrant.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Noto+Serif+Tamil:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=c4344a42">
+<style>
+  .cookbook { max-width: 860px; margin: 0 auto; }
+  .step { background:#fff; border:1px solid var(--line); border-left:5px solid var(--maroon); padding:14px 18px; margin:14px 0; box-shadow:0 2px 0 rgba(28,20,16,.06); }
+  .step b.s { color: var(--maroon); font-size: 15px; letter-spacing:.08em; text-transform:uppercase; display:block; margin-bottom:6px; }
+  .bookcard { background:#fff; border:1px solid var(--line); border-top:5px solid var(--gold); padding:20px 24px; margin:26px 0; box-shadow:0 2px 0 rgba(28,20,16,.06); }
+  .bookcard h3 { margin-top:0; }
+  .bookcard .kcatalog { font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--grey); }
+  .bookcard table { width:100%; border-collapse:collapse; font-size:16px; margin:12px 0; }
+  .bookcard td { padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  .bookcard td:first-child { width:150px; color:var(--grey); font-size:14px; }
+  .lift { border:1px solid var(--line); background:#faf7f2; padding:12px 16px; margin:10px 0; }
+  .lift .who { font-size:13px; color:var(--grey); margin-top:6px; font-style:normal; }
+  .verdictline { margin:10px 0 0; font-size:15.5px; }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="deepam">🪔🪔🪔</div>
+    <h1 class="ta">போலி புத்தகத்தின் சமையல் குறிப்பு</h1>
+    <div class="sub">The Anatomy of a Fake Book — three records, taken apart</div>
+    <div class="edition">Anna Centenary Library catalog · screen of 07–08 November 2026 · a companion page to <a href="index.html" style="color:inherit">the malar</a></div>
+  </div>
+</header>
+
+<nav>
+  <a href="index.html">The Report</a>
+  <a href="anatomy.html">The Anatomy — how a fake is cooked</a>
+  <a href="ledger.html">The Ledger — 569 records</a>
+  <a href="verify.html">Verify It Yourself</a>
+  <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit">Open Data (GitHub)</a>
+</nav>
+
+<div class="wrap">
+
+<section>
+  <div class="kicker">TL;DR</div>
+  <h2>They did not write a book. They assembled one.</h2>
+  <div class="prose">
+    <p class="dropcap">The ledger proves the ISBNs are stolen. This page proves something more damning: the <b>books themselves are assembled from other people's work</b>. We took the catalog records apart line by line and matched every ingredient against the open web — OpenLibrary, archive.org, publisher pages, Google Books. The catalog's own summary paragraphs are lifted <b>verbatim</b> from real books by real publishers. The titles are remixes of real titles and subtitles. The authors are either nobody (no trace in any catalog, anywhere) or somebody — a real, notable person who never wrote the book under their name.</p>
+    <p>Three specimens below, each carrying two physical copies bought with public money on 13 April 2024, now shelved in the Reference section on the third floor of the Anna Centenary Library, Chennai. Every quoted string on this page can be checked by pasting it into a search box.</p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">The Recipe</div>
+  <h2>Five ingredients, one fake</h2>
+  <div class="cookbook">
+    <div class="step"><b class="s">Ingredient 1 · The blurb</b>Copy the publisher's summary of a real book, word for word, into the library catalog record. No rewriting — verbatim is easier and reads professional. The result: the fake book's only prose belongs to somebody else's book.</div>
+    <div class="step"><b class="s">Ingredient 2 · The title</b>Remix a phrase from the real book's subtitle or chapter list into a new title. Close enough to look scholarly; different enough to dodge a title search.</div>
+    <div class="step"><b class="s">Ingredient 3 · The author</b>Invent a name that sounds plausible for the subject — or borrow a real, notable name in the same field. In both cases the named person has no work matching the book.</div>
+    <div class="step"><b class="s">Ingredient 4 · The imprint</b>Print "Phoenix, 2023" with a rotating country of publication ([USA], Germany, India) — impossible for one publisher, and consistent with the Coimbatore allegations.</div>
+    <div class="step"><b class="s">Ingredient 5 · The ISBN</b>Paste an ISBN that actually belongs to an unrelated book — in all three specimens below, a Hindi textbook registered to a legitimate registrant years before the fake was "published".</div>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">Specimen 1 · ACL #526241</div>
+  <h2>"An Era of Divorce" — a fake whose summary names the real book</h2>
+
+  <div class="bookcard">
+    <div class="kcatalog">The catalog record — Anna Centenary Library, Chennai</div>
+    <table>
+      <tr><td>Title</td><td>An Era of Divorce</td></tr>
+      <tr><td>Author</td><td>Ainsworth, Wittig</td></tr>
+      <tr><td>Imprint</td><td>Phoenix 2023 [USA] · 257p. 23 cm · English</td></tr>
+      <tr><td>ISBN</td><td>978-93-9236-004-6 — registry assigns it to <i>Conceptual Framework of Education-1</i> (Vivek Malviya, Hindi, registered 23/09/2021)</td></tr>
+      <tr><td>Acquisition</td><td>2 copies · accessions 677068, 677069 · 13.04.2024 · Reference, 3rd floor</td></tr>
+    </table>
+
+    <p><b>The catalog's summary, quoted in full:</b></p>
+    <div class="lift">
+      <p class="quote" style="margin:0">"The widening gap between the rich and the poor is turning the American dream into an impossibility for many, particularly children and families. And as the children of low-income families grow to adulthood, they have less access to opportunities and resources than their higher-income peers—and increasing odds of repeating the experiences of their parents. <b>Families in an Era of Increasing Inequality</b> probes the complex relations between social inequality and child development and examines possibilities for disrupting these ongoing patterns."</p>
+      <div class="who">— the fake record's summary, pasted word-for-word. The bolded sentence names the book it was stolen from: <i>Families in an Era of Increasing Inequality: Diverging Destinies</i> (Amato, Booth, McHale &amp; Van Hook, eds., Springer, 2015). The cataloger did not even delete the real title.</div>
+    </div>
+
+    <p class="verdictline"><b>The title</b> — "An Era of Divorce" is a phrase-fragment of the real book's subtitle world (<i>Families in an Era of…</i>). No book with this exact title exists on OpenLibrary, Google Books or the web. <b>The author</b> — "Wittig Ainsworth" is no traceable author anywhere; the surname pair points at two real figures in the very subject the DDC class number (306.89, divorce) claims: Monique Wittig (novelist-theorist) and Mary Ainsworth (attachment psychologist). Two notables' names, zero of their work. <span class="muted">Status: blurb lift confirmed (byte-identical strings); author mash inferred — no person of that name exists, both referents are real.</span></p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">Specimen 2 · ACL #526291</div>
+  <h2>"Democracy and Peoples Right in The Contemporary World" — the real editor becomes the fake author</h2>
+
+  <div class="bookcard">
+    <div class="kcatalog">The catalog record — Anna Centenary Library, Chennai</div>
+    <table>
+      <tr><td>Title</td><td>Democracy and Peoples Right in The Contemporary World</td></tr>
+      <tr><td>Author</td><td>Dreze, Jean</td></tr>
+      <tr><td>Imprint</td><td>Phoenix 2023 [USA] · English</td></tr>
+      <tr><td>ISBN</td><td>978-93-9236-009-1 — registry assigns it to <i>Kaaryaalayee Hindee Aur Kampyootar</i> ("Office Hindi and Computer", Vivek Malviya, Hindi, registered 15/02/2022)</td></tr>
+      <tr><td>Acquisition</td><td>2 copies · accessions 677168, 677169 · 13.04.2024 · Reference, 3rd floor</td></tr>
+    </table>
+
+    <p><b>The catalog's summary, quoted in full:</b></p>
+    <div class="lift">
+      <p class="quote" style="margin:0">"Chomsky's early insights into the workings of power in the modern world remain timely and compelling. Published for the first time, this series of lectures also provides the reader with an invaluable introduction to the essential ideas of one of the leading thinkers of our time"</p>
+      <div class="who">— verbatim from the publisher page of <i>Democracy and Power: The Delhi Lectures</i>, Noam Chomsky with Jean Drèze (Open Book Publishers, 2014).</div>
+    </div>
+
+    <p class="verdictline">This is the cruelest of the three. The fake book borrows the name of <b>Jean Drèze</b> — the development economist, long-time co-author of Amartya Sen — who is not some random famous name here: he is the <b>real editor and interviewer of the very book the blurb was stolen from</b>. The title is a mash of that book's chapter headings ("The Vicissitudes of Democracy", "Militarism, Democracy and People's Right to Information", "The Nationality Question in the Contemporary World"). The summary still says "Chomsky's". The actual object on the shelf is none of it. <span class="muted">Status: blurb lift and chapter-mash confirmed (strings match the OBP page); "Drèze never wrote this" confirmed by absence from his bibliography.</span></p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">Specimen 3 · ACL #526299</div>
+  <h2>"A Single Woman" — the blurb still advertises the real author's trademark</h2>
+
+  <div class="bookcard">
+    <div class="kcatalog">The catalog record — Anna Centenary Library, Chennai</div>
+    <table>
+      <tr><td>Title</td><td>A Single Woman</td></tr>
+      <tr><td>Author</td><td>Naomi, Jane</td></tr>
+      <tr><td>Imprint</td><td>Phoenix c2023 · English</td></tr>
+      <tr><td>ISBN</td><td>978-93-9236-021-3 — registry assigns it to <i>Banjar Ke Rookh</i> (Vivek Malviya, Hindi, registered 22/12/2021)</td></tr>
+      <tr><td>Acquisition</td><td>2 copies · accessions 677184, 677185 · 13.04.2024 · Reference, 3rd floor</td></tr>
+    </table>
+
+    <p><b>The catalog's summary, quoted in full:</b></p>
+    <div class="lift">
+      <p class="quote" style="margin:0">"Mandy Hale, also known by her many blog readers and Twitter fans as The Single Woman™, shares her stories, advice, and enthusiasm for living life as an empowered, confident, God-centered woman who doesn’t just resign herself to being single—she enjoys it! Being single has had its stigmas, but Mandy proves it has its advantages too, and she uses wisdom and wit to inspire her fellow single ladies to celebrate and live fully in the life God has given them."</p>
+      <div class="who">— verbatim from <i>The Single Woman: Life, Love, and a Dash of Sass</i>, Mandy Hale (Thomas Nelson, 2013). The catalog's fake author is "Naomi, Jane"; the summary's author is "Mandy Hale". They didn't even reconcile the two.</div>
+    </div>
+
+    <p class="verdictline">A book about "The Single Woman™" — trademark in the blurb, God-centered and Twitter-fans and all — shelved as the work of a nonexistent "Jane Naomi" under a stolen Hindi-textbook ISBN, in a government library's Reference section. An exact-title real book does exist (<i>A Single Woman</i>, Jeanmarie Simpson Bishop, 2016 — the Jeannette Rankin play), and is unrelated to everything else in this record. <span class="muted">Status: blurb lift confirmed; author fabrication confirmed by absence (no traceable "Jane Naomi" author, only unrelated namesakes).</span></p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">The Scale</div>
+  <h2>Three specimens are not outliers — they are the method</h2>
+  <div class="prose">
+    <p>On 07–08 November 2026 we ran a fabrication screen over <b>293 records</b> of the 569-record ledger: 270 Kalaignar Centenary Library (Madurai) records by author identity, and the 23-record Anna Centenary Library deep-sample by title, author and blurb. Every check used open catalogs and the open web; every evidence URL is in the ledger.</p>
+  </div>
+  <div class="stats">
+    <div class="stat"><span class="n">150</span><span class="l">records whose author<br>traces to no real person</span></div>
+    <div class="stat"><span class="n">70</span><span class="l">records wearing a real,<br>notable author's name</span></div>
+    <div class="stat"><span class="n">44</span><span class="l">records citing a real but<br>obscure name as author</span></div>
+    <div class="stat"><span class="n">23</span><span class="l">ACL records disassembled:<br>13 cooked, 9 hybrid, 1 ghost</span></div>
+  </div>
+  <div class="prose">
+    <p>Among the 70 borrowed names: <b>B. R. Ambedkar appears as the author of 19 different Madurai records</b> — including a "20 volumes of Writings and Speeches" set logged as separate fake entries — and the blurb-lifting habit extends across the sample (one record's summary still advertises Noam Chomsky; another lifts a 2019 open-access chapter's abstract). The full row-by-row verdicts, with evidence URLs for each, are in <a href="ledger.html">the ledger</a> (fabrication columns) and the repo data files.</p>
+    <p><span class="muted">Honest limits: the screen classifies catalog records, not physical objects — the shelf-inspection, print-quality and bill-chain questions are for DVAC, which holds the complaint. "No trace" means no record in OpenLibrary, WorldCat, Google Books or the open web, as of the screen date; it cannot prove a self-published book nobody ever cataloged, which is why specimen verdicts also rest on the positive matches (the verbatim blurbs, the registry originals).</span></p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">Verify</div>
+  <h2>Check any specimen yourself, in one minute</h2>
+  <ul class="prose">
+    <li>Open the live OPAC record: <a href="http://118.185.210.241:8001/cgi-bin/koha/opac-detail.pl?biblionumber=526241" target="_blank" rel="noopener">biblionumber 526241</a> · <a href="http://118.185.210.241:8001/cgi-bin/koha/opac-detail.pl?biblionumber=526291" target="_blank" rel="noopener">526291</a> · <a href="http://118.185.210.241:8001/cgi-bin/koha/opac-detail.pl?biblionumber=526299" target="_blank" rel="noopener">526299</a>.</li>
+    <li>Copy the record's Summary. Paste it in quotes into any search engine — you will land on the real publisher's page (Springer, Open Book Publishers, Thomas Nelson).</li>
+    <li>Search the title on <a href="https://openlibrary.org" target="_blank" rel="noopener">OpenLibrary</a> and <a href="https://worldcat.org" target="_blank" rel="noopener">WorldCat</a> — nothing with this exact title and author exists.</li>
+    <li>Check the ISBN at <a href="https://isbn.gov.in/Home/IsbnSearch" target="_blank" rel="noopener">isbn.gov.in</a> — each number belongs to a named Hindi textbook by a named registrant, years before "Phoenix 2023".</li>
+  </ul>
+  <footer>
+    <p>If your verification disagrees with ours, that is a finding, not a failure — <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit/issues">open an issue</a> with the biblionumber and what you saw. Corrections land in the repo with a dated re-test.</p>
+    <p>Aram · open-data desk. Fabrication screen 07–08 Nov 2026. <a href="ledger.html">ledger</a> · <a href="verify.html">verify</a> · <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit">github.com/LogicIncZo/tn-fake-isbn-audit</a></p>
+  </footer>
+</section>
+
+</div>
+</body>
+</html>

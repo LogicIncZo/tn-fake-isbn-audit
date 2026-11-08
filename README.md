@@ -47,7 +47,11 @@ ACL prices are printed on the OPAC for 280 of 419 hijacked copies; KCL prices ar
 4. Imprints are physically impossible: one publisher, four different places of
    publication across 27 records, all "published 2023".
 
-## Repository layout
+5. The book text itself is cooked from existing work — real authors' identities,
+   real books' blurbs, real titles' fragments. Anatomy with worked examples:
+   <https://logicinczo.github.io/tn-fake-isbn-audit/anatomy.html>
+
+## Repository layout## Repository layout
 
 ```
 report/          Dossiers and analysis notes (PHOENIX-DOSSIER.md is the origin case)
