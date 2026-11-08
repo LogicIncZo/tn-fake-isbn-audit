@@ -1,0 +1,11 @@
+{
+ "total_records": 3,
+ "distinct_isbns": 2,
+ "suspect_rows": 6,
+ "by_rule": {
+  "R3-fakepub": 2,
+  "R4-western2023": 2,
+  "R1-checkdigit": 2
+ },
+ "bulk_stems_ge5": 0
+}

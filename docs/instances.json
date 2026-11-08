@@ -1,0 +1,7 @@
+[
+{"library":"Anna Centenary Library (ACL), Chennai","type":"State flagship public library","opac":"http://118.185.210.241:8001","koha":true,"status":"wedged at probe time (HTTP hangs, TCP open)","fake_books":"27 confirmed fake records (ISBN block 978-93-92360 hijack), accessioned 13.04.2024, accn 677064-677193"},
+{"library":"Kalaignar Centenary Library (KCL), Madurai","type":"State flagship public library","opac":"http://122.184.84.190:1011","official_site":"https://kalaignarcentenarylibrary.tn.gov.in","koha":true,"status":"live","fake_books":"352 publisher=Phoenix hits; 12-record AI-fake series sampled (biblios 100023-100034, ISBN block 978-93-94612, Nordic-style generated author names)"},
+{"library":"Madras University Library (UNOM), Chennai","type":"University","opac":"http://117.239.156.200","koha":true,"status":"live","fake_books":"16 publisher=Phoenix hits but samples are real books (Egon Larsen, M.T. Vasudevan Nair, S.N. Pandey) - likely mis-catalogued, NOT the AI-factory pattern"},
+{"library":"Chozha Central Library, Central University of Tamil Nadu, Thiruvarur","type":"Central university","opac":"https://centrallibrary.cutn.ac.in","koha":"self-declared Koha ILMS on site","status":"OPAC path 404 at /cgi-bin/koha/opac-search.pl; needs location probe","fake_books":"untested"},
+{"library":"Connemara Public Library, Chennai","type":"State central library (DTL deposit library)","opac":"catalogue link listed at librarytechnology.org/library/193151; not yet fetched","koha":"unconfirmed","fake_books":"untested"}
+]

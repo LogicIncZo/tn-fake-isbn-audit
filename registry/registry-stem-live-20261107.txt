@@ -1,0 +1,15 @@
+978937450: | publishers: {'Akal Vilakku Pathipagam': 1000} | langs: ['Tamil']
+978937700: 743 total | publishers: {'Akal Vilakku Pathipagam': 743} | langs: ['English', 'Tamil']
+9789389780: 100 total | publishers: {'Akal Vilakku Pathipagam': 100} | langs: ['Tamil']
+9789347000: 100 total | publishers: {'Akal Vilakku Pathipagam': 100} | langs: ['Tamil']
+9789392360: 37 total | publishers: {'Prakashan Kendra': 19, 'Vivek Malviya': 18} | langs: ['English', 'Hindi']
+978937583: 999 total | publishers: {'Phoenix Publications': 999} | langs: ['English', 'Wakashan languages']
+978937771: 423 total | publishers: {'Phoenix Publications': 423} | langs: ['English']
+978938979: 857 total | publishers: {'Gayatri Prakashan': 5, 'A Division of Infocom Books India Pvt Ltd': 100, 'Jain Vishva Bharati': 100, 'Indiannica Learning Pvt Ltd': 99, 'Bharati Vidyapeeth (Deemed to be University), Pune ': 100, 'Rachna Sagar Pvt. Ltd': 100, 'Sahitya Bhawan Publications': 100, 'NAVNEET EDUCATION LTD': 100, 'ANAND PEOPLES MEDICARE SOCIETY': 53, 'MULTITECH PUBLICATIONS': 100} | langs: ['Assamese', 'English', 'French', 'Gujarati', 'Hindi', 'Marathi', 'Sanskrit']
+978938979: 857 total | publishers: {'Gayatri Prakashan': 5, 'A Division of Infocom Books India Pvt Ltd': 100, 'Indiannica Learning Pvt Ltd': 99, 'Bharati Vidyapeeth (Deemed to be University), Pune ': 100, 'Rachna Sagar Pvt. Ltd': 100, 'Sahitya Bhawan Publications': 100, 'NAVNEET EDUCATION LTD': 100, 'ANAND PEOPLES MEDICARE SOCIETY': 53, 'Jain Vishva Bharati': 100, 'MULTITECH PUBLICATIONS': 100} | langs: ['Assamese', 'English', 'French', 'Gujarati', 'Hindi', 'Marathi', 'Sanskrit']
+978934701: 829 total | publishers: {'CHHAYA PRAKASHANI PVT. LTD.': 59, 'PARUL PRAKASHANI PVT LTD': 97, 'Rohan Prakashan ': 100, 'Nageen Prakashan Pvt. Ltd.': 100, 'Image Books': 100, 'NEELAM PUBLICATION': 97, 'Directorate of Research,  sher e kashmir university of agricultural sciences and technology kashmir': 69, 'Prabhat Prakashan Private Limited': 95, 'Sarv BhashaTrust': 100, 'saawariya school junction': 12} | langs: ['Awadhi', 'Bengali', 'Dogri', 'English', 'English, Middle (1100-1500)', 'English, Old (ca. 450-1100)', 'Hindi', 'Maithili', 'Marathi', 'Sanskrit', 'Urdu']
+978934701: 829 total | publishers: {'CHHAYA PRAKASHANI PVT. LTD.': 59, 'PARUL PRAKASHANI PVT LTD': 97, 'Nageen Prakashan Pvt. Ltd.': 100, 'Image Books': 100, 'Directorate of Research,  sher e kashmir university of agricultural sciences and technology kashmir': 69, 'Rohan Prakashan ': 100, 'NEELAM PUBLICATION': 97, 'Sarv BhashaTrust': 100, 'Prabhat Prakashan Private Limited': 95, 'saawariya school junction': 12} | langs: ['Awadhi', 'Bengali', 'Dogri', 'English', 'English, Middle (1100-1500)', 'English, Old (ca. 450-1100)', 'Hindi', 'Maithili', 'Marathi', 'Sanskrit', 'Urdu']
+
+Source: isbn.gov.in Home/FillSearchText, Type=isbn_number_Nodash, ViewReport=1 (prefix like-search), length=2000.
+Query stems chosen as exact registrant sub-blocks. Ran 2026-11-07 from ocitwo (IN vantage). Second reproduction;
+first pass = corpus pull 2026-11-06 (sources/isbn-gov-in/akalvilakku-records-full.csv in 2026-11-06-periyar-arivulagam-book-scam).
