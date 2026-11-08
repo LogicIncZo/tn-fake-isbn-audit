@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Ledger — 542 records · TN Fake-ISBN Audit</title>
+<meta name="description" content="Every screened catalog record from Anna Centenary Library (Chennai) and Kalaignar Centenary Library (Madurai): fake metadata, registry verdict, original title, acquisition date, price, verification links.">
+<link rel="stylesheet" href="style.css?v=ed2750f5">
+<style>
+  .controls { display:flex; flex-wrap:wrap; gap:10px; margin:18px 0 6px; align-items:center; }
+  .controls input, .controls select {
+    font-family: var(--serif); font-size:16px; padding:8px 12px;
+    border:1px solid var(--line); background:#fff; color:var(--ink);
+  }
+  .controls input { flex:1; min-width:220px; }
+  .controls .count { font-size:15px; color:var(--grey); font-style:italic; }
+  td .v { font-weight:700; }
+  .v.H { color: var(--maroon); }      /* hijacked */
+  .v.N { color: var(--red); }         /* never in registry */
+  .v.L { color: var(--green); }       /* legit */
+  .v.X { color: var(--grey); }        /* no isbn */
+  .orig { font-size:14px; color:var(--grey); display:block; margin-top:2px; }
+  .orig b { color: var(--ink); font-weight:600; }
+  .vlink { font-size:14.5px; text-decoration:none; margin-right:10px; white-space:nowrap; }
+  .vlink:hover { text-decoration:underline; }
+  footer { border-top: 4px double var(--gold-soft); margin-top:40px; padding:18px 0 30px; font-size:14px; color:var(--grey); }
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="deepam">🪔 தீபாவளி மலர்</div>
+  <h1>The Ledger</h1>
+  <div class="sub">542 records · every row checkable in two clicks</div>
+  <div class="edition">Anna Centenary Library, Chennai · Kalaignar Centenary Library, Madurai</div>
+</header>
+<nav>
+  <a href="index.html">The Report</a>
+  <a href="ledger.html">The Ledger — 542 records</a>
+  <a href="verify.html">Verify It Yourself</a>
+  <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit">Open Data (GitHub)</a>
+</nav>
+
+<div class="wrap">
+<p class="kicker">பதிவேடு · The Register</p>
+<h2>Every row is checkable</h2>
+<p class="dek">Screened against the isbn.gov.in registry 07–08 Nov 2026. "Registry says" is the <em>true</em> owner of that ISBN — if it names a different book, the catalog copy carries a stolen or fabricated number.</p>
+
+<div class="controls">
+  <input id="q" type="search" placeholder="Search title, author, ISBN, registrant…">
+  <select id="lib">
+    <option value="">Both libraries</option>
+    <option value="ACL Chennai">ACL Chennai</option>
+    <option value="KCL Madurai">KCL Madurai</option>
+  </select>
+  <select id="ver">
+    <option value="">All verdicts</option>
+    <option value="HIJACKED">Hijacked (real ISBN, different book)</option>
+    <option value="NEVER">Never in registry</option>
+    <option value="NOISBN">No ISBN in catalog</option>
+  </select>
+  <span class="count" id="count"></span>
+</div>
+
+<div class="tblwrap">
+<table id="tbl">
+<thead><tr>
+  <th>#</th><th>Library</th><th>Catalog copy (title / author)</th><th>ISBN</th>
+  <th>Registry says</th><th>Verdict</th><th>Acquired</th><th>₹</th><th>Verify</th>
+</tr></thead>
+<tbody id="rows"><tr><td colspan="9">Loading…</td></tr></tbody>
+</table>
+</div>
+
+<footer>
+  <p>Verdicts: <b class="v H">HIJACKED</b> ISBN allocated in the registry to a different work · <b class="v N">NOT-IN-REGISTRY</b> number never allocated to anyone · <b class="v X">NO-ISBN</b> uncoded copy, nothing to check.</p>
+  <p>Registry snapshots: <a href="data/full-registry-lookup.jsonl">full-registry-lookup.jsonl</a> · Full classification: <a href="data/final-classification.csv">final-classification.csv</a> · Reproduction: <a href="verify.html">Verify It Yourself</a> · Method + limitations: <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit/blob/master/report/PROVENANCE.md">PROVENANCE.md</a>.</p>
+  <p>Registry checks were one-time queries on 07–08 Nov 2026; the live registry can change. Prices are the number printed on the record — procurement figures need bills (DVAC's job, not ours).</p>
+</footer>
+</div>
+
+<script>
+const V = {
+  "HIJACKED-ALLOCATED-ELSEWHERE": ["H","HIJACKED"],
+  "NOT-IN-REGISTRY":              ["N","NOT-IN-REGISTRY"],
+  "NO-ISBN-IN-CATALOG":           ["X","NO-ISBN"]
+};
+let ROWS = [];
+const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const nodash = i => i.replace(/-/g,"");
+
+fetch("data/fakeisbn-verification.json?v=" + Date.now()).then(r=>r.json()).then(data=>{
+  ROWS = data.map((r,i)=>{
+    const [cls,label] = V[r.registry_verdict] || ["X", r.registry_verdict || "—"];
+    r._cls = cls; r._label = label; r._i = i+1;
+    return r;
+  });
+  render();
+}).catch(e=>{
+  document.getElementById("rows").innerHTML =
+    '<tr><td colspan="9">Could not load <code>data/fakeisbn-verification.json</code> — open via a web server, not file://.</td></tr>';
+});
+
+function match(r){
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const lib = document.getElementById("lib").value;
+  const ver = document.getElementById("ver").value;
+  if (lib && r.library !== lib) return false;
+  if (ver === "HIJACKED" && r._cls !== "H") return false;
+  if (ver === "NEVER" && r._cls !== "N") return false;
+  if (ver === "NOISBN" && r._cls !== "X") return false;
+  if (!q) return true;
+  return [r.fake_title, r.fake_author, r.isbn, r.registry_original_title,
+          r.registry_original_publisher, r.registry_verdict, r.date_acquired]
+         .some(f => String(f??"").toLowerCase().includes(q));
+}
+
+function render(){
+  const rows = ROWS.filter(match);
+  document.getElementById("count").textContent = rows.length + " of " + ROWS.length + " records";
+  document.getElementById("rows").innerHTML = rows.map(r=>{
+    const auth = (r.fake_author || "").replace(/^by\s*/i, "").replace(/^author"?>\s*/, "").trim();
+    const orig = r.registry_original_title
+      ? `<span class="orig">registry: <b>${esc(r.registry_original_title)}</b>${r.registry_original_publisher ? " — " + esc(r.registry_original_publisher) : ""}${r.registry_original_lang ? " · " + esc(r.registry_original_lang) : ""}</span>`
+      : (r._cls==="N" ? '<span class="orig">registry: number not allocated</span>' : "");
+    const links = r.isbn ? [
+      `<a class="vlink" target="_blank" rel="noopener" href="https://isbn.gov.in/Home/IsbnSearch#" data-isbn="${esc(r.isbn)}" title="Opens the registry · ISBN is copied to your clipboard">isbn.in ↗</a><button class="copy" data-isbn="${esc(r.isbn)}" title="Copy ISBN">copy</button>`,
+      `<a class="vlink" target="_blank" rel="noopener" title="The library's own catalog record" href="${esc(r.opac_link)}/cgi-bin/koha/opac-detail.pl?biblionumber=${esc(r.biblio)}">OPAC ↗</a>`,
+      `<a class="vlink" target="_blank" rel="noopener" href="https://openlibrary.org/isbn/${esc(nodash(r.isbn))}" title="OpenLibrary lookup">OL ↗</a>`,
+      `<a class="vlink" target="_blank" rel="noopener" href="https://worldcat.org/search?q=bn%3A${esc(r.isbn)}" title="WorldCat lookup">WC ↗</a>`,
+      `<a class="vlink" target="_blank" rel="noopener" href="https://www.google.com/search?q=%22${esc(r.isbn)}%22" title="Web search for this ISBN">web ↗</a>`
+    ].join("") : "—";
+    return `<tr>
+      <td>${r._i}</td>
+      <td>${esc(r.library)}</td>
+      <td><b>${esc(r.fake_title)}</b>${auth ? `<span class="orig">by ${esc(auth)}</span>` : ""}</td>
+      <td class="num">${esc(r.isbn || "—")}</td>
+      <td>${orig || "—"}</td>
+      <td><span class="v ${r._cls}">${esc(r._label)}</span></td>
+      <td class="num">${esc(r.date_acquired || "—")}</td>
+      <td class="num">${esc(r.price_shown || "—")}</td>
+      <td class="verify">${links}</td>
+    </tr>`;
+  }).join("") || '<tr><td colspan="9">No records match.</td></tr>';
+}
+["q","lib","ver"].forEach(id => document.getElementById(id).addEventListener("input", render));
+document.addEventListener("click", e => {
+  const v = e.target.closest("a.vlink[data-isbn]");
+  if (v) { navigator.clipboard.writeText(v.dataset.isbn).catch(()=>{}); }
+  const b = e.target.closest(".copy");
+  if (b) { copy(b, b.dataset.isbn); return; }
+  const a = e.target.closest("a.vlink[data-isbn]");
+  if (a) copy(a, a.dataset.isbn);
+});
+function copy(el, v) {
+  navigator.clipboard.writeText(v).then(() => {
+    const old = el.textContent; el.textContent = el.classList.contains("copy") ? "copied" : "registry · copied";
+    el.classList.add("done");
+    setTimeout(() => { el.textContent = old; el.classList.remove("done"); }, 1400);
+  });
+}
+</script>
+</body>
+</html>

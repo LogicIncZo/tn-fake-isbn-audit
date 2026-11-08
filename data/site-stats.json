@@ -1,0 +1,63 @@
+{
+ "total": 542,
+ "hij": 363,
+ "never": 70,
+ "noisbn": 109,
+ "acl_n": 188,
+ "acl_hij": 145,
+ "acl_never": 43,
+ "acl_copies": 55,
+ "acl_cost": "89,870.18",
+ "kcl_n": 354,
+ "kcl_hij": 218,
+ "kcl_never": 27,
+ "kcl_noisbn": 109,
+ "kcl_copies": 453,
+ "kcl_cost": "32,148.22",
+ "reg_top": [
+  [
+   "Thenmozhi B",
+   226
+  ],
+  [
+   "Hay House Publishers India Pvt. Ltd.",
+   83
+  ],
+  [
+   "Ashok Chopra",
+   20
+  ],
+  [
+   "Vidya Publications",
+   19
+  ]
+ ],
+ "a_top_waves": [
+  [
+   "13.04.2024",
+   44
+  ],
+  [
+   "22.08.2024",
+   13
+  ],
+  [
+   "04.02.2011",
+   3
+  ]
+ ],
+ "k_top_waves": [
+  [
+   "12/06/2023",
+   366
+  ],
+  [
+   "13/06/2023",
+   42
+  ],
+  [
+   "14/06/2023",
+   33
+  ]
+ ]
+}

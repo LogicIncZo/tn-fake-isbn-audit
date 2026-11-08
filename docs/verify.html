@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verify It Yourself · TN Fake-ISBN Audit</title>
+<meta name="description" content="Reproduce every number in the TN fake-ISBN audit: check one book in two minutes, or re-run the whole 542-record screen with the bundled scripts.">
+<link rel="stylesheet" href="style.css?v=ed2750f5">
+<style>
+  pre { background:#2a2118; color:#f0e8cf; padding:16px 18px; overflow-x:auto;
+        font-size:14px; line-height:1.55; border-left:4px solid var(--gold-soft); margin:12px 0 20px; }
+  code { font-family:"SFMono-Regular", Consolas, monospace; }
+  p code, li code { background:var(--paper-deep); padding:1px 5px; font-size:15px; }
+  ol li, ul li { margin-bottom:10px; }
+  h3 { color:var(--maroon); margin:26px 0 8px; font-size:22px; }
+  footer { border-top:4px double var(--gold-soft); margin-top:40px; padding:18px 0 30px; font-size:14px; color:var(--grey); }
+</style>
+</head>
+<body>
+<header class="masthead">
+  <div class="deepam">🪔 தீபாவளி மலர்</div>
+  <h1>Verify It Yourself</h1>
+  <div class="sub">நீங்களே சரிபாருங்கள் — every number here is re-derivable</div>
+  <div class="edition">Two minutes for one book · one evening for all 542</div>
+</header>
+<nav>
+  <a href="index.html">The Report</a>
+  <a href="ledger.html">The Ledger — 542 records</a>
+  <a href="verify.html">Verify It Yourself</a>
+  <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit">Open Data (GitHub)</a>
+</nav>
+
+<div class="wrap">
+<p class="kicker">சரிபார்ப்பு · The Method</p>
+<h2 class="dek">Nothing in this audit needs trust in us. The catalog is public, the registry is public, and every claim carries its source. Here is how to check — one book by hand, or the whole screen with our scripts.</h2>
+
+<h3>1 · Check one book by hand (two minutes)</h3>
+<ol class="prose">
+  <li>Pick any row in <a href="ledger.html">the Ledger</a>. Note the ISBN and the catalog title.</li>
+  <li>Open <a href="https://isbn.gov.in/Home/IsbnSearch" target="_blank" rel="noopener">isbn.gov.in → IsbnSearch</a>, choose search type <b>ISBN</b>, paste the number (with hyphens). The registry returns the <em>true</em> owner: title, author, publisher, language, registration date. The registry serves Indian IPs; from abroad, expect it to stall — it does that to everyone.</li>
+  <li>Compare. If the registry names a different book, that ISBN is <b>allocated-elsewhere</b> — the catalog copy is riding a stolen or fabricated number. If the registry returns nothing, the number was <b>never registered</b>.</li>
+  <li>Cross-check the title on <a href="https://openlibrary.org" target="_blank" rel="noopener">OpenLibrary</a>, <a href="https://worldcat.org" target="_blank" rel="noopener">WorldCat</a>, and plain web search (put the bare ISBN in quotes). A book with a genuinely registered ISBN leaves some trace. Most of our hijacked titles leave none.</li>
+  <li>See the library's own copy: ACL Chennai OPAC and KCL Madurai OPAC (links in the Ledger's footer of each row's biblio). If an OPAC is down — ACL's has been, repeatedly — the hash-chained HTML snapshot in <code>docs/evidence/</code> preserves what we saw, byte for byte.</li>
+</ol>
+
+<h3>2 · Re-run the whole screen (one evening)</h3>
+<p class="prose">The repo bundles every script we used. From a fresh clone:</p>
+<pre><code>git clone https://github.com/LogicIncZo/tn-fake-isbn-audit
+cd tn-fake-isbn-audit
+
+# integrity check — every dataset matches its published hash
+sha256sum -c evidence/SHA256SUMS
+
+# the live registry check for any ISBN list (one req / ~1.2 s — be polite;
+# isbn.gov.in serves Indian IPs, from abroad expect stalls)
+python3 scripts/verify_full_registry.py
+
+# rebuild the report page's stats from the raw ledgers
+python3 scripts/build_site.py
+git diff --stat docs/index.html   # numbers should not move</code></pre>
+
+<p class="prose">To re-harvest the catalogs yourself (they are public OPACs; we used one request per record, 1.5 s apart):</p>
+<pre><code># ACL Chennai — 5,108 biblio records via the OPAC search index
+python3 scripts/harvest_acl.py          # list pages, then stem sweep + detail pages
+python3 scripts/stem_sweep.py acl       # pull every catalogued ISBN under each fake-pub stem
+
+# KCL Madurai — 352 Phoenix-collection records
+python3 scripts/harvest_kcl.py && python3 scripts/extract_kcl.py
+
+# registry lookup + classification (check-digit, owner, registrant concentration, waves)
+python3 scripts/verify_full_registry.py
+python3 scripts/fix_acl_titles.py       # restores true titles from registry rows</code></pre>
+
+<h3>3 · What each verdict means, precisely</h3>
+<ul class="prose">
+  <li><b>HIJACKED-ALLOCATED-ELSEWHERE</b> — the ISBN is valid (checksum passes) and the registry has allocated it to a named work by a named registrant that is not what the catalog says. Example: ACL copy <i>"Beyond Borders"</i> shelved as Phoenix, ISBN 978-93-92360-12-1; registry says the number belongs to <i>Banjar Ke Rookh — Vivek Malviya</i> (Hindi, registered 22/12/2021).</li>
+  <li><b>NOT-IN-REGISTRY</b> — checksum passes but no allocation exists. Numbers minted to look real.</li>
+  <li><b>NO-ISBN-IN-CATALOG</b> — the record carries no ISBN to check. Counted, not judged. Every screened record falls in one of these three classes; rows where the registry confirms the catalog copy are excluded from the screen entirely and are not part of the 542.</li>
+</ul>
+
+<h3>4 · The evidence chain</h3>
+<ul class="prose">
+  <li><code>docs/evidence/</code> — archived OPAC pages (ACL + KCL) with <code>SHA256SUMS</code> over every byte; the DVAC complaint scan (3 pages); archive.org captures of the Phoenix website.</li>
+  <li><code>data/claims-register.csv</code> — the 29 claims in the report, each with its L0–L5 evidence rung.</li>
+  <li><code>report/PROVENANCE.md</code> — chain of custody: what was fetched, when, from where, and what the scripts cannot prove (procurement bills, physical shelf counts — those are for DVAC, which holds the complaint).</li>
+  <li><code>evidence/SHA256SUMS</code> — recompute anytime: <code>sha256sum -c evidence/SHA256SUMS</code> from the repo root.</li>
+</ul>
+
+<h3>5 · Honest limits</h3>
+<ul class="prose">
+  <li>The registry check is a snapshot. Allocations can be amended; if a registrant transfers an ISBN after our check, the live registry may differ. The snapshot date is on every row.</li>
+  <li>"Registry matches" can still hide problems we did not test (print quality, physical existence on the shelf).</li>
+  <li>Price columns are the number printed on the catalog record, not audited spend. Total visible spend ₹1,22,018 is an upper-bound on what the records <em>claim</em> — bills live in government files.</li>
+  <li>ACL's OPAC was intermittently unreachable during our harvest; the 188-record gap analysis and the login-wall limitation are documented in PROVENANCE.md, not smoothed over.</li>
+</ul>
+
+<footer>
+  <p>If your verification disagrees with ours, that is a finding, not a failure — <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit/issues">open an issue</a> with the ISBN and what you saw. Corrections land in the repo with a dated re-test.</p>
+  <p>Aram · open-data desk. DVAC complaint filed 07-Nov-2026. <a href="data/claims-register.csv">claims-register.csv</a> · <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit">github.com/LogicIncZo/tn-fake-isbn-audit</a></p>
+</footer>
+</div>
+</body>
+</html>

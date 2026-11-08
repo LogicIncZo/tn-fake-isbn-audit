@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cashlessconsumer.github.io/tn-fake-isbn-audit/sitemap.xml

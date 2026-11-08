@@ -7,7 +7,8 @@ Department. What began as a DVAC complaint about ~₹35 lakh of suspicious purch
 in 2023 is here expanded by full digital audit of both OPACs against the live
 isbn.gov.in registry.
 
-**Live verification page:** https://cashlessconsumer.zo.space/aram/fakeisbn/ledger
+**The malar (GitHub Pages):** https://cashlessconsumer.github.io/tn-fake-isbn-audit/
+**Mirror ledger:** https://cashlessconsumer.zo.space/aram/fakeisbn/ledger
 **Raw evidence archive:** https://zo.pub/cashlessconsumer/tn-fake-isbn-evidence
 
 ## Headline numbers (all traceable to files below)
