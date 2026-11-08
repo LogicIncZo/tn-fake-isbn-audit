@@ -1,11 +1,24 @@
 {
- "total_records": 3,
- "distinct_isbns": 2,
- "suspect_rows": 6,
- "by_rule": {
-  "R3-fakepub": 2,
-  "R4-western2023": 2,
-  "R1-checkdigit": 2
+ "audit_scope": "ACL Chennai + KCL Madurai full Phoenix catalog screens (542 biblio records)",
+ "records": {
+  "ACL Chennai": 188,
+  "KCL Madurai": 354
  },
- "bulk_stems_ge5": 0
+ "verdicts": {
+  "HIJACKED-ALLOCATED-ELSEWHERE": 363,
+  "NOT-IN-REGISTRY": 70,
+  "NO-ISBN-IN-CATALOG": 109
+ },
+ "verdicts_by_library": {
+  "ACL Chennai": {
+   "HIJACKED-ALLOCATED-ELSEWHERE": 145,
+   "NOT-IN-REGISTRY": 43
+  },
+  "KCL Madurai": {
+   "NOT-IN-REGISTRY": 27,
+   "HIJACKED-ALLOCATED-ELSEWHERE": 218,
+   "NO-ISBN-IN-CATALOG": 109
+  }
+ },
+ "method": "stem sweep (fake-publisher ISBN stems) -> full biblio detail fetch -> isbn.gov.in registry lookup; every ISBN checked, verdicts in final-classification.csv"
 }
