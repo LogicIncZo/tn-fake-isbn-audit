@@ -267,10 +267,9 @@ HTML = f"""<!doctype html>
 </html>
 """
 
-out = HTML.replace("{CLAIMS_HTML}", CLAIMS_HTML) if "{CLAIMS_HTML}" in HTML else HTML.replace("<div class=\"claims\" id=\"claims\">\n", "<div class=\"claims\" id=\"claims\">\n" + CLAIMS_HTML)
+out = HTML
 # the f-string already substituted {CLAIMS_HTML}; only fix the leftover if substitution produced literal
-if "{CLAIMS_HTML}" in out:
-    out = out.replace("{CLAIMS_HTML}", CLAIMS_HTML)
+out = out.replace("{CLAIMS_HTML}", CLAIMS_HTML)
 
 import hashlib
 cssv = hashlib.sha256(open(os.path.join(ROOT,"docs","style.css"),"rb").read()).hexdigest()[:8]
