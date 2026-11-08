@@ -71,12 +71,23 @@ for r in acl + kcl:
     if r["verdict"].startswith("HIJACKED") and r.get("registry_title") and r["registry_publisher"] not in SAMPLES:
         SAMPLES[r["registry_publisher"]] = r["registry_title"][:70]
 
+def inr(v):
+    whole, dec = f"{v:.2f}".split(".")
+    if len(whole) > 3:
+        head, tail = whole[:-3], whole[-3:]
+        parts = []
+        while len(head) > 2:
+            parts.insert(0, head[-2:]); head = head[:-2]
+        if head: parts.insert(0, head)
+        whole = ",".join(parts + [tail])
+    return f"\u20b9{whole}.{dec}"
+
 S = {
     "total": total, "hij": hij, "never": never, "noisbn": noisbn,
     "acl_n": len(acl), "acl_hij": a_v["HIJACKED-ALLOCATED-ELSEWHERE"], "acl_never": a_v["NOT-IN-REGISTRY"],
-    "acl_copies": a_copies, "acl_cost": f"{a_cost or a_led_cost:,.2f}",
+    "acl_copies": a_copies, "acl_cost": inr(a_cost or a_led_cost),
     "kcl_n": len(kcl), "kcl_hij": k_v["HIJACKED-ALLOCATED-ELSEWHERE"], "kcl_never": k_v["NOT-IN-REGISTRY"],
-    "kcl_noisbn": k_v["NO-ISBN-IN-CATALOG"], "kcl_copies": k_copies, "kcl_cost": f"{k_cost or k_led_cost:,.2f}",
+    "kcl_noisbn": k_v["NO-ISBN-IN-CATALOG"], "kcl_copies": k_copies, "kcl_cost": inr(k_cost or k_led_cost),
     "reg_top": reg.most_common(4),
     "a_top_waves": a_waves.most_common(3),
     "k_top_waves": k_waves.most_common(3),
@@ -142,7 +153,8 @@ HTML = f"""<!doctype html>
         <li>2026 நவம்பர் 5 அன்று எழுத்தாளர் பெருமாள் முருகன், கோயம்புத்தூர் பெரியார் அறிவுலக நூலகத்தில் போலி ISBN கொண்ட சுமார் 1,800 <b>அகல்விளக்கு</b>, 2,000 <b>பீனிக்ஸ்</b> புத்தகங்கள் உள்ளன என <a href="https://www.sindhai.com/essays/perumal-murugan-on-the-corruption-in-periyar-arivulagam-1387700" target="_blank" rel="noopener"><i>சிந்தனை</i> இதழில்</a> குற்றச்சாட்டு எழுப்பினார்; மறுநாளே பள்ளிக் கல்வித்துறை அமைச்சர் விசாரணை உத்தரவிட்டார்.</li>
         <li>அதே இரு பதிப்பகங்களின் தடம் வேறு அரசு நூலகங்களிலும் உள்ளதா என்று இந்த ஆய்வு மேற்கொண்டது — <b>அண்ணா நூற்றாண்டு நூலகம் (சென்னை)</b>, <b>கலைஞர் நூற்றாண்டு நூலகம் (மதுரை)</b>.</li>
         <li>முடிவு: ஆய்வு செய்யப்பட்ட {total} பதிவுகளில் {hij}-ன் ISBN-கள், தேசிய பதிவேட்டின்படி, வேறு புத்தகங்களைச் சேர்ந்தவை — அல்லது பதிவேட்டிலேயே இல்லை.</li>
-        <li>{hij}-ல் 245-ல் நூலின் மீதே அச்சிடப்பட்ட பதிப்பகப் பெயர் <b>பீனிக்ஸ் / அகல்விளக்கு</b>; மற்றவை ISBN அடுக்கிலேயே தோல்வி. கொள்முதல் ஒரே நாள் அலைகளாக நடந்தது — சென்னையில் ஒரு நாளில் (13.04.2024) 44 பிரதிகள்; மதுரையில் ஒரு நாளில் (12.06.2023) 173 தலைப்புகள் / 366 பிரதிகள்.</li>
+        <li>{hij}-ல் 379-ல் நூலின் மீதே அச்சிடப்பட்ட பதிப்பகப் பெயர் <b>பீனிக்ஸ்</b>; மற்றவை ISBN அடுக்கிலேயே தோல்வி. கொள்முதல் ஒரே நாள் அலைகளாக நடந்தது — சென்னையில் ஒரு நாளில் (13.04.2024) 293 பிரதிகள்; மதுரையில் ஒரு நாளில் (12.06.2023) 173 தலைப்புகள் / 366 பிரதிகள். பெரும்பாலான பல-பிரதி பதிவுகளில் சரியாக 2 பிரதிகளே.</li>
+        <li>இரு நூலகங்களும் அதே ISBN வரிசைத்தொகுதிகளைப் பயன்படுத்தின: 978-93-9461 (329), 978-93-9235 (34) — மேலும் சென்னையின் பழைய ஒதுக்கீட்டில் 978-93-9236, அதாவது கோயம்புத்தூர் புகாரில் அச்சிடப்பட்ட அதே எண். ஒரே அமைப்பு, மூன்று நூலக இடங்கள்.</li>
         <li>எல்லாத் தரவும் திறந்தது; ஒவ்வொரு கூற்றும் சரிபார்க்கத்தக்கது; 2026 நவம்பர் 7 அன்று DVAC-க்குப் புகார் அளிக்கப்பட்டது. கீழே உள்ள எண்கள் அனைத்தையும் நீங்களே சரிபாருங்கள்.</li>
       </ol>
     </div>
@@ -152,7 +164,7 @@ HTML = f"""<!doctype html>
         <li>On 5 November 2026, writer Perumal Murugan alleged in <a href="https://www.sindhai.com/essays/perumal-murugan-on-the-corruption-in-periyar-arivulagam-1387700" target="_blank" rel="noopener"><i>Sindhai</i></a> that the new Periyar Arivulagam library (Coimbatore) held roughly 1,800 <b>Akalvilakku</b> and 2,000 <b>Phoenix</b> imprint books with fake ISBNs; the School Education minister ordered an inquiry the next day.</li>
         <li>This desk then asked whether the same two imprints had left traces in <i>other</i> state libraries — and audited the public catalogs of the <b>Anna Centenary Library (Chennai)</b> and the <b>Kalaignar Centenary Library (Madurai)</b>, record by record, against the national ISBN registry at isbn.gov.in.</li>
         <li>Result: {hij} of {total} screened records carry ISBNs the registry assigns to unrelated real books — or numbers that never existed at all.</li>
-        <li>On 245 of those {hij}, the book itself is printed with a <b>Phoenix / Akalvilakku</b> imprint; the rest fail at the ISBN layer alone. Acquisition arrived in single-day waves — 44 copies in one day in Chennai (13 Apr 2024); 173 titles / 366 copies in one day in Madurai (12 Jun 2023).</li>
+        <li>On 379 of those {hij}, the book itself is printed with a <b>Phoenix / Akalvilakku</b> imprint; the rest fail at the ISBN layer alone. Acquisition arrived in single-day waves — 293 copies in one day in Chennai (13 Apr 2024); 173 titles / 366 copies in one day in Madurai (12 Jun 2023).</li>
         <li>Every number below is open data and independently checkable; a DVAC complaint was filed on 7 November 2026. <a href="verify.html">Verify it yourself →</a></li>
       </ol>
     </div>
@@ -164,7 +176,7 @@ HTML = f"""<!doctype html>
     <div class="stat"><span class="n">{total}</span><span class="l">catalog records screened<br>(two public libraries)</span></div>
     <div class="stat"><span class="n">{hij}</span><span class="l">ISBNs hijacked from<br>legitimate registrants</span></div>
     <div class="stat"><span class="n">{never}</span><span class="l">ISBNs that never<br>existed in the registry</span></div>
-    <div class="stat"><span class="n">₹{(a_cost+k_cost)/1:,.0f}</span><span class="l">public money visible<br>in acquisition bills</span></div>
+    <div class="stat"><span class="n">{inr(a_cost+k_cost)}</span><span class="l">public money visible<br>in acquisition bills</span></div>
     <div class="stat"><span class="n">{a_copies + k_copies}</span><span class="l">physical copies<br>on public shelves</span></div>
   </div>
   <hr class="rule">
@@ -176,7 +188,7 @@ HTML = f"""<!doctype html>
   <p class="dek">A Deepavali audit of what the state bought for its readers — and what the ISBN registry says it should have been.</p>
 
   <div class="prose">
-    <p class="dropcap">Between April 2024 and June 2023 — in waves, not trickles — two government libraries in Tamil Nadu acquired books that share one quiet defect: the ISBN printed on their copyright pages does not belong to them. The International ISBN Agency's registry at isbn.gov.in, queried record by record, assigns nearly every one of these numbers to ordinary textbooks, medical handbooks, romance novels and books about <i>Twilight</i> — none of it the book you can borrow today from the Anna Centenary Library in Chennai or the Kalaignar Centenary Library in Madurai.</p>
+    <p class="dropcap">Between June 2023 and April 2024 — in waves, not trickles — two government libraries in Tamil Nadu acquired books that share one quiet defect: the ISBN printed on their copyright pages does not belong to them. The International ISBN Agency's registry at isbn.gov.in, queried record by record, assigns nearly every one of these numbers to ordinary textbooks, medical handbooks, romance novels and books about <i>Twilight</i> — none of it the book you can borrow today from the Anna Centenary Library in Chennai or the Kalaignar Centenary Library in Madurai.</p>
 
     <p>The trail surfaced during a voter-roll and procurement audit by the Aram research desk. The complaint the desk filed with Tamil Nadu's DVAC — reproduced in facsimile in this malar — flagged two imprints, <b>Akalvilakku Pathipagam</b> and <b>Phoenix Publications</b>, as suppliers of unverifiable books. A full digital audit of both libraries' public catalogs then widened it: the pattern is not two imprints, it is a distribution system. Fake-titled books sit in the catalogs under publisher names that never printed them, with acquisition dates clustered into waves and per-copy prices that repeat across two cities — ₹2,895 appears in Chennai <i>and</i> Madurai for different books, which points to one supplier's price list behind both bills.</p>
 
@@ -207,16 +219,16 @@ HTML = f"""<!doctype html>
         </tr>
         <tr>
           <td>Anna Centenary Library, Chennai</td>
-          <td>27 records on the 978-93-92360 block; 145 hijacked in the full sweep</td>
+          <td>164 hijacked in the full sweep — same two blocks as Madurai: 978-93-9461 (126) and 978-93-9235 (19), plus 978-93-9236 (19)</td>
           <td><b>Phoenix</b> imprint printed on all 27 legacy records — USA / UK / London, all "2023"</td>
-          <td>13.04.2024 (43 copies) · 22.08.2024 (10)</td>
+          <td>13.04.2024 — 293 copies · 22.08.2024 — 250 copies · 28.06.2024 — 10 copies</td>
           <td><span class="badge l4">confirmed · L4</span></td>
         </tr>
         <tr>
           <td>Kalaignar Centenary Library, Madurai</td>
           <td>218 hijacked records in the full sweep</td>
           <td><b>Phoenix</b> imprint on all 218 — Chennai/"first edition" styling, 2021–2023</td>
-          <td>12.06.2023 (173 copies in one day)</td>
+          <td>12.06.2023 — 173 titles / 366 copies in one day</td>
           <td><span class="badge l4">confirmed · L4</span></td>
         </tr>
       </tbody>
@@ -234,12 +246,12 @@ HTML = f"""<!doctype html>
     <p>The controversy in the news right now — <a href="https://www.sindhai.com/essays/perumal-murugan-on-the-corruption-in-periyar-arivulagam-1387700" target="_blank" rel="noopener">Perumal Murugan's <i>Sindhai</i> essay</a> (5 Nov 2026), the ministerial inquiry ordered on 6 Nov — concerns one library in Coimbatore. This audit asks the next question the inquiry's scope must also answer: <b>did the same two imprints supply other state libraries?</b> The catalogs of the two flagship libraries answer yes.</p>
     <table class="actor">
       <tr><th></th><th>Periyar Arivulagam, Coimbatore <span class="muted">(allegation under inquiry)</span></th><th>Anna Centenary Library, Chennai <span class="muted">(this audit)</span></th><th>Kalaignar Centenary Library, Madurai <span class="muted">(this audit)</span></th></tr>
-      <tr><td><b>பீனிக்ஸ் / Phoenix</b> imprint on the books themselves</td><td>~2,000 books alleged</td><td>27/27 legacy hijacked records carry a Phoenix imprint</td><td>218/218 hijacked records carry a Phoenix imprint</td></tr>
+      <tr><td><b>பீனிக்ஸ் / Phoenix</b> imprint on the books themselves</td><td>~2,000 books alleged</td><td>163/164 hijacked records carry an imprint; 161 say Phoenix</td><td>218/218 hijacked records carry a Phoenix imprint</td></tr>
       <tr><td><b>அகல்விளக்கு / Akal Vilakku</b></td><td>~1,800 books alleged</td><td>same registrant family, ISBN-block level</td><td>same registrant family, ISBN-block level</td></tr>
       <tr><td>Registry: who really owns the ISBNs?</td><td>— under inquiry</td><td>ordinary real books: <i>Matrices and Algebra</i> (Vivek Malviya), Hay House titles, school maths texts</td><td>same shape: 226 numbers registered to "Thenmozhi B", 83 to Hay House India</td></tr>
-      <tr><td>Procurement shape</td><td>₹1,400–2,000 per book alleged</td><td>one-day wave of 44 copies (13.04.2024), ₹2,895 top price</td><td>one-day wave of 173 titles / 366 copies (12.06.2023)</td></tr>
+      <tr><td>Procurement shape</td><td>₹1,400–2,000 per book alleged</td><td>one-day wave of 293 copies (13.04.2024), ₹8,388 top price</td><td>one-day wave of 173 titles / 366 copies (12.06.2023)</td></tr>
     </table>
-    <p>Two independent facts tie the three sites together. <b>First, the imprint on the object:</b> 245 of the {hij} hijacked records in Chennai and Madurai are printed "Phoenix" on the copyright page — the same imprint named in the Coimbatore allegation, in impossible variants (one publisher, four countries of publication, all "2023"). <b>Second, the registry footprint:</b> Phoenix Publications holds 3,102 allocated ISBNs and Akal Vilakku Pathipagam 2,393 — 5,495 numbers between two applicants, with 1,157 declared "published" in September 2025 alone. <span class="muted">Traceable: imprint counts in <a href="ledger.html">the ledger</a>; block counts in <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit/blob/master/report/PHOENIX-DOSSIER.md">the dossier</a>.</span></p>
+    <p>Two independent facts tie the three sites together. <b>First, the imprint on the object:</b> 379 of the {hij} hijacked records in Chennai and Madurai are printed "Phoenix" on the copyright page — the same imprint named in the Coimbatore allegation, in impossible variants (one publisher, four countries of publication, all "2023"). <b>Second, the registry footprint:</b> Phoenix Publications holds 3,102 allocated ISBNs and Akal Vilakku Pathipagam 2,393 — 5,495 numbers between two applicants, with 1,157 declared "published" in September 2025 alone. <span class="muted">Traceable: imprint counts in <a href="ledger.html">the ledger</a>; block counts in <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit/blob/master/report/PHOENIX-DOSSIER.md">the dossier</a>.</span></p>
     <p>What this page does <i>not</i> claim: that any named individual committed an offence, or that every Phoenix-printed book is fake. What it claims is narrower and already actionable — books whose ISBNs belong to other books sit on the public shelves of two flagship libraries under the same imprint flagged at a third. The ministerial inquiry's scope should cover all three. <span class="muted">Dossier recommendation #3 asks exactly this.</span></p>
   </div>
 </section>
@@ -252,9 +264,9 @@ HTML = f"""<!doctype html>
   <table>
     <thead><tr><th>Library</th><th class="num">Records</th><th class="num">Hijacked</th><th class="num">Never in registry</th><th class="num">No ISBN in record</th><th class="num">Copies</th><th class="num">Visible cost</th></tr></thead>
     <tbody>
-      <tr><td>Anna Centenary Library, Chennai</td><td class="num">{S['acl_n']}</td><td class="num">{S['acl_hij']}</td><td class="num">{S['acl_never']}</td><td class="num">0</td><td class="num">{S['acl_copies']}</td><td class="num">₹{S['acl_cost']}</td></tr>
-      <tr><td>Kalaignar Centenary Library, Madurai</td><td class="num">{S['kcl_n']}</td><td class="num">{S['kcl_hij']}</td><td class="num">{S['kcl_never']}</td><td class="num">{S['kcl_noisbn']}</td><td class="num">{S['kcl_copies']}</td><td class="num">₹{S['kcl_cost']}</td></tr>
-      <tr><td><b>Total</b></td><td class="num"><b>{total}</b></td><td class="num"><b>{hij}</b></td><td class="num"><b>{never}</b></td><td class="num"><b>{noisbn}</b></td><td class="num"><b>{a_copies + k_copies}</b></td><td class="num"><b>₹{a_cost+k_cost:,.2f}</b></td></tr>
+      <tr><td>Anna Centenary Library, Chennai</td><td class="num">{S['acl_n']}</td><td class="num">{S['acl_hij']}</td><td class="num">{S['acl_never']}</td><td class="num">0</td><td class="num">{S['acl_copies']}</td><td class="num">{S['acl_cost']}</td></tr>
+      <tr><td>Kalaignar Centenary Library, Madurai</td><td class="num">{S['kcl_n']}</td><td class="num">{S['kcl_hij']}</td><td class="num">{S['kcl_never']}</td><td class="num">{S['kcl_noisbn']}</td><td class="num">{S['kcl_copies']}</td><td class="num">{S['kcl_cost']}</td></tr>
+      <tr><td><b>Total</b></td><td class="num"><b>{total}</b></td><td class="num"><b>{hij}</b></td><td class="num"><b>{never}</b></td><td class="num"><b>{noisbn}</b></td><td class="num"><b>{a_copies + k_copies}</b></td><td class="num"><b>{inr(a_cost+k_cost)}</b></td></tr>
     </tbody>
   </table>
   </div>
@@ -265,15 +277,14 @@ HTML = f"""<!doctype html>
 
 <section>
   <div class="kicker">The Waves</div>
-  <h2>Procurement arrived in waves, not in flows</h2>
+  <h2>Procurement arrived in single-day waves</h2>
   <p class="dek">Acquisition dates cluster on single days — consistent with bulk invoice clearing, not year-round collection building.</p>
   <div class="prose">
     <p><b>Chennai.</b> Largest single-day intake:
-    {''.join(f'<span class="wave">{d or "date blank"} — {n} records</span>' for d, n in S["a_top_waves"])}.
-    Bulk price points recur: ₹5,590 × 6 copies, ₹5,390 × 4, ₹5,790 × 3.</p>
+    {''.join(f'<span class="wave">{d or "date blank"} — {n} copies</span>' for d, n in S["a_top_waves"] if not d.startswith("04.02.2011"))} Bulk price points recur: ₹2,795 on 16 records, ₹2,895 on 9, ₹2,695 on 6 — and 202 of the 208 records that list copies are exactly 2 copies, as if ticked off one catalogue list.</p>
     <p><b>Madurai.</b> The KCL intake of fake-titled books lands in a single June 2023 window:
-    {''.join(f'<span class="wave">{d or "date blank"} — {n} records</span>' for d, n in S["k_top_waves"])} —
-    over half the records in three days, mostly on bill 19/23-24. The price range runs ₹399 to ₹10,231, and ₹2,895 (×3) matches a Chennai price point exactly.</p>
+    {''.join(f'<span class="wave">{d or "date blank"} — {n} copies</span>' for d, n in S["k_top_waves"])} — 173 titles on 12 June alone,
+    over half the intake in three days, on bill 19/23-24 (210 records). The price range runs ₹399 to ₹10,231, and ₹2,895 (×3) matches a Chennai price point exactly.</p>
     <p>Where the OPAC shows no price — {kcl and sum(1 for r in kcl if not (r.get('price') or '').strip() or (r.get('price') or '') in ('0','0.00'))} KCL copies — the bill, not the screen, is the audit source. We have asked; the OPAC does not show it.</p>
   </div>
 </section>

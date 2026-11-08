@@ -51,10 +51,10 @@ chain: what was collected, from where, when, by which script.
 ## Classification
 
 - `scripts/analyze_catalog.py` + classification pass → `data/final-classification.csv`
-  (542 rows). Verdicts: `HIJACKED-ALLOCATED-ELSEWHERE` (ISBN valid + check-digit
+  (569 rows). Verdicts: `HIJACKED-ALLOCATED-ELSEWHERE` (ISBN valid + check-digit
   OK + registered to an unrelated publisher/author), `NOT-IN-REGISTRY`
   (ISBN was never allocated), `NO-ISBN-IN-CATALOG`.
-- Registrant distribution among the 363 hijacked rows: Thenmozhi B (226),
+- Registrant distribution among the 382 hijacked rows: Thenmozhi B (226),
   Hay House Publishers India (83), Ashok Chopra (20), Vidya Publications (19),
   Mohan R (15).
 
@@ -84,7 +84,7 @@ zo.pub archive manifest). Verify with `sha256sum -c evidence/SHA256SUMS`.
 
 1. ACL catalog titles for the 188 sweep-window records (login wall) — refetch
    queued; verdicts unaffected.
-2. Per-copy cost beyond ACL's visible ₹89,870 — requires DVAC-held purchase
+2. Per-copy cost beyond the visible ₹1,83,823.22 — requires DVAC-held purchase
    bills; we publish no number we cannot show.
 3. KCL OPAC exposes no price field at all.
 

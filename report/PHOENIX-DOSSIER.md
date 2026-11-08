@@ -157,13 +157,13 @@ Scale-up from the 27-record sample: every ISBN-bearing record in both government
 
 | Library | Records screened | Hijacked (allocated elsewhere) | NOT-IN-REGISTRY (counterfeit) | NO-ISBN in catalog |
 | --- | --- | --- | --- | --- |
-| Anna Centenary Library, Chennai | 188 | 145 | 43 | 0 |
+| Anna Centenary Library, Chennai | 215 | 164 | 51 | 0 |
 | Kalaignar Centenary Library, Madurai | 354 | 218 | 27 | 109 |
-| **Total** | **542** | **363** | **70** | **109** |
+| **Total** | **569** | **382** | **78** | **109** |
 
-- Hijack registrants behind the 363: Thenmozhi B (226), Hay House India (83), Ashok Chopra (20), Vidya Publications (19), Mohan R (15), rest smaller.
-- ACL's 43 NOT-IN-REGISTRY records all sit on stem **978-93-9235-9** — adjacent to Phoenix's 978-93-9236-0 block, entirely unallocated in the registry: pure counterfeit ISBNs, not hijacks.
+- Hijack registrants behind the 382: Thenmozhi B (226), Hay House India (83), Ashok Chopra (20), Vidya Publications (19), Mohan R (15), rest smaller.
+- 78 NOT-IN-REGISTRY records (51 ACL + 18 KCL) cluster on unallocated stems **978-93-9235-9 / 978-93-9236-0..3**, adjacent to Phoenix's allocated 978-93-9236-0 block — pure counterfeit ISBNs, not hijacks. A further 9 KCL records carry fabricated foreign-prefix stems (978-1-78882, 978-969-461 and similar) that were never valid registration groups.
 - KCL's Thenmozhi-B block (978-93-9461-2) supplied 226 hijacked records — mathematics/science books carrying the real titles of a genuine Chennai mathematics publisher.
 - Catalogs enumerated via OPAC search paging (ACL OAI endpoint disabled / returns 502; KCL blocked queries beyond 500 results). Every biblio record fetched individually and hashed; classification reproduced programmatically against `full-registry-lookup.jsonl` with 0 mismatches.
-- Datasets: `Aram/investigations/2026-11-07-acl-full-catalog-audit/data/fakeisbn-verification.json` (542 rows) + CSV; live at https://cashlessconsumer.zo.space/aram/fakeisbn/ledger with per-row isbn.gov.in verification links.
+- Datasets: `Aram/investigations/2026-11-07-acl-full-catalog-audit/data/fakeisbn-verification.json` (569 rows) + CSV; live at https://cashlessconsumer.zo.space/aram/fakeisbn/ledger with per-row isbn.gov.in verification links.
 - Caveat: ACL record count (188) is ISBN-bearing biblio records reachable via OPAC search; ACL OAI-PMH remains unavailable so a full-catalog cross-check via OAI is still pending if the endpoint returns.

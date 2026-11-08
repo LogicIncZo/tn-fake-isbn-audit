@@ -15,23 +15,22 @@ isbn.gov.in registry.
 
 | Figure | Value | Source file |
 | --- | --- | --- |
-| Catalog records screened | 542 | `data/final-classification.csv` |
-| — ACL Chennai (full sweep + legacy 27) | 188 | `data/final-classification.csv` |
+| Catalog records screened | 569 | `data/final-classification.csv` |
+| — ACL Chennai (full sweep + legacy 27) | 215 | `data/final-classification.csv` |
 | — KCL Madurai (full sweep) | 354 | `data/final-classification.csv` |
-| Records carrying an ISBN hijacked to another registrant | 363 | `data/final-classification.csv` (145 ACL + 218 KCL) |
-| ISBNs never allocated at all | 43 ACL / 27 KCL | same |
+| Records carrying an ISBN hijacked to another registrant | 382 | `data/final-classification.csv` (164 ACL + 218 KCL) |
+| ISBNs never allocated at all | 78 (51 ACL + 27 KCL) | same |
 | Records with no ISBN in catalog | 109 KCL | same |
-| Visible acquisition cost, ACL (priced copies) | ₹89,870 | `data/acl-hijacked-full.csv` |
-| Visible acquisition cost, KCL | ₹0 of 453 copies — no price field in OPAC holdings | `data/kcl-ledger.csv` |
-| Wave dates, ACL | 13.04.2024 (43 copies), 22.08.2024 (10) | same |
-| Wave dates, KCL | 12.06.2023 (173 copies), 13–14.06.2023 (40) | `data/kcl-ledger.csv` |
+| Copies in hijacked records | 872 | `docs/data/fakeisbn-verification.json` |
+| Visible acquisition cost (sum of OPAC-printed prices) | ₹1,83,823.22 (ACL ₹1,51,675.00 + KCL ₹32,148.22) | `docs/data/fakeisbn-verification.json` |
+| Wave dates, ACL | 13.04.2024 (293 copies), 22.08.2024 (250), 28.06.2024 (10) | same |
+| Wave dates, KCL | 12.06.2023 (366 copies), 13–14.06.2023 (75) | `data/kcl-books.jsonl` |
 | Dominant registry registrant of the hijacked ISBNs | "Thenmozhi B" (226 allocations), Hay House India (83) | `data/full-registry-lookup.jsonl` |
 
 Labels: catalog figures = read directly from public OPAC pages (L4: artifact on disk).
 Registry figures = live `isbn.gov.in` queries 07–08 Nov 2026 (L4: raw JSONL on disk).
-"Cost of scam" beyond the visible ₹89,870 cannot be computed from OPAC alone —
-price fields are absent in KCL holdings and sparse in ACL. That figure requires the
-purchase bills: DVAC has them; we do not claim a number we cannot show.
+"Cost of scam" beyond the visible ₹1,83,823.22 cannot be computed from OPAC alone —
+ACL prices are printed on the OPAC for 280 of 419 hijacked copies; KCL prices are absent from its holdings screen but present on the two purchase-bill lines (19/23-24) recorded in the MARC data — that is the ₹32,148.22. The rest sits in bills DVAC holds; we do not claim a number we cannot show.
 
 ## The shape of the finding
 
@@ -94,7 +93,7 @@ Registry: `https://isbn.gov.in/Home/FillSearchText` (POST `searchtype=isbn_numbe
   analysis) — `report/00-analysis.md`
 - 2026-11-07: Phoenix block hijack dossier + full-catalog audit begins —
   `report/PHOENIX-DOSSIER.md`, `data/registry/phoenix-probes.jsonl`
-- 2026-11-07/08: full sweeps of both OPACs, 542 records, registry join —
+- 2026-11-07/08: full sweeps of both OPACs, 569 records, registry join —
   `data/final-classification.csv`, `evidence/SHA256SUMS`
 
 Not affiliated with, endorsed by, or empanelled with any government body. Public

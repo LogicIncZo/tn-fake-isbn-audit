@@ -1,19 +1,19 @@
 {
- "total": 542,
- "hij": 363,
- "never": 70,
+ "total": 569,
+ "hij": 382,
+ "never": 78,
  "noisbn": 109,
- "acl_n": 188,
- "acl_hij": 145,
- "acl_never": 43,
- "acl_copies": 55,
- "acl_cost": "89,870.18",
+ "acl_n": 215,
+ "acl_hij": 164,
+ "acl_never": 51,
+ "acl_copies": 419,
+ "acl_cost": "\u20b91,51,675.00",
  "kcl_n": 354,
  "kcl_hij": 218,
  "kcl_never": 27,
  "kcl_noisbn": 109,
  "kcl_copies": 453,
- "kcl_cost": "32,148.22",
+ "kcl_cost": "\u20b932,148.22",
  "reg_top": [
   [
    "Thenmozhi B",
@@ -35,15 +35,15 @@
  "a_top_waves": [
   [
    "13.04.2024",
-   44
+   293
   ],
   [
    "22.08.2024",
-   13
+   250
   ],
   [
-   "04.02.2011",
-   3
+   "28.06.2024",
+   10
   ]
  ],
  "k_top_waves": [
