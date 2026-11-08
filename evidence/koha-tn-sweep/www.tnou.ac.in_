@@ -1,0 +1,3363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Tamil Nadu Open University</title>
+	<meta name="description" content="Tamil Nadu Open University Chennai">
+	<meta name="keywords" content="Tamil Nadu Open University Chennai">
+	<link rel="shortcut icon" href="favicon.png">
+	<meta name="description" content="" />
+	<meta name="keywords" content="bootstrap, bootstrap4" /><!-- All in One SEO 4.0.16 -->
+	<meta name="description" content="The Tamil Nadu Open University was established by an Act (No.27 of 2002) of the Legislative Assembly of the Government of Tamil Nadu to benefit those who have been deprived of and/or denied the access to higher education especially destitute, physically challenged, working men and women, economically weaker sections of the society, and those who … Continue reading &quot;Home&quot;">
+	<meta name="google-site-verification" content="sxa4T7iwZxiMYQ05dOjoQjU0s8l5eTvXThig33iPS3o">
+	<meta name="msvalidate.01" content="3822B6F1BB1F2CC46A576125D1AE90CA">
+	<link rel="canonical" href="https://tnou.ac.in/">
+	<meta property="og:site_name" content="Tamil Nadu Open University -">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Home - Tamil Nadu Open University">
+	<meta property="og:description" content="The Tamil Nadu Open University was established by an Act (No.27 of 2002) of the Legislative Assembly of the Government of Tamil Nadu to benefit those who have been deprived of and/or denied the access to higher education especially destitute, physically challenged, working men and women, economically weaker sections of the society, and those who … Continue reading &quot;Home&quot;">
+	<meta property="og:url" content="https://tnou.ac.in/">
+	<meta property="article:published_time" content="2020-08-12T05:34:19Z">
+	<meta property="article:modified_time" content="2022-09-24T16:59:21Z">
+	<meta property="twitter:card" content="summary">
+	<meta property="twitter:domain" content="tnou.ac.in">
+	<meta property="twitter:title" content="Home - Tamil Nadu Open University">
+	<meta property="twitter:description" content="The Tamil Nadu Open University was established by an Act (No.27 of 2002) of the Legislative Assembly of the Government of Tamil Nadu to benefit those who have been deprived of and/or denied the access to higher education especially destitute, physically challenged, working men and women, economically weaker sections of the society, and those who … Continue reading &quot;Home&quot;">
+	<script type="application/ld+json" class="aioseo-schema">
+		{
+			"@context": "https:\/\/schema.org",
+			"@graph": [{
+				"@type": "WebSite",
+				"@id": "https:\/\/tnou.ac.in\/#website",
+				"url": "https:\/\/tnou.ac.in\/",
+				"name": "Tamil Nadu Open University",
+				"publisher": {
+					"@id": "https:\/\/tnou.ac.in\/#organization"
+				},
+				"potentialAction": {
+					"@type": "SearchAction",
+					"target": "https:\/\/tnou.ac.in\/?s={search_term_string}",
+					"query-input": "required name=search_term_string"
+				}
+			}, {
+				"@type": "Organization",
+				"@id": "https:\/\/tnou.ac.in\/#organization",
+				"name": "Tamil Nadu Open University",
+				"url": "https:\/\/tnou.ac.in\/"
+			}, {
+				"@type": "BreadcrumbList",
+				"@id": "https:\/\/tnou.ac.in\/#breadcrumblist",
+				"itemListElement": [{
+					"@type": "ListItem",
+					"@id": "https:\/\/tnou.ac.in\/#listItem",
+					"position": "1",
+					"item": {
+						"@id": "https:\/\/tnou.ac.in\/#item",
+						"name": "Home",
+						"description": "The Tamil Nadu Open University was established by an Act (No.27 of 2002) of the Legislative Assembly of the Government of Tamil Nadu to benefit those who have been deprived of and\/or denied the access to higher education especially destitute, physically challenged, working men and women, economically weaker sections of the society, and those who \u2026 Continue reading \"Home\"",
+						"url": "https:\/\/tnou.ac.in\/"
+					}
+				}]
+			}, {
+				"@type": "WebPage",
+				"@id": "https:\/\/tnou.ac.in\/#webpage",
+				"url": "https:\/\/tnou.ac.in\/",
+				"name": "Home - Tamil Nadu Open University",
+				"description": "The Tamil Nadu Open University was established by an Act (No.27 of 2002) of the Legislative Assembly of the Government of Tamil Nadu to benefit those who have been deprived of and\/or denied the access to higher education especially destitute, physically challenged, working men and women, economically weaker sections of the society, and those who \u2026 Continue reading \"Home\"",
+				"inLanguage": "en-US",
+				"isPartOf": {
+					"@id": "https:\/\/tnou.ac.in\/#website"
+				},
+				"breadcrumb": {
+					"@id": "https:\/\/tnou.ac.in\/#breadcrumblist"
+				},
+				"datePublished": "2020-08-12T05:34:19+00:00",
+				"dateModified": "2022-09-24T16:59:21+00:00"
+			}]
+		}
+	</script><!-- All in One SEO -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="owl/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="awesome/css/all.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"> </script>
+	<script type="text/javascript">
+		var searchTerm = getQueryVariable("q"); // creation of searchIndex from earlier example      var results = searchIndex.search(searchTerm);      var resultPages = results.map(function (match) {        return pages[match.ref];      }                                   );      function getQueryVariable(variable) {        var query = window.location.search.substring(1);        var vars = query.split("&");        for (var i = 0; i < vars.length; i++) {          var pair = vars[i].split("=");          if (pair[0] === variable) {            return decodeURIComponent(pair[1].replace(/\+/g, "%20"));          }        }      }      resultsString = "";      resultPages.forEach(function (r) {        resultsString += "<li>";        resultsString +=   "<a class='result' href='" + r.url + "?q=" + searchTerm + "'><h3>" + r.title + "</h3></a>";        resultsString +=   "<div class='snippet'>" + r.content.substring(0, 200) + "</div>";        resultsString += "</li>"      }                         );      document.querySelector("#search-results").innerHTML = resultsString;    
+	</script>
+	<style>
+		.display-7 {
+			font-size: 1.6rem;
+			autocomplete: off;
+		}
+
+		.gsc-control-cse {
+			autocomplete: off;
+			border: 0 !important;
+			padding: 6px 8px 6px 10px !important;
+			margin: 0px;
+			border-radius: 2px;
+			overflow: hidden;
+		}
+
+		form.gsc-search-box,
+		table.gsc-search-box {
+			margin-bottom: 0 !important;
+		}
+
+		.gcse-search-box {
+			border: 0 !important;
+			background: #387deb !important;
+			autocomplete: off;
+		}
+
+		.gcse-search-box-tools .gcse-search-box .gcse-input {
+			padding-right: 0 !important;
+			autocomplete: off;
+		}
+
+		#gs_tti50 {
+			padding: 6px 0 !important;
+		}
+
+		#gsc-i-id1 {
+			color: #000 !important;
+			text-indent: 0 !important;
+			font-size: 14px !important;
+			line-height: 1 !important;
+			background: none !important;
+			autocomplete: off;
+		}
+
+		#gsc-i-id1::-webkit-input-placeholder {
+			color: #000 !important;
+		}
+
+		#gsc-i-id1::-as-input-placeholder {
+			color: #fff;
+		}
+
+		#gsc-i-id1::-moz-placeholder {
+			color: #fff;
+			opacity: 1;
+		}
+
+		#gsc-i-id1::-moz-placeholder {
+			color: #fff;
+			opacity: 1;
+		}
+
+		.gsib_b {
+			display: none !important;
+		}
+
+		.gsc-search-button-v2 {
+			padding: 7.5px !important;
+			margin-left: !important;
+			outline: none !important;
+			border: !important;
+			cursor: pointer;
+			autocomplete: off;
+		}
+
+		.gsc-search-button-v2,
+		gsc-search-button-v2: hover {
+			cursor: pointer;
+		}
+
+		.gsc-search-button-v2,
+		gsc-search-button-v2: hover {
+			background-color: transparent !important;
+			background-image: none !important;
+		}
+
+		.gsc-search-button-v2:focus {
+			outline: none !important;
+			box-shadow: none !important;
+			background-color: transparent !important;
+			background-image: none !important;
+		}
+
+		.gsc-search-button-v2:focus {
+			outline: none !important;
+			box-shadow: none !important;
+			autocomplete: off;
+		}
+
+		/*demo*/
+	</style>
+</head>
+
+<body class="resizable">
+	<div class="container-fluid" style="height:50px; font-family:Arial, Helvetica, sans-serif; font-size:14px;">
+		<div class="row bg-green">
+			<div class="col-lg-7 float-start mt-2"><a href="index.php"><i class="fa fa-fw fa-home" style="color: white; font-size:20px;"></a></i><strong></strong> </div>
+			<div class="col-lg-5">
+				<ul class="list-group list-group-horizontal float-end">
+					<li class="list-group-item"> </li>
+					<li class="list-group-item"> <a class="decrease" href="javascript:void(0);"> <strong>A- </strong> </a> </li>
+					<li class="list-group-item"> <a class="reset" href="javascript:void(0);"><strong>A</strong> </a> </li>
+					<li class="list-group-item"> <a class="increase" href="javascript:void(0);"><strong>A+ </strong> </a> </li>
+					<li class="list-group-item"> <a href="ScreenReader.php" class=""><strong>Screen Reader </strong> </a> </li>
+					<li class="list-group-item"> <a href="#" class="tamil"><strong> தமிழ்</strong> </a> </li>
+					<li class="list-group-item" style="background-color:#FF0000; font-weight:600;"> <a class="R text-white" href="javascript:void(0);">R </a> </li>
+					<li class="list-group-item text-white" style="background-color:green;  font-weight:600;"> <a class="G text-white" href="javascript:void(0);">G </a> </li>
+					<li class="list-group-item text-white" style="background-color:#003270; font-weight:600;"> <a class="B text-white" href="javascript:void(0);">B </a> </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid p-2">
+		<div class="row">
+			<div class="col-lg-10 py-2">
+				<div class="row animate__fadeInDown">
+					<div class="col-lg-6" align="center">
+						<h4 class="theme-text tamil mt-3 display-7"> தமிழ்நாடு திறந்தநிலைப் பல்கலைக்கழகம் </h4>
+						<h6 class="tamil text-primary">எல்லோருக்கும் எப்போதும் கல்வி </h4>
+					</div>
+					<div class="col-lg-1" align="center"> <a href="https://tnou.ac.in/"> <img src="images/logo.png" height="110" width="100" /> </a> </div>
+					<div class="col-lg-5" align="center">
+						<h3 class="theme-text mt-3"> <strong>Tamil Nadu Open University </strong> </h3>
+						<h6 class="tamil text-primary">Education for All and Ever </h5>
+					</div>
+					<div class="col-lg-12" align="center">
+						<p class="text-red" style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-left: 8%;text-shadow: 0 0 3px #eded00, 0 2px 3px #ff0000; font-weight: bold;">NAAC 'A+' Grade with CGPA 3.32 (Cycle - 1)</p><strong>
+							<p class="text-red"> (A State Open University established by the Tamil Nadu Government , Recognised by UGC-DEB, Accorded with 12(B) status by UGC <br /> Member in Asian Association of Open Universities and Association of Commonwealth Universities)
+						</strong> </p>
+						<div style="margin-top: -150px;">
+							<p align="justify"> <img src="images/naacl.png" height="110" width="140" class="img-fluid" align="right" alt="naac_logo" /> </p>
+						</div>
+					</div> <!--      <div class="col-lg-12" align="center">          <p class="text-red"  align="center"><b style="color:black ;text-align:center;background-color:yellow;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NAAC 'A+' Grade with CGPA 3.32 (Cycle - 1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><strong><br> (A  State Open University established by the Tamil Nadu Government ,                        Recognised by UGC-DEB,  Accorded with 12(B) status by UGC <br/>            Member in Asian Association of Open Universities and                         Association of Commonwealth Universities)  </strong>    </p>        </div> -->
+				</div>
+			</div>
+			<div class="col-lg-2"> <!-- <div class="gcse-search" style=""></div> -->
+				<ul class="list-group">
+					<h4 data-mdb-animation-reset="true" data-mdb-animation="slide-out-right" style=" text-shadow: 0 0 3px #eded00, 0 2px 3px #ff0000;"> <a href="https://tnouportal.in/OnlineadmissionHomeAY2026.aspx" target="_blank"> Online Admission </a> </h4> 	
+				<!-- <h4 data-mdb-animation-reset="true" data-mdb-animation="slide-out-right" style=" text-shadow: 0 0 3px #eded00, 0 2px 3px #ff0000;"> <a href="https://tnouportal.in/OnlineAdmissionHomeCY2026.aspx" target="_blank"> Online Admission </a> </h4> -->
+					<!-- <h4 data-mdb-animation-reset="true" data-mdb-animation="slide-out-right" style=" text-shadow: 0 0 3px #eded00, 0 2px 3px #ff0000;"> <a href="https://tnouportal.in/OnlineAdmissionHomeAY2025.aspx" target="_blank"> Online Admission </a> </h4> -->
+					<li class="list-group-item bg-green border"><a href="LearnerCorner.php" class="text-white"><i class="fa-solid fa-umbrella"></i><strong>Learner's Corner</strong></a></li>
+					<li class="list-group-item bg-green border"> <a href="https://tnouportal.in/grievancelogin.aspx" class="text-white" target="_blank"> <i class="fa-solid fa-comments"></i><strong>Grievance </strong></a></li>
+				</ul>
+				<nav class="site-nav">
+					<div class="container">
+						<div class="site-navigation">
+							<ul class="site-menu px-2 header-menu"> <!-- <li class="list-group-item bg-green border"> <a href="WhomContact.php" class=" text-white"><i class="fa-regular fa-handshake pe-1"></i><strong>Help Lines</strong></a> </li><li class="nav-item has-children"> <a href="#" class=" text-primary"> Student Support</a>  <ul class="dropdown"><li class="nav-item"> <a href="WhomContact.php">Whom To Contact</a></li><li class="nav-item"> <a href="Reachus.php">How to Reach</a></li></ul>                  </li>-->
+								<li class="nav-item has-children"> <a href="#" class=" text-primary"> <strong>e-Portal </strong> </a>
+									<ul class="dropdown">
+										<li class="nav-item"> <a href="https://youtu.be/hKDXCl7NzVE" target="_blank">Instruction to how to login into TNOU Student Portal </a> </li>
+										<li class="nav-item"> <a href="Documents/may23/Mobile_App.pdf" target="_blank">Instructions for Installing TNOU Mobile App </a> </li>
+										<li class="nav-item"> <a href="https://tnou.ac.in/wp-content/uploads/2022/12/e-Portal-Login-Instruction.pdf" target="_blank">Instructions for TNOU e-Portal Login Process </a></li>
+										<li class="nav-item"> <a href="https://tnou.ac.in/wp-content/uploads/2022/12/Guidelines-for-Online-Assignment.pdf" target="_blank">Guidelines for Online Assignment </a> </li>
+										<li class="nav-item"> <a href="https://tnouportal.in/" target="_blank">Login </a> </li>
+									</ul>
+								</li> <!--<li class="nav-item" style="font-size: 14px;"><a href="https://tnou.ac.in/Documents/mar23/NAAC.pdf" class=" text-primary"><strong>TNOU – URGENT MESSAGE</strong><img src="img\new.gif"></a></li>-->
+							</ul>
+							</ul>
+							</li>
+							</ul>
+							<script async src="https://cse.google.com/cse.js?cx=46f2a122b134243cf"></script> <!-- Place this tag where you want both of the search box and the search results to render --> <!-- <div class="gcse-search"></div> -->
+						</div>
+					</div>
+				</nav>
+			</div> <!-- <div id="audio">    	<a href="images/audio/AUDIO-2024-02-22-18-07-31.mp3"  target="_blank"><img src="images/microphone.png" height="35px" width="35px" class="img-fluid" class="tamil text-primary" alt="audio"><br>Ashwagandha Radio Broadcast</a>    </div>    <style type="text/css">    	#audio{    		position: absolute;    		left: 1600px;    		bottom: 635px;    		color: #003270;    		font-weight: 600;    	}    	@media only screen and (min-width: 1366px){    		#audio{    		position: absolute;    		left: 1100px;    		bottom: 335px;    		color: #003270;    		font-weight: 600;    	}    	}    </style> -->
+
+
+
+
+<!-- Header Srolling News -->
+
+
+			<div class="col-md-12 border" align="center">
+				<div class="hwrap">
+					<div class="hmove">
+					<div class="hitem"><a href="Documents\2026\KVS\B.Ed. Spl. Ed. Prospectus CY-2027 (1).pdf"><BR> CY 2027  B.Ed. Special Education <Br> Admission Notification and Prospectus <img src="images/new1.gif"></sup></a></div>
+					<div class="hitem"><a href="Documents\2026\KVS\TT\Suppl. Exam.pdf"><BR> TEE AUG 2026 - Supplementary Exam <img src="images/new1.gif"></sup></a></div>
+					<!-- <div class="hitem"><a href="Documents\2026\KVS\induction mail.pdf"><BR> முதலாம் ஆண்டு (AY 2026) கற்போர்களுக்கான <BR> இணையவழி அறிமுக விழா அழைப்பிதழ் <img src="images/new1.gif"></sup></a></div> -->
+					<!-- <div class="hitem"><a href="Documents\2026\KVS\induction mail.pdf"><BR> INVITATION FOR ONLINE INDUCTION PROGRAMME <BR> FOR  THE LEARNERS OF AY - 2026( 1st  YEAR )SESSION  <img src="images/new1.gif"></sup></a></div> -->
+					 <!-- <div class="hitem"><a href=" https://tnouportal.in/ "><BR>The Hall Ticket for TEE Aug 2026 Psychology Practical Exam is published in the portal<img src="images/new1.gif"></sup></a></div>	-->
+					<!-- <div class="hitem"><a ><BR>The Practical Exam for M.Lisc. is scheduled on 07.10.2026 <img src="images/new1.gif"></sup></a></div> -->
+					<!-- <div class="hitem"><a href="Documents\2026\KVS\TT\PRAC\Pschology Practical exam date August 2026 with links for practical classes.docx"><BR>PSYCHOLOGY COUNSELLING CLASS & PRACTICAL EXAM - AUGUST 2026<img src="images/new1.gif"></sup></a></div> -->
+					<!-- <div class="hitem"><a href="https://tnouportal.in/OnlineadmissionHomeAY2026.aspx"><BR> ONLINE ADMISSION AY 2026-27 <BR>Last date for Online Admission is extended upto 13.10.2026<img src="images/new1.gif"></sup></a></div> -->
+					<div class="hitem"><a ><BR> Students are requested to visit the official website https://tnou.ac.in <br>and the e-portal https://tnouportal.in strictly for all admission procedures <br>and other related academic activities.<img src="images/new1.gif"></sup></a></div> 
+					<div class="hitem"><a ><BR>மாணவர்கள் பல்கலைக்கழகத்தின் அதிகாரப்பூர்வ இணையதளமான https://tnou.ac.in மற்றும் மின்-போர்டல் (e-portal) https://tnouportal.in ஆகியவற்றை மட்டுமே பயன்படுத்துமாறு கேட்டுக்கொள்ளப்படுகிறார்கள்<img src="images/new1.gif"></sup></a></div> 
+					<!-- <div class="hitem"><a ><BR>The Hall Ticket for the Practical Examination for <br> Diploma in Nutrition Progamme (DNHE P1) is published in TNOU portal <img src="images/new1.gif"></sup></a></div> -->
+					<div class="hitem"><a href="https://www.tnou.ac.in/practicalschedule.php"><BR>Schedule of Practical Counselling classes and Examinations-August 2026 <img src="images/new1.gif"></sup></a></div>
+					<!-- <div class="hitem"><a ><BR>The students appearing  for TEE AUG 2026 are instructed to submit the Project <br> on or before 23.10.2026. Projects received after 23.10..2026 <br> will not  be considered for TEE AUG 2026<img src="images/new1.gif"></sup></a></div> -->
+					
+					
+						
+					<!-- <div class="hitem"><a href="Documents\DECEMBER 2025\CAS Circular- Notification.pdf"><BR>Conduct of CAS to the Academic Staff - Notification<img src="images/new1.gif"></sup></a></div> -->
+
+					<!-- <div class="hitem"><a href="Documents\DECEMBER 2025\CAS Application.pdf"><BR>CAS Application<img src="images/new1.gif"></sup></a></div> -->
+
+					
+					<div class="hitem"><a href=" https://tnouportal.in/ "><BR>Re registration portal for the 2nd year & 3rd year fees Payment<img src="images/new1.gif"></sup></a></div>	
+
+					<!-- <div class="hitem"><a href="Documents\SEP 2025\TIME TABLE   SEP  2025.docx"><BR>ONLINE COUNSELING  CLASSES - SEPTEMBER 2025 <img src="images/new1.gif"></sup></a></div> -->
+
+					<!-- <div class="hitem"><a href="https://www.youtube.com/live/2G_p_Ewey-4?si=FaRyVXgYuklKrluO"><BR> 16th Annual Convocation - Live <img src="images/new1.gif"></sup></a></div> -->
+
+					<!-- <div class="hitem"><a href="Documents\SEP 2025\Document 308.pdf"><BR> 16th Annual Convocation -Press News<img src="images/new1.gif"></sup></a></div>  -->
+
+					<!-- <div class="hitem"><a href="https://tnouportal.in/convocationregistrationlogin.aspx"><BR>The fees payment link for eligible students for 16th Convocation to be held on 25.9.2025.The last date for fees payment is 24.9.2025<img src="images/new1.gif"></sup></a></div> -->
+
+									
+ 
+					<!-- <div class="hitem"><a href="Documents\AUG 2025\WhatsApp Image 2025-08-07 at 2.48.25 PM.pdf"><BR>STUDENT PLACEMENT CELL WALK IN INTERVIEW ON <br> 09.08.2025 AT COIMBATORE <img src="images/new1.gif"></sup></a></div> -->
+
+					<!-- <div class="hitem"><a href="Documents\AUG 2025\Exams-portal opening note.docx"><BR>TERM END EXAMINATION- AUGUST 2025<BR>NOTIFICATION.<img src="images/new1.gif"></sup></a></div>
+
+					<div class="hitem"><a href="https://tnouportal.in/"><BR>TERM END EXAMINATION- AUGUST 2025<BR>REGISTRATION.<img src="images/new1.gif"></sup></a></div> -->
+
+					<!--<div class="hitem"><a href="http://localhost/website/Timetable.php"><BR>TERM END EXAMINATION- AUGUST 2025
+					<BR> TIME TABLE<img src="images/new1.gif"></sup></a></div>-->
+
+					<!-- <div class="hitem"><a href="https://www.tnou.ac.in/Timetable.php"><BR>TERM END EXAMINATION- AUGUST 2025
+						<BR> TIME TABLE<img src="images/new1.gif"></sup></a></div> -->
+						
+					<!-- <div class="hitem"><a href="Documents/2025/KVS/TimeTable/B.A.,B.Litt.Tamil.docx"><BR>B.A./B.Lit. Tamil Academic Counselling Classes SCHEDULE and Link <img src="images/new1.gif"></sup></a></div> -->
+
+					<!-- <div class="hitem"><a href="Documents/2025/KVS/TimeTable/SOS.docx"><BR>TNOU SCIENCE PRACTICAL COUNSELLING CLASS SCHEDULE JULY 2025 - UG/PG Physics , Chemistry , Botany & Zoology<img src="images/new1.gif"></sup></a></div> -->	
+						
+					<!-- <div class="hitem"><a href=" https://tnouportal.in/OnlineAdmissionHomeAY2025.aspx"><BR> ONLINE ADMISSION AY 2025-2026<img src="images/new1.gif"></sup></a></div> -->
+						 
+					<!-- <div class="hitem"><a href=" https://tnouportal.in/ "><BR>Re registration portal for the year CY-2024, CY-2023 and Old Batch <br> 2nd year & 3rd year fees Payment<img src="images/new1.gif"></sup></a></div> -->
+
+					<!-- <div class="hitem"><a href="Documents\MARCH 2025\SSSD-invitation-2025.pdf"><BR> ONLINE INDUCTION PROGRAMME  FOR  UG and PG PROGRAMME <br> LEARNERS OF CY - 2025 ( 1st  YEAR ) SESSION.<img src="images/new1.gif"></sup></a></div> 
+           
+          			<div class="hitem"><a href="https://meet.google.com/shx-eorp-bxz"><BR> ONLINE INDUCTION PROGRAMME CY 2025 <br> GOOGLE LINK.<img src="images/new1.gif"></sup></a></div>
+
+          			<div class="hitem"><a href="https://youtube.com/@tnouacclass1?si=FvpPubpjJjF5Ovdr "><BR>ONLINE INDUCTION PROGRAMME CY 2025 <br>YOUTUBE LINK.<img src="images/new1.gif"></sup></a></div>-->
+
+					<!-- <div class="hitem"><a href=" https://tnou.ac.in/eslm/"><BR>"Dear TNOU Students,Your E-SLMs (Electronic Self-Learning <BR>Materials) are now available on the TNOU e-portal and official website.<BR>Please visit the platforms to access your study materials."<img src="images/new1.gif"></sup></a></div> -->
+							
+					<!-- <div class="hitem"><a href="Documents/april24/PUBLIC NOTICEUGCODL19.03.2024.pdf" target="_blank"><br>UGC ODL PUBLIC NOTICE</a></div> -->
+
+					<!-- <div class="hitem"><a href="https://tnouportal.in/OnlineAdmissionHomeForSPLEDCY2025.aspx"><br>CY 2025 B.Ed Special Education Entrance Examination <br>Online Application- Last date : 01.12.2024<img src="images/new1.gif"></sup></a></div> -->
+
+					<!-- <div class="hitem"><a href="https://tnouportal.in/" target="_blank">REVALUATION RESULTS - TEE JAN-FEB 2024<img src="images/new1.gif"></sup></a></div> -->
+						
+				</div>
+				<style type="text/css">
+					/* (A) FIXED WRAPPER */
+					.hwrap {
+						overflow: hidden;
+						/* HIDE SCROLL BAR */
+						background: #eee;
+					}
+
+					/* (B) MOVING TICKER WRAPPER */
+					.hmove {
+						display: flex;
+					}
+
+					/* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
+					.hitem {
+						font-size: 18px;
+						flex-shrink: 0;
+						width: 40%;
+						box-sizing: border-box;
+						padding: 1px;
+						text-align: center;
+					}
+
+					/* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
+					/* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
+					@keyframes tickerh {
+						0% {
+							transform: translate3d(40%, 0, 0);
+						}
+
+						100% {
+							transform: translate3d(-300%, 0, 0);
+						}
+					}
+
+					.hmove {
+						animation: tickerh linear 60s infinite;
+					}
+
+					.hmove:hover {
+						animation-play-state: paused;
+					}
+
+					@media only screen and (max-width: 768px) {
+						.hmove {
+							animation-duration: 10s;
+						}
+					}
+				</style> <!--<a href="AdmissionCounselling.php" class="text-green"><img src="img/new-star.gif" height="50" width="60" class="img-fluid">B.Ed. Spl.Ed. 2023 Entrance Examinations Results and Admission Counseling </a>-->
+			
+		<!-- <script>
+
+$(document).ready(function(){
+
+   $("#myModal").modal("show");
+
+});
+
+</script> -->
+
+<!-- The Modal -->
+
+<div class="modal" id="myModal">
+
+ <div class="modal-dialog modal-xl">
+
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+
+      <div class="modal-header">
+
+     <p> Tamil Nadu Open University - 16th Convocation </p>
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+      </div>
+
+      <!-- Modal body -->
+
+      <div class="modal-body"> 
+
+<iframe width="1004" height="565" src="https://www.youtube.com/live/2G_p_Ewey-4?si=FaRyVXgYuklKrluO" title="Tamil Nadu Open University - 16th Convocation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>       </div>
+
+<!-- <iframe width="1004" height="565" src="https://youtu.be/2G_p_Ewey-4" title="Tamil Nadu Open University - 16th Convocation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>       </div> -->
+
+      <!-- Modal footer -->
+
+      <div class="modal-footer">
+
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div> 
+
+<!-- The Modal -->
+
+
+		
+		</div>
+		</div>
+	</div>
+
+
+
+<nav class="site-nav bg-green">
+
+
+
+  <div class="container-fluid">
+
+
+
+    <div class="site-navigation">
+
+
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+
+
+        <div class="container-fluid">
+
+
+
+          <button class="navbar-toggler" style="margin-right:5px !important; background:#FFFFFF;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"> <span class="navbar-toggler-icon"></span> </button>
+
+
+
+          <div class="collapse navbar-collapse top_nav  text-white" id="navbarSupportedContent">
+
+
+
+            <ul class="navbar-nav mx-auto  d-lg-inline-block text-left site-menu">
+
+
+
+              <li class="nav-item active has-children"> <a href="#">About TNOU </a>
+
+
+
+                <ul class="dropdown">
+
+
+
+                  <li class="nav-item"> <a href="about-tnou.php">About the University</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Motto.php">Motto</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Vision.php">Vision & Mission</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Objectives.php">Objectives</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Coat.php">Coat of Arms</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Statutes.php">Act & Statutes</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Recognition.php">Recognition</a></li>
+
+
+
+                  <!--  <li class="nav-item"> <a href="University.php">University Map</a></li> -->
+
+
+                   <li class="nav-item"> <a href="Accreditation.php">Accreditation</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Chair.php">Chairs</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Administrative.php">Organogram</a></li>
+
+                  <li class="nav-item"> <a href="AnnualAccount23-24.php">Annual Accounts</a></li>
+
+                  <li class="nav-item"> <a href="CodeConduct.php">Code of Conduct</a></li>
+                     <li class="nav-item"> <a href="infrastructure.php">Infrastructure and Learning Resources</a></li>
+
+                  <li class="nav-item"> <a href="BestPractices.php">Best Practices</a></li>
+
+                 <li class="nav-item"> <a href="Institutional_Distinctiveness.php">Institutional Distinctiveness</a></li>
+                 <li class="nav-item"> <a href="idp.php">Institutional Development Plan</a></li>
+                 <li class="nav-item"> <a href="extension_activities.php">Extension Activities</a></li>
+                 <li class="nav-item"> <a href="campus_infrastructure.php">Maintenance of Campus Infrastructure</a></li>
+                 <li class="nav-item"> <a href="studentsupport.php">Student Support and Progression</a></li>
+
+
+              </ul>
+
+
+
+              </li>
+
+
+
+              <li class="nav-item has-children"> <a href="#"> Authorities</a>
+
+
+
+                <ul class="dropdown">
+
+
+
+                  <li class="nav-item"> <a href="Chancellor.php">Chancellor</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Prochancellor.php">Pro-Chancellor</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Vicechancellor.php"> VC Officiating Committee</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Syndicate.php">Syndicate</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Financecommittee.php">Finance Committee</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Planningboard.php">Planning Board</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Academiccouncil.php">Academic Council</a></li>
+
+
+
+                  <li class="nav-item"> <a href="BoS.php">Board of Studies</a></li>
+
+
+
+                </ul>
+
+
+
+              </li>
+
+
+
+              <li class="nav-item has-children"> <a href="#">Administration</a>
+
+
+
+                <ul class="dropdown">
+
+
+
+                  <li class="nav-item"> <a href="Registrar.php">Registrar</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Financeofficer.php">Finance Officer</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Controllerofexaminations.php">Controller of Examinations</a></li>
+
+
+
+                  <li class="nav-item has-children"> <a href="#">Divisions</a>
+
+
+
+                    <ul class="dropdown">
+
+
+
+                      <li class="nav-item"> <a href="Division-Administrative.php">Administration </a></li>
+
+
+
+                      <li class="nav-item"> <a href="Division-finance.php">Finance </a></li>
+
+
+
+                      <li class="nav-item has-children"> <a href="Division-studentsupport.php">Student Support Services </a>
+
+
+
+                        <ul class="dropdown">
+
+
+
+                          <li class="nav-item"> <a href="Chennai.php">Chennai Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Villupuram.php">Villupuram Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Trichy.php">Trichy Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Madurai.php">Madurai Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Dharmapuri.php">Dharmapuri Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Nilgiris.php">Nilgiris Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Coimbatore.php">Coimbatore Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Mayiladuthurai.php">Mayiladuthurai Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Tirunelveli.php">Tirunelveli Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Tiruvannamalai.php">Thiruvannamalai Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Sivagangai.php">Sivagangai Regional Centre</a></li>
+
+
+
+                          <li class="nav-item"> <a href="Salem.php">Salem Regional Centre</a></li>
+
+
+
+                        </ul>
+
+
+
+                      </li>
+
+
+
+                      <li class="nav-item"> <a href="Division-materialproduction.php">Material Production and Distribution </a></li>
+
+
+
+                      <li class="nav-item has-children"> <a href="#">Student Registration & Evaluation </a>
+
+
+
+                        <ul class="dropdown">
+
+
+
+                          <li class="nav-item"> <a href="admission-section.php">ADMISSION </a></li>
+
+
+
+                          <li class="nav-item"> <a href="exam-certificate-section.php">EXAMINATION</a></li>
+
+
+
+                        </ul>
+
+
+
+                      </li>
+
+
+
+                    </ul>
+
+
+
+                  </li>
+
+
+
+                  <li class="nav-item"> <a href="Non-Teaching.php">Non-Teaching Staffs</a></li>
+
+
+
+                  <li class="nav-item"> <a href="CodeConduct.php">Code of Conduct</a></li>
+
+                 <li class="nav-item"> <a href="Administrative_Structure.php">Administrative Structure</a></li>
+
+                </ul>
+
+
+
+              </li>
+
+
+
+              <li class="nav-item has-children"><a href="#">Academics</a>
+
+
+
+                <ul class="dropdown">
+
+
+
+                  <li class="nav-item"> <a href="AcademicStructures.php">Academic Structure</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Academicplanner.php">Academic Calender/Planner</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Documents\2025\KVS\AY25PROSPECTUS.jpg" target="_blank">Academic Programmes</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Listoffaculties.php">List of faculties</a></li>
+
+
+
+                  <li class="nav-item has-children"> <a href="#">School of Studies</a>
+
+
+
+                    <ul class="dropdown">
+
+                      <li class="nav-item"> <a href="SchoolScience.php"> School of Science</a></li>
+                      <li class="nav-item"> <a href="SchoolSocial.php"> School of Social Sciences</a></li>
+                      <li class="nav-item"> <a href="SchoolEducation.php"> School of Education</a></li>
+                      <li class="nav-item"> <a href="SchoolHumanities.php"> School of Humanities</a></li>
+                      <li class="nav-item"> <a href="SchoolManagement.php"> School of Management Studies</a></li>
+                      <li class="nav-item"> <a href="SchoolContinuingEdu.php"> School of Continuing Education</a></li>
+                      <li class="nav-item"> <a href="SchoolLibrary.php"> School of Library and Information Science</a></li>
+                      <li class="nav-item"> <a href="SchoolComputer.php"> School of Computer Science</a></li>
+                      <li class="nav-item"> <a href="SchoolCultural.php"> School of Tamil and Cultural Studies</a></li>
+                      <li class="nav-item"> <a href="SchoolJournalism.php"> School of Journalism and New Media Studies</a></li>
+                      <li class="nav-item"> <a href="SchoolPolitics.php"> School of Politics and Public Administration</a></li>
+                    </ul>
+
+                  </li>
+
+                  <!-- <li class="nav-item"> <a href="ConstituentClg.php"> Constituent Community Colleges</a></li>-->
+
+
+
+                  <li class="nav-item has-children"><a href="#">Cells</a>
+
+
+
+                    <ul class="dropdown">
+
+
+
+                      <li class="nav-item"> <a href="Cell-Alumnicell.php">Alumni Cell</a></li>
+
+
+
+                      <li class="nav-item"> <a href="Cell-Anti-Raggingcell.php">Anti-Ragging Cell</a></li>
+
+
+
+                      <!-- <li class="nav-item"> <a href="Cell-SC_ST.php">Equal Opportunity Cell (SC/ST Cell)</a></li> -->
+
+
+
+                      <li class="nav-item"> <a href="Cell-BC-MBCcell.php">BC/MBC Cell</a></li>
+
+
+
+                       <li class="nav-item"> <a href="Documents\NOVEMBER 2025\Equal Opportunity to the socio-Economically Disadvantaged Groups (SEDGs) (1).pdf">Equal Opportunity to the socio-Economically Disadvantaged Groups (SEDGs)</a></li>
+
+
+
+                     <li class="nav-item"> <a href="ELC.php">Electoral Literacy Club</a></li> 
+
+
+
+                      <li class="nav-item"> <a href="Cell-Environmentcell.php">Environment Cell</a></li>
+
+
+
+                      <li class="nav-item"> <a href="Cell-Internalharassmentcell.php">Internal Harassment Cell</a></li>
+
+
+
+                      <li class="nav-item"> <a href="Cell-CDC.php">Curriculum Development Cell</a></li>
+
+
+
+                    <!--  <li class="nav-item"> <a href="Cell-Nationalinnovationcell.php">National Innovation Cell</a></li> -->
+
+
+
+                      <li class="nav-item"> <a href="Cell-Personwithdisability.php">Person with Disability Cell</a></li>
+
+
+
+                      <li class="nav-item"> <a href="Cell-Studentpalcementcell.php">Students’ Placement Cell</a></li>
+
+
+
+                      <!-- <li class="nav-item"> <a href="Cell-Equalopportunitycell.php">Equal Opportunity Cell (SC/ST Cell)</a></li> -->
+
+
+
+                      <li class="nav-item"> <a href="Cell-StudentsGrievance.php">Students’ Grievance Redressal Cell</a></li>
+
+
+
+                      <li class="nav-item"> <a href="Cell-Minoritycell.php">Minority Cell </a></li>
+
+
+
+                      <li class="nav-item"> <a href="Cell-Womenscell.php">Women Cell</a></li>
+
+
+
+                    </ul>
+
+
+
+                  </li>
+
+
+
+                  <li class="nav-item has-children"><a href="#">Centres</a>
+
+
+
+                    <ul class="dropdown">
+
+
+
+                      <li class="nav-item"> <a href="Centre-CIQA.php">Centre for Internal Quality Assurance<strong> (CIQA)</strong></a></li>
+
+
+
+                      <li class="nav-item"> <a href="Centre-CCA.php">Centre  for Cultural Affairs (<strong>CCA</strong>)</a></li>
+
+
+
+                      <li class="nav-item"> <a href="Centre-COL.php">Centre for Online Learning (<strong>COL</strong>)</a></li>
+
+
+
+                      <li class="nav-item"> <a href="Centre-CEMPR.php">Centre for Electronic Media Production and Research (<strong>CEMPR</strong>)</a></li>
+
+
+
+                      <li class="nav-item"> <a href="Centre-CUI.php">Centre for University Informatics (<strong>CUI</strong>)</a></li>
+
+
+
+                      <li class="nav-item"> <a href="Centre-CUIIC.php">Centre for University-Industry Institution Collaboration (<strong>CUIIC</strong>)</a></li>
+
+
+
+                     
+
+
+
+                      <li class="nav-item"> <a href="Centre-CMPD.php">Centre for Multimodal Material Production for Differently Abled (<strong>CMPD</strong>)</a></li>
+
+
+
+                     <!-- <li class="nav-item"> <a href="Centre-CCD.php">Centre of Curriculum Development (<strong>CCD</strong>)</a></li> -->
+
+
+
+                    </ul>
+
+
+
+                  </li>
+
+
+
+                  <li class="nav-item"><a href="Committees-Cells.php">Committees </a></li>
+
+
+
+                  <li class="nav-item has-children"> <a href="#">Facilities</a>
+
+
+
+                    <ul class="dropdown">
+
+
+
+                      <li class="nav-item"> <a href="Library.php">Library</a></li>
+
+
+
+                     
+
+
+
+                      <!-- <li class="nav-item"> <a href="Health-Centre.php">Health Centre</a></li> -->
+
+
+
+                      <!-- <li class="nav-item"> <a href="MotherCare.php">Mother Care Room</a></li> -->
+
+
+
+                      <li class="nav-item"> <a href="Auditorium.php">Auditorium</a></li>
+
+                      <li class="nav-item"> <a href="Facilities-differentlyabled.php">Facilities for Differently Abled Person</a></li>
+
+                      <li class="nav-item"> <a href="facilities-healthcare.php">Health care</a></li>
+
+
+                      <li class="nav-item"> <a href="Help-Desk.php">Help Desk</a></li>
+
+
+
+                    </ul>
+
+
+
+                  </li>
+
+
+
+                  <li class="nav-item"> <a href="NAD.php">NAD</a></li>
+
+
+
+                </ul>
+
+
+
+              </li>
+
+
+
+              <li class="nav-item has-children"> <a href="#">Admission</a>
+
+
+
+                <ul class="dropdown">
+
+
+
+                  <!-- <li class="nav-item"> <a href="prospectus.php">E-Prospectus</a></li> -->
+
+
+
+                  <!-- <li class="nav-item"> <a href="AcademicProgrammesoffered.php">Programmes Offered & Fee Structure in CY 2023</a></li> -->
+
+
+
+                  <li class="nav-item"> <a href="admissionprocedure.php">Admission Procedure</a></li>
+
+
+
+                  <!-- <li class="nav-item"> <a href="AdmissionQueries.php">Pre Admission Queries</a></li> -->
+
+
+
+                  <li class="nav-item"> <a href="https://tnouportal.in/OnlineadmissionHomeAY2026.aspx">Online Admission</a></li>
+
+
+
+                  <!--		<li class="nav-item"> <a href="eligibilitynorms.php">Eligibility Norms</a></li>
+
+
+
+
+
+
+
+			           <li class="nav-item"> <a href="modeofadmission.php">Mode of Admission</a></li>-->
+
+
+
+                <!-- <li class="nav-item"> <a href="Documents\JAN 2025\PROSPECTUS FOR PRINT - 21.01.2025.pdf" target="_blank">Prospectus and Fee Structure</a></li> -->
+
+                <!-- <li class="nav-item"> <a href="Documents\JAN 2025\PROSPECTUS FOR PRINT - 21.01.2025.pdf" target="_blank">Programmes Offered</a></li>-->
+
+                <li class="nav-item"> <a href=
+                  "ProspectusNew.php" target="_blank">Prospectus and Fee Structure</a></li> 
+
+                 <li class="nav-item"> <a href="Documents\2026\KVS\AY 2026.jpg" target="_blank">Programmes Offered</a></li> 
+                  <!-- <li class="nav-item"> <a href="Documents\2026\KVS\CY2026PROSPECTUS06022026.pdf" target="_blank">Programmes Offered</a></li> -->
+                  <!-- <li class="nav-item"> <a href="Documents\2025\KVS\AY25PROSPECTUS.jpg" target="_blank">Programmes Offered</a></li> -->
+
+
+
+                  <li class="nav-item"> <a href="admittedstudents.php">Details of Admitted students</a></li>
+
+
+
+                </ul>
+
+
+
+              </li>
+
+
+
+              <li class="nav-item has-children"> <a href="#">Examination</a>
+
+
+
+                <ul class="dropdown">
+
+
+                  <li class="nav-item"> <a href="Timetable.php">Exam Time Table</a></li>
+
+                  <!-- <li class="nav-item"> <a href="practical-class-schedule-june2024.php">Practical Exam Schedule</a></li> -->
+
+                  <li class="nav-item"> <a href="practicalschedule.php">Practical Exam Schedule
+
+                  
+                  <!-- <li class="nav-item"> <a href="bed.php"> B.Ed Special Education 2nd Admission Counselling list </a></li> -->
+
+                  <li class="nav-item"> <a href="exammanual.php">Exam Manual & Policies</a></li> 
+
+
+                  <li class="nav-item"> <a href="examprocedures.php">Exam Procedures</a></li>
+
+
+
+                 <!-- <li class="nav-item"> <a href="examfee.php">Exam Instructions</a></li> -->
+
+
+
+                  <li class="nav-item"> <a href="examresults.php">Examination Results</a></li>
+
+
+
+                  <li class="nav-item"> <a href="formrelatedtocertificates.php">Forms Related to Certificates</a></li>
+
+
+
+                  <li class="nav-item"> <a href="previousyearquestion.php">Previous Year Question Papers</a></li>
+
+
+                  <li class="nav-item"> <a href="Documents/may24/Exam Centre details  of TNOU.pdf" target="_blank">Examination Centre</a></li>
+
+
+                  <li class="nav-item"> <a href="Studentgrievances.php">Student Grievances</a></li>
+
+
+
+                </ul>
+
+
+
+              </li>
+
+
+
+              <li class="nav-item has-children"> <a href="#">Research</a>
+
+
+
+                <ul class="dropdown">
+
+
+
+                  <li class="nav-item"><a href="Research.php">Director</a></li>
+
+
+
+                  <li class="nav-item"><a href="regulations.php">Regulations</a></li>
+
+
+
+                  <li class="nav-item"><a href="researchadvisory.php">Research Advisory Committee</a></li>
+
+
+
+                  <li class="nav-item"><a href="researchfellowship.php">Research Fellowship</a></li>
+
+
+
+                  <li class="nav-item"><a href="researchrelatedlinks.php">Research Related Links</a></li>
+
+
+
+                  <li class="nav-item"><a href="researchrelatedforms.php">Research Related Forms</a></li>
+
+
+
+                  <li class="nav-item"><a href="Research-scholars.php">Research Scholars</a></li>
+
+
+
+                  <li class="nav-item"><a href="ethiccommittee.php">Committees</a></li>
+
+			<li class="nav-item"><a href="Research-centre.php">Centre</a></li>
+
+
+
+                  <!--<li class="nav-item"><a href="https://tnou.ac.in/Documents/research/IIC.pdf">IIC</a></li>
+
+
+
+                  <li class="nav-item"><a href="https://tnou.ac.in/Documents/research/IRAC.pdf">IRAC</a></li>
+
+
+
+                  <li class="nav-item"><a href="https://tnou.ac.in/Documents/research/publication%20committee.pdf">Publication Committee</a></li>
+
+
+
+                  <li class="nav-item"><a href="https://tnou.ac.in/Documents/research/Research%20Council.pdf">Research Council</a></li>-->
+
+
+
+                </ul>
+
+
+
+              </li>
+
+
+
+              <li class="nav-item has-children"> <a href="#">CIQA </a>
+
+
+
+                <ul class="dropdown">
+
+
+
+                  <li class="nav-item"> <a href="Centre-CIQA.php">About CIQA</a></li>
+
+                  <li class="nav-item"> <a href="Mission.php">Vision & Mission</a></li>
+
+                  <li class="nav-item"> <a href="CIQA-members.php">Members</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Meeting-Minutes.php">Meetings & Minutes</a></li>
+
+
+
+                  <li class="nav-item"> <a href="NewsLetter.php">News Letter</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Policies.php">Policies</a></li>
+
+
+
+                  <!-- <li class="nav-item"> <a href="Feeback.php">Feeback</a></li> -->
+
+
+
+                  <li class="nav-item"> <a href="Annual-Report.php">Annual Report</a></li>
+
+
+
+                  <!-- <li class="nav-item"> <a href="StrategicPlan.php">Strategic Plan</a></li> -->
+
+
+
+                  <li class="nav-item"> <a href="BestPractices.php">Best Practices</a></li>
+
+
+
+                  <!-- <li class="nav-item has-children"> <a href="#">Ranking</a>
+
+
+
+
+
+
+
+              <ul class="dropdown">
+
+
+
+
+
+
+
+                <li class="nav-item"> <a href="ARIIA.php">ARIIA</a></li>
+
+
+
+
+
+
+
+                <li class="nav-item"> <a href="NIRF.php">NIRF</a></li>
+
+
+
+
+
+
+
+                <li class="nav-item"> <a href="AICTE.php">AICTE</a></li>
+
+
+
+
+
+
+
+                <li class="nav-item"> <a href="AISHE.php">AISHE</a></li>
+
+
+
+
+
+
+
+              </ul>
+
+
+
+
+
+
+
+            </li>-->
+
+
+
+                </ul>
+
+
+
+              </li>
+
+
+
+              <li class="nav-item has-children"> <a href="#">NAAC</a>
+
+
+
+                <ul class="dropdown">
+
+
+
+                  <li class="nav-item"> <a href="NAACIIQA.php">IIQA</a></li>
+
+
+
+                  <li class="nav-item"> <a href="NAACSSR.php">SSR</a></li>
+
+
+                  <li class="nav-item"> <a href="naacvideo.php">Video Gallery</a></li>
+
+
+                  <li class="nav-item"> <a href="Documents/may24/AQAR - 2022-23.pdf" target="_blank">AQAR 2022-23,I Cycle</a></li>
+
+
+                  <li class="nav-item"> <a href="Documents/july24/assessment PTV report (1).pdf" target="_blank">Assessment PTV Report</a></li>
+
+
+                  <li class="nav-item"> <a href="Documents/july24/TNOU NAAC Grade_Sheet (1).pdf" target="_blank">TNOU NAAC Grade Sheet</a></li>
+                  <li class="nav-item"> <a href="Documents/2026/KVS/NAAC Certificate TNOU 2023.pdf" target="_blank">NAAC Certificate</a></li>
+
+
+
+
+                </ul>
+
+
+
+              </li>
+
+
+
+               <li class="nav-item has-children"> <a href="#">NIRF</a>
+
+
+
+                <ul class="dropdown">
+
+
+                <li class="nav-item"> <a href="Documents\2026\KVS\TNOU NIRF Data 2026.pdf" target="_blank">NIRF 2026</a></li> 
+                <li class="nav-item"> <a href="Documents\Feb 2025\NIRF\Tamil Nadu Open University 2024.pdf" target="_blank">NIRF 2024-2025</a></li> 
+
+                  <li class="nav-item"> <a href="Documents\Feb 2025\NIRF\Tamil Nadu Open University 2023.pdf" target="_blank">NIRF 2023-2024</a></li> 
+
+
+                  </ul>
+
+
+
+              </li>
+
+
+
+
+
+<!-- ******NEW CODING FOR SELF DISCLOSURE 2025 NOV******* -->
+
+
+
+  <li class="nav-item has-children"> <a href="#">Public Disclosures</a>
+
+
+
+    <ul class="dropdown">
+
+                  <li class="nav-item"> <a href="Self-discloser-AboutHEI.php"> AboutHEI</a></li>
+ 
+                  <li class="nav-item"> <a href="Self-discloser-administration-profile.php">Administration (Profiles with Photographs and Contact Details)</a></li> 
+
+                  <li class="nav-item"> <a href="Self-discloser-Academics.php">Academics</a></li>
+
+                  <li class="nav-item"> <a href="Self-discloser-admissionfee.php">Admissions & Fee</a></li> 
+
+                  <li class="nav-item"> <a href="Self-discloser-research.php">Research</a></li> 
+
+                  <li class="nav-item"> <a href="Self-discloser-studentlife.php">Student Life</a></li>
+
+                  <li class="nav-item"> <a href="Self-discloser-Alumni.php" target="_blank">Alumni</a></li> 
+
+                  <li class="nav-item"> <a href="Self-discloser-InformationCorner.php" target="_blank">Information Corner</a></li> 
+
+                  <li class="nav-item"> <a href="Self-discloser-Picture.php" target="_blank">Picture Gallery</a></li> 
+
+                  <li class="nav-item"> <a href="Self-discloser-ContactUs.php" target="_blank">Contact Us</a></li>
+
+    </ul>
+
+    </li>  
+   
+ 
+<!-- *****END****** -->
+
+
+
+
+
+
+
+
+
+<!-- ******OLD CODING SELF DIS******* -->
+ 
+
+             <!--  <li class="nav-item has-children"> <a href="#">Self Disclosures</a>
+
+
+
+                <ul class="dropdown">
+
+
+
+                  <li class="nav-item"> <a href="Self-Discloser-Institutional.php"> Institutional Information</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Self-Discloser-Academic.php">Academic & Professional Programmes</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Self-Discloser-Programme.php">Programme Project Report & Self Learning Material Details for each Programme</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Self-Discloser-Admission.php">Admission, Evaluation and Examination</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Self-Discloser-Student.php">Student Support Systems</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Self-Discloser-Fee.php">Student Details & Fee Structure</a></li>
+                  <li class="nav-item"> <a href="proposalpr.php" target="_blank">Proposal for programme recognition of UGC -DEB</a></li>
+
+                  <li class="nav-item"> <a href="Documents/may23/AICTE_MBA_Mandatory_disclosure.pdf" target="_blank">AICTE MANDATORY DISCLOSURES</a></li>
+                  <li class="nav-item"> <a href="Documents/files/AICTE approval.pdf" target="_blank">AICTE Approval</a></li>
+
+                  <li class="nav-item"> <a href="SRAapproval.php" target="_blank">SRA Approval</a></li>
+
+                  <li class="nav-item"> <a href="Documents/april24/UGC Public notice.pdf" target="_blank">UGC-DEB Mandatory Disclosures</a></li>
+
+
+                </ul>
+
+
+
+              </li> 
+ -->
+
+<!-- *******END****** -->
+
+
+
+              <li class="nav-item has-children"> <a href="#"> Contact us</a>
+
+
+
+                <ul class="dropdown">
+
+
+
+                  <li class="nav-item"> <a href="WhomContact.php">Whom To Contact</a></li>
+
+
+
+                  <li class="nav-item"> <a href="Reachus.php">How to Reach</a></li>
+
+
+
+                </ul>
+
+
+
+              </li>
+
+
+
+            </ul>
+
+
+
+            <ul class="navbar navbar-nav navbar-right" style="display:flex; color:#FFFFFF;">
+
+
+
+            </ul>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </nav>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+</nav>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <!-- <div class="col-lg-3 text-center  border-start border-end rounded border-2"> -->
+      <!-- <h2 class="pt-2">VC Desk</h2>  -->
+      <!-- <img src="img/vc_.jpg" class="img-wrap img-thumbnail" height="280" width="280" />
+      <p  class=" text-center  blockquote"><strong> Prof. S. Arumugam</strong> <br>
+        Vice Chancellor</p>
+      <figure>
+      <blockquote class="blockquote">
+        <p> <i class="fas fa-quote-left fa-lg text-warning me-2"></i> <span class="font-italic">Education is an Empowerment and a Passport to the Future.......</span> </p>
+        <a href="vcdesk.php" class="btn btn-lg bg-green text-white float-end readmore">Read more</a> </blockquote>
+    </div> -->
+    <div class="slider1">
+      <div class="list1">
+        
+       
+      <div class="item1"> <img src="images/slider/_DSC2053.jpg" alt="" class="img3"> </div> 
+      
+      <!-- <div class="item1"> <img src="images/slider/slme.jpeg" alt="" class="img3"> </div> -->
+      <!-- <div class="item1"> <img src="images/slider/visit.jpeg" alt="" class="img3"> </div> -->
+ 
+      <div class="item1"> <img src="images/slider/20260917_110311.jpg" alt="" class="img3"> </div>
+      <div class="item1"> <img src="images/slider/DSC1716.jpg" alt="" class="img3"> </div>
+      <div class="item1"> <img src="images/slider/DSC1943.jpg" alt="" class="img3"> </div>
+      <div class="item1"> <img src="images/slider/DSC1903.jpg" alt="" class="img3"> </div>
+      <div class="item1"> <img src="images/slider/DSC1783.jpg" alt="" class="img3"> </div>
+      <div class="item1"> <img src="images/slider/DSC_1319.jpg" alt="" class="img3"> </div>
+      <div class="item1"> <img src="images/slider/DSC_1363.jpg" alt="" class="img3"> </div>
+      <div class="item1"> <img src="images/slider/DSC_1225.jpg" alt="" class="img3"> </div>
+      <div class="item1"> <img src="images/slider/slme.jpg" alt="" class="img3"> </div>
+      <div class="item1"> <img src="images/slider/DSC_0009.jpg" alt="" class="img3"> </div> 
+
+      <div class="item1"> <img src="images/slider/DSC_8909.jpg" alt="" class="img3"> </div> 
+
+       <div class="item1"> <img src="images/slider/DSC_8695.jpg" alt="" class="img3"> </div> 
+
+        <div class="item1"> <img src="images/slider/DSC_8756.jpg" alt="" class="img3"> </div> 
+
+          <div class="item1"> <img src="images/slider/DSC_8539.jpg" alt="" class="img3"> </div> 
+
+      <!-- <div class="item1"> <img src="images/slider/photo 07.jpg" alt="" class="img3"> </div> -->
+      <!-- <div class="item1"> <img src="images/slider/Photo 21.jpg" alt="" class="img3"> </div> -->
+
+        <!-- <div class="item1"> <img src="images/slider/Photo 22.jpg" alt="" class="img3"> </div>  -->
+
+        <!-- <div class="item1"> <img src="images/slider/DSC_4815.jpg" alt="" class="img3"> </div> -->
+
+        <!-- <div class="item1"> <img src="images/slider/DSC_4843.jpg" alt="" class="img3"> </div> -->
+
+        <!-- <div class="item1"> <img src="images/slider/DSC_4842.jpg" alt="" class="img3"> </div> -->
+
+        <!-- <div class="item1"> <img src="images/slider/slide101.jpg" alt="" class="img3"> </div> -->
+
+        <!-- <div class="item1"> <img src="images/slider/slide102.jpeg" alt="" class="img3"> </div> -->
+
+        <!-- <div class="item1"> <img src="images/slider/NAAC.jpg" alt="" class="img3"> </div>  -->
+
+        <div class="item1"> <img src="images/slider/DSC_8433.jpg" alt="" class="img3"> </div>  
+
+        <div class="item1"> <img src="images/slider/admin-building.jpg"  width="" alt="" class="img3"> </div>
+
+        <!-- <div class="item1"> <img src="images/slider/vc-1.jpg" alt="" class="img3"> </div> -->
+  
+        <!-- <div class="item1"> <img src="images/slider/KNU-2.jpg" alt="" class="img3"> </div> -->
+  
+        <!-- <div class="item1"> <img src="images/slider/KNU-4.jpg" alt="" class="img3"> </div> -->
+       
+        <!-- <div class="item1"> <img src="images/slider/conv.JPG" alt="" class="img3"> </div> -->
+
+        <!-- <div class="item1"> <img src="images/slider/vc-2.jpg" alt="" class="img3"> </div> -->
+        
+        <!-- <div class="item1"> <img src="images/slider/vcmeet.jpeg" alt="" class="img3"> </div> -->
+       
+        <!-- <div class="item1"> <img src="images/slider/ignou.jpg" alt="" class="img3"> </div> -->
+      </div>
+      <div class="buttons">
+        <button id="prev" class="btn1"><</button>
+        <button id="next" class="btn1">></button>
+      </div> 
+      <ul class="dots">
+        <li class="active" ></li>
+        <li></li>
+        <!-- <li></li>
+        <li></li> 
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li> -->
+      </ul>
+    </div>
+    <script type="text/javascript">
+  let slider = document.querySelector('.slider1 .list1');
+let items = document.querySelectorAll('.slider1 .list1 .item1');
+let next = document.getElementById('next');
+let prev = document.getElementById('prev');
+let dots = document.querySelectorAll('.slider1 .dots li');
+
+let lengthItems = items.length - 1;
+let active = 0;
+next.onclick = function(){
+    active = active + 1 <= lengthItems ? active + 1 : 0;
+    reloadSlider();
+}
+prev.onclick = function(){
+    active = active - 1 >= 0 ? active - 1 : lengthItems;
+    reloadSlider();
+}
+let refreshInterval = setInterval(()=> {next.click()}, 3000);
+function reloadSlider(){
+    slider.style.left = -items[active].offsetLeft + 'px';
+    // 
+    let last_active_dot = document.querySelector('.slider1 .dots li.active');
+    last_active_dot.classList.remove('active');
+    dots[active].classList.add('active');
+
+    clearInterval(refreshInterval);
+    refreshInterval = setInterval(()=> {next.click()}, 3000);
+
+    
+}
+
+dots.forEach((li, key) => {
+    li.addEventListener('click', ()=>{
+         active = key;
+         reloadSlider();
+    })
+})
+window.onresize = function(event) {
+    reloadSlider();
+};
+</script>
+    <style type="text/css">
+.slider1{
+
+    width: 1300px;
+    max-width: 100vw;
+    height: 480px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.slider1 .list1{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+}
+.slider1 .list1 .img3{
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+.slider1 .buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider1 .buttons .btn1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.slider1 .dots{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.slider1 .dots li{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.slider1 .dots li.active{
+    width: 30px;
+}
+@media screen and (max-width: 768px){
+    .slider1{
+        height: 200px;
+    }
+}
+</style>
+  </div>
+</div>
+<div class="untree_co-section">
+  <div class="container">
+    <div class="row mb-1 justify-content-center">
+      <div class="col-lg-3 col-md-6">
+        
+
+
+
+<h2 class="section-title text-center py-0" align="center">News &amp; Events</h2>
+
+
+<marquee behavior="scroll" scrollamount="4" direction="up" onMouseOver="this.stop();" onmouseleave="this.start();" height="370px">
+
+
+<div class="py-3">
+    <div class="date"><span class="month">MAY</span><span class="day"></span><span class="year">2026</span></div>
+      <p align="justify"><a href="Documents\2026\KVS\ICC.pdf">Students, staff, and women employees are encouraged to install the Kaaval Uthavi App of Tamil Nadu Police for emergency assistance and safety services <img src="images/new.gif"></sup></p>
+</div>
+
+
+<div class="py-3">
+    <div class="date"><span class="month">SEPTEMBER</span><span class="day"></span><span class="year">2026</span></div>
+      <p align="justify"><a href="" target="_blank"> Students are requested to visit the official website https://tnou.ac.in and the e-portal https://tnouportal.in strictly for all admission procedures and other related academic activities.<img src="images/new.gif"></sup></p>
+</div> 
+
+<div class="py-3">
+    <div class="date"><span class="month">SEPTEMBER</span><span class="day"></span><span class="year">2026</span></div>
+      <p align="justify"><a href="" target="_blank"> மாணவர்கள் பல்கலைக்கழகத்தின் அதிகாரப்பூர்வ இணையதளமான https://tnou.ac.in மற்றும் மின்-போர்டல் (e-portal) https://tnouportal.in ஆகியவற்றை மட்டுமே பயன்படுத்துமாறு கேட்டுக்கொள்ளப்படுகிறார்கள்<img src="images/new.gif"></sup></p>
+</div> 
+
+
+<div class="py-3">
+    <div class="date"><span class="month"></span><span class="day"></span><span class="year">2026</span></div>
+      <p align="justify"><a href="https://tnou.ac.in/eslm/" target="_blank"> Dear TNOU Students,Your E-SLMs (Electronic Self-Learning Materials) are now available on the TNOU e-portal and official website.Please visit the platforms to access your study materials<img src="images/new.gif"></sup></p>
+</div> 
+
+
+<div class="py-3">
+    <div class="date"><span class="month">JAN</span><span class="day"></span><span class="year">2026</span></div>
+      <p align="justify"><a href="https://ntf.education.gov.in" target="_blank"> National Task Force On Mental Health of Students and Prevention Of Suicides In Higher Education Institutes<img src="images/new.gif"></sup></p>
+</div> 
+
+
+
+
+
+<!-- <div class="py-3">
+    <div class="date"><span class="month">DEC</span><span class="day"></span><span class="year">2025</span></div>
+      <p align="justify"><a href="Documents\DECEMBER 2025\CAS Circular- Notification.pdf" target="_blank"> Conduct of CAS to the Academic Staff - Notification<img src="images/new.gif"></sup></p>
+</div> -->
+
+
+
+
+<!-- <div class="py-3">
+    <div class="date"><span class="month">DEC</span><span class="day"></span><span class="year">2025</span></div>
+      <p align="justify"><a href="Documents\DECEMBER 2025\CAS Application.pdf" target="_blank"> CAS Application<img src="images/new.gif"></sup></p>
+</div> -->
+
+
+
+<div class="py-3">
+    <div class="date"><span class="month">SEP</span><span class="day"></span><span class="year">2025</span></div>
+      <p align="justify"><a href="Documents\DECEMBER 2025\CAS Application - Assistant & Associate Professor (1).pdf" target="_blank"> UGC-DEB PRECAUTION NOTICE TO LEARNERS 2025.<img src="images/new.gif"></sup></p>
+</div>
+
+
+<div class="py-3">
+    <div class="date"><span class="month">SEP</span><span class="day"></span><span class="year">2025</span></div>
+      <p align="justify"><a href="" target="_blank"> Students who are unable to submit the assignments in the Online Mode  can submit the hard copy of the assignments in person or post  directly to the Controller of Examinations, TNOU, Saidapet, Chennai - 600 015.<img src="images/new.gif"></sup></p>
+</div>
+
+ 
+
+<!-- <div class="py-3">
+    <div class="date"><span class="month">SEP</span><span class="day"></span><span class="year">2025</span></div>
+      <p align="justify"><a href="" target="_blank">The 16th Convocation is likely to be held in the 4th week of September 2025 and the students who have not yet submitted the assignment should submit by 08.09.2025.<img src="images/new.gif"></sup></p>
+</div> -->
+
+
+
+<!-- <div class="py-3">
+    <div class="date"><span class="month">AUGUST</span><span class="day"></span><span class="year">2025</span></div>
+      <p align="justify"><a href="" target="_blank">ஜுலை 2025 ஆண்டு பருவ தேர்வுகளுக்கு செழுத்தவேண்டீய தேர்வு கட்டணம் அபராதத்துடன் நாளை (16-8-2025) சனிக்கிழமை வரை செலுத்த நீட்டிப்பு செய்யப்பட்டுள்ளது.<img src="images/new.gif"></sup></p>
+</div> -->
+
+
+<!-- <div class="py-3">
+    <div class="date"><span class="month">AUGUST</span><span class="day"></span><span class="year">2025</span></div>
+      <p align="justify"><a href="" target="_blank">July 2025 TEE payment of exam fees with fine extended upto Saturday (16-8-2025) .<img src="images/new.gif"></sup></p>
+</div> -->
+
+
+
+<div class="py-3">
+    <div class="date"><span class="month">JUNE</span><span class="day"></span><span class="year">2025</span></div>
+      <p align="justify"><a href="Documents\JUNE 2025\STUDENTS.docx" target="_blank">STUDENTS - CHANGE OF ADDRESS.<img src="images/new.gif"></sup></p>
+</div>
+
+
+
+<div class="py-3">
+    <div class="date"><span class="month">MAR</span><span class="day">14</span><span class="year">2025</span></div>
+      <p align="justify"><a href="Documents\MARCH 2025\Return New Excel File 13.03.25.xlsx" target="_blank"><BR> List of Students whose certificates are returned by post to TNOU Chennai.These Students are informed to collect the Certificates from the TNOU Headquarters from Monday to Friday.<img src="images/new.gif"></sup></p>
+</div>
+
+
+<div class="py-3">
+    <div class="date"><span class="month">FEB</span><span class="day">18</span><span class="year">2025</span></div>
+      <p align="justify"><a href="https://forms.gle/kWsRXVsQhhqLeQKh7" target="_blank">ASSIGNMENT GRIEVANCES<img src="images/new.gif"></sup></p>
+  </div>
+
+
+
+<div class="py-3">
+    <div class="date"><span class="month">FEB</span><span class="day">18</span><span class="year">2025</span></div>
+      <p align="justify"><a href="https://forms.gle/AqQ7ywTm3YgtVPeZA" target="_blank">EXAMINATION GRIEVANCES<img src="images/new.gif"></sup></p>
+  </div>
+
+
+
+<div class="py-3">
+    <div class="date"><span class="month">FEB</span><span class="day">18</span><span class="year">2025</span></div>
+      <p align="justify"><a href="https://forms.gle/v6HBk6gU36KUyTtK7" target="_blank">CERTIFICATE GRIEVANCES<img src="images/new.gif"></sup></p>
+  </div>
+
+
+
+ <!-- <div class="py-3">
+    <div class="date"><span class="month">Dec</span><span class="day">15</span><span class="year">2024</span></div>
+      <p align="justify"><a href="https://tnouportal.in/OnlineTestNew.aspx" target="_blank">B.Ed. Special Education Entrance Examination  Link to Login<img src="images/new.gif"></sup></p>
+  </div> -->
+
+
+
+  <!-- <div class="py-3">
+    <div class="date"><span class="month">Dec</span><span class="day">06</span><span class="year">2024</span></div>
+      <p align="justify"><a href="https://tnouportal.in/" target="_blank">TNOU Results Link July-2024<img src="images/new.gif"></sup></p>
+  </div> -->
+
+
+
+  <!-- <div class="py-3">
+    <div class="date"><span class="month">June</span><span class="day">11</span><span class="year">2024</span></div>
+      <p align="justify"><a href="Timetable.php" target="_blank">Term End Examination July - 2024  Time Table<img src="images/new.gif"></sup></p>
+  </div>
+ -->
+
+
+
+  <!-- <div class="py-3">
+    <div class="date"><span class="month">June</span><span class="day">07</span><span class="year">2024</span></div>
+      <p align="justify"><a href="Documents/june24/OnlineClassTT-CY2024 2.xlsx" target="_blank">Academic Counselling Classes link<img src="images/new.gif"></sup></p>
+  </div> -->
+
+
+  <!-- <li>
+        <div class="date"><span class="month">Dec</span><span class="day">01</span><span class="year">2024</span></div>
+        <h4>CY 2025 B.Ed Special Education Entrance Examination Online Application- Last date : 01.12.2024</h4>
+        <p align="justify"><a href="https://tnouportal.in/OnlineAdmissionHomeForSPLEDCY2025.aspx" style="color: blue;" target="_blank" >CY 2025 B.Ed Special Education Entrance Examination Online Application- Last date : 01.12.2024<sup><img src="images/new.gif"></sup></a></p></li><hr>
+ -->
+
+
+
+<!-- <div class="py-3">
+    <div class="date"><span class="month">Dec</span><span class="day">01</span><span class="year">2024</span></div>
+      <p align="justify"><a href="https://tnouportal.in/OnlineAdmissionHomeForSPLEDCY2025.aspx" target="_blank">CY 2025 B.Ed Special Education Entrance Examination Online Application- Last date : 01.12.2024<img src="images/new.gif"></sup></p>
+  </div> -->
+
+
+
+ <!--  <div class="py-3">
+    <div class="date"><span class="month">May</span><span class="day">31</span><span class="year">2024</span></div>
+      <p align="justify"><a href="Documents/may24/Last date for Assignment submission - June 2024 Exam.pdf" target="_blank">Last date for submission of Home Assignment is 05.07.2024-TEE June 2024<img src="images/new.gif"></sup></p>
+  </div> -->
+
+
+
+  <!-- <div class="py-3">
+    <div class="date"><span class="month">May</span><span class="day">02</span><span class="year">2024</span></div>
+      <p align="justify"><a href="https://tnouportal.in/" target="_blank">Please click the below Link for viewing Jan 2024<strong> Results.</strong><img src="images/new.gif"></sup></p>
+  </div> -->
+
+
+
+ <!--  <div class="py-3">
+    <div class="date"><span class="month">May</span><span class="day">02</span><span class="year">2024</span></div>
+      <p align="justify"><a href="Documents/may24/Press Release - English.pdf" target="_blank">Term End Examination January 2024 - Result<br> Press Release<img src="images/new.gif"></sup></p>
+  </div>
+ -->
+
+
+
+  <!-- <div class="py-3">
+    <div class="date"><span class="month">December</span><span class="day">28</span><span class="year">2023</span></div>
+      <p align="justify"><a href="prospectus-bed.php" target="_blank">B.Ed. Special Education Prospectus - CY 2024</p>
+  </div> -->
+
+
+
+  <!-- <div class="py-3">
+    <div class="date"><span class="month">December</span><span class="day">11</span><span class="year">2023</span></div>
+      <p align="justify"><a href="https://docs.google.com/forms/d/e/1FAIpQLSffVvY3ntOotqwBKQZJ3HXjgWnHYtOZjZ12B_PmnlATECmFLg/viewform?pli=1" target="_blank">Students Details for Educational (UMIS) Purpose</p>
+  </div>
+
+ -->
+
+  <!-- <div class="py-3">
+    <div class="date"><span class="month">November</span><span class="day">6</span><span class="year">2023</span></div>
+      <p align="justify"><a href="Documents/dec23/IVVbharat.pdf" target="_blank">Ideas for the Vision of Viksit Bharat@2047</p>
+  </div> -->
+
+    
+   
+   <!-- <div class="py-3">
+    <div class="date"><span class="month">November</span><span class="day">6</span><span class="year">2023</span></div>
+      <p align="justify"><a href="abcid.php" target="_blank">AY 2022-23, CY 2023 & AY 2023-24 students ABC ID Creation link<img src="img\new.gif"></a>
+    </p>
+  </div> -->
+
+ 
+
+ <!--  <div class="py-3">
+    <div class="date"><span class="month"> August</span><span class="day">30</span><span class="year">2023</span></div>
+      <p align="justify"><a href="Documents/videos/ODL-FAQ.mp4" target="_blank">UGC - Degrees offered in ODL mode are Equivalent to Degrees offered in Conventional mode <i class="fa fa-video-camera" aria-hidden="true"></i></a>
+    </p>
+  </div> -->
+
+
+
+  <!-- <div class="py-3">
+    <div class="date"><span class="month"> Feb</span><span class="day">09</span><span class="year">2023</span>
+    </div>
+      <p align="justify"> <a href="https://tnou.ac.in/wp-content/uploads/2021/12/1.New-Application-form-for-CC-recognition.docx" target="_blank">Applications are Invited for the Establishment of New Community College to offer Vocational Diploma/Advanced Vocational Diploma of TNOU </a></p> 
+    </div>
+  <div class="py-3"> -->
+
+
+
+ <!--  <div class="date"><span class="month"> Feb</span><span class="day">09</span><span class="year">2023</span>
+    </div>
+      <p align="justify"><a href="https://tnou.ac.in/wp-content/uploads/2023/01/LSC-APPLICATION-09.01.2023.docx" target="_blank">Applications are Invited for Establishment of Learner Support Centres in Tamil Nadu </a></p>
+    </div>
+  <div class="py-3"> -->
+
+
+
+  <!-- <div class="date"><span class="month"> Jan</span><span class="day">03</span><span class="year">2022</span></div>
+
+
+  <p align="justify"> <a href="https://tnou.ac.in/tnou_gos/" target="_blank">தமிழ்நாடு திறந்தநிலைப் பட்டங்கள்  அரசு வேலை மற்றும் பதவி உயர்வுக்குச் செல்லும் - பத்திரிகை செய்தி </a></p>
+
+
+</div> -->
+
+
+
+
+
+
+
+</marquee>
+
+
+
+<ul class="nav nav-pills nav-justified">
+
+
+
+  <li class="nav-item bg-green p-2" style="border:1px solid #FFFFFF;"> <a href="ViewAllNews.php" class=" text-white">View All News </a> </li>
+
+
+
+  
+
+
+
+</ul>
+
+
+
+      </div>
+      <div class="col-lg-9 text-center" data-aos="fade-right">
+        <div class="row text-center justify-content-center ">
+          <div class="col-lg-8">
+            <h2 class="section-title text-center py-3">Welcome to Our University</h2>
+            <p align="justify" class="blockquote" style="text-indent:3rem;">TNOU was established by an Act of (No.27 of 2002) Legislature of Tamilnadu in 2002. In fact, the Tamilnadu Government through TNOU has assumed the responsibility to meet the ever-growing demands for Higher Education from diverse sections of the society, irrespective of caste, creed, religion, age, profession and habitat, in the State by way of Reaching the Unreached and Education for All and Ever at an affordable cost. The motto of TNOU is Education for All.
+              <!-- <a href="about-tnou.php" class="float-center">-->
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button id="myButton" style="background-color: #003270; border-radius: 15px;width: 140px;color: white;font-size: 14px; padding: 5px;"> Read more....</button>
+            </p>
+            <script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "about-tnou.php";
+    };
+</script>
+            <div class="row">
+              <ul class="nav nav-tabs">
+                <li class="p-2"><a href="Academicplanner.php" class="thumbnail p-3" target="_blank"><img src="images/ac-3.png" class="img-fluid" alt="" class="mb-2"><br>
+                  Academic<br>
+                  Planner</a></li>
+                <li class="p-2"><a href="oar.php" class="thumbnail p-3" target="_blank"><img src="images/ico-7.png" class="img-fluid" alt="" class="mb-2"><br>
+                  Open Access<br>
+                  Resources</a></li>
+
+                <li class="p-2"><a href="Documents\2026\KVS\AY 2026.jpg" class="thumbnail p-3" target="_blank"><img src="images/icon.png" class="img-fluid" alt="" class="mb-2"><br>
+                  Programmes <br>
+                  offered</a></li>
+
+                <li class="p-2"><a href="Online-Assignment-Submission.php" class="thumbnail" target="_blank"><img src="images/ico-8.png" class="img-fluid" alt="" class="mb-2"><br>
+                  Assignment<br>
+                  Question<br>
+                  Papers</a></li>
+                <li class="p-2"><a href="Documents/jun23/poay2023.pdf" class="thumbnail p-3" target="_blank"><img src="images/ac-6.png" class="img-fluid" alt="" class="mb-2"> <br>
+                  Programme<br>
+                  Coordinators</a></li>
+                <li class="p-2"><a href="https://tnou.ac.in/eslm/" class="thumbnail p-3" target="_blank"><img src="images/image-1.png" class="img-fluid" alt="" class="mb-2"> <br>
+                  E-Slm</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            
+
+
+
+
+
+
+
+<h3 class="section-title text-center py-0" align="center">Research Corner</h3>
+
+
+
+<marquee behavior="scroll" scrollamount="3" direction="up" onMouseOver="this.stop();" onmouseleave="this.start();" height="370px">
+
+
+<!-- *****NEW EVENTS NOV 2025****** -->
+
+<!-- <div class="py-3">
+
+  <p align="justify"><a href="https://forms.gle/VTdDUWh6CQhCeZTDA">EMERGING DIMENSIONS OF RESEARCH METHODOLOGY ACROSS DISCIPLINES</a><span class="ann">Last Date: </span><span class="blink2">15-11-2025</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdd7jZHtAMEDE3zX2c-zeqdoUS_W71O4I-QDYY3ucmFB6wyrw/viewform?usp=sf_link">RESEARCH METHODOLOGY FOR RESEARCH SCHOLARS IN SOCIAL SCIENCES</a><span class="ann">Last Date: </span><span class="blink2">17-11-2025</span>
+
+  </p>
+
+  </div>  -->
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://www.iiitdm.ac.in/notifications/current-events">INTEGRATION OF AI AND QUANTUM COMPUTING FOR ROBOT</a><span class="ann">Last Date: </span><span class="blink2">17-11-2025</span>
+
+  </p>
+
+  </div>
+ -->
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://forms.gle/53Au8wzowmrs7vji9
+  ">RESEARCH METHODOLOGY COURSE</a><span class="ann">Last Date: </span><span class="blink2">18-11-2025</span>
+
+  </p>
+
+  </div>
+ -->
+
+<!-- <div class="py-3">
+
+  <p align="justify"><a href="https://erp.loyolacollege.edu/loyolaonline/conference/loginManager/youLogin.jsp"> RESEARCH STRATEGIES FOR SUSTAINABLE FUTURES: ALIGNING WITH SDGS</a><span class="ann">Last Date: </span><span class="blink2">18-11-2025</span>
+
+  </p>
+
+  </div> -->
+
+<!-- <div class="py-3">
+
+  <p align="justify"><a href="http://sfe.net.in/conf/index.php?id=3358441"> World Congress on Cell & Tissue Science (WCCTS-2025)
+  </a><span class="ann">Last Date: </span><span class="blink2">18-11-2025</span>
+
+  </p>
+
+  </div> -->
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://indiabioscience.org/events/quantitative-single-cell-biology-workshop-2025"> Quantitative Single-cell Biology Workshop (QSCB)
+  </a><span class="ann">Last Date: </span><span class="blink2">19-11-2025</span>
+
+  </p>
+
+  </div>
+ -->
+<!-- 
+  <div class="py-3">
+
+  <p align="justify"><a href="https://forms.gle/TAGmDypMHRgXJxV98">A TWO-DAY ONLINE INTERNATIONAL MULTI DISCIPLINARY CONFERENCE ON GLOBAL ISSUES AND MEDIA RESPONSE(29-11–2025 & 30-11-2025)</a><span class="ann">Last Date: </span><span class="blink2">Abstract Submission:20-11-2025</span>
+
+  </p>
+
+  </div>  -->
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://mmc.ugc.ac.in/">"SHORT-TERM PROGRAM ON UNIVERSAL WELLBEING AND ANCIENT TRADITIONS OF THE WORLD (ONLINE)"</a><span class="ann">Last Date: </span><span class="blink2">23-11-2025</span>
+
+  </p>
+
+  </div> -->
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://forms.gle/syahaxG24ZLnwo1F7">"ONE WEEK ONLINE FACULTY DEVELOPMENT PROGRAMME ON RESEARCH METHODOLOGY & HANDS-ONTRAINING ON SMART- PLS 4.0 24TH-29TH NOV, 2025"</a><span class="ann">Last Date: </span><span class="blink2">24-11-25</span>
+
+  </p>
+
+  </div>  -->
+
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://mmc.ugc.ac.in/registration/Index">NEP 2020 ORIENTATION AND SENSITIZATION PROGRAMME</a><span class="ann">Last Date: </span><span class="blink2">25-11-2025</span>
+
+  </p>
+
+  </div>  -->
+
+
+
+
+
+<!--  <div class="py-3">
+
+  <p align="justify"><a href="https://www.iiitdm.ac.in/notifications/current-events">A CUTTING-EDGE INNOVATIONS IN WEARABLE TECHNOLOGY DEVICES</a><span class="ann">Last Date: </span><span class="blink2">08-12-2025</span>
+
+  </p>
+
+  </div>
+ -->
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://waset.org/zoology-and-wild-animals-conference-in-december-2025-in-sydney?utm_source=conferenceindex&utm_medium=referral&utm_campaign=listing">International Conference on Zoology and Wild Animals</a><span class="ann">Last Date: </span><span class="blink2">12-12-2025</span>
+
+  </p>
+
+  </div>-->
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://forms.gle/foeqj6RNJwgBFA4A7">Recent Trends in Digital Learning</a><span class="ann">Last Date: </span><span class="blink2">18-12-2025</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://forms.gle/7g6fYbD2J8FbRKx1A">SUSTAINABILITY THROUGH DIGITAL TRANSFORMATION:INSIGHTS FROM MANAGEMENT, HUMANITIES, AND SCIENCES” SDT– Insights 2026</a><span class="ann">Last Date: </span><span class="blink2">30-12-2025</span>
+
+  </p>
+
+  </div>  -->
+
+
+   <div class="py-3">
+
+    <p align="justify"><a href="https://amsceht2026.opju.ac.in" style="color:blue;">"Advanced Materials for Sustainable Clean Energy and Healthcare Technologies 2026 (AMSCEHT-2026)"
+    <span class="bold1"><br>Last Date :</span><span class="blinking">20.06.2026</span></a></p> 
+  </p>
+
+  </div>
+
+<!-- <div class="py-3">
+
+  <p align="justify"><a href="https://erp.loyolacollege.edu/loyolaonline/conference">"Accelerating Growth through Next-Gen Intelligence and Technological Evolution in Commerce"
+  </a><span class="ann">Last Date: </span><span class="blink2">31.01.2026</span>
+
+  </p>
+
+  </div> -->
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://docs.google.com/forms/d/e/1FAIpQLScfxqZIXmNm855VVOzgEY4NLRFz-zNtGoMhjFtFBpjW9osbeg/viewform">NEXTGEN BUSINESS: GLOBAL ECONOMIC AND MANAGEMENT TRENDS (ICNGB 2026)
+  </a><span class="ann">Last Date: </span><span class="blink2">04-02-2026</span>
+
+  </p>
+
+  </div> -->
+
+
+  
+
+  
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://docs.google.com/forms/d/e/1FAIpQLScfxqZIXmNm855VVOzgEY4NLRFz-zNtGoMhjFtFBpjW9osbeg/viewform">NEXTGEN BUSINESS: GLOBAL ECONOMIC AND MANAGEMENT TRENDS (ICNGB 2026)</a><span class="ann">Last Date: </span><span class="blink2">04-02-2026</span>
+
+  </p>
+
+  </div> -->
+   
+  
+
+
+ <!-- ******OLD*****  -->
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://instituteforeducation.in/2024/08/03/international-conference/">ARTIFICIAL INTELLIGENCEResearch Trends, Emerging Technologies & Opportunities 26th,27th&28th Sept. 2024</a><span class="ann">Last Date: </span><span class="blink2">30.08.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://icicc.cmrtc.ac.in/" target="_blank">INTELLIGENT COMPUTING & COMMUNICATION ICICC-2024</a><span class="ann">Last Date: </span><span class="blink2">30 -31.08.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="http://www.iimcal.ac.in/" target="_blank">India Finance Conference (IFC) 2024-19 – 21, 2024+B3:C8BB3:C17</a><span class="ann">Last Date: </span><span class="blink2">31.08.2024</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="http://www.iimcal.ac.in/" target="_blank">India Finance Conference (IFC) 2024</a><span class="ann">Last Date: </span><span class="blink2">31.08.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://leadershipforum.co/Conference/7/WLEC/" target="_blank">Womens Leadership and Empowerment Conference (WLEC - 2024)</a><span class="ann">Last Date: </span><span class="blink2">31.08.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="http://www.46aiac.in/" target="_blank">46th All India Accounting Conference & International Seminar on Accounting Education & Research</a><span class="ann">Last Date: </span><span class="blink2">01-09-2024</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://theiier.org/Conference/22617/ICPLT/registration" target="_blank">Psychology, Language and Teaching- 23rd September, 2024</a><span class="ann">Last Date: </span><span class="blink2">03.09.2024</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="mailto:providencetamilsem24@gmail.com" target="_blank">தமிழ் சமூகப் பண்பாட்டு வெளியில் திராவிட எழுத்துக்களின் தாக்கம்</a><span class="ann">Last Date: </span><span class="blink2">06.09.2024</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="mailto:semmozhi1973@gmail.com" target="_blank">தமிழர் வரலாறும் பண்பாடும்</a><span class="ann">Last Date: </span><span class="blink2">10.09.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+
+
+
+
+
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="mailto:tamilseminarmnj@gmail.com" target="_blank">தமிழ் இலக்கியங்களில் பக்தி நெறி</a><span class="ann">Last Date: </span><span class="blink2">13.09.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><span style="color: blue;">திருமந்திரம் தமிழ் ஆய்வு மாநாடு</span><span class="ann">Last Date: </span><span class="blink2">15.09.2024</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="mailto:ic3t.co.in" target="_blank">Computer and Communication Technologies(IC3T)</a><span class="ann">Last Date: </span><span class="blink2">16.09.2024</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="mailto:info.iccmc@gmail.com" target="_blank">Computing Technologies And Communication</a><span class="ann">Last Date: </span><span class="blink2">20.09.2024</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://sites.google.com/ncmpe2024.com/ncmpe/home" target="_blank">MARINE POLLUTION AND ECOTOXICOLOGY-SEPTEMBER 25TH-27TH, 2024</a><span class="ann">Last Date: </span><span class="blink2">25.09.2024 TO 27.09.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+
+<!-- <div class="py-3">
+
+  <p align="justify"><a href="https://support.google.com/drive/answer/6283888" target="_blank">The Role of Sustainable Entrepreneurship in Building a Resilient and Regenerative Economy</a><span class="ann">Last Date: </span><span class="blink2">04.10.2024 and 05.10.2024</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+
+ <!--  <div class="py-3">
+  <p align="justify"><a href="mailto:sthctamilarticle@gmail.com" target="_blank">தமிழர் தெய்வ வழிபாடுகள்</a><span class="ann">Last Date: </span><span class="blink2">09.10.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="mailto:tamilpanuval2024@gmail.com" target="_blank">தமிழக கோயில் கல்வெட்டுகள் காட்டும் தமிழ்ச் சமூகம்</a><span class="ann">Last Date: </span><span class="blink2">10.10.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://www.paths.co.in/" target="_blank">Sustainable Development and Circular Economy: Roadmap for Inclusive and Equitable World</a><span class="ann">Last Date: </span><span class="blink2">10.10.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+   <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://psgtech.edu/icabsht%202024/" target="_blank">Advancements in Biomedical Systems & Healthcare Technology -20-21 Dec 2024</a><span class="ann">Last Date: </span><span class="blink2">11-10-2024</span>
+
+  </p>
+
+  </div> -->
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://forms.gle/JRMy64Xf3eW57B9T6" target="_blank">ROLE OF ARTIFICIAL INTELLIGENCE IN BUSINESS MANAGEMENT : PERSPECTIVES & IMPLICATIONS ON THE WAY TO VIKSIT BHARAT</a><span class="ann">Last Date: </span><span class="blink2">15.10.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://ipeain.in" target="_blank">The Past, Present  and the Future of Inclusive Development 16th-17th december</a><span class="ann">Last Date: </span><span class="blink2">15.10.2024</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://ipeain.in" target="_blank">The Past, Present  and the Future of Inclusive Development 16th-17th december</a><span class="ann">Last Date: </span><span class="blink2">15.10.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://ipeain.in" target="_blank">The Past, Present  and the Future of Inclusive Development 16th-17th december</a><span class="ann">Last Date: </span><span class="blink2">15.10.2024</span>
+
+  </p>
+
+  </div> -->
+
+  
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://ipeain.in" target="_blank">The Past, Present  and the Future of Inclusive Development 16th-17th december</a><span class="ann">Last Date: </span><span class="blink2">15.10.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+ <!--  <div class="py-3">
+
+  <p align="justify"><a href="https://aicc75.pacific-university.ac.in/login.aspx" target="_blank">75th All India Commerce Conference</a><span class="ann">Last Date: </span><span class="blink2">18-10-2024 - 20-10-2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://www.asmp2024.com/" target="_blank">Psychology Conference</a><span class="ann">Last Date: </span><span class="blink2">30.10.2024</span>
+
+  </p>
+
+  </div>
+ -->
+
+
+<!-- <div class="py-3">
+
+  <p align="justify"><a href="mailto:aarthamizh2023@gmail.com " target="_blank">நடுநாட்டு வரலாற்று சுவடுகள் </a><span class="ann">Last Date: </span><span class="blink2">30.10.2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+ <!-- <div class="py-3">
+
+  <p align="justify"><a href="mailto:tamilpanuval2024@gmail.com, 9361965895" target="_blank">மூன்றாவது சர்வதேச சிலப்பதிகார மாநாடு </a><span class="ann">Last Date: </span><span class="blink2">03.11.2024  &  01.12.2024
+  </span>
+
+  </p>
+
+  </div> -->
+
+
+
+  
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://psgtech.edu/icabsht%202024/" target="_blank">Advancements in Biomedical Systems & Healthcare Technology </a><span class="ann">Last Date: </span><span class="blink2">11.11.2024</span>
+
+  </p>
+
+  </div>-->
+
+
+
+   <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://www.springer.com/gp/authors-editors/book-authors-editors/your-publication-journey/manuscript-preparation" target="_blank">Computer Science online conference</a><span class="ann">Last Date: </span><span class="blink2">17-12-2024</span>
+
+  </p>
+
+  </div> -->
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://irchss.sjp.ac.lk/" target="_blank">“Advancing Sustainable Development Research in the Age of Artificial Intelligence”</a><span class="ann">Last Date: </span><span class="blink2">31-12-2024</span>
+
+  </p>
+
+  </div> -->
+
+
+
+<!-- <div class="py-3">
+
+  <p align="justify"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfU4dIx-a1RvnIuAfws9W0SG2nuZDKufpM_4y0nurTb_Mveqg/viewform" target="_blank">“International Conference on Management Practices in AI Driven Business World_20 & 21st February 2025 ”</a><span class="ann">Last Date: </span><span class="blink2">20/02/2025 TO 21/02/2025</span>
+
+  </p>
+
+  </div> -->
+
+<!-- <div class="py-3">
+
+  <p align="justify"><a href="https://docs.google.com/forms/d/e/1FAIpQLSedAZcMhIAe36Msbo3Onmpm6HImxYfHuxwZuT8bKeziIIlXqg/viewform?usp=pp_url" target="_blank">“INTERNATIONAL CONFERENCE (HYBRID MODE) ON WORK, MIGRATION, AND SOCIETY”</a><span class="ann">Last Date: </span><span class="blink2">21.2.2025</span>
+
+  </p>
+
+  </div> -->
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfoTlCcaZgs6y1qIaZLidn32MOMxFRE3eHLjDM7qR21hpN68g/viewform" target="_blank">“National Conference on Current Scenario of Indian Economy Achievements and Challenges”</a><span class="ann">Last Date: </span><span class="blink2">28.02.2025</span>
+
+  </p>
+
+  </div>  -->
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://www.jbspmasccollegegadhi.com" target="_blank">
+  “Global Foundation Organize Multidisciplinary International E-Conference on The Future of Knowledge: Interdisciplinary Pathways to Innovation (FKIPI-2025)” </a><span class="ann">Last Date: </span><span class="blink2">28.02.2025</span>
+
+  </p>
+
+  </div> --> 
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://mits.ac.in/ChemConvergence2025/index.html" target="_blank">
+  “ChemConvergence2025: Advancing Chemistry Through Multidisciplinary Innovations”</a><span class="ann">Last Date: </span><span class="blink2">04.03.2025</span>
+
+  </p>
+
+  </div>   -->
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://sites.google.com/view/geovista2025/home" target="_blank">
+  "National conference on Geographical Visualization : Trends and Application "</a><span class="ann">Last Date: </span><span class="blink2">07.03.2025</span>
+
+  </p>
+
+  </div>  --> 
+
+
+  <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://www.bdu.ac.in/schools/physics/non-linear-dynamics " target="_blank">
+  "Conference on non linear system and dynamics"</a><span class="ann">Last Date: </span><span class="blink2">10.3.2025</span>
+
+  </p>
+
+  </div>    -->
+
+
+
+<!-- <div class="py-3">
+
+  <p align="justify"><a href=" " target="_blank">
+  "Sustainable AI Business Practices in Management, Economics and
+  Commerce - Reinventing the Future"</a><span class="ann">Last Date: 
+  </span><span class="blink2">11.03.2025</span></p>
+
+</div> -->   
+
+
+ <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://www.dscasc.edu.in/" target="_blank">
+  "Onsite One Day National Level Seminar On Fostering Inclusivity: Wellness and Development for Women and Divyangjan"
+  </a><span class="ann">Last Date: 
+  </span><span class="blink2">21.03.2025</span></p>
+
+</div>    -->
+
+<!-- 
+<div class="py-3">
+
+  <p align="justify"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdXMFtHkKolnyKvUH2ITNbOCf_XkQlMU7_EDDMgv4Wepfx1WA/viewform" target="_blank">
+
+  “Rebuild Engineering and Management Operation in Aviation Science”
+  ConREMOAS’25 conducted  by Remo International College(RIC) 
+
+  </a><span class="ann">Last Date: 
+  </span><span class="blink2">22.03.2025</span></p> -->
+
+<!-- </div>   -->
+
+
+ <!-- <div class="py-3">
+
+  <p align="justify"><a href="https://www.dscasc.edu.in/" target="_blank">
+  "Onsite One Day National Level Seminar On Fostering Inclusivity: Wellness and Development for Women and Divyangjan"
+  </a><span class="ann">Last Date: 
+  </span><span class="blink2">21.03.2025</span></p>
+  
+</div>  -->
+   
+
+
+</marquee>
+
+
+
+
+
+<ul class="nav nav-pills nav-justified">
+
+<li class="nav-item bg-black p-2" style="border:1px solid #FFFFFF; border-radius: 20px;"> <a href="RSViewAllNews.php" class=" text-white">View All Events </a> </li>
+
+</ul>
+
+
+
+
+
+<style type="text/css">
+
+@keyframes blink2 {
+
+  50% {
+
+    opacity: 0.0;
+
+  }
+
+}
+
+.blink2 {
+
+  border-radius: 5px;
+
+  background-color: black;
+
+  color: yellow;
+
+  animation: blink2 0.5s step-start 0s infinite;
+
+}
+
+.ann{
+
+  color: black;
+
+  text-decoration: underline;
+
+}
+
+</style>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="untree_co-section caros">
+  <div class="container">
+    <div class="row">
+      <div class="col-6 col-md-6 col-lg-3 border border-1 p-1 bg-warning" data-aos="fade-right" data-aos-duration="2000">
+        <div class="service text-center"> <span class="icon-paper-plane"></span>
+          <h3 class="">Schools of Study</h3>
+          <div class="p-2 owl-carousel owl-theme owl-loaded owl-drag">
+            <div> <a href="SchoolCultural.php">
+              <div><img src="images/tamilculture.jpg" class="img-fluid" alt=""  ></div>
+              <br />
+              <h5>School of <span>Tamil and Cultural Studies</span></h5>
+              </a> </div>
+            <div> <a href="SchoolComputer.php">
+              <div> <img src="images/computer.jpg" alt=""></div>
+              <br />
+              <h5>School of <span>Computer Science</span></h5>
+              </a> </div>
+            <div> <a href="SchoolScience.php">
+              <div> <img src="images/computer.jpg" alt=""></div>
+              <br />
+              <h5>School of <span> Science</span></h5>
+              </a> </div>
+            <div> <a href="SchoolManagement.php">
+              <div> <img src="images/sch-imgz.jpg" alt=""></div>
+              <br />
+              <h5>School of <span>Management Studies</span></h5>
+              </a> </div>
+            <div> <a href="SchoolSocial.php">
+              <div><img src="images/social.jpg" alt=""></div>
+              <br />
+              <h5>School of <span>Social Sciences</span></h5>
+              </a> </div>
+            <div> <a href="SchoolEducation.php">
+              <div><img src="images/education.jpg" alt=""></div>
+              <br />
+              <h5>School of <span>Education</span></h5>
+              </a> </div>
+            <div> <a href="SchoolLibrary.php">
+              <div><img src="images/library.jpg" alt=""></div>
+              <br />
+              <h5>School of <span>Library and Information Science</span></h5>
+              </a> </div>
+            <div> <a href="SchoolHumanities.php">
+              <div><img src="images/humanities.jpg" alt=""></div>
+              <br />
+              <h5>School of <span>Humanities</span></h5>
+              </a> </div>
+            <div> <a href="SchoolJournalism.php">
+              <div> <img src="images/Journalism-and-New-Media-Studies.jpg" alt=""></div>
+              <br />
+              <h5>School of <span>Journalism and New Media Studies</span></h5>
+              </a> </div>
+            <div> <a href="SchoolPolitics.php">
+              <div><img src="images/Politics-Administration.jpg" alt=""></div>
+              <br />
+              <h5>School of <span>Politics and Public Administration</span></h5>
+              </a> </div>
+            <div> <a href="SchoolContinuingEdu.php">
+              <div><img src="images/ceducation.jpg" alt=""></div>
+              <br />
+              <h5>School of <span>Continuing Education</span></h5>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3 border border-1 p-1 theme-bg" data-aos="fade-left" data-aos-duration="2000">
+        <div class="service text-center"> <span class="icon-tag"></span>
+          <h3>Regional Centres</h3>
+          <div class="p-2 owl-carousel owl-theme owl-loaded owl-drag">
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/Chennai.jpg" class="img-fluid" alt=""></div>
+              <br />
+              <h5> Chennai</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/Coimbatore.jpg" alt=""></div>
+              <br />
+              <h5>Coimbatore</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/Dharmapuri.jpg" alt=""></div>
+              <br />
+              <h5>Dharmapuri</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/Madurai.jpg" alt=""></div>
+              <br />
+              <h5> Madurai</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/Mayiladuthurai.jpg" alt=""></div>
+              <br />
+              <h5>Mayiladuthurai</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/salem.jpg" alt=""></div>
+              <br />
+              <h5>Salem</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/Sivagangai.jpg" alt=""></div>
+              <br />
+              <h5> Sivagangai</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/Nilgiris.jpg" alt=""></div>
+              <br />
+              <h5>The Nilgiris</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div><img src="img/Tirunelveli.jpg" alt=""></div>
+              <br />
+              <h5>Tirunelveli</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/Tiruvannamalai.jpg" alt=""></div>
+              <br />
+              <h5>Tiruvannamalai</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/Trichy.jpg" alt=""></div>
+              <br />
+              <h5>Trichy</h5>
+              </a> </div>
+            <div> <a href="RegionalCentres.php">
+              <div> <img src="img/Villuppuram.jpg" alt=""></div>
+              <br />
+              <h5>Villuppuram</h5>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3 border border-1 p-1 bg-warning" data-aos="fade-up" data-aos-duration="2000">
+        <div class="service text-center"> <span class="icon-user"></span>
+          <h3>Constituent Community Colleges </h3>
+          <div class="p-2 owl-carousel owl-theme owl-loaded owl-drag">
+            <div> <a href="ConstituentClg.php"> <img src="images/cchennai.jpg" alt=""> <br />
+              <h5> Chennai</h5>
+              </a> </div>
+            <div> <a href="ConstituentClg.php"> <img src="images/Tailoring.jpg" alt=""> <br />
+              <h5>Villupuram</h5>
+              </a> </div>
+            <div> <a href="ConstituentClg.php"> <img src="images/production.jpg" alt=""> <br />
+              <h5>The Nilgiris</h5>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-6 col-lg-3 border border-1 p-1 theme-bg" data-aos="fade-down"  data-aos-duration="2000">
+        <div class="service text-center"> <span class="icon-support"></span>
+          <h3>Gallery</h3>
+          <div class="p-2 owl-carousel owl-theme owl-loaded owl-drag">
+            <div> <a href="Gallery.php"> <img src="images/collage.jpg" alt=""> <br />
+              <h5> <span>Photos</span></h5>
+              </a> </div>
+            <div> <a href="Videos.php"> <img src="img/video.png" alt=""> <br />
+              <h5> <span>Videos</span></h5>
+              </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer Start -->
+
+
+
+<div class="container-fluid   bg-green p-2">
+
+  <div class="container">
+
+    <div class="row g-5">
+
+      <div class="col-lg-3 col-md-6 p-2">
+
+        <h4 class="text-warning" >Our Services</h4>
+
+        <hr class="w-100 text-secondary" >
+
+        <div class="d-flex flex-column justify-content-start">  <a class="text-light mb-2" href="modeofadmission.php"><i class="fa fa-angle-right me-2"></i>Admission</a><a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Students Grievance</a> <a class="text-light mb-2" href="OER.php"><i class="fa fa-angle-right me-2"></i>OERs</a> <a class="text-light mb-2" href="Library.php"><i class="fa fa-angle-right me-2"></i>Library</a>  <a class="text-light mb-2" href="examresults.php"><i class="fa fa-angle-right me-2"></i>Results</a> 
+
+		<a class="text-light" href="WhomContact.php"><i class="fa fa-angle-right me-2"></i>Help Lines</a> 
+
+		
+
+		 </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-6 p-2">
+
+        <h4 class="text-warning" >Quick Links</h4>
+
+        <hr class="w-100 text-secondary" >
+
+        <div class="d-flex flex-column justify-content-start"> <a class="text-light mb-2" href="RegionalCentres.php"><i class="fa fa-angle-right me-2"></i>Regional Centres</a> <a class="text-light mb-2" href="ListofCommunityColleges.php"><i class="fa fa-angle-right me-2"></i>Community Colleges </a> <a class="text-light mb-2 animate__bounce"  href="NewsLetter.php"><i class="fa fa-angle-right me-2"></i>News Letter</a> 
+      <a class="text-light mb-2" href="GO.php"><i class="fa fa-angle-right me-2"></i>G.O.'s</a>
+		 <a class="text-light mb-2" href="Privacy.html"><i class="fa fa-angle-right me-2"></i>Privacy Policy </a>
+      <a class="text-light mb-2" href="RTI.php"><i class="fa fa-angle-right me-2"></i> RTI </a>
+
+      <a class="text-light mb-2" href="https://samadhaan.ugc.ac.in/" target="_blank"><i class="fa fa-angle-right me-2"></i>e-Samadhaan</a>
+
+	    
+		
+
+		 </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-9 p-2 text-white">
+
+        <h4 class="col-lg-12 text-warning text-md-end" >Get In Touch</h4>
+
+        <hr class="w-100 text-secondary" >
+
+        <p class="mb-8">&nbsp;&nbsp;&nbsp;&nbsp;Tamil Nadu Open University <br>
+
+       <i class="fa fa-map-marker-alt text-warning px-2"></i>No 577, Anna Salai, Saidapet,<br>
+
+          <span class="px-4"> Chennai - 600 015.</span></p>
+
+
+        <p class="mb-0"><i class="fa fa-phone-alt text-warning px-2"></i>044-24306600 </p>
+<br>
+
+ <ul class="list-group list-group-horizontal" type="none">
+
+          <li> <a class="fb-ico" href="https://www.facebook.com/tnou.cui/" target="_blank" ;=""><img src="images/social/facebook.png" /> </a></li>
+
+          <li> <a class="tw-ico" href="https://twitter.com/TNOUniversity" target="_blank" ;=""> <img src="images/social/twitter.png" /></a></li>
+
+          <li> <a class="linkedin-ico" href="https://www.linkedin.com/in/tnouofficial/" target="_blank"><img src="images/social/linkedin.png" /> </a></li>
+
+          <li> <a class="yt-ico" href="https://www.instagram.com/tnouofficial/" target="_blank"><img src="images/social/insta.png" /> </a></li>
+
+          <li> <a class="yt-ico" href="https://www.youtube.com/@tamilnaduopenuniversity2902" target="_blank"><img src="images/social/youtube.png" /> </a></li>
+
+          <li> <a class="yt-ico" href="Telegram.php" target="_blank"><img src="images/social/telegram.png" /> </a></li>
+
+           <li> <a class="yt-ico" href="https://i-radiolive.com/podcast/channel/TamilnaduOpenUniversity" target="_blank"><img src="images/social/radio.png" /> </a></li>
+
+        </ul>
+  <!-- <p class="text-md-start" style="font-size: 15px;">Copyright &copy; tnou.ac.in  All Rights Reserved.</p> -->
+
+      </div>
+      <div class="col-lg-3 col-md-6 p-2 text-white">
+        <br>
+         <h4><hr class="w-100 text-secondary" ></h4>
+      
+        <div class="map unv p-2">
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.242149371992!2d80.22358421482252!3d13.020245890823963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52670f32d313a1%3A0x9c3c8d75739b21c3!2sTamil%20Nadu%20Open%20University!5e0!3m2!1sen!2sin!4v1598338506077!5m2!1sen!2sin" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="100%" height="160" frameborder="0"></iframe>
+
+
+ <h5 align="right"> <a href='https://embedmaps.net'  ><span style="color:#003270;">google maps</span></a>
+
+          <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=10f88429b6df80c50be7a23b941a4f7d69094187'></script>
+
+          <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1001527/t/5"></script>
+ <p class="text-md-start" style="font-size: 14px;">Copyright &copy; tnou.ac.in  All Rights Reserved.</p>
+        </h5>
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- <div class="container-fluid   bg-green py-4  text-white">
+
+  <div class="container">
+
+    <div class="row g-0"> -->
+
+      <!-- <div class="col-md-6 text-center text-md-start">
+
+        <ul class="list-group list-group-horizontal" type="none">
+
+          <li> <a class="fb-ico" href="https://www.facebook.com/tnou.cui/" target="_blank" ;=""><img src="images/social/facebook.png" /> </a></li>
+
+          <li> <a class="tw-ico" href="https://twitter.com/TNOUniversity" target="_blank" ;=""> <img src="images/social/twitter.png" /></a></li>
+
+          <li> <a class="linkedin-ico" href="https://www.linkedin.com/in/tnouofficial/"><img src="images/social/linkedin.png" /> </a></li>
+
+          <li> <a class="yt-ico" href="https://www.instagram.com/tnouofficial/"><img src="images/social/insta.png" /> </a></li>
+
+          <li> <a class="yt-ico" href="https://www.youtube.com/@tamilnaduopenuniversity2902"><img src="images/social/youtube.png" /> </a></li>
+
+          <li> <a class="yt-ico" href="Telegram.php"><img src="images/social/telegram.png" /> </a></li>
+
+        </ul> 
+
+       
+
+      </div>  -->
+
+<!-- copy right sample -->
+
+<!--       <div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+    
+    </div>
+    <div class="col-sm-2">
+     
+    </div>
+    <div class="col-sm-8 text-end">
+      Copyright &copy; tnou.ac.in  All Rights Reserved.
+    </div>
+  </div></div> -->
+
+
+
+      <!--    <div class="col-md-6 text-center" >
+
+
+     <h5 align="right"> <a href='https://embedmaps.net'  ><span style="color:#006400;">google maps widget dreamweaver</span></a>
+
+          <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=10f88429b6df80c50be7a23b941a4f7d69094187'></script>
+
+          <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1001527/t/5"></script>
+
+        </h5>
+
+      
+
+      </div> -->
+
+ <!--    </div>
+
+  </div>
+
+</div>   -->
+
+<!-- Footer End -->
+
+<script src="js/aos.js"></script>
+
+<script src="awesome/js/all.min.js"></script>
+
+<script src="owl/owl.carousel.min.js"></script>
+
+<script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script src="js/custome.js"></script>
+
+<script src="js/custom.js"></script>
+
+<script>
+
+
+
+
+
+
+
+  AOS.init();
+
+
+
+
+
+
+
+</script>
+
+<script>
+
+
+
+
+
+
+
+		$(function() {
+
+
+
+
+
+
+
+			var slides = $('.slides'),
+
+
+
+
+
+
+
+			images = slides.find('img');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			images.each(function(i) {
+
+
+
+
+
+
+
+				$(this).attr('data-id', i + 1);
+
+
+
+
+
+
+
+			})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			var typed = new Typed('.typed-words', {
+
+
+
+
+
+
+
+				strings: ["San Francisco."," Paris."," New Zealand.", " Maui.", " London."],
+
+
+
+
+
+
+
+				typeSpeed: 80,
+
+
+
+
+
+
+
+				backSpeed: 80,
+
+
+
+
+
+
+
+				backDelay: 4000,
+
+
+
+
+
+
+
+				startDelay: 1000,
+
+
+
+
+
+
+
+				loop: true,
+
+
+
+
+
+
+
+				showCursor: true,
+
+
+
+
+
+
+
+				preStringTyped: (arrayPos, self) => {
+
+
+
+
+
+
+
+					arrayPos++;
+
+
+
+
+
+
+
+					console.log(arrayPos);
+
+
+
+
+
+
+
+					$('.slides img').removeClass('active');
+
+
+
+
+
+
+
+					$('.slides img[data-id="'+arrayPos+'"]').addClass('active');
+
+
+
+
+
+
+
+				}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			});
+
+
+
+
+
+
+
+		})
+
+
+
+
+
+
+
+	</script>
+
+</body></html>

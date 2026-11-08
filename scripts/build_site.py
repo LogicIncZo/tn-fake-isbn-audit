@@ -308,6 +308,28 @@ HTML = f"""<!doctype html>
 </section>
 
 <section>
+  <div class="kicker">The Fleet</div>
+  <h2>Same factory check, every public Koha library in TN we could reach</h2>
+  <p class="dek">Five more Tamil Nadu Koha catalogs swept on 08 November 2026 for the factory fingerprints: the Phoenix imprint, the Thenmozhi B block, and the one ISBN that sits on shelves in both flagships (9789394612709, held in Chennai as biblio 526405 and in Madurai as biblio 100032).</p>
+  <div class="tblwrap">
+  <table>
+    <tr><th>Library</th><th>Koha OPAC</th><th>pb:Phoenix</th><th>pb:Thenmozhi</th><th>nb:9789394612709 (cross-library fingerprint)</th><th>Verdict</th></tr>
+    <tr><td>Anna Centenary Library, Chennai</td><td><a href="http://118.185.210.241:8001">118.185.210.241:8001</a></td><td>145 hijacked rows (full-catalog screen)</td><td>—</td><td class="num">1</td><td><span class="badge l1">factory present</span></td></tr>
+    <tr><td>Kalaignar Centenary Library, Madurai</td><td><a href="http://122.184.84.190:1011">122.184.84.190:1011</a></td><td class="num">352</td><td class="num">0</td><td class="num">1</td><td><span class="badge l1">factory present</span></td></tr>
+    <tr><td>University of Madras Library, Chennai</td><td><a href="http://117.239.156.200">117.239.156.200</a></td><td class="num">16 (sampled: real "Phoenix" books)</td><td class="num">0</td><td class="num">0</td><td>clean</td></tr>
+    <tr><td>Periyar University "Thiruvalluvar Library", Salem</td><td><a href="http://14.139.186.90:8081">14.139.186.90:8081</a></td><td class="num">5</td><td class="num">16 (M.Thenmozhi 1996–2001, real Tamil publisher)</td><td class="num">0</td><td>clean</td></tr>
+    <tr><td>VIT (Vellore Institute of Technology)</td><td><a href="https://webopaccc.vit.ac.in">webopaccc.vit.ac.in</a></td><td class="num">24 (private college, different vendor era)</td><td class="num">0</td><td class="num">0</td><td>clean (not a procurement-scam library)</td></tr>
+    <tr><td>Tamil Nadu Agricultural University</td><td><a href="https://tnau.bestbookbuddies.com">tnau.bestbookbuddies.com</a></td><td colspan="3">unreachable from probe vantage (sandbox + OCI Mumbai) — pending</td><td><span class="badge l1">not tested</span></td></tr>
+    <tr><td>SSN College of Engineering</td><td>opac.ssn.edu.in</td><td colspan="3">Koha detected on site, no live OPAC base answered</td><td><span class="badge l1">not tested</span></td></tr>
+    <tr><td>CUTN Chozha Central Library</td><td>centrallibrary.cutn.ac.in/services/opac</td><td colspan="3">OPAC page is an image-only link (opac.png); no public Koha URL published</td><td><span class="badge l1">not tested</span></td></tr>
+  </table>
+  </div>
+  <p class="dek">The cross-library fingerprint ISBN (9789394612709, "Data Analysis Using Python", printed Phoenix 2023) is in the registry allocated to <b>Thenmozhi B</b> for a different book entirely (“Introduction to Projective Geometry”). It sits on shelves at both flagship libraries. None of the five other TN Koha catalogs we could reach hold it. Raw sweep: <a href="data/koha-tn-sweep.csv">koha-tn-sweep.csv</a> · instances: <a href="data/tn-koha-instances.json">tn-koha-instances.json</a>.</p>
+</section>
+
+<section>
+  <div class="kicker">The Complaint</div>
+  <h2>The DVAC complaint, in facsimile</h2><section>
   <div class="kicker">The Complaint</div>
   <h2>The DVAC complaint, in facsimile</h2>
   <p class="dek">Filed 07 November 2026 with the Directorate of Vigilance and Anti-Corruption, Tamil Nadu. Pages 1–4.</p>

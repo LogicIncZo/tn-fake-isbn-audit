@@ -1,0 +1,1523 @@
+				 
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="2z-VNRf4wzJWSGN-iJv2JfA_9S3PA2tHK2HKZqnQ3oo" />
+		<title>TANUVAS</title>
+		<link rel="icon" href="img/favIcon.png" type="image/png">
+		<link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="fontawesome/css/all.css">
+		<link type="text/css" rel="stylesheet" href="css/uikit.min.css"> 
+		<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+		<link rel='stylesheet' href='css/header.css'>
+		<link rel='stylesheet' href='css/global.css'>
+		<link rel='stylesheet' href='css/stylePage.css'>
+		<link rel="stylesheet" href="css/style_ani.css">
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="tanuvas_new_home/assets/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="tanuvas_new_home/assets/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="tanuvas_new_home/assets/favicon/favicon-16x16.png">
+		<link rel="manifest" href="tanuvas_new_home/assets/favicon/site.webmanifest">
+		<link rel="mask-icon" href="tanuvas_new_home/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<link href="https://fonts.googleapis.com/" rel="dns-prefetch" />
+		<link href="tanuvas_new_home/assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C700italic%2C400%2C700&amp;ver=3.6?5d6af5a" media="all" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="tanuvas_new_home/assets/font-awesome/css/font-awesome.min.css">
+		<link href="tanuvas_new_home/carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+		<link href="tanuvas_new_home/carousel/owl-carousel/owl.theme.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="tanuvas_new_home/assets/ie/js/html5shiv.js" type="text/javascript"></script>
+			<script src="tanuvas_new_home/assets/ie/js/respond.js" type="text/javascript"></script>
+			<link rel="stylesheet" href="tanuvas_new_home/assets/ie/css/ie.css" type="text/css" media="all" />
+		<![endif]-->
+		
+		
+		<style>
+			.excSel {
+			appearance: none;
+			font-size: 15px;
+			font-weight: 500;
+			border: 0px;
+			padding: 7px 70px 7px 15px;
+			border-radius: 30px;
+			background: url(../img/selDrop.png) 90% center / 12px no-repeat white;
+			outline: 0px !important;
+			}
+			.orangeBtn {
+			box-shadow: none;
+			}
+			.orangeBtn:hover {
+			background: #003366;
+			color: #ffffff;
+			box-shadow: none;
+			}
+			.neweventCont {
+			position: relative;
+			background: url(img/our-college-events.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			}
+			.neweventCont:before {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			content: '';
+			background: #ffeacfed;
+			}
+			
+			.our-college{
+			position: relative;
+			background: url(img/our-college.jpg);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			}
+			.our-college:before {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			content: '';
+			background: #270567d4;
+			}
+			 
+			.marAnim {
+			width: 100%;
+			margin: 0 auto;
+			overflow: hidden;
+			box-sizing: border-box;
+			position: absolute;
+			bottom: 17px;
+			font-size: 15px;
+			color: #ffff00 !important;
+			padding: 12px 0;
+			font-weight: 800;
+			font-family: "Open Sans";
+			color: white;
+			background: #270567d4;
+			
+			
+    left: 50%;
+    transform: translateX(-50%);
+			}
+			.cmp-mar-txt{
+					color: #ffff00 !important;
+			}
+			.carousel-indicators{
+				display: none;
+			}
+		</style>
+		
+		
+		
+		
+	</head>
+	<body class="home blog cms site-home">
+		
+		
+		
+		
+		
+			
+			
+			
+			
+			 
+
+<!-- Header Start -->
+<style>
+@media(max-width:767px){
+    .mb_40_mob{
+        /*margin-bottom: 40px;*/
+    }
+}
+</style>
+
+	<link rel="canonical" href="https://www.tanuvas.ac.in/" />
+    <link rel="apple-touch-icon" sizes="180x180" href="tanuvas_new_home/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="tanuvas_new_home/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="tanuvas_new_home/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="tanuvas_new_home/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="tanuvas_new_home/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/" rel="dns-prefetch" />
+    <link href="tanuvas_new_home/assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C700italic%2C400%2C700&amp;ver=3.6?5d6af5a" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="tanuvas_new_home/assets/font-awesome/css/font-awesome.min.css">
+    <link href="tanuvas_new_home/carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="tanuvas_new_home/carousel/owl-carousel/owl.theme.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="tanuvas_new_home/assets/ie/js/html5shiv.js" type="text/javascript"></script>
+    <script src="tanuvas_new_home/assets/ie/js/respond.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="tanuvas_new_home/assets/ie/css/ie.css" type="text/css" media="all" />
+    <![endif]-->
+
+<div class="top-header-block cmp-com-bac-col">
+	<div class="row">
+		<div class="col-lg-4">
+			<div class="cmp-bac-col-com">
+				<ul>
+					<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdxd6s6gOpgmnPwKiVxYITMoXTcL1f0x0DIR85kUG4zs03Zcg/viewform?usp=sharing&ouid=112294946906561303474" target="_blank">Suggestions & Feedback</a></li>
+					<li><a href="https://tanuvas.ac.in/contacts.php" target="_blank">Contact us</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="tv-footer">
+				<nav aria-label="social networking">
+					<ul class="footer-social">
+						<li>
+							<a class="facebook" href="https://www.facebook.com/people/Tanuvas-social-media/100063712964024/" target="_blank">
+								<img  src="tanuvas_new_home/assets/images/icons_facebook.svg" alt="">
+							</a>
+						</li>
+						<li>
+							<a class="twitter" href="https://x.com/tanuvas_tweets/" target="_blank">
+									<img  src="tanuvas_new_home/assets/images/icons_twitter.svg" alt="">
+							</a>
+						</li>
+						<li>
+							<a class="instagram" href="https://www.instagram.com/tanuvas_sm/" target="_blank">
+									<img  src="tanuvas_new_home/assets/images/icons_instagram.svg" alt="">
+							</a>
+						</li>
+						<li>
+							<a class="youtube" href="https://www.youtube.com/channel/UC_mM0NrvgxPp3rhYlaPVoQA" target="_blank">
+									<img  src="tanuvas_new_home/assets/images/icons_youtube.svg" alt="">
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="cmp-bac-col-com cmp-just-rit">
+				<ul>
+					<li><a href="#!" target="_blank">ALUMNI</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="tv-container" class="cmp-hdr-bor-top-none">
+<div class="container-fluid headerCont py-md-4 py-3">
+	<div class="container ">
+		<div class="row align-items-center">
+			<div class="col-xl-8 col-lg-7 col-md-6 px-sm-3 px-0">
+				<div>
+				    <a href="index.php"><img class='logoHead mb_40_mob' src="tanuvas_new_home/assets/images/Logo_White.png" alt="Logo"></a>	
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-5 col-md-6">
+			<div class="cmp-ug-add"><a href="https://adm.tanuvas.ac.in" target="_blank">UG ADMISSION</a></div>
+				<div class="d-flex flex-row-reverse align-items-center cmp-jus-con-end ">
+					<button aria-label="Tamil Version" class="justify-content-end cmp-ovr-btn-css">
+                                <a href="https://tanuvas.ac.in/in-tamil/www.tanuvas.ac.in" class="ctl-ver-txt">தமிழில்</a>
+                               
+                    </button>
+                    
+                    
+                    <div class="cmp-hdr-blo">
+               <form id="cse-search-box" action="search.php" method="get">
+                   <div class="cmp-ser-btn">
+                       <button type="button">
+                           <!--[if gt IE 8]><!-->
+                           <svg enable-background="new 0 0 18.776 51.062" focusable="false" height="51px" version="1.1" viewBox="0 0 18.776 51.062" width="19px" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+                                    <g>
+                                        <path d="M3.537,7.591C3.537,3.405,6.94,0,11.128,0c4.188,0,7.595,3.406,7.595,7.591c0,4.187-3.406,7.593-7.595,7.593C6.94,15.185,3.537,11.778,3.537,7.591z M5.245,7.591c0,3.246,2.643,5.885,5.884,5.885c3.244,0,5.89-2.64,5.89-5.885c0-3.245-2.646-5.882-5.89-5.882C7.883,1.71,5.245,4.348,5.245,7.591z" fill="#FFFFFF"></path>
+                                        <rect fill="#FFFFFF" height="7.622" transform="matrix(0.7066 0.7076 -0.7076 0.7066 11.7842 2.0922)" width="1.902" x="2.418" y="11.445"></rect>
+                                    </g>
+                            </svg>
+                           <!--<![endif]-->
+                       </button>
+                   </div>
+
+                   <div class="cmp-inp-box">
+                       <label for="search">Search</label>
+                       <div class="ctl-inp-blo">
+                          
+                               <input type="text"  id="search" placeholder="Type to search..." name="q" id="q" value="" size="19" autocomplete="off">
+                               <button class="ctl-sub-btn" type="submit" name="button" id="button">
+                                   <i class="fa fa-search" aria-hidden="true"></i>
+                               </button>
+                           
+                       </div>
+                   </div>
+                    <div class="clearfix"></div>
+               </form>
+           </div>
+                    
+                    
+					<div class='pos-relative sHeadCont' style="display:none;>
+					    <form id="cse-search-box" action="search.php" method="get">
+    						<input type="text" name="q" class='searchHead' placeholder='Search here...' id="q" value="" size="19" autocomplete="off">
+    						<span class='sIconHead'>
+    						    <button type="submit" name="button" id="button" class="form_search" style="background: transparent;border: white;cursor: pointer;">
+    							<img src="./img/search_icon.png" alt="Search Icon">
+    							</button>
+    						</span>
+						</form>
+					<!--<input type="text" class='searchHead' placeholder='Search here...'>
+						<span class='sIconHead'>
+							<img src="./img/search_icon.png" alt="Search Icon">
+						</span>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<!-- Navbar Start -->
+
+<div class="container-fluid navbarCont py-lg-0 py-1">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<button class="navbar-toggler border-0 py-1" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <div id="lines" class="linesNav py-1 cmp-nav-btn">
+                    <div id="spacer"></div>
+                    <div class="line1 mt-0"></div>
+                    <div class="line2"></div>
+                    <div class="line3 mb-1"></div>
+                    
+                  <!--<span>  Menu</span>-->
+				</div>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<!--<span class='closeNav d-lg-none d-flex'>&times;</span>-->
+								<ul class="navbar-nav w-100 justify-content-between" id="nav">
+				<a href="index.php"><span class="ctl-hom-icon"><i class="fa fa-home" aria-hidden="true"></i></span></a>
+											
+						<li class="nav-item active ">
+						
+															<a class="nav-link" href="about.php" >About</a>
+													</li>
+						
+											
+						<li class="nav-item dropdown ">
+						
+														
+								<a class="nav-link dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Governance 
+								<!--<img src="./img/ddHead.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+								</a>
+								<ul class="dropdown-menu cmp-drop-down">
+																				<li><a href="chancellor.php" >Chancellor</a></li>
+																				
+										
+																				<li><a href="pro-chancellor.php" >Pro-Chancellor</a></li>
+																				
+										
+																				<li><a href="vice-chancellor.php" >Vice-Chancellor</a></li>
+																				
+										
+																				<li><a href="university-officers.php" >University Officers</a></li>
+																				
+										
+																				<li class='dropdown'>
+												<a class="dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Authorities												
+												<!--<img src="./img/ddHeadBlack.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+												</a>
+												<ul class="dropdown-menu ">
+																												<li>
+																<a href="auth_bom.php" >Board of Management																</a>
+															</li>
+																												
+																												<li>
+																<a href="auth_academic.php" >Academic Council																</a>
+															</li>
+																												
+																												<li>
+																<a href="auth_faculty.php" >Faculties																</a>
+															</li>
+																												
+																												<li>
+																<a href="auth_bos.php" >Board of Studies																</a>
+															</li>
+																												
+																												<li>
+																<a href="auth_planning.php" >Planning Board																</a>
+															</li>
+																												
+																												<li>
+																<a href="auth_finance.php" >Finance Committee																</a>
+															</li>
+																												
+																												<li>
+																<a href="auth_exams.php" >Board of Examinations																</a>
+															</li>
+																												
+																												<li>
+																<a href="auth_rc.php" >Research Council																</a>
+															</li>
+																												
+																												<li>
+																<a href="auth_eec.php" >Extension Education Council																</a>
+															</li>
+																												
+																										
+												</ul>
+											</li>
+																					
+										
+																				<li class='dropdown'>
+												<a class="dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Statutory Committee												
+												<!--<img src="./img/ddHeadBlack.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+												</a>
+												<ul class="dropdown-menu ">
+																												<li>
+																<a href="statu_hmc.php" >Hospital Management Committee																</a>
+															</li>
+																												
+																												<li>
+																<a href="statu_lpc.php" >Livestock Production Committee																</a>
+															</li>
+																												
+																												<li>
+																<a href="statu_adrc.php" >Animal Disease Review Committee																</a>
+															</li>
+																												
+																												<li>
+																<a href="statu_building.php" >Building Committee																</a>
+															</li>
+																												
+																												<li>
+																<a href="statu_students.php" >Students Welfare Committee																</a>
+															</li>
+																												
+																												<li>
+																<a href="statu_grieve.php" >Grievance Committee																</a>
+															</li>
+																												
+																												<li>
+																<a href="statu_vigilance.php" >Vigilance Committee																</a>
+															</li>
+																												
+																										
+												</ul>
+											</li>
+																					
+										
+											
+								</ul>
+														</li>
+						
+											
+						<li class="nav-item dropdown ">
+						
+														
+								<a class="nav-link dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Constituents 
+								<!--<img src="./img/ddHead.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+								</a>
+								<ul class="dropdown-menu cmp-drop-down">
+																				<li class='dropdown'>
+												<a class="dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Colleges												
+												<!--<img src="./img/ddHeadBlack.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+												</a>
+												<ul class="dropdown-menu ">
+																												<li>
+																<a href="mvc_intro.php" >MVC, Chennai																</a>
+															</li>
+																												
+																												<li>
+																<a href="nkl_intro.php" >VCRI, Namakkal																</a>
+															</li>
+																												
+																												<li>
+																<a href="tirunel_intro.php" >VCRI, Tirunelveli																</a>
+															</li>
+																												
+																												<li>
+																<a href="ond_intro.php" >VCRI, Orathanadu																</a>
+															</li>
+																												
+																												<li>
+																<a href="salem_intro.php" >VCRI, Salem																</a>
+															</li>
+																												
+																												<li>
+																<a href="theni_intro.php" >VCRI, Theni																</a>
+															</li>
+																												
+																												<li>
+																<a href="udu_intro.php" >VCRI, Udumalpet																</a>
+															</li>
+																												
+																												<li>
+																<a href="cfdt_intro.php" >CFDT, Koduveli																</a>
+															</li>
+																												
+																												<li>
+																<a href="cppm_intro.php" >CPPM, Hosur																</a>
+															</li>
+																												
+																										
+												</ul>
+											</li>
+																					
+										
+																				<li class='dropdown'>
+												<a class="dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Directorates												
+												<!--<img src="./img/ddHeadBlack.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+												</a>
+												<ul class="dropdown-menu ">
+																												<li>
+																<a href="dir_cahs.php" >Animal Health Studies																</a>
+															</li>
+																												
+																												<li>
+																<a href="dir_caps.php" >Animal Production Studies																</a>
+															</li>
+																												
+																												<li>
+																<a href="dc_intro.php" >Clinics																</a>
+															</li>
+																												
+																												<li>
+																<a href="dir_ee.php" >Extension Education																</a>
+															</li>
+																												
+																												<li>
+																<a href="dir_de.php" >Distance Education																</a>
+															</li>
+																												
+																												<li>
+																<a href="dir_controller.php" >Controllerate of Examinations																</a>
+															</li>
+																												
+																												<li>
+																<a href="dir_research.php" >Research																</a>
+															</li>
+																												
+																												<li>
+																<a href="fbs_intro.php" >Faculty of Basic Sciences																</a>
+															</li>
+																												
+																										
+												</ul>
+											</li>
+																					
+										
+											
+								</ul>
+														</li>
+						
+											
+						<li class="nav-item dropdown ">
+						
+														
+								<a class="nav-link dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics 
+								<!--<img src="./img/ddHead.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+								</a>
+								<ul class="dropdown-menu cmp-drop-down">
+																				<li class='dropdown'>
+												<a class="dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Admissions												
+												<!--<img src="./img/ddHeadBlack.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+												</a>
+												<ul class="dropdown-menu ">
+																												<li>
+																<a href="ce_ugad.php" >Under Graduate																</a>
+															</li>
+																												
+																												<li>
+																<a href="ce_pgad.php" >Post Graduate																</a>
+															</li>
+																												
+																										
+												</ul>
+											</li>
+																					
+										
+																				<li><a href="ce_ug.php" >Under Graduate Courses</a></li>
+																				
+										
+																				<li><a href="ce_pg.php" >Post Graduate Courses</a></li>
+																				
+										
+																				<li><a href="dir_de.php" >Distance Education</a></li>
+																				
+										
+																				<li><a href="ssr.php" >Self-Study Reports: ICAR</a></li>
+																				
+										
+											
+								</ul>
+														</li>
+						
+											
+						<li class="nav-item dropdown ">
+						
+														
+								<a class="nav-link dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research 
+								<!--<img src="./img/ddHead.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+								</a>
+								<ul class="dropdown-menu cmp-drop-down">
+																				<li><a href="dir_research.php" >About the Directorate</a></li>
+																				
+										
+																				<li><a href="dr_ongoing.php" >On-Going Projects</a></li>
+																				
+										
+																				<li><a href="dr_technology.php" >Technologies Developed</a></li>
+																				
+										
+																				<li><a href="dr_patents.php" >Patents and Breeds</a></li>
+																				
+										
+																				<li><a href="dr_mou.php" >MoUs and MoAs Signed</a></li>
+																				
+										
+											
+								</ul>
+														</li>
+						
+											
+						<li class="nav-item dropdown ">
+						
+														
+								<a class="nav-link dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services 
+								<!--<img src="./img/ddHead.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+								</a>
+								<ul class="dropdown-menu cmp-drop-down">
+																				<li class='dropdown'>
+												<a class="dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hospitals												
+												<!--<img src="./img/ddHeadBlack.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+												</a>
+												<ul class="dropdown-menu ">
+																												<li>
+																<a href="mvc_clinics.php" >Clinics, MVC, Chennai																</a>
+															</li>
+																												
+																												<li>
+																<a href="nkl_vcc.php" >Clinical Complex, VCRI, Namakkal																</a>
+															</li>
+																												
+																												<li>
+																<a href="tirunel_vcc.php" >Clinical Complex, VCRI, Tirunelveli																</a>
+															</li>
+																												
+																												<li>
+																<a href="ond_vcc.php" >Clinical Complex, VCRI, Orathanadu																</a>
+															</li>
+																												
+																												<li>
+																<a href="salem_vcc.php" >Clinical complex, VCRI, Salem																</a>
+															</li>
+																												
+																												<li>
+																<a href="theni_vcc.php" >Clinical complex, VCRI,  Theni																</a>
+															</li>
+																												
+																												<li>
+																<a href="udu_vcc.php" >Clinical complex, VCRI,  Udumalpet																</a>
+															</li>
+																												
+																												<li>
+																<a href="dc_vuph_mmc.php" >PVH, Madhavaram																</a>
+															</li>
+																												
+																										
+												</ul>
+											</li>
+																					
+										
+																				<li><a href="labs.php" target="_blank">Laboratories</a></li>
+																				
+										
+																				<li class='dropdown'>
+												<a class="dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Computing												
+												<!--<img src="./img/ddHeadBlack.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+												</a>
+												<ul class="dropdown-menu ">
+																												<li>
+																<a href="mvc_statistics.php" >MVC, Chennai																</a>
+															</li>
+																												
+																												<li>
+																<a href="nkl_ahsca.php" >VCRI, Namakkal																</a>
+															</li>
+																												
+																												<li>
+																<a href="tirunel_computing.php" >VCRI, Tirunelveli																</a>
+															</li>
+																												
+																												<li>
+																<a href="computing_vcri_ond.php" >VCRI, Orathanadu																</a>
+															</li>
+																												
+																												<li>
+																<a href="#" >VCRI, Salem																</a>
+															</li>
+																												
+																												<li>
+																<a href="#" >VCRI, Theni																</a>
+															</li>
+																												
+																												<li>
+																<a href="#" >VCRI, Udumalpet																</a>
+															</li>
+																												
+																												<li>
+																<a href="computingCfdt.php" >CFDT, Koduveli																</a>
+															</li>
+																												
+																												<li>
+																<a href="computing_cppm_hosur.php" >CPPM, Hosur																</a>
+															</li>
+																												
+																												<li>
+																<a href="computing_tanuvas_hq.php" >TANUVAS  HQ, Madhavaram																</a>
+															</li>
+																												
+																										
+												</ul>
+											</li>
+																					
+										
+																				<li class='dropdown'>
+												<a class="dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Library												
+												<!--<img src="./img/ddHeadBlack.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+												</a>
+												<ul class="dropdown-menu ">
+																												<li>
+																<a href="mvc_library.php" >MVC, Chennai																</a>
+															</li>
+																												
+																												<li>
+																<a href="libraryVcriNkl.php" >VCRI, Namakkal																</a>
+															</li>
+																												
+																												<li>
+																<a href="https://tanuvas.ac.in/tirunel_library.php" >VCRI, Tirunelveli																</a>
+															</li>
+																												
+																												<li>
+																<a href="libraryVcriOnd.php" >VCRI, Orathanadu																</a>
+															</li>
+																												
+																												<li>
+																<a href="#" >VCRI, Salem																</a>
+															</li>
+																												
+																												<li>
+																<a href="#" >VCRI, Theni																</a>
+															</li>
+																												
+																												<li>
+																<a href="#" >VCRI, Udumalpet																</a>
+															</li>
+																												
+																												<li>
+																<a href="libraryCfdt.php" >CFDT, Koduveli																</a>
+															</li>
+																												
+																												<li>
+																<a href="library_cppm_hosur.php" >CPPM, Hosur																</a>
+															</li>
+																												
+																												<li>
+																<a href="library_pgrias.php" >PGRIAS, Kattupakkam																</a>
+															</li>
+																												
+																												<li>
+																<a href="http://192.236.198.107:1011/" target="_blank">University Library, Madhavaram																</a>
+															</li>
+																												
+																										
+												</ul>
+											</li>
+																					
+										
+											
+								</ul>
+														</li>
+						
+											
+						<li class="nav-item dropdown ">
+						
+														
+								<a class="nav-link dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Staff 
+								<!--<img src="./img/ddHead.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+								</a>
+								<ul class="dropdown-menu cmp-drop-down">
+																				<li class='dropdown'>
+												<a class="dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teaching Staff												
+												<!--<img src="./img/ddHeadBlack.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+												</a>
+												<ul class="dropdown-menu ">
+																												<li>
+																<a href="alphabetical.php" >Alphabetical Order																</a>
+															</li>
+																												
+																												<li>
+																<a href="discipline.php" >Discipline wise																</a>
+															</li>
+																												
+																										
+												</ul>
+											</li>
+																					
+										
+																				<li><a href="nt_a.php" >Non Teaching Staff</a></li>
+																				
+										
+											
+								</ul>
+														</li>
+						
+											
+						<li class="nav-item dropdown ">
+						
+														
+								<a class="nav-link dropdown-toggle" href="javascript://void();" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">OutReach 
+								<!--<img src="./img/ddHead.png" class='ddHeadIcon' alt="dropdown Arrow">-->
+								</a>
+								<ul class="dropdown-menu cmp-drop-down">
+																				<li><a href="vutrcs.php" >VUTRCs</a></li>
+																				
+										
+																				<li><a href="ftc_atic.php" >FTCs &amp; ATICs</a></li>
+																				
+										
+																				<li><a href="kvks.php" >KVKs</a></li>
+																				
+										
+											
+								</ul>
+														</li>
+						
+											
+						<li class="nav-item  ">
+						
+															<a class="nav-link" href="https://www.tanuvas.ac.in/farmers_page2.php" target="_blank">Farmers</a>
+													</li>
+						
+									</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+
+
+
+<!-- Navbar End -->
+
+<!-- Header End -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+	
+	(function($){
+	$('.dropdown-menu a.dropdown-toggle').on('click', function(e) {
+	if (!$(this).next().hasClass('show')) {
+	$(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+	}
+	var $subMenu = $(this).next(".dropdown-menu");
+	$subMenu.toggleClass('show');
+	$(this).toggleClass('show')
+	
+	$(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+	$('.dropdown-submenu .show').removeClass("show");
+	});
+	
+	return false;
+	});
+	})(jQuery)
+	
+	
+	$('.closeNav').click(function(){
+	$('.navbar-collapse').removeClass('show')
+	})
+	
+	
+</script>	
+
+<script>
+    $(document).ready(function(){
+        $(".cmp-ser-btn button").click(function(){
+            $(".cmp-inp-box").toggle();
+        });
+        
+    });
+</script>			
+			<!-- Carousel Start -->
+			
+			
+			
+		
+			<div class="container-fluid px-0 carouCont">
+			
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators align-items-center">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="3" ></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="4" ></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="5" ></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="6" ></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="7" ></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="8" ></li>
+			</ol>
+	<div class="carousel-inner">
+					<div class="carousel-item active">
+				<div class="container ">
+					<div> 
+										<p class='caroText'></p>
+										</div>
+				</div>
+									<img class="d-block w-100" src="https://tanuvas.ac.in/admin/uploads/homeslider/1789893708.jpg" alt="">
+							</div>
+					<div class="carousel-item ">
+				<div class="container ">
+					<div> 
+										<p class='caroText'></p>
+										</div>
+				</div>
+									<img class="d-block w-100" src="https://tanuvas.ac.in/admin/uploads/homeslider/1790176117.jpg" alt="">
+							</div>
+					<div class="carousel-item ">
+				<div class="container ">
+					<div> 
+										<p class='caroText'></p>
+										</div>
+				</div>
+									<img class="d-block w-100" src="https://tanuvas.ac.in/admin/uploads/homeslider/1785395680.jpg" alt="">
+							</div>
+					<div class="carousel-item ">
+				<div class="container ">
+					<div> 
+										<p class='caroText'></p>
+										</div>
+				</div>
+									<img class="d-block w-100" src="https://tanuvas.ac.in/admin/uploads/homeslider/1779451454.jpg" alt="">
+							</div>
+					<div class="carousel-item ">
+				<div class="container ">
+					<div> 
+										<p class='caroText'></p>
+										</div>
+				</div>
+									<img class="d-block w-100" src="https://tanuvas.ac.in/admin/uploads/homeslider/1779449188.jpg" alt="">
+							</div>
+					<div class="carousel-item ">
+				<div class="container ">
+					<div> 
+										<p class='caroText'></p>
+										</div>
+				</div>
+									<img class="d-block w-100" src="https://tanuvas.ac.in/admin/uploads/homeslider/1770355589.jpg" alt="">
+							</div>
+					<div class="carousel-item ">
+				<div class="container ">
+					<div> 
+										<p class='caroText'></p>
+										</div>
+				</div>
+									<img class="d-block w-100" src="https://tanuvas.ac.in/admin/uploads/homeslider/1769404930.jpg" alt="">
+							</div>
+					<div class="carousel-item ">
+				<div class="container ">
+					<div> 
+										<p class='caroText'></p>
+										</div>
+				</div>
+									<img class="d-block w-100" src="https://tanuvas.ac.in/admin/uploads/homeslider/1769404940.jpg" alt="">
+							</div>
+					<div class="carousel-item ">
+				<div class="container ">
+					<div> 
+										<p class='caroText'></p>
+										</div>
+				</div>
+									<img class="d-block w-100" src="https://tanuvas.ac.in/admin/uploads/homeslider/1769404950.jpg" alt="">
+							</div>
+			</div>
+	<div class="cmp-dum-blo">
+<p class='marAnim container'>
+	<span class="cmp-mar-txt"> 
+	
+									<a href="javascript://void();" style="color:#ffff00!important;text-decoration: none;"> 
+					 *** Beware of fake/unauthorized recruitment notifications circulated in TANUVAS&#039;s name, as the University holds responsibility solely for announcements made through its official website.				</a>
+				 *** 	</span>
+		</p>
+</div>
+	
+	
+				</div>
+		</div>
+		
+
+				<nav aria-label="popular links" class="container  tv-links  cmp-mob-res">
+					<ul class="center-block cmp-sec-tab">
+                        
+						<li>
+							<a href="quick_links.php" title="Quick Links" id="myButton" >
+								<i class="fa fa-external-link fa-3x" aria-hidden="true"></i>
+								<span>Quick Links</span>
+							</a>
+						</li>
+						
+						
+						<li>
+							<a href="ranking_reports.php" title="Reports">
+								<i class="fas fa-file fa-3x" aria-hidden="true"></i>
+								
+								<span>Reports</span>
+							</a>
+						</li>
+						<!--
+						<li>
+							<a href="farmers.php" title="Farmers Page">
+								<i class="fas fa-school fa-3x" aria-hidden="true"></i>
+								
+								<span>Farmers Page</span>
+							</a>
+						</li>
+						-->
+						
+						<li>
+							<a href="https://tanuvas.ac.in/newsAndEvents.php" title="Admission">
+								<i class="fas fa-cog fa-spin fa-3x" aria-hidden="true"></i>
+								<span>Training</span>
+							</a>
+						</li>
+						<li>
+							<a href="vacancies.php" title="Vacancies">
+								<i class="fa fa-search fa-3x" aria-hidden="true"></i>
+								<span>Vacancies</span>
+							</a>
+						</li>
+						<li>
+							<a href="announcements.php" title="Announcements">
+								<i class="fas fa-bullhorn fa-2x" aria-hidden="true"></i>
+								<span>Announcements</span>
+							</a>
+						</li>
+						<li>
+							<a href="tenders.php" title="Tenders">
+								<i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i>
+								<span>Tenders</span>
+							</a>
+						</li>
+						
+						<li>
+							<a href="dir_de.php" title="Distance Education">
+								<i class="fa fa-book fa-3x" aria-hidden="true"></i>
+								<span>Distance-Educate</span>
+							</a>
+						</li>
+						<li>
+							<a href="publications.php" title="Publications">
+								<i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i>
+								<span>Publications</span>
+							</a>
+						</li>
+						<li>
+							<a href="newsAndEvents.php" title="News and Events">
+								<i class="fa fa-newspaper-o fa-3x" aria-hidden="true"></i>
+								<span>News &amp; Events</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				
+				<div id="quick-link">
+					<ul class="quick-link-drop">
+						<li><a href="https://cpd.tanuvas.ac.in/" target="_blank">TANUVAS Faculty CPD</a></li>
+						<li><a href="https://pension.tanuvas.ac.in/" target="_blank">TANUVAS Pensioners Portal</a></li>
+						<li><a href="https://ecourses.icar.gov.in/" target="_blank">e-Learning</a></li>
+						<li><a href="https://hrms.tanuvas.ac.in/" target="_blank">Staff Info System</a></li>
+						<li><a href="http://elibrary.tanuvas.org/" target="_blank">e-Library@TANUVAS</a></li>
+						<li><a href="dir_ce_ssc.php" target="_blank">Student Support Cell</a></li>
+						<li><a href="icar_niche_caft.php" target="_blank">ICAR: Niche / CAFT</a></li>
+						<li><a href="weather.php" target="_blank">Weather Bulletin</a></li>
+						<li><a href="https://idp.tanuvas.ac.in/" target="_blank">IDP-INFED-TANUVAS</a></li>
+						<li><a href="mobileapps.php" target="_blank">Mobile Apps</a></li>
+						<li><a href="uscpc_home.php" target="_blank">Placement Cell</a></li>
+						<li><a href="http://viftanuvas.org/" target="_blank" >VIF@TANUVAS</a></li> 
+						<li><a href="lfc_mmc.php" target="_blank" >Innovation Centre</a></li>
+						<li><a href="rtia_2005.php" target="_blank">RTIA 2005</a></li>
+					</ul>
+				</div>
+				
+			</div>
+				<!-- Carousel End -->
+			<!-- News and Events Start -->
+			
+			
+				
+				<div class="">
+					<div class="on-campus">
+                        <div class="container">
+                            <div class="row">
+							
+							
+							
+							
+                                <div class="tv-on-campus"><h2>Now @ University</h2></div>
+                                <div class="box-outer">
+                                    <div class="box three">
+									<div class="tile">
+                                            <div>
+                                                <img alt="Events" class="attachment-homepage-tile size-homepage-tile wp-post-image" height="50" src="img/vif_1.jpg" width="379"/>
+                                            </div>
+											<marquee behavior="scroll" direction="left" scrollamount="0">
+											<!--
+											<marquee width="100%" direction="up" height="450px" behavior="" loop="infinite">
+											-->
+         <!--
+		 <marquee width="100%" direction="down" height="450px" behavior="alternate" loop="infinite">
+		-->
+		
+		
+		
+		<ul class="objUl">
+		
+			<li><i class="fas fa-caret-right"></i><a href="https://tanuvas.ac.in/weather.php" style="" target="_blank">Weather forecasts for </br> Livestock Farmers</a></li>
+			<li><i class="fas fa-caret-right"></i><a href="pdf/farmers/nema2026.pdf" style="" target="_blank"> North Eastern Monsoon </br> Advisory  </a></li>
+			<li><i class="fas fa-caret-right"></i><a href="pdf/farmers/elnino.pdf" target="_blank"> El Nino Impact Mitigation</a></li>
+			
+	<!--
+	<li><i class="fas fa-caret-right"></i><a href="https://tanuvas.ac.in/admin/uploads/news/1742372750.pdf" style="" target="_blank">TANUVAS Training Calendar 2025</a></li>
+	<li><i class="fas fa-caret-right"></i><a href="https://tanuvas.ac.in/admin/uploads/news/1750231450.pdf" style="" target="_blank">Clinical Skill Upgradation on Small Animal Practice 2025 at MVC, Chennai</a></li>
+	-->
+			<li><i class="fas fa-caret-right"></i><a href="https://tanuvas.ac.in/admin/uploads/news/1779102284.pdf" style="" target="_blank">Farmers Training </br> List of Titles 2026-2027 </a></li>
+			<li><i class="fas fa-caret-right"></i><a href="https://tanuvas.ac.in/admin/uploads/news/1781608447.pdf" style="" target="_blank">TANUVAS Clinical </br> Training Calendar 2026 </a></li>
+			<li><i class="fas fa-caret-right"></i><a href="https://tanuvas.ac.in/publications.php" style="" target="_blank">TANUVAS Publications</a></li>
+			<li><i class="fas fa-caret-right"></i><a href="https://tanuvas.ac.in/newsAndEvents.php" style="" target="_blank">HRD Programmes</a></li>
+		</ul>
+       
+    </marquee>
+	<!--
+                                            <p><a class="tv-btn btn-none" href="https://tanuvas.ac.in/newsAndEvents.php" target="_blank">Read more</a></p>
+	-->									
+                                        </div>
+                                        <div class="tile">
+                                            <div>
+                                                <img alt="Announcement" class="attachment-homepage-tile size-homepage-tile wp-post-image" height="160" src="tanuvas_new_home/news/mob_admission.jpg" width="379"/>
+                                            </div>
+                                            <strong class="category">Announcement </strong>
+                                            <h3>Students Admission to UG Programmes</h3>
+                                            <p>Admission to UG Degree programmes [For B.V.Sc. & A.H., B.Tech. (Food Technology), B.Tech. (Dairy Technology) Courses) and B.Tech. (Poultry Technology)] is in progress. </br>The Online Portal for PG Programmes is Open Now. Eligile candidates are encouraged to apply.</p>
+                                            <p>
+                                                <a class="tv-btn btn-none" href="https://adm.tanuvas.ac.in/" target="_blank">Read more</a>
+                                            </p>
+                                        </div>
+                                        <div class="tile">
+                                            <div>
+                                                <img alt="News" class="attachment-homepage-tile size-homepage-tile wp-post-image" height="160" src="tanuvas_new_home/news/building.jpg" width="379"/>
+                                            </div>
+                                            <strong class="category"> News </strong>
+                                            <h3>HRD Programmes & Events</h3>
+                                            <p>
+                                            The University, through its CAFTs, Centres of Excellence, and other constituent units, regularly organises Human Resource Development and Continuing Education Programmes for faculty members and researchers. Details of these trainings, seminars, conferences, workshops, and symposia are periodically updated and published for wider academic engagement.  
+                                            </p>
+                                            <p><a class="tv-btn btn-none" href="https://tanuvas.ac.in/newsAndEvents.php" target="_blank">Read more</a></p>
+                                        </div>
+                                        
+                                    </div>
+                                 </div>
+                                
+                                
+                                
+                               <!-- <div class="box-outer">
+                                    <div class="box three">
+                                        											
+											<div class="tile">
+												
+												<div>
+																										<img class="attachment-homepage-tile size-homepage-tile wp-post-image" src="img/pdf_new.png" width="379" style="height:250px;" alt="International Workshop from 2-5 November 2026 in Bioinformatics Centre-MVC-Chennai">
+													
+																										
+												</div>
+												
+												
+												<strong class="category">TANUVAS Training </strong>
+												<br>
+												
+																									<a href='https://tanuvas.ac.in/admin/uploads/news/1791271402.pdf' target="_blank"><h3 style="overflow: hidden;text-overflow: ellipsis; white-space: nowrap;">International Workshop from 2-5 November 2026 in Bioinformatics Centre-MVC-Chennai</h3></a>
+													<p>	<a href='https://tanuvas.ac.in/admin/uploads/news/1791271402.pdf' target="_blank">International Workshop from 2-5 November 2026 in Bioinformatics Centre-MVC-Chennai</a></p>
+													<a href="https://tanuvas.ac.in/admin/uploads/news/1791271402.pdf" class="tv-btn btn-non" target="_blank">
+														Read more
+													</a> 
+																									
+													
+												</p>
+											</div>
+																					
+											<div class="tile">
+												
+												<div>
+																										<img class="attachment-homepage-tile size-homepage-tile wp-post-image" src="img/pdf_new.png" width="379" style="height:250px;" alt="International Seminar on 10 November 2026 in Madras Veterinary College-Chennai">
+													
+																										
+												</div>
+												
+												
+												<strong class="category">TANUVAS Training </strong>
+												<br>
+												
+																									<a href='https://tanuvas.ac.in/admin/uploads/news/1791271439.pdf' target="_blank"><h3 style="overflow: hidden;text-overflow: ellipsis; white-space: nowrap;">International Seminar on 10 November 2026 in Madras Veterinary College-Chennai</h3></a>
+													<p>	<a href='https://tanuvas.ac.in/admin/uploads/news/1791271439.pdf' target="_blank">International Seminar on 10 November 2026 in Madras Veterinary College-Chennai</a></p>
+													<a href="https://tanuvas.ac.in/admin/uploads/news/1791271439.pdf" class="tv-btn btn-non" target="_blank">
+														Read more
+													</a> 
+																									
+													
+												</p>
+											</div>
+																					
+											<div class="tile">
+												
+												<div>
+																										<img class="attachment-homepage-tile size-homepage-tile wp-post-image" src="img/pdf_new.png" width="379" style="height:250px;" alt="National Workshop - Data Analysis - 12-16 October 2026 in Bioinformatics Centre-MVC-Chennai">
+													
+																										
+												</div>
+												
+												
+												<strong class="category"> </strong>
+												<br>
+												
+																									<a href='https://tanuvas.ac.in/admin/uploads/news/1788776155.pdf' target="_blank"><h3 style="overflow: hidden;text-overflow: ellipsis; white-space: nowrap;">National Workshop - Data Analysis - 12-16 October 2026 in Bioinformatics Centre-MVC-Chennai</h3></a>
+													<p>	<a href='https://tanuvas.ac.in/admin/uploads/news/1788776155.pdf' target="_blank">National Workshop - Data Analysis - 12-16 October 2026 in Bioinformatics Centre-MVC-Chennai</a></p>
+													<a href="https://tanuvas.ac.in/admin/uploads/news/1788776155.pdf" class="tv-btn btn-non" target="_blank">
+														Read more
+													</a> 
+																									
+													
+												</p>
+											</div>
+										   
+                                        
+									</div>
+                                    
+								</div>-->
+							</div>
+						</div>
+						<section class="counters m-4">
+								<div class="containers">
+									<div class="ani ani-home">
+									   <h5>Constituent </br>Colleges</h5>
+										<div class="counter" data-target="09">0</div>
+										
+									</div>
+									<div class="ani ani-home">
+									   <h5>Research</br> Stations</h5>
+										<div class="counter" data-target="12">0</div>
+										
+									</div>
+									<div class="ani ani-home">
+									   <h5>Research </br>Laboratories</h5>
+										<div class="counter" data-target="15">0</div>
+										
+									</div>
+								<div class="ani ani-home">
+									   <h5>Outreach </br>Centres</h5>
+										<div class="counter" data-target="30">0</div>
+										
+									</div>
+								<div class="ani ani-home">
+									  <h5>UG </br>Programmes </h5>
+										<div class="counter" data-target="04">0</div>
+										
+									</div>
+								<div class="ani ani-home">
+									  <h5>PG </br>Programmes</h5>
+										<div class="counter" data-target="29">0</div>
+										
+									</div>
+									<div class="ani ani-home">
+									  <h5>PhD </br>Programmes</h5>
+										<div class="counter" data-target="23">0</div>
+										
+									</div>
+							<div class="ani ani-home">
+									  <h5>PG Diploma</br> Programmes</h5>
+										<div class="counter" data-target="25">0</div>
+										
+									</div>
+								</div>
+							</section> </br>
+					</div>
+				</div>
+				
+				
+				
+				
+				<!-- Quick Links and Tender End -->
+				
+				<!-- Photos Start -->
+				
+				<div class="container-fluid px-0  cmp-gal-blo" >
+					<div class="row   w-100">
+						<div class="col-12 text-center">
+							<a href="gallery.php" class='orangeBtn  mb-3' >View All Photos</a>
+						</div>
+					</div>
+					
+						<div class="d-flex flex-wrap w-100">
+					<div class='phoCont'>
+                <a href="https://tanuvas.ac.in/admin/uploads/gallery/1790273777_f27ges.jpg" data-fancybox="gallery" class="h-100 w-100">
+                    <img src="https://tanuvas.ac.in/admin/uploads/gallery/1790273777_f27ges.jpg" alt="2">
+				</a>
+			</div>
+			
+					<div class='phoCont'>
+                <a href="https://tanuvas.ac.in/admin/uploads/gallery/1790273777_f606.jpg" data-fancybox="gallery" class="h-100 w-100">
+                    <img src="https://tanuvas.ac.in/admin/uploads/gallery/1790273777_f606.jpg" alt="3">
+				</a>
+			</div>
+			
+					<div class='phoCont'>
+                <a href="https://tanuvas.ac.in/admin/uploads/gallery/1790273777_f27ant1.jpg" data-fancybox="gallery" class="h-100 w-100">
+                    <img src="https://tanuvas.ac.in/admin/uploads/gallery/1790273777_f27ant1.jpg" alt="4">
+				</a>
+			</div>
+			
+					<div class='phoCont'>
+                <a href="https://tanuvas.ac.in/admin/uploads/gallery/1790273777_f63ant2.jpg" data-fancybox="gallery" class="h-100 w-100">
+                    <img src="https://tanuvas.ac.in/admin/uploads/gallery/1790273777_f63ant2.jpg" alt="5">
+				</a>
+			</div>
+			
+		    
+	</div>
+					<!--	<div class="col-12 text-center">
+							<a href="gallery.php" class='orangeBtn' style="margin-bottom:30px;">View All Photos</a>
+						</div>-->
+				</div>
+				
+				
+				<!-- Photos End -->
+				
+				<!-- Image Logo Start -->
+				
+				<div class="container-fluid  border-top-me imgLogoCont">
+					<div class="container">
+						<div class="row" data-uk-slider="sets: true; autoplay: true">
+							<div class="col-12">
+								<a class="uk-position-center-left uk-position-small uk-hidden-hover uiButtons" href="#" data-uk-slidenav-previous data-uk-slider-item="previous">
+									<span><img src="./img/uiLeft.png" alt="Left Icon"></span>
+								</a>
+								<a class="uk-position-center-right uk-position-small uk-hidden-hover uiButtons pr-0" href="#" data-uk-slidenav-next data-uk-slider-item="next">
+									<span><img src="./img/uiRight.png" alt="Right Icon"></span>
+								</a>
+							</div>
+							<div class="col-12 mt-0 px-4">
+								<div class=" uk-position-relative uk-visible-toggle uk-light uk-slider uk-slider-container" tabindex="-1" >
+									<ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m">
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo1.png" alt="ICAR"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo2.png" alt="VCI"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo3.png" alt="DST"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo4.png" alt="Dept of Bio-technology"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo5.png" alt="Logo5"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo6.png" alt="MOFPI"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo1.png" alt="ICAR"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo2.png" alt="VCI"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo3.png" alt="DST"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo4.png" alt="Dept of Bio-technology"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo5.png" alt="Logo5"></a>
+										</li>
+										<li class='imgLogo'>
+											<a href="javascript://void();"><img src="./img/imgLogo6.png" alt="MOFPI"></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				
+		
+		
+		<!-- Image Logo End -->
+		
+		
+    
+
+    <!-- Footer Start -->
+
+    <div class="">
+        <div class="bottom-header-block">
+					
+             <div class="tv-footer" role="contentinfo">
+			 <nav aria-label="footer navigation">
+                        <ul class="footer-links">
+                            
+                            <li><a href="https://tanuvas.ac.in/pdf/academic_calendar_ug.pdf" target="_blank">Academic Calendar</a></li>
+							<li><a href="https://studyinindia.gov.in/" target="_blank">Study in India: Portal </a></li>
+                            <li><a href="https://nad.gov.in/" target="_blank">National Academic Depository</a></li></br>
+							<li><a href="https://idpoftanuvas.com/" target="_blank">Institutional Development Plan</a></li>
+							<li><a href="https://tanuvas.ac.in/pdf/vision2030/vision2030.pdf" target="_blank">TANUVAS Vision 2030</a></li>
+							<li><a href="placement_cell.php" target="_blank">Placement Cell</a></li>
+							<li><a href="international_cell.php" target="_blank">International Cell</a></li></br>
+							<li><a href="sc_cell.php" target="_blank">SC & ST Cell</a></li>
+							<li><a href="obc_cell.php" target="_blank">OBC Cell</a></li>
+							<li><a href="women_cell.php" target="_blank">Women Empowerment Cell</a></li>
+							</br>
+							
+							<li><a href="https://tanuvas.ac.in/pdf/sgrc.pdf" target="_blank">Student Grievance Redressal Committees of Constituent Colleges</a></li> </br>
+							<li><a href="https://tanuvas.ac.in/pdf/ugadmin/privacypolicy.pdf" target="_blank">Privacy Policy – TANUVAS UG Admissions</a></li>
+                        </ul>
+						</nav>
+						
+						
+                    <a class="footer-wordmark" href="#">Tamil Nadu Veterinary and Animal Sciences University, Chennai, INDIA</a> 
+					<a href="#"><h3 class="be-boundless">TANUVAS</h3></a>
+                    <h4>Connect with us:</h4>
+                    <nav aria-label="social networking">
+                        <ul class="footer-social">
+                            <li>
+                                <a class="facebook" href="https://www.facebook.com/people/Tanuvas-social-media/100063712964024/" target="_blank">
+                                    <img  src="tanuvas_new_home/assets/images/icons_facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="twitter" href="https://x.com/tanuvas_tweets/" target="_blank">
+                                        <img  src="tanuvas_new_home/assets/images/icons_twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="instagram" href="https://www.instagram.com/tanuvas_sm/" target="_blank">
+                                        <img  src="tanuvas_new_home/assets/images/icons_instagram.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="youtube" href="https://www.youtube.com/channel/UC_mM0NrvgxPp3rhYlaPVoQA" target="_blank">
+                                        <img  src="tanuvas_new_home/assets/images/icons_youtube.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav aria-label="footer navigation">
+                        <ul class="footer-links">
+                            <!--
+							<li><a href="https://gmail.co.in/" target="_blank">Webmail</a></li>
+							-->
+                            <li><a href="sitemap.php" target="_blank">Sitemap</a></li>
+                           <!--
+						   <li><a href="http://tanuvasalumni.org/" target="_blank">Alumni</a></li>
+							-->
+                            <li><a href="contacts.php" target="_blank">Contacts</a></li>
+                            <li><a href="disclaimer.php" target="_blank">Disclaimer</a></li>
+                        </ul>
+                    </nav>
+                    <p> © 2026 Tamil Nadu Veterinary and Animal Sciences University | TANUVAS. All Rights Reserved.</p>
+					<p> </p>
+                </div>
+                <div class="container-fluid copyrightCont">
+        <div class="container">
+            <div align="center">
+                        <p class='mb-0'>
+                        Site Maintained By: <a href="mvc_statistics.php" target="_blank">THE DEPARTMENT OF ANIMAL HUSBANDRY STATISTICS AND COMPUTER APPLICATIONS, MVC, CHENNAI, TAMIL NADU</a>
+                           </p>
+                </div>
+            </div>
+        </div>
+                
+           
+        </div>
+    </div>
+
+   <!-- <div class="container-fluid copyrightCont">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <p class='mb-0'>© 2026 Tamil Nadu Veterinary and Animal Sciences University. All Rights Reserved.</p>
+                </div>
+                <div class="col-sm-6 text-right">
+                    <p class='mb-0'>
+                        <a href="https://email.gov.in/" class='pl-0'>Webmail</a>
+                        <a href="sitemap.php">Sitemap</a>
+                        <a href="disclaimer.php" class='pr-0'>Disclaimer</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    
+    <!-- Footer End -->		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/jquery-3.5.1.slim.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/uikit.min.js"></script>
+		<script src="js/uikit-icons.min.js"></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+		
+		<script>
+			$('[data-fancybox="gallery"]').fancybox({
+			loop: true,
+			transitionEffect: "slide",
+			});
+		</script>
+		
+		<!---->
+	
+        <script src="tanuvas_new_home/carousel/owl-carousel/owl.carousel.js"></script>
+        <script src="tanuvas_new_home/assets/js/tanvas.js" type="text/javascript"></script>
+		
+        <script src="https://unpkg.com/@popperjs/core@2"></script> 
+        <script src="https://unpkg.com/tippy.js@6"></script>
+       
+        <script>
+            const template = document.getElementById('quick-link');
+            tippy('#myButton', {
+                content: template.innerHTML,
+                allowHTML: true,
+                placement: 'bottom',
+                theme: 'light',
+                hideOnClick: 'toggle',
+		       interactive: true
+		      //trigger: "click",
+              
+			});
+		</script>
+   <script src="js/functions_ani.js"></script>     
+        
+		
+	</body>
+</html>

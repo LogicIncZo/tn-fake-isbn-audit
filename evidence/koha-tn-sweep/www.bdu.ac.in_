@@ -1,0 +1,1478 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Official Website of Bharathidasan University, Tiruchirappalli, Tamil Nadu, India</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+<meta name="keywords" content="bdu, BDU, BARD, bard, BDU Trichy, Bharathidasan University, Tiruchirappalli, Trichy,
+Tiruchy, Bharathidasan University Website, BDU Website, Website, Webpage, Course, CDE, Semester, Revaluation, Migration, Seminar, Conference, Tender, Fellowship, Tamilnadu, India, Univerisites in India, Tenders, Project, DST, DBT, JRF, SRF, PF, Major Research, Minor Research, SAP, DST-PURSE, RUSA, Grant, Tamilnadu Universities, Degree, Convocaiton, M.Phil, Thatkal, Migration, Rank, NAAC, NIRF, AQAR, IQAC, UGC, Admissions, Guides, Distance Education, Research,Entrance,Fees, Online Payment, Transcript,  PG Admissions, Arts, Science, Colleges, Affiliated, Autonomous, Constituent, Curriculam, Regulations, Syllabi, Syllabus, Scholoarsphips, Fellowships, Model, Engineering, Tamil Nadu Univeristy, Semester, Timetable, Course, Program, Part-Time, Full-Time, Subjects, Results, Academic Programmes, University Informatics Centre, Semester Examination Results, Examination Timetable, Syllabi, Syllabus, PhD, convocation-data-submit, COVID e-learning resources, Ph.D,Projects,Grants, Funds">
+
+<meta name="description" 	content="Official Website of Bharathidasan University, Tiruchirappalli, India">
+<meta name="copyright" 		content="Bharathidasan University">
+<meta name="Distribution" 	content="Global">
+<meta name="Rating" 		content="General">
+<meta name="Revisit-after" 	content="1 Day">
+<meta name="expires" 		content="Never">
+
+ 
+<link rel="stylesheet" href="//www.bdu.ac.in/layout/styles/layout.css"  			     type="text/css" media="all">
+
+<link rel="stylesheet" href="//www.bdu.ac.in/layout/styles/additional-styles.css"  	     type="text/css" media="all">
+
+<!--
+<link rel="stylesheet" href="//www.bdu.ac.in/layout/styles/font-awesome/css/font-awesome.css" type="text/css">
+<link rel="stylesheet" href="//www.bdu.ac.in/layout/styles/font-awesome/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="//www.bdu.ac.in/layout/styles/pure-min.css"                  type="text/css" media="all" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+<link rel="stylesheet" href="//www.bdu.ac.in/engine1/style.css" 						     type="text/css" media="all">
+<link rel="icon" 	   href="//www.bdu.ac.in/images/favicon.gif">
+
+<script  src="//www.bdu.ac.in/engine1/jquery.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.js"></script> 
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://www.bdu.ac.in/",
+  "name": "BDU Website",
+  "description": "Bharathidasan University, Tiruchirappalli",
+  "publisher": {
+    "@type": "University",
+    "name": "Bharathidasan University, Tiruchirappalli",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.bdu.ac.in/forms/logo/emp-png.png"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.bdu.ac.in/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+
+<style>
+#logo
+{
+background-image: url('//www.bdu.ac.in/images/emp.gif');
+background-size:130px;
+background-position:center 0px;
+background-repeat: no-repeat;
+padding-top:120px;
+}
+
+#logo1
+{
+background-image: url('//www.bdu.ac.in/images/emp-gif.gif');
+background-size:50px;
+background-position:center 0px;
+background-repeat: no-repeat;
+padding-top:50px;
+}
+@media only screen and (min-width: 1201px){
+	#logo{
+		padding-top:0;
+		background-position: 180px 50%;
+	}
+	
+}
+.modal-title
+{
+width: 100%;
+text-align: center;
+}
+</style>
+
+</head>
+
+
+<body id="top">
+
+<!--top bar starts-->
+<div class="wrapper row0" >
+<div id="topbar" class="hoc clear ps-2"> 
+
+
+
+<div class="fl_left">
+
+<ul>
+
+<li><a href="#wrapper">Skip to content</a></li>
+
+
+<li><a href="//www.bdu.ac.in/screen-reader-access.php" target="_blank">Screen Reader Access</a></li>
+<li><a class="up" title="bigger font"><button class="btn btn-primary">&nbsp;A+&nbsp;</button></a></li>
+<li><a class="original" title="regular font"><button class="btn btn-primary">&nbsp;A&nbsp;</button></a></li>
+<li><a class="down" title="smaller font"><button class="btn btn-primary">&nbsp;A-&nbsp;</button></a> </li>
+</ul>
+</div>
+
+<script>
+$('.up').on('click', function () {
+    $('.para').animate({'font-size': '+=5'});
+    $('.para').animate({'line-height': '32px'});
+    $('.list-group-item').animate({'font-size': '+=3'});
+    $('.drop').animate({'font-size': '+=3'});
+   
+
+});
+
+$('.original').on('click', function () {
+    $('.para').animate({'font-size': '16px'});
+    $('.para').animate({'line-height': '24px'});
+    $('.list-group-item').animate({'font-size': '14px'});
+    $('.drop').animate({'font-size': '15px'});
+        
+});
+
+
+$('.down').on('click', function () {
+    $('.para').animate({'font-size': '-=5'});
+    //$('.para').animate({'line-height': '-=5'});
+    $('.list-group-item').animate({'font-size': '-=3'});
+    $('.drop').animate({'font-size': '-=3'});
+});
+</script>
+
+<div class="fl_right pe-3">
+<ul>
+<li><a  href="//www.bdu.ac.in/" title="BDU Homepage"><i class="fa fa-home"></i></a></li>
+<li><a  href="//www.bdu.ac.in/helpdesk/" target="_blank"><i class="fa fa-check-circle"></i>Help Desk</a></li>
+<li><a  href="//www.bdu.ac.in/search.php"><i class="fa fa-search"></i>Search</a></li>
+<li><a  href="//www.bdu.ac.in/downloads/" title="Published on 17/10/2026" target="_blank"><i class="fa fa-download"></i>Downloads</a></li>
+<li><a  href="//www.bdu.ac.in/online-payment/" class="blinklink"><strong><i class="fa fa-rupee"></i>Online Payment</strong></a></li>
+<li><a  href="//www.bdu.ac.in/alumni/"><i class="fa fa-users"></i>Alumni</a></li>
+<li><a  href="//www.bdu.ac.in/university-enquiry-contact.php"><i class="fa fa-phone"></i>Contact</a></li>
+</ul>
+</div>
+
+
+</div>
+</div>
+
+<!--top bar ends-->
+
+
+
+
+<div class="wrapper row1">
+
+<header id="header" class="hoc clear">
+
+<!--logo part starts-->
+
+<div id="logo"> 
+
+<div class="pt-2">
+<a href="//www.bdu.ac.in/" title="Bharathidasan University Emblem"  style="font-weight:normal;">
+<span style="font-size:22px; font-family:myFont;line-height: 1.7;">பாரதிதாசன் பல்கலைக்கழகம் </span>
+</a>
+<div  style="padding-top:10px;font-size:40px;letter-spacing:0.2px; font-family:myFont1;line-height:1.2;">Bharathidasan University</div>
+
+<div  style="padding-top:8px;font-size:18px;text-transform:none;letter-spacing:1px;font-family:myFont1;color:#FFFFFF;padding-top:10px;line-height: 1.7;">Tiruchirappalli - 620 024, Tamil Nadu, India</div>
+
+<span style="paddin-top:10px;text-transform:none;font-family: myFont1;letter-spacing:1px;font-size:15px;color:#FFFFFF;line-height: 1.7;">
+(Accredited with A<sup>+</sup> Grade by NAAC in the Third Cycle  <br> &amp;  36<sup>th</sup> Rank among the Indian Universities in NIRF-2025)
+</span>
+</div>
+
+
+
+
+<div id="wierd_box">
+
+<!--<a href='//www.bdu.ac.in/ffc-2022/'><img src="//www.bdu.ac.in/images/1.gif" alt="" height="130" width="166" style='padding-top:20px;' class="img" id="responsive"></a>-->
+
+<table>
+<tr>
+<th  class="blinktext1">Important Notifications</th>
+</tr>
+
+<tr>
+<td>
+<a href="//www.bdu.ac.in/examinations/november-2026.php" style="font-size:14px;line-height:1.8 !important;font-family: Segoe Ui !important;">Sem. Exam. Timetable (Nov. 2026)</a>
+</td>
+</tr>
+
+</table>
+
+</div>
+
+
+
+
+</div>
+
+
+<!--logo part ends-->
+
+
+
+<!--navigation starts-->
+
+<nav id="mainav" class="clear" style="font-family:myFont1;"> 
+
+
+<ul class="clear">
+
+<!--<li><a href="https://www.bdu.ac.in/index.php">Home</a></li>-->
+
+<li><a href="#" class="drop">About BDU</a>
+<ul>
+<li><a href="//www.bdu.ac.in/about/about-the-university.php">About the University</a></li>
+<li><a href="//www.bdu.ac.in/about/core-values.php">Core Values</a></li>
+<li><a href="//www.bdu.ac.in/about/bdu-act.php">University Act</a></li>
+<li><a href="//www.bdu.ac.in/about/bdu-statutes.php">Statutes</a></li>
+<li><a href="//www.bdu.ac.in/about/institutional-distinctiveness.php">Institutional Development Plan &amp; Distinctiveness</a></li>
+<li><a href="//www.bdu.ac.in/about/campuses.php">Campuses</a></li>
+<li><a href="//www.bdu.ac.in/affiliation/affiliated-colleges.php">Affiliated Colleges</a></li>
+<li><a href="//www.bdu.ac.in/pg-extension-centre/">PG Extension Centre</a></li>
+<li><a href="//www.bdu.ac.in/cde/">Distance and Online Education (CDOE)</a></li>
+<li><a href="//www.bdu.ac.in/cells/internal-quality-assurance-cell/naac.php" target="_blank">Accreditation</a></li>
+<li><a href="//www.bdu.ac.in/about/ordinances.php">Recognition - 12(B)</a></li>
+<li><a href="//www.bdu.ac.in/about/annual-reports.php">Annual Reports and Annual Accounts</a></li>
+<li><a href="//www.bdu.ac.in/schemes/">Sponsoring Bodies, Schemes &amp;  Grants</a></li>
+<li><a href="//www.bdu.ac.in/about/code-of-conduct.php">Code of Conduct</a></li>
+<li><a href="//www.bdu.ac.in/about/governance-and-leadership.php">Organogram (Governance &amp; Leadership)</a></li>
+<li><a href="//www.bdu.ac.in/about/infrastructure-and-learning-resources.php">Infrastructure &amp; Learning Resources</a></li>
+<li><a href="//www.bdu.ac.in/about/best-practices.php">Best Practices</a></li>
+<li><a href="//www.bdu.ac.in/about/maintenance-and-utilization-policy.php">Maintenance of Campus Infrastructure</a></li>
+<li><a href="//www.bdu.ac.in/about/student-support-and-progression.php">Student Support &amp; Progression</a></li>
+<li><a href="//www.bdu.ac.in/about/innovative-practices.php">Innovative Practices</a></li>
+<li><a href="//www.bdu.ac.in/about/extension-activities.php">Extension Activities</a></li>
+</ul>
+</li>
+
+
+<li><a href="#" class="drop">Authorities</a>
+<ul>
+<li><a href="//www.bdu.ac.in/authorities/chancellor.php">Chancellor</a></li>
+<li><a href="//www.bdu.ac.in/authorities/pro-chancellor.php">Pro-Chancellor</a></li>            
+<li><a href="//www.bdu.ac.in/authorities/vice-chancellor.php">Vice-Chancellor</a></li>
+<li><a href="//www.bdu.ac.in/authorities/syndicate.php">Syndicate</a></li>
+<li><a href="//www.bdu.ac.in/authorities/senate.php">Senate</a></li>
+<li><a href="//www.bdu.ac.in/authorities/finance-committee.php">Finance Committee</a></li>
+<li><a href="//www.bdu.ac.in/authorities/SCAA-members.php">Academic Council (SCAA)</a></li>
+<li><a href="//www.bdu.ac.in/authorities/planning-board.php">Planning Board</a></li>
+</ul>
+</li>
+
+<li><a href="#" class="drop">Administration</a>
+<ul>
+<li><a href="//www.bdu.ac.in/administration/registrar.php">Registrar</a></li>
+<li><a href="//www.bdu.ac.in/administration/finance-officer.php">Finance Officer</a></li>
+<li><a href="//www.bdu.ac.in/administration/controller-of-examinations.php">Controller of Examinations</a></li>
+<li><a href="//www.bdu.ac.in/directorate-of-vigilance-and-anti-corruption-portal.php">Vigilance and Anti-Corruption</a></li>
+<li><a href="//www.bdu.ac.in/administration/deans-directors-coordinators.php">Academic Leadership : Deans, Directors &amp; Coordinators</a></li>
+<li><a href="//www.bdu.ac.in/cells/anti-sexual-harassment-committee/" target="_blank">Internal Complaints Committee (ICC)</a></li>
+<li><a href="//www.bdu.ac.in/administration/ombudsperson.php">Ombudsperson (Students Grievance Redressal)</a></li>
+
+<li><a href="//www.bdu.ac.in/emp-directory.php">Faculty and Staff</a></li>
+</ul>
+</li>
+
+
+<li><a href="#" class="drop">Academics</a>
+<ul>
+
+<li><a class="drop" href="#">Academic Programmes</a>
+<ul>
+<li><a href="//www.bdu.ac.in/academics/programmes-offered.php">Univ. Departments</a></li>
+<li><a href="//www.bdu.ac.in/cde/programmes_offered.php" target="_blank">ODL and Online (CDOE) Programs</a></li>
+</ul>
+</li>
+<li><a href="//www.bdu.ac.in/academics/academic-calendar.php">Academic / Student Calendar</a></li>
+
+<li><a class="drop" href="#">Schools/Departments</a>
+<ul>
+<li><a href="//www.bdu.ac.in/schools/faculties-schools-departments.php">Faculties, Schools &amp; Departments</a></li>
+<li><a href="//www.bdu.ac.in/centers/">Centres</a></li>
+<li><a href="//www.bdu.ac.in/facilities/">Facilities</a></li>
+<li><a href="//www.bdu.ac.in/cells/">Cells</a></li>
+</ul>
+</li>
+
+<li><a href="//www.bdu.ac.in/academics/syllabi.php">Syllabi (Non-Autonomous Affiliated Colleges)</a></li>
+
+<li><a href="//www.bdu.ac.in/academics/skill-development-courses.php">Skill Development Training Programme</a></li>
+
+<li><a href="//www.bdu.ac.in/academics/regulations.php">Academic Regulations / Statutes / Ordinances</a></li>
+<li><a href="//www.bdu.ac.in/academics/BOS.php">Board of Studies (Non-Autonomous Affiliated Colleges)</a></li>
+<li><a href="//www.bdu.ac.in/emp-directory.php">Department-wise Faculty Details</a></li>
+<li><a href="//www.bdu.ac.in/cells/internal-quality-assurance-cell/">Internal Quality Assurance Cell (IQAC)</a></li>
+<li><a href="//www.bdu.ac.in/library/">Library</a></li>
+<li><a href="//www.bdu.ac.in/facilities/business-development-centre/">Academic Collaborations</a></li>
+<li><a href="//www.bdu.ac.in/academics/CCCD.php">Council for College and Curriculum Development (CCCD)</a></li>
+<!--<li><a href="//www.bdu.ac.in/academics/TANSCHE-Model-Syllabus.php">TANSCHE Model Syllabus</a></li>-->
+<li><a href="//www.bdu.ac.in/academics/equivalent-papers/">Equivalent Papers</a></li>
+<li><a href="//www.bdu.ac.in/academics/curricular-aspects.php">Curricular Aspects</a></li>
+<li><a href="//www.bdu.ac.in/academics/teaching-learning-and-evaluation.php">Teaching-Learning Evaluation</a></li>
+<li><a href="//www.bdu.ac.in/academics/courses-on-human-values.php">Courses on Human Values</a></li>
+<li><a href="//www.bdu.ac.in/academics/strategic-plans-and-deployment-documents.php">Strategic Plans &amp; Deployment Documents</a></li>
+</ul>
+</li>
+
+
+<li><a href="#" class="drop">Admissions</a>
+<ul>
+<li><a href="//www.bdu.ac.in/academics/docs/Admission-%20Guidelines-UG-PG-2026-2027.pdf" target="_blank">Admission Guidelines (2026-2027)</a> </li>
+<li><a href="https://oms.bdu.ac.in/admissions/assets/docs/bdu-regular-admissions-2026-2027-prospectus.pdf" target="_blank">Fee Structure and Prospectus</a></li>
+<li><a href="//www.bdu.ac.in/admissions/admission-regular-programmes.php">Univ. Departments / Centres</a></li>
+<li><a href="//www.bdu.ac.in/admissions/pg-exten-centre.php">PG Extension Centre</a> </li>
+<li><a href="//www.bdu.ac.in/admissions/fee-refund-policy.php">Fee Refund Policy</a> </li>
+<li><a href="//www.bdu.ac.in/cde" target="_blank">Distance &amp; Online Education</a> </li>
+<li><a href="//www.bdu.ac.in/research/phd-admissions.php">Ph.D.</a></li>
+<li><a href="//www.bdu.ac.in/admissions/dlitt-dsc-admissions.php">D.Litt. / D.Sc.</a></li>
+<li><a href="//www.bdu.ac.in/admissions/financial-aid.php">Financial Aid</a></li>
+</ul>
+</li>
+
+
+<li><a href="#" class="drop">Research</a>
+<ul>
+<li><a href="//www.bdu.ac.in/research/research-advisory-council/">Research and Development Cell (RDC)</a></li>
+<li><a href="//www.bdu.ac.in/research/index.php">Directorate of Research</a></li>
+<li><a href="//www.bdu.ac.in/research/research-consultancy-and-extension.php">Research, Consultancy and Extension</a></li>
+<li><a href="//www.bdu.ac.in/facilities/">Central Facilities</a></li>
+<li><a class="drop" href="#">Ph.D.</a>
+    <ul>
+        <li><a href="//www.bdu.ac.in/academics/regulations.php#phd">Regulations</a></li>
+        <li><a href="//www.bdu.ac.in/research/phd-admissions.php">Admissions</a></li>
+        <li><a href="//www.bdu.ac.in/research/circulars.php">Circulars</a></li>
+        <li><a href="https://phd.bdu.ac.in/supervisors/" target="_blank">List of Guides</a></li>
+        <li><a href="https://rsm.bdu.ac.in/index.php/research/OnlineApplication/centreListPrint/print/2" target="_blank">List of Research Centres</a></li>
+       <li><a href="//www.bdu.ac.in/research/list-of-students-awarded-phd.php">Ph.D. Awarded Candidates</a></li>
+   </ul>
+</li>
+
+<li><a class="drop" href="#">Univ. Research</a>
+    <ul>
+        <li><a href="//www.bdu.ac.in/research/code-of-ethics.php">Research Ethics &amp; Plagiarism</a></li>
+        <li><a href="//www.bdu.ac.in/research/research-advisory-council/">Research Advisory Council</a></li>
+        <li><a href="//www.bdu.ac.in/research/research-advisory-council/">Research and Development Cell (RDC)</a></li>
+        <li><a href="//www.bdu.ac.in/research/institutional-animal-ethics-committee/" target="_blank">Institutional Animal Ethics Committee (IAEC)</a></li>
+        <li><a href="//www.bdu.ac.in/research/institutional-biosafety-committee/" target="_blank">Institutional Biosafety Committee (IBSC)</a></li>
+        <li><a href="//www.bdu.ac.in/research/completed-research-projects.php">UGC Research Project Reports</a></li>
+    </ul>
+</li>
+
+<li><a class="drop" href="#">Schemes and Grants</a>
+    <ul>
+        <li><a href="//www.bdu.ac.in/schemes/RUSA/" target="_blank">RUSA</a></li>
+        <li><a href="//www.bdu.ac.in/schemes/DST-PURSE/" target="_blank">DST-PURSE</a></li>
+    </ul>
+</li>
+
+
+
+</ul>
+</li>
+
+
+<li><a href="#" class="drop">Student Life</a>
+<ul>
+<li><a href="//www.bdu.ac.in/campus-life/sports-and-fitness.php">Sports &amp; Fitness Facilities</a></li>
+<li><a href="//www.bdu.ac.in/extension-activities/extension-activites.php">Extension Activities (NCC/NSS/YRC)</a></li>
+<li><a href="//www.bdu.ac.in/campus-life/hostels.php">Hostels &amp; Accommodation</a> </li>
+<li><a href="//www.bdu.ac.in/cells/placement-and-training-cell/">Placement &amp; Training Cell</a></li>
+<li><a href="//www.bdu.ac.in/campus-life/medical-centre.php">Medical Centre</a></li>
+<li><a href="//www.bdu.ac.in/univ-department-students-bus.php">Transportation (Bus) Facility for Students</a></li>
+<li><a href="//www.bdu.ac.in/cells/anti-sexual-harassment-committee/" target="_blank">Internal Complaints Committee (ICC)</a></li>
+<li><a href="//www.bdu.ac.in/cells/anti-ragging-cell/" target="_blank">Anti-Ragging Cell/Helpline</a></li>
+<li><a href="//www.bdu.ac.in/cells/equal-opportunity-cell/" target="_blank">Equal Opportunity Cell</a></li>
+<li><a href="//www.bdu.ac.in/cells/other-backward-classes/" target="_blank">Other Backward Classes</a></li>
+<li><a href="//www.bdu.ac.in/cells/scheduled-caste-and-scheduled-tribe-cell/" target="_blank">SC-ST Cell</a></li>
+<li><a href="//www.bdu.ac.in/facilities-for-students-with-disabilities.php" target="_blank">Facilities for Students with Disabilities (DIVYANGJAN/PwD)</a></li>
+<li><a href="//www.bdu.ac.in/campus-life/facilities.php">Food and Shops</a></li>
+<li><a href="//www.bdu.ac.in/campus-life/computing-resources.php">IT &amp; Computing Resources</a></li>
+<li><a href="//www.bdu.ac.in/campus-life/emergencies-and-personal-safety.php">Emergencies and Personal Safety</a></li>
+
+</ul>
+</li>
+
+
+<li><a href="#" class="drop">Info. Corner</a>
+<ul>
+<li><a href="//www.bdu.ac.in/public-self-disclosure.php">Public Self Disclosure (PSD)</a> </li>
+<li><a href="//www.bdu.ac.in/right-to-information-act/">RTI &amp; Public Info. Officer</a> </li>
+<li><a href="//www.bdu.ac.in/circulars-notifications.php">Circulars and Notices</a> </li>
+<li><a href="//www.bdu.ac.in/examinations/notifications.php">Exam. Announcements</a> </li>
+<li><a href="//www.bdu.ac.in/press-release.php">Press Release</a> </li>
+<li><a href="//www.bdu.ac.in/academics/docs/Admission-%20Guidelines-UG-PG-2026-2027.pdf" target="_blank">Admission Guidelines and Reservation Roster (2026)</a> </li>
+<li><a href="//www.bdu.ac.in/employment-notifications.php">Emp. Notifications / Job Openings</a></li>
+<li><a href="https://studyinindia.gov.in/" target="_blank">Study In India</a></li>
+<li><a href="//www.bdu.ac.in/admissions/financial-aid.php">Financial Aid</a></li>
+<li><a href="//www.bdu.ac.in/cells/international-students-cell/">International Students</a></li>
+<li><a href="//www.bdu.ac.in/helpdesk/" target="_blank">Student Affairs / Help Desk Portal</a></li>
+<li><a href="//www.bdu.ac.in/downloads/" target="_blank">Forms &amp; Downloads</a></li>
+<li><a href="//www.bdu.ac.in/online-payment/" target="_blank">Online Payments</a></li>
+</ul>
+</li>
+
+
+
+
+
+
+<li><a href="#" class="drop">Examinations</a>
+<ul>
+<li><a href="//www.bdu.ac.in/examinations/notifications.php">Circulars &amp; Notifications</a></li>
+<li><a href="//www.bdu.ac.in/examinations/april-2026.php">Timetable</a></li>
+<li><a href="//www.bdu.ac.in/examinations/subject-codes.php">Subject Codes</a></li>
+<li><a href="#" class="drop">Semester Examinations</a>
+<ul>
+<li><a href="//www.bdu.ac.in/examinations/results/" target="_blank">Sem. Exam. Results</a></li>
+<li><a href="//www.bdu.ac.in/examinations/exam-applications.php">Exam. Applications</a></li>
+</ul>
+</li>		
+<li><a href="#" class="drop">For Colleges</a>
+<ul>
+<li><a href="https://exams1.bdu.ac.in" target="_blank">Pre Examination Portal (New)</a></li>
+<li><a href="https://exams.bdu.ac.in/es-bdu" target="_blank">Pre Examination Portal (Legacy)</a></li>
+<li><a href="https://exams.bdu.ac.in/panel-of-examiners/" target="_blank">Panel of Examiners</a></li>
+<li><a href="https://exams.bdu.ac.in/online-orders/" target="_blank">Valuation Orders</a></li>
+<li><a href="//www.bdu.ac.in/convocation/convocation-data-submit.php">Convocation Data Submit</a></li>
+</ul>
+</li>		
+</ul>
+</li>
+
+<li><a href="//www.bdu.ac.in/alumni/" class="non-drop" target="_blank">Alumni</a></li>
+
+<li><a href="//www.bdu.ac.in/gallery/" class="non-drop" target="_blank">Gallery</a></li>
+
+
+
+
+
+</ul>
+</nav>
+<!--navigation ends-->
+
+</header>
+
+
+
+</div>
+  
+<!--header, logo and menu ends-->
+
+
+
+<!--
+<div class="modal fade modal bd-example-modal-large" id="onload" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content center-text">
+
+<div class="modal-header bg-default text-center" style="background-color: #103fab;color:#FFF;">
+
+	<h5 class="modal-title justify-content-center pt-2 pb-2" id="exampleModalLabel"> 
+
+	<div class="pt-2 pb-2" style="font-family:Segoe Ui;text-transform:none;font-size:24px;line-height: 1.8;">
+	Important Notifications
+	</div>
+
+	</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+
+<div class="modal-body">
+
+<a href="cde/" target="_blank" style="display: inline-block;
+  background: linear-gradient(90deg, #007bff, #6610f2);
+  color: #fff !important;
+  font-weight: 600;
+  padding: 12px 18px;
+  border-radius: 8px;
+  text-decoration: none;" >Acad. Year Admissions 2026 :: Centre for Distance and Online Education (CDOE)</a>
+
+<hr>
+
+<a class='linktext' href="//www.bdu.ac.in/examinations/results/rank.php" target="_blank"><i class="fa fa-link"></i>&nbsp;Univ. Rank Examination URE 2026 :: Download Seating Allotment Slip (UG)</a></li>
+
+<hr>
+
+<a class='linktext' href="//www.bdu.ac.in/examinations/results/rank_pg.php" target="_blank"><i class="fa fa-link"></i>&nbsp;Univ. Rank Examination URE 2026:: Download Seating Allotment Slip (PG)</a>
+
+
+
+
+</div>
+
+<div class="modal-footer">
+
+<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+</div>
+
+</div>
+</div>
+</div>
+
+-->
+
+
+<!--
+
+<div class="modal fade modal bd-example-modal-large" id="onload" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content center-text">
+
+
+<div class="modal-header bg-default text-center" style="background-color: #103fab;color:#FFF;">
+
+<h5 class="modal-title justify-content-center pt-2 pb-2" id="exampleModalLabel"> 
+<div class="pt-2 pb-2">
+<span style="font-family:TAU-Marutham;text-transform:none;font-size:24px;line-height: 1.8;">
+40<sup>வது</sup> பட்டமளிப்பு விழா <br> 
+நாள்: 28.01.2026, புதன்கிழமை, காலை 11.00 மணி
+<br>
+</span>
+<span style="font-family:Segoe Ui;text-transform:none;font-size:22px;line-height: 1.8;">
+40<sup>th</sup> Convocation <br> Date: 28.01.2026, Wednesday, 11.00 am
+</span>
+</div>
+</h5>
+<button type="button" class="btn-close bg-warning"  data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+<div class="modal-body justify-content-center">
+
+<btn id="blink_this" class="btn btn-success">New</btn>&nbsp;<a class="scrolltext" style="font-size:25px !important;" href="//www.bdu.ac.in/convocation/40/" target="_blank" ><i class="fa fa-link"></i>&nbsp;Admission Card, Invitation, List of Eligible Candidates and General Instructions and Streaming Link
+</a>
+
+<center>
+
+<div class="responsive-youtube">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WIm_TpKFi9Y" title="#Live:  40th Convocation | Bharathidasan University, Tiruchirappalli | 28-01-2026" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+
+<object data="convocation/40/docs/BDU-FORTIETH-CONVOCATION-INVITATION.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="920px" height="1200px">
+<p>Your web browser doesn't have a PDF plugin. Instead you can <a href="convocation/40/docs/BDU-FORTIETH-CONVOCATION-INVITATION.pdf">click here to  download the PDF file.</a></p>
+</object>
+</center>
+
+<style>
+.responsive-youtube
+{
+overflow: hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.responsive-youtube iframe
+{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+</style>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+-->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+    window.onload = () => {
+        $('#onload').modal('show');
+    }
+</script>
+
+
+
+
+
+<div class="wrapper row3"> 
+<main class="hoc container clear">
+<div id="wrapper">
+
+<!--SLIDER AND SIDE MENU-->
+
+
+<div class="group btmspace-10 demo">
+        
+<div class="one_quarter first home_slider_left">
+
+<ul class="list-group1">
+	
+<!--<a href="https://www.bduedu.in" target="_blank"  class="list-group-item"><i class="fa fa-graduation-cap"></i>&nbsp;Online Degree Programmes</a>-->
+
+<li class="list-group1-item">
+<a style="line-height: 1.6 !important;" href="//www.bdu.ac.in/cde/"  target="_blank"><i class="fa fa-graduation-cap"></i>&nbsp;Centre for Distance and Online Education (CDOE)</a>
+</li>
+
+<li class="list-group1-item">
+<a href="//www.bdu.ac.in/helpdesk/"  target="_blank"><i class="fa fa-info-circle"></i>&nbsp;Helpdesk</a>
+</li>
+
+<li class="list-group1-item"><a href="library/" target="_blank"><i class="fa fa-book"></i>&nbsp;University Library</a></li>
+
+
+<li class="list-group1-item"><a href="//www.bdu.ac.in/downloads/"  target="_blank"><i class="fa fa-download"></i>&nbsp;Forms &amp; Downloads</a>
+</li>
+
+<li class="list-group1-item"><a href="//www.bdu.ac.in/cells/placement-and-training-cell" target="_blank"><i class="fa fa-handshake-o"></i>&nbsp;Placement &amp; Training Cell</a>
+</li>
+
+
+<li class="list-group1-item"><a href="//www.bdu.ac.in/examinations/results"  target="_blank"><i class="fa fa-clipboard"></i>&nbsp;Sem. Exam. Results</a>
+</li>
+
+<li class="list-group1-item"><a href="https://mmttcbdu.in/" target="_blank"><i class="fa fa-certificate"></i>&nbsp;MMTTC (Formerly UGC-HRDC)</a>
+</li>
+
+<!--<li class="list-group1-item"><a href="//www.bdu.ac.in/bdufest-2025.php"><i class="fa fa-music"></i>&nbsp;BDUFEST - 2025</a></li>-->
+
+<li class="list-group1-item"><a href="//www.bdu.ac.in/sports/"><i class="fa fa-trophy"></i>&nbsp;BDU Sports</a></li>
+
+<!--
+<a href="//www.bdu.ac.in/convocation"  	    			class="list-group-item">				<i class="fa fa-graduation-cap"></i>&nbsp;Convocation 2022</a>
+<a href="//www.bdu.ac.in/gallery/"    			        	class="list-group-item" target="_blank"><i class="fa fa-picture-o"></i>&nbsp;Photo Gallery </a>
+<a href="mobile-app.php"      										class="list-group-item">
+<i class="fa fa-mobile"></i>&nbsp;BDU Mobile / Web App. (LMS)</a>-->	
+
+</ul>
+
+
+
+</div> 
+
+
+<div class="two_quarter home_slider">
+
+<div class="panel panel-default" style="width:100%">
+	
+<div id="wowslider-container1">
+<div class="ws_images">
+
+<ul>
+
+<li>
+<img src="data1/images/stanford-rankings-2026.jpg" class="img-fluid"  title="Stanford University Rankings List 2026 : Top 2% of Scientists in the
+World" alt="Stanford University Rankings List 2026 : Top 2% of Scientists in the
+World"  id="wows1_2601a">
+</li>
+
+<li>
+<img src="data1/images/hedu-minister-visit-23092026.jpg" class="img-fluid"  alt=""  id="wows1_00">
+</li>
+
+
+<li>
+<img src="data1/images/convocation-40/convocation-40-1.jpg" class="img-fluid"  alt="40th Convocation, 28.01.2026"  id="wows1_01">
+</li>
+
+<li>
+<img src="data1/images/convocation-40/convocation-40-2.jpg" class="img-fluid"  alt="40th Convocation, 28.01.2026"  id="wows1_01">
+</li>
+
+<li>
+<img src="data1/images/convocation-40/convocation-40-3.jpg" class="img-fluid"  alt="40th Convocation, 28.01.2026"  id="wows1_01">
+</li>
+
+<li>
+<img src="data1/images/convocation-40/convocation-40-4.jpg" class="img-fluid"  alt="40th Convocation, 28.01.2026"  id="wows1_01">
+</li>
+
+<li>
+<img src="data1/images/ntf-visit.jpg" class="img-fluid"  title="" alt=""  id="wows1_25011">
+</li>
+
+<li>
+<img src="data1/images/nirf-2025.jpg" class="img-fluid"  title="" alt=""  id="wows1_25011a">
+</li>
+
+
+<li>
+<img src="data1/images/campus-3.jpg" class="img-fluid" alt="Poet Bharathidasan Mani Mandapam" title="Poet Bharathidasan Mani Mandapam"                                  id="wows1_11">
+</li>
+
+
+
+</ul>
+</div>
+</div>
+
+
+<!--
+<video  autoplay loop muted="" controls style="max-width: 100%;height:auto;">
+<source src="images/flag-flying-new.mp4" type="video/mp4">
+<source src="images/flag-flying-new.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+<br>
+-->
+
+
+</div>
+
+</div>
+
+<div class="one_quarter home_slider_right">
+
+
+<ul class="list-group1">
+
+<li class="list-group1-item">
+<a href="//www.bdu.ac.in/schools/"><i class="fa fa-building"></i>&nbsp;Schools &amp; Departments</a>
+</li>
+
+<li class="list-group1-item">
+<a href="//www.bdu.ac.in/centers/"><i class="fa fa-flask"></i>&nbsp;Centres</a>
+</li>
+
+<li class="list-group1-item">
+<a href="//www.bdu.ac.in/cells/"><i class="fa fa-hand-o-right"></i>&nbsp;Cells</a> 
+</li>
+
+<li class="list-group1-item">
+<a href="//www.bdu.ac.in//facilities/"><i class="fa fa-check-circle"></i>&nbsp;Facilities</a>
+</li>
+
+<li class="list-group1-item">
+<a href="//www.bdu.ac.in/cells/internal-quality-assurance-cell/" target="_blank"><i class="fa fa-check"></i>&nbsp;IQAC</a>
+</li>
+
+<li class="list-group1-item">
+<a href="//www.bdu.ac.in/National-Institutional-Ranking-Framework/" target="_blank"><i class="fa fa-list"></i>&nbsp;NIRF</a>
+</li>
+
+<li class="list-group1-item">
+<a href="//www.bdu.ac.in/academics/regulations.php"><i class="fa fa-book"></i>&nbsp;Regulations &amp; Syllabi</a>
+</li>
+
+<li class="list-group1-item">
+<a href="//www.bdu.ac.in/affiliation/"><i class="fa fa-university"></i>&nbsp;Colleges &amp; Affiliation</a>
+</li>
+
+</ul>
+	
+
+        
+</div>
+
+
+<!--ABOUT-->
+<!--<a name="mainer"></a>-->
+<div class="group btmspace-10 demo">
+<div class="card" style="width:100%; padding-top:0px;">
+<div class="card-header"><h1 class='heading1 pt-2'>Welcome to Bharathidasan University</h1></div>
+<div class="card-body">
+<p class="para">Bharathidasan University established in February 1982 was named after the great
+revolutionary Tamil Poet, <a href="//www.bdu.ac.in/misc/bharathidasan/" target="_blank"><strong>Bharathidasan</strong></a> (1891-1964). 
+The motto of the University <strong>"We will create a brave new world"</strong> has been framed from Bharathidasan's
+poetic words <span style="font-family:myFont; font-size:12px;"><strong>"புதியதோர் உலகம் செய்வோம்"</strong></span>. The University endeavours to be true to such a vision by creating in the region a brave new world of academic innovation for social change.
+<a href="//www.bdu.ac.in/about/about-the-university.php" title="About Bharathidasan University"><strong>Read More&nbsp;<i class="fa fa-caret-right"></i></strong>
+</a>
+</p>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<div class="numbers pt-2 pb-2">
+<div class="container">
+<center>
+<h2 class="heading text-center pt-2 pb-3 counterline"><span>Bharathidasan University by the Numbers</h2>
+</span>
+
+<div class="row">
+
+<ul class="strength">
+<li>
+<div class="icon"><span class="icon-certification-icon"><i class="fa fa-graduation-cap"></i></span></div>
+<span class="counter counter-count">150</span><span class="counter">+</span>
+<div class="title">Programs</div>
+</li>
+<li>
+<div class="icon"><span class="icon-student-icon"><i class="fa fa-users"></i></span></div>
+<span class="counter counter-count">3600</span><span class="counter">+</span>
+<div class="title">Students on Campus</div>
+</li>
+<li>
+<div class="icon"><span class="icon-book-icon"><i class="fa fa-certificate"></i></span></div>
+<span class="counter counter-count">300</span><span class="counter">+</span>
+<div class="title pt-2 pb-3">Faculty Members</div>
+</li>
+<li>
+<div class="icon"><span class="icon-parents-icon"><i class='fa fa-bank'></i></span></div>
+<span class="counter counter-count">167</span>
+<div class="title">Affiliated Institutions</div>
+</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<script>
+$('.counter-count').each(function () {
+$(this).prop('Counter',0).animate({
+Counter: $(this).text()
+},
+{
+duration: 4000,
+easing: 'swing',
+step: function (now) {
+$(this).text(Math.ceil(now));
+}
+});
+});
+</script>
+
+<style>
+.marquee-box {
+  height: 400px;              /* visible area */
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  position: absolute;
+  width: 100%;
+  animation: scroll-up 15s linear infinite;
+}
+
+.marquee-box:hover .marquee-content {
+  animation-play-state: paused; /* pause on hover */
+}
+
+@keyframes scroll-up {
+  from { top: 100%; }
+  to   { top: -100%; }
+}
+
+</style>
+
+</div>
+</div>
+</div>
+
+<!--<a name="circulars"></a>-->
+
+<div class="group btmspace-10 demo">
+
+<div class="txtwrap">
+
+<div class="tab_container">
+
+<input id="tab1" type="radio" name="tabs" checked>
+<label for="tab1"><i class="fa fa-bullhorn"></i>Announcements</label> 
+
+<input id="tab2" type="radio" name="tabs">
+<label for="tab2"><i class="fa fa-folder-open"></i>Tenders</label>
+
+<input id="tab3" type="radio" name="tabs">
+<label for="tab3"><i class="fa fa-check-circle"></i>Employment / Job Openings</label>
+
+<input id="tab4" type="radio" name="tabs">
+<label for="tab4"><i class="fa fa-bell"></i>Exam. Notificaitons</label>
+
+
+<section id="content1" class="tab-content">
+<h3 class="heading1 text-center pt-2 pb-2 border-bottom">General Circulars and Notifications</h3>
+<!--<marquee direction="up" scrolldelay="150" height="400" onmouseover="this.stop();" onmouseout="this.start();">-->
+<div class="marquee-box">
+<div class="marquee-content">
+<ul class="list-group1">  
+<!--
+
+<li class="list-group1-item"> <a class="scrolltext"  href="vc-notification.php" target="_blank" title="updated on 10/05/2025"><i class="fa fa-link"></i>&nbsp;Search Committee Notification for the Appointment of Vice-Chancellor, Bharathidasan University <btn id="blink_this" class="btn btn-danger">New</btn> </a>
+</li>
+
+<li class="list-group1-item"><a class="scrolltext" href="docs/press-release/periyar-award-applicants-list-2025.pdf" style="font-family:TAU-Marutham;font-size:17px;line-height:1.7;letter-spacing:0.4px;" target="_blank" title="uploaded on 02.09.2025" target="_blank"><i class='fa fa-file-pdf-o'></i>&nbsp;பெரியார் சிறப்பு விருது - விண்ணப்பித்தவர்களின் பட்டியல் </a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="docs/PERIYAR-AWARDS-2026.pdf" target="_blank" style="font-family:TAU-Marutham;font-size:17px;line-height:1.7;letter-spacing:0.4px;"><i class="fa fa-file-pdf-o"></i>&nbsp;பெரியார் பிறந்தநாள் விழா விருதுகள் 2026 - அறிவிப்பு (விண்ணப்பம் வந்து சேர வேண்டிய கடைசி நாள்: 11/09/2026)</a></li>
+
+
+<li class="list-group1-item"><a class="scrolltext" href="https://www.bdu.ac.in/cde/"><i class="fa fa-link"></i>&nbsp;Centre for Distance and Online Education  (CDOE) - Academic Year Admissions 2025-2026</a></li>
+
+<li class="list-group1-item"> <btn id="blink_this" class="btn btn-primary">New</btn>&nbsp;<a class="scrolltext"  
+href="//www.bdu.ac.in/registrar-coe-director-cdoe.php"><i class="fa fa-link"></i>&nbsp;Application Format, Instructions to Candidates and Data Sheet for the post of Registrar, Controller of Examinations &amp; 
+Director - Centre for Distance and Online Education (CDOE) (Last Date: 12.01.2026 by 5.45 p.m.) </a> </li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/convocation/40/" target="_blank"><i class="fa fa-link"></i>&nbsp;40<sup>th</sup> Convocation - Admission Card, Invitation, List of Eligible Candidates and General Instructions</a></li>
+
+<li class="list-group1-item"><a class="scrolltext"  href="//www.bdu.ac.in/docs/tenders/Tender-for-Securtiy-Servcies-18012026.pdf" title="Notification Date : 18/01/2026" target="_blank">
+<i class="fa fa-file-pdf-o"></i>&nbsp;<span style="color:103fab !important;font-family:TAU-Marutham;font-size: 17px;letter-spacing: 0.4px;">பாரதிதாசன் பல்கலைக்கழக பல்கலைப்பேரூர் மற்றும் காஜாமலை வளாகங்களில் பாதுகாப்புப் பணியை மேற்கொள்ள ஒப்பந்த அடிப்படையில் பாதுகாவலர் பணிக்கு - ஒப்பந்தப்புள்ளி அறிவிப்பு மற்றும்  விண்ணப்பப் படிவம்</span> - Tender for Security Service in Bharathidasan University Palkalaiperur and Khajamalai Campus - Notification and Application Form (Last Date: 02.02.2026, 3.00 pm)
+</a>
+</li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/november-2025.php"  title="updated on 28/10/2025"><i class="fa fa-link"></i>&nbsp;UG, PG, MBA and MCA Exam. Timetable November 2025</a></li>
+
+<li class="list-group1-item"><a class="scrolltext" target="_blank" href="https://ntfsurvey.nic.in/moetaskforce/#/consent?questionUserType=Y2JmNGFmZmU1NzJkNGM1OTNjNDZmNDgzY2JhMDljMGQ6OmI2NTQzZTgzYTYwZWY3MmIzYmEwZGYyNmNkYmE2YjU3YjMzYWFhMGM5ZWRmYmZjMTllMTI5OGQ5Yzg0ZDUxN2E6OmtWa0dIbGxSTkdFaXhHbGFYeEJGcWc9PQ%3D%3D"><i class="fa fa-link"></i>&nbsp;National Task Force to address mental health concerns of students and prevent suicides in higher educational institutions - Online Survey Link</a></li>
+
+
+
+
+<li class="list-group1-item"><a class="scrolltext" href="//www.bdu.ac.in/docs/syndicate-senate/ELECTION-TO-THE-SYNDICATE-NOTIFICATION.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>&nbsp;Election to the Syndicate - Notification</a></li> 
+
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/notifications.php" target="_blank"><i class="fa fa-link"></i>&nbsp;Affiliated Colleges - UG and PG Examination - April 2026 - Exam. Timetable and Notifications</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/digital-arrest-cyber-crime-awarness.php"><i class="fa fa-link"></i>&nbsp;Cyber Crime Awareness Video on "Digital Arrest Scam"</a></li>
+
+<li class="list-group1-item"><a class="scrolltext" href="//www.bdu.ac.in/docs/syndicate-senate/BDU-SENATE-GRADUATE-ELECTION-NEWS-ITEM-30062026.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>&nbsp;Graduate Election to Senate - Notification and Important Dates</a></li>
+
+<li class="list-group1-item"><a class="scrolltext" href="//www.bdu.ac.in/docs/syndicate-senate/ELECTION-TO-THE-SENATE-2026.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i>&nbsp;Election to Senate by the Secretaries of the College Committee - Notification, Schedule & Electoral Roll</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="bdufest-2026.php"  title="updated on 17/10/2025"><i class="fa fa-link"></i>&nbsp;<span style='font-family:TAU-Marutham;;font-size:17px;line-height:1.7;letter-spacing: 0.6px;'>பல்கலைக்கழகக் கலைவிழா </span> 2026 :: BDU FEST 2026 (01/10/2026 - 04/10/2026) &nbsp;<btn id="blink_this" class="btn btn-danger">New</btn> </a></li>
+-->
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/notifications.php" target="_blank"><i class="fa fa-link"></i>&nbsp;UG and PG Examination - November 2026 - Exam. Timetable, Notifications, Important Dates &amp; Circulars</a></li>
+
+<li class="list-group1-item"><a class="scrolltext" style="color:103fab !important;font-family:TAU-Marutham;font-size: 17px;letter-spacing: 0.4px;"  href="//www.bdu.ac.in/examinations/docs/notifications/general/41st-Convocation-Payment-Notification.pdf" target="_blank" title="updated on 26/10/2026"><i class="fa fa-file-pdf-o"></i>&nbsp;நாற்பத்தொன்றாவது பட்டமளிப்பு விழா - நிறைவு செய்த விண்ணப்பங்களை அனுப்புதல் மற்றும் இணையவழிக் கட்டணம் செலுத்துதல் - தொடர்பாக </a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/research/august-2026-results/" target="_blank"><i class="fa fa-link"></i>&nbsp;Ph.D. Qualifying Entrance Examination Results (Aug. 2026)</a></li>
+
+
+<li class="list-group1-item"><a class="scrolltext" href="//www.bdu.ac.in/univ-department-students-bus.php"><i class="fa fa-link"></i>&nbsp;Bus Facility for University Department Students - Circulars, Route, Application Form, General Instructions and Online Payment Facility Link (2026)</a></li>
+
+<li class="list-group1-item"><a class="scrolltext" href="//www.bdu.ac.in/academics/syllabi.php"><i class="fa fa-link"></i>&nbsp;CCCD :: Syllabi, Regulations, Vettri Thiran Payirchi Thittam (Skill Development Courses), TANSCHE Model Syllabus, Admisison Guidelines, Circulars &amp; Notifications</a></li>
+
+<li class="list-group1-item"><a class="scrolltext" href="//www.bdu.ac.in/research/circulars.php"><i class="fa fa-link"></i>&nbsp;Ph.D. / Research Section ::  Circulars &amp; Notifications</a></li>
+
+<li class="list-group1-item"><a class="scrolltext" href="//www.bdu.ac.in/affiliation"><i class="fa fa-link"></i>&nbsp;Affiliated Colleges :: Circulars &amp; Notifications</a></li>
+
+</ul>
+
+<a class="btn btn-primary btn-xs"  href="circulars-notifications.php"> List All </a>
+</div>
+</div>
+<!--</marquee>-->
+</section>
+
+<section id="content2" class="tab-content">
+<h3 class="heading1 text-center pt-2 pb-2 border-bottom"> Tenders and Procurement Notifications </h3>
+<!--<marquee direction="up" scrolldelay="100" height="400" onmouseover="this.stop();" onmouseout="this.start();">-->
+<div class="marquee-box">
+<div class="marquee-content">
+﻿<ul class="list-group1">
+
+
+<li class="list-group1-item"><a class="scrolltext" href="//www.bdu.ac.in/docs/tenders/Revised-Norms-for-Advt-of-Tender-Notice.pdf" title="uploaded on 05.01.2023" target="_blank"><i class="fa fa-file-pdf-o"></i>&nbsp;Revised Norms for Advertisement of Tender Notice</a></li>
+
+</ul>
+<a class="btn btn-primary btn-xs"  href="tenders.php"> List All </a>
+</div>
+</div>
+<!--</marquee>-->
+</section>
+
+
+<section id="content3" class="tab-content">
+<h3 class="heading1 text-center pt-2 pb-2 border-bottom"> Project Positions, Vacancies &amp; Walk-in Interviews </h3>
+<!--<marquee direction="up" scrolldelay="150" height="400" onmouseover="this.stop();" onmouseout="this.start();">-->
+<div class="marquee-box">
+<div class="marquee-content">
+﻿<ul class="list-group1">
+
+
+
+
+<li class="list-group1-item"><a class="scrolltext"  href="//www.bdu.ac.in/cells/placement-and-training-cell/" target="_blank"><i class="fa fa-link"></i>&nbsp;Notifications from BDU Placement and Training Cell</a></li>
+</ul><a class="btn btn-primary"  href="employment-notifications.php">List All</a>
+</div>
+</div>
+<!--</marquee>-->
+</section>
+
+
+<section id="content4" class="tab-content">
+<h3 class="heading1 text-center pt-2 pb-2 border-bottom"> Sem. Examination Information / Timetable / Results </h3>
+<a class="btn btn-primary"  href="//www.bdu.ac.in/examinations/notifications.php">List All</a>
+<!--
+<marquee direction="up" scrolldelay="150" height="400" onmouseover="this.stop();" onmouseout="this.start();">-->
+<div class="marquee-box">
+<div class="marquee-content">
+﻿<div class="pt-2 pb-3">
+
+<style>
+.blinktext {
+font-size:15px;
+animation-name: wiredtitle;
+font-family:'Segoe Ui';
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes wiredtitle {
+    0%   {color: white;}
+    50% {color: #00356b;}
+    100% { color: #dc3545; }
+}
+</style>
+
+
+
+
+
+<ul class="list-group1">
+<li class="list-group1-item" style="font-size:18px;background-color:#286dc0;color:#FFFFFF;font-family:Segoe Ui;font-weight:bold;letter-spacing:0.3px;">UG / PG / Diploma / Certificate / Semester Examination Notifications - November 2026</li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/november-2026.php"  title="28/10/2026"><i class="fa fa-link" style="color:#103fab;font-weight:bold;"></i>&nbsp;Semester Examinations - November 2026 - Timetable</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/DC/BDU-COE-NAC-DC-Exam-26W.pdf" target="_blank" title="30/10/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;Diploma &amp; Certificate Courses - Exam. Notification - Fee Details, Data Sheet and Important Dates - Circular</a></li>
+
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/UG/BDU-COE-NAC-UG-Theory-Exam-26W.pdf" target="_blank" title="29/09/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Examinations - Theory Exam. Notification - Fee Details and Important Dates - Circular</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/UG/BDU-COE-NAC-UG-Practical-Exam-26W.pdf" target="_blank" title="28/09/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Examinations - Practical Exam. Notification - Fee Details and Important Dates - Circular</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/UG/BDU-COE-NAC-UG-Form-II-III-IV-2024-2025-Onwards-26W.pdf" target="_blank" title="28/09/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Form-II, III and IV (2024-2025 Batch Onwards)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/UG/BDU-COE-NAC-UG-Form-II-III-IV-Prior-to-2024-2025-26W.pdf" target="_blank" title="28/09/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Form-II, III and IV (Prior to 2024-2025 Batch)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/UG/BDU-COE-NAC-UG-Form-I-2024-2025-Onwards-26S.xlsx" target="_blank" title="28/09/2026"><i class="fa fa-file-excel-o" style="color:green;font-weight:bold;"></i>&nbsp;UG - Form-I (2024-2025 Batch Onwards)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/UG/BDU-COE-NAC-UG-Form-I-Prior-to-2024-2025-26S.xlsx" target="_blank" title="28/09/2026"><i class="fa fa-file-excel-o" style="color:green;font-weight:bold;"></i>&nbsp;UG - Form-I (Prior to 2024-2025 Batch)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/UG/BDU-COE-NAC-UG-Checklist-26W.pdf" target="_blank" title="29/09/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Checklist</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/PG/BDU-COE-NAC-PG-Theory-and-Practical-Exam-26W.pdf" target="_blank" title="28/09/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;PG - Theory and Practical Exams. - Notification - Fee Details and Important Dates - Circular</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/PG/BDU-COE-NAC-PG-Form-II-III-IV-2024-2025-Onwards-26W.pdf" target="_blank" title="28/09/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;PG - Form-II, III and IV (2024-2025 Batch Onwards)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/PG/BDU-COE-NAC-PG-Form-II-III-IV-Prior-to-2024-2025-26W.pdf" target="_blank" title="28/09/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;PG - Form-II, III and IV (Prior to 2024-2025 Batch)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/PG/BDU-COE-NAC-PG-Form-I-2024-2025-Onwards-26S.xlsx" target="_blank" title="28/09/2026"><i class="fa fa-file-excel-o" style="color:green;font-weight:bold;"></i>&nbsp;PG - Form-I (2024-2025 Batch Onwards)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/PG/BDU-COE-NAC-PG-Form-I-Prior-to-2024-2025-26S.xlsx" target="_blank" title="28/09/2026"><i class="fa fa-file-excel-o" style="color:green;font-weight:bold;"></i>&nbsp;PG - Form-I (Prior to 2024-2025 Batch)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/November-2026/PG/BDU-COE-NAC-PG-Checklist-26W.pdf" target="_blank" title="28/09/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;PG - Checklist</a></li>
+
+</ul>
+
+<!--
+
+<ul class="list-group1">
+<li class="list-group1-item" style="font-size:18px;background-color:#286dc0;color:#FFFFFF;font-family:Segoe Ui;font-weight:bold;letter-spacing:0.3px;">UG / PG / Diploma / Certificate / Semester Examination Notifications - April 2026</li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/URE.php"><i class="fa fa-link" style="color:crimson;font-weight:bold;"></i>&nbsp; UG & PG University Rank Examination (URE) Notification, Circulars, <span style="color: crimson !important;">Rescheduled Dates</span> :: April 2026</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/subject-codes.php"><i class="fa fa-link" style="color:crimson;font-weight:bold;"></i>&nbsp; Subject Codes for UG & PG (2026-2027 Onwards)</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/PG/PG-INSTANT-EXAMINATION-NOTIFICATION-26S.pdf"  target="_blank" title="17/07/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp; PG Instant Examination Notification :: April 2026</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/UG/UG-INSTANT-EXAMINATION-NOTIFICATION-26S.pdf"  target="_blank" title="30/06/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp; UG Instant Examination Notification :: April 2026</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="https://exams1.bdu.ac.in"  target="_blank" title="Published on 20/06/2026"><i class="fa fa-link" style="color:#103fab;font-weight:bold;"></i>&nbsp; Semester Examination Results :: April 2026</a></li>
+
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/april-2026.php"  title=""><i class="fa fa-link" style="color:#103fab;font-weight:bold;"></i>&nbsp;Semester Examinations - April 2026 - Timetable</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/BDU-COE-NAC-DIPLOMA-CERTIFICATE-DATE -INTIMATION-26S.pdf" target="_blank" title="04/03/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;Diplom and Certificate Courses - Examinations - Notification - Fee Details and Important Dates - Circular</a></li>
+
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/UG/BDU-COE-NAC-UG-Project-Practical-Exam-26S.pdf" target="_blank" title="17/02/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Examinations - Project and Viva-Voce Examinations - Circular</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/UG/BDU-COE-NAC-UG-Practical-Exam-26S.pdf" target="_blank" title="16/02/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Examinations - Practical Exam. Notification - Fee Details and Important Dates - Circular</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/UG/BDU-COE-NAC-UG-Theory-Exam-26S.pdf" target="_blank" title="13/02/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Examinations - Theory Exam. Notification - Fee Details and Important Dates - Circular</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/UG/BDU-COE-NAC-UG-Form-II-III-IV-2024-2025-Onwards-26S.pdf" target="_blank" title="13/02/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Form-II, III and IV (2024-2025 Batch Onwards)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/UG/BDU-COE-NAC-UG-Form-II-III-IV-Prior-to-2024-2025-26S.pdf" target="_blank" title="13/02/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Form-II, III and IV (Prior to 2024-2025 Batch)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/UG/BDU-COE-NAC-UG-Form-I-2024-2025-Onwards-26S.xlsx" target="_blank" title="13/02/2026"><i class="fa fa-file-excel-o" style="color:green;font-weight:bold;"></i>&nbsp;UG - Form-I (2024-2025 Batch Onwards)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/UG/BDU-COE-NAC-UG-Form-I-Prior-to-2024-2025-26S.xlsx" target="_blank" title="13/02/2026"><i class="fa fa-file-excel-o" style="color:green;font-weight:bold;"></i>&nbsp;UG - Form-I (Prior to 2024-2025 Batch)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/UG/BDU-COE-NAC-UG-Checklist-26S.pdf" target="_blank" title="13/02/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;UG - Checklist</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/PG/BDU-COE-NAC-PG-Theory-and-Practical-Exam-26S.pdf" target="_blank" title="13/02/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;PG - Theory and Practical Exams. - Notification - Fee Details and Important Dates - Circular</a></li>
+
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/PG/BDU-COE-NAC-PG-Form-II-III-IV-2024-2025-Onwards-26S.pdf" target="_blank" title="13/02/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;PG - Form-II, III and IV (2024-2025 Batch Onwards)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/PG/BDU-COE-NAC-PG-Form-II-III-IV-Prior-to-2024-2025-26S.pdf" target="_blank" title="13/02/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;PG - Form-II, III and IV (Prior to 2024-2025 Batch)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/PG/BDU-COE-NAC-PG-Form-I-2024-2025-Onwards-26S.xlsx" target="_blank" title="13/02/2026"><i class="fa fa-file-excel-o" style="color:green;font-weight:bold;"></i>&nbsp;PG - Form-I (2024-2025 Batch Onwards)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/PG/BDU-COE-NAC-PG-Form-I-Prior-to-2024-2025-26S.xlsx" target="_blank" title="13/02/2026"><i class="fa fa-file-excel-o" style="color:green;font-weight:bold;"></i>&nbsp;PG - Form-I (Prior to 2024-2025 Batch)</a></li>
+
+<li class="list-group1-item"> <a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/April-2026/PG/BDU-COE-NAC-PG-Checklist-26S.pdf" target="_blank" title="13/02/2026"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;PG - Checklist</a></li>
+
+
+</ul>
+-->
+
+<ul class="list-group1">
+<li class="list-group1-item" style="font-size:18px;background-color:#286dc0;color:#FFFFFF;font-family:Segoe Ui;font-weight:bold;letter-spacing:0.3px;">General Circulars and Notifications</li>
+
+
+<li class="list-group1-item"><a class='linktext' href="//www.bdu.ac.in/examinations/URE.php"><i class="fa fa-link"></i>&nbsp;Univ. Rank Examination URE 2026 :: UG and PG Results</a></li>
+
+<li class="list-group1-item"><a class="scrolltext" style="color:103fab !important;font-family:TAU-Marutham;font-size: 17px;letter-spacing: 0.4px;"  href="//www.bdu.ac.in/examinations/docs/notifications/general/41st-Convocation-Payment-Notification.pdf" target="_blank" title="updated on 26/10/2026"><i class="fa fa-file-pdf-o"></i>&nbsp;நாற்பத்தொன்றாவது பட்டமளிப்பு விழா - நிறைவு செய்த விண்ணப்பங்களை அனுப்புதல் மற்றும் இணையவழிக் கட்டணம் செலுத்துதல் - தொடர்பாக </a></li>
+
+
+<li class="list-group1-item"><a class="scrolltext"  href="//www.bdu.ac.in/examinations/docs/notifications/general/Rank-Exam-Fee-April-2026-Onwards-Circular.pdf" target="_blank" title="updated on 26/12/2025"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;Revised Application Fee for UG/PG Rank Exams - From 2026 April Onwards - Circular - reg.</a></li>
+
+
+
+
+<!--
+<li class="list-group1-item"><a class="scrolltext" style="color:103fab !important;font-family:TAU-Marutham;font-size: 17px;letter-spacing: 0.4px;"  href="//www.bdu.ac.in/examinations/docs/notifications/general/40-th-Convocation-Application-Called-for.pdf" target="_blank" title="updated on 28/10/2025"><i class="fa fa-file-pdf-o" style="color:crimson;font-weight:bold;"></i>&nbsp;நாற்பதாவது பட்டமளிப்பு விழா - கல்லூரிகளுக்கு பட்டச்சான்றிதழ்கள்  அனுப்புதல் -  வழிகாட்டு நெறிமுறைகள் - தொடர்பாக </a></li>
+-->
+
+</ul>
+</div>
+</div>
+<!--</marquee>-->
+</section>
+
+</div>
+
+
+
+</div> <!--textwrap-->
+
+</div>
+
+
+
+
+<!-- part IV--> 
+
+
+<div class="group btmspace-10 demo pt-2">
+
+<div class="one_quarter first" >
+ 
+<div class="card">
+<div class="card-header" style="background-color:#951272;font-family: Segoe Ui;color:#FFFFFF;font-size: 16px;font-weight: bold;text-transform: none;"><i class="fa fa-search"></i>&nbsp;Important Links</div>
+<div class="card-body">
+<!--<a class="linktext" href="ffc-2022/" title="சுதந்திரத் திருநாள் அமுதப் பெருவிழா - நிகழ்வுகள் - Celebration of 75 Years of Independence - Events">Celebration of 75 Years of Independence</a> <hr>-->	
+<a class="linktext" href="//www.bdu.ac.in/helpdesk/" target="_blank" title="Help Desk">Help Desk</a><hr>
+<a class="linktext" href="emp-directory.php">Faculty &amp; Staff Directory</a><hr>
+<a class="linktext" href="//oms.bdu.ac.in/emp/" target="_blank">Faculty, Staff &amp; Pensioner Portals</a> <hr>
+<a class="linktext" href="online-payment.php">Online Payment</a><hr>
+<!--<a href="//www.bdu.ac.in/covid/">COVID-19 Portal </a><hr>-->
+<a class="linktext" href="facilities-for-students-with-disabilities.php">Facilities for Students with Disablities (PwD)</a>
+</div>
+</div>
+
+</div>
+
+     
+<div class="one_quarter">
+
+<div class="card">
+<div class="card-header" style="background-color:#006b6b;font-family: Segoe Ui;color: #FFFFFF;font-size:16px;font-weight:bold;text-transform: none;"><i class="fa fa-graduation-cap"></i>&nbsp;For Students</div>
+<div class="card-body">
+<a href="//www.bdu.ac.in//admissions/" class="linktext">Admissions</a><hr>
+<a href="//www.bdu.ac.in/cells/placement-and-training-cell/" class="linktext" target="_blank">Placement &amp; Training Cell</a><hr>
+<a href="//www.bdu.ac.in/alumni/new/" target="_blank" class="linktext">Alumni</a> <hr>
+<a href="https://oms.bdu.ac.in/portal/" target="_blank" class="linktext">Student Self Service Portal</a><hr>
+<a href="//www.bdu.ac.in/mental-health-and-wellbeing/" target="_blank" class="linktext">Mental Health and Wellbeing</a>	
+</div>
+</div>
+
+</div>
+
+		
+<div class="one_quarter">
+
+<div class="card">
+<div class="card-header" style="background-color:#7d2239;font-family: Segoe Ui;color: #FFFFFF;font-size: 16px;font-weight: bold;text-transform: none;">
+<i class="fa fa-institution"></i>&nbsp;For Colleges / Faculty
+</div>
+<div class="card-body">
+<a href="//www.bdu.ac.in/academics/regulations.php" class="linktext">Regulations &amp; Syllabi</a><hr>
+<a href="//www.bdu.ac.in/examinations/subject-codes.php" class="linktext">Subject Codes</a><hr>
+<a href="//www.bdu.ac.in/academics/equivalent-papers/" class="linktext">Equivalent Papers</a><hr>
+<a href="//www.bdu.ac.in/examinations/results/" target="_blank" class="linktext">Sem. Exam. Results</a><hr>
+<a href="https://exams.bdu.ac.in/panel-of-examiners/"  target="_blank" class="linktext">Panel of Examiners</a>
+</div>
+</div>
+
+</div>
+
+<div class="one_quarter" >
+
+<div class="card">
+
+<div class="card-header" style="background-color:#005398;font-family: Segoe Ui;color: #FFFFFF;font-size: 16px;font-weight: bold;text-transform: none;">
+<i class="fa fa-desktop"></i>&nbsp;Digital Initiatives
+</div>
+<div class="card-body">
+<a href="//www.bdu.ac.in/nad.php" target="_blank" class="linktext">Academic Bank of Credits (ABC), Digi Locker &amp; NAD</a><hr>
+<a href="https://swayam.gov.in/" class="linktext" target="_blank">Swayam</a><hr>
+<a href="https://www.swayamprabha.gov.in/" class="linktext" target="_blank"> Swayam Prabha</a><hr>
+<a href="https://epgp.inflibnet.ac.in/" class="linktext" target="_blank">e-PG Pathshala</a><hr>
+<a href="esanad.php" class="linktext">BDU e-Sanad</a>
+</div>
+</div>
+</div>
+<!-- Part V -->		
+
+
+
+
+
+</div>
+
+<div class="pt-2 pb-2">
+<div class="card pb-3" style="width:100%">
+<div class="card-header bg-primary text-white"><h1 class="heading2" style="color:#FFF !important;font-family: Segoe Ui;"><i class="fa fa-calendar"></i>&nbsp;Upcoming Events (2026 - 2027)</h1></div>
+<div class="card-body">
+﻿<a class="scrolltext" target="_blank" href="events/CeSAR-Event-18122026.pdf"><i class="fa fa-link"></i>&nbsp;Dec. 14 - 18, 2026 : ICAR-NBFGR Sponsored 5 Day Programme on "Entrepreneurship Skill Development Programme on Sustainable Aquaculture Practices for SC Students" - Centre for Sustainable Aquaculture Research (CeSAR)</a>
+<hr>
+<a class="scrolltext" target="_blank" href="DEBIT-AIR-2027.php"><i class="fa fa-link"></i>&nbsp;Jan. 07 - 08, 2027 : Twenty Second Annual International Seminar on "DYNAMICS OF EMERGING BUSINESS INNOVATION AND TRENDS- ACADEMIA INDUSTRY ROLE" (DEBIT AIR - 2027) - Centre for Distance and Online Education (CDOE) & Smart Journal of Business Management Studies</a>
+ 
+<hr>
+<a class="linktext" href="events-archive.php">Archived List of Events</a>
+</div>
+</div>
+</div>
+
+<!--<div class="pt-2 pb-2">
+<div class="card" style="width:100%">
+<div class="card-header   bg-primary text-white"><h1 class="heading2" style="color:#FFF !important;font-family: Segoe Ui;"><i class="fa fa-check-circle"></i>&nbsp;Significant  Events (2025)</h1></div>
+<div class="card-body">
+<i class="fa fa-file-pdf-o"></i>&nbsp;<a class="scrolltext" target="_blank" href="events/NSCB-128/" target="_blank">January 23, 2025 : CELEBRATION OF  128<sup>th</sup> BIRTH ANNIVERSARY OF  NETAJI SUBHAS CHANDRA BOSE </a>
+</div>
+</div>
+-->
+
+
+
+
+<div class="container-fluid py-2">
+        <div class="container">
+            <div class="text-center">
+                <div class="separator">
+                    <div class="line"></div>
+                    <h2 class='heading2 digitalline'>Digital Initiatives</h2>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 pb-lg-12 p-4">
+                    <div class="Marquee">
+                        <div class="Marquee-content">
+                            <div class="Marquee-tag"><a target="_blank" href="https://umis.tn.gov.in/"><img src="images/digital-initiatives/umis.png" class="img-fluid"></a></div>
+                            <div class="Marquee-tag"><a target="_blank" href="https://deb.ugc.ac.in/?_gl=1*saqwf6*_ga*MTQxMTU2MzMwMS4xNjQ1MDk5OTg2*_ga_FGHYECNLXB*MTY3NDE4ODU2NC45Mi4xLjE2NzQxODk3OTQuMC4wLjA."><img src="images/digital-initiatives/DEB.jpg" class="img-fluid"></a></div>
+                            <div class="Marquee-tag"><a target="_blank" href="https://swayam.gov.in/"><img src="images/digital-initiatives/swayam.jpg" class="img-fluid"></a></div>
+                            <div class="Marquee-tag"><a target="_blank" href="https://swayamprabha.gov.in/"><img src="images/digital-initiatives/swayam-prabha.jpg" class="img-fluid"></a></div>
+                            <div class="Marquee-tag"><a target="_blank" href="https://epgp.inflibnet.ac.in/"><img src="images/digital-initiatives/pathshala.jpg" class="img-fluid"></a></div>
+                            <div class="Marquee-tag"><a target="_blank" href="https://nad.gov.in/"><img src="images/digital-initiatives/nad.jpg" class="img-fluid"></a></div>
+                            <div class="Marquee-tag"><a target="_blank" href="https://www.digilocker.gov.in/"><img src="images/digital-initiatives/digilocker_logo_new.png" class="img-fluid"></a></div>
+                            <div class="Marquee-tag"><a target="_blank" href="https://aishe.nic.in/aishe/home"><img src="images/digital-initiatives/aishe.jpg" class="img-fluid"></a></div>
+                            <div class="Marquee-tag"><a target="_blank" href="https://mmc.ugc.ac.in/Home/DefaultPage"><img src="images/digital-initiatives/mmttc.png" class="img-fluid"></a></div>
+                            <div class="Marquee-tag"><a target="_blank" href="https://uamp.ugc.ac.in/?_gl=1*17p6fez*_ga*MTQxMTU2MzMwMS4xNjQ1MDk5OTg2*_ga_FGHYECNLXB*MTY3NDE4ODU2NC45Mi4xLjE2NzQxODk4MjYuMC4wLjA."><img src="images/digital-initiatives/UAMP.jpg" class="img-fluid"></a></div>
+                            <div class="Marquee-tag"><a target="_blank" href="https://ugcmoocs.inflibnet.ac.in/"><img src="images/digital-initiatives/ugcmoocs.jpg" class="img-fluid"></a></div>
+                            <!--<div class="Marquee-tag"><a target="_blank" href="https://ugceresources.in/"><img src="images/digital-initiatives/UGCResources.jpg" class="img-fluid"></a></div>-->
+                            <div class="Marquee-tag"><a target="_blank" href="https://utsah.ugc.ac.in/"><img src="images/digital-initiatives/UTSAH.jpg" class="img-fluid"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+</div> <!--box-->
+
+
+
+
+
+
+
+</main>
+
+</div>
+
+
+<div class="wrapper row4">
+<footer id="footer" class="hoc clear ps-3">
+
+<div class="one_quarter first">
+<h6 class="fheading"><i class="fa fa-info-circle"></i>&nbsp;General Information</h6>
+<hr>
+<nav>
+<ul class="nospace">
+<li class="footer-link"><a href="//www.bdu.ac.in/public-self-disclosure.php" target="_blank"><i class="fa fa-info-circle"></i>Public Self Disclosure (PSD)</a></li>
+<li class="footer-link"><a href="https://play.google.com/store/apps/details?id=com.amtexsystems.kaavaluthavi&hl=en_IN&pli=1"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;Kaaval Uthavi App Download Link</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/digital-arrest-cyber-crime-awarness.php"><i class="fa fa-info-circle" style="font-size:8px;"></i>&nbsp;Cyber Crime Awareness</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/right-to-information-act/"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;Right To Information Act</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/directorate-of-vigilance-and-anti-corruption-portal.php"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;Vigilance &amp; Anti Corruption</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/cells/anti-harassment-cell/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;Anti-Harassment Cell (General)</a></li>
+<li class="footer-link"><a href="https://ntf.education.gov.in" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;NTF - Mental Health</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/cells/anti-ragging-cell/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;Anti Ragging Helpline</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/cells/anti-sexual-harassment-committee/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;Anti-Sexual Harassment Committee</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/cells/anti-drugs-committee/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;Anti-Drugs Committee</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/cells/placement-and-training-cell/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;Placement &amp; Training Cell</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/cells/international-students-cell/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;International Students Cell</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/cells/intellectual-property-rights-cell/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;Intellectual Property Rights Cell</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="one_quarter">
+<h6 class="fheading"><i class="fa fa-handshake-o"></i>&nbsp;Helpful Links</h6>
+<hr>
+<nav>
+<ul class="nospace">
+<li class="footer-link"><a href="https://eofficehod4.tn.gov.in/SSOComponent/gate.php" target="_blank"><i class="fa fa-external-link"></i>&nbsp;e-Office</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/iconic-projects-of-tn/" target="_blank"><i class="fa fa-graduation-cap"></i>&nbsp;Iconic Projects of Tamil Nadu</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in//" target="_blank"><i class="fa fa-graduation-cap"></i>&nbsp;Distance and Online Education</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/academics/syllabi.php"><i class="fa fa-list"></i>&nbsp;Syllabi (Affiliated Colleges)</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/pg-extension-centre/"><i class="fa fa-building"></i>&nbsp;PG Extension Centre</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/about/about-the-university.php#theme-song"><i class="fa fa-file-audio-o"></i>&nbsp;BDU Theme Song</a></li>
+<li class="footer-link"><a href="https://oms.bdu.ac.in/ec/" target="_blank"><i class="fa fa-cloud-download"></i>&nbsp;E-Content Portal</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in//downloads/" target="_blank"><i class="fa fa-download"></i>&nbsp;Logo, Forms &amp; Downloads</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/campus-life/hostels.php"><i class="fa fa-bed"></i>&nbsp;BDU Hostels</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/campus-life/medical-centre.php"><i class="fa fa-plus-square"></i>&nbsp;Medical Centre</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/other-links.php"><i class="fa fa-external-link"></i>&nbsp;Other Websites &amp; Links</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="one_quarter">
+<h6 class="fheading"><i class="fa fa-group"></i>&nbsp;Extension Activities</h6>
+<hr>
+<nav>
+<ul class="nospace">
+<li class="footer-link"><a href="//www.bdu.ac.in/extension-activities/NCC-Coy-Girls/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;NCC Coy Girls</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/extension-activities/NCC-Platoon-Boys/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;NCC Boys Platoon</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/extension-activities/NSS" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;NSS</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/extension-activities/YRC" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;YRC</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/extension-activities/RRC" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;RRC</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/extension-activities/WISH" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;WISH</a></li>
+</ul>
+</nav>
+<hr>
+
+<h6 class="fheading"><i class="fa fa-cog"></i>&nbsp;Skill Based Education</h6>
+<hr>
+<nav>
+<ul class="nospace">
+<li class="footer-link"><a href="https://www.iecd.in" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;IECD</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/centers/DDU-KAUSHAL-Kendra/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;DDU-KAUSHAL</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="one_quarter">
+<h6 class="fheading"><i class="fa fa-check-square"></i>&nbsp;Grants & Facilities </h6>
+<hr>
+<nav>
+<ul class="nospace">
+<li class="footer-link"><a href="//www.bdu.ac.in/schemes/RUSA/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;RUSA</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/schemes/DST-PURSE" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;DST-PURSE</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/schemes/GIAN" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;GIAN</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/facilities/university-science-instrumentation-centre/" target="_blank"><i class="fa fa-square" style="font-size:8px;"></i>&nbsp;University Science Instrumentation Centre</a></li>
+</ul>
+</nav>
+<hr>
+
+<h6 class="fheading"><i class="fa fa-map-marker"></i>&nbsp;Visiting BDU / Contact</h6>
+<hr>
+<nav>
+<ul class="nospace">
+<li class="footer-link"><a href="//www.bdu.ac.in/maps-and-directions.php"><i class="fa fa-map-signs"></i>&nbsp;Maps and Directions</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/university-enquiry-contact.php"><i class="fa fa-phone"></i>&nbsp;Enquiry and Contact</a></li>
+<li class="footer-link"><a href="//www.bdu.ac.in/emp-directory.php"><i class="fa fa-address-card-o"></i>&nbsp;Faculty &amp; Staff Directory</a></li>
+</ul>
+<div class="text-center">
+<img src="//www.bdu.ac.in/images/emp-gif.gif" height="90" alt="BDU Logo" title="BDU Logo" width="80" class="img-fluid pt-3 pb-2">
+</div>
+</nav>
+</div>
+
+</footer>
+
+<h1 class="heading1 pt-2 pb-3 text-center" style="color:#FFFFFF;font-size:13px;font-family:myFont;letter-spacing:0.6px;line-height: 2.1;">'புதியதோர் உலகம் செய்வோம்'<br>
+<span style="color:#FFFFFF;font-size:14px;font-family:Roboto;letter-spacing: 0.5px;">We will create a brave new world</span>
+</h1>
+
+<footer class="hoc clear ps-3 pe-2" style="padding: 0 0 0 0;">
+<hr>
+<p class="fl_left" style="font-family:'Roboto';font-size:12px;color:#FFFFFF; font-weight:normal;">
+&copy; 2026&nbsp;Bharathidasan University, Tiruchirappalli, Tamil Nadu, India.
+<p class="fl_right">
+<a href="//www.bdu.ac.in/terms-and-conditions.php" class="footera1" >Terms & Conditions </a> | <a href="//www.bdu.ac.in/privacy-policy.php" class="footera1"> Privacy Policy </a> | <a href="//www.bdu.ac.in/disclaimer.php" class="footera1">Disclaimer </a><br>
+<a class="footera1" target="_blank" href="//www.bdu.ac.in/facilities/university-informatics-centre/" title="UIC">Website Maintained by : University Informatics Centre, BDU</a>
+</p>
+</footer>
+</div>
+
+<!--footer ends here-->
+
+<a id="backtotop" title="Back to Top" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+
+<script src="//www.bdu.ac.in/layout/scripts/jquery.backtotop.js"></script>
+<script src="//www.bdu.ac.in/layout/scripts/jquery.mobilemenu.js"></script>
+<script src="//www.bdu.ac.in/layout/scripts/jquery.flexslider-min.js"></script>
+<script src="//www.bdu.ac.in/engine1/wowslider.js"></script>
+<script src="//www.bdu.ac.in/engine1/script.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="//www.bdu.ac.in/centers/assets/bootstrap/js/sienna.min.js" defer></script>
+
+</body>
+</html>

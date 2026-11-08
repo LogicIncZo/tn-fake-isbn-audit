@@ -1,7 +1,122 @@
 [
-{"library":"Anna Centenary Library (ACL), Chennai","type":"State flagship public library","opac":"http://118.185.210.241:8001","koha":true,"status":"wedged at probe time (HTTP hangs, TCP open)","fake_books":"27 confirmed fake records (ISBN block 978-93-92360 hijack), accessioned 13.04.2024, accn 677064-677193"},
-{"library":"Kalaignar Centenary Library (KCL), Madurai","type":"State flagship public library","opac":"http://122.184.84.190:1011","official_site":"https://kalaignarcentenarylibrary.tn.gov.in","koha":true,"status":"live","fake_books":"352 publisher=Phoenix hits; 12-record AI-fake series sampled (biblios 100023-100034, ISBN block 978-93-94612, Nordic-style generated author names)"},
-{"library":"Madras University Library (UNOM), Chennai","type":"University","opac":"http://117.239.156.200","koha":true,"status":"live","fake_books":"16 publisher=Phoenix hits but samples are real books (Egon Larsen, M.T. Vasudevan Nair, S.N. Pandey) - likely mis-catalogued, NOT the AI-factory pattern"},
-{"library":"Chozha Central Library, Central University of Tamil Nadu, Thiruvarur","type":"Central university","opac":"https://centrallibrary.cutn.ac.in","koha":"self-declared Koha ILMS on site","status":"OPAC path 404 at /cgi-bin/koha/opac-search.pl; needs location probe","fake_books":"untested"},
-{"library":"Connemara Public Library, Chennai","type":"State central library (DTL deposit library)","opac":"catalogue link listed at librarytechnology.org/library/193151; not yet fetched","koha":"unconfirmed","fake_books":"untested"}
+ {
+  "library": "Anna Centenary Library (ACL), Chennai",
+  "type": "State flagship public library",
+  "opac": "http://118.185.210.241:8001",
+  "koha": true,
+  "status": "intermittent: TCP open, HTTP hangs at probe time (08 Nov 2026); catalog served when responsive",
+  "factory_hits": {
+   "full_catalog_hijacked_rows": 145,
+   "isbn_9789394612709": 1
+  },
+  "verdict": "factory present"
+ },
+ {
+  "library": "Kalaignar Centenary Library (KCL), Madurai",
+  "type": "State flagship public library",
+  "opac": "http://122.184.84.190:1011",
+  "official_site": "https://kalaignarcentenarylibrary.tn.gov.in",
+  "koha": true,
+  "status": "live (08 Nov 2026)",
+  "factory_hits": {
+   "pb_phoenix": 352,
+   "pb_thenmozhi": 0,
+   "isbn_9789394612709": 1,
+   "nb_9789392360091": 0,
+   "nb_9789394612778": 0
+  },
+  "verdict": "factory present",
+  "note": "biblio 100032 'Data Analysis Using Python' Phoenix 2023 ISBN 9789394612709 = ACL biblio 526405 same ISBN/title; registry allocates 9789394612709 to Thenmozhi B for 'Introduction to Projective Geometry'"
+ },
+ {
+  "library": "University of Madras Library (UNOM), Chennai",
+  "type": "University",
+  "opac": "http://117.239.156.200",
+  "koha": true,
+  "status": "live (08 Nov 2026)",
+  "factory_hits": {
+   "pb_phoenix": 16,
+   "pb_thenmozhi": 0,
+   "isbn_9789394612709": 0,
+   "nb_9789392360091": 0
+  },
+  "verdict": "clean",
+  "note": "16 Phoenix hits sampled genuine books (Egon Larsen, M.T. Vasudevan Nair) \u2014 different 'Phoenix', mis-cataloguing, not the factory"
+ },
+ {
+  "library": "Periyar University Library (Thiruvalluvar Library OPAC), Salem",
+  "type": "University",
+  "opac": "http://14.139.186.90:8081",
+  "koha": true,
+  "status": "live (08 Nov 2026); first seen 08 Nov 2026 discovery",
+  "factory_hits": {
+   "pb_phoenix": 5,
+   "pb_thenmozhi": 16,
+   "isbn_9789394612709": 0,
+   "nb_9789392360091": 0
+  },
+  "verdict": "clean",
+  "note": "thenmozhi hits = M.Thenmozhi, Chennai, real Tamil publisher, dates 1996-2001 (pre-scam era) \u2014 verified from detail pages 24178/22981/60518"
+ },
+ {
+  "library": "Vellore Institute of Technology (VIT), Vellore+Chennai",
+  "type": "Private university",
+  "opac": "https://webopaccc.vit.ac.in",
+  "koha": true,
+  "status": "live (08 Nov 2026)",
+  "factory_hits": {
+   "pb_phoenix": 24,
+   "pb_thenmozhi": 0,
+   "isbn_9789394612709": 0,
+   "nb_9789392360091": 0,
+   "nb_9789394612778": 0,
+   "control_pb_oxford": 1607
+  },
+  "verdict": "clean",
+  "note": "private institution, not in the DIPR procurement loop; 24 Phoenix hits are library's own cataloguing of different 'Phoenix' publishers"
+ },
+ {
+  "library": "Tamil Nadu Agricultural University (TNAU), Coimbatore",
+  "type": "State agricultural university",
+  "opac": "https://tnau.bestbookbuddies.com",
+  "koha": true,
+  "status": "UNREACHABLE from both probe vantages (Zo sandbox + OCI Mumbai) at probe time (08 Nov 2026)",
+  "factory_hits": {},
+  "verdict": "not tested"
+ },
+ {
+  "library": "SSN College of Engineering, Chennai",
+  "type": "Private college",
+  "opac": "https://opac.ssn.edu.in",
+  "koha": true,
+  "status": "no live Koha OPAC base answered (TLS/cert or downtime) at probe time",
+  "factory_hits": {},
+  "verdict": "not tested"
+ },
+ {
+  "library": "Chozha Central Library, Central University of Tamil Nadu (CUTN), Thiruvarur",
+  "type": "Central university",
+  "opac": "https://centrallibrary.cutn.ac.in/services/opac",
+  "koha": "self-declared Koha on site page",
+  "status": "OPAC page publishes only an image (opac.png) \u2014 no public catalog URL",
+  "factory_hits": {},
+  "verdict": "not tested"
+ },
+ {
+  "library": "Connemara Public Library, Chennai",
+  "type": "State central library (deposit library)",
+  "opac": "librarytechnology.org/library/193151 lists a catalogue link; host did not resolve at probe time",
+  "koha": "unconfirmed",
+  "status": "unresolved",
+  "factory_hits": {},
+  "verdict": "not tested"
+ },
+ {
+  "library": "Madurai Kamaraj / Bharathiar / Bharathidasan / Alagappa / MSU / TNDALU / TNOU / TANUVAS / TNNLU",
+  "type": "State universities (9 checked)",
+  "koha": "mixed: TANUVAS MVC claims KOHA automation (elibrary.tanuvas.org now a parked domain); BDU claims Koha, no public OPAC; TNOU OPAC is a .NET portal (tnouportal.in), not Koha; TNNLU Wix page, no catalog",
+  "status": "no public Koha OPAC found (08 Nov 2026)",
+  "factory_hits": {},
+  "verdict": "nothing to test publicly"
+ }
 ]

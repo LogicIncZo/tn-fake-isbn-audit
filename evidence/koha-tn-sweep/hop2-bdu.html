@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+<title>University Library, Bharathidasan University, Tiruchirappalli</title>
+<meta content="" name="description">
+<meta content="" name="keywords">
+
+<!-- Favicons -->
+<link rel="icon" 	   href="//www.bdu.ac.in/images/favicon.gif">
+
+<!-- Google Fonts -->
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,500;1,400&family=Cabin&family=Cormorant+Garamond&family=Oswald:wght@300;600&family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+<link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+<link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+
+<!-- Template Main CSS File -->
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/theme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<style>
+p
+{
+text-align: justify !important;
+}
+
+
+.ui-autocomplete {
+position: absolute;
+top: 0;
+left: 0;
+cursor: default;
+z-index:9050!important;
+}
+
+
+#icon-style
+{
+font-size: 18px;
+display: inline-block;
+background: #FFF;
+color: #084298;
+line-height: 1;
+padding: 8px 0;
+padding-bottom:10px;
+margin-right: 4px;
+border-radius: 4px;
+text-align: center;
+width: 36px;
+height: 36px;
+transition: 0.3s;
+}
+p
+{
+text-align: justify;
+font-family: 'Cabin', sans-serif;
+font-size: 18px;
+color:#444;
+letter-spacing: 0.5px;
+line-height: 1.7;
+}
+.nav-link
+{
+font-size: 22px;
+font-weight: bold !important; 
+letter-spacing: 1.2px;
+line-height: 1.8;
+}
+.my-info-box
+{
+color: #444444;
+box-shadow: 0 0 20px rgba(214, 215, 216, 0.5);
+padding: 20px 20px 20px 20px;
+}
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ 
+<!-- jQuery UI -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" />
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+  $(function() {
+     $( "#keyword" ).autocomplete({
+       source: 'fetch.php',
+     });
+  });
+</script>
+
+<!-- ======= Top Bar ======= -->
+<div id="topbar" class="d-flex align-items-center fixed-top">
+<div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+<div class="align-items-center d-none d-md-flex">
+<i class="bi bi-clock"></i>8 AM to 8 PM</div>
+
+<div class="d-flex align-items-center">
+
+<!--<form  accept-charset="" action="search-results.php" method="post">
+<input class="form-control mr-sm-2" type="search" id="keyword" name="keyword" placeholder="Search" aria-label="Search" required
+>
+</form>-->
+
+<form accept-charset="" action="search-results.php" method="post">
+<input type="hidden" name="csrf_token" value="7e6bebce38b5febb4bbb957272577628136b4ebad6a2089b3096c8a010148e7d" readonly>
+<div class="input-group">
+<input class="form-control py-0 rounded-pill mr-1 pr-5" type="search" id="keyword" name="keyword" placeholder="Search">
+<span class="input-group-append">
+<button class="btn rounded-pill border-0 ml-n5" type="submit"><i class="fa fa-search" style="color:#FFF;"></i>
+</button>
+</span>
+</div>
+</form>
+
+</div>
+
+<div class="d-flex align-items-center">
+<i class="bi bi-email"></i>lib@bdu.ac.in
+</div>
+</div>
+</div>
+
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top">
+
+<div class="container align-items-center">
+
+
+
+<div class="row text-center">
+
+<div class="col-md-1">
+<a href="../index.php" class="logo me-auto"><img src="assets/img/emp-jpg.jpg" class="img-fluid" alt=""></a>
+</div>
+
+<div class="col-md-4 pt-3">
+<a href="index.php" style="color:#084298 !important;font-family:'Merriweather', sans-serif; !important;font-size:18px;padding-left:15px;font-weight:bold;text-align:center;letter-spacing:0.7px;">Bharathidasan University Library</a>
+</div>
+
+<div class="col-md-7">
+
+<nav id="navbar" class="navbar order-last order-lg-0">
+
+<ul>
+
+<li><a class="nav-link scrollto" href="index.php">Home</a></li>
+
+<li class="dropdown"><a class="nav-link scrollto" href="#about"><span>About</span><i class="bi bi-chevron-down"></i></a>
+<ul>
+<li><a href="index.php#about">The University Library</a></li>
+<li><a href="faculty-and-staff.php">Library Staff</a></li>
+<li><a href="https://www.bdu.ac.in/schools/library-and-information-science/library-and-information-science/" target="_blank">The Department of Library and Information Science</a></li>
+<li><a href="library-rules.php">Library Rules</a></li>
+<!--<li><a href="#">Facts and Figures</a></li>-->
+</ul>
+</li>
+
+
+<li><a class="nav-link scrollto" href="library-services.php">Services</a></li>
+<li><a class="nav-link scrollto" href="library-facilities.php">Facilities</a></li>
+          
+<li class="dropdown"><a class="nav-link scrollto" href="#research"><span>Research</span> <i class="bi bi-chevron-down"></i></a>
+<ul>
+<li><a href="open-access-resources.php">Open Access Resources</a></li>
+<li><a href="digital-libraries.php">Digital Libraries</a></li>
+<li><a href="academic-search-engines.php">Academic Search Engines</a></li>
+<li><a href="research-tools.php">Research Tools</a></li>
+<li><a href="remote-access.php">Remote Access</a></li>
+<li><a href="subject-gateways.php">Subject Gateways</a></li>
+<li><a href="https://shodhganga.inflibnet.ac.in:8443/jspui/handle/10603/4757" target="_blank">Shodganga BDU</a></li>
+</ul>
+</li>
+
+<li><a class="nav-link scrollto" href="http://14.139.186.108:8080/jspui/" target="_blank">DSpace</a></li>
+<li><a class="nav-link scrollto" href="http://172.16.110.173:8081/" target="_blank">OPAC</a></li>
+<li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
+</ul>
+<i class="bi bi-list mobile-nav-toggle"></i>
+</nav>
+
+</div>
+</div>
+</div>
+
+</header><!-- End Header -->  
+
+<div class="modal fade modal bd-example-modal-large" id="onload" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+<div class="modal-content center-text">
+
+
+
+<div class="modal-header bg-default text-center bg-success">
+
+<h5 class="modal-title justify-content-center pt-2 pb-2" id="exampleModalLabel"> 
+
+
+<div class="pt-2 pb-2" style="font-family:Segoe Ui;text-transform:none;font-size:24px;line-height: 1.8;text-align:center !important;color:#FFF !important"> One Nation One Subscription 
+    (ONOS - <a href="https://www.onos.gov.in" style="color:#FFF !important;" target="_blank">https://www.onos.gov.in</a>)</div>
+</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+<div class="modal-body" style="text-align:justify !important;">
+
+<a href="https://www.onos.gov.in/" target="_blank">
+As Bharathidasan University is already existing member of E-shodhsindhu consortia we are eligible to automatically get access to all the scholarly journals (13,196) of 31 databases through ONOS through our IP range for both the campuses (Khajamalai and Palakaliperur).
+</a>
+
+
+</div>
+
+<div class="modal-footer">
+
+<a class="btn btn-primary" target="_blank" href="https://www.onos.gov.in">Click here to view ONOS Website</a>
+
+<a class="btn btn-primary" target="_blank" href="assets/docs/onos.pdf">Click here to view accessing guidelines</a>
+
+<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+    window.onload = () => {
+        $('#onload').modal('show');
+    }
+</script>
+
+<section id="hero">
+
+<div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+<div class="carousel-inner" role="listbox">
+
+<div class="carousel-item active" style="background-image: url(assets/img/slide/lib-cover.jpg)">
+<div class="container rounded-pill bordered"><h3 style="font-size: italic;font-family:Open Sans;letter-spacing: 0.8px;color:#000 !important;">Explore the Heart of Bharathidasan University</h3></div></div>
+<div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)"></div>
+<div class="carousel-item" style="background-image: url(assets/img/slide/library.jpg)"></div>
+<div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)"></div>
+<div class="carousel-item" style="background-image: url(assets/img/slide/slide-4.jpg)"></div>
+</div>
+
+<a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+<span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+</a>
+
+<a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+<span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+</a>
+
+</div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+<!-- ======= Featured Services Section ======= -->
+<section id="featured-services" class="featured-services appointment section-bg">
+<div class="container">
+
+<div class="row">
+<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+<div class="icon-box"  data-aos-delay="100">
+<div class="icon"><i class="fas fa-database"></i></div>
+<h4 class="title"><a href="http://172.16.110.41:8080/jspui/" target="_blank">Institutional Repository</a></h4>
+<p class="description">
+A digital archive for collecting, preserving, and disseminating the intellectual output of BDU.
+</p>
+</div>
+</div>
+
+<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+<div class="icon-box"  data-aos-delay="200">
+<div class="icon"><i class="fas fa-file"></i></div>
+<h4 class="title"><a href="journals.php" target="_blank">Journals</a></h4>
+<p class="description">A glance at the list of printed journals we subscribe to.</p>
+</div>
+</div>
+
+
+<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+<div class="icon-box"  data-aos-delay="300">
+<div class="icon"><i class="fas fa-flask"></i></div>
+<h4 class="title"><a href="https://bdu.irins.org/" target="_blank">IRINS</a></h4>
+<p class="description">A portal to view the research output of numerous researchers of Bharathidasan University, their collaborations and countless more.</p>
+</div>
+</div>
+
+
+<!--
+<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+<div class="icon-box"  data-aos-delay="300">
+<div class="icon"><i class="fas fa-book"></i></div>
+<h4 class="title"><a href="https://shodhganga.inflibnet.ac.in:8443/jspui/handle/10603/4757" target="_blank">Shodhganga BDU</a></h4>
+<p class="description">Get access to high-quality, scholarly research theses of Bharathidasan University.</p>
+</div>
+</div>
+-->
+
+<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+<div class="icon-box"  data-aos-delay="300">
+<div class="icon"><i class="fas fa-list"></i></div>
+<h4 class="title"><a href="http://172.16.110.41:8080/jspui/handle/123456789/305" target="_blank">BDU Biodiversity</a></h4>
+<p class="description">A Digital repository of BDU's biodiversity</p>
+</div>
+</div>
+
+
+</div>
+
+</div>
+</section>
+
+        
+
+<!-- ======= About Us Section ======= -->
+<a name="about"></a>
+<section id="about" class="about appointment section-bg">
+<div class="container" >
+
+<div class="section-title">
+<h2>About the University Library</h2>
+
+<p class="text-center pt-2 pb-4" style="font-size: 23px;"><i>Explore the Heart of Bharathidasan University</i></p>
+
+
+<p style="text-align: justify;">
+The University Library is the heart of any University. The Bharathidasan University Library was established in February 1982. The present magnificent library building started functioning on 29th May 1997 with a carpet area of 6215.56 sq. meters. The library accommodates sections such as Stack, Reference, Circulation, Periodicals, Technical, Digital Library, Audio Visual Centre and Reprography.
+<br>
+<br>
+At present, the Library has about 95,000 volumes of books and back volumes in its stack, and subscribes to about 227 current journals at national and international level as print copies to cover a wide range of subjects to facilitate users to access current academic and research literature. It also has online access to more than 10000 journals in full text, and a few databases of abstracting and indexing journals, in addition to 8500 Springer E-books on various subjects with perpetual access to enhance the quality of teaching and research activities. The library provides many convenient and modern services using ICT to its users both on demand and in anticipation onsite and remote. The Library is automated using RFID system and Library Automation System such as Koha. The friendly environment in the library and its staff ensure learning to its maximum potential. The library has nine professional staff and six ministerial and support staff to execute the entire library operations. The library caters to the information requirements of all the departments, schools, centres and other units of the university campus.
+<br>
+
+<h4 class="p-2"> Best LIS Award conferred by TISS-IATLIS </h4>
+<center>
+<img src="assets/img/Best-LIS-School-Award.jpg" class="p-2 img-fluid" title="Award" height="400" width="440">
+
+<img src="assets/img/Best-LIS-School-Citation.jpg" class="p-2 img-fluid" title="Award" height="400" width="440">
+</center>
+</p>
+</div>
+
+<div class="row">
+<div class="col-lg-6">
+<img src="assets/img/GARDENLIBRARY.jpg" class="img-fluid" alt="">
+</div>
+<div class="col-lg-6 pt-4 pt-lg-0 content">
+<h3 class="pt-2 pb-2">The Garden Library</h3>
+<p>
+Imagine sitting under the shades of numerous tress and enjoying the fresh air of nature with a blend of sunshine in a cool lawn. Now imagine holding your favourite book and digesting it while present there. Amidst a small garden in front of our Library is the clean and eco-friendly Garden Library strategically placed to enjoy the warmth of natural light during winters and relish the pleasant air during summers. This well-planned green library is an initiative towards our library going green and sustainable.
+<br>
+<br>
+Cozy and welcoming, our garden library is an escape from all stress and strain into a peaceful place of study. This green arena is a place that not all libraries would offer.
+</p>
+</div>
+</div>
+
+</div>
+</section><!-- End About Us Section -->
+
+<!-- ======= Counts Section ======= -->
+<section id="counts" class="counts">
+<div class="container" >
+
+<div class="row no-gutters">
+
+<div class="col-lg-3">
+<div class="count-box">
+<i class="fas fa-book"></i>
+<span data-purecounter-start="0" data-purecounter-end="83036" data-purecounter-duration="1" class="purecounter">83036</span>
+<p><strong>Books</strong> </p>
+<!--<a href="#">Find out more &raquo;</a>-->
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+<div class="count-box">
+<i class="fas fa-list"></i>
+<span data-purecounter-start="0" data-purecounter-end="10019" data-purecounter-duration="1" class="purecounter">10019</span>
+<p><strong>Reference Books</strong></p>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+<div class="count-box">
+<i class="fas fa-university"></i>
+<span data-purecounter-start="0" data-purecounter-end="2218" data-purecounter-duration="1" class="purecounter">2218</span>
+<p><strong>Book Bank</strong></p>
+
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+<div class="count-box">
+<i class="fas fa-file"></i>
+<span data-purecounter-start="0" data-purecounter-end="10021" data-purecounter-duration="1" class="purecounter">10021</span>
+<p><strong>Online Journals</strong></p>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+<div class="count-box">
+<i class="fas fa-graduation-cap"></i>
+<span data-purecounter-start="0" data-purecounter-end="5700" data-purecounter-duration="1" class="purecounter">5700</span>
+<p><strong>Thesis and Dissertations</strong></p>
+
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+<div class="count-box">
+<i class="fas fa-globe">253</i>
+<span data-purecounter-start="0" data-purecounter-end="253" data-purecounter-duration="1" class="purecounter"></span>
+<p><strong>National & International Journals</strong></p>
+
+</div>
+</div>
+
+
+<div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+<div class="count-box">
+<i class="fas fa-file-pdf"></i>
+<span data-purecounter-start="0" data-purecounter-end="8700" data-purecounter-duration="1" class="purecounter">8700</span>
+<p><strong>E-Books</strong></p>
+
+</div>
+</div>
+
+
+<div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+<div class="count-box">
+<i class="fas fa-file-movie-o"></i>
+<span data-purecounter-start="0" data-purecounter-end="2450" data-purecounter-duration="1" class="purecounter">2450</span>
+<p><strong>CDs and DVDs</strong></p>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- End Counts Section -->
+<!-- ======= Features Section ======= -->
+
+
+<section id="gallery" class="gallery">
+<div class="container" >
+
+<div class="section-title">
+<h3>Dr. S.R. Ranganathan, Father of Library Science in India</h3>
+
+
+
+
+<div class="row">
+
+
+
+<div class="col-lg-12 pt-3">
+
+<center>
+<img class="img-fluid" height="200" width="auto" style="" src="assets/img/ranganathan.jpg" alt="Dr. S.R. Ranganathan, Father of Library Science in India" title="Dr. S.R. Ranganathan, Father of Library Science in India" />
+</center>
+
+<div class="box featured"  data-aos-delay="200">
+
+
+<ul class="list-group"  style="text-align:left;">
+
+<li class="list-group-item">
+<div class="au-task__item au-task__item--primary">
+<div class="au-task__item-inner text-center">
+<span class="time" style="text-transform: none !important;text-align: center;font-size: 20px;">"Library is the heart of educational institutions. Well-functioning heart keeps the body healthy and lively. Efficient Library creates healthy educational atmosphere."</span>
+
+<h5 class="task pt-2">
+<a href="#" style="font-weight:bold;font-size: 16px; font-family: Segoe Ui;letter-spacing: 0.7px;color:#084298;">Dr. S.R. Ranganathan, Father of Library Science in India</a></h5>
+
+</div>
+</div>
+</li>
+
+</ul>
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+</section>
+
+</main><!-- End #main -->
+<!-- ======= Footer ======= -->
+<style>
+.line
+{
+font-size: 2.5rem;
+margin-top: 1rem;
+border-bottom: 2px solid #ea6a50;
+display: inline-block;
+padding-bottom: 10px;
+}
+</style>
+<footer id="footer">
+<div class="footer-top" style="background-color:#084298;color:#FFF;">
+<div class="container ml-3 mr-3 text-center">
+<div class="row">
+
+<div class="col-lg-3">
+<div class="footer-info">
+<h4 class="line">Contact</h4>
+<p class="pt-3 pb-3" style="font-size:16px;">
+<i class="fa fa-phone pt-2 pb-3" id="icon-style"></i>+91 431 2407037</p>
+<p class="pt-3 pb-3" style="font-size:16px;" class="footer-links">
+<i class="fa fa-fax pt-2 pb-3" id="icon-style" ></i>+91 431 2407045</p>
+<p class="pt-3 pb-3" style="font-size:16px;">
+<i class="fa fa-envelope" id="icon-style"></i>lib@bdu.ac.in</p>
+</div>
+</div>
+
+<div class="col-lg-3">
+<div class="footer-info">
+<h4 class="line">Useful Links</h4>
+<p class="pt-3 pb-3" style="font-size:16px;">
+<a href="../index.php" class="footer-links"><i class="fa fa-university pt-2 pb-3" id="icon-style"></i>&nbsp;University Home Page</a></p>
+<p class="pt-3 pb-3" style="font-size:16px;">
+<a href="index.php" class="footer-links"><i class="fa fa-home pt-2 pb-3" id="icon-style"></i>&nbsp;Library Home Page</a></p>
+<p class="pt-3 pb-3" style="font-size:16px;">
+<a href="faculty-and-staff.php" class="footer-links"><i class="fa fa-users pt-2 pb-3" id="icon-style"></i>&nbsp;Library Staff</a></p>
+</div>
+</div>
+            
+<div class="col-lg-6">
+<div class="footer-info">
+<h4 class="line">Working Hours</h4>
+<p class="pt-3 pb-3" style="font-size:16px;">
+<i class="fa fa-calendar pt-2 pb-3" id="icon-style"></i>&nbsp;Library Working hours 8 a.m. to 8 p.m. (on all days throughout the year)</p>
+<p class="pt-3 pb-3" style="font-size:16px;">
+<i class="fa fa-clock pt-2 pb-3" id="icon-style"></i>&nbsp;Circulation 10.30 a.m. To 4.30 pm. (on all days)</p>
+<p class="pt-3 pb-3" style="font-size:16px;">
+<i class="fa fa-file pt-2 pb-3" id="icon-style"></i>&nbsp;Photocopy / Print 10.00 am To 5.00 pm (on all days)</p>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="container ">
+<div class="pt-4 pb-2 text-center" style="color:#444;">
+2026&nbsp;&copy;&nbsp;Powered by <a href="//www.bdu.ac.in/facilities/university-informatics-centre/" class="fw-bold">University Informatics Centre, Bharathidasan University, Tiruchirappalli</a>
+</div>
+</div>
+
+</footer>
+
+<!--<div id="preloader"></div>-->
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script></body>
+</html>

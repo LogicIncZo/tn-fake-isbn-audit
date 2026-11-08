@@ -1,0 +1,1640 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Directorate of Public Libraries</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FAVICONS ICON -->
+    <link rel="shortcut icon" type="image/png" href="https://bookprocurement.tamilnadupubliclibraries.org/assets/img/logo/fevi.svg">
+    <!-- Place favicon.ico in the root directory -->
+<!-- CSS here -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/swiper-bundle.css">
+<link rel="stylesheet" href="assets/css/slick.css">
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/spacing.css">
+<link rel="stylesheet" href="assets/css/meanmenu.css">
+<!-- <link rel="stylesheet" href="assets/css/nice-select.css"> -->
+<link rel="stylesheet" href="assets/css/fontawesome.min.css">
+<link rel="stylesheet" href="assets/css/icon-dukamarket.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">      <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-00LP54NFKW"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-00LP54NFKW');
+        </script>
+</head>
+<style>
+    .multiline {
+  display: block;
+  display: -webkit-box;
+  margin: 0 auto;
+  width: 100%;
+  color: #cf6824;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.text-resize{
+  /* background-color: #dad4d2; */
+  resize: horizontal;
+}
+.cutm-min-slider-height {
+    asd
+}
+button.tp-menu-toggle {
+    background-color: white;
+}
+.tpsideinfo.tp-sidebar-opened {
+    z-index: 999999;
+}
+.tpproduct__thumb {
+    padding: 20px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    max-width: 100% !important;
+    max-height: 150px !important;
+}
+.custm-slide-item {
+    max-height: 250px !important;
+    min-height: 250px !important;
+}
+
+strong.edate {
+    display: block;
+    color: #d94148;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+strong.etime {
+    display: block;
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+a.title_up {
+    color: #222222;
+    margin: 0 0 7px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+a.joinnow {
+    background: #fafafa;
+    border: 1px solid #e1e1e1;
+    line-height: 28px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #a0a0a0;
+    padding: 0 20px;
+    border-radius: 15px;
+}
+
+a.joinnow:hover {
+    background: #d94148;
+    border-color: #d94148;
+    color: #fff;
+}
+.icon-new{
+    width: 60px;
+    height: 60px;
+}
+.tpproduct__thumb img {
+    height: 136px !important;
+}
+.tpproduct__thumb img{
+    width: auto !important;
+}
+.tpmobile-menu {
+    background-color: white !important;
+}
+</style>
+<body>
+
+
+    <!-- Scroll-top -->
+    <button class="scroll-top scroll-to-target" data-target="html">
+        <i class="icon-chevrons-up"></i>
+    </button>
+    <!-- Scroll-top-end-->
+
+    <header>
+        <!-- header-area-start -->
+        <!-- Start Top Header -->
+
+        <div class="header__top theme-bg-1 d-none d-md-block p-2">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12">
+                <div class="header__top-left">
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="header__top-right d-flex align-items-center">
+                    <div class="header__top-link">
+                                                <a class="text-white fw-bold" href="/login" data-bs-toggle="modal" data-bs-target="#exampleModal" >
+                            <i class="fa fa-sign-in"aria-hidden="true"></i> Login</a>
+                        <a class="text-white fw-bold" href="/register" data-bs-toggle="modal" data-bs-target="#register"><i class="fa fa-registered"
+                                aria-hidden="true"></i>
+                            New Registration</a>
+                        
+                        <a href="/faq">FAQs</a>
+                    </div>
+                    <div class="header__lang">
+                        <!-- <span class="header__lang-select">English </span> -->
+                        <!--  -->
+                        <!-- <ul class="header__lang-submenu">
+                            -->
+                        <li>
+                            <span class="header__lang-select">English </span>
+                        </li>
+                        </ul>
+                    </div>
+                    <!-- <div class="header__lang">
+                   <span class="header__lang-select">INR <i class="far fa-angle-down"></i></span>
+                    <ul class="header__lang-submenu">
+                       <li>
+                          <span class="header__lang-select text-dark">INR </span>
+                       </li>
+                    </ul>
+                 </div> -->
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- End Top Header -->
+        <!-- User Desktop navigation System -->
+
+        <!-- <div id="header-sticky" class="header__main-area d-none d-xl-block">
+    <div class="container">
+        <div class="header__for-megamenu p-relative">
+            <div class="row align-items-center">
+            <div class="col-xl-3 my-0">
+                    <div class="header__logo">
+                    <p class="mt-2"> <a class="small fw-bolder mt-2" href="#" class="badge bg-primary">Government of Tamil Nadu</a></p>
+                    <!-- <p class="mt-2"><a class="small mt-2" href="index.php">Government of Tamil Nadu</a></p> -->
+                    </div>
+                <!-- </div>
+                <div class="col-xl-2 my-0">
+                    <div class="header__logo">
+                       <a href="index.php"><img class="new_fa" src="assets/img/logo/ld.svg" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                <div class="header__logo">
+                        <a href="index.php"><img class="new_75" src="assets/img/logo/logo3.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-xl-5"> -->
+                    <!-- Actual search box -->
+                    <!-- <div class="form-group has-search">
+                        <span class="fa fa-search form-control-feedback"></span>
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div> -->
+                    <!-- Another variation with a button -->
+                        <!-- <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search this blog">
+                            <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            </div>
+                        </div> -->
+                <!-- </div> -->
+                <!-- <div class="col-xl-2">
+                        <div class="header__info d-flex align-items-center">
+                           <div class="header__info-search tpcolor__purple ml-10">
+                              <button class="tp-search-toggle"><i class="icon-search"></i></button>
+                           </div>
+                           <div class="header__info-user tpcolor__yellow ml-10">
+                              <a class="text-primary fw-bold" href="log-in.html">Login
+                                <i class="icon-user"></i>
+                                </a>
+                           </div>
+                           <div class="header__info-user tpcolor__yellow ml-10">
+                              <a class="text-primary fw-bold" href="log-in.html">Register
+                                <i class="icon-user"></i>
+                                </a>
+                           </div>
+                        </div>
+                     </div> -->
+            <!-- </div>
+        </div>
+    </div>
+</div> -->
+
+<style>
+    .has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    background-color: #2c296c;
+}
+img.new_fa {
+    width: 150px;
+}
+img.new_75 {
+    width: 100px;
+}
+/* a.small.mt-2 {
+    background-color: #2c296c;
+    color: white;
+    padding: 2px 5px 2px 5px;
+
+} */
+</style>
+        <div id="header-sticky" class="header__main-area d-none d-xl-block">
+    <div class="container">
+        <div class="header__for-megamenu p-relative">
+            <div class="row align-items-center">
+                <div class="col-xl-4">
+                    <div class="header__logo">
+                        <a href="/"><img class="w-100" src="assets/img/logo/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-xl-7">
+                    <div class="header__menu main-menu text-center">
+                        <nav id="mobile-menu">
+                            <ul>
+                                <li class=" has-homemenu">
+                                    <a href="/">Home</a>
+                                </li>
+
+                                <li class=" has-megamenu">
+                                    <a href="/about">About Us</a>
+                                </li>
+                                <li class="#">
+                                    <a href="/procurement-policy">Procurement Policy</a>
+                                </li>
+                                <li class="#">
+                                    <a href="/guidelines">Guidelines</a>
+                                </li>
+                                <li class="#">
+                                    <a href="/contact-us">Contact Us</a>
+                                </li>
+                                <!-- <li class="#">
+                                    <a href="#">Library Catalogue</a>
+                                 </li> -->
+                                                                 <li class="has-dropdown">
+                                    <a href="#">Login</a>
+                                    <ul class="sub-menu">
+                                        <!-- <li><a href="#">Section</a></li>
+                                       <li><a href="#">Rental Details</a></li> -->
+                                        
+                                        <li><a href="/login">Publisher Login</a></li>
+                                        <li><a href="/login">Distributor Login</a></li>
+                                        <li><a href="/login">Publisher Cum Distributor Login</a></li>
+                                        <li><a href="/periodical/login">Periodical Publisher Login</a></li>
+                                        <li><a href="/periodical/login">Periodical Distributor Login</a></li>
+                                        <li><a href="/member/login">Reviewer Login</a></li>
+                                        <li><a href="/member/login">Librarian Login</a></li>
+                                        <li><a href="/member/login">User Login</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <!--<li class="#">-->
+                                <!--   <a href="#">Section</a>-->
+                                <!--</li>-->
+                                <!-- <li class="#">
+                                    <a href="#">Membership</a>
+                                 </li>
+                                 <li class="#">
+                                    <a href="#">Reviewer</a>
+                                 </li>
+                                 <li class="#">
+                                    <a href="#">Contact Us</a>
+                                 </li> -->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1 col-3 col-sm-5">
+                    <div class="header__info d-flex align-items-center">
+  
+                    <div class="header__info-cart tpcolor__oasis ml-10 ">
+                                                        
+
+                        </div>
+
+                        <div class="header__info-cart tpcolor__oasis ml-10 ">
+                            
+                            
+                        </div>
+
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- header-search -->
+<div class="tpsearchbar tp-sidebar-area">
+    <button class="tpsearchbar__close"><i class="icon-x"></i></button>
+    <div class="search-wrap text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 pt-100 pb-100">
+                    <h2 class="tpsearchbar__title">What Are You Looking For?</h2>
+                    <div class="tpsearchbar__form">
+                        <form action="#">
+                            <input type="text" name="search" placeholder="Search Product...">
+                            <button class="tpsearchbar__search-btn"><i class="icon-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="search-body-overlay"></div>
+<!-- header-search-end -->
+
+<!-- header-cart-start -->
+<div class="tpcartinfo tp-cart-info-area p-relative">
+    <button class="tpcart__close"><i class="icon-x"></i></button>
+    <div class="tpcart">
+        <h4 class="tpcart__title">Your Cart</h4>
+        <div class="tpcart__product">
+            <div class="tpcart__product-list">
+                <ul>
+                    <li>
+                        <div class="tpcart__item">
+                            <div class="tpcart__img">
+                                <img src="assets/img/product/products1-min.jpg" alt="">
+                                <div class="tpcart__del">
+                                    <a href="#"><i class="icon-x-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="tpcart__content">
+                                <span class="tpcart__content-title"><a href="shop-details.html">Stacy's Pita Chips
+                                        Parmesan Garlic & Herb From Nature</a>
+                                </span>
+                                <div class="tpcart__cart-price">
+                                    <span class="quantity">1 x</span>
+                                    <span class="new-price">162.80</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tpcart__item">
+                            <div class="tpcart__img">
+                                <img src="assets/img/product/products12-min.jpg" alt="">
+                                <div class="tpcart__del">
+                                    <a href="#"><i class="icon-x-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="tpcart__content">
+                                <span class="tpcart__content-title"><a href="shop-details.html">Banana, Beautiful Skin,
+                                        Good For Health 1Kg</a>
+                                </span>
+                                <div class="tpcart__cart-price">
+                                    <span class="quantity">1 x</span>
+                                    <span class="new-price">138.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="tpcart__item">
+                            <div class="tpcart__img">
+                                <img src="assets/img/product/products3-min.jpg" alt="">
+                                <div class="tpcart__del">
+                                    <a href="#"><i class="icon-x-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="tpcart__content">
+                                <span class="tpcart__content-title"><a href="shop-details.html">Quaker Popped Rice
+                                        Crisps Snacks Chocolate</a>
+                                </span>
+                                <div class="tpcart__cart-price">
+                                    <span class="quantity">1 x</span>
+                                    <span class="new-price">$162.8</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="tpcart__checkout">
+                <div class="tpcart__total-price d-flex justify-content-between align-items-center">
+                    <span> Subtotal:</span>
+                    <span class="heilight-price"> 300.00</span>
+                </div>
+                <div class="tpcart__checkout-btn">
+                    <a class="tpcart-btn mb-10" href="cart.html">View Cart</a>
+                    <a class="tpcheck-btn" href="checkout.html">Checkout</a>
+                </div>
+            </div>
+        </div>
+        <div class="tpcart__free-shipping text-center">
+            <span>Free shipping for orders <b>under 10km</b></span>
+        </div>
+    </div>
+</div>
+<div class="cartbody-overlay"></div>
+<div class="header__top theme-bg-1 d-md-block border-bottom">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12 col-md-12">
+            
+                <div class="header__top-left text-white">
+                    <marquee behavior="" direction="">
+                        <ul class="d-flex">
+                                                        <li class="ms-5">வெளிப்படைத் தன்மையான நூல் கொள்முதல் கொள்கை 2024 </li>
+                                                        <li class="ms-5">                                                
+             Apply for Procurement  Option Available Now - வெளிப்படைத்தன்மையான புத்தக கொள்முதலுக்கு விண்ணப்பிக்கலாம்</li>
+                                                    </ul>
+                    </marquee>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- header-cart-end -->
+        <!-- End User Desktop navigation System -->
+
+        <!-- mobile-menu-area -->
+
+        <div id="header-sticky-2" class="tpmobile-menu d-xl-none">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-2 col-2 col-sm-2">
+                    <div class="mobile-menu-icon">
+                        <button class="tp-menu-toggle"><i class="icon-menu1"></i></button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8 col-8 col-sm-8">
+                    <div class="header__logo text-center">
+                        <a href="/"><img class="w-100" src="assets/img/logo/logo.png" alt="logo"></a>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-2 col-2 col-sm-2">
+                     <div class="header__info d-flex align-items-center">
+                    
+                        <div class="header__info-cart tpcolor__oasis ml-10 ">
+                                
+                                                            </div>
+                          
+                        <div class="header__info-cart tpcolor__oasis ml-10 ">
+                        
+                                                    </div>
+                     </div> 
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="body-overlay"></div>
+    <!-- sidebar-menu-area -->
+    <div class="tpsideinfo">
+        <button class="tpsideinfo__close">Close<i class="fal fa-times ml-10"></i></button>
+        <div class="tpsideinfo__search text-center pt-35">
+            <!-- <span class="tpsideinfo__search-title mb-20">What Are You Looking For?</span> -->
+            <form action="#">
+                <input type="text" placeholder="Search ...">
+                <button><i class="icon-search"></i></button>
+            </form>
+        </div>
+        <div class="tpsideinfo__nabtab">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">Menu</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                    tabindex="0">
+                    <div class="mobile-menu"></div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="tpsideinfo__wishlist-link">
+                        <a class="text-white fw-bold" href="/login">
+                <i class="fas fa-user" aria-hidden="true"></i> Login</a>
+            </br>
+            <a href="/register"><i class="icon-user icons" aria-hidden="true"></i>
+                New Registration</a>
+            
+        </div>
+        
+        <div class="tpsideinfo__wishlist-link">
+            <a href="/faq"><i class="fas fa-question-circle"></i> FAQs</a>
+        </div>
+    </div>
+    <!-- sidebar-menu-area-end -->
+
+<style>
+.tpsideinfo.tp-sidebar-opened {
+    transform: translateX(0);
+    z-index: 99999;
+}
+button.tp-menu-toggle {
+    background-color: white;
+}
+div#header-sticky-2 {
+    background-color: white;
+}
+
+</style>        <!-- mobile-menu-area-end -->
+    </header>
+    <!-- header-area-end -->
+
+    <main>
+        <!-- slider-area-start -->
+        <style>
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+h4.tpslider__title.fw-bolder.mb-30 {
+    font-size: 11px;
+}
+p.distru {
+    font-size: 10px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+</style>
+<section class="slider-area tpslider-delay">
+    <div class="swiper-container slider-active">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide ">
+                <div class="tpslider pt-90 pb-0 grey-bg" data-background="assets/img/slider/shape-bg.jpg">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xxl-5 col-lg-6 col-md-6 col-12 col-sm-6">
+                                                            <div class="tpslider__content pt-20">
+                                    <!-- <span class="tpslider__sub-title mb-35">Top Seller In The Week</span> -->
+                                    <h4 class="tpslider__title fw-bolder mb-30">எல்லா விளக்கும் விளக்கல்ல சான்றோர்க்குப்
+                                    பொய்யா விளக்கே விளக்கு....</h4>
+                                    <p class="distru">&quot;எல்லா விளக்கும் விளக்கல்ல சான்றோர்க்குப் பொய்யா விளக்கே விளக்கு.&quot; என்பது ஒரு திருக்குறள், அதிகாரப் பொருள் எனும் தெளிவான அர்த்தம் உள்ளது. இது உண்மையை மறைக்கும் உண்மையை உருவாக்குகின்றது...</p>
+                                    <div class="tpslider__btn">
+                                        <!-- <a class="tp-btn" href="/thirukkural-view">Read More</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-7 col-lg-6 col-md-6 col-12 col-sm-6">
+                                <div class="tpslider__thumb p-relative pt-15">
+                                    <img class="tpslider__thumb-img" src="assets/img/slider/slider-bg-1.png"
+                                        alt="slider-bg">
+                                    <div class="tpslider__shape d-none d-md-block">
+                                        <img class="tpslider__shape-one" src="assets/img/slider/slider-shape-1.png"
+                                            alt="shape">
+                                        <img class="tpslider__shape-two" src="assets/img/slider/slider-shape-2.png"
+                                            alt="shape">
+                                        <!-- <img class="tpslider__shape-three" src="assets/img/slider/slider-shape-3.png" alt="shape"> -->
+                                        <img class="tpslider__shape-four" src="assets/img/slider/slider-shape-4.png"
+                                            alt="shape">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="tpslider pt-90 pb-0 grey-bg" data-background="assets/img/slider/shape-bg.jpg">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xxl-5 col-lg-6 col-md-6 col-sm-6">
+                        
+                                <div class="tpslider__content pt-20">
+                                    <!-- <span class="tpslider__sub-title mb-35">Top Seller In The Week</span> -->
+                                    <h4 class="tpslider__title fw-bolder mb-30">உள்ளத்தாற் பொய்யா தொழுகின் உலகத்தார்
+                                    உள்ளத்து ளெல்லாம் உளன்....</h4>
+                                    <p class="distru">&quot;உள்ளத்தாற் பொய்யா தொழுகின் உலகத்தார் உள்ளத்து ளெல்லாம் உளன்.&quot; என்பது திருக்குறள், அதிகாரப் பொருள் எனும் தெளிவான அர்த்தம் உள்ளத்தின் அடிப்படையில் உலகத்தார் எல்லாரும் உளன் என்று கூறுகின்றனர்...</p>
+                                    <div class="tpslider__btn">
+                                        <!-- <a class="tp-btn" href="/thirukkural-view">Read More</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-7 col-lg-6  col-md-6 col-sm-6">
+                                <div class="tpslider__thumb p-relative">
+                                    <img class="tpslider__thumb-img" src="assets/img/slider/slider-bg-2.png"
+                                        alt="slider-bg">
+                                    <div class="tpslider__shape d-none d-md-block">
+                                        <img class="tpslider__shape-one" src="assets/img/slider/slider-shape-1.png"
+                                            alt="shape">
+                                        <img class="tpslider__shape-two" src="assets/img/slider/slider-shape-2.png"
+                                            alt="shape">
+                                        <!-- <img class="tpslider__shape-three" src="assets/img/slider/slider-shape-3.png" alt="shape"> -->
+                                        <img class="tpslider__shape-four" src="assets/img/slider/slider-shape-4.png"
+                                            alt="shape">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="tpslider pt-90 pb-0 grey-bg" data-background="assets/img/slider/shape-bg.jpg">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xxl-5 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                      
+                                <div class="tpslider__content pt-20">
+                                    <!-- <span class="tpslider__sub-title mb-35">Top Seller In The Week</span> -->
+                                    <h4 class="tpslider__title fw-bolder mb-30">தன்நெஞ் சறிவது பொய்யற்க பொய்த்தபின்
+                                    தன்நெஞ்சே தன்னைச் சுடும்....</h4>
+                                    <p class="distru">&quot;தன்நெஞ்சறிவது பொய்யற்க பொய்த்தபின் தன்நெஞ்சே தன்னைச் சுடும்&quot; என்பது ஒரு கடினமான உண்மையை உள்ளதாகும் திருக்குறள்....</p>
+                                    <div class="tpslider__btn">
+                                        <!-- <a class="tp-btn" href="/thirukkural-view">Read More</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-7 col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                                <div class="tpslider__thumb p-relative">
+                                    <img class="tpslider__thumb-img" src="assets/img/slider/slider-bg-3.png"
+                                        alt="slider-bg">
+                                    <div class="tpslider__shape d-none d-md-block">
+                                        <img class="tpslider__shape-one" src="assets/img/slider/slider-shape-1.png"
+                                            alt="shape">
+                                        <img class="tpslider__shape-two" src="assets/img/slider/slider-shape-2.png"
+                                            alt="shape">
+                                        <!-- <img class="tpslider__shape-three" src="assets/img/slider/slider-shape-3.png" alt="shape">
+                                       <img class="tpslider__shape-four" src="assets/img/slider/slider-shape-4.png" alt="shape"> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tpslider__arrow d-none  d-xxl-block">
+            <button class="tpsliderarrow tpslider__arrow-prv"><i class="icon-chevron-left"></i></button>
+            <button class="tpsliderarrow tpslider__arrow-nxt"><i class="icon-chevron-right"></i></button>
+        </div>
+        <div class="slider-pagination d-xxl-none"></div>
+    </div>
+</section>
+<style>
+h4.tpslider__title.mb-30 {
+    font-size: larger;
+}
+
+.form-control {
+    padding-left: 51px !important;
+}
+</style>        <!-- slider-area-end -->
+        
+                <section tion class="category-area grey-bg pb-40 pt-45 ">
+            <div class="container">
+                <div class="swiper-container category-active">
+
+                    <div class="swiper-wrapper">
+                                                <div class="swiper-slide custm-slide-item">
+                            <div class="category__item mb-30 cover-photo shadow-lg">
+                                <div class="category__thumb fix mb-15">
+                                    <a href="#"><img src="https://bookprocurement.tamilnadupubliclibraries.org/admin/categorieImage/Non Fiction(புனைவிலி நூல்கள்)1709724631.jpg"
+                                            alt="category-thumb"></a>
+                                </div>
+                                <div class="category__content">
+                                    <h5 class="category__title"><a href="#">Non Fiction(புனைவிலி நூல்கள்) </a></h5>
+                                    <!-- <span class="category__count">05-06-22</span> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="swiper-slide custm-slide-item">
+                            <div class="category__item mb-30 cover-photo shadow-lg">
+                                <div class="category__thumb fix mb-15">
+                                    <a href="#"><img src="https://bookprocurement.tamilnadupubliclibraries.org/admin/categorieImage/Documentation Editions(ஆவணப் பதிப்பு நூல்கள்)1709724697.jpg"
+                                            alt="category-thumb"></a>
+                                </div>
+                                <div class="category__content">
+                                    <h5 class="category__title"><a href="#">Documentation Editions(ஆவணப் பதிப்பு நூல்கள்) </a></h5>
+                                    <!-- <span class="category__count">05-06-22</span> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="swiper-slide custm-slide-item">
+                            <div class="category__item mb-30 cover-photo shadow-lg">
+                                <div class="category__thumb fix mb-15">
+                                    <a href="#"><img src="https://bookprocurement.tamilnadupubliclibraries.org/admin/categorieImage/Children Books(சிறுவர் நூல்கள்)1709724748.jpg"
+                                            alt="category-thumb"></a>
+                                </div>
+                                <div class="category__content">
+                                    <h5 class="category__title"><a href="#">Children Books(சிறுவர் நூல்கள்) </a></h5>
+                                    <!-- <span class="category__count">05-06-22</span> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="swiper-slide custm-slide-item">
+                            <div class="category__item mb-30 cover-photo shadow-lg">
+                                <div class="category__thumb fix mb-15">
+                                    <a href="#"><img src="https://bookprocurement.tamilnadupubliclibraries.org/admin/categorieImage/Competitive Examination Books(போட்டித்தேர்வு நூல்கள்)1709724774.jpg"
+                                            alt="category-thumb"></a>
+                                </div>
+                                <div class="category__content">
+                                    <h5 class="category__title"><a href="#">Competitive Examination Books(போட்டித்தேர்வு நூல்கள்) </a></h5>
+                                    <!-- <span class="category__count">05-06-22</span> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="swiper-slide custm-slide-item">
+                            <div class="category__item mb-30 cover-photo shadow-lg">
+                                <div class="category__thumb fix mb-15">
+                                    <a href="#"><img src="https://bookprocurement.tamilnadupubliclibraries.org/admin/categorieImage/Fiction(புனைவு நூல்கள்)1709724797.jpg"
+                                            alt="category-thumb"></a>
+                                </div>
+                                <div class="category__content">
+                                    <h5 class="category__title"><a href="#">Fiction(புனைவு நூல்கள்) </a></h5>
+                                    <!-- <span class="category__count">05-06-22</span> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="swiper-slide custm-slide-item">
+                            <div class="category__item mb-30 cover-photo shadow-lg">
+                                <div class="category__thumb fix mb-15">
+                                    <a href="#"><img src="https://bookprocurement.tamilnadupubliclibraries.org/admin/categorieImage/Foreign books(வெளிநாட்டில் அச்சடிக்கப்பட்ட நூல்கள்)1709724894.jpg"
+                                            alt="category-thumb"></a>
+                                </div>
+                                <div class="category__content">
+                                    <h5 class="category__title"><a href="#">Foreign books(வெளிநாட்டில் அச்சடிக்கப்பட்ட நூல்கள்) </a></h5>
+                                    <!-- <span class="category__count">05-06-22</span> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="swiper-slide custm-slide-item">
+                            <div class="category__item mb-30 cover-photo shadow-lg">
+                                <div class="category__thumb fix mb-15">
+                                    <a href="#"><img src="https://bookprocurement.tamilnadupubliclibraries.org/admin/categorieImage/Academic Textbooks(பாட நூல்கள்)1709724866.jpg"
+                                            alt="category-thumb"></a>
+                                </div>
+                                <div class="category__content">
+                                    <h5 class="category__title"><a href="#">Academic Textbooks(பாட நூல்கள்) </a></h5>
+                                    <!-- <span class="category__count">05-06-22</span> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="swiper-slide custm-slide-item">
+                            <div class="category__item mb-30 cover-photo shadow-lg">
+                                <div class="category__thumb fix mb-15">
+                                    <a href="#"><img src="https://bookprocurement.tamilnadupubliclibraries.org/admin/categorieImage/Translated Books(மொழிபெயர்ப்பு நூல்கள்)1709724917.jpg"
+                                            alt="category-thumb"></a>
+                                </div>
+                                <div class="category__content">
+                                    <h5 class="category__title"><a href="#">Translated Books(மொழிபெயர்ப்பு நூல்கள்) </a></h5>
+                                    <!-- <span class="category__count">05-06-22</span> -->
+                                </div>
+                            </div>
+                        </div>
+                                                <div class="swiper-slide custm-slide-item">
+                            <div class="category__item mb-30 cover-photo shadow-lg">
+                                <div class="category__thumb fix mb-15">
+                                    <a href="#"><img src="https://bookprocurement.tamilnadupubliclibraries.org/admin/categorieImage/Government Publications(அரசு வெளியீடுகள்)1709724946.jpg"
+                                            alt="category-thumb"></a>
+                                </div>
+                                <div class="category__content">
+                                    <h5 class="category__title"><a href="#">Government Publications(அரசு வெளியீடுகள்) </a></h5>
+                                    <!-- <span class="category__count">05-06-22</span> -->
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        
+        <!-- category-area-end -->
+
+
+        <!-- about-area-start -->
+        <section class="about-area grey-bg pt-100 pb-60">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="tpabout__inner-thumb-2 p-relative mb-30">
+                            <img class="w-100" src="/images/bg6.png" alt="">
+                            <div class="tpabout__inner-thumb-shape d-none d-md-block">
+                                <div class="tpabout__inner-thumb-shape-one">
+                                    <!-- <img src="assets/img/shape/tree-leaf-6.png" alt=""> -->
+                                    <img src="assets/img/about/12.png" alt="">
+                                </div>
+                                <div class="tpabout__inner-thumb-shape-two">
+                                    <!-- <img src="assets/img/shape/tree-leaf-7.png" alt=""> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tpabout__inner-2 mb-30">
+                            <div class="tpabout__inner-tag mb-10 mt-2">
+                                <span class="active">About us</span>
+                                <span>Welcome to Book Procurement</span>
+                            </div>
+                            <h4 class="tpabout__inner-title-2 fs-3 mb-25">WELCOME TO DIRECTORATE OF PUBLIC LIBRARIES
+                            </h4>
+                            <p style="text-align:justify">The Transparent Book Procurement Portal, created by the Directorate of Public Libraries, Government of Tamil Nadu, revolutionizes the procurement process by connecting publishers, publisher cum distributors, and distributors with public libraries across Tamil Nadu. Designed to streamline submissions and enhance the selection of books, this digital platform emphasizes transparency and efficiency. It supports a wide range of books, incorporating subject expert reviews, librarian and  user review, and relies on reader forum recommendations for purchase decisions.
+                            </p>
+                            <!--<div class="tpabout__inner-list">-->
+                            <!--    <ul>-->
+                            <!--        <li><i class="icon-check"></i> Track your daily activity.</li>-->
+                            <!--        <li><i class="icon-check"></i> Start a private group video call.</li>-->
+                            <!--        <li><i class="icon-check"></i> All the lorem ipsum generators on the Internet.</li>-->
+                            <!--    </ul>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-area-end -->
+
+        <!-- choose-area-start -->
+        <section class="choose-area tpchoose__bg pb-80 grey-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="tpsection mb-35">
+                            <h4 class="tpsection__title">Registration </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="tpchoose__item text-center mb-30">
+                            <div class="tpchoose__icon mb-20">
+                                <img class="icon-new" src="/images/icons/user.png" alt="">
+                            </div>
+                            <div class="tpchoose__content">
+                                <h4 class="tpchoose__title">Publisher</h4>
+                                <p></p>
+                                <a href="/register"
+                                    class="tpchoose__details d-flex align-items-center justify-content-center text-primary">Register
+                                    Now<i class="icon-chevrons-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="tpchoose__item text-center mb-30">
+                            <div class="tpchoose__icon mb-20">
+                                <img class="icon-new" src="/images/icons/user.png" alt="">
+                            </div>
+                            <div class="tpchoose__content">
+                                <h4 class="tpchoose__title">Distributor</h4>
+                                <p></p>
+                                <a href="/register"
+                                    class="tpchoose__details d-flex align-items-center justify-content-center text-primary">Register
+                                    Now<i class="icon-chevrons-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="tpchoose__item text-center mb-30">
+                            <div class="tpchoose__icon mb-20">
+                                <img class="icon-new" src="/images/icons/multi.png" alt="">
+                            </div>
+                            <div class="tpchoose__content">
+                                <h4 class="tpchoose__title">Publisher cum Distributor</h4>
+                                <p></p>
+                                <a href="#"
+                                    class="tpchoose__details d-flex align-items-center justify-content-center text-primary">Register
+                                    Now<i class="icon-chevrons-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="tpchoose__item text-center mb-30">
+                            <div class="tpchoose__icon mb-20">
+                                <img class="icon-new" src="/images/icons/user.png" alt="">
+                            </div>
+                            <div class="tpchoose__content">
+                                <h4 class="tpchoose__title">Other user login</h4>
+                                <p></p>
+                                <a href="/member/login/"
+                                    class="tpchoose__details d-flex align-items-center justify-content-center text-primary">Register
+                                    Now<i class="icon-chevrons-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- choose-area-end -->
+
+                
+        <!-- product-area-start -->
+        <section class="product-area grey-bg pb-45">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="tpsection mb-35">
+                            <!--<h4 class="tpsection__sub-title">~ Procurement ~</h4>-->
+                            <h4 class="tpsection__title">Libraries</h4>
+                            <!--<p>The liber tempor cum soluta nobis eleifend option congue doming quod mazim.</p>-->
+                        </div>
+                    </div>
+                </div>
+                <div class="tpproduct__arrow p-relative">
+                    <div class="swiper-container tpproduct-active tpslider-bottom p-relative">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="tpproduct p-relative">
+                                    <div class="tpproduct__thumb p-relative text-center">
+                                        <a href="#"><img src="/images/new/1.jpeg"
+                                                alt=""></a>
+                                        <a class="tpproduct__thumb-img" href="#"><img
+                                                src="/images/new/1.jpeg" alt=""></a>
+
+                                    </div>
+                                    <div class="tpproduct__content">
+                                        <h4 class="tpproduct__title">
+                                            
+                                        </h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tpproduct p-relative">
+                                    <div class="tpproduct__thumb p-relative text-center">
+                                        <a href="#"><img src="/images/new/2.jpeg"
+                                                alt=""></a>
+                                        <a class="tpproduct__thumb-img" href="#"><img
+                                                src="/images/new/2.jpeg" alt=""></a>
+
+                                    </div>
+                                    <div class="tpproduct__content">
+                                        <h4 class="tpproduct__title">
+                                            
+                                        </h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tpproduct p-relative">
+                                    <div class="tpproduct__thumb p-relative text-center">
+                                        <a href="#"><img src="/images/new/3.jpeg"
+                                                alt=""></a>
+                                        <a class="tpproduct__thumb-img" href="#"><img
+                                                src="/images/new/3.jpeg" alt=""></a>
+
+                                    </div>
+                                    <div class="tpproduct__content">
+                                        <h4 class="tpproduct__title">
+                                            
+                                        </h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tpproduct p-relative">
+                                    <div class="tpproduct__thumb p-relative text-center">
+                                        <a href="#"><img src="/images/new/4.jpeg"
+                                                alt=""></a>
+                                        <a class="tpproduct__thumb-img" href="#"><img
+                                                src="/images/new/4.jpeg" alt=""></a>
+
+                                    </div>
+                                    <div class="tpproduct__content">
+                                        <h4 class="tpproduct__title">
+                                            
+                                        </h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tpproduct p-relative">
+                                    <div class="tpproduct__thumb p-relative text-center">
+                                        <a href="#"><img src="/images/new/5.jpeg"
+                                                alt=""></a>
+                                        <a class="tpproduct__thumb-img" href="#"><img
+                                                src="/images/new/5.jpeg" alt=""></a>
+
+                                    </div>
+                                    <div class="tpproduct__content">
+                                        <h4 class="tpproduct__title">
+                                            
+                                        </h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tpproduct p-relative">
+                                    <div class="tpproduct__thumb p-relative text-center">
+                                        <a href="#"><img src="/images/new/6.jpeg"
+                                                alt=""></a>
+                                        <a class="tpproduct__thumb-img" href="#"><img
+                                                src="/images/new/6.jpeg" alt=""></a>
+
+                                    </div>
+                                    <div class="tpproduct__content">
+                                        <h4 class="tpproduct__title">
+                                            
+                                        </h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tpproduct p-relative">
+                                    <div class="tpproduct__thumb p-relative text-center">
+                                        <a href="#"><img src="/images/new/7.jpeg"
+                                                alt=""></a>
+                                        <a class="tpproduct__thumb-img" href="#"><img
+                                                src="/images/new/7.jpeg" alt=""></a>
+
+                                    </div>
+                                    <div class="tpproduct__content">
+                                        <h4 class="tpproduct__title">
+                                            
+                                        </h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tpproduct-btn">
+                        <div class="tpprduct-arrow tpproduct-btn__prv"><a href="#"><i class="icon-chevron-left"></i></a>
+                        </div>
+                        <div class="tpprduct-arrow tpproduct-btn__nxt"><a href="#"><i
+                                    class="icon-chevron-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- product-area-end -->
+        
+        <!-- banner-area-start -->
+        <section class="banner-area pb-60 grey-bg">
+            <div class="container">
+                <div class="row">
+                    <img src="assets/img/banner/2.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- banner-area-end -->
+        <div class="container mt-45 mb-45">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="tpvideo__wrapper p-4">
+                        <div class="tpvideo__icon mb-5">
+                                                    <i>
+                                <img src="assets/img/shape/video-dots.svg" alt=""> 998+
+                            </i>
+                        </div>
+                        <div class="tpvideo__content">
+                            <h4 class="tpvideo__title pt-3">Publisher</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="tpvideo__wrapper p-4">
+                        <div class="tpvideo__icon mb-5">
+                                                    <i>
+                                <img src="assets/img/shape/video-dots.svg" alt=""> 49+
+                            </i>
+                        </div>
+                        <div class="tpvideo__content">
+                            <h4 class="tpvideo__title pt-3">Distributor</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="tpvideo__wrapper p-4">
+                        <div class="tpvideo__icon ">
+                                                    <i>
+                                <img src="assets/img/shape/video-dots.svg" alt=""> 157+
+                            </i>
+                        </div>
+                        <div class="tpvideo__content">
+                            <h4 class="tpvideo__title pt-3">Publisher cum Distributor</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+                        <!-- product-area-start -->
+        <section class="weekly-product-area grey-bg pb-70 mt-3  pt-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="tpsection mb-20">
+                            <h4 class="tpsection__title">Our Youtube Videos</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tpnavtab__area pb-40">
+
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-all" role="tabpanel"
+                                    aria-labelledby="nav-all-tab" tabindex="0">
+                                    <div class="tpproduct__arrow p-relative">
+                                        <div class="swiper-container tpproduct-active tpslider-bottom p-relative">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide cutm-min-slider-height">
+                                                    <div class="tpproduct p-relative">
+                                                        <div class="tpproduct__thumb p-relative text-center">
+                                                                    <div class="ratio ratio-16x9">
+                                                                        <iframe src="https://www.youtube.com/embed/EwIUEK-1rZ0?si=nRqzDjGWuzU35w67" title="YouTube video"
+                                                                            allowfullscreen></iframe>
+                                                                    </div>
+                                                                    <div class="ratio ratio-16x9 tpproduct__thumb-img">
+                                                                        <iframe src="https://www.youtube.com/embed/EwIUEK-1rZ0?si=nRqzDjGWuzU35w67" title="YouTube video"
+                                                                            allowfullscreen></iframe>
+                                                                    </div>
+
+                                                        </div>
+                                                        <div class="tpproduct__content">
+                                                            <h4 class="tpproduct__title">
+                                                                <a href="#">சென்னை இலக்கியத் திருவிழா - 2023 </a>
+
+                                                            </h4>
+                                                            <div class="tpproduct__price">
+                                                                <p class="small text-resize multiline">சென்னை இலக்கியத் திருவிழா - 2023 I தமிழ்க் கவிதைகளில் ஆண் மையப்பாரவை  எனும் தலைப்பில்</p>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                 <div class="swiper-slide">
+                                                    <div class="tpproduct p-relative">
+                                                        <div class="tpproduct__thumb p-relative text-center">
+                                                            <div class="ratio ratio-16x9">
+                                                                <iframe src="https://www.youtube.com/embed/mzJ-7Rs4N2M?si=yXDlWJ_PeyJ4H2wI" title="YouTube video"
+                                                                    allowfullscreen></iframe>
+                                                            </div>
+                                                            <div class="ratio ratio-16x9 tpproduct__thumb-img">
+                                                                <iframe src="https://www.youtube.com/embed/mzJ-7Rs4N2M?si=yXDlWJ_PeyJ4H2wI" title="YouTube video"
+                                                                    allowfullscreen></iframe>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tpproduct__content">
+                                                            <h4 class="tpproduct__title">
+                                                                <a href="#">காவிரி இலக்கியத் திருவிழா - இலக்கியத்தில் சிற்றிலக்கியங்களின் பங்களிப்பு</a>
+                                                            </h4>
+                                                            <div class="tpproduct__price">
+                                                                <p class="small text-resize multiline">காவிரி இலக்கியத் திருவிழா - இலக்கியத்தில் சிற்றிலக்கியங்களின் பங்களிப்பு : திருமிகு.சுதீர் செந்தில்</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="tpproduct p-relative">
+                                                        <div class="tpproduct__thumb p-relative text-center">
+                                                            <div class="ratio ratio-16x9">
+                                                                <iframe src="https://www.youtube.com/embed/AtZMZOA9xvA?si=aCG8uk7RElITdJiz" title="YouTube video"
+                                                                    allowfullscreen></iframe>
+                                                            </div>
+                                                            <div class="ratio ratio-16x9 tpproduct__thumb-img">
+                                                                <iframe src="https://www.youtube.com/embed/AtZMZOA9xvA?si=aCG8uk7RElITdJiz" title="YouTube video"
+                                                                    allowfullscreen></iframe>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tpproduct__content">
+                                                            <h4 class="tpproduct__title">
+                                                                <a href="#">சென்னை இலக்கியத் திருவிழா -2024 | திருமிகு .சுகிர்தராணி |படைப்பு அரங்கம்</a>
+                                                            </h4>
+                                                            <div class="tpproduct__price">
+                                                                <p class="small text-resize multiline">சென்னை  இலக்கியத் திருவிழா -2024  படைப்பு அரங்கில் “ இலக்கியமும் அழகியலும்  “  எனும் தலைப்பில் திருமிகு .சுகிர்தராணி அவர்களின் சிறப்புரை</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="tpproduct p-relative">
+                                                        <div class="tpproduct__thumb p-relative text-center">
+                                                            <div class="ratio ratio-16x9">
+                                                                <iframe src="https://www.youtube.com/embed/jfV-JFxpcFk?si=W817QuA_BEyHUCFk" title="YouTube video"
+                                                                    allowfullscreen></iframe>
+                                                            </div>
+                                                            <div class="ratio ratio-16x9 tpproduct__thumb-img">
+                                                                <iframe src="https://www.youtube.com/embed/jfV-JFxpcFk?si=W817QuA_BEyHUCFk" title="YouTube video"
+                                                                    allowfullscreen></iframe>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tpproduct__content">
+                                                            <h4 class="tpproduct__title">
+                                                                <a href="#">சென்னை இலக்கியத் திருவிழா -2024 | சங்க உழவர்கள் | திருமிகு. அறிவுமதி</a>
+                                                            </h4>
+                                                            <div class="tpproduct__price">
+                                                                <p class="small text-resize multiline">சென்னை  இலக்கியத் திருவிழா -2024 சங்க உழவர்கள் | திருமிகு. அறிவுமதி</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tpproduct-btn">
+                                            <div class="tpprduct-arrow tpproduct-btn__prv"><a href="#"><i
+                                                        class="icon-chevron-left"></i></a></div>
+                                            <div class="tpprduct-arrow tpproduct-btn__nxt"><a href="#"><i
+                                                        class="icon-chevron-right"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-lg-12">
+                        <div class="tpproduct__all-item text-center">
+                            <span>Discover thousands of other quality products.
+                                <a href="#">Shop All Products <i class="icon-chevrons-right"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+                <!-- product-area-end -->
+
+        <!-- product-coundown-area-start -->
+        <!-- <section class="product-coundown-area tpcoundown__bg grey-bg pb-25"
+            data-background="assets/img/banner/1.png"> -->
+        <section class="product-coundown-area tpcoundown__bg grey-bg pb-25">
+            <div class="container">
+                <div class="row">
+                    <img src="assets/img/banner/1.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- product-coundown-area-end -->
+
+    </main>
+
+    <!-- footer-area-start -->
+    <!-- feature-area-start -->
+        <section style="background-image: url(assets/img/footer/footer-shape-1.png);"
+            class="feature-area mainfeature__bg grey-bg pt-50 pb-40"
+            data-background="assets/img/footer/footer-shape-1.png">
+            <!-- <div class="container">
+                <div class="mainfeature__border pb-15">
+                    <div class="row row-cols-lg-5 row-cols-md-3 row-cols-2">
+                        <div class="col">
+                           <a href="#">
+                              <div class="mainfeature__item text-center mb-30">
+                                 <div class="mainfeature__icon">
+                                       <img src="assets/img/icon/feature-icon-1.svg" alt="">
+                                 </div>
+                                 <div class="mainfeature__content">
+                                       <h4 class="mainfeature__title">Help</h4>
+                                       <p>Across West & East India</p>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col">
+                           <a href="#">
+                              <div class="mainfeature__item text-center mb-30">
+                                <div class="mainfeature__icon">
+                                    <img src="assets/img/icon/feature-icon-2.svg" alt="">
+                                </div>
+                                <div class="mainfeature__content">
+                                    <h4 class="mainfeature__title">Support</h4>
+                                    <p>100% Secure Payment</p>
+                                </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col">
+                           <a href="#">
+                              <div class="mainfeature__item text-center mb-30">
+                                 <div class="mainfeature__icon">
+                                       <img src="assets/img/icon/feature-icon-3.svg" alt="">
+                                 </div>
+                                 <div class="mainfeature__content">
+                                       <h4 class="mainfeature__title">Privacy Policy</h4>
+                                       <p>Add Multi-buy Discount </p>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col">
+                           <a href="#">
+                              <div class="mainfeature__item text-center mb-30">
+                                 <div class="mainfeature__icon">
+                                       <img src="assets/img/icon/feature-icon-4.svg" alt="">
+                                 </div>
+                                 <div class="mainfeature__content">
+                                       <h4 class="mainfeature__title">Term & Conditions</h4>
+                                       <p>Dedicated 24/7 Support </p>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                        <div class="col">
+                           <a href="">
+                              <div class="mainfeature__item text-center mb-30">
+                                 <div class="mainfeature__icon">
+                                       <img src="assets/img/icon/feature-icon-5.svg" alt="">
+                                 </div>
+                                 <div class="mainfeature__content">
+                                       <h4 class="mainfeature__title">Help & Support</h4>
+                                       <p>From Handpicked Sellers</p>
+                                 </div>
+                              </div>
+                           </a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        <!-- feature-area-end -->
+                <footer>
+            <div class="tpfooter__area theme-bg-2">
+                <div class="tpfooter__top pb-15">
+                    <div class="container p-3">
+                        <div class="row">
+                            <div class="col-xl-4 col-lg-5 col-md-7 col-sm-6">
+                               <div class="tpfooter__widget footer-col-1 mb-50">
+
+                                    <h4 class="tpfooter__widget-title"> Contact Us</h4>
+					<b class="text-white">Official Address</b>
+                                    <p style="padding-right: 10px;"><i class="fa fa-map-marker text-white" aria-hidden="true"></i>
+                                        Directorate of Public Libraries, 737/1, Anna Salai., Chennai- 600 002, Tamil Nadu, India.</p><br>
+                                    <p style="padding-right: 10px;"><i class="fa fa-phone text-white" aria-hidden="true"></i> 
+                                        044-28524263,Fax : 044-28412087 </p><br>
+                                        
+                                    <p style="padding-right: 10px;"><a class="text-white" href="mailto:support@example.com"> <i class="fa fa-envelope-open text-white"
+                                                aria-hidden="true"></i> Email :  dplchn@tn.gov.in</a></p>
+					<b class="text-white p-2">Technical Assistance</b>
+					
+              <p style="padding-right: 10px;">Transparent Book Procurement Cell, District Library Office, No.735, LLA Building 1st floor, Anna Salai, Chennai- 600 002 , Ph +91 44 2852 4791 </p>
+               
+					<p style="padding-right: 10px;"><a class="text-white" href="mailto:Email: lbrnioaclchn.dopl@tn.gov.in"> <i class="fa fa-envelope-open text-white"
+                                                aria-hidden="true"></i> Email: lbrnioaclchn.dopl@tn.gov.in</a></p>
+
+                                </div>
+                            </div>
+                            <div class="col-xl-2 col-lg-3 col-md-5 col-sm-6">
+                               <div class="tpfooter__widget footer-col-2 mb-50">
+                                  <h4 class="tpfooter__widget-title">Quick links</h4>
+                                  <div class="tpfooter__widget-links">
+                                    <ul>
+                                       <li><a href="/"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> Home</a></li>
+                                       <li><a href="/about"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> About Us</a></li>
+                                       <li><a href="/procurement-policy"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> Procurement Policy</a></li>
+                                       <li><a href="/guidelines"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> Guidelines</a></li>
+                                       <li><a href="/contact-us"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> Contact Us</a></li>
+                                       <li><a href="/faq"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> FAQs</a></li>
+
+                                    </ul>
+                                 </div>
+                              </div>
+                            </div>
+
+                            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-5">
+                               <div class="tpfooter__widget footer-col-3 mb-50">
+                                  <h4 class="tpfooter__widget-title">Login</h4>
+                                  <div class="tpfooter__widget-links">
+                                     <ul>
+                                     <li><a href="/register"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> Publisher Login</a></li>
+                                        <li><a href="/register"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> Distributor Login</a></li>
+                                        <li><a href="/register"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> Publisher Cum Distributor Login</a></li>
+
+                                        <li><a href="/member/login"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> Reviewer Login</a></li>
+                                        <li><a href="/member/login"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> Librarian Login</a></li>
+                                        <li><a href="/member/login"><i class="fa fa-angle-double-right text-white" aria-hidden="true"></i> User Login</a></li>
+                                     </ul>
+                                  </div>
+                               </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-8 col-sm-7">
+                               <div class="tpfooter__widget footer-col-4 mb-50">
+                                  <h4 class="tpfooter__widget-title">Directorate of Public libraries</h4>
+                                  <div class="tpfooter__widget-newsletter">
+                                     
+                                     <p>Public Libraries were opened in Tamil Nadu as per the “Tamil Nadu Public Libraries Act, 1948”. The Directorate of Public Libraries was formed in 1972 in order to improve the library services.</p>
+                                     <a href="https://tamilnadupubliclibraries.org/" class="text-white">Read more...</a>
+                                     <div class="tpfooter__widget-social mt-45">
+                                        <span class="tpfooter__widget-social-title mb-5">Social Media</span>
+                                        <a href=""><i class="fab fa-facebook-f"></i> Facebook</a>
+                                        <a href=""><i class="fab fa-twitter"></i> Twitter</a>
+                                        <a href=""><i class="fab fa-youtube"></i> Youtube</a>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+                <div class="tpfooter___bottom pt-40 pb-40">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="tpfooter__copyright text-center">
+                                    <span class="tpfooter__copyright-text">Copyright © <a
+                                           class="text-white" href="#">2024 .Directorate of Public Libraries, பொது நூலக இயக்ககம்.</a> All rights
+                                        reserved by Directorate of Public Libraries.</span>
+                                </div>
+                            </div>
+                            <!-- <div class="col-lg-6 col-md-5 col-sm-12">
+                                <div class="tpfooter__copyright-thumb text-end">
+                                    <img src="assets/img/shape/footer-payment.png " alt="">
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modal login-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+         <div class="modal-content">
+            <div class="modal-header">
+                  <div class="modal-title fs-5 h1" id="exampleModalLabel">Users Login Panel</div>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <div class="row">
+               <div class="col-md-6 text-center">
+                  <img src="https://bookprocurement.tamilnadupubliclibraries.org/assets/img/book.png" class="w-25">
+                  <h6>Transparent Book Procurement Portal</h6>
+                  <small class="text-center">Don't have an account? <a class="text-danger" href="/register">Click to Register</a></small>
+                  <div class="login-btn mt-2">
+                     <a href="/login"> <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Login</button></a>
+                  </div>
+               </div>
+               <div class="col-md-6 text-center">
+                  <img src="https://bookprocurement.tamilnadupubliclibraries.org/assets/img/magazine.png" class="w-25">
+                  <h6>Transparent Periodical Procurement Portal</h6>
+                  <small class="text-center">Don't have an account? <a class="text-danger" href="/periodical/register">Click to Register</a></small>
+                  <div class="login-btn mt-2">
+                     <a href="/periodical/login"><button class="btn btn-primary"><i class="fa fa-sign-in"></i> Login</button></a>
+                  </div>
+               </div>
+            </div>
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               
+            </div>
+         </div>
+         </div>
+      </div>
+  <!-- Modal register-->
+  <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog modal-lg">
+   <div class="modal-content">
+      <div class="modal-header">
+            <div class="modal-title fs-5 h1" id="exampleModalLabel">Users Registration Panel</div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      <div class="row">
+         <div class="col-md-6 text-center">
+            <img src="https://bookprocurement.tamilnadupubliclibraries.org/assets/img/book.png" class="w-25">
+            <h6>Transparent Book Procurement Portal</h6>
+            <small class="text-center">Do you have a account? <a class="text-danger" href="/login">Login</a></small>
+            <div class="login-btn mt-2">
+               <p><small></small> <a href="/register"> <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Register</button></a></p>
+            </div>
+         </div>
+         <div class="col-md-6 text-center">
+            <img src="https://bookprocurement.tamilnadupubliclibraries.org/assets/img/magazine.png" class="w-25">
+            <h6>Transparent Periodical Procurement Portal</h6>
+            <small class="text-center">Do you have a account? <a class="text-danger" href="/periodical/login">Login</a></small>
+            <div class="login-btn mt-2">
+               <p><small> </small> <a href="/periodical/register"> <button class="btn btn-primary"> <i class="fa fa-sign-in"></i> Register</button></a>
+            </div>
+         </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         
+      </div>
+   </div>
+   </div>
+</div>
+
+        <style>
+         i.fab.fa-facebook-f {
+            color: #1873eb;
+         }
+         i.fab.fa-twitter {
+            color: #0097e7;
+         }
+         i.fab.fa-youtube {
+            color: red;
+         }
+         i.fab.fa-pinterest-p {
+            color: #ef0000;
+         }
+         i.fab.fa-instagram {
+            color: #ff00a3;
+         }
+        </style>
+    <!-- footer-area-end -->
+    
+      <!-- JS here -->
+      <script src="assets/js/jquery.js"></script>
+      <script src="assets/js/waypoints.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/swiper-bundle.js"></script>
+      <!-- <script src="assets/js/nice-select.js"></script> -->
+      <script src="assets/js/slick.js"></script>
+      <script src="assets/js/magnific-popup.js"></script>
+      <script src="assets/js/counterup.js"></script>
+      <script src="assets/js/wow.js"></script>
+      <script src="assets/js/isotope-pkgd.js"></script>
+      <script src="assets/js/imagesloaded-pkgd.js"></script>
+      <script src="assets/js/countdown.js"></script>
+      <script src="assets/js/ajax-form.js"></script>
+      <script src="assets/js/meanmenu.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+document.addEventListener("DOMContentLoaded", function () {
+    fetch("https://bookprocurement.tamilnadupubliclibraries.org/track-visit", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "X-CSRF-TOKEN": "s11Ylyr49JbiLA7Mmg702BngfnciYPHMl2KlrAOv"
+        },
+        body: JSON.stringify({
+            url: window.location.href
+        })
+    }).catch(err => console.log("Tracking failed"));
+});
+</script>
+    <script>
+    $(document).ready(function() {
+        var items = ["var(--tp-grey-1)", "var(--tp-grey-2)", "var(--tp-grey-3)", "var(--tp-grey-4)",
+            "var(--tp-grey-5)", "var(--tp-grey-6)", "var(--tp-grey-7)", "var(--tp-grey-8)",
+            "var(--tp-grey-9)"
+        ];
+        var index = 0;
+        var color;
+        $(".cover-photo").each(function() {
+            if (index == items.length)
+                index = 0;
+
+            color = items[index];
+            $(this).css('background', color);
+            index++;
+        });
+    });
+    </script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,1864 @@
+
+
+
+
+<!DOCTYPE html>
+<!-- TEMPLATE FILE: opac-advsearch.tt -->
+
+
+
+
+
+
+
+
+
+<html lang="en" class="no-js">
+<head>
+
+<title>Advanced search &rsaquo; Koha online catalog</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Koha 23.0504000" /> <!-- leave this for stats -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link type="text/css" rel="stylesheet" href="/opac-tmpl/bootstrap/lib/jquery/responsive.dataTables.min_23.0504000.css">
+
+<link rel="shortcut icon" href="/opac-tmpl/bootstrap/images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="/opac-tmpl/bootstrap/images/favicon.ico" type="image/x-icon" />
+
+    
+        
+    
+
+
+    <link type="text/css" rel="stylesheet" href="/opac-tmpl/bootstrap/css/opac_23.0504000.css">
+
+
+
+
+    <link type="text/css" rel="stylesheet" href="/opac-tmpl/bootstrap/css/print_23.0504000.css" media="print">
+
+
+    <style>/* Header icon Color By Ganesh*/
+.fa.fa-icon-black {
+    color: #ffffff;
+}
+
+/* Header Color By Ganesh*/
+.navbar-expand  {
+    background: #5d2d46;
+    margin:2px;
+    /*border:1px solid #5d2d46; */
+
+}
+
+/* Header Text Color By Ganesh*/
+.navbar-nav>li>a {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Search Outer Box Color By Ganesh*/
+#opac-main-search {
+    background: #c8a7b8;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    border: 0.5px solid #5d5d5d;
+}
+
+/*Login and Search Button By Ganesh*/
+.btn-primary {
+    background-color: #5d2d46;
+    border: 1px solid #5d2d46;
+    color: #fff;
+}
+
+
+/*Outer main Color By Ganesh*/
+#wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    background-color: #5d2d46;
+}
+
+/*Main Color By Ganesh*/
+.main {
+    background-color: #EEE9EE;
+    border-radius: 7px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+}
+
+/*Main Home Color By Ganesh*/
+.breadcrumb {
+    background-color: #C8A7B8;
+}
+
+
+/* For Table by Ganesh */
+
+.accordion {
+    background: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.accordion-group {
+    border: 1px solid #5d2d46;
+    margin-bottom: 2px;
+    border-radius: 4px;
+}
+
+.nit-nav-tab {
+    background-color: #5d2d46;
+}
+
+.accordion-heading {
+    display: block;
+    padding: 8px 15px;
+}
+
+.accordion-toggle {
+    cursor: pointer;
+}
+
+.nit-nav-tab-link {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.accordion-inner {
+    padding: 9px 15px;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* OPAC Credits By Ganesh */
+
+#footer-texts-left, #footer-texts-right, #footer-texts-left a, #footer-texts-right a, #footer-texts-left a:visited {
+    color: #fff;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+  
+  
+}
+
+
+/*OPAC NAV RIGHT*/
+.table tbody tr.warning>td {
+    background-color: #fcf8e3;
+}
+
+.table td, .table th {
+    line-height: 135%;
+}
+
+.table th, .table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #dddddd;
+}
+
+
+.title_block {
+    background: url(../images/sprite2.png) no-repeat scroll -231px -547px transparent;
+    color: #4D3019;
+    font-family: 'Droid Serif',Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 3px 11px 6px 28px;
+    text-transform: capitalize;
+}
+.bx-wrapper {
+    position: relative;
+    padding: 0;
+    
+}
+
+.bx-viewport {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 282px;
+}</style>
+
+
+
+
+<script>
+    var Koha = {};
+    function _(s) { return s } // dummy function for gettext
+    const is_logged_in = false
+</script>
+
+<script src="/opac-tmpl/bootstrap/js/Gettext_23.0504000.js"></script>
+<script src="/opac-tmpl/bootstrap/js/i18n_23.0504000.js"></script>
+
+<link type="text/css" rel="stylesheet" href="/opac-tmpl/lib/font-awesome/css/font-awesome.min_23.0504000.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+    
+
+
+    
+
+
+
+
+    
+
+<body ID="advsearch" class="branch-default scrollto" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button id="scrolltocontent">Skip to main content</button>
+<div id="wrapper">
+    <div id="header-region" class="noprint">
+        <nav class="navbar navbar-expand">
+            <div id="logo">
+            <a class="navbar-brand" href="/cgi-bin/koha/opac-main.pl">
+                
+                    Koha online
+                
+            </a>
+            </div>
+            
+                <div id="cartDetails" class="cart-message">Your cart is empty.</div>
+            
+            <ul id="cart-list-nav" class="navbar-nav">
+                
+                    <li class="nav-item js-show">
+                        <a href="#" class="nav-link" title="Collect items you are interested in" id="cartmenulink" role="button">
+                            <i id="carticon" class="fa fa-shopping-cart fa-icon-black" aria-hidden="true"></i> <span class="cartlabel">Cart</span> <span id="basketcount"></span>
+                        </a>
+                    </li>
+                
+                <li class="divider-vertical"></li>
+                
+                    <li class="nav-item dropdown">
+                        <a href="/cgi-bin/koha/opac-shelves.pl" title="Show lists" class="nav-link dropdown-toggle" id="listsmenu" data-toggle="dropdown" role="button" aria-label="Show dropdown with detailed list information" aria-haspopup="true" aria-expanded="false"
+                            ><i class="fa fa-list fa-icon-black" aria-hidden="true"></i> <span class="listslabel">Lists</span>
+                        </a>
+                        <div aria-labelledby="listsmenu" role="menu" class="dropdown-menu">
+                            
+                                <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=list&amp;public=1" tabindex="-1" role="menuitem"><strong>Public lists</strong></a>
+                                
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=view&amp;shelfnumber=103&amp;sortfield=title" tabindex="-1" role="menuitem">HI BRO</a>
+                                    
+                                    
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=view&amp;shelfnumber=101&amp;sortfield=dateadded" tabindex="-1" role="menuitem">MFs I can't care less what you do with this account. Heck I never even accessed this website.</a>
+                                    
+                                    
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=view&amp;shelfnumber=79&amp;sortfield=title" tabindex="-1" role="menuitem">Bro can't follow basic account safety steps, please drop out from college</a>
+                                    
+                                    
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=view&amp;shelfnumber=89&amp;sortfield=title" tabindex="-1" role="menuitem">Maths</a>
+                                    
+                                    
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=view&amp;shelfnumber=86&amp;sortfield=title" tabindex="-1" role="menuitem">hello whats up</a>
+                                    
+                                    
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=view&amp;shelfnumber=69&amp;sortfield=title" tabindex="-1" role="menuitem">Positive Life skill books</a>
+                                    
+                                    
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=view&amp;shelfnumber=82&amp;sortfield=title" tabindex="-1" role="menuitem">bro check public lists</a>
+                                    
+                                    
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=view&amp;shelfnumber=80&amp;sortfield=title" tabindex="-1" role="menuitem">chantge your password</a>
+                                    
+                                    
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=view&amp;shelfnumber=78&amp;sortfield=title" tabindex="-1" role="menuitem">Bro change your passwords u lil bitch. ANywone can access your shit. Also pay your fine</a>
+                                    
+                                    
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=view&amp;shelfnumber=26&amp;sortfield=title" tabindex="-1" role="menuitem">Mathematics</a>
+                                    
+                                    
+                                
+                                    <a class="dropdown-item listmenulink" href="/cgi-bin/koha/opac-shelves.pl?op=list&amp;public=1" tabindex="-1" role="menuitem">View all</a>
+                                
+                            
+                            
+                                <div class="dropdown-divider"></div>
+                            
+                            
+                                <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=list&amp;public=0" tabindex="-1" role="menuitem"><strong>Your lists</strong></a>
+                                
+                                    <a class="dropdown-item" href="/cgi-bin/koha/opac-shelves.pl?op=add_form" tabindex="-1" role="menuitem">Log in to create your own lists</a>
+                                
+                            
+                        </div> <!-- / .dropdown-menu -->
+                    </li> <!-- / .nav-item.dropdown -->
+                
+            </ul> <!-- / .navbar-nav -->
+
+            
+                
+                <ul id="members" class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        
+                            
+                                
+                                    <a href="/cgi-bin/koha/opac-user.pl" class="nav-link login-link loginModal-trigger"><i class="fa fa-user fa-icon-black fa-fw" aria-hidden="true"></i> <span class="userlabel">Log in to your account</span></a>
+                                
+                            
+                        
+
+                        
+                    </li>
+                    
+                        
+                            <li class="nav-item search_history">
+                                <a class="nav-link login-link" href="/cgi-bin/koha/opac-search-history.pl" title="View your search history">Search history</a>
+                            </li>
+                            <li class="divider-vertical"></li>
+                            <li class="nav-item">
+                                <a class="nav-link logout clearsh" href="/cgi-bin/koha/opac-search-history.pl?action=delete" title="Delete your search history"><i class="fa fa-trash" aria-hidden="true"></i> Clear</a>
+                            </li>
+                        
+                    
+                </ul>
+            
+        </nav> <!-- /navbar -->
+
+        
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        
+    
+        <div id="opacheader">
+            
+                <div class="en_item">
+                    
+                    <div class="en_body"><center><nav class="navbar1 navbar-expand-lg" id="navbar-main" aria-label="Primary Navigation"><a href="/cgi-bin/koha/tools/class=&quot;navbar-brand&quot;"> <img src="/opac-tmpl/bootstrap/images/logo.png" /> </a></nav></center><center>
+<div>
+<ul style="font-size: 1.5rem; color: white;">Central Library</ul>
+</div>
+</center></div>
+                </div>
+            
+        </div>
+    
+
+                    </div>
+                </div>
+            </div>
+        
+
+    </div> <!-- / header-region -->
+
+    
+        <div class="container-fluid">
+            
+
+            <div class="row">
+                <ul class="nav" id="moresearches">
+                    <li class="nav-item">
+                        <a href="/cgi-bin/koha/opac-search.pl">Advanced search</a>
+                    </li>
+                    
+                    
+                    
+                        <li class="nav-item">
+                            <a href="/cgi-bin/koha/opac-authorities-home.pl">Authority search</a>
+                        </li>
+                    
+                    
+                    
+                        <li class="nav-item">
+                            <a href="/cgi-bin/koha/opac-tags.pl">Tag cloud</a>
+                        </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a id="library_page" href="/cgi-bin/koha/opac-library.pl">
+                            
+                                <span>Libraries</span>
+                            
+                        </a>
+                    </li>
+                    
+    
+
+                </ul> <!-- /.nav#moresearches -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container-fluid -->
+    
+
+    <!-- Login form hidden by default, used for modal window -->
+    <div id="loginModal" class="modal" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="modalLoginLabel">Log in to your account</h2>
+                    <button type="button" class="closebtn" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="/cgi-bin/koha/opac-user.pl" method="post" name="auth" id="modalAuth">
+                    <input type="hidden" name="has-search-query" id="has-search-query" value="" />
+                    <div class="modal-body">
+                        
+                        
+                        
+                            
+                            
+                            <input type="hidden" name="koha_login_context" value="opac" />
+                            <fieldset class="brief">
+                                <div class="local-login">
+                                    <label for="muserid">Login:</label><input type="text" id="muserid" name="userid" autocomplete="off" />
+                                    <label for="mpassword">Password:</label><input type="password" id="mpassword" name="password" autocomplete="off" />
+                                    <fieldset class="action">
+                                        <input type="submit" class="btn btn-primary" value="Log in" />
+                                    </fieldset>
+                                </div>
+                                
+                                
+                                    <div id="forgotpassword-modal" class="forgotpassword">
+                                        <a href="/cgi-bin/koha/opac-password-recovery.pl">Forgot your password?</a>
+                                    </div>
+                                
+                                
+                            </fieldset>
+                        
+                    </div>
+                </form> <!-- /#auth -->
+            </div> <!-- /.modal-content -->
+        </div> <!-- /.modal-dialog -->
+    </div>  <!-- /#modalAuth  -->
+
+<form id="advsearch_form" action="/cgi-bin/koha/opac-search.pl" method="get">
+    <input type="hidden" name="advsearch" value="1"/>
+    <div class="main">
+        <nav id="breadcrumbs" aria-label="Breadcrumb" class="breadcrumbs">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/cgi-bin/koha/opac-main.pl">Home</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    <a href="#" aria-current="page">Advanced search</a>
+                </li>
+            </ol>
+        </nav> <!-- /#breadcrumbs -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col order-first order-md-first order-lg-2">
+                    <!-- BOOLEAN SEARCH OPTIONS -->
+                    <div id="booleansearch" class="maincontent">
+                        <h1>Advanced search</h1>
+                        <fieldset>
+                            <legend>Search for:</legend>
+                            
+                                <div class="advanced-search-terms">
+                            
+                                
+                                    <div class="search-term-row">
+                                        <div class="search-term-input">
+                                            
+                                                <label for="search-field_0">
+                                                    
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    
+                                                </label>
+                                            
+                                        </div> <!-- .search-term-input -->
+
+                                        <div class="search-term-input">
+                                            <select class="form-control" name="idx" id="search-field_0">
+                                                <option value="kw">Keyword</option>
+                                                
+                                                <option value="su,wrdl">Subject</option>
+                                                
+                                                <option value="ti">Title</option>
+                                                
+                                                <option value="au,wrdl">Author</option>
+                                                
+                                                
+                                                <option value="pb,wrdl">Publisher</option>
+                                                <option value="pl,wrdl">Publisher location</option>
+                                                
+                                                    <option value="nb">ISBN</option>
+                                                
+                                                <option value="bc">Barcode</option>
+                                            </select> <!-- /#search-field_0 -->
+                                        </div> <!-- .search-term-input -->
+                                        <div class="search-term-input">
+                                            <input class="form-control" type="text" name="q" title="Enter search terms" value="" />
+                                        </div> <!-- .search-term-input -->
+                                        
+                                    </div> <!-- /.search-term-row -->
+                                
+                                    <div class="search-term-row">
+                                        <div class="search-term-input">
+                                            
+                                                <label for="search-field_1">
+                                                    
+                                                        and
+                                                    
+                                                </label>
+                                            
+                                        </div> <!-- .search-term-input -->
+
+                                        <div class="search-term-input">
+                                            <select class="form-control" name="idx" id="search-field_1">
+                                                <option value="kw">Keyword</option>
+                                                
+                                                <option value="su,wrdl">Subject</option>
+                                                
+                                                <option value="ti">Title</option>
+                                                
+                                                <option value="au,wrdl">Author</option>
+                                                
+                                                
+                                                <option value="pb,wrdl">Publisher</option>
+                                                <option value="pl,wrdl">Publisher location</option>
+                                                
+                                                    <option value="nb">ISBN</option>
+                                                
+                                                <option value="bc">Barcode</option>
+                                            </select> <!-- /#search-field_1 -->
+                                        </div> <!-- .search-term-input -->
+                                        <div class="search-term-input">
+                                            <input class="form-control" type="text" name="q" title="Enter search terms" value="" />
+                                        </div> <!-- .search-term-input -->
+                                        
+                                    </div> <!-- /.search-term-row -->
+                                
+                                    <div class="search-term-row">
+                                        <div class="search-term-input">
+                                            
+                                                <label for="search-field_2">
+                                                    
+                                                        and
+                                                    
+                                                </label>
+                                            
+                                        </div> <!-- .search-term-input -->
+
+                                        <div class="search-term-input">
+                                            <select class="form-control" name="idx" id="search-field_2">
+                                                <option value="kw">Keyword</option>
+                                                
+                                                <option value="su,wrdl">Subject</option>
+                                                
+                                                <option value="ti">Title</option>
+                                                
+                                                <option value="au,wrdl">Author</option>
+                                                
+                                                
+                                                <option value="pb,wrdl">Publisher</option>
+                                                <option value="pl,wrdl">Publisher location</option>
+                                                
+                                                    <option value="nb">ISBN</option>
+                                                
+                                                <option value="bc">Barcode</option>
+                                            </select> <!-- /#search-field_2 -->
+                                        </div> <!-- .search-term-input -->
+                                        <div class="search-term-input">
+                                            <input class="form-control" type="text" name="q" title="Enter search terms" value="" />
+                                        </div> <!-- .search-term-input -->
+                                        
+                                    </div> <!-- /.search-term-row -->
+                                
+                                
+                                    <input type="hidden" name="weight_search" value="1" />
+                                
+                                
+                            </div> <!-- /.advanced-search-terms -->
+                        </fieldset>
+                    </div> <!-- /#booleansearch -->
+                </div> <!-- / .col -->
+            </div> <!-- / .row -->
+
+            <div class="text-center">
+                <!-- SEARCH BUTTONS -->
+                <fieldset class="action">
+                    
+    <p>
+        <input class="btn btn-primary" type="submit" accesskey="s" name="do" title="Search" value="Search" />
+
+        
+            
+                <a href="/cgi-bin/koha/opac-search.pl?expanded_options=1" class="btn btn-default more-less-options">More options</a>
+            
+        
+
+        <a href="/cgi-bin/koha/opac-search.pl?do=Clear" class="btn btn-default new-search">New search</a>
+    </p>
+
+                </fieldset>
+                <!-- /SEARCH BUTTONS -->
+            </div>
+
+            <div class="row">
+                
+                
+                    <div class="col order-first order-md-first order-lg-2">
+                        
+    
+        <div id="advsearches" class="toptabs">
+    
+        
+                            
+    <ul class="nav nav-tabs" role="tablist">
+        
+                                
+                                    
+    <li class="nav-item" role="presentation">
+        
+            
+            
+        
+        
+            
+        
+        <a href="#advsearch-tab-itemtypes_panel" class="nav-link" id="advsearch-tab-itemtypes-tab" data-toggle="tab" data-target="#advsearch-tab-itemtypes_panel" data-tabname="advsearch-tab-itemtypes" aria-controls="advsearch-tab-itemtypes_panel" role="tab" aria-selected="false">
+            
+                                        <span>Item type</span>
+                                        
+                                    
+        </a>
+    </li>
+
+                                
+                            
+    </ul>
+
+                            
+    
+        <div class="tab-content" id="advsearches_content">
+    
+        
+                                
+                                    
+    
+        <div role="tabpanel" class="tab-pane" id="advsearch-tab-itemtypes_panel" aria-labelledby="advsearch-tab-itemtypes-tab">
+    
+        
+                                        <fieldset>
+                                            <legend>Limit to any of the following:</legend>
+                                            <div class="row">
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-0"
+                                                                name="limit"
+                                                                value="mc-itype,phr:BK"
+                                                            />
+                                                            <label for="itypephr-0">
+                                                                
+                                                                    
+                                                                        <img src="/opac-tmpl/bootstrap/itemtypeimg/liblime-kids/book-icon-author-search.gif" alt="Books" />
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">Books</span>
+                                                            </label>
+                                                        </div>
+                                                    
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-1"
+                                                                name="limit"
+                                                                value="mc-itype,phr:CD"
+                                                            />
+                                                            <label for="itypephr-1">
+                                                                
+                                                                    
+                                                                        <img src="/opac-tmpl/bootstrap/itemtypeimg/liblime-kids/music-CD.gif" alt="CD'S AND DVD'S" />
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">CD'S AND DVD'S</span>
+                                                            </label>
+                                                        </div>
+                                                    
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-2"
+                                                                name="limit"
+                                                                value="mc-itype,phr:EJBV"
+                                                            />
+                                                            <label for="itypephr-2">
+                                                                
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">EJBV</span>
+                                                            </label>
+                                                        </div>
+                                                    
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-3"
+                                                                name="limit"
+                                                                value="mc-itype,phr:GCBS"
+                                                            />
+                                                            <label for="itypephr-3">
+                                                                
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">Geodesic congruences of Bertrand's spacetime Project</span>
+                                                            </label>
+                                                        </div>
+                                                    </div><div class="row">
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-4"
+                                                                name="limit"
+                                                                value="mc-itype,phr:IM"
+                                                            />
+                                                            <label for="itypephr-4">
+                                                                
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">INSTITUTATIONAL MEMBERSHIP</span>
+                                                            </label>
+                                                        </div>
+                                                    
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-5"
+                                                                name="limit"
+                                                                value="mc-itype,phr:JR"
+                                                            />
+                                                            <label for="itypephr-5">
+                                                                
+                                                                    
+                                                                        <img src="/opac-tmpl/bootstrap/itemtypeimg/liblime-kids/book-large-print.gif" alt="JOURNAL" />
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">JOURNAL</span>
+                                                            </label>
+                                                        </div>
+                                                    
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-6"
+                                                                name="limit"
+                                                                value="mc-itype,phr:LJBV"
+                                                            />
+                                                            <label for="itypephr-6">
+                                                                
+                                                                    
+                                                                        <img src="/opac-tmpl/bootstrap/itemtypeimg/liblime-kids/book-large-print.png" alt="Law Journal Back Volume" />
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">Law Journal Back Volume</span>
+                                                            </label>
+                                                        </div>
+                                                    
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-7"
+                                                                name="limit"
+                                                                value="mc-itype,phr:MZ"
+                                                            />
+                                                            <label for="itypephr-7">
+                                                                
+                                                                    
+                                                                        <img src="/opac-tmpl/bootstrap/itemtypeimg/liblime-kids/book-large-print.png" alt="MAGAZINE" />
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">MAGAZINE</span>
+                                                            </label>
+                                                        </div>
+                                                    </div><div class="row">
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-8"
+                                                                name="limit"
+                                                                value="mc-itype,phr:THESIS"
+                                                            />
+                                                            <label for="itypephr-8">
+                                                                
+                                                                    
+                                                                        <img src="/opac-tmpl/bootstrap/itemtypeimg/vokal/Reference.png" alt="Ph.D and  Thesis submitted by the Research Scholars" />
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">Ph.D and  Thesis submitted by the Research Scholars</span>
+                                                            </label>
+                                                        </div>
+                                                    
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-9"
+                                                                name="limit"
+                                                                value="mc-itype,phr:PB"
+                                                            />
+                                                            <label for="itypephr-9">
+                                                                
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">Project Books</span>
+                                                            </label>
+                                                        </div>
+                                                    
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-10"
+                                                                name="limit"
+                                                                value="mc-itype,phr:REP"
+                                                            />
+                                                            <label for="itypephr-10">
+                                                                
+                                                                    
+                                                                        <img src="/opac-tmpl/bootstrap/itemtypeimg/crystal-clear/edit.png" alt="REPORTER" />
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">REPORTER</span>
+                                                            </label>
+                                                        </div>
+                                                    
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-11"
+                                                                name="limit"
+                                                                value="mc-itype,phr:REF"
+                                                            />
+                                                            <label for="itypephr-11">
+                                                                
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">Reference</span>
+                                                            </label>
+                                                        </div>
+                                                    </div><div class="row">
+                                                    
+                                                
+                                                    
+                                                        <div class="col-sm-6 col-lg-3">
+                                                            <input type="checkbox"
+                                                                id="itypephr-12"
+                                                                name="limit"
+                                                                value="mc-itype,phr:STARS"
+                                                            />
+                                                            <label for="itypephr-12">
+                                                                
+                                                                    
+                                                                    &nbsp;
+                                                                
+                                                                <span class="itypetext">Support the Advancement of Rural Students</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                
+                                        </fieldset>
+                                    
+    </div>
+
+                                
+                            
+    </div>
+
+                        
+    </div>
+
+                    </div> <!-- / .col -->
+                
+            </div> <!-- /.row -->
+
+            <div id="advsearch_limits" class="row">
+
+                
+                
+                    
+                        <div class="col-sm-6 col-lg-3">
+                            <!-- AVAILABILITY LIMITS -->
+                            <div id="location" class="advsearch_limit">
+                                <fieldset>
+                                    <label for="branchloop">Location and availability:</label>
+                                    <select name="limit" id="branchloop">
+                                    <option value="">All libraries</option>
+                                    
+                                        
+                                        
+                                            <option value="branch:Book_LPW">BOOK LOST AND FINE WAIVED</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:2010-11_ST">BOOK MISSED DURING THE STOCK VERIFICATION 2010 TO 2011</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:2014_STOCK">BOOK MISSED DURING THE STOCK VERIFICATION 2014</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:2016_STOCK">BOOK MISSED DURING THE STOCK VERIFICATION 2016</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:2017_STOCK">BOOK MISSED DURING THE STOCK VERIFICATION 2017</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:2018_STOCK">BOOK MISSED DURING THE STOCK VERIFICATION 2018</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:2019_STOCK">BOOK MISSED DURING THE STOCK VERIFICATION 2019</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:2023_STOCK">BOOK MISSED DURING THE STOCK VERIFICATION 2023</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:2024_STOCK">BOOK MISSED DURING THE STOCK VERIFICATION 2024</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:BOOK_LFP">BOOK_LOST_FINE_PAID</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:I_FLOOR">FIRST FLOOR</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:G_FLOOR">GROUND FLOOR</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:SAS">SAS SCHOOL LIBRARY</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:SCOPESL">SCOPE SCHOOL LIBRARY</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:II_FLOOR">SECOND FLOOR</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:SELECTSL">SELECT SCHOOL LIBRARY</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:SENSESL">SENSE SCHOOL LIBRARY</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:SMBSSL">SMEC AND SCE SCHOOL LIBRARY</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:SSLSL">SSL SCHOOL LIBRARY</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:III_FLOOR">THIRD FLOOR</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:VITBSSL">VIT BUSINESS SCHOOL- SCHOOL LIBRARY</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:VITCH">VIT Central Library</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:VFIT">VIT FASHION TECHNOLOGY SCHOOL LIBRARY</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:VITSOLSL">VIT SCHOOL OF LAW SCHOOL LIBRARY</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:VP_OFFICE">VP_OFFICE</option>
+                                        
+                                    
+                                        
+                                        
+                                            <option value="branch:0">ZERO</option>
+                                        
+                                    
+                                    </select>
+                                    
+                                    <div style="margin-top:.4em">
+                                        <label for="available-items"><input type="checkbox" id="available-items" name="limit" value="available" /> Only items currently available for loan or reference</label>
+                                    </div>
+                                </fieldset>
+                            </div> <!-- / #location -->
+                            <!-- /AVAILABILITY LIMITS -->
+                        </div> <!-- / .col -->
+                    
+                
+
+                
+                
+                    <div class="col-sm-6 col-lg-3">
+                        <!-- RANK LIMITS -->
+                        <div id="sortby" class="advsearch_limit">
+                            <fieldset>
+                                <label for="sort_by">Sort by:</label>
+                                <select id="sort_by" name="sort_by">
+                                    <option value="relevance">Relevance</option>
+<optgroup label="Popularity">
+    
+        <option value="popularity_dsc">Popularity (most to least)</option>
+    
+    
+        <option value="popularity_asc">Popularity (least to most)</option>
+    
+</optgroup>
+<optgroup label="Author">
+    
+        <option value="author_az">Author (A-Z)</option>
+    
+    
+        <option value="author_za">Author (Z-A)</option>
+    
+</optgroup>
+<optgroup label="Call number">
+    
+        <option value="call_number_asc">Call number (0-9 to A-Z)</option>
+    
+    
+        <option value="call_number_dsc">Call number (Z-A to 9-0)</option>
+    
+</optgroup>
+<optgroup label="Dates">
+    
+        <option value="pubdate_dsc">Publication/Copyright date: Newest to oldest</option>
+    
+    
+        <option value="pubdate_asc">Publication/Copyright date: Oldest to newest</option>
+    
+    
+        <option value="acqdate_dsc">Acquisition date: Newest to oldest</option>
+    
+    
+        <option value="acqdate_asc">Acquisition date: Oldest to newest</option>
+    
+</optgroup>
+<optgroup label="Title">
+    
+        <option value="title_az">Title (A-Z)</option>
+    
+    
+        <option value="title_za">Title (Z-A)</option>
+    
+</optgroup>
+
+                                </select>
+                            </fieldset>
+                        </div>
+                        <!-- RANK LIMITS -->
+                    </div> <!-- / .col -->
+                
+
+                
+                
+                    <div class="col-sm-6 col-lg-3">
+                        <div id="pubrange" class="advsearch_limit">
+                            <!-- PUB RANGE OPTION -->
+                            <fieldset>
+                                <label for="limit-yr">Publication date range</label>
+                                <input type="text" size="30" id="limit-yr" name="limit-yr" title="Enter search terms" value="" />
+                                <div class="hint">For example:  1999-2001.  You could also use "-1987" for everything published in and before 1987 or "2008-" for everything published in 2008 and after.</div>
+                            </fieldset>
+                            <!-- /PUB RANGE OPTION -->
+                        </div>
+                    </div>
+                
+
+                
+                
+                    <div class="col-sm-6 col-lg-3">
+                        <div id="langfilter" class="advsearch_limit">
+                            <fieldset>
+                                <!-- LANGUAGE LIMIT -->
+                                <label for="language-limit">Language</label>
+                                <select id="language-limit" name="limit">
+                                    <option value="">No limit</option>
+                                    
+                                        
+                                            <option value="ln,rtrn:afr">Afrikaans</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:alb">Shqip (Albanian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:amh">አማርኛ (Amharic)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:ara">لعربية (Arabic)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:arm">Հայերեն (Armenian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:aze">Azərbaycan dili (Azerbaijani)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:baq">Euskera (Basque)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:ben">বাংলা (Bengali)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:bul">Български (Bulgarian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:bel">Беларуская мова (Byelorussian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:cat">Català (Catalan)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:chi">中文 (Chinese)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:cre">Cree</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:hrv">Hrvatski (Croatian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:cze">Čeština (Czech)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:dan">Dansk (Danish)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:prs">درى (Dari)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:dut">Nederlands (Dutch)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:eng">English (English)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:est">Eesti (Estonian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:fao">Føroyskt (Faroese)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:fin">Suomi (Finnish)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:fre">Français (French)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:glg">Galego (Galician)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:geo">ქართული (Georgian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:ger">Deutsch (German)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:gre">Eλληνικά (Greek, Modern [1453- ])</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:heb">עִבְרִית (Hebrew)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:hin">हिन्दी (Hindi)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:hun">Magyar (Hungarian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:ice">Íslenska (Icelandic)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:ind">Bahasa Indonesia (Indonesian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:iku">ᐃᓄᒃᑎᑐᑦ (Inuktitut)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:ipk">Iñupiaq (Inupiaq)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:ita">Italiano (Italian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:jpn">日本語 (Japanese)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:kan">ಕನ್ನಡ (Kannada)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:khm">ភាសាខ្មែរ (Khmer)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:kin">Ikinyarwanda (Kinyarwanda)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:kor">한국어 (Korean)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:kur">کوردی (Kurdish)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:lao">ພາສາລາວ (Lao)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:lat">Latina (Latin)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:lav">Latvija (Latvian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:lit">Lietuvių (Lithuanian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:may">Bahasa melayu (Malay)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:mao">Te Reo Māori (Maori)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:mar">मराठी (Marathi)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:mon">Mонгол (Mongolian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:mul">Multiple languages</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:nep">नेपाली (Nepali)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:zxx">No linguistic content</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:nob">Norsk bokmål (Norwegian bokmål)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:nno">Norsk nynorsk (Norwegian nynorsk)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:pbr">Ekipangwa (Pangwa)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:per">فارسى (Persian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:pol">Polski (Polish)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:por">Português (Portuguese)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:rum">Română (Romanian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:rus">Русский (Russian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:srp">Cрпски (Serbian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:snd">سنڌي (Sindhi)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:slo">Slovenčina (Slovak)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:slv">Slovenščina (Slovene)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:spa">Español (Spanish)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:swa">Kiswahili (Swahili)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:swe">Svenska (Swedish)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:tgl">Tagalog (Tagalog)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:tam">தமிழ் (Tamil)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:tet">Tetun (Tetum)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:tha">ภาษาไทย (Thai)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:tur">Türkçe (Turkish)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:ukr">Українська (Ukrainian)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:und">Undetermined</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:urd">اردو (Urdu)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:vie">Tiếng Việt (Vietnamese)</option>
+                                        
+                                    
+                                        
+                                            <option value="ln,rtrn:yid">יידיש (Yiddish)</option>
+                                        
+                                    
+                                </select>
+                                <!-- /LANGUAGE LIMIT -->
+                            </fieldset>
+                        </div> <!-- / #langfilter -->
+                    </div> <!-- / .col -->
+                
+            </div> <!-- / .row -->
+
+            
+            
+
+            
+                <div class="text-center">
+                    <fieldset class="action">
+                        <!-- SEARCH BUTTONS -->
+                        
+    <p>
+        <input class="btn btn-primary" type="submit" accesskey="s" name="do" title="Search" value="Search" />
+
+        
+            
+                <a href="/cgi-bin/koha/opac-search.pl?expanded_options=1" class="btn btn-default more-less-options">More options</a>
+            
+        
+
+        <a href="/cgi-bin/koha/opac-search.pl?do=Clear" class="btn btn-default new-search">New search</a>
+    </p>
+
+                        <!-- /SEARCH BUTTONS -->
+                    </fieldset>
+                </div>
+            
+        </div> <!-- / .container-fluid -->
+   </div> <!-- / .main -->
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+        
+    </div> <!-- / #wrapper in masthead.inc -->
+
+    
+        
+    
+
+
+<!-- JavaScript includes -->
+<script src="/opac-tmpl/lib/jquery/jquery-3.6.0.min_23.0504000.js"></script>
+<script src="/opac-tmpl/lib/jquery/jquery-migrate-3.3.2.min_23.0504000.js"></script>
+<script src="/opac-tmpl/lib/bootstrap/js/bootstrap.bundle.min_23.0504000.js"></script>
+<script src="/opac-tmpl/lib/fontfaceobserver.min_23.0504000.js"></script>
+<script src="/opac-tmpl/lib/enquire.min_23.0504000.js"></script>
+<script>
+    let logged_in_user_id = "";
+</script>
+<script src="/opac-tmpl/bootstrap/js/global_23.0504000.js"></script>
+
+    <script>
+        var NO_AMAZON_IMAGE = _("No cover image available");
+    </script>
+    <script src="/opac-tmpl/bootstrap/js/amazonimages_23.0504000.js"></script>
+
+
+<script>
+
+    var MSG_CONFIRM_AGAIN = _("Warning: Cannot be undone. Please confirm once again")
+    var MSG_DELETE_SEARCH_HISTORY = _("Are you sure you want to delete your search history?");
+    var MSG_NO_SUGGESTION_SELECTED = _("No suggestion was selected");
+    var MSG_SEARCHING = _("Searching %s...");
+    var MSG_ERROR_SEARCHING_COLLECTION = _("Error searching %s collection");
+    var MSG_NO_RESULTS_FOUND_IN_COLLECTION = _("No results found in the library's %s collection");
+    var MSG_RESULTS_FOUND_IN_COLLECTION = _("Found %s results in the library's %s collection");
+    var MSG_BY = _("by");
+    var MSG_TYPE = _("Type");
+    var MSG_NEXT = _("Next");
+    var MSG_PREVIOUS = _("Previous");
+    var MSG_CHECKOUTS = _("Checkouts");
+    var MSG_NO_CHECKOUTS = _("No checkouts");
+    var MSG_CHECK_OUT = _("Check out");
+    var MSG_CHECK_OUT_CONFIRM = _("Are you sure you want to check out this item?");
+    var MSG_CHECKED_OUT_UNTIL = _("Checked out until %s");
+    var MSG_CHECK_IN = _("Check in");
+    var MSG_CHECK_IN_CONFIRM = _("Are you sure you want to return this item?");
+    var MSG_NO_CHECKOUTS = _("No checkouts");
+    var MSG_DOWNLOAD = _("Download");
+    var MSG_HOLDS = _("Holds");
+    var MSG_NO_HOLDS = _("No holds");
+    var MSG_PLACE_HOLD = _("Place hold");
+    var MSG_CANCEL_HOLD = _("Cancel");
+    var MSG_CANCEL_HOLD_CONFIRM = _("Are you sure you want to cancel this hold?");
+    var MSG_ON_HOLD = _("On hold");
+
+    
+        var MSG_TAGS_DISABLED = _("Sorry, tags are not enabled on this system.");
+        var MSG_TAG_ALL_BAD = _("Error! Your tag was entirely markup code.  It was NOT added.  Please try again with plain text.");
+        var MSG_ILLEGAL_PARAMETER = _("Error! Illegal parameter");
+        var MSG_TAG_SCRUBBED = _("Note: your tag contained markup code that was removed. The tag was added as ");
+        var MSG_ADD_TAG_FAILED = _("Error! Adding tags failed at");
+        var MSG_ADD_TAG_FAILED_NOTE = _("Note: you can only tag an item with a given term once.  Check 'My Tags' to see your current tags.");
+        var MSG_DELETE_TAG_FAILED = _("Error! You cannot delete the tag");
+        var MSG_DELETE_TAG_FAILED_NOTE = _("Note: you can only delete your own tags.")
+        var MSG_LOGIN_REQUIRED = _("You must be logged in to add tags.");
+        var MSG_TAGS_ADDED = _("Tags added: ");
+        var MSG_TAGS_DELETED = _("Tags added: ");
+        var MSG_TAGS_ERRORS = _("Errors: ");
+        var MSG_MULTI_ADD_TAG_FAILED = _("Unable to add one or more tags.");
+        var MSG_NO_TAG_SPECIFIED = _("No tag was specified.");
+    
+    
+    
+
+    
+        $(window).load(function() {
+            verify_images();
+         });
+    
+    $(".print-large").on("click",function(){
+        window.print();
+        return false;
+    });
+    $(".addtoshelf").on("click",function(e){
+        e.preventDefault();
+        Dopop( this.href );
+    });
+    $("body").on("click", ".addtocart", function(e){
+        e.preventDefault();
+        var biblionumber = $(this).data("biblionumber");
+        addRecord( biblionumber );
+    });
+    $("body").on("click", ".cartRemove", function(e){
+        e.preventDefault();
+        var biblionumber = $(this).data("biblionumber");
+        delSingleRecord( biblionumber );
+    });
+    $(".clearsh").on("click", function(){
+        return confirmDelete(MSG_DELETE_SEARCH_HISTORY);
+    });
+
+</script>
+
+
+    <script src="/opac-tmpl/bootstrap/js/basket_23.0504000.js"></script>
+
+
+<script src="/opac-tmpl/bootstrap/js/tags_23.0504000.js"></script>
+
+    <script src="/opac-tmpl/bootstrap/js/google-jackets_23.0504000.js"></script>
+    <script>
+
+        var NO_GOOGLE_JACKET = _("No cover image available");
+
+    </script>
+
+
+
+
+    <script src="/opac-tmpl/bootstrap/js/localcovers_23.0504000.js"></script>
+    <script>
+
+    var NO_LOCAL_JACKET = _("No cover image available");
+
+    </script>
+
+
+
+
+
+
+<script src="/opac-tmpl/lib/js-cookie/js.cookie-3.0.1.min_23.0504000.js"></script>
+<script>
+$(document).ready(function() {
+    if($('#searchsubmit').length) {
+        $(document).on("click", '#searchsubmit', function(e) {
+            Cookies.remove("form_serialized", { path: '/'});
+            Cookies.remove("form_serialized_limits", { path: '/'});
+            Cookies.remove("search_path_code", { path: '/'});
+        });
+    }
+});
+</script>
+
+<script src="/opac-tmpl/lib/jquery/plugins/jquery.deserialize.min_23.0504000.js"></script>
+<script>
+window.addEventListener('pageshow', function( e ){
+    $('.form-control').prop('disabled' , false );
+});
+$(document).ready(function() {
+    
+
+    if( $("#advsearches .tab-pane.active").length < 1 ){
+        $("#advsearches li:first a").tab("show");
+    }
+
+    $('.search-term-row .search-term-input select[name="op"]').first().prop("disabled",true).hide();
+
+    
+        //Clear all form cookies
+        Cookies.remove("form_serialized", { path: '/'});
+        Cookies.remove("form_serialized_limits", { path: '/'});
+        Cookies.remove("search_path_code", { path: '/'});
+    
+    $('#advsearch_form').submit(function() {
+        $('[name^="limit"]').each(function(){
+            if( $(this).val() == '' ){
+                $(this).prop("disabled","disabled");
+            }
+        });
+        $(".search-term-row").each(function(){
+            if( $(this).find('input[name="q"]').val() == "" ){
+                $(this).find('input[name="q"]').prop("disabled","disabled");
+                $(this).find('select[name="op"]').prop("disabled","disabled");
+                $(this).find('select[name="idx"]').prop("disabled","disabled");
+            }
+        });
+        form_serialized = $(this).serialize();
+        Cookies.set("form_serialized", JSON.stringify( form_serialized ), { path: '/', sameSite: 'Lax' });
+        form_serialized_limits = [
+            $('#language-limit').val(),   $('#branchloop').val(),
+            $('#subtype_audience').val(), $('#subtype_content').val(),
+            $('#subtype_format').val(),   $('#subtype_additional').val(),
+            $('#locloop').val()
+        ];
+        Cookies.set("form_serialized_limits", JSON.stringify( form_serialized_limits ),{ path: '/', sameSite: 'Lax' });
+        
+            Cookies.set("search_path_code", 'ads', { path: '/', sameSite: 'Lax' });
+        
+    });
+
+});
+    /* This function allows to display a new field to search.
+    */
+    $(document).on("click", '.ButtonPlus', function(e) {
+        e.preventDefault();
+        $('.ButtonLess').show();
+        var thisLine = $(this).parent().parent();
+        var newLine = thisLine.clone();
+        $(newLine).find('.search-term-input select[name="op"]').first().prop("disabled",false).show();
+        newLine.find('input').val('');
+        thisLine.after(newLine);
+    });
+
+    $(document).on("click", '.ButtonLess', function(e) {
+        e.preventDefault();
+        if( $("a.ButtonLess").length <= 2 ) {
+           $('.ButtonLess').hide();
+        }
+        $(this).parent().parent().remove();
+        $('.search-term-row .search-term-input select[name="op"]').first().prop("disabled",true).hide();
+    });
+</script>
+
+
+    <script>
+        /* JS for Koha CoverFlow Plugin 
+   This JS was added automatically by installing the CoverFlow plugin
+   Please do not modify */$(document).ready(function(){$.getScript("/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/bower_components/jquery-flipster/dist/jquery.flipster.min.js",function(data,textStatus,jqxhr){$("head").append("<link id='flipster-css' href='/plugin/Koha/Plugin/Com/ByWaterSolutions/CoverFlow/bower_components/jquery-flipster/dist/jquery.flipster.min.css' type='text/css' rel='stylesheet' />");$('#coverflow').load("/coverflow.pl?id=3",function(){$('.koha-coverflow img').on("load",function(){if(this.naturalHeight==1){$(this).attr("src","https://raw.githubusercontent.com/bywatersolutions/web-assets/master/NoImage.png");}});var opt={'items':'.item','minfactor':15,'distribution':1.5,'scalethreshold':0,'staticbelowthreshold':false,'titleclass':'itemTitle','selectedclass':'selectedItem','scrollactive':true,'step':{'limit':4,'width':10,'scale':true}};$('#coverflow').flipster({autoplay:'4000',buttons:'true',loop:'true',style:'coverflow',});});});});
+/* End of JS for Koha CoverFlow Plugin */
+    </script>
+
+
+
+</body>
+</html>
+
+
+
+

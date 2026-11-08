@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tamil Nadu National Law University</title><link rel="shortcut icon" href="/images/TNNLU Logo.png">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<META HTTP-EQUIV="Expires" CONTENT="0">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1">
+<meta name="author" content="Tamilnadu National Law University" />
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css?v=ats-cms.1.0">
+<link rel="stylesheet" type="text/css" href="/css/styles.css?v=ats-cms.1.0">
+<script src="/js/head.load.min.js"></script>
+<script>
+head.load("/css/font-awesome.min.css?v=ats-cms.1.0",
+			"/js/jquery.min.js?v=ats-cms.1.0",
+			"/js/popper.min.js?v=ats-cms.1.0",
+			"/js/bootstrap.min.js?v=ats-cms.1.0",
+			"/js/mustache.min.js?v=ats-cms.1.0",
+			"/css/nprogress.css?v=ats-cms.1.0",
+			"/css/sweetalert.css?v=ats-cms.1.0",
+			"/css/imgal.min.css?v=ats-cms.1.0",
+			"/flaticon/flaticon.css?v=ats-cms.1.0",
+			"/js/nprogress.js?v=ats-cms.1.0",
+			"/js/sweetalert.min.js?v=ats-cms.1.0",
+			"/js/sweetalert.min.js?v=ats-cms.1.0",
+			"/js/jquery.easing.js?v=ats-cms.1.0",
+			"/js/jquery.mousewheel.js?v=ats-cms.1.0",
+			"/js/imgal.js?v=ats-cms.1.0",
+			"/js/css-vars-ponyfill.js",
+			"/js/beautify-css.min.js",
+			"/js/script.js",
+			"//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit");
+
+head.ready(function () {
+			var bar=$('#progress_bar');
+$(document).ready(function(){
+var percentage=parseInt($('#progress_percentage').html());
+var resize=sessionStorage.getItem("resize");
+if(resize!=null)
+	$("body").attr("style",resize);
+ $("#font-sizeUp").click(function() {
+	$("body").attr("style","font-size:130% !important");
+	sessionStorage.setItem("resize","font-size:130% !important");
+});
+
+$("#font-sizenormal").click(function() {
+	$("body").attr("style","font-size:100% !important");
+	sessionStorage.setItem("resize","font-size:100% !important");
+})
+
+$("#font-sizeDown").click(function() {
+	$("body").attr("style","font-size:70% !important");
+	sessionStorage.setItem("resize","font-size:70% !important");
+})
+
+function stopProgress(){
+  clearInterval(progress);
+}
+
+var progress= setInterval(function(){
+  percentage++;
+  if (percentage<=100){
+    $('#progress_percentage').html(percentage+'%');
+    if (percentage>10) {
+      bar.css('width',percentage+'%');
+    }
+  }
+  else {
+    stopProgress()
+  }
+},80);
+});
+});
+</script>
+<script>
+
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'en,ta', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+
+}
+
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S77LVMZ1ZT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S77LVMZ1ZT');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NHMKJKWG');</script>
+<!-- End Google Tag Manager -->
+
+
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NHMKJKWG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="preloader">
+  <div style="width:100%;text-align: center;">
+	<img src="/images/TNNLU Logo.png?v=ats-cms.1.0"style="max-width:100%;width:300px;"/>
+	<div style='margin-top: 15px;'><div class="lds-ripple"><div></div><div></div></div></div>
+  </div>
+</div>
+<style>
+div#google_translate_element {
+    display: inline-block;
+	margin-left:auto;
+}
+.goog-te-gadget-simple .goog-te-menu-value {
+    color: var(--white-color);
+	padding:0px;
+}
+.goog-te-gadget-simple{
+	background:transparent;
+	border: 0px;
+}
+</style>
+<!--header start-->
+<header id="masthead" class="header header-style">
+	<div class="top-header">
+	<div class="container-fluid px-4 d-flex">
+		<div>
+		<a href='https://tnnlu.ac.in/' >Home</a><a href='/Faculty' >Faculty</a><a href='https://www.tnnlulibrary.net/' target="_blank">Library </a><a href='https://www.tnnlu.ac.in/TNNLU-AVS-2026-27' target="_blank">Admission</a><a href='https://www.tnnlu.ac.in/Online-Fees-Payments' >Fees Online</a><a href='/Alumni' >Alumni</a><a href='/Recruitment-Notification' >Careers</a><a href='/Tender' target="_blank">Tender</a><a href='/Contact' >Contact Us</a><a href='/Screen-Reader-Access' >Screen Reader Access</a>		</div>
+		<div class='ml-auto'><span id="font-sizeDown" class="font-resizer">A-</span><span id="font-sizenormal"  class="font-resizer">A</span><span id="font-sizeUp"  class="font-resizer mr-4">A+</span>
+		<!--<div id="google_translate_element"></div>--></div>
+	</div>
+	</div>
+	<div id="main-header">
+	<div class="d-none d-xl-flex align-items-end" id="desktop-menu">
+		<div class="left-menu">
+			<a href="/" class='logo-link' title="TNNLU" rel="home"><img alt="TNNLU" src="/images/TNNLU text.png"></a>
+			<nav class="menu_header" aria-label="global header menu">
+				<ul class="nav_menu d-xl-flex justify-content-end">
+				
+							<li class="nav_sub_menudropdown " id="desk-menu-University">
+								<a class="main-menu" href="javascript:void(0)">The University</a>
+								<ul class="nav_sub_menu" aria-labelledby="University">
+											<li class="nav_innermenu" id="desk-menu-Organisation" >
+												<a href="javascript:void(0)">Organisation</a>
+												<ul class="nav_sec_sub_menu" aria-labelledby="Organisation">
+													<li><a href="/About-TNNLU" id="desk-menu-About-TNNLU">About TNNLU</a></li>
+													<li><a href="/TNNLU-MOUs" id="desk-menu-TNNLU-MOUs">TNNLU MOU's</a></li>
+													<li><a href="/Financial-Assistance" id="desk-menu-Financial-Assistance">Financial Assistance</a></li>
+													<li><a href="/Medals-Awarded-by-TNNLU" id="desk-menu-University-Medals">University Medals</a></li>
+													<li><a href="/Law-Rules-Regulations-and-Policies" id="desk-menu-Law-Rules-Regulations-and-Policies">Law, Rules, Regulations and Policies</a></li>
+											</ul></li>
+											<li><a href="/Governing-Bodies" id="desk-menu-Governing-Bodies">Governing Bodies</a></li>
+											<li class="nav_innermenu" id="desk-menu-TNNLU-Team" >
+												<a href="javascript:void(0)">TNNLU Team</a>
+												<ul class="nav_sec_sub_menu" aria-labelledby="TNNLU-Team">
+													<li><a href="/Chancellor" id="desk-menu-Chancellor">Chancellor</a></li>
+													<li><a href="/Pro-Chancellor" id="desk-menu-Pro-Chancellor">Pro Chancellor</a></li>
+													<li><a href="/vice-chancellor" id="desk-menu-vice-chancellor">Vice Chancellor</a></li>
+													<li><a href="/registrar" id="desk-menu-registrar">Registrar</a></li>
+													<li><a href="/finance-officer" id="desk-menu-finance-officer">Finance Officer</a></li>
+													<li><a href="/Deans" id="desk-menu-Deans">Deans</a></li>
+													<li><a href="/Faculty" id="desk-menu-Faculty">Faculty</a></li>
+													<li><a href="/Admin-Staffs" id="desk-menu-Admin-Staff">Admin Staff</a></li>
+											</ul></li>
+							</ul></li>
+							<li class="nav_sub_menudropdown " id="desk-menu-Study">
+								<a class="main-menu" href="javascript:void(0)">Study</a>
+								<ul class="nav_sub_menu" aria-labelledby="Study">
+											<li class="nav_innermenu" id="desk-menu-Admission" >
+												<a href="javascript:void(0)">Admission</a>
+												<ul class="nav_sec_sub_menu" aria-labelledby="Admission">
+													<li><a href="https://drive.google.com/file/d/1dBSAe1pg7db_jiX0zC90UrUgKkS9tw8O/view?usp=drive_link" id="desk-menu-TNNLU-Admissions-2027-28-Brochure"target="_blank">TNNLU-Admissions 2026-27 - Brochure</a></li>
+													<li><a href="https://drive.google.com/file/d/1W7ddizZul_3sbTSy762vR-EohZxfjlAl/view?usp=sharing" id="desk-menu-TNNLU-PGDFLP-ADMISSION-2026-27-BROCHURE">PGDFLP - ADMISSION - 2026-27 - BROCHURE</a></li>
+													<li><a href="https://consortiumofnlus.ac.in/" id="desk-menu-CLAT"target="_blank">CLAT</a></li>
+													<li><a href="https://drive.google.com/file/d/1GTPLYwyPenX4zBmpvGcRL4wtM9trdQmp/view?usp=drive_link" id="desk-menu-Fees-Refund-Policy"target="_blank">Fees Refund Policy</a></li>
+											</ul></li>
+											<li class="nav_innermenu" id="desk-menu-Academics" >
+												<a href="javascript:void(0)">Academics</a>
+												<ul class="nav_sec_sub_menu" aria-labelledby="Academics">
+													<li><a href="https://drive.google.com/file/d/1o48UWzoSuDfXKPshVlb3StptfULE3KCi/view?usp=sharing" id="desk-menu-Course-Catalogue"target="_blank">Course Catalogue</a></li>
+													<li><a href="/Course/Undergraduate-Programmes" id="desk-menu-Undergraduate-Programmes">Undergraduate Programmes (UG)</a></li>
+													<li><a href="/Course/Postgraduate-Programmes" id="desk-menu-Postgraduate-Programmes">Center for PG Legal Studies</a></li>
+													<li><a href="/Course/Ph.D.-in-Law" id="desk-menu-Ph-D-in-Law">Ph.D. </a></li>
+											</ul></li>
+											<li class="nav_innermenu" id="desk-menu-Examination" >
+												<a href="javascript:void(0)">Examination</a>
+												<ul class="nav_sec_sub_menu" aria-labelledby="Examination">
+													<li><a href="/Examination-Rules" id="desk-menu-Examination-Rules">Examination Rules</a></li>
+													<li><a href="/Exam-Schedules" id="desk-menu-Exam-Schedules">Exam Schedules</a></li>
+													<li><a href="/TNNLU-2024-25-Students-Promotion-List" id="desk-menu-TNNLU-2024-25-Students-Promotion-List">TNNLU-2024-25-Students-Promotion-List</a></li>
+											</ul></li>
+											<li><a href="/Convocation" id="desk-menu-Convocation">Convocation</a></li>
+							</ul></li>
+							<li class="nav_sub_menudropdown " id="desk-menu-Research">
+								<a class="main-menu" href="javascript:void(0)">Research</a>
+								<ul class="nav_sub_menu" aria-labelledby="Research">
+											<li><a href="/Centers" id="desk-menu-Centers">Centers</a></li>
+											<li><a href="/Publications" id="desk-menu-Publications">Publications</a></li>
+											<li><a href="https://www.tnnlulibrary.net/" id="desk-menu-Library"target="_blank">Library</a></li>
+											<li><a href="/Museum" id="desk-menu-Museum">Museum</a></li>
+											<li class="nav_innermenu" id="desk-menu-TNNLU-Law-Review" >
+												<a href="javascript:void(0)">TNNLU Law Review</a>
+												<ul class="nav_sec_sub_menu" aria-labelledby="TNNLU-Law-Review">
+													<li><a href="/TNNLU-Law-Review" id="desk-menu-About-Law-Review">About the Law Review</a></li>
+													<li><a href="/Editorial-Board" id="desk-menu-Editorial-Board">Editorial Board</a></li>
+													<li><a href="/Issues" id="desk-menu-Issues">Archives</a></li>
+													<li><a href="/Submissions" id="desk-menu-Submissions">Submissions</a></li>
+											</ul></li>
+							</ul></li>				</ul>
+			</nav>
+		</div>
+		<div class='center-logo-div'>
+		<a href="/" class='center-logo' title="TNNLU" rel="home"><img alt="TNNLU" src="/images/TNNLU Logo.png"></a>
+		</div>
+		<div class="right-menu">
+			<a href="/" class='logo-link' title="TNNLU" rel="home"><img alt="TNNLU" src="/images/TNNLU Tamil.png"></a>
+			<nav class="menu_header" aria-label="global header menu">
+				<ul class="nav_menu d-xl-flex">
+				
+							<li class="nav_sub_menudropdown " id="desk-menu-Campus-Life">
+								<a class="main-menu" href="javascript:void(0)">Campus Life</a>
+								<ul class="nav_sub_menu" aria-labelledby="Campus-Life">
+											<li class="nav_innermenu" id="desk-menu-Student-Activity-Forum" >
+												<a href="javascript:void(0)">Student Activity Forum</a>
+												<ul class="nav_sec_sub_menu" aria-labelledby="Student-Activity-Forum">
+													<li><a href="/Co-Curricular-Clubs" id="desk-menu-Co-Curricular-Clubs">Co-Curricular Committee / Clubs </a></li>
+													<li><a href="/Extra-Curricular-Clubs" id="desk-menu-Extra-Curricular-Clubs">Extra Curricular Clubs</a></li>
+													<li><a href="/Others" id="desk-menu-Others">Extended Activities</a></li>
+											</ul></li>
+											<li><a href="/Placement-and-Internship" id="desk-menu-Placement-and-Internship">Placement & Internship</a></li>
+											<li><a href="/Hostels-and-Guest-House" id="desk-menu-Hostels-and-Guest-House">Hostels & Guest House</a></li>
+											<li><a href="/Other-Facilities-in-TNNLU" id="desk-menu-Other-Facilities-in-TNNLU">Other Facilities in TNNLU</a></li>
+											<li><a href="/Photo-Gallery" id="desk-menu-Photo-Gallery">Photo Gallery</a></li>
+							</ul></li>
+							<li class="nav_sub_menudropdown " id="desk-menu-News">
+								<a class="main-menu" href="javascript:void(0)">News</a>
+								<ul class="nav_sub_menu" aria-labelledby="News">
+											<li><a href="/Students-Achievements" id="desk-menu-Students-Achievements">Students Achievements</a></li>
+											<li><a href="/STAP-Events" id="desk-menu-STAP-Events">TNNLU Events</a></li>
+							</ul></li>
+							<li class="nav_sub_menudropdown " id="desk-menu-Quick-Links">
+								<a class="main-menu" href="javascript:void(0)">Quick Links</a>
+								<ul class="nav_sub_menu" aria-labelledby="Quick-Links">
+											<li><a href="/Right-to-Information" id="desk-menu-Right-to-Information">Right to Information (RTI)</a></li>
+											<li><a href="/Online-Fees-Payments" id="desk-menu-Online-Fees-Payments">Online Fees Payments</a></li>
+											<li><a href="sgrc" id="desk-menu-SGRC-Comittee">SGRC Comittee</a></li>
+											<li><a href="/Anti-Ragging-Committee" id="desk-menu-Anti-Ragging-Committee">Anti Ragging Committee</a></li>
+											<li><a href="/Internal-Complaints-Committee" id="desk-menu-Internal-Complaints-Committee">Internal Complaints Committee</a></li>
+											<li><a href="/IQAC" id="desk-menu-IQAC">IQAC</a></li>
+											<li><a href="/Tender" id="desk-menu-Tender-Notification">Tender Notification</a></li>
+											<li><a href="/Recruitment-Notification" id="desk-menu-Recruitment-Notification">Recruitment Notification</a></li>
+							</ul></li>				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="d-block d-xl-none" style='background:#fff;'>
+		<div class="d-flex">
+		<div class="menubar d-xl-none pl-2">
+			<span class="menubar-box">
+				<span class="menubar-inner"></span>
+			</span>
+		</div>
+		<div class="header_logo" role="img" aria-label="TNNLU">
+			<a href="/" class='logo-link' title="TNNLU" rel="home"><img alt="TNNLU" src="/images/TNNLU.png"></a>
+		</div>
+		</div>
+		<div class="menu_header ml-auto d-xl-flex align-items-center">
+		<nav class="nav_slideShow ml-auto" aria-label="global header menu">
+			<ul class="nav_menu d-xl-flex justify-content-end">
+			<div class="mobile-top-header d-block d-md-none">
+				<a href='https://tnnlu.ac.in/' >Home</a><a href='/Faculty' >Faculty</a><a href='https://www.tnnlulibrary.net/' target="_blank">Library </a><a href='https://www.tnnlu.ac.in/TNNLU-AVS-2026-27' target="_blank">Admission</a><a href='https://www.tnnlu.ac.in/Online-Fees-Payments' >Fees Online</a><a href='/Alumni' >Alumni</a><a href='/Recruitment-Notification' >Careers</a><a href='/Tender' target="_blank">Tender</a><a href='/Contact' >Contact Us</a><a href='/Screen-Reader-Access' >Screen Reader Access</a>			</div>
+			
+						<li class="nav_sub_menudropdown " id="menu-University">
+							<a class="main-menu" href="javascript:void(0)">The University</a>
+							<ul class="nav_sub_menu" aria-labelledby="University">
+										<li class="nav_innermenu" id="menu-Organisation" >
+											<a href="javascript:void(0)">Organisation</a>
+											<ul class="nav_sec_sub_menu" aria-labelledby="Organisation">
+												<li><a href="/About-TNNLU" id="menu-About-TNNLU">About TNNLU</a></li>
+												<li><a href="/TNNLU-MOUs" id="menu-TNNLU-MOUs">TNNLU MOU's</a></li>
+												<li><a href="/Financial-Assistance" id="menu-Financial-Assistance">Financial Assistance</a></li>
+												<li><a href="/Medals-Awarded-by-TNNLU" id="menu-University-Medals">University Medals</a></li>
+												<li><a href="/Law-Rules-Regulations-and-Policies" id="menu-Law-Rules-Regulations-and-Policies">Law, Rules, Regulations and Policies</a></li>
+										</ul></li>
+										<li><a href="/Governing-Bodies" id="menu-Governing-Bodies">Governing Bodies</a></li>
+										<li class="nav_innermenu" id="menu-TNNLU-Team" >
+											<a href="javascript:void(0)">TNNLU Team</a>
+											<ul class="nav_sec_sub_menu" aria-labelledby="TNNLU-Team">
+												<li><a href="/Chancellor" id="menu-Chancellor">Chancellor</a></li>
+												<li><a href="/Pro-Chancellor" id="menu-Pro-Chancellor">Pro Chancellor</a></li>
+												<li><a href="/vice-chancellor" id="menu-vice-chancellor">Vice Chancellor</a></li>
+												<li><a href="/registrar" id="menu-registrar">Registrar</a></li>
+												<li><a href="/finance-officer" id="menu-finance-officer">Finance Officer</a></li>
+												<li><a href="/Deans" id="menu-Deans">Deans</a></li>
+												<li><a href="/Faculty" id="menu-Faculty">Faculty</a></li>
+												<li><a href="/Admin-Staffs" id="menu-Admin-Staff">Admin Staff</a></li>
+										</ul></li>
+						</ul></li>
+						<li class="nav_sub_menudropdown " id="menu-Study">
+							<a class="main-menu" href="javascript:void(0)">Study</a>
+							<ul class="nav_sub_menu" aria-labelledby="Study">
+										<li class="nav_innermenu" id="menu-Admission" >
+											<a href="javascript:void(0)">Admission</a>
+											<ul class="nav_sec_sub_menu" aria-labelledby="Admission">
+												<li><a href="https://drive.google.com/file/d/1dBSAe1pg7db_jiX0zC90UrUgKkS9tw8O/view?usp=drive_link" id="menu-TNNLU-Admissions-2027-28-Brochure"target="_blank">TNNLU-Admissions 2026-27 - Brochure</a></li>
+												<li><a href="https://drive.google.com/file/d/1W7ddizZul_3sbTSy762vR-EohZxfjlAl/view?usp=sharing" id="menu-TNNLU-PGDFLP-ADMISSION-2026-27-BROCHURE">PGDFLP - ADMISSION - 2026-27 - BROCHURE</a></li>
+												<li><a href="https://consortiumofnlus.ac.in/" id="menu-CLAT"target="_blank">CLAT</a></li>
+												<li><a href="https://drive.google.com/file/d/1GTPLYwyPenX4zBmpvGcRL4wtM9trdQmp/view?usp=drive_link" id="menu-Fees-Refund-Policy"target="_blank">Fees Refund Policy</a></li>
+										</ul></li>
+										<li class="nav_innermenu" id="menu-Academics" >
+											<a href="javascript:void(0)">Academics</a>
+											<ul class="nav_sec_sub_menu" aria-labelledby="Academics">
+												<li><a href="https://drive.google.com/file/d/1o48UWzoSuDfXKPshVlb3StptfULE3KCi/view?usp=sharing" id="menu-Course-Catalogue"target="_blank">Course Catalogue</a></li>
+												<li><a href="/Course/Undergraduate-Programmes" id="menu-Undergraduate-Programmes">Undergraduate Programmes (UG)</a></li>
+												<li><a href="/Course/Postgraduate-Programmes" id="menu-Postgraduate-Programmes">Center for PG Legal Studies</a></li>
+												<li><a href="/Course/Ph.D.-in-Law" id="menu-Ph-D-in-Law">Ph.D. </a></li>
+										</ul></li>
+										<li class="nav_innermenu" id="menu-Examination" >
+											<a href="javascript:void(0)">Examination</a>
+											<ul class="nav_sec_sub_menu" aria-labelledby="Examination">
+												<li><a href="/Examination-Rules" id="menu-Examination-Rules">Examination Rules</a></li>
+												<li><a href="/Exam-Schedules" id="menu-Exam-Schedules">Exam Schedules</a></li>
+												<li><a href="/TNNLU-2024-25-Students-Promotion-List" id="menu-TNNLU-2024-25-Students-Promotion-List">TNNLU-2024-25-Students-Promotion-List</a></li>
+										</ul></li>
+										<li><a href="/Convocation" id="menu-Convocation">Convocation</a></li>
+						</ul></li>
+						<li class="nav_sub_menudropdown " id="menu-Research">
+							<a class="main-menu" href="javascript:void(0)">Research</a>
+							<ul class="nav_sub_menu" aria-labelledby="Research">
+										<li><a href="/Centers" id="menu-Centers">Centers</a></li>
+										<li><a href="/Publications" id="menu-Publications">Publications</a></li>
+										<li><a href="https://www.tnnlulibrary.net/" id="menu-Library"target="_blank">Library</a></li>
+										<li><a href="/Museum" id="menu-Museum">Museum</a></li>
+										<li class="nav_innermenu" id="menu-TNNLU-Law-Review" >
+											<a href="javascript:void(0)">TNNLU Law Review</a>
+											<ul class="nav_sec_sub_menu" aria-labelledby="TNNLU-Law-Review">
+												<li><a href="/TNNLU-Law-Review" id="menu-About-Law-Review">About the Law Review</a></li>
+												<li><a href="/Editorial-Board" id="menu-Editorial-Board">Editorial Board</a></li>
+												<li><a href="/Issues" id="menu-Issues">Archives</a></li>
+												<li><a href="/Submissions" id="menu-Submissions">Submissions</a></li>
+										</ul></li>
+						</ul></li>
+						<li class="nav_sub_menudropdown " id="menu-Campus-Life">
+							<a class="main-menu" href="javascript:void(0)">Campus Life</a>
+							<ul class="nav_sub_menu" aria-labelledby="Campus-Life">
+										<li class="nav_innermenu" id="menu-Student-Activity-Forum" >
+											<a href="javascript:void(0)">Student Activity Forum</a>
+											<ul class="nav_sec_sub_menu" aria-labelledby="Student-Activity-Forum">
+												<li><a href="/Co-Curricular-Clubs" id="menu-Co-Curricular-Clubs">Co-Curricular Committee / Clubs </a></li>
+												<li><a href="/Extra-Curricular-Clubs" id="menu-Extra-Curricular-Clubs">Extra Curricular Clubs</a></li>
+												<li><a href="/Others" id="menu-Others">Extended Activities</a></li>
+										</ul></li>
+										<li><a href="/Placement-and-Internship" id="menu-Placement-and-Internship">Placement & Internship</a></li>
+										<li><a href="/Hostels-and-Guest-House" id="menu-Hostels-and-Guest-House">Hostels & Guest House</a></li>
+										<li><a href="/Other-Facilities-in-TNNLU" id="menu-Other-Facilities-in-TNNLU">Other Facilities in TNNLU</a></li>
+										<li><a href="/Photo-Gallery" id="menu-Photo-Gallery">Photo Gallery</a></li>
+						</ul></li>
+						<li class="nav_sub_menudropdown " id="menu-News">
+							<a class="main-menu" href="javascript:void(0)">News</a>
+							<ul class="nav_sub_menu" aria-labelledby="News">
+										<li><a href="/Students-Achievements" id="menu-Students-Achievements">Students Achievements</a></li>
+										<li><a href="/STAP-Events" id="menu-STAP-Events">TNNLU Events</a></li>
+						</ul></li>
+						<li class="nav_sub_menudropdown " id="menu-Quick-Links">
+							<a class="main-menu" href="javascript:void(0)">Quick Links</a>
+							<ul class="nav_sub_menu" aria-labelledby="Quick-Links">
+										<li><a href="/Right-to-Information" id="menu-Right-to-Information">Right to Information (RTI)</a></li>
+										<li><a href="/Online-Fees-Payments" id="menu-Online-Fees-Payments">Online Fees Payments</a></li>
+										<li><a href="sgrc" id="menu-SGRC-Comittee">SGRC Comittee</a></li>
+										<li><a href="/Anti-Ragging-Committee" id="menu-Anti-Ragging-Committee">Anti Ragging Committee</a></li>
+										<li><a href="/Internal-Complaints-Committee" id="menu-Internal-Complaints-Committee">Internal Complaints Committee</a></li>
+										<li><a href="/IQAC" id="menu-IQAC">IQAC</a></li>
+										<li><a href="/Tender" id="menu-Tender-Notification">Tender Notification</a></li>
+										<li><a href="/Recruitment-Notification" id="menu-Recruitment-Notification">Recruitment Notification</a></li>
+						</ul></li>			</ul>
+		</nav>
+		</div>
+	</div>
+	</div>
+</header><!--header end-->
+<main>
+<style>
+.jquery-background-video-wrapper{
+	width:100%;
+	height: 30vh;
+}
+.main-silder{
+	max-width:1500px !important;
+}
+.container.main-silder .col-lg-8 {
+    padding: 0px;
+}
+#home_slider{
+	position:relative;
+}
+.carousel-item {
+	display:block;
+    height: auto;
+	padding-top:50%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+	
+}
+.home_slider_details {
+	width:100%;
+	overflow:auto;
+    position: absolute;
+    bottom: 50px;
+	text-align:center;
+}
+.home-slider{
+	z-index:1;
+}
+.home_slider_description {
+    white-space: pre-wrap;
+    font-size: var(--font-4x);
+    font-weight: 300;
+}
+.home_slider_link {
+    font-size: var(--font-5x);
+    font-weight: 300;
+    margin: 15px 0px;
+}
+#home-slider .owl-prev,#home-slider .owl-next {
+    position: absolute;
+    height: 100%;
+    z-index: 99999;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    text-align: center;
+	padding:20px !important	;
+	opacity:0.7;
+	color:var(--white-color);
+	top:0px;
+}
+#home-slider .owl-dots {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+.owl-carousel button.owl-dot {
+    font-family:FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	color: var(--white-color);
+    margin: 10px;
+	opacity:0.7;
+}
+.owl-carousel .owl-dot:before {
+    content: "\f10c";
+}
+.owl-carousel .owl-dot.active:before {
+    content: "\f192";
+}
+#home-slider .owl-prev:hover,#home-slider .owl-next:hover{
+}
+
+#home-slider .owl-next{
+	right:0px;
+}
+#announcement-list .owl-prev,#announcement-list .owl-next {
+    position: absolute;
+    height: 100%;
+    z-index: 99999;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+	top:0px;
+}
+#announcement-list .owl-prev {
+    left: -15px;
+	padding-right:5px !important;
+}
+#announcement-list .owl-next {
+    right: -15px;
+	padding-left:5px !important;
+}
+.section-title{
+	font-family: var(--secondary-font);
+	color:var(--primary-color);
+	font-size:var(--font-12x);
+	margin-bottom:20px;
+	position:relative;
+	text-align:center;
+}
+.section{
+    padding: 88px 0 70px;
+}
+.news-card {
+    background: var(--white-color);
+	height: 100%;
+    padding-bottom: 20px;
+}
+.news_image {
+}
+.news_image {
+    height: 200px;
+	width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.news-details {
+    padding: 15px;
+	position:relative;
+}
+.news-title{
+    font-size: var(--font-5x);
+    color: var(--primary-color);
+	font-family:var(--secondary-font);
+	display: block;
+    display: -webkit-box;
+    max-width: calc(100% - 5px);
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.news-desc{
+    font-size: var(--font-3x);
+	display: block;
+    display: -webkit-box;
+    max-width: calc(100% - 5px);
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	white-space:pre-wrap;
+}
+.news-date {
+    color: var(--secondary-color);
+    font-style: italic;
+	position:absolute;
+    bottom: -5px;
+    padding-left: 10px;
+	line-height:40px;
+}
+.counter-area {
+    padding: 130px 0 135px;
+    text-align: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.counter-area:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    background-color: var(--primary-color)e6;
+}
+.counter-area .counter-box {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.counter-area .counter-box h2 {
+	font-family:var(--secondary-font);
+    color: var(--white-color);
+    font-size: 72px !important;
+    -webkit-box-flex: 1;
+    -moz-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    line-height: 1.5;
+}
+.title-bar-counter:before {
+    content: "";
+    height: 2px;
+    width: 70px;
+    background: var(--secondary-color);
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+}
+.title-bar-counter {
+    position: relative;
+}
+.counter-area .counter-box p {
+    color: var(--white-color);
+    font-size: var(--font-5x);
+    padding-top: 25px;
+    padding-left: 15px;
+    -webkit-box-flex: 2;
+    -moz-flex: 2;
+    -webkit-flex: 2;
+    flex: 2;
+    text-transform: uppercase;
+    text-align: left;
+    z-index: 1;
+}
+
+.facitiy-card{
+	text-align:center;
+	font-size:var(--font-4x);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.facitiy-card:hover{
+}
+.facitiy-icon {
+    padding: 20px;
+    position: relative;
+    border-radius: 50%;
+    border:1px solid var(--primary-color);
+    color: var(--primary-color);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.facitiy-icon i {
+    margin: 0 auto;
+    font-size: 40px;
+}
+.facitiy-card:hover .facitiy-icon{
+    -webkit-box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+	box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+	background:var(--primary-color);
+    color: var(--white-color);
+}
+.facitiy-text{
+	padding:15px;
+	padding-top:15px;
+}
+.facitiy-card:hover .facitiy-text{
+	color:var(--primary-color);
+}
+.center-card {
+    margin-bottom: 20px;
+    background: var(--white-color);
+	margin: 0px 20px;
+}
+.center-image {
+	width:100%;
+	padding-bottom: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.center-details {
+    padding: 10px;
+	position:relative;
+}
+.center-title{
+	font-family: var(--secondary-font);
+    font-size: var(--font-5x);
+    color: var(--primary-color);
+	margin:10px 0px;
+}
+.center-desc{
+    font-size: var(--font-3x);
+	display: block;
+    display: -webkit-box;
+    max-width: calc(100% - 5px);
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.center-data-nav{
+	display:flex;
+	align-items:center;
+	color:var(--primary-color);
+}
+.center-data-dots{
+	width:100%;
+	position:relative;
+    text-align: center;
+}
+.center-data-prev, .center-data-next {
+    font-size: 30px;
+    text-align: center;
+    border: none !important;;
+    padding: 0 !important;
+    background: transparent !important;
+	color:var(--primary-color);
+	cursor:pointer;
+}
+.center-data-dots button.owl-dot {
+    font-family:FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0px 10px;
+    border: none !important;;
+    padding: 0 !important;
+    background: transparent !important;
+	color:var(--primary-color);
+	cursor:pointer;
+}
+.center-data-dots .owl-dot:before {
+    content: "\f10c";
+}
+.center-data-dots .owl-dot.active:before {
+    content: "\f111";
+}
+@media screen and (min-width: 560px){
+	
+}
+@media screen and (max-width: 769px){
+	.news-card {
+		display: block;
+	}
+	.center-data-dots button.owl-dot {
+		margin: 0px 3px;
+	}
+}
+@media (min-width: 992px) {
+	#home_slider{
+		
+	}
+	.jquery-background-video-wrapper{
+		height: 70vh;
+	}
+}
+.course-card {
+    background: var(--white-color);
+    z-index: 0;
+    margin: auto;
+    padding: 20px;
+	margin-bottom:10px;
+	height:100%;
+	text-align:left;
+	-webkit-box-shadow: 0px 2px 4px -4px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 0px 2px 4px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 4px -4px rgb(0 0 0 / 75%);
+	border-bottom:2px solid var(--primary-color);
+	-webkit-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+}
+.course-card:hover {
+	-webkit-box-shadow: 8px 13px 10px -9px rgb(0 0 0 / 30%) !important;
+    -moz-box-shadow: 8px 13px 10px -9px rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 8px 13px 10px -9px rgb(0 0 0 / 30%) !important;
+}
+.course-title {
+    color: var(--primary-color);
+    font-size: var(--font-6x);
+	font-family:var(--secondary-font);
+	position:relative;
+	margin-top:5px;
+}
+.course-subtitle{
+	position:relative;
+}
+.course-subtitle:after{
+	content: "";
+    width: 20%;
+    height: 2px;
+    background: var(--primary-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.course-icon{
+	border-radius: 50%; 
+    width: 40px;
+    height: 40px;
+	font-size: 22px; 
+	position: absolute; 
+	background: var(--primary-color);
+	border: 4px solid #fff;
+	color: #fff;
+	right: 28px;
+	bottom: -18px;
+	line-height: 31px;
+	text-align:center;
+}
+.data-list,.data-list li {
+	padding: 0;
+	list-style-type: none;
+	margin: 0;
+}
+.data-list li {
+	padding: 10px;
+	list-style-type: none;
+	margin: 0;
+	border-bottom:1px dotted var(--border-color);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+.data-list {
+	overflow-y: hidden;
+	height: 400px;
+}
+
+.announcement-card {
+    display: flex;
+	font-size:var(--font-3x);
+}
+.announcement-date {
+    width: 140px;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    margin-right: 15px;
+	border-radius: 4px;
+	background: #e4e0ee;
+	line-height:2;
+	font-family:var(--secondary-font);
+}
+.announcement-day {
+    font-size: var(--font-7x);
+    font-weight: var(--font-bold);
+    background: var(--primary-color);
+    color: var(--white-color);
+	line-height:1.9;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+	letter-spacing:3px;
+}
+.announcement-monthyear {
+    font-size: var(--font-5x);
+}
+.announcement-title {
+    width: 100%;
+	display: block;
+    display: -webkit-box;
+    max-width: calc(100% - 5px);
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	max-height: 73px;
+}
+#announcement-list {
+    max-width: 90%;
+    margin: -55px auto 30px auto;
+}
+.announcement-card-new{
+	padding:15px;
+    background: #fff;
+    border-radius: 4px;
+    height: calc(100% - 12px);
+    margin: 10px;
+}
+#announcement-list  .owl-stage {
+    display: flex;
+}
+.announcement-section{
+	background:var(--secondary-color);
+	padding-bottom:1px;
+}
+</style>
+<link rel="stylesheet" media="screen" href="/css/animate.css" />
+<div class="video-hero jquery-background-video-wrapper">
+  <video class="jquery-background-video" loop autoplay muted playsinline poster="/images/default_bg.jpg">
+    <source src="/images/TNNLU Campus Virtual Tour New.mp4" type="video/mp4" />
+  </video>
+</div>
+<div class='announcement-section'>
+<div class="owl-carousel" id="announcement-list">
+<a href="https://drive.google.com/file/d/1AFmRq7sxClH96X8vtN1aoNsAqD0rXICY/view?usp=sharing" class="announcement-card announcement-card-new" ><div class="announcement-date"><div class="announcement-day">16</div><div class="announcement-monthyear">Oct, 2026</div></div><div class="announcement-title">TNNLU-INVITATION OF APPLICATIONS/NOMINATIONS FOR THE POST OF VICE-CHANCELLOR </div></a><a href="https://drive.google.com/file/d/1dBSAe1pg7db_jiX0zC90UrUgKkS9tw8O/view?usp=drive_link" class="announcement-card announcement-card-new" target="_blank"><div class="announcement-date"><div class="announcement-day">07</div><div class="announcement-monthyear">Oct, 2026</div></div><div class="announcement-title">TNNLU-Admissions 2027-28 - Brochure</div></a><a href="https://drive.google.com/file/d/1f7Rm0Z-TGZYBpv5Cq-52LSaufieH6Rx3/view?usp=sharing" class="announcement-card announcement-card-new" ><div class="announcement-date"><div class="announcement-day">25</div><div class="announcement-monthyear">Sep, 2026</div></div><div class="announcement-title">TNNLU-LCHSI-Two Day National Conference- Call for Participants/Observers</div></a><a href="https://www.tnnlu.ac.in/STAP-Events/TNNLU-PROJECT-EYALVATHU-KARAVEL-Certificate-Course-on-Advanced-Courtroom-and-Advocacy-Skills" class="announcement-card announcement-card-new" target="_blank"><div class="announcement-date"><div class="announcement-day">15</div><div class="announcement-monthyear">Sep, 2026</div></div><div class="announcement-title">Extension of Last Date for Submission of Applications and Relaxation of Eligibility Criteria - Certificate Course on Advanced Courtroom and Advocacy Skills</div></a><a href="https://drive.google.com/file/d/1lfN_KFt0ZmE3zR3rYDAhtsBFe3NiuUzx/view?usp=sharing" class="announcement-card announcement-card-new" target="_blank"><div class="announcement-date"><div class="announcement-day">01</div><div class="announcement-monthyear">Sep, 2026</div></div><div class="announcement-title">Admissions 2026-27 - UG Closure of Admission under Admission to Vacant Seats - 01.09.2026 </div></a><a href="https://drive.google.com/file/d/1S4xvIWy5TC0uj9H9UaUozvICuFelBDpM/view?usp=drive_link" class="announcement-card announcement-card-new" ><div class="announcement-date"><div class="announcement-day">21</div><div class="announcement-monthyear">Aug, 2026</div></div><div class="announcement-title">Closure of Admission LL.M Business Law for Academic Year 2026-2027</div></a><a href="https://drive.google.com/file/d/1v__D_5rfcdZbCMXLJdOt7S54WVBrY3W9/view?usp=sharing" class="announcement-card announcement-card-new" ><div class="announcement-date"><div class="announcement-day">07</div><div class="announcement-monthyear">Jul, 2026</div></div><div class="announcement-title">TNNLU - Project Eyalvathu Karavel - Notification - Probono Advocacy Fellowship under PEK - Selected Candidates list</div></a><a href="https://www.tnnlu.ac.in/STAP-Events/TNNLU-LCHSI-Call-for-papers" class="announcement-card announcement-card-new" target="_blank"><div class="announcement-date"><div class="announcement-day">02</div><div class="announcement-monthyear">Jun, 2026</div></div><div class="announcement-title">TNNLU-LCHSI-Two Day National Conference- Call for Papers </div></a><a href="https://www.tnnlu.ac.in/" class="announcement-card announcement-card-new" ><div class="announcement-date"><div class="announcement-day">18</div><div class="announcement-monthyear">May, 2026</div></div><div class="announcement-title">TNNLU -  Admissions Office -  2026  -  HELP DESK -   Admissions Office 1 - 9150020867, Admissions Office 2 - 9150020868</div></a><a href="https://drive.google.com/file/d/1URUydozUIfzn_ammpeDz6klT9TLyamjg/view?usp=sharing" class="announcement-card announcement-card-new" target="_blank"><div class="announcement-date"><div class="announcement-day">11</div><div class="announcement-monthyear">Jun, 2025</div></div><div class="announcement-title">TNNLU- Admissions / Job Scam alert poster</div></a></div>
+</div>
+<!--
+<div class="container main-silder" >
+	<div class="row">
+		<div class="col-12 col-lg-8">
+			<div id='home_slider'>
+			  <div class='owl-carousel home-slider' id='home-slider'>
+				<div class='carousel-item' style="background:url('/files/home_slider/image/bbdda333afd1c518d68b7b1f701403c2/mission___vision_622855eb149a5.jpg')"></div>
+				<div class='carousel-item' style="background:url('/files/home_slider/image/f92ca76517126f55b0ae815f6146c535/website_banner__jpg__62285697b4aba.jpg')"></div>
+				<div class='carousel-item' style="background:url('/files/home_slider/image/f58c9d8f29081243ff637b39cf48f16e/optimized_india___75_tnnlu_2__61c2040c07df2.jpg')"></div>
+			  </div>
+			</div>
+		</div>
+		<div class="col-12 col-lg-4">
+			<div class="section-title" style='margin-bottom:10px;margin-top:10px;display: flex;align-items: center;'>Announcements</div>
+			<ul class="data-list" data-autoscroll>
+				<li><a href="https://drive.google.com/file/d/1AFmRq7sxClH96X8vtN1aoNsAqD0rXICY/view?usp=sharing" class="announcement-card" ><div class="announcement-date"><div class="announcement-day">16</div><div class="announcement-monthyear">Oct, 2026</div></div><div class="announcement-title">TNNLU-INVITATION OF APPLICATIONS/NOMINATIONS FOR THE POST OF VICE-CHANCELLOR </div></a></li>
+				<li><a href="https://drive.google.com/file/d/1dBSAe1pg7db_jiX0zC90UrUgKkS9tw8O/view?usp=drive_link" class="announcement-card" target="_blank"><div class="announcement-date"><div class="announcement-day">07</div><div class="announcement-monthyear">Oct, 2026</div></div><div class="announcement-title">TNNLU-Admissions 2027-28 - Brochure</div></a></li>
+				<li><a href="https://drive.google.com/file/d/1f7Rm0Z-TGZYBpv5Cq-52LSaufieH6Rx3/view?usp=sharing" class="announcement-card" ><div class="announcement-date"><div class="announcement-day">25</div><div class="announcement-monthyear">Sep, 2026</div></div><div class="announcement-title">TNNLU-LCHSI-Two Day National Conference- Call for Participants/Observers</div></a></li>
+				<li><a href="https://www.tnnlu.ac.in/STAP-Events/TNNLU-PROJECT-EYALVATHU-KARAVEL-Certificate-Course-on-Advanced-Courtroom-and-Advocacy-Skills" class="announcement-card" target="_blank"><div class="announcement-date"><div class="announcement-day">15</div><div class="announcement-monthyear">Sep, 2026</div></div><div class="announcement-title">Extension of Last Date for Submission of Applications and Relaxation of Eligibility Criteria - Certificate Course on Advanced Courtroom and Advocacy Skills</div></a></li>
+				<li><a href="https://drive.google.com/file/d/1lfN_KFt0ZmE3zR3rYDAhtsBFe3NiuUzx/view?usp=sharing" class="announcement-card" target="_blank"><div class="announcement-date"><div class="announcement-day">01</div><div class="announcement-monthyear">Sep, 2026</div></div><div class="announcement-title">Admissions 2026-27 - UG Closure of Admission under Admission to Vacant Seats - 01.09.2026 </div></a></li>
+				<li><a href="https://drive.google.com/file/d/1S4xvIWy5TC0uj9H9UaUozvICuFelBDpM/view?usp=drive_link" class="announcement-card" ><div class="announcement-date"><div class="announcement-day">21</div><div class="announcement-monthyear">Aug, 2026</div></div><div class="announcement-title">Closure of Admission LL.M Business Law for Academic Year 2026-2027</div></a></li>
+				<li><a href="https://drive.google.com/file/d/1v__D_5rfcdZbCMXLJdOt7S54WVBrY3W9/view?usp=sharing" class="announcement-card" ><div class="announcement-date"><div class="announcement-day">07</div><div class="announcement-monthyear">Jul, 2026</div></div><div class="announcement-title">TNNLU - Project Eyalvathu Karavel - Notification - Probono Advocacy Fellowship under PEK - Selected Candidates list</div></a></li>
+				<li><a href="https://www.tnnlu.ac.in/STAP-Events/TNNLU-LCHSI-Call-for-papers" class="announcement-card" target="_blank"><div class="announcement-date"><div class="announcement-day">02</div><div class="announcement-monthyear">Jun, 2026</div></div><div class="announcement-title">TNNLU-LCHSI-Two Day National Conference- Call for Papers </div></a></li>
+				<li><a href="https://www.tnnlu.ac.in/" class="announcement-card" ><div class="announcement-date"><div class="announcement-day">18</div><div class="announcement-monthyear">May, 2026</div></div><div class="announcement-title">TNNLU -  Admissions Office -  2026  -  HELP DESK -   Admissions Office 1 - 9150020867, Admissions Office 2 - 9150020868</div></a></li>
+				<li><a href="https://drive.google.com/file/d/1URUydozUIfzn_ammpeDz6klT9TLyamjg/view?usp=sharing" class="announcement-card" target="_blank"><div class="announcement-date"><div class="announcement-day">11</div><div class="announcement-monthyear">Jun, 2025</div></div><div class="announcement-title">TNNLU- Admissions / Job Scam alert poster</div></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+-->
+<div class='section' style='background:#f7f7f7' >
+<div class="container">
+	<div class="section-title">News</div>
+	<div class="row">
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/images/news-default.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/Tender/TNNLU-Quotations-Invited-for-Refilling-of-Fire-Extinguishers-at-TNNLU-Campus" class="news-title">TNNLU- Quotations Invited for Refilling of Fire Extinguishers at TNNLU Campus</a>
+					<div class="news-desc">TNNLU- Quotations Invited for Refilling of Fire Extinguishers at TNNLU Campus</div>
+				</div>
+				
+					<div class="news-date">Oct 08, 2026</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/ec6307f2cddff6db2e0af6f0a43a9601/lchsi_1_6a1eb5c5e2ada_6ab11775d1c93.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/STAP-Events/TNNLU-LCHSI-Call-for-Participants-Observers" class="news-title">Call for Participants/Observers - Two Day National Conference on Legal History of Tamilnadu</a>
+					<div class="news-desc">TNNLU - Legal Centre for History of South India is organising a Two-Day National Conference on the Legal History of Tamil Nadu on 25 & 26 September 2026 in online mode</div>
+				</div>
+				
+					<div class="news-date">Sep 25, 2026</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/e2fb282276cd5919aed142246e90aac5/lchsi_1_6a1eb5c5e2ada.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/STAP-Events/TNNLU-LCHSI-Call-for-papers" class="news-title">Two Day National Conference on Legal History of Tamilnadu</a>
+					<div class="news-desc">TNNLU - Legal Centre for History of South India is organising a Two-Day National Conference on the Legal History of Tamil Nadu on 25 & 26 September 2026 in online mode</div>
+				</div>
+				
+					<div class="news-date">Sep 25, 2026</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/images/news-default.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/STAP-Events/TNNLU-PROJECT-EYALVATHU-KARAVEL-Certificate-Course-on-Advanced-Courtroom-and-Advocacy-Skills" class="news-title">TNNLU - PROJECT EYALVATHU KARAVEL - Certificate Course on Advanced Courtroom and Advocacy Skills</a>
+					<div class="news-desc">The Tamil Nadu National Law University (TNNLU) invites applications for the Certificate
+Course on Advanced Courtroom and Advocacy Skills under Project Eyalvathu Karavel. This
+certificate course is designed for young advocates enrolled with the Bar Council of Tamil Nadu
+and Puducherry with 0 – 2 years of professional experience.</div>
+				</div>
+				
+					<div class="news-date">Aug 24, 2026</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/ee7cd5ca1db829decdffe11be3ea0ef6/mcc_tnnlu_6993f84472e33.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/STAP-Events/TNNLU-MCC" class="news-title">8th&nbsp;TNNLU&ndash;CCI National Antitrust&nbsp;Moot Court Competition,2026</a>
+					<div class="news-desc">The Tamil Nadu National Law University is organising the 8th TNNLU–Antitrust National Moot Court Competition, 2026 scheduled to take place in hybrid mode with the preliminary and quarter finals rounds happening virtually from 3rd & 4th of April, 2026 and advanced rounds taking place offline on 18th of April, 2026.</div>
+				</div>
+				
+					<div class="news-date">Apr 18, 2026</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/0991c2ea253f89a8a3c9c091c9aa9356/tnnlu_nimcc_logo_6993fa0642a2e.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/STAP-Events/TNNLU-NIMCC" class="news-title">TNNLU - 2nd National Insolvency Moot Court Competition, 2026</a>
+					<div class="news-desc">The Tamil Nadu National Law University is organising the 2 nd  TNNLU-National Insolvency
+Moot Court Competition, 2026 scheduled to take place in a hybrid format on 13th-14th of
+February, 2026 and 7th of March, 2026.</div>
+				</div>
+				
+					<div class="news-date">Mar 07, 2026</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/7ecbc7e6b905bacffe68bf44e6b63a97/ivlp_69a90eaff395d.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/STAP-Events/Dr-Mahindra-Prabu-M-IVLP" class="news-title">Prestigious International Visitor Leadership Program (IVLP), United States of America</a>
+					<div class="news-desc">Dr. M. Mahindra Prabu Selected for the Prestigious International Visitor Leadership Program (IVLP), United States of America</div>
+				</div>
+				
+					<div class="news-date">Feb 28, 2026</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/e91b2ff473e3b1442adc8e10b770e79e/whatsapp_image_2025_12_11_at_23_23_51_6943a977487f4.jpeg)" /></div>
+				<div class='news-details'>
+					<a  href="/Students-Achievements/NUALS-TAX-MOOT-COURT-COMPETITION-2025" class="news-title">TNNLU emerges as winners of 2nd NUALS Tax Moot Court Competition-2025</a>
+					<div class="news-desc">TNNLU emerges as winners of 2nd NUALS Tax Moot Court Competition-2025. Team also awarded with Best memorial award & Preethi Mansa R wins the best speaker award</div>
+				</div>
+				
+					<div class="news-date">Dec 16, 2025</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/591e029cf15881127960346c2606061e/msmes_si_cbhr_page_1_page_0001_69171c08696f8.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/STAP-Events/TNNLU-CBHR" class="news-title">TNNLU-CBHR-Local Economies, Global Values: Driving Gender Equity in South India</a>
+					<div class="news-desc">TNNLU-CBHR-Local Economies, Global Values: Driving Gender Equity in South India - 10th December 2025 @ 2 PM</div>
+				</div>
+				
+					<div class="news-date">Dec 10, 2025</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/15b3cf494e04dbb1b6cf8a172f5cae4d/website_notification_page_0001_6824548bd58f9.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/STAP-Events/TNNLU-Training-program-for-the-FCI" class="news-title">TNNLU - Training program for the Food Corporation of India</a>
+					<div class="news-desc">TNNLU – Training program for the Officers of Food Corporation Of India – 14th to 16th May 2025</div>
+				</div>
+				
+					<div class="news-date">May 14, 2025</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/92eeca95687bbb7a63a15938f478ce0b/1_6847ccf105dd4.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/Students-Achievements/TNNLU-MCC-APR-25" class="news-title">MCC Winners</a>
+					<div class="news-desc">TNNLU emerged as the winners of the 20th Nani Palkhivala Memorial Tax Moot Court Competition, 2025. Mehul Saravanan has also been awarded with the Best Researcher Award</div>
+				</div>
+				
+					<div class="news-date">Apr 21, 2025</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/29b1e0c70bd67f5998f5a176e9cc804c/img_20250125_183817___gurupriya_t_r_67e686554e87a.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/Students-Achievements/TNNLU-MCC-Mar-25" class="news-title">MCC Winners</a>
+					<div class="news-desc">TNNLU emerged as the winners of the SOEL's 2nd National Tamil Moot Court Competition, 2024-25. Charumathi has also been awarded with the 2nd Best Researcher Award</div>
+				</div>
+				
+					<div class="news-date">Mar 28, 2025</div>
+			</div>
+		</div>
+
+		<div class="col-12 col-lg-4 my-3">
+			<div class='news-card wow zoomIn' data-wow-duration="2s" data-wow-delay="ms" >
+				<div class='news_image' style="background-image:url(/files/news/image/b6f982b1879c935bbaf838061f6b1050/edited_1_6757d876e648e.jpg)" /></div>
+				<div class='news-details'>
+					<a  href="/Students-Achievements/TNNLU-MCC-Nov-5-2024" class="news-title">MCC WInners</a>
+					<div class="news-desc">TNNLU’s team was declared as the Winners of the 6th Surana and Surana, school of law, Raffles university Labour Moot court competition. They have also been awarded the Best Memorial and Abinaya from the team was awarded the Best Student Advocate.</div>
+				</div>
+				
+					<div class="news-date">Nov 05, 2024</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="text-center mt-5 wow slideInLeft" data-wow-duration="2s" data-wow-delay="2500ms"><a class="ats-btn ats-btn-primary" href="/News">More News</a></div>
+</div>
+<div class="section">
+	<div class="container">
+		<div class="section-title">Academic Programmes @ TNNLU</div>
+		<div class="row">
+			<div class="col-12 col-md-6 col-lg-4 mx-auto mb-5">
+			<a class="course-card wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".20s" href="/Course/Undergraduate-Programmes">
+				<div class="course-subtitle">Undergraduate Degrees</div>
+				<div class="course-title">B.A. LL.B. (Hons.) + B.Com. LL.B. (Hons.)</div>
+				<div class="course-details">The five-year integrated undergraduate law programmes. This regular and full-time residential programme is based on a semester pattern.</div>
+				<div class="">(Duration - <b>5 Years</b>)</div>
+				<div class="course-icon"> <i class="fa fa-angle-right"></i></div>
+			</a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mx-autoo mb-5">
+			<a class="course-card wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".20s"href="/Course/Postgraduate-Programmes">
+				<div class="course-subtitle">Postgraduate Degrees</div>
+				<div class="course-title">LL.M. Programme</div>
+				<div class="course-details">LL.M. Programmes under the UGC Guidelines for One Year LL.M. Degree Programme. The Centre for Post Graduate Legal Studies (CPGLS) shall notify the programme specific courses and elective courses every academic year.</div>
+				<div class="">(Duration - <b>1 Year</b>)</div>
+				<div class="course-icon"> <i class="fa fa-angle-right"></i></div>
+			</a>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4 mx-autoo mb-5">
+			<a class="course-card wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".20s"href="/Course/Ph.D.-in-Law">
+				<div class="course-subtitle">Research Degrees</div>
+				<div class="course-title">Ph.D in Law</div>
+				<div class="course-details">The Ph.D in Law programme is designed for post-graduate students who wish to advance their studies through research in law.</div>
+				<div class="course-icon"> <i class="fa fa-angle-right"></i></div>
+			</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div></div><div class='section'>
+<div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
+	<div class="section-title">University Research Centres</div>
+	<div class='owl-carousel' id='center-data'>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/files/ccc/image/5fab61cb7dcd8b0b9ff995fa52f7a7b3/3_phtml_689adba58f06c.png)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Alternative-Dispute-Resolution">Centre for Alternative Dispute Resolution</a>
+			<div class="center-desc">The Centre for Alternative Dispute Resolution (ADR) aims to promote the
+importance and usage of Alternative Dispute Resolution to professionals both
+legal and non-legal, governmental and non-governmental organisations, the
+society at large an in particular to the people in and around TNNLU by
+collaborating with governmental and non-governmental organisations and
+promoting research and writing activities.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/files/ccc/image/314eaaae171b24f24c07b5dd4fba80fa/cbhr___1_675fb9ceec370.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Business-and-Human-Rights">Centre for Business and Human Rights</a>
+			<div class="center-desc">The (CBHR) centre for business and human rights will focus on the nexus between business agenda and protection of human rights. The centre will take up the most contemporary pressing issues on the intersection of business and human rights for instance like the core business practices that affects workers/gender/consumers/environment etc.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/files/ccc/image/94d3685aa2056f6dd1d4a52c018f1ba1/pexels_photo_839428_61bae4cbc8032.jpeg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Competition-Law">Centre for Competition Law (CCL)</a>
+			<div class="center-desc">TNNLU was selected by the Competition Commission of India (CCI), New Delhi under the
+CCI (Competition Assessment of Economic Legislations and Policies) Guidelines, 2017 to act as
+an Empanelled Institution (EI) for the purposes of carrying out Competition Assessment (CA)
+exercise of legislations, bills and policies from the domain of economics and other subject areas.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/files/ccc/image/e71db198558978fb267f2931b0ca4855/centre_for_ipr_studies_ciprs_tnnlu_logo_6ac62c4d32705.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Intellectual-Property-Rights-Studies">Centre for Intellectual Property Rights Studies</a>
+			<div class="center-desc">Centre for Intellectual Property Rights Studies</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/files/ccc/image/54f7bbe5756c76fa31d1183c02a0ddb4/cil_66d6df259fff9.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Investment-Laws">Centre for Investment Laws</a>
+			<div class="center-desc">The &lsquo;Centre for Investment Laws&rsquo; was established as a university-level research
+centre in 2021, by the Tamil Nadu National Law University (TNNLU) in response to
+the growing need for investment laws through leadership and capacity building in
+India and particularly the State of Tamilnadu.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/files/ccc/image/2f5029676ca78c7e6fea051f4f1dd8d5/pexels_photo_2219024_61bae9908c369.jpeg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Labour-and-Development-Studies">Centre for Labour and Development Studies</a>
+			<div class="center-desc">The Centre for Labour and
+Development Studies has been set up
+to promote interdisciplinary research
+and further legal awareness about the
+rights of workers engaged in both the
+organised and unorganised sectors. The
+Centre aspires to use an
+interdisciplinary lens in approaching
+different aspects of labour law
+regulation and governance by
+conceptualising contemporary issues
+in labour law in terms of interactions
+between law and socio-economic
+development.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/images/Center_default.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Law-and-Agriculture">Centre for Law and Agriculture</a>
+			<div class="center-desc">The Law and Agriculture Centre at Tamil Nadu National Law University aims to initiate, undertake, and inspire quality legal research to protect the rights of people associated with agriculture and to improve the quality and productivity in the agriculture sector.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/images/Center_default.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Research-and-Writing">Centre for Research &amp; Writing (CRW)</a>
+			<div class="center-desc">The TNNLU Centre for Research &amp; Writing (CRW) was inaugurated on February 5, 2018by Hon&rsquo;ble Justice Rajiv Shakdher, High Court of Delhi; Hon&rsquo;ble Justice T S Sivagnanam, High Court of Madras; Mr. PH Arvindh Pandian, Additional Advocate General, Tamil Nadu; and Mr. Manoj Pandey, Legal Adviser, Competition Commission of India.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/files/ccc/image/cd6478e8b4d60e75c089b8c249c126f5/cyber_law_logo_1_69e6117ff040c.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Research-Development-and-Training-in-Cyber-Laws-and-Cyber-Security">Centre for Research, Development, and Training in Cyber Laws and Cyber Security</a>
+			<div class="center-desc">The Centre for Research, Development, and Training in Cyber Laws and Cyber Security (CRDT-CLCS) of TNNLU comprises a dedicated team of research assistants and Volunteers guided by the faculty in charge.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/images/Center_default.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Studies-in-Access-to-Justice">Centre for Studies in Access to Justice</a>
+			<div class="center-desc">Equality is the foundation of all modern system of law and administration of justice. Preamble to the Constitution of India aspires to secure to all its citizens JUSTICE, social, economic and political; and EQUALITY of status and of opportunity; and to promote among them all.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/images/Center_default.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Studies-in-Environmental-and-Natural-Resources-Law">Centre for Studies in Environmental and Natural Resources Law</a>
+			<div class="center-desc">Environment and natural resources play a vital role in healthy and sustainable livelihood between generations on Mother Earth. The human interaction with natural resources for their overall development has led to ever-increasing quantities of degradation of resources at local, national, regional and international levels. All the environmental impacts are severely affecting human-related economic, social and cultural activities between generations. Various international environmental instruments provide the right to a clean and healthy environment as a fundamental human right to all.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/files/ccc/image/52218ed9157fd3f6833c937ddae7630e/final_logo__csahr_675bcdc931b6d.jpeg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Center-For-Study-Advocacy-of-Human-Rights">Centre For Study &amp; Advocacy of Human Rights</a>
+			<div class="center-desc">The Centre for Study and Advocacy of Human Rights has been established in the year 2021 to
+undertake and publish interdisciplinary research studies in the area of human rights (concept,
+law and enforcement), besides taking steps to spread human rights literacy among the needy
+and to promote human rights advocacy culture in the students.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/images/Center_default.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Centre-for-Study-in-Victimology">Centre for Study in Victimology</a>
+			<div class="center-desc">The Centre for Study in Victimology at Tamil Nadu National Law University, has been set up in the Year 2021 under the guidenceship of Hon&rsquo;ble Vice -Chancellor Professor, Dr.V.S.Elizabeth with the aim to contribute towards the interdisciplinary research in the field of Victimology and Victim Justice.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/images/Center_default.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Legal-Centre-for-History-of-South-India">Legal Centre for History of South India (LCHSI)</a>
+			<div class="center-desc">The Centre is the brainchild of the Vice-Chancellor, Prof.  (Dr.) V.S. Elizabeth who is a Professor History and has teaching experience of nearly 40 years.</div>
+		</div>
+	</div>
+	<div class='center-card' >
+		<div class='center-image'style="background-image:url(/images/Center_default.jpg)"></div>
+		<div class="center-details">
+			<a class="center-title" href="/Centers/Legal-Centre-For-Womens-Welfare">Legal Centre For Women's  Welfare</a>
+			<div class="center-desc">The Centre was established in March 2020. The Centre is the brainchild of the Vice Chancellor,Prof. V.S. Elizabeth, who is an expert in feminist jurisprudence and has a great concern regarding issues related to women.</div>
+		</div>
+	</div>
+	</div>
+	<div class="center-data-nav">
+		<div><button type="button" role="presentation" class="center-data-prev mr-3"><i class="fa fa-angle-left"></i></button></div>
+		<div class="center-data-dots "></div>
+		<div><button type="button" role="presentation" class="center-data-next ml-3"><i class="fa fa-angle-right"></i></button></div>
+	</div>
+</div>
+</div>
+<div class="counter-area" style="background-image: url('/images/news-default.jpg');">
+	<div class="container">
+		<div class="row">
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 counter-box wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".20s" >
+				<h2 class="about-counter title-bar-counter" data-num="4">4</h2>
+				<p>No. of Programmes</p>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 counter-box wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".40s" >
+				<h2 class="about-counter title-bar-counter" data-num="525">525</h2>
+				<p>Students</p>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 counter-box wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".60s">
+				<h2 class="about-counter title-bar-counter" data-num="28">28</h2>
+				<p>Professional Faculty</p>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 counter-box wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".80s">
+				<h2 class="about-counter title-bar-counter" data-num="14">14</h2>
+				<p>Research Centres</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class='section'>
+<div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay=".2s">
+	<div class="section-title">Facilties @ TNNLU</div>
+	<div class="row">
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-classroom"></i></div>
+				<div class="facitiy-text">ICT Classrooms</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-library-1"></i></div>
+				<div class="facitiy-text">Library</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-hospital"></i></div>
+				<div class="facitiy-text">Health Centre</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-law-1"></i></div>
+				<div class="facitiy-text">Legal Aid Clinic</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-dish"></i></div>
+				<div class="facitiy-text">Canteen</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-post-office"></i></div>
+				<div class="facitiy-text">India Post Office</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-bank"></i></div>
+				<div class="facitiy-text">UCO Bank</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-milk"></i></div>
+				<div class="facitiy-text">Aavin Parlour</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-motel"></i></div>
+				<div class="facitiy-text">Guest Accomodation</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-ambulance"></i></div>
+				<div class="facitiy-text">Ambulance Service</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-hotel"></i></div>
+				<div class="facitiy-text">Auditorium</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-cctv-camera"></i></div>
+				<div class="facitiy-text">360° CCTV</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-football"></i></div>
+				<div class="facitiy-text">Football Field</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-volleyball"></i></div>
+				<div class="facitiy-text">Volleyball Courts</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-badminton"></i></div>
+				<div class="facitiy-text">Indoor Badminton</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-basketball"></i></div>
+				<div class="facitiy-text">Basketball Court</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-weights"></i></div>
+				<div class="facitiy-text">Gymnasium</div>
+			</div>
+		</div>
+		<div class="col-6 col-md-4 col-xl-2 mb-2">
+			<div class="facitiy-card">
+				<div class="facitiy-icon"><i class="flaticon-conversation"></i></div>
+				<div class="facitiy-text">Recreation Room</div>
+			</div>
+		</div>		
+	</div>
+</div>
+</div>
+<script>
+head.load('/css/jquery.background-video.css','/css/owl.carousel.css','/js/owl.carousel.min.js','/js/jquery.autoscroll.js','/js/wow.min.js','/js/jquery.counterup.min.js','/js/waypoints.min.js','js/jquery.background-video.js');
+head.ready(function () {
+$(document).ready(function(){
+	var wow=new WOW({mobile:false});wow.init();
+	$('.jquery-background-video').bgVideo({fullScreen:!1,fadeIn:500,pauseAfter:0,fadeOnPause:!1,fadeOnEnd:!1,showPausePlay:!1,pausePlayXPos:'right',pausePlayYPos:'top',pausePlayXOffset:'100px',pausePlayYOffset:'100px'});
+	$( '.home-slider' ).owlCarousel( {
+		items: 1,
+		nav: true,
+		dots: true,
+		loop: true,
+		autoplay: true,
+		autoplayTimeout: 7500,
+		autoplaySpeed: 3000,
+		navSpeed: 1000,
+		dotsSpeed: 1000,
+		navText: [ '<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>' ]
+	} );
+	$( '#announcement-list' ).owlCarousel( {
+		items: 1,
+		nav: true,
+		dots: false,
+		loop: true,
+		autoplay: true,
+		responsive : {
+            480 : { items : 1  },
+            768 : { items : 2  },
+            1024 : { items : 3 }
+        },
+		autoplayTimeout: 7500,
+		autoplaySpeed: 3000,
+		navSpeed: 1000,
+		dotsSpeed: 1000,
+		navText: [ '<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>' ]
+	} );
+	$( '#center-data' ).owlCarousel( {
+		nav: false,
+		dots: true,
+		loop: true,
+		autoplay: true,
+		items : 1,
+		responsive : {
+            480 : { items : 1  },
+            768 : { items : 2  },
+            1024 : { items : 2 },
+            1199 : { items : 3 },
+        },
+		autoplayTimeout: 7500,
+		autoplaySpeed: 3000,
+		navSpeed: 1000,
+		dotsSpeed: 1000,
+		dotsContainer: '.center-data-dots',
+	} );
+	$(".center-data-next").click(function(){
+		$('#center-data').trigger('next.owl.carousel');
+	});
+	$(".center-data-prev").click(function(){
+		$('#center-data').trigger('prev.owl.carousel');
+	});
+	var aboutContainer = $('.about-counter');
+    if (aboutContainer.length) {
+        aboutContainer.counterUp({
+            delay: 50,
+            time: 5000
+        });
+
+    }
+});
+});
+</script></main>
+<footer class="footer">
+	<div class="container">
+		<!--<div class="footer-content">
+			<div class="footer-header">Usefull Links</div>
+			<div class="row" style='width:100%;'>
+			<div class='col-6 col-md-4 col-lg-3'><a class='usefull-link' href='https://www.tnnlu.ac.in/ADMISSION-TO-THE-VACANT-SEATS-UG' target="_blank">Admission-2025-26</a></div>			</div>
+		</div>-->
+		<div class="footer-content">
+			<a href='/Disclaimer' class='main-link' >Disclaimer</a><a href='/Terms-and-Conditions' class='main-link' >Terms & Conditions</a><a href='/Privacy-Policy' class='main-link' > Privacy Policy</a>		</div>
+		<div class="footer-content">
+			<a href='https://tnnlu.ac.in/' class='main-link' >Home</a><a href='/Faculty' class='main-link' >Faculty</a><a href='https://www.tnnlulibrary.net/' class='main-link' target="_blank">Library </a><a href='https://www.tnnlu.ac.in/TNNLU-AVS-2026-27' class='main-link' target="_blank">Admission</a><a href='https://www.tnnlu.ac.in/Online-Fees-Payments' class='main-link' >Fees Online</a><a href='/Alumni' class='main-link' >Alumni</a><a href='/Recruitment-Notification' class='main-link' >Careers</a><a href='/Tender' class='main-link' target="_blank">Tender</a><a href='/Contact' class='main-link' >Contact Us</a><a href='/Screen-Reader-Access' class='main-link' >Screen Reader Access</a>		</div>
+		<div class="footer-content py-3">
+			<div><img src="/images/TNNLU Footer.png" style="max-width:100%;width:250px;"></div>
+			<div class='ml-md-auto'><img src="/images/TNLU Tamil.png" style="max-width:100%;width:500px;"></div>
+		</div>
+		<div class="footer-content py-2 border-bottom-0 d-block d-md-flex">
+			<div>
+			<i class="fa fa-copyright"></i> 2023 <a href="https://www.tnnlu.ac.in">Tamil Nadu National Law University, Tiruchirappalli</a>
+			</div>
+			<div class='ml-md-auto text-center text-md-right'>Crafted by <a href="https://www.aretha.in">Aretha Team <svg class="aretha-logo" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="20px" height="20px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill:currentColor;margin-top:-5px;" viewBox="0 0 10000 10000" xmlns:xlink="http://www.w3.org/1999/xlink">
+					 <g id="Layer_x0020_1">
+					  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+					  <g id="_1107587552">
+					   <path class="fil0" d="M3914 8749c343,-2181 1158,-4242 2599,-6098l0 0c-303,1433 -307,3168 155,5133l0 1c-896,434 -1814,751 -2754,964l0 0 0 0z"></path>
+					   <path class="fil0" d="M8941 184c-638,393 -1250,876 -1819,1433 130,-546 301,-1087 516,-1617l-1 0 501 0c287,0 560,66 803,184l0 0z"></path>
+					   <path class="fil0" d="M10000 5526l0 0c-903,804 -1826,1455 -2774,1971 -465,-1764 -557,-3645 -192,-5476l0 0 0 1 0 0 0 0 0 0 0 0c308,-351 1848,-1757 1924,-1826l0 0 0 0 3 -3c614,306 1039,941 1039,1669l0 3664 0 0z"></path>
+					   <path class="fil0" d="M8176 10000c-323,-640 -594,-1310 -807,-2002l0 0c901,-455 1775,-1042 2630,-1767l1 0 0 1907c0,1011 -819,1841 -1824,1862l0 0 0 0z"></path>
+					   <path class="fil0" d="M3758 10000l11 0c23,-301 54,-599 94,-896l0 0c1013,-145 1986,-420 2928,-833l-1 0c151,560 339,1136 567,1729l18 0 -3617 0z"></path>
+					   <path class="fil0" d="M272 9104c1061,134 2075,157 3050,64l0 0 0 0c-39,276 -68,553 -87,832l21 0 -1394 0c-670,0 -1261,-360 -1590,-896l0 0 0 0z"></path>
+					   <path class="fil0" d="M1862 0l5740 0 0 0c-440,642 -747,1364 -957,2111l0 0 -1 1 0 0 -2 2c-1631,1790 -2850,4192 -3273,6747l-2 0c-1008,185 -2042,255 -3105,226l0 0 0 0c-166,-278 -262,-603 -262,-949l0 -6276c0,-1024 838,-1862 1862,-1862z"></path>
+					  </g>
+					 </g>
+					</svg></a></div>
+		</div>
+	</div>
+</footer>
+ <a id="totop" href="#top">
+	<i class="fa fa-angle-up"></i>
+</a>
+
+<!-- Admission 2026 Floating Popup Widget -->
+<div id="admission-popup" class="admission-popup-widget collapsed">
+	<div class="admission-popup-header" onclick="toggleAdmissionPopup()">
+		<span class="admission-popup-dot"></span>
+		<strong>Admission 2026</strong>
+		<span class="admission-popup-close" id="admission-popup-toggle">+</span>
+	</div>
+	<div class="admission-popup-body" id="admission-popup-body">
+		<div class="admission-popup-item">
+			<a href="/TNNLU-AVS-2026-27" class="admission-popup-link">
+				<span class="admission-popup-icon">&#9654;</span> UG & PG Programme
+			</a>
+		</div>
+		<div class="admission-popup-item">
+			<a href="https://drive.google.com/file/d/1zYosK7KxMteuoTm-uAaQUpL0P3ZKesPZ/view" class="admission-popup-link">
+				<span class="admission-popup-icon">&#9654;</span> PGDFLP
+			</a>
+		</div>
+	</div>
+</div>
+
+<style>
+.admission-popup-widget {
+	position: fixed;
+	bottom: 110px;
+	right: 0;
+	width: 220px;
+	background-color:var(--primary-color);
+	color: #fff;
+	border-radius: 8px 0 0 8px;
+	box-shadow: -3px 3px 12px rgba(0,0,0,0.35);
+	z-index: 9999;
+	font-family: inherit;
+	overflow: hidden;
+	transition: width 0.3s ease;
+}
+.admission-popup-header {
+	background-color: var(--primary-color);
+	padding: 10px 14px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	user-select: none;
+	border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+.admission-popup-header strong {
+	flex: 1;
+	font-size: 14px;
+	color: var(--white-color);
+}
+.admission-popup-dot {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: var(--highlight-color);
+	border-radius: 2px;
+	flex-shrink: 0;
+}
+.admission-popup-close {
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	line-height: 1;
+	flex-shrink: 0;
+}
+.admission-popup-body {
+	padding: 6px 0;
+}
+.admission-popup-item {
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.admission-popup-item:last-child {
+	border-bottom: none;
+}
+.admission-popup-link {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 10px 14px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+	transition: background 0.2s;
+}
+.admission-popup-link:hover {
+	background-color: rgba(255,255,255,0.12);
+	color: var(--highlight-color);
+	text-decoration: none;
+}
+.admission-popup-icon {
+	font-size: 10px;
+	color: var(--highlight-color);
+}
+.admission-popup-widget.collapsed .admission-popup-body {
+	display: none;
+}
+.admission-popup-widget.collapsed .admission-popup-close {
+	content: '+';
+}
+</style>
+
+<script>
+function toggleAdmissionPopup() {
+	var widget = document.getElementById('admission-popup');
+	var toggle = document.getElementById('admission-popup-toggle');
+	if (widget.classList.contains('collapsed')) {
+		widget.classList.remove('collapsed');
+		toggle.innerHTML = '&#8211;';
+	} else {
+		widget.classList.add('collapsed');
+		toggle.innerHTML = '+';
+	}
+}
+</script>
+
+</body>
+</html>

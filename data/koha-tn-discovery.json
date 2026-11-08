@@ -1,0 +1,210 @@
+{
+ "cutn": {
+  "probe": {
+   "url": "https://centrallibrary.cutn.ac.in/services/opac",
+   "ts": "2026-11-08T09:07:12Z",
+   "status": 200,
+   "bytes": 90319,
+   "ms": 2642,
+   "sha256": "77c534eb8c970232fc829ddd846a99530044a9888c83098ec18c60e26dd8d87b"
+  },
+  "links": [
+   "https://centrallibrary.cutn.ac.in/xmlrpc.php",
+   "https://centrallibrary.cutn.ac.in/feed/",
+   "https://centrallibrary.cutn.ac.in/comments/feed/",
+   "https://centrallibrary.cutn.ac.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcentrallibrary.cutn.ac.in%2Fservices%2Fopac%2F",
+   "https://centrallibrary.cutn.ac.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcentrallibrary.cutn.ac.in%2Fservices%2Fopac%2F&#038;format=xml",
+   "https://centrallibrary.cutn.ac.in/wp-json/",
+   "https://centrallibrary.cutn.ac.in/wp-json/wp/v2/pages/84",
+   "https://centrallibrary.cutn.ac.in/xmlrpc.php?rsd",
+   "https://centrallibrary.cutn.ac.in/services/opac/",
+   "https://centrallibrary.cutn.ac.in/wp-content/uploads/2022/05/Logo_Central_University_of_Tamil_Nadu-1-75x75.png",
+   "https://centrallibrary.cutn.ac.in/wp-content/uploads/2022/05/Logo_Central_University_of_Tamil_Nadu-1.png",
+   "https://centrallibrary.cutn.ac.in/"
+  ]
+ },
+ "tnpublib_root": {
+  "probe": {
+   "url": "https://bookprocurement.tamilnadupubliclibraries.org/",
+   "ts": "2026-11-08T09:07:14Z",
+   "status": 200,
+   "bytes": 92236,
+   "ms": 918,
+   "sha256": "ef11dc0a3c2a8a39c011754eda6a009b44fbef11ff0a47de0b2977d099fc1c5a"
+  },
+  "links": [
+   "#"
+  ]
+ },
+ "tnpublib_main": {
+  "probe": {
+   "url": "https://www.tamilnadupubliclibraries.org/",
+   "ts": "2026-11-08T09:07:40Z",
+   "status": 0,
+   "bytes": 0,
+   "ms": 25086,
+   "err": "<urlopen error [Errno 101] Network is unreachable>",
+   "sha256": ""
+  },
+  "links": []
+ },
+ "annauniv_lib": {
+  "probe": {
+   "url": "https://www.annauniv.edu/",
+   "ts": "2026-11-08T09:07:45Z",
+   "status": 200,
+   "bytes": 1161396,
+   "ms": 3520,
+   "sha256": "e571dca41cfcbd26a13c894885b3e435fb7fbe985bbe6da17473b15cbe089fd5"
+  },
+  "links": [
+   "https://library.annauniv.edu/",
+   "http://library.annauniv.edu/",
+   "https://www.annauniv.edu/pdf/Workshop_Brochure_BIOPAC_MP36.pdf",
+   "https://www.annauniv.edu/pdf/2. BIOPAC Workshop Brochure.pdf",
+   "https://www.annauniv.edu/pdf/ynumext24.pdf",
+   "https://www.annauniv.edu/pdf/MIT-Workshop Brochure.pdf",
+   "https://www.annauniv.edu/pdf/Library Book Exhibition.pdf",
+   "https://www.annauniv.edu/pdf/Library.pdf",
+   "https://www.annauniv.edu/pdf/Gift_ReadingBooks_Library.pdf",
+   "https://www.annauniv.edu/pdf/Recruitment_PAI_University_Library.pdf",
+   "https://www.annauniv.edu/tender/pdf/Library_eResourse_Publishers.pdf"
+  ]
+ },
+ "mkuniv": {
+  "probe": {
+   "url": "https://mkuniversity.ac.in/",
+   "ts": "2026-11-08T09:07:47Z",
+   "status": 200,
+   "bytes": 146,
+   "ms": 745,
+   "sha256": "7928de3c04069759ac9436df0fb225be257c4fce539724b970d704ac0de8317f"
+  },
+  "links": []
+ },
+ "bharathiar": {
+  "probe": {
+   "url": "https://www.b-u.ac.in/",
+   "ts": "2026-11-08T09:07:55Z",
+   "status": 200,
+   "bytes": 373794,
+   "ms": 7448,
+   "sha256": "423d59f8906ef1acbcbd73ec08dcc6b0458c42de3b94ba080bf802d4e44058b8"
+  },
+  "links": [
+   "/166/library"
+  ]
+ },
+ "bharathidasan": {
+  "probe": {
+   "url": "https://www.bdu.ac.in/",
+   "ts": "2026-11-08T09:07:58Z",
+   "status": 200,
+   "bytes": 79434,
+   "ms": 1548,
+   "sha256": "27d7aeccc98b3e1b5c298ed7bb8d6c12765ed421bc3cfa3732558b64e9709261"
+  },
+  "links": [
+   "//www.bdu.ac.in/library/",
+   "library/"
+  ]
+ },
+ "periyar": {
+  "probe": {
+   "url": "https://www.periyaruniversity.ac.in/",
+   "ts": "2026-11-08T09:08:01Z",
+   "status": 200,
+   "bytes": 98786,
+   "ms": 2098,
+   "sha256": "62a4fb839fd01fbf7b62c5e9ed36234846896f9b91368d769ad80268f1915cf3"
+  },
+  "links": [
+   "https://www.periyaruniversity.ac.in/Library_Home/home.html"
+  ]
+ },
+ "alagappa": {
+  "probe": {
+   "url": "https://alagappauniversity.ac.in/",
+   "ts": "2026-11-08T09:08:27Z",
+   "status": 0,
+   "bytes": 0,
+   "ms": 25078,
+   "err": "<urlopen error timed out>",
+   "sha256": ""
+  },
+  "links": []
+ },
+ "msuniv": {
+  "probe": {
+   "url": "https://www.msuniv.ac.in/",
+   "ts": "2026-11-08T09:08:54Z",
+   "status": 0,
+   "bytes": 0,
+   "ms": 25517,
+   "err": "<urlopen error timed out>",
+   "sha256": ""
+  },
+  "links": []
+ },
+ "tndalu": {
+  "probe": {
+   "url": "https://www.tndalu.ac.in/",
+   "ts": "2026-11-08T09:08:55Z",
+   "status": 200,
+   "bytes": 166319,
+   "ms": 417,
+   "sha256": "83c6ded62714f54a0e0d2a930a00d8226606cf2a4fd7cbf6cf0d460860e75f4a"
+  },
+  "links": [
+   "pdf/library/Book1.html"
+  ]
+ },
+ "tnou": {
+  "probe": {
+   "url": "https://www.tnou.ac.in/",
+   "ts": "2026-11-08T09:08:58Z",
+   "status": 200,
+   "bytes": 112196,
+   "ms": 1484,
+   "sha256": "10df5b63764a24b5306215f42048f75497652fba650e251302dc04a7aa6fcbdb"
+  },
+  "links": [
+   "SchoolLibrary.php",
+   "Library.php"
+  ]
+ },
+ "tanuvas": {
+  "probe": {
+   "url": "https://www.tanuvas.ac.in/",
+   "ts": "2026-11-08T09:09:01Z",
+   "status": 200,
+   "bytes": 64468,
+   "ms": 1903,
+   "sha256": "054be5c438c95cdadb5dd513aa42cff42447208f50a025b1cfa13c3bbb73d513"
+  },
+  "links": [
+   "mvc_library.php",
+   "libraryVcriNkl.php",
+   "https://tanuvas.ac.in/tirunel_library.php",
+   "libraryVcriOnd.php",
+   "libraryCfdt.php",
+   "library_cppm_hosur.php",
+   "library_pgrias.php",
+   "http://elibrary.tanuvas.org/"
+  ]
+ },
+ "tnnlu": {
+  "probe": {
+   "url": "https://www.tnnlu.ac.in/",
+   "ts": "2026-11-08T09:09:04Z",
+   "status": 200,
+   "bytes": 79851,
+   "ms": 1458,
+   "sha256": "1f51f31912ee924f01fe062d4e04f16aa2bb420d71cf46ca60325a7ae13322b1"
+  },
+  "links": [
+   "https://drive.google.com/file/d/1o48UWzoSuDfXKPshVlb3StptfULE3KCi/view?usp=sharing",
+   "https://www.tnnlulibrary.net/"
+  ]
+ }
+}

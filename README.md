@@ -95,6 +95,11 @@ Registry: `https://isbn.gov.in/Home/FillSearchText` (POST `searchtype=isbn_numbe
   `report/PHOENIX-DOSSIER.md`, `data/registry/phoenix-probes.jsonl`
 - 2026-11-07/08: full sweeps of both OPACs, 569 records, registry join —
   `data/final-classification.csv`, `evidence/SHA256SUMS`
+- 2026-11-08: TN Koha fleet sweep — 5 additional Koha catalogs probed (Periyar
+  University, Univ. of Madras, VIT, TNAU, CUTN); factory-fingerprint ISBN
+  9789394612709 ("Data Analysis Using Python", registry: Thenmozhi B) found in
+  ACL Chennai biblio 526405 + KCL Madurai biblio 100032, absent in all others —
+  `data/koha-tn-sweep.csv`, `scripts/koha-tn-sweep.py`
 
 Not affiliated with, endorsed by, or empanelled with any government body. Public
 records, public registry, reproducible pipeline. Complaint status: DVAC complaint

@@ -1,0 +1,2041 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta name="google-site-verification" content="gHFxE870xzqGCkCkIc4CmBjYp2qnWXt1hlWdrVZhDaM" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Google Analytics -->
+  <script>
+    window.ga = window.ga || function() {
+      (ga.q = ga.q || []).push(arguments)
+    };
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  <!-- End Google Analytics -->
+  <meta name="description" content="Periyar University">
+  <meta name="keywords" content="Periyar, University, Salem University, Periyar University">
+  <meta name="author" content="Periyar University">
+  <title>Periyar University, Salem</title>
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="Need/4.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="Need/4.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Need/4.5/custom.css">
+  <script type="text/javascript">
+    //$(document).ready(function () {
+    //Disable cut copy paste
+    //	$('body').bind('cut copy paste', function (e) {
+    //		e.preventDefault();
+    //	});
+
+    //Disable mouse right click
+    //	$("body").on("contextmenu",function(e){
+    //		return false;
+    //	});
+    //});
+  </script>
+  
+<script>
+    $(document).ready(function(){
+        // Open modal on page load
+        $("#myModal").modal('show');
+ 
+        // Close modal on button click
+        $(".btn").click(function(){
+        $("#myModal").modal('hide');
+       });
+		
+    });
+</script>
+
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'CMU Sans Serif Demi borderless';
+      font-weight: bold;
+    }
+  </style>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#scrolMarquee').start();
+      var originalSize = $('div').css('font-size');
+      // reset        
+      $(".resetMe").click(function() {
+        $('div').css('font-size', originalSize);
+        $('.headtext').css('font-size', 12);
+      });
+
+      // Increase Font Size          
+      $(".increase").click(function() {
+        var currentSize = $('div').css('font-size');
+        var currentSize = parseFloat(currentSize) * 1.2;
+        $('div').css('font-size', currentSize);
+
+        return false;
+      });
+
+      // Decrease Font Size       
+      $(".decrease").click(function() {
+        var currentFontSize = $('div').css('font-size');
+        var currentSize = $('div').css('font-size');
+        var currentSize = parseFloat(currentSize) * 0.8;
+        $('div').css('font-size', currentSize);
+        return false;
+      });
+
+    });
+  </script>
+  
+  <!-- FontAwesome 6 & Premium Fonts for Pop-up Modal -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <style>
+      /* =========================================================================
+         OFFICIAL PERIYAR UNIVERSITY - ULTRA-PREMIUM ANNOUNCEMENT POP-UP MODAL
+         Theme: Deep Royal Blue & Gold Highlights (Highly Professional & Responsive)
+         ========================================================================= */
+      
+      :root {
+          --pu-primary-blue: #000066;     /* Official Deep Navy Blue */
+          --pu-secondary-blue: #0a2540;   /* Deep Slate Navy for titles */
+          --pu-accent-blue: #2563eb;      /* Vibrant Royal Blue for micro-interactions */
+          --pu-accent-gold: #f59e0b;      /* Vibrant Amber Gold for premium badge highlights */
+          --pu-text-main: #0f172a;        /* Ultra dark text for maximum contrast and legibility */
+          --pu-text-muted: #475569;       /* Slate grey text for descriptions and metadata */
+          --pu-bg-white: #ffffff;
+          --pu-bg-gradient: linear-gradient(135deg, #000066 0%, #000044 100%); /* Header Gradient */
+          --pu-font-title: 'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          --pu-font-body: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          --pu-shadow-premium: 0 25px 60px -15px rgba(0, 0, 50, 0.28), 0 0 0 1px rgba(0, 0, 102, 0.05);
+          --pu-shadow-card: 0 4px 12px -2px rgba(0, 0, 50, 0.04), 0 0 0 1px rgba(0, 0, 102, 0.03);
+          --pu-shadow-card-hover: 0 16px 28px -6px rgba(0, 0, 102, 0.12), 0 0 0 1px rgba(0, 0, 102, 0.08);
+      }
+
+      /* Prevent scroll when modal is active */
+      body.pu-modal-open {
+          overflow: hidden;
+      }
+
+      /* Modal Overlay Backdrop - Luxury Glassmorphic Design */
+      #pu-modal-overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(15, 23, 42, 0.45); /* Modern deep slate backdrop */
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          z-index: 99999;
+          display: flex;
+          align-items: center; /* Center vertically for elegant presence */
+          justify-content: center;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+          padding: 20px;
+          overflow-y: auto;
+      }
+
+      /* Active overlay state */
+      #pu-modal-overlay.active {
+          opacity: 1;
+          visibility: visible;
+      }
+
+      /* Modal Window Box - Ultra Premium Rounded Dashboard */
+      #pu-modal-box {
+          background: var(--pu-bg-white);
+          width: 100%;
+          max-width: 950px;
+          border-radius: 20px; /* Modern elegant rounded corners */
+          box-shadow: var(--pu-shadow-premium);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          overflow: hidden;
+          position: relative;
+          transform: scale(0.95) translateY(-30px);
+          opacity: 0;
+          transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.4s ease;
+          display: flex;
+          flex-direction: column;
+          font-family: var(--pu-font-body);
+      }
+
+      /* Active modal window - spring bounce animation */
+      #pu-modal-overlay.active #pu-modal-box {
+          transform: scale(1) translateY(0);
+          opacity: 1;
+      }
+
+      /* Header design - Royal Blue & Rich Gold Highlights */
+      .pu-modal-header {
+          background: var(--pu-bg-gradient);
+          color: #ffffff;
+          padding: 22px 28px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+          border-bottom: 4px solid var(--pu-accent-gold); /* Radiant Gold divider line symbolizing quality */
+      }
+
+      /* Header design subtle vector decoration */
+      .pu-modal-header::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: radial-gradient(circle at 80% 50%, rgba(255, 255, 255, 0.08) 0%, transparent 60%);
+          pointer-events: none;
+      }
+
+      .pu-modal-header-title {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          position: relative;
+          z-index: 1;
+      }
+
+      /* Modernized Bullhorn Icon with soft background glow */
+      .pu-modal-header-title i {
+          font-size: 20px;
+          color: var(--pu-accent-gold);
+          background: rgba(255, 255, 255, 0.12);
+          width: 44px;
+          height: 44px;
+          border-radius: 12px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      }
+
+      .pu-modal-header-title div h3 {
+          margin: 0;
+          font-family: var(--pu-font-title);
+          font-size: 20px;
+          font-weight: 700;
+          letter-spacing: 0.5px;
+          text-transform: uppercase;
+          color: #ffffff;
+      }
+
+      .pu-modal-header-title div p {
+          margin: 4px 0 0 0;
+          font-size: 12px;
+          color: rgba(255, 255, 255, 0.85);
+          font-weight: 400;
+          letter-spacing: 0.2px;
+      }
+
+      /* Close Button - Clean glassmorphic circle button */
+      .pu-modal-close-btn {
+          background: rgba(255, 255, 255, 0.1);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          color: #ffffff;
+          font-size: 16px;
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          position: relative;
+          z-index: 1;
+      }
+
+      .pu-modal-close-btn:hover {
+          background-color: #ffffff;
+          color: var(--pu-primary-blue);
+          transform: scale(1.08) rotate(90deg); /* Beautiful rotate scale hover animation */
+          box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      }
+
+      /* Content body container */
+      .pu-modal-body {
+          padding: 26px 28px;
+          background: linear-gradient(180deg, #ffffff 0%, #fcfdfe 100%);
+          flex-grow: 1;
+      }
+
+      /* Columns Layout Container */
+      .pu-columns-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr; /* Two equal columns side-by-side */
+          gap: 24px;
+      }
+
+      /* Column Container */
+      .pu-column {
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+      }
+
+      /* Column Title styling - Premium Pill design with brand identity */
+      .pu-column-title {
+          font-family: var(--pu-font-title);
+          font-size: 14px;
+          font-weight: 700;
+          color: var(--pu-primary-blue);
+          margin: 0 0 6px 0;
+          padding: 10px 16px;
+          background: rgba(0, 0, 102, 0.04); /* Soft light-blue background tint */
+          border-left: 4px solid var(--pu-primary-blue); /* Solid brand accent border */
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+      }
+
+      .pu-column-title i {
+          font-size: 16px;
+          color: var(--pu-primary-blue);
+      }
+
+      /* Announcement Card - Soft Premium Shadow & Highlight Stripes */
+      .pu-announcement-card {
+          background: #ffffff;
+          border: 1px solid rgba(0, 0, 102, 0.07);
+          border-left: 5px solid var(--pu-primary-blue); /* Anchor stripe for recruitments */
+          border-radius: 12px;
+          padding: 12px 16px;
+          margin-bottom: 0px;
+          display: flex;
+          gap: 16px;
+          box-shadow: var(--pu-shadow-card);
+          opacity: 0;
+          transform: translateY(20px) scale(0.97);
+          transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
+                      box-shadow 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
+                      border-color 0.25s ease, 
+                      background-color 0.25s ease;
+      }
+
+      /* Set lighter anchor stripe for Admissions items */
+      .pu-announcement-card.pu-admission-item {
+          border-left-color: var(--pu-accent-blue);
+      }
+
+      /* Hover effect - Elegant dynamic slide and glow */
+      .pu-announcement-card:hover {
+          border-color: rgba(0, 0, 102, 0.15);
+          background: linear-gradient(180deg, #ffffff 0%, rgba(240, 244, 255, 0.45) 100%);
+          transform: translateY(-4px) scale(1.01);
+          box-shadow: var(--pu-shadow-card-hover);
+      }
+
+      /* Staggered entrance animation trigger */
+      #pu-modal-overlay.active .pu-announcement-card {
+          animation: puFadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+
+      /* Staggered animation delays for the 6 cards */
+      #pu-modal-overlay.active .pu-column:first-child .pu-announcement-card:nth-child(2) {
+          animation-delay: 0.1s;
+      }
+      #pu-modal-overlay.active .pu-column:first-child .pu-announcement-card:nth-child(3) {
+          animation-delay: 0.2s;
+      }
+      #pu-modal-overlay.active .pu-column:first-child .pu-announcement-card:nth-child(4) {
+          animation-delay: 0.3s;
+      }
+
+      #pu-modal-overlay.active .pu-column:last-child .pu-announcement-card:nth-child(2) {
+          animation-delay: 0.15s;
+      }
+      #pu-modal-overlay.active .pu-column:last-child .pu-announcement-card:nth-child(3) {
+          animation-delay: 0.25s;
+      }
+      #pu-modal-overlay.active .pu-column:last-child .pu-announcement-card:nth-child(4) {
+          animation-delay: 0.35s;
+      }
+
+      @keyframes puFadeInUp {
+          from {
+              opacity: 0;
+              transform: translateY(24px) scale(0.97);
+          }
+          to {
+              opacity: 1;
+              transform: translateY(0) scale(1);
+          }
+      }
+
+      /* Date Badge - Reimagined Modern Calendar Widget */
+      .pu-date-badge {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          border-radius: 12px;
+          width: 68px;
+          height: 68px;
+          min-width: 68px;
+          overflow: hidden;
+          background: #ffffff;
+          box-shadow: 0 4px 10px rgba(0, 0, 50, 0.05);
+          border: 1px solid rgba(0, 0, 102, 0.08);
+          align-self: center; /* Keep vertically centered */
+      }
+
+      /* Top "Posted on" Banner */
+      .pu-date-posted {
+          background-color: var(--pu-primary-blue);
+          color: #ffffff;
+          font-size: 8px;
+          font-weight: 700;
+          width: 100%;
+          text-align: center;
+          padding: 4px 0;
+          text-transform: uppercase;
+          letter-spacing: 0.8px;
+      }
+      
+      /* Date Badge Header styling for Admissions items */
+      .pu-announcement-card.pu-admission-item .pu-date-posted {
+          background-color: var(--pu-accent-blue);
+      }
+
+      /* Middle large day number */
+      .pu-date-day {
+          font-family: var(--pu-font-title);
+          font-size: 20px;
+          font-weight: 800;
+          color: var(--pu-secondary-blue);
+          line-height: 1.1;
+          margin-top: 3px;
+      }
+
+      /* Bottom Month/Year string e.g. 05/2026 */
+      .pu-date-my {
+          font-family: var(--pu-font-body);
+          font-size: 10px;
+          font-weight: 600;
+          color: var(--pu-text-muted);
+          margin-top: 2px;
+          margin-bottom: 2px;
+          letter-spacing: 0.2px;
+      }
+
+      /* Details text styling */
+      .pu-card-details {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          flex-grow: 1;
+      }
+
+      .pu-card-header-row {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          margin-bottom: 4px;
+      }
+
+      /* Modernized Badges */
+      .pu-badge {
+          font-size: 9px;
+          font-weight: 700;
+          padding: 3px 8px;
+          border-radius: 20px; /* Capsule pill styling */
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          display: inline-block;
+      }
+
+      .pu-badge-recruitment {
+          background-color: rgba(0, 0, 102, 0.06);
+          color: var(--pu-primary-blue);
+          border: 1px solid rgba(0, 0, 102, 0.1);
+      }
+
+      .pu-badge-admission {
+          background-color: rgba(37, 99, 235, 0.06);
+          color: var(--pu-accent-blue);
+          border: 1px solid rgba(37, 99, 235, 0.1);
+      }
+
+      /* Modernized pulsing badge for critical new alerts */
+      .pu-badge-new {
+          background: linear-gradient(135deg, var(--pu-accent-gold) 0%, #d97706 100%);
+          color: #ffffff;
+          border: none;
+          box-shadow: 0 2px 6px rgba(245, 158, 11, 0.3);
+          animation: puNewBadgePulse 2s infinite ease-in-out;
+      }
+
+      @keyframes puNewBadgePulse {
+          0% {
+              transform: scale(1);
+              box-shadow: 0 2px 6px rgba(245, 158, 11, 0.3);
+          }
+          50% {
+              transform: scale(1.05);
+              box-shadow: 0 2px 12px rgba(245, 158, 11, 0.6);
+          }
+          100% {
+              transform: scale(1);
+              box-shadow: 0 2px 6px rgba(245, 158, 11, 0.3);
+          }
+      }
+
+      /* Title text - Gorgeous typographic links */
+      .pu-announcement-title {
+          margin: 4px 0 6px 0;
+          font-family: var(--pu-font-title);
+          font-size: 14px;
+          line-height: 1.45;
+          font-weight: 700;
+          color: var(--pu-secondary-blue);
+          text-decoration: none;
+          transition: color 0.2s ease;
+      }
+
+      .pu-announcement-title:hover {
+          color: var(--pu-accent-blue);
+      }
+
+      /* Action View Link - Styled Interactive Arrow */
+      .pu-action-link {
+          align-self: flex-start;
+          font-size: 11px;
+          font-weight: 700;
+          color: var(--pu-primary-blue);
+          text-decoration: none;
+          display: inline-flex;
+          align-items: center;
+          gap: 5px;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          transition: color 0.2s ease;
+      }
+
+      .pu-action-link:hover {
+          color: var(--pu-accent-blue);
+      }
+
+      .pu-action-link i {
+          font-size: 10px;
+          transition: transform 0.25s cubic-bezier(0.25, 1, 0.5, 1);
+      }
+
+      .pu-action-link:hover i {
+          transform: translateX(4px); /* Animated arrow slide */
+      }
+
+      /* Footer styling - Luxurious & Minimalist */
+      .pu-modal-footer {
+          padding: 16px 28px;
+          background-color: #f8fafc;
+          border-top: 1px solid rgba(0, 0, 102, 0.05);
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 16px;
+      }
+
+      /* Custom Checkbox Design - No More Generic Inputs */
+      .pu-dont-show-container {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          font-size: 12px;
+          color: var(--pu-text-muted);
+          user-select: none;
+          font-weight: 600;
+          position: relative;
+      }
+
+      /* Hide default checkbox */
+      .pu-dont-show-container input {
+          position: absolute;
+          opacity: 0;
+          cursor: pointer;
+          height: 0;
+          width: 0;
+      }
+
+      /* Custom Checkbox Frame */
+      .pu-custom-checkbox {
+          width: 18px;
+          height: 18px;
+          border: 2px solid #cbd5e1;
+          border-radius: 4px;
+          display: inline-block;
+          margin-right: 8px;
+          background-color: #ffffff;
+          transition: all 0.25s ease;
+          position: relative;
+      }
+
+      /* Checked & Hover checkbox states */
+      .pu-dont-show-container:hover input ~ .pu-custom-checkbox {
+          border-color: var(--pu-accent-blue);
+          box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+      }
+
+      .pu-dont-show-container input:checked ~ .pu-custom-checkbox {
+          background-color: var(--pu-primary-blue);
+          border-color: var(--pu-primary-blue);
+      }
+
+      /* Custom Checkmark check sign */
+      .pu-custom-checkbox::after {
+          content: "";
+          position: absolute;
+          display: none;
+          left: 5px;
+          top: 2px;
+          width: 4px;
+          height: 8px;
+          border: solid white;
+          border-width: 0 2px 2px 0;
+          transform: rotate(45deg);
+      }
+
+      .pu-dont-show-container input:checked ~ .pu-custom-checkbox::after {
+          display: block;
+      }
+
+      /* Footer Close Button - Elegant Capsule Button */
+      .pu-footer-btn-close {
+          background-color: #f1f5f9;
+          color: var(--pu-text-muted);
+          border: 1px solid #e2e8f0;
+          padding: 8px 20px;
+          border-radius: 8px;
+          font-size: 12px;
+          font-weight: 700;
+          cursor: pointer;
+          transition: all 0.2s ease;
+      }
+
+      .pu-footer-btn-close:hover {
+          background-color: #e2e8f0;
+          color: var(--pu-text-main);
+          transform: translateY(-1px);
+      }
+
+      /* Floating Trigger Bell Icon - Glassmorphic Glowing Button */
+      #pu-floating-bell {
+          position: fixed;
+          bottom: 24px;
+          right: 24px;
+          width: 56px;
+          height: 56px;
+          border-radius: 50%;
+          background: linear-gradient(135deg, var(--pu-primary-blue) 0%, #0000aa 100%);
+          color: #ffffff;
+          box-shadow: 0 10px 25px -5px rgba(0, 0, 102, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          z-index: 9999;
+          transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+          border: 2px solid #ffffff;
+          animation: puBellPulse 2.5s infinite, puBellShake 6s infinite;
+      }
+
+      #pu-floating-bell:hover {
+          background: linear-gradient(135deg, #000088 0%, var(--pu-accent-blue) 100%);
+          transform: scale(1.1) translateY(-2px);
+          animation-play-state: paused; /* Pause animations on hover */
+          box-shadow: 0 16px 32px -5px rgba(0, 0, 102, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.2) inset;
+      }
+
+      #pu-floating-bell i {
+          font-size: 20px;
+          color: #ffffff;
+      }
+
+      /* Stunning floating tooltip with backdrop blur */
+      #pu-floating-bell .pu-tooltip {
+          position: absolute;
+          right: 66px;
+          background-color: rgba(15, 23, 42, 0.85);
+          backdrop-filter: blur(6px);
+          color: #ffffff;
+          padding: 6px 12px;
+          border-radius: 6px;
+          font-size: 11px;
+          font-weight: 700;
+          white-space: nowrap;
+          opacity: 0;
+          pointer-events: none;
+          transition: opacity 0.3s ease, transform 0.3s ease;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+          transform: translateX(10px);
+          border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      #pu-floating-bell:hover .pu-tooltip {
+          opacity: 1;
+          transform: translateX(0);
+      }
+
+      /* Pulsing Ring effect */
+      @keyframes puBellPulse {
+          0% {
+              box-shadow: 0 0 0 0 rgba(0, 0, 102, 0.5), 0 10px 25px -5px rgba(0, 0, 102, 0.4);
+          }
+          70% {
+              box-shadow: 0 0 0 12px rgba(0, 0, 102, 0), 0 10px 25px -5px rgba(0, 0, 102, 0.4);
+          }
+          100% {
+              box-shadow: 0 0 0 0 rgba(0, 0, 102, 0), 0 10px 25px -5px rgba(0, 0, 102, 0.4);
+          }
+      }
+
+      /* Rings shaking effect */
+      @keyframes puBellShake {
+          0%, 90%, 100% { transform: rotate(0); }
+          92%, 96% { transform: rotate(12deg); }
+          94%, 98% { transform: rotate(-12deg); }
+      }
+
+      /* Responsiveness */
+      @media (max-width: 992px) {
+          #pu-modal-box {
+              max-width: 90%;
+          }
+      }
+
+      @media (max-width: 768px) {
+          #pu-modal-overlay {
+              align-items: flex-start;
+              padding: 15px;
+          }
+          #pu-modal-box {
+              max-width: 100%;
+              border-radius: 16px;
+          }
+          .pu-modal-header {
+              padding: 16px 20px;
+          }
+          .pu-modal-body {
+              padding: 20px;
+          }
+          .pu-columns-container {
+              grid-template-columns: 1fr; /* Stack columns vertically on smaller screens */
+              gap: 18px;
+          }
+          .pu-column-title {
+              margin-top: 8px;
+          }
+          .pu-column:first-child .pu-column-title {
+              margin-top: 0;
+          }
+          #pu-floating-bell {
+              bottom: 16px;
+              right: 16px;
+              width: 48px;
+              height: 48px;
+          }
+      }
+
+      @media (max-width: 600px) {
+          .pu-modal-header-title div h3 {
+              font-size: 16px;
+          }
+          .pu-modal-header-title div p {
+              font-size: 10px;
+          }
+          .pu-announcement-card {
+              padding: 10px 12px;
+              gap: 12px;
+          }
+          .pu-date-badge {
+              width: 58px;
+              height: 58px;
+              min-width: 58px;
+          }
+          .pu-date-day {
+              font-size: 16px;
+          }
+          .pu-date-my {
+              font-size: 9px;
+          }
+          .pu-announcement-title {
+              font-size: 13px;
+          }
+          .pu-dont-show-container {
+              font-size: 11px;
+          }
+      }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row bg-theme-color text-white headtext">
+      <div class="col-md-4 text-left"> <span>அறிவால் விளையும் உலகு </span> </div>
+      <div class="col-md-4 text-center"><span> GSTIN:33AAAJP0951B1ZP &nbsp; CSR Reg.No: CSR00061509</span> </div>
+      <div class="col-md-4 text-right">
+        <div align="left" class="float-left"> <a class="btn btn-danger increase"><strong>A+</strong></a> <a
+            class="btn btn-danger resetMe"><strong>A</strong></a> <a
+            class="btn btn-danger decrease"><strong>A-</strong></a> </div>
+        <a href="https://www.facebook.com/profile.php?id=100085246909314" target="_blank"><img
+            src="Need/images/fb.jpg" height="30" width="40" title="Facebook" /></a> <a
+          href="https://www.instagram.com/periyar_univesity_official/" target="_blank"><img
+            src="Need/images/insta.jpeg" height="30" width="40" title="Instagram" /></a> <a
+          href="https://twitter.com/PeriyarVarsity" target="_blank"><img src="/Need/images/twitter.png"
+            height="25" width="35" title="Twitter" /></a> <a
+          href="https://www.youtube.com/channel/UCJqVMMa81Cnmu3LdLpsKXYw" target="_blank"><img
+            src="Need/images/youtube.png" height="40" width="45" title="Youtube" /></a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 text-left p-3"> <a href="https://www.periyaruniversity.ac.in/">
+            <img src="Need/images/logo.JPG" height="180" width="150" align="left" alt="Logo" /></a>
+          <h3 class="logotexttamil theme-color">பெரியார் பல்கலைக்கழகம்</h3>
+          <h5 class="logotamil">அரசு பல்கலைக்கழகம், சேலம்.</h5>
+          <h2 class="logotexteng">PERIYAR UNIVERSITY</h2>
+         <h5 class="logotext">State University - NAAC 'A++' Grade - NIRF Rank 94</h5>
+          <h5 class="logotext">State Public University Rank 40 - SDG Institutions Rank Band: 11-50</h5>
+          <h5 class="logotext">Salem - 636 011, Tamil Nadu, India.</h5>
+        </div>
+        <div class="col-md-2 text-left p-3">
+          <div class="col-md-12">
+            <!-- <img src="Need/logo/75.jpg" height="120" width="150" align="center" alt="Logo" />-->
+            <a href="https://www.periyaruniversity.ac.in/onlinepayment/"><br>
+              <br>
+              <br>
+              <img src="Need/images/PAYMENT.jpg" align="center" alt="pAYMENT" width="150"
+                height="75" /></a>
+          </div>
+        </div>
+        <div class="col-md-2 text-center">
+          <div class="row">
+            <div class="col-md-12"> <img src="Need/images/periyar.jpg" height="200" width="180"
+                align="right" alt="Logo" /> </div>
+            <div class="col-md-12"> </div>
+          </div>
+        </div>
+      </div>
+      
+  <!--   
+      
+       <div class="container-responsive">
+<div class="row">
+  <div class="col-md-6" align="center"> <a class="list-group-item border bg-danger text-white" href="https://www.periyaruniversity.ac.in/Graduate.php" target="_blank"><img src="https://www.periyaruniversity.ac.in/Need/images/homenew.gif" class="newgif" />REGISTRATION OF GRADUATES</a> </div>
+  
+  <div class="col-md-6" align="center"> <a class="list-group-item border bg-danger text-white" href="https://www.periyaruniversity.ac.in/Download.php">NAAN MUDHALVAN</a> </div>
+  
+ </div>
+<br>
+      -->
+
+
+ <div class="container-responsive">
+          <div class="row">
+        <div class="col-md-3" align="center"> 
+               <a class="dropdown-item bg-info text-white" href="https://www.periyaruniversity.ac.in/Download.php" target="_blank">NAAN MUDHALVAN</a> </div>
+               <div class="col-md-2" align="center"> <a class="dropdown-item bg-info text-white"
+                href="https://www.periyaruniversity.ac.in/duicp.php">DUIC</a> </div>
+           <div class="col-md-2" align="center"> <a class="dropdown-item bg-info text-white"
+                href="https://www.periyaruniversity.ac.in/intern.php">INTERNSHIP</a> </div>
+            
+           <div class="col-md-2" align="center"> <a class="dropdown-item bg-info text-white"
+                href="iic/">NISP</a></div>
+           <div class="col-md-3" align="center"><a class="dropdown-item bg-info text-white"
+                href="campusmap.php" target="_blank">CAMPUS TOUR</a> </div>
+             
+
+          </div>
+          <br>
+
+          
+          
+         
+          <div class="row bg-theme-color">
+            <style type="text/css">
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
+
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+}
+
+
+/* rotate caret on hover */
+.dropdown-menu>li>a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+}
+</style>
+<nav class="navbar navbar-expand-md"
+    style="padding-top: 5px; padding-right: 0px; padding-bottom: 5px; padding-left: 0px;">
+    <div class="navbar-collapse bg-theme-color" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-link" style="padding-right: 3px; padding-left: 3px;"> <a
+                    href="https://www.periyaruniversity.ac.in"><img
+                        src="https://www.periyaruniversity.ac.in/Need/images/home.png" height="20" width="15" /></a>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-white" href="#"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    University </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/AboutUs.php">About
+                            University</a> </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in">VC Desk</a>
+                    </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/services.php">Services</a>
+                    </li>
+                    <li> <a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Facilities.php">Facilities</a></li>
+                            
+                             <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">2(f) - 12 (B)</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Documents/2025/Ranking/2f.jpg">
+                                    2(f)</a> </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Documents/2025/Ranking/12b.jpg">
+                                    12(B)</a> </li>
+                           
+                        </ul>
+                    </li>
+                    
+                    
+                    <li> <a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Documents/2025/Ranking/tnapproval.pdf">Approval</a></li>
+                    <li> <a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Documents/2016/01/ACT-STATUTES-Book-2016.pdf">Act
+                            and Statutes</a></li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/rollcall.php">Roll Call</a>
+                    </li>
+                    <li> <a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Images/Fund_Agency.pdf">Funding Agency</a></li>
+                    <li> <a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Documents/2021/organogram.pdf">Organogram </a>
+                    </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/campusmap.php">Campus Map
+                        </a> </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-white" href="#"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Authorities </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li> <a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/chancellor.php">Chancellor</a> </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/prochancellor.php">Pro
+                            Chancellor</a> </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/vicechancellor.php">Vice
+                            Chancellor</a> </li>
+                    <li> <a class="dropdown-item" target="_blank"
+                            href="https://www.periyaruniversity.ac.in/Syndicate.php">Members of Syndicate</a></li>
+                    <li> <a class="dropdown-item" target="_blank"
+                            href="https://www.periyaruniversity.ac.in/Senate.php">Members of Senate</a> </li>
+                    <li> <a class="dropdown-item" target="_blank"
+                            href="https://www.periyaruniversity.ac.in/scaa.php">Members of Standing Committee</a> </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/PlanningBoard.php">Planning
+                            Board</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-white" href="#"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Administration </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/registrar.php">Registrar</a>
+                    </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/coe.php">Controller of
+                            Examinations</a> </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Dean.php">Deans and
+                            Coordinators</a> </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Finance.php">Finance
+                            Officer</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-white" href="#"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Academic </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+
+                    <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/dept">Schools and
+                            Departments</a> </li>
+                    <li><a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Documents/2021/CBCS_Regulations.pdf">CBCS
+                            Regulations</a> </li>
+                    <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Centres.php">Centres and
+                            Cells </a> </li>
+                    <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Awards.php">Awards and
+                            Honors</a> </li>
+                    <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Dept/pgex.php">Centre for PG
+                            and Research Studies</a> </li>
+
+                    <li><a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Community_Colleges.php">Community Colleges</a>
+                    </li>
+                    <li><a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Affiliated_Colleges.php">Affiliated Colleges</a>
+                    </li>
+
+
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">BOS Members</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Documents/2026/CDC/udbos.pdf">
+                                    University Departments</a> </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Documents/2026/CDC/ugbos.pdf">
+                                    Affiliated Colleges for UG Programmes</a> </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Documents/2026/CDC/pgbos.pdf">
+                                    Affiliated Colleges for PG Programmes</a> </li>
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Images/MOU.pdf">Memorandum of
+                            Understanding</a> </li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-white" href="#"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Admission </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Admission_Details.php">Admission Details</a></li>
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Programmes
+                            offered</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Programmes_offered.php"> University
+                                    Departments</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Programmes_offered_college23-24.php">Affiliated
+                                    Colleges</a></li>
+                            <!--	<li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/uicp.php">Industry – Academia Collaborative  Programmes</a></li> -->
+                        </ul>
+                    </li>
+                    <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Eligi.php">Eligibility
+                            Details</a> </li>
+                    <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/fees.php">Fees Structure</a>
+                    </li>
+                    <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Prospectus.php">Admission
+                            Process</a> </li>
+                    <li><a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/StudentCorner.php">Scholarships</a> </li>
+                    <li><a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Fellowship.php">Fellowship</a></li>
+                </ul>
+            </li>
+
+            <li> <a class="nav-link dropdown-toggle text-white" href="https://www.periyaruniversity.ac.in/Research/">
+                    Research </a>
+
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-white" href="#"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Examination </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/examfee.php">Revised Fees &
+                            PRIDE Fees Structure</a> </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/unclime.php">Unclaimed
+                            Certificates</a></li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/esanad.php">E-Sanad
+                            Services</a></li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/COEExamSche.php">Examination
+                            Schedule</a></li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Result.php">Results</a></li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Download.php">Downloads </a>
+                    </li>
+                    <li> <a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Cert_Procedure.php">Procedure for Certification
+                        </a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-white" href="#"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> IQAC
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/aboutiqac.php">About
+                            IQAC</a></li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/iqac.php">Members</a></li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/nacc.php">NAAC
+                            Accreditation</a> </li>
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Call for CAS
+                            (Application)</a>
+                        <ul class="dropdown-menu">
+                         <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Documents/2025/CDC/cas_ud_app_2025.pdf">2025 - UD</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Documents/2025/CDC/cas_pg_app_2025.pdf">2025 - PG</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Documents/2024/CDC/cas_app_2024.pdf">2024</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Documents/2023/CAS/CAS-Application-2018.pdf">2018</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Documents/2023/CAS/CAS-Application-2016.pdf">
+                                    2016</a> </li>
+                        </ul>
+                    </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Policies.php">Policies</a>
+                    </li>
+                    <li> <a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/Strategic_Plan.php">Strategic Plan </a> </li>
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">IQAC Meetings</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/iqcmeet.php">
+                                    Meetings Minutes</a> </li>
+                            <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/iqcatr.php"> Action
+                                    Taken Report</a> </li>
+                        </ul>
+                    </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/aqar.php">AQAR</a> </li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/feedbacksystem.php">Feedback
+                            System</a></li>
+                    <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/bestpractices.php">Best
+                            Practices</a></li>
+                    <!--	<li><a class="dropdown-item"   href="https://www.periyaruniversity.ac.in/aqar2021.php"> Format AQAR 2020-21</a> </li>-->
+                    <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/annualreport.php">Annual
+                            Report</a> </li>
+                    <li><a class="dropdown-item"
+                            href="https://www.periyaruniversity.ac.in/program_brochure.php">Programme Brochure</a> </li>
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">IIC</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/iic/"> NISP</a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-white" href="#"
+                    id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ranking</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                   <li> <a class="dropdown-item" href="https://www.periyaruniversity.ac.in/ariia.php">ARIIA</a> </li>
+                    <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/nirf.php"> NIRF</a> </li>
+                    <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">IIC</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Need/images/iic_23.jpg"> 2023-24</a> </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.periyaruniversity.ac.in/Need/images/iic22_23.jpg"> 2022-23</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://www.periyaruniversity.ac.in/Need/images/iic.jpg">
+                                    2021-22</a> </li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+
+
+            <li> <a class="nav-link text-white" href="http://pride.periyaruniversity.ac.in/"> DistanceEdu.</a></li>
+            <li> <a class="nav-link text-white" href="https://www.periyaruniversity.ac.in/Contact.php"> Contact</a></li>
+        </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+</nav>
+          </div>
+          <!-- /menu -->
+          <div class="container">
+            <div class="row">
+          <!--    <div class="col-md-2" align="center" id="vc"> <br />
+                <img src="Need/images/VC_Photo.jpg" class="img-thumbnail"> <a
+                  href="https://www.periyaruniversity.ac.in/" class="text-primary">
+                  <h6></h6>
+                  <h6> Vice Chancellor</h6>
+                </a>
+              </div>-->
+              <!--slider -->
+              <div class="col-sm-9">
+             <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                    <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                  </ol>
+                  <div class="carousel-inner">
+                  
+                       
+                  <div class="carousel-item active"> <img src="Need/images/grid.jpg" alt="Periyar"
+                        width="1100" height="500" class="rounded"> </div>
+                        
+                       
+                     
+                  <!--<div class="carousel-item"> <img src="Need/images/teachers.jpg" alt="TeachersDay"
+                        width="1100" height="500" class="rounded"> </div>
+                        
+                        
+                        
+                  <div class="carousel-item">
+                        <video height="350" width="100%" oncontextmenu="return false;" id="myVideo1" controls controlsList="nodownload">
+                        <source src="Need/images/Antiragging.mp4" type="video/mp4" >
+                        </video>
+                  </div>
+                 
+              
+                  
+                   <div class="carousel-item"> <img src="Need/images/krc1.jpg" alt="KRC"
+                        width="1100" height="500" class="rounded"> </div>
+                        
+                        <div class="carousel-item"> <img src="Need/images/krc2.jpg" alt="KRC"
+                        width="1100" height="500" class="rounded"> </div>
+                        
+                        <div class="carousel-item"> <img src="Need/images/krc3.jpg" alt="KRC"
+                        width="1100" height="500" class="rounded"> </div>
+                        
+                        <div class="carousel-item"> <img src="Need/images/krc4.jpg" alt="KRC"
+                        width="1100" height="500" class="rounded"> </div>
+                        
+                        <div class="carousel-item"> <img src="Need/images/krc5.jpg" alt="KRC"
+                        width="1100" height="500" class="rounded"> </div>
+                        
+                        
+                  <div class="carousel-item"> <img src="Need/images/pasumai.jpg" alt="Pasumai"
+                        width="1100" height="500" class="rounded"> </div>
+                  <div class="carousel-item"><center>
+                        <video height="350" width="100%" oncontextmenu="return false;" id="myVideo1" controls controlsList="nodownload">
+                        <source src="Need/images/pasumai.mp4"  type="video/mp4" >
+                        </video><center>
+                  </div>
+                  <div class="carousel-item">
+                        <video width="100%" oncontextmenu="return false;" id="myVideo1" controls controlsList="nodownload">
+                        <source src="Need/images/pasumai1.mp4"  type="video/mp4" >
+                        </video>
+                  </div>
+                  <div class="carousel-item"> <img src="Need/images/sip.jpg" alt="Tholiyal"
+                        width="1100" height="500" class="rounded"> </div>
+                   <div class="carousel-item"> <img src="Need/images/tholiyal.jpg" alt="Tholiyal"
+                        width="1100" height="500" class="rounded"> </div>
+                  <div class="carousel-item"> <img src="Need/images/cm.jpg" alt="A++"
+                        width="1100" height="500" class="rounded"> </div>
+                   <div class="carousel-item"> <img src="Need/images/vc-com.jpg" alt="A++"
+                        width="1100" height="500" class="rounded"> </div>-->
+                    <div class="carousel-item"> <img src="Need/images/naacrank.jpg" alt="A++"
+                        width="1100" height="500" class="rounded"> </div>
+                    <div class="carousel-item"> <img
+                        src="https://www.periyaruniversity.ac.in/Need/images/iic_23.jpg"
+                        alt="IIC" width="1100" height="500" class="rounded"> </div>
+                    <div class="carousel-item"> <img
+                        src="https://www.periyaruniversity.ac.in/Need/images/iic22_23.jpg"
+                        alt="IIC" width="1100" height="500" class="rounded"> </div>
+                    <div class="carousel-item"> <img src="Need/images/coexcel.jpg" alt="Excellence"
+                        width="1100" height="500" class="rounded"> </div>
+                   
+                  </div>
+                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+                      class="sr-only">Previous</span> </a> <a class="carousel-control-next"
+                    href="#myCarousel" role="button" data-slide="next"> <span
+                      class="carousel-control-next-icon" aria-hidden="true"></span> <span
+                      class="sr-only">Next</span> </a>
+                </div>
+                <br />
+
+               
+
+                <script>
+                  $(document).ready(function() {
+                    // Activate Carousel with a specified interval
+                    $("#myCarousel").carousel({
+                      interval: 7000
+                    });
+                  
+
+                    // Enable Carousel Indicators
+                    $(".item1").click(function() {
+                      $("#myCarousel").carousel(0);
+                    });
+                    $(".item2").click(function() {
+                      $("#myCarousel").carousel(1);
+                    });
+                    $(".item3").click(function() {
+                      $("#myCarousel").carousel(2);
+                    });
+
+                    // Enable Carousel Controls
+                    $(".carousel-control-prev").click(function() {
+                      $("#myCarousel").carousel("prev");
+                    });
+                    $(".carousel-control-next").click(function() {
+                      $("#myCarousel").carousel("next");
+                    });
+                  });
+                </script>
+              </div>
+              <!--slider -->
+              ﻿<div class="col-sm-3">
+  <style>
+    .NewsEvent {
+
+      font-size: 14px;
+    }
+  </style>
+  <!-- Nav tabs -->
+  <ul class="nav nav-pills">
+    <li class="nav-item"> <a class="nav-link active " data-toggle="pill" href="#News">&nbsp;&nbsp;&nbsp;News and
+        Announcements&nbsp;&nbsp;</a> </li>
+    <!-- <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#Events">Events</a> </li>
+  <li class="nav-item"> <a class="nav-link" data-toggle="pill" href="#Tenders">Tenders</a> </li>-->
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane container active " id="News">
+      <marquee SCROLLDELAY=200 behavior="scroll" direction="up" onMouseOver="this.stop();"
+        onMouseOut="this.start();" height="290">
+    </div>
+    
+    
+    
+    
+    
+    <div class="date_time">Posted on 06 NOV 2026</div>
+    <div class="NewsEvent"> “Supply and Installationof APC 10 KVA Online UPS Battery under Buyback System” -03 Nos to be utilized by the Department of Mathamatics, Periyar University, Salem</br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten168.pdf"> View Details</a> </p>
+    </div>
+    
+     <div class="date_time">Posted on 06 NOV 2026</div>
+    <div class="NewsEvent">Supply and Installation of a Tensile Testing Machine to be utilized by the Department of Food Science and Nutrition under CMRG Project at the Periyar University, Salem </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten167.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 06 NOV 2026</div>
+    <div class="NewsEvent">supply and installation of a Microplate Reader to be utilized by the Department of Physics – CMRG Project at Periyar University, Salem</br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten166.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 06 NOV 2026</div>
+    <div class="NewsEvent">Supply and Installation of Xerox Machine – Buyback Method to be utilized by the Department of Environmental Science, Periyar University, Salem </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten165.pdf"> View Details</a> </p>
+    </div>
+    
+     <div class="date_time">Posted on 06 NOV 2026</div>
+    <div class="NewsEvent">Supply and Installation of a Inverted Phase Contrast Microscope to be utilized by the Department of Zoology under CMRG Project at the Periyar University, Salem </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten164.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 06 NOV 2026</div>
+    <div class="NewsEvent">AI powered online examination system for the use of Controller of Examinations, Periyar University, Salem,</br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten163.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 06 NOV 2026</div>
+    <div class="NewsEvent">“Supply of Electrical materials” to be utilized by Periyar University, Salem, </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten162.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 06 NOV 2026</div>
+    <div class="NewsEvent">Supply and Installation of Xerox Machine with Metal Trolley – Buyback Method to be utilized by the Department of Chemistry, Periyar University, Salem </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten161.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 02 NOV 2026</div>
+    <div class="NewsEvent">ODL  AUGUST - 2026 Examinations – HALL TICKET</br>
+      <p> <a href="http://pridecoe.periyaruniversity.ac.in/ODL_AUG26_hall_ticket/"> View Details</a> </p>
+    </div>
+    
+     <div class="date_time">Posted on 02 NOV 2026</div>
+    <div class="NewsEvent">CDOE - AUGUST – 2026 Special Examinations – HALL TICKET</br>
+      <p> <a href="http://pridecoe.periyaruniversity.ac.in/CDOE_SPL_AUG26_hall_ticket/"> View Details</a> </p>
+    </div>
+    
+    
+    <div class="date_time">Posted on 02 NOV 2026</div>
+    <div class="NewsEvent">UICP - AUGUST – 2026 Special Examinations – HALL TICKET</br>
+    <p> <a href="http://pridecoe.periyaruniversity.ac.in/UICP_SPL_AUG26_hall_ticket/"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 27 OCT 2026</div>
+    <div class="NewsEvent">Supply and installation of a Apple Laptop (14-inch MacBook Pro) to be utilized by the Department of Chemistry under ANRF - IRG project at Periyar University, Salem</br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten160.pdf"> View Details</a> </p>
+    </div>
+    
+     <div class="date_time">Posted on 27 OCT 2026</div>
+    <div class="NewsEvent">Supply and Installation of a Water Vapor Permeability Tester to be utilized by the Department of Food Science and Nutrition under CMRG Project at the Periyar University, Salem</br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten159.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 23 OCT 2026</div>
+    <div class="NewsEvent">பன்முகத் தளத்தில் பெரியாரியம் (இரண்டுநாள் தேசியக் கருத்தரங்கம்)</br>
+      <p> <a href="http://www.periyaruniversity.ac.in/Documents/2026/Advt/notice.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 23 OCT 2026</div>
+    <div class="NewsEvent">Repair and Servicing of a Voltas 2 ton AC in the Department of Computer Science at Periyar University, Salem. </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten158.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 23 OCT 2026</div>
+    <div class="NewsEvent">Repair and Servicing of a Ricoh MP 2501 sp in the Controller Office (CRE IV) at Periyar University, Salem. </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten157.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 23 OCT 2026</div>
+    <div class="NewsEvent">Repair and Servicing of a Printer-cum-Xerox (Model: Ricoh 2501 SP) in the Registrar Office (Section-Planning and Development) at Periyar University, Salem. </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten156.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 23 OCT 2026</div>
+    <div class="NewsEvent">Repair and Servicing of a 15KVA UTL Online UPS-2Nos. in the Computer Centre at Periyar University, Salem. </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten155.pdf"> View Details</a> </p>
+    </div>
+    
+    <div class="date_time">Posted on 23 OCT 2026</div>
+    <div class="NewsEvent">Repair and Servicing of a Printer-cum-Xerox (Model: Canon 4525) in the Registrar Office at Periyar University, Salem. </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten154.pdf"> View Details</a> </p>
+    </div>
+    
+     <div class="date_time">Posted on 15 OCT 2026</div>
+    <div class="NewsEvent">“Supply and Installation of RO water purification system” to be utilized by National service scheme at Periyar University, Salem,</br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten153.pdf"> View Details</a> </p>
+    </div>
+    
+     <div class="date_time">Posted on 15 OCT 2026</div>
+    <div class="NewsEvent">“Supply of Plumbing materials” to be utilized by Periyar University, Salem,</br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten152.pdf"> View Details</a> </p>
+    </div>
+    
+     <div class="date_time">Posted on 15 OCT 2026</div>
+    <div class="NewsEvent">“Supply and Installation of APC 10 KVA Online UPS Battery under Buyback System” -03 Nos to be utilized by the Department of Mathamatics, Periyar University, Salem </br>
+      <p> <a href="https://www.periyaruniversity.ac.in/Documents/2026/Tender/ten151.pdf"> View Details</a> </p>
+    </div>
+    
+
+     
+    
+    
+     
+     
+    
+
+
+
+
+	
+
+
+
+
+    </marquee>
+  </div>
+  <!--
+<div class="tab-pane container fade" id="Events">
+<marquee  SCROLLDELAY=200 behavior="scroll" direction="up" onMouseOver="this.stop();" onMouseOut="this.start();" height="200">
+  
+ 
+	
+  
+  
+	
+ </marquee>
+</div>
+
+  <div class="tab-pane container fade" id="Tenders">
+      <marquee  SCROLLDELAY=200 behavior="scroll" direction="up" onMouseOver="this.stop();" onMouseOut="this.start();" height="230">
+    
+    
+    
+    
+ 
+   
+    
+   
+
+	 </marquee>
+    </div>
+    -->
+</div>
+<p class="text-danger text-right"><strong><a href="https://www.periyaruniversity.ac.in/AllNewsEvents.php">View
+      All</a></strong></p>
+</div>
+            </div>
+            <div class="container">
+              <div class="row">
+                ﻿<div class="col-md-12 bg-theme-color text-white text-center  shadow p-2 mb-3 rounded" style="color:#FFFFFF;">
+	<marquee id="scrolMarquee" behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();"
+		scrolldelay="100">
+
+<img src="https://www.periyaruniversity.ac.in/Need/images/new.gif" class="newgif" />
+		<a href="http://pridecoe.periyaruniversity.ac.in/schme_aug2026_duic.pdf">“DUIC AUGUST - 2026 Examinations – Time Table”</a>	
+<img src="https://www.periyaruniversity.ac.in/Need/images/new.gif" class="newgif" />
+		<a href="https://www.periyaruniversity.ac.in/Documents/2026/Advt/c3.pdf">July 2026 Session Ph.D., CET Examination Result Intimation</a>			
+<img src="https://www.periyaruniversity.ac.in/Need/images/new.gif" class="newgif" />
+		<a href="http://research.periyaruniversity.ac.in/rnd-app/student-app/home">	Research Online Portal 2026 Onwards</a>	    
+<img src="https://www.periyaruniversity.ac.in/Need/images/new.gif" class="newgif" />
+		<a href="https://www.periyaruniversity.ac.in/Documents/2026/Advt/ad14.pdf">Admission Notification - Advertisement</a>
+
+<img src="https://www.periyaruniversity.ac.in/Need/images/new.gif" class="newgif" />
+		<a href="http://43.204.58.223/pu_uam_online/index.php/admission/OnlineApplicationForm/homePage/home/2">University Department Admission 2026-27 Online Application link</a>		
+		
+<img src="https://www.periyaruniversity.ac.in/Need/images/new.gif" class="newgif" />
+		<a href="http://43.204.58.223/pu_uam_pgext/index.php/admission/OnlineApplicationForm/homePage/home/2">PG Extension Centre admission 2026-27 Online Application link</a>
+
+
+
+
+				
+	
+
+
+
+
+
+
+
+
+	</marquee>
+</div>
+                
+                
+	 
+	 
+                <div class="col-md-7">
+                  <h3> Welcome to Periyar University </h3>
+                  <p class="text-justify p-2"> The Government of Tamil Nadu established Periyar
+                    University in Salem on <strong>17<sup>th</sup> September 1997</strong> as per
+                    the provisions of the Periyar University Act, 1997. The University covers the
+                    area comprising four districts namely Salem, Namakkal, Dharmapuri, and
+                    Krishnagiri. The University obtained 12(B) and 2(f) status from the University
+                    Grants Commission, New Delhi and it was Accredited by the NAAC with
+                    <strong>&ldquo;</strong><strong>A++&rdquo; Grade in 2021</strong>. The
+                    University secured 56<sup>th</sup> rank among Indian Universities by <strong>MoE
+                      NIRF 2024.</strong>The University is named after the Great Social Reformer
+                    <strong>E.V. Ramasamy</strong>, affectionately called as &ldquo;Thanthai
+                    Periyar&rdquo;. The University aims at developing knowledge in various fields to
+                    realize the maxim inscribed in the logo <strong>&ldquo;Arival Vilayum
+                      Ulagu&rdquo; (Wisdom Maketh the World)</strong>. &ldquo;Holistic development
+                    of the students&rdquo; is the primary objective of the University. Periyar University 
+                    imparts higher education through three modes: Departments of Study and Research, the 
+                    affiliated Colleges, and Centre for Distance and Online Education - (CDOE). 
+                    <span
+                      align="right"> <a href="AboutUs.php"> <strong>Read More...</strong></a>
+                    </span>
+                  </p>
+                </div>
+                 <div class="col-lg-3 card mb-4 box-shadow" align="center"> <a class="text-white"
+                    target="_blank" href="https://www.periyaruniversity.ac.in/Documents/2025/Ranking/UGC-Public Self Disclosure.pdf"><img
+                      src="Need/images/ugc_logo.png" height="80" width="85" /></a>
+                       <h6 class="text-pink">UGC - Public Self Disclosure</h6>
+                      
+                  <hr />
+                  <a class="text-white" target="_blank"
+                    href="https://www.periyaruniversity.ac.in/aicte.php"><img
+                      src="Need/bg/aicte1.jpg" height="80" width="130" /></a>
+                  <h6 class="text-pink">AICTE - Mandatory Disclosure</h6>
+                  <hr />
+                  
+                  <a
+                    href="https://www.periyaruniversity.ac.in/SDG.php" align="center"><img
+                      src="Need/logo/SDG.jpeg" height="90" width="90"  /> </a>
+                      <h6 class="text-pink">SDGs / Sustainable Practices</h6>
+                   
+                 
+                </div>
+                <div class="col-lg-2 card mb-4 box-shadow" align="center"> <a class="text-white" target="_blank"
+                    href="https://www.periyaruniversity.ac.in/Alumni.php"><img
+                      src="Need/images/alumni.jpg" height="105" width="130" /></a>
+                  
+                      
+                  <hr />
+                  <a href="https://www.periyaruniversity.ac.in/Library_Home/home.html"
+                    align="center"><img src="Need/images/lib1.jpg" height="80"
+                      width="110" /> </a>
+                  <h6 class="text-pink">Library</h6>
+                  <hr />
+                  
+                  <a href="http://pride.periyaruniversity.ac.in/" align="center"><img src="Need/images/cdoe.png" height="110"
+                      width="110" /> </a>
+
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12" align="center">
+                <h3 align="center"> Digital Actions</h3>
+              </div>
+            </div>
+            <div class="row footer bg-white" align="center">
+              <div class="col-md-2 card mb-4 box-shadow"> <a href="Placement.php"><img
+                    src="Need/images/Placement.png" />
+                  <h4 class="text-pink">Placement</h4>
+                </a> </div>
+              <div class="col-md-2 card mb-4 box-shadow"> <a href="https://nad.digitallocker.gov.in/"><img
+                    src="Need/logo/dlock.jpg" />
+                  <h4 class="text-pink"> NAD Cell </h4>
+                </a> </div>
+              <div class="col-md-2 card mb-4 box-shadow"> <a href="https://www.swayam.gov.in/"> <img
+                    src="Need/logo/swayam.jpg" />
+                  <h4 class="text-pink">Swayam Cell</h4>
+                </a> </div>
+              <div class="col-md-2 card mb-4 box-shadow"> <a
+                  href="https://www.periyaruniversity.ac.in/ijcii/home.html"> <img
+                    src="Need/logo/publogo.png" />
+                  <h4 class="text-pink"> Journal </h4>
+                </a> </div>
+              <div class="col-md-2 card mb-4 box-shadow"> <a href="bicpu/"><img
+                    src="Need/logo/pubics.webp" />
+                  <h6 class="text-pink"> EDII-TN/DST i - TBI Funded Incubation </h6>
+                </a> </div>
+                <div class="col-md-2 card mb-4 box-shadow"> <a href="pu-ittc.php"><img
+                    src="Need/logo/pu-ittc.png" />
+                  <h4 class="text-pink"> PU-ITTC </h4>
+                </a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="container bg-theme-color p-3">
+          <div class="row">
+            <div class="col-lg-3">
+              <h5 class="text-warning text-center">Academic</h5>
+              <ul class="nav flex-column pl-5">
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="Affiliated_Colleges.php">Affiliated Colleges</a> </li>
+                <li class="nav-item"> <a class="nav-link   text-white" href="Centres.php">Centres &
+                    Cells</a> </li>
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="Community_Colleges.php">Community Colleges</a> </li>
+                <li class="nav-item"> <a class="nav-link   text-white" href="https://periyaruniversity.ac.in/dept">Departments</a>
+                </li>
+               
+                <li class="nav-item"> <a class="nav-link   text-white" href="Dept/pgex.php">PG Research
+                    Studies</a> </li>
+                     <li class="nav-item"> <a class="nav-link   text-white"
+                    href="https://www.periyaruniversity.ac.in/Programmes_offered.php">Programmes Offered</a> </li>
+                <li class="nav-item"> <a class="nav-link   text-white" href="centre/CRI/">PU-CRI</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h5 class="text-warning text-right">Quick Links</h5>
+              <ul class="nav flex-column pl-5">
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="https://www.periyaruniversity.ac.in/Major_Achievements.php">Achievements</a>
+                </li>
+                <li class="nav-item"> <a class="nav-link   text-white" href="antirag.php">Anti
+                    Ragging</a> </li>
+                <li class="nav-item"> <a class="nav-link   text-white" href="Download.php">Downloads
+                  </a></li>
+                <li class="nav-item"> <a class="nav-link   text-white" href="esanad.php">e - Sanad
+                    Services</a> </li>
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="Facilities.php">Facilities</a></li>
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="login.php">Login </a>
+                </li>
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="newsletter.php">Newsletter</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h5 class="text-warning text-center">&nbsp;</h5>
+              <ul class="nav flex-column pl-5">
+                <li class="nav-item"> <a class="nav-link   text-white" href="Dept/ped.php/">Physical
+                    Education</a></li>
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="Placement.php">Placement</a></li>
+
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="https://www.periyaruniversity.ac.in/Documents/2021/Publications.pdf">Publication
+                  </a> </li>
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="https://www.periyaruniversity.ac.in/Documents/2026/terms/terms.pdf"
+                    target="_blank">Terms & Conditions</a>
+                  </li>
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="">Students
+                    Portal</a>
+                <li class="nav-item"> <a class="nav-link   text-white"
+                    href="https://www.periyaruniversity.ac.in/Syllabi.php">Syllabus</a> </li>
+                <li class="nav-item"><a class="nav-link  text-white"
+                    href="https://www.periyaruniversity.ac.in/Documents/2021/pride/UICP_List.pdf">UICP
+                    Institute List</a> </li>
+                </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 text-center">
+              <h5 class="text-warning text-center">Employee Portal</h5>
+              <a class="nav-link   text-white" href="https://faculty.periyaruniversity.ac.in/"> <img
+                  src="Need/logo/logo.JPG" height="170" width="136" class="rounded img-thumbnail" />
+              </a>
+               <br>
+              <a class="dropdown-item active" href="https://periyaruniversity.irins.org">IRINS-PU</a><br>
+            <!-- <a class="dropdown-item active" href="https://www.periyaruniversity.ac.in/PU_FACULTY/">Employee Portal_Old</a><br>-->
+            </div>
+          </div>
+          <div class="col-lg-12 text-center bg-primary">
+            <ul class="nav justify-content-center">
+              <!--
+              <li class="nav-item"><a class="nav-link  text-white" href="stu_fdbk.php">Feedback</a>
+              -->
+              <li class="nav-item"><a class="nav-link  text-white" href="https://faculty.periyaruniversity.ac.in/">Faculty Portal</a>
+              </li>
+              <li class="nav-item"><a class="nav-link  text-white" href="Awards.php">Awards</a> </li>
+             <li class="nav-item"><a class="nav-link  text-white" href="bestpractices.php">Best
+                  Practices</a> </li>
+              <li class="nav-item"><a class="nav-link  text-white" href="Gallery.php">Gallery</a> </li>
+              <li class="nav-item"><a class="nav-link  text-white" href="Policies.php"> Policies </a>
+              </li>
+              <li class="nav-item"><a class="nav-link  text-white" href="RTI.php">RTI</a> </li>
+              <li class="nav-item"><a class="nav-link  text-white" href="services.php">Services</a> </li>
+              <li class="nav-item"><a class="nav-link  text-white" href="StudentCorner.php">Student
+                  Corner</a> </li>
+              <li class="nav-item"><a class="nav-link  text-white"
+                  href="https://mail.google.com/a/periyaruniversity.ac.in" target="_blank"><i
+                    class="fa fa-envelope-o"></i>WebMail</a></li>
+              <li class="nav-item"><a class="nav-link bg-danger  text-white" href="Helpdesk.php">Help
+                  Desk</a> </li>
+              <li class="nav-item"> <a class="nav-link   text-white"
+                    href="https://www.periyaruniversity.ac.in/Documents/2026/terms/terms.pdf"
+                    target="_blank">Terms & Conditions</a>
+                  </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="container p-2">
+          <div class="row">
+            <div class="col-12 pl-5 text-dark">
+              <p style="font-size:14px; text-align:center; "> 
+                <strong> &copy; Periyar University - 2026.
+                  All Rights Reserved.<br>
+                </strong> Developed & Maintaining by 
+                <a href="https://www.periyaruniversity.ac.in/centre/CompCentre/"
+                  style="color:#0056b3;"> Computer Centre</a> 
+                <br>
+              </p>
+            </div>
+          </div>
+        </div>
+
+    <!-- ANNOUNCEMENT POP-UP MODAL OVERLAY -->
+    <div id="pu-modal-overlay">
+        <!-- MODAL BOX CONTAINER -->
+        <div id="pu-modal-box">
+            
+            <!-- HEADER -->
+            <div class="pu-modal-header">
+                <div class="pu-modal-header-title">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <div>
+                        <h3>Latest Announcements</h3>
+                        <p>செய்திகள் மற்றும் அறிவிப்புகள் | Periyar University</p>
+                    </div>
+                </div>
+                <button class="pu-modal-close-btn" onclick="closePeriyarPopup()" title="Close Notification">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- BODY (SCROLLABLE LIST) -->
+            <div class="pu-modal-body">
+                
+                <div class="pu-columns-container">
+                    
+                    <!-- COLUMN 1: RECRUITMENTS -->
+                    <div class="pu-column">
+                        <h3 class="pu-column-title">
+                            <i class="fa-solid fa-user-tie"></i> ADVERTISEMENT FOR PROJECT ASSISTANT POSITION THE CMRG PROJECT  & AICTE PROJECT </h3>
+
+                        <!-- Announcement 1: Guest Faculty -->
+                        <div class="pu-announcement-card">
+                            <!-- Calendar Style Date -->
+                            <div class="pu-date-badge">
+                                <div class="pu-date-posted">Posted on</div>
+                                <div class="pu-date-day">09</div>
+                                <div class="pu-date-my">09/2026</div>
+                            </div>
+                            <!-- Details & Badges -->
+                            <div class="pu-card-details">
+                                <div class="pu-card-header-row">
+                                    <span class="pu-badge pu-badge-recruitment"> ADVERTISEMENT FOR PROJECT ASSISTANT POSITION THE CMRG PROJECT & AICTE PROJECT</span>
+                                    <span class="pu-badge pu-badge-new">New</span>
+                                </div>
+                                <!--<a href="https://www.periyaruniversity.ac.in/Documents/2026/Advt/ad20.pdf" target="_blank" class="pu-announcement-title">
+                                    Advertisement & Application for Project Assistant Position the CMRG Project - Department of Energy Science and Technology
+                                </a>
+                                <a href="https://www.periyaruniversity.ac.in/Documents/2026/Advt/ad20.pdf" target="_blank" class="pu-action-link">
+                                    View Details <i class="fa-solid fa-arrow-right"></i>
+                                </a>-->
+                                
+                            </div>
+                        </div></div>
+
+                    <!-- COLUMN 2: ADMISSIONS & ONLINE APPLICATIONS -->
+                    <div class="pu-column">
+                        <h3 class="pu-column-title">
+                            <i class="fa-solid fa-graduation-cap"></i> Admissions for University Departments & CDOE / சேர்க்கை
+                        </h3>
+
+                        <!-- Announcement 4: Admission Advertisement -->
+                        <div class="pu-announcement-card pu-admission-item">
+                            <!-- Calendar Style Date -->
+                            <div class="pu-date-badge">
+                                <div class="pu-date-posted">Posted on</div>
+                                <div class="pu-date-day">21</div>
+                                <div class="pu-date-my">04/2026</div>
+                            </div>
+                            <!-- Details & Badges -->
+                            <div class="pu-card-details">
+                                <div class="pu-card-header-row">
+                                    <span class="pu-badge pu-badge-admission">Admission</span>
+                                </div>
+                                <a href="https://www.periyaruniversity.ac.in/Documents/2026/Advt/ad14.pdf" target="_blank" class="pu-announcement-title">
+                                    Admission Notification (2026-2027)
+                                </a>
+                                <a href="https://www.periyaruniversity.ac.in/Documents/2026/Advt/ad14.pdf" target="_blank" class="pu-action-link">
+                                    View Details <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Announcement 5: University Dept admission link -->
+                        <div class="pu-announcement-card pu-admission-item">
+                            <!-- Calendar Style Date -->
+                            <div class="pu-date-badge">
+                                <div class="pu-date-posted">Posted on</div>
+                                <div class="pu-date-day">21</div>
+                                <div class="pu-date-my">04/2026</div>
+                            </div>
+                            <!-- Details & Badges -->
+                            <div class="pu-card-details">
+                                <div class="pu-card-header-row">
+                                    <span class="pu-badge pu-badge-admission">Online Apply</span>
+                                </div>
+                                <a href="http://43.204.58.223/pu_uam_online/index.php/admission/OnlineApplicationForm/homePage/home/2" target="_blank" class="pu-announcement-title">
+                                    University Dept Admission 2026-27 Link
+                                </a>
+                                <a href="http://43.204.58.223/pu_uam_online/index.php/admission/OnlineApplicationForm/homePage/home/2" target="_blank" class="pu-action-link" style="color: var(--pu-secondary-blue);">
+                                    Apply Online <i class="fa-solid fa-laptop-code"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Announcement 6: PG Extension Centre admission link -->
+                        <div class="pu-announcement-card pu-admission-item">
+                            <!-- Calendar Style Date -->
+                            <div class="pu-date-badge">
+                                <div class="pu-date-posted">Posted on</div>
+                                <div class="pu-date-day">21</div>
+                                <div class="pu-date-my">04/2026</div>
+                            </div>
+                            <!-- Details & Badges -->
+                            <div class="pu-card-details">
+                                <div class="pu-card-header-row">
+                                    <span class="pu-badge pu-badge-admission">Online Apply</span>
+                                </div>
+                                <a href="http://43.204.58.223/pu_uam_pgext/index.php/admission/OnlineApplicationForm/homePage/home/2" target="_blank" class="pu-announcement-title">
+                                    PG Extension Centre Admission 2026-27 Link
+                                </a>
+                                <a href="http://43.204.58.223/pu_uam_pgext/index.php/admission/OnlineApplicationForm/homePage/home/2" target="_blank" class="pu-action-link" style="color: var(--pu-secondary-blue);">
+                                    Apply Online <i class="fa-solid fa-laptop-code"></i>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    
+                    
+                    
+                     <!-- Announcement 7: Centre for Distance and Online Education - CDOE  -->
+                        <div class="pu-announcement-card pu-admission-item">
+                            <!-- Calendar Style Date -->
+                            <div class="pu-date-badge">
+                                <div class="pu-date-posted">Posted on</div>
+                                <div class="pu-date-day">28</div>
+                                <div class="pu-date-my">08/2026</div>
+                            </div>
+                            <!-- Details & Badges -->
+                            <div class="pu-card-details">
+                                <div class="pu-card-header-row">
+                                    <span class="pu-badge pu-badge-admission">Online Apply</span>
+                                </div>
+                                <a href="https://pride.periyaruniversity.ac.in/admission/student/login" target="_blank" class="pu-announcement-title">
+                                    Centre for Distance and Online Education - CDOE Admission Link
+                                </a>
+                                <a href="https://pride.periyaruniversity.ac.in/admission/student/login" target="_blank" class="pu-action-link" style="color: var(--pu-secondary-blue);">
+                                    Apply Online <i class="fa-solid fa-laptop-code"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- COLUMN 3:  Post of Field Investigator under ICSSR Major Research Project -->
+                    <div class="pu-column">
+                        <h3 class="pu-column-title">
+                            <i class="fa-solid fa-ICSSR-cap"></i> Post of Field Investigator under ICSSR Major Research Project  </h3>
+
+                        <!-- Announcement 8: Post of Field Investigator under ICSSR Major Research Project  -->
+                        <div class="pu-announcement-card pu-ICSSR-item">
+                            <!-- Calendar Style Date -->
+                            <div class="pu-date-badge">
+                                <div class="pu-date-posted">Posted on</div>
+                                <div class="pu-date-day">30</div>
+                                <div class="pu-date-my">09/2026</div>
+                            </div>
+                            <!-- Details & Badges -->
+                            <div class="pu-card-details">
+                                <div class="pu-card-header-row">
+                                    <span class="pu-badge pu-badge- ICSSR">Advertisement for the Post of Field Investigator under ICSSR Major Research Project at Dept of Commerce,Periyar University</span>
+                                </div>
+                                <a href="Documents/2026/Advt/ad22.pdf" target="_blank" class="pu-action-link">
+                                    "Advertisement for the Post of Field Investigator under ICSSR Major Research Project at Dept of Commerce,Periyar University"<i class="fa-solid fa-arrow-right"></i>
+                               </div>
+                        </div>
+                        
+                        <!-- COLUMN 4:Recuirtment for Guest faculty-->
+                    <div class="pu-column">
+                        <h3 class="pu-column-title">
+                            <i class="fa-solid fa-graduation-cap"></i><a href="" target="_blank" class="pu-action-link"></a>Advertisement and Application for Guest Faculty</h3>
+
+                        <!-- Announcement 9: Guest Faculty Notification -->
+                        <div class="pu-announcement-card pu-Guest Faculty-item">
+                            <!-- Calendar Style Date -->
+                            <div class="pu-date-badge">
+                                <div class="pu-date-posted">Posted on</div>
+                                <div class="pu-date-day">AUG</div>
+                                <div class="pu-date-my">2026</div>
+                            </div>
+                            <!-- Details & Badges -->
+                            <div class="pu-card-details">
+                                <div class="pu-card-header-row">
+                                    <span class="pu-badge pu-badge-Guest Faculty"><a href="" target="_blank" class="pu-action-link"></a>Advertisement and Application for Guest Faculty -  </span>
+                                </div>
+                                
+                               <!-- <a href="https://www.periyaruniversity.ac.in/Documents/2026/Advt/gl8.pdf" target="_blank" class="pu-action-link">
+                                    "Advertisement and Application for Guest Faculty - Dept of Textile & Apparel Design"<i class="fa-solid fa-arrow-right"></i>
+                               <a href="https://www.periyaruniversity.ac.in/Documents/2026/Advt/gl9.pdf" target="_blank" class="pu-action-link">
+                                    "Advertisement and Application for Guest Faculty - Dept of Food Science & Nutrition"<i class="fa-solid fa-arrow-right"></i>
+                               <a href="https://www.periyaruniversity.ac.in/Documents/2026/Advt/gl10.pdf" target="_blank" class="pu-action-link">
+                                    "Advertisement and Application for Guest Faculty - CDOE"<i class="fa-solid fa-arrow-right"></i>-->
+                            </div>
+                        </div>  
+                        
+
+                </div> 
+
+            </div><!-- end columns container -->
+
+            <!-- FOOTER controls -->
+            <div class="pu-modal-footer">
+                <!-- Custom "Don't show again" Checkbox -->
+                <label class="pu-dont-show-container" id="pu-dont-show-label">
+                    <input type="checkbox" id="pu-dont-show-checkbox">
+                    <span class="pu-custom-checkbox"></span>
+                    Don't show this again today (இனி காட்ட வேண்டாம்)
+                </label>
+                <!-- Quick Close Button -->
+                <button class="pu-footer-btn-close" onclick="closePeriyarPopup()">Close</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- FLOATING BELL BUTTON (To manual re-open the pop-up modal) -->
+    <div id="pu-floating-bell" onclick="openPeriyarPopup()" title="Click to view recent announcements">
+        <i class="fa-solid fa-bell"></i>
+        <span class="pu-tooltip">View Recent Announcements</span>
+    </div>
+
+    <!-- Script Block for Pop-up Modal -->
+    <script>
+        // Get elements
+        const puOverlay = document.getElementById('pu-modal-overlay');
+        const puCheckbox = document.getElementById('pu-dont-show-checkbox');
+
+        // Check if user set a preference to hide the modal today
+        function checkPopupPreference() {
+            const expiryTime = localStorage.getItem('pu_popup_hide_expiry');
+            const currentTime = new Date().getTime();
+
+            // If an expiry exists and is in the future, don't show the modal
+            if (expiryTime && currentTime < parseInt(expiryTime)) {
+                return false; 
+            }
+            
+            // Clean up stale local storage
+            if (expiryTime && currentTime >= parseInt(expiryTime)) {
+                localStorage.removeItem('pu_popup_hide_expiry');
+            }
+            return true;
+        }
+
+        // Open the pop-up modal with animations and lock scrolling
+        function openPeriyarPopup() {
+            document.body.classList.add('pu-modal-open');
+            puOverlay.classList.add('active');
+        }
+
+        // Close the pop-up modal and restore scrolling
+        function closePeriyarPopup() {
+            // Save state if "Don't show again" is checked
+            if (puCheckbox.checked) {
+                // Set expiry for 24 hours (1 day) from now
+                const oneDayInMs = 24 * 60 * 60 * 1000;
+                const expiryTimestamp = new Date().getTime() + oneDayInMs;
+                localStorage.setItem('pu_popup_hide_expiry', expiryTimestamp.toString());
+            }
+
+            puOverlay.classList.remove('active');
+            document.body.classList.remove('pu-modal-open');
+        }
+
+        // Trigger on load
+        window.addEventListener('DOMContentLoaded', () => {
+            if (checkPopupPreference()) {
+                // Snappy delay of 300ms for rapid visual presentation
+                setTimeout(openPeriyarPopup, 300);
+            }
+        });
+
+        // Close when clicking outside the modal box (on the backdrop overlay)
+        puOverlay.addEventListener('click', (e) => {
+            if (e.target === puOverlay) {
+                closePeriyarPopup();
+            }
+        });
+
+        // Close when ESC key is pressed
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && puOverlay.classList.contains('active')) {
+                closePeriyarPopup();
+            }
+        });
+    </script>
+</body>
+
+</html>

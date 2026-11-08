@@ -1,0 +1,2169 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--begin::Head-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://www.tndalu.ac.in/frontend/css/bootstrap.min.css">
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="https://www.tndalu.ac.in/frontend/css/animate.css">
+    <link rel="stylesheet" href="https://www.tndalu.ac.in/frontend/css/stellarnav.css" />
+    <link rel="stylesheet" href="https://www.tndalu.ac.in/frontend/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://www.tndalu.ac.in/frontend/css/style.css?v=1580653675">
+    <link rel="stylesheet" href="https://www.tndalu.ac.in/frontend/css/responsive.css?v=225093000">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <title>The Tamil Nadu Dr.Ambedkar Law University</title>
+    <link rel="shortcut icon" href="https://www.tndalu.ac.in/frontend/images/favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    </head>
+<body >
+    <!-- Mainnav Section -->
+<div class="main-nav">
+    <div class="container-fluid">
+      <div id="main-nav" class="stellarnav">
+              <ul><li><a  href="https://www.tndalu.ac.in/fees-online-payment"><b style="color:white">Fees Online Payment</b></a></li><li class="r-none"><a href="javascript:void(0)">|</a></li><li><a  href="javascript:void(0)"><b style="color:white">Students Corner</b></a><ul><li style="color:white"><a href="https://www.tndalu.ac.in/scstscc-scholarship-and-tuition-fee-waiver">SC/ST/SCC Scholarship And Tuition Fee Waiver</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/fees-online-payment">Fees Online Payment</a></li><li style="color:white"><a target="_blank" href="https://www.ugc.gov.in/grievance/ErrorPage/ErrorPage/index?code=404">Student/Complainant Login</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/students-prevention-of-caste-based-discrimination">Students Prevention Of Caste Based Discrimination</a></li></ul></li><li class="r-none"><a href="javascript:void(0)">|</a></li><li><a  href="https://www.tndalu.ac.in/rti"><b style="color:white">RTI</b></a></li><li class="r-none"><a href="javascript:void(0)">|</a></li><li><a  href="https://www.tndalu.ac.in/naac"><b style="color:white">NAAC</b></a></li><li class="r-none"><a href="javascript:void(0)">|</a></li><li><a  href="javascript:void(0)"><b style="color:white">Extra Curricular</b></a><ul><li style="color:white"><a target="_blank" href="https://www.tndalu.ac.in/storage/menufile/pdf_69fc959f677224.81863662.jpg">Dr. B.R. Ambedkar Center</a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/ncc">NCC</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/nss">NSS</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/mca">MCA</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/mun">MUN</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/yrc">YRC</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/sports">SPORTS</a></li></ul></li><li class="r-none"><a href="javascript:void(0)">|</a></li><li><a  href="https://www.tndalu.ac.in/tenders"><b style="color:white">Tenders</b></a></li><li class="r-none"><a href="javascript:void(0)">|</a></li><li><a  href="https://www.tndalu.ac.in/legal-aid"><b style="color:white">Legal Aid</b></a></li><li class="r-none"><a href="javascript:void(0)">|</a></li><li><a  href="javascript:void(0)"><b style="color:white">IP Cell</b></a><ul><li style="color:white"><a href="https://www.tndalu.ac.in/awareness-programme">Awareness Programme</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/ip-cell">Ip Cell</a></li><li style="color:white"><a target="_blank" href="pdf/2022/july/report_on_erode_manjal.pdf">Erode Manjal</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/ip-gallery">IP Gallery</a></li></ul></li><li class="r-none"><a href="javascript:void(0)">|</a></li><li><a  href="https://www.tndalu.ac.in/archive"><b style="color:white">Archive</b></a></li></ul>
+
+      </div>
+    </div>
+  </div>
+  <!-- Mainnav Section End -->
+
+  <!-- Header Section -->
+  <div class="header_sec">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-7 col-md-7 col-12">
+          <div class="headerlogo"><a href="https://www.tndalu.ac.in"><img src="https://www.tndalu.ac.in/frontend/images/headerlogo.png" class="img-fluid" alt="" title="The Tamil Nadu Dr.Ambedkar Law University -
+            தமிழ்நாடு டாக்டர் அம்பேத்கர் சட்டப் பல்கலைக்கழகம்"></a></div>
+        </div>
+
+        <div class="col-lg-5 col-md-5 col-12">
+          <div class="headeright">
+            <div class="headerlogo2"><img src="https://www.tndalu.ac.in/frontend/images/sj.gif" class="img-fluid" alt=""></div>
+           
+              <div class="law_add">
+                <!-- <h4>15th National Voter’s Day 2025</h4>
+                <h5>“Nothing like Voting, I vote for Sure”</h5>
+                <h6>"வாக்களிப்பதே சிறந்தது, நிச்சயம் வாக்களிப்பேன் "</h6> -->
+                <a href="https://tndalu.emsecure.in/5YearsLaw2026" class="admission-btn" style="color:white" target="_blank">LAW ADMISSION 2026 - 2027</a>
+                <a href="https://meta-secure.com/TNDALU/candidatelogin.aspx" class="admission-btn m-1" style="color:white" target="_blank">ONLINE COUNSELLING</a>
+                <!--<a href="https://www.youtube.com/live/GqmH9-xY_Vo?si=S_IEStNq3ewGe1Jt" class="admission-btn m-1" style="color:white" target="_blank">15th CONVOCATION LIVE</a>-->
+              </div>
+              
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header Section End -->
+
+  <!-- Mainnav 02 Section -->
+  <div class="main-nav main-nav2">
+    <div class="">
+      <div id="main-nav2" class="stellarnav">
+      <ul><li><a  href="javascript:void(0)"><b style="color:white">University</b></a><ul><li style="color:white"><a href="https://www.tndalu.ac.in/appointment-of-vc">APPOINTMENT OF VC</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/university-profile">University Profile</a></li><li style="color:white"><a target="_blank" href="pdf/VisionPlan2030.pdf">University Vision</a></li><li style="color:white"><a target="_blank" href="pdf/ActStatutesSchedulesRegulations.pdf">Act & Statutes</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/vision-and-mission">Vision And Mission</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/regulations">Regulations</a></li></ul></li><li><a  href="javascript:void(0)"><b style="color:white">Admin</b></a><ul><li style="color:white"><a href="https://www.tndalu.ac.in/chancellor">Chancellor</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/pro-chancellor">Pro-chancellor</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/vice-chancellor">Vice-chancellor</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/convenor-committee">Convenor Committee</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/registrar">Registrar</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/controller-of-examination">Controller Of Examination</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/librarian">Librarian</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/finance-officer">Finance Officer</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/general-administration">General Administration</a></li></ul></li><li><a  href="javascript:void(0)"><b style="color:white">Governing Bodies</b></a><ul><li style="color:white"><a href="https://www.tndalu.ac.in/syndicate">Syndicate</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/academic-senate">Academic Senate</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/board-of-studies">Board Of Studies</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/planning-board">Planning Board</a></li></ul></li><li><a  href="javascript:void(0)"><b style="color:white">Committee</b></a><ul><li style="color:white"><a href="https://www.tndalu.ac.in/syndicate-sub-committee">Syndicate Sub-Committee</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/other-commitee">Other Commitee</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/committee-for-school-of-excellence-in-law">Committee For School Of Excellence In Law</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/anti-ragging">Anti Ragging</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/internal-complaints-committee">Internal Complaints Committee</a></li></ul></li><li><a  href="javascript:void(0)"><b style="color:white">Academic</b></a><ul><li style="color:white"><a href="https://www.tndalu.ac.in/school-of-excellence-in-law">School Of Excellence In Law</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/dean-directors">Dean & Directors</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/head-of-the-department">Head Of The Department</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/faculties">Faculties</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/placements">Placements</a></li><li style="color:white"><a target="_blank" href="pdf/2022/aug/Internship_rules-2022.pdf">Internship</a></li></ul></li><li><a  href="javascript:void(0)"><b style="color:white">Research</b></a><ul><li style="color:white"><a target="_blank" href="https://www.tndalu.ac.in/storage/menufile/pdf_67e652b047c117.56153111.pdf">List Of Candidates Of Ph.D Research Program - 2025-2026</a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/lld-admission-post-doctorate-program">LL.D. Admission [Post Doctorate Program]</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/research-admission-2025-26">RESEARCH ADMISSION 2025-26</a></li><li style="color:white"><a target="_blank" href="
+/prephd-results/login.php">Pre Ph.D. April 2024 Examinations - Result</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/viva-completed-list">Viva Completed List</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/phd-admission-2024-25">Ph.D. Admission 2024-25.</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/prospectus">Prospectus</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/board-of-research">Board Of Research</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/research-profile">Research Profile</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/research-journals">Research Journals</a></li><li style="color:white"><a target="_blank" href="pdf/2024/Feb/Plagerism_Certificate.pdf">Certificate Of Plagerism Check</a></li></ul></li><li><a  href="javascript:void(0)"><b style="color:white">Admission</b></a><ul><li style="color:white"><a target="_blank" href="https://tndalu.emsecure.in/5YearsLaw2026">Admission 2026 - 27</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/how-to-fill-online-application">How To Fill Online Application</a></li><li style="color:white"><a target="_blank" href="pdf/2023/may/NRI_Quota.pdf">Payment Details For NRI Quota</a></li></ul></li><li><a  href="https://www.tndalu.ac.in/affiliated-college"><b style="color:white">Affiliated College</b></a></li><li><a target="_blank" href="#"><b style="color:white">Library</b></a><ul><li style="color:white"><a target="_blank" href="https://tndalu.ac.in/new arrivals - 2024-2025.xls">NEW ARRIVALS 2024-2025</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/book-access1">BOOK ACCESS1</a></li><li style="color:white"><a target="_blank" href="https://www.onos.gov.in/publishers">Access To E-Resources (ONOS)</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/old-question-papers">Old Question Papers</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/overview">Overview</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/visually-challenged-differently-abled">Visually Challenged / Differently Abled</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/e-books">E-Books</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/open-access-resource">Open Access Resource</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/research-database">Research Database</a></li><li style="color:white"><a target="_blank" href="https://tndalu.knimbus.com/user#/home">Research Database [outside The Campus]</a></li><li style="color:white"><a target="_blank" href="http://www.urkund.com/login/">Check Plagiarism</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/membership-registration">Membership Registration</a></li><li style="color:white"><a target="_blank" href="http://14.139.186.76/NAAC/sub/vf.html">Learning Management System</a></li><li style="color:white"><a target="_blank" href="pdf/2021/December/Open_Access_Resource_with_QR_%20Code.pdf">Open Access E-Resources/Learning</a></li><li style="color:white"><a target="_blank" href="https://drive.google.com/file/d/1rNCG-X9HRgIlg5s9GWobV4E2y1k_ydMt/view?usp=sharing">Central Library - Virtual Tour</a></li><li style="color:white"><a target="_blank" href="pdf/library/Book1.html">New Arrivals  2021 - 2022</a></li></ul></li><li><a  href="javascript:void(0)"><b style="color:white">Examinations</b></a><ul><li style="color:white"><a href="https://www.tndalu.ac.in/ph-d-course-work-examinations">Ph. D. Course Work Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/november-2026-examinations">NOVEMBER 2026 EXAMINATIONS</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/may-2026-examinations">MAY 2026 EXAMINATIONS</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/15th-convocation">15TH CONVOCATION</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/november-2025-examinations">November 2025 Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/condonation-form">Condonation Form</a></li><li style="color:white"><a target="_blank" href="pdf/2021/December/263B.pdf">Annual Report</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/may-2025-examinations">May 2025 Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/results">Results</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/november-2024-examinations">November 2024 Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/may-2024-examinations">May 2024 Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/jan-2022-examinations">Jan 2022 Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/june-2022-examinations">June 2022 Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/december-2022-examinations">December 2022 Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/april-2023-examinations">April 2023 Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/may-2023-examinations">May 2023 Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/nov-2023-examinations">Nov 2023 Examinations</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/february-2022-online-examinations">February 2022 - Online Examinations</a></li><li style="color:white"><a target="_blank" href="https://formbuilder.ccavenue.com/live/ccavenue/the-tamilnadu-dr-ambedkar-law-university/the-tamilnadu-dr-ambedkar-law-university">Online Fees Payment</a></li><li style="color:white"><a target="_blank" href="pdf/2019/UGCguidelines.pdf">UGC Guidelines</a></li></ul></li><li><a  href="https://www.tndalu.ac.in/event-report"><b style="color:white">Event Report</b></a></li><li><a  href="https://www.tndalu.ac.in/alumni"><b style="color:white">Alumni</b></a></li><li><a  href="javascript:void(0)"><b style="color:white">Gallery</b></a><ul><li style="color:white"><a href="https://www.tndalu.ac.in/all-gallery">All Gallery</a></li><li style="color:white"><a href="https://www.tndalu.ac.in/mun-gallery">MUN Gallery</a></li></ul></li></ul>
+
+      </div>
+    </div>
+  </div>
+  <!-- Mainnav 02 Section End -->
+        <!-- Banner Section -->
+            <section class="banner-section">
+            <div class="owl-carousel banner-carousel owl-theme">
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/69a43b49acf98.jpeg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/69a43b49ad7f0.jpeg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/69a43b49ade4f.jpeg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/67ee7d95b84b5.jpeg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/677e1817c340e.jpeg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/6805da9ad100e.jpg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/677e1817c62e4.jpeg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/677e1817c830a.jpeg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/677e1817ca3ab.jpeg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/677e1817da640.jpeg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                                    <div class="item">
+                        <img src="https://www.tndalu.ac.in/storage/cms/677e1817de486.jpg" class="img-fluid"
+                            alt="Banner Image" loading="lazy">
+                        <div id="overlay"></div>
+                    </div>
+                            </div>
+        </section>
+        <!-- Banner Section End -->
+
+    <!-- Top Teams Section -->
+            <section class="topteams-section wow animate fadeInUp">
+            <div class="container">
+                <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12">
+    <article class="profile-card">
+                <div class="image">
+            <img src="https://www.tndalu.ac.in/storage/cms/69b91b9126186.jpeg" alt="Hon&#039;ble Thiru. Rajendra Vishwanath Arlekar"
+                class="profile-img" loading="lazy">
+        </div>
+                <div class="text-data">
+            <span class="name">Hon&#039;ble Thiru. Rajendra Vishwanath Arlekar</span>
+            <span class="job">CHANCELLOR</span>
+            <br>
+            <p title="Governor of Tamil Nadu and Chancellor of The Tamil Nadu Dr.Ambedkar Law University" style="max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: normal; font-weight:bold">
+    Governor of Tamil Nadu and Chancellor of The Tamil Nadu Dr.Ambedkar Law University <!-- Show first 240 characters -->
+</p>
+            
+                <div class="buttons">
+                                            <a href="https://www.tnrajbhavan.gov.in/">
+                            <button class="button" style="color:white">
+                                Governer Office
+                            </button>
+                            
+                        </a>
+                                        
+                </div>
+
+          
+        </div>
+    </article>
+</div>
+
+                                        <div class="col-lg-4 col-md-6 col-12">
+    <article class="profile-card">
+                <div class="image">
+            <img src="https://www.tndalu.ac.in/storage/cms/6a29796aa2729.jpeg" alt="Thiru. C.T.R. Nirmal Kumar"
+                class="profile-img" loading="lazy">
+        </div>
+                <div class="text-data">
+            <span class="name">Thiru. C.T.R. Nirmal Kumar</span>
+            <span class="job">PRO-CHANCELLOR</span>
+            <br>
+            <p title="Honourable Minister for Energy Resources and Law, 
+Pro-Chancellor of The Tamil Nadu Dr. Ambedkar Law University" style="max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: normal; font-weight:bold">
+    Honourable Minister for Energy Resources and Law, 
+Pro-Chancellor of The Tamil Nadu Dr. Ambedkar Law University <!-- Show first 240 characters -->
+</p>
+            
+                <div class="buttons">
+                                            <a href="https://tndalu.ac.in/?pid=pgslot">
+                            <button class="button" style="color:white">
+                                Minister Office
+                            </button>
+                            
+                        </a>
+                                        
+                </div>
+
+          
+        </div>
+    </article>
+</div>
+
+                                        <div class="col-lg-4 col-md-6 col-12">
+    <article class="profile-card">
+                <div class="image">
+            <img src="https://www.tndalu.ac.in/storage/cms/6821c458d6598.jpeg" alt="Former Honorable  Justice V. Bharathidasan"
+                class="profile-img" loading="lazy">
+        </div>
+                <div class="text-data">
+            <span class="name">Former Honorable  Justice V. Bharathidasan</span>
+            <span class="job">CONVENOR</span>
+            <br>
+            <p title="Convenor Committee of The Tamil Nadu Dr. Ambedkar Law University" style="max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: normal; font-weight:bold">
+    Convenor Committee of The Tamil Nadu Dr. Ambedkar Law University <!-- Show first 240 characters -->
+</p>
+            
+                <div class="buttons">
+                                            <a href="https://tndalu.ac.in/vcmessage">
+                            <button class="button" style="color:white">
+                                Convenor Message
+                            </button>
+                            
+                        </a>
+                                        
+                </div>
+
+          
+        </div>
+    </article>
+</div>
+
+                                    </div>
+            </div>
+        </section>
+        <!-- Top Teams Section End -->
+    <!-- Aboutsect Section -->
+    <section class="aboutsect-section wow animate fadeInUp">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+    <div class="newwsect wow animate fadeInLeft">
+        
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                             
+                 
+                     
+                        <button class="nav-link active" 
+                                id="nav-news-announcement-tab" 
+                                data-bs-toggle="tab"
+                                data-bs-target="#nav-news-announcement" 
+                                type="button" 
+                                role="tab" 
+                                aria-controls="nav-news-announcement"
+                                aria-selected="true"
+                                style="color: white;">
+                            News Announcement
+                        </button>
+                  
+                             
+                 
+                     
+                        <button class="nav-link " 
+                                id="nav-student-corner-tab" 
+                                data-bs-toggle="tab"
+                                data-bs-target="#nav-student-corner" 
+                                type="button" 
+                                role="tab" 
+                                aria-controls="nav-student-corner"
+                                aria-selected="false"
+                                style="color: black;">
+                            Student Corner
+                        </button>
+                  
+                             
+                 
+                     
+                        <button class="nav-link " 
+                                id="nav-events-tab" 
+                                data-bs-toggle="tab"
+                                data-bs-target="#nav-events" 
+                                type="button" 
+                                role="tab" 
+                                aria-controls="nav-events"
+                                aria-selected="false"
+                                style="color: black;">
+                            Events
+                        </button>
+                  
+                            </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+                          
+                    <div class="tab-pane fade show active" 
+                         id="nav-news-announcement" 
+                         role="tabpanel"
+                         aria-labelledby="nav-news-announcement-tab">
+                        
+                        <div class="news-container">
+                            <div class="news-text3">
+                                <ul class="announcement">
+                                    
+                                                                                                                        <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6aeec0aa1a898.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Notification - Certificate of Extension of Temporary Affiliation
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        2ND COUNSELLING – 3 Year LL.B. Degree Course Allotment Letters for the 2ND COUNSELLING – 3 Year LL.B. Degree Course offered in Government Law Colleges for the Academic Year 2026–2027 will be released on 14.10.2026 after 4:00 P.M.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6acdbaeacf39b.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Notification - Residential Matron (Female) (Contract Basis)
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://tndalu.ac.in/registrar-notification" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        NOTIFICATION - APPLICATIONS ARE INVITED FOR THE POST OF REGISTRAR.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://tndalu.ac.in/notification" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        NOTIFICATION - APPLICATIONS ARE INVITED FOR THE POST OF CONTROLLER OF EXAMINATIONS.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://tndalu.ac.in/november-2026-examinations" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        U.G. DEGREE SEMESTER EXAMINATIONS, NOVEMBER 2026 - NOTIFICATION
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://tndalu.ac.in/law-admission-cut-off-marks-2026-2027" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        LAW ADMISSION CUT-OFF MARKS 2026-2027.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Annai College of Law, Kumbakonam and Dhanvanth Law College, Karur, affiliated to this University for the academic year 2026–2027, have received the approval of the Bar Council of India for the respective academic year on 5 August 2026.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a5db55d48472.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        News Item - Admission Debarment of Three Affiliated Private Law Colleges
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a4353c2efa5e.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        ADMISSION NOTIFICATION - L.L.M DEGREE COURSE AY2026-2027
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a42321048a59.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        ADMISSION NOTIFICATION: 3_Year Law Degree Courses - AY2026 - 2027
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://meta-secure.com/TNDALU/candidatelogin.aspx" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Online Counseling - Candidate Login Link
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a057054d1ef7.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        ADMISSION NOTIFICATION 2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://tndalu.ac.in/govt-achivemntts-" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        சட்ட பல்கலைக்கழகத்தில் தமிழ்நாடு அரசின் 07.05.2021 முதல் 31.01.2025 வரையிலான நான்காண்டு சாதனைகள்.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672ca1aa0824e.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        &quot;BEST STATE UNIVERSITY AWARD – 2023&quot;
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672ca16d5af8d.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Ambedkar Law University Journal
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://tndalu.ac.in/colvc" 
+                                                       target="_blank" 
+                                                       >
+                                                        Honorary Colonel to Prof. Dr. N.S.Santhosh Kumar, Vice Chancellor of Tamilnadu Dr Ambedkar Law University during Pipping in Ceremony.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://tndalu.ac.in/AIU.html" 
+                                                       target="_blank" 
+                                                       >
+                                                        PUBLICATION - AIU
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672c9e0858030.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Notification - Administrative Staff Seniority List
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672c9d8ddff8d.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        UGC Guidelines on Safety of Students on and Off Campuses of Higher Educational Institutions
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672c9d1f8f8b7.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        STUDENTS TO ADHERE PRESCRIBED DRESS CODE
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="pdf/2018/NIRF.html" 
+                                                       target="_blank" 
+                                                       >
+                                                        NRIF
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                        </div>
+                    </div>
+             
+                          
+                    <div class="tab-pane fade " 
+                         id="nav-student-corner" 
+                         role="tabpanel"
+                         aria-labelledby="nav-student-corner-tab">
+                        
+                        <div class="news-container">
+                            <div class="news-text3">
+                                <ul class="announcement">
+                                    
+                                                                                                                        <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6aed905219a8e.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        SC/ST/SCC Scholarship – Fresh Application Submission/ Undertaking for First-Year UG &amp; PG Students (AY 2026–2027) – Deadline: 30.11.2026
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6aed8ec710d76.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Final Reminder – Scholarship Renewal Application Submission for Eligible Students (AY 2026–2027) – Deadline: 13.11.2026
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6acdba675cd1f.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Student Internship Program: TN State Commission for Women.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6ac742af81073.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Eligible students may avail the “Pudhumaipenn” (Girls) and “Tamil Pudhalvan” (Boys) Schemes.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6ac337361818b.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Internship Opportunity for the young fresh law graduates
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6abca33c5f704.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Viksit Bharat Young Leaders Dialogue (VBYLD) Quiz 2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6ab39ede7b920.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Application for Internship Programme at Law Department
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6ab35feb5a29d.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Panal Discussion: Indian Society for Universal Dialogue (ISUD)
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6ab0c35dd99ee.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Office Bearere of Indian Society for Universal Dialogue (ISUD)
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6aab78c8a6799.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        BC/MBC/DNC Scholarships for AY 2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6aaa3bd650b06.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        SC, ST and SCC Scholarship Renewal Notice – Academic Year 2026–27
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6aa24b68506ed.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Suspension of Instruction Classes on 11 September 2026 (Friday) on Account of the 5th Graduation Day
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a97d02d8e00a.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Court Visit Training Programme AY 2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a917fa0aeae8.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Instruction Classes for 1st Year LL.B.(Hons.)
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a8d65da7ad7d.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular -  Payment of Fees for 3rd Year Research Scholars
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a8d65a633909.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular -  Payment of Fees for 2nd Year Research Scholars
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a87fb20ddecd.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Office Bearers of ECA  AY2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a87d8cd24b7a.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Final Rounds of the ISUD Fresher&#039;s Debate Competition
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a87d87ef199d.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Office Bearers of NSS Unit AY2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a71d4b568850.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Student body - Legal Aid Clinic AY2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a717c83c728d.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Extended Deadline for Annual Fee Payment – Second Year LL.M. (CBCS) Programme
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a5a096075585.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - MUNSOC : List of Selected Students list
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a589f972b77a.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Moot Court Association Vacancies intimation
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a589efb34e65.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - TNDALU Campus Monitoring Committee
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a508c29e83dd.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        சுற்றறிக்கை - முத்தமிழ்ப் பேரவை பொதுக்குழு மற்றும் நிர்வாகக் குழு மறுசீரமைப்பு
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a4ddb2ae20ec.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Excellence Cultural Association Committee AY 2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a4c88ee4b8cf.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Addendum Notification : Constitution of the Placement Cell AY 2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a478390191fa.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Call for Applications – Placement Cell Office Bearers and Members (2026–2027)
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a47527e52d40.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Remittance of scholarship (tuition fee) received from the Government.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a438c3dd7a79.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - MUNSOC of  SOEL AY 2026 - 2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a438bf56a973.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Call for Applications: Legal Cell, Commissionerate of Land Administration, Tamil Nadu
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a3d1890e7b08.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Classes for First-Year students of SOEL will commence from 29.06.2026.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a3b5f46c7d53.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Internship Cell for AY 2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a3d168998645.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Moot Court Association AY 2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a2f8a60f3e56.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Instruction Classes - Academic Year 2026-2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a2f89d89d198.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Directors of School of Excellence of Law
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a2f898a7fd0a.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Last date for payment of academic fee with penalty
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a27deaae95fa.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Submission of No Due Certificate for Final Year Students
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a1d4708dbd1d.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Tuition Fee Payment Mandatory for Attendance Registration – AY 2026–2027
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a16934e6fb56.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - CBI Law Internship Scheme
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a16934c57a13.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - CBI Law Internship Scheme
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a16934ccce88.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - CBI Law Internship Scheme
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://tndalu.ac.in/fees-online-payment" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        SOEL Students Online Fees Payments
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a071b6a12683.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Notification - TRB Temporary Employment Notification for Fresh Law Graduates as Legal Assistant Interns.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/6a0711797b4c5.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - SOEL students are requested to pay the fees on time.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/69d5e4d63179b.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Circular - Moot Court Association Internal Challenger Rules
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://tndalu.ac.in/fees-online-payment" 
+                                                       target="_blank" 
+                                                       >
+                                                        Online Fees Payment Page
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                        </div>
+                    </div>
+             
+                          
+                    <div class="tab-pane fade " 
+                         id="nav-events" 
+                         role="tabpanel"
+                         aria-labelledby="nav-events-tab">
+                        
+                        <div class="news-container">
+                            <div class="news-text3">
+                                <ul class="announcement">
+                                    
+                                                                                                                        <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/69eb10520af0d.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        International Conference - Fostering Innovations and Trends: Role of Academia and Industry (FIT-RAI-2026).
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/699c0157ebd6b.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        INTERNATIOAL SYMPOSIUM - DATA PROTETION IN THE SURVELILLANCE ERA : ROLE OF DPDP ACT IN PROTECTING PERSONAL DATA
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/67dbc7bb62656.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        International Conference on Emerging Trends of Maritime Laws in India
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/67ce8b171fe79.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        TNDALU Vice-Chancellor delivers distinguished lecture inside Campus Miyawaki Forest
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/67b7043831cdb.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        DEPARTMENT OF PROPERTY LAW Organizes One Day National Conference On “LAND RIGHTS AND ITS CHALLENGES ON E-GOVERNANCE
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/67b702d4f31a8.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        15th K.R. RAMAMANI MEMORIAL NATIONAL TAXATION MOOTCOURT COMPETITION, 2025.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/67b6e4b152e42.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Second National Tamil moot court competition 2024-2025 - Proposition 2nd National Tamil Moot Court
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="pdf/2024/Nonperformingassetreport.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        MANAGING NON_PERFORMING ASSETS: STRATEGIES FOR RECOVERY : Organised by Dept of Business Law.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/67b6e56e7922b.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        75th Constitution Day Celebration
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="pdf/RULEBOOK-%20TNDALU%20SOEL&#039;S%202ND%20NATIONAL%20TAMIL%20MCC_20241129_135208_0000.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        Second National Tamil moot court competition 2024-2025 - Rulebook for 2nd National Tamil Moot Court
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d9b45a2909.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        State Level Special Lecture Series on Legal Research Methodology
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d9ad162d9a.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        SOEL - 2nd NATIONAL CRIMINAL INVESTIGATION COMPETITION &amp; WORKSHOP.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d9a952721d.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        INTERNATIONAL CONFERENCE On &quot;LEGAL INTEGRATION FOR GREEN &amp; HARMONIOUS ECONOMIC TRANSFORMATION &amp;amp; SUSTAINABILITY&quot; (LIGHETS-2024).
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d981ee3a7b.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        SOEL MUN 2024.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d97fc452f0.pdf" 
+                                                       target="_blank" 
+                                                        style="color: red;" >
+                                                        National Seminar - World Intellectual Property Day 2024.
+                                                    </a>
+                                                </b>
+                                                                                                    <img src="https://www.tndalu.ac.in/frontend/images/new.gif">
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d97c87894f.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        TNDALU NCC 14th CADO FIESTA.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d973530f8f.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Two Days International Conference (Hybrid Mode) on “Fostering Innovations and Trends: Role of Academia and Industry&quot; (FIT-RAI-2024).
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d96f0b1bc0.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Criminal Law Lecture Series for B.Com. LL.B.(Hons.)
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d96c6169eb.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Inauguraiton of LL.B. (Hons.) Degree Programme
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d96ab520a6.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Spcial Lecture - New Dimensions of Tenancy Law in Tamil Nadu
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d968d4b84e.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Inaugural Ceremony - Indian Society for Universal Dialogue
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d904529028.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Induction Programme 2023-2024
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d90252ca41.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        WORKSHOP ON THE RIGHTS OF PERSONS WITH INTELLECTUAL DISABILITY
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d9007d9ca9.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Special Lecture - “Career Path Planning for Commerce and Law Graduates”.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8fdd8ff5d.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Special Lecture - TRIAL in Civil Courts.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8fbd99152.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        DEBATE COMPETITION - ARE ELECTRICITY SUBSIDIES A NECESSITY.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8f9b094e0.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        SPECIAL LECTURE - SCOPE AND NECESSITY FOR ADR AS PART OF JUSTICE DELIVERY SYSTEM.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8f7a123fc.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        WORKSHOP - ONE DAY SENSITIZATION WORKSHOP ON &quot;YENNAL MUDIYUM&quot;.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="G20_page.php" 
+                                                       target="_blank" 
+                                                       >
+                                                        THE G20 WORKSTREAM PANEL DISCUSSION - NATIONAL G20 SIMULATION
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8ddd43282.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Webinar - A DIVE INTO DARK WEB, BITCOIN AND CYBERCRIME
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8da8a788d.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        One Week Spoken Tutorial Classes on HTML.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8d33f13d7.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        National Workshop - E_Filing of Income Tax Return Procedures and Prospects.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8d08aa030.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        DEPARTMENT OF ENVIRONMENTAL LAW AND LEGAL ORDER, TNDALU.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8cbbd40a4.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        ONE DAY WORKSHOP - PROCEDURAL COMPLIANCES UNDER GST  &quot;PROBLEMS AND PERSPECTIVE&quot;.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8c5b0652c.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Two Weeks Refresher Course on &quot;Legal Andragogy Skills and  Research Methods: Modern Tools and Techniques&quot;
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8c2d54ffb.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Invitation - Symposium on Environment Day
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8c0897562.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Cyber Jagrukta Diwas - National Level Essay Competition
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="video_page.php" 
+                                                       target="_blank" 
+                                                       >
+                                                        TECHNOLEX CYBER CLUB - Inaugurated on 28th March 2023 by Hon&#039;ble Minister Mr.T.Mano Thangaraj
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8ba4c7a9c.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        ONE DAY NATIONAL WORKSHOP ON PUBLIC POLICY MAKING WITH SPECIAL FOCUS ON CLIMATE CHANGE POLICIES.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8b7cddd89.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        NSS - Programme.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8b5b1b3cb.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Inaugural Function of 3 Days National Level Workshop on THE ART OF ADVOCACY.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8b2be9ef1.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Two Days International Conference on Harmonization of Financial Relations in Contemporary World.
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d8add6ee33.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        International Women&#039;s Day - Workshop on &quot;Empowerment of all women and children through education in the Digital Age&quot;
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                    <li>
+                                                <b>
+                                                    <a href="https://www.tndalu.ac.in/storage/cms/672d896fb141c.pdf" 
+                                                       target="_blank" 
+                                                       >
+                                                        Silver Jubilee Celebration
+                                                    </a>
+                                                </b>
+                                                                                            </li>
+                                                                                                            </ul>
+                            </div>
+                        </div>
+                    </div>
+             
+                    </div>
+    </div>
+</div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="aboutsect wow animate fadeInRight">
+                        <h2>ABOUT US</h2>
+                        <div class="about_us"><p><span style="font-size:Small"><strong>The Government of Tamil Nadu</strong> by&nbsp;an Act of State Legislature [Act No.43 of 1997] established the Tamil Nadu Dr.Ambedkar Law University for the advancement and dissemination of knowledge in learning, teaching and research in the field of law. His Excellency Shri. K.R. Narayanan, then President of India inaugurated it on September 20, 1997 in the presence of Dr.Kalaignar Karunanidhi, then Chief Minister of Tamilnadu and the University started from October 3, 1997 onwards. The University was named after the Architect of the Indian Constitution Dr. B.R. Ambedkar. The University is recognized by the Bar Council of India ( BCI ) and University Grants Commission ( UGC ) ( Sec. 2f and 12b of the UGC Act. ).The University is also a member of the Association of Indian Universities ( AIU ), Association of Common Wealth Universities, U.K. and Indian Institute of Public Administration, New Delhi. <span style="color:#c0392b">READ MORE..</span></span></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Aboutsect Section End -->
+
+    <!-- Course Offered Section -->
+    <div class="row">
+                <div class="col-md-12 text-center course_offered">
+                    <span class="center-align font36 tndalu-color-violet font-weight-700 display-block">Course Offered</span>
+                </div>
+            </div>
+    
+            <section class="courseoffered-section ">
+            <div class="container">
+          
+                <div class="row">
+                    
+                    <div class="col-lg-7 col-md-6 col-12">
+                        <div class="courseoffered-text wow animate fadeInLeft">
+                            <div class="courseoffered-head">
+                                <div class="newshead"><img src="https://www.tndalu.ac.in/frontend/images/law.png" alt="Law icon">
+                                </div>
+                                <h3>5 Year Integrated Degree Courses</h3>
+                            </div>
+                            <p><b><ul><li><a href="https://tndalu.ac.in/school-of-excellence-in-law"><strong>B.A.LL.B.(Hons.)</strong></a></li><li><a href="https://tndalu.ac.in/school-of-excellence-in-law"><strong>B.Com.LL.B.(Hons.)</strong></a></li><li><a href="https://tndalu.ac.in/school-of-excellence-in-law"><strong>B.B.A.LL.B.(Hons.)</strong></a></li><li><a href="https://tndalu.ac.in/school-of-excellence-in-law"><strong>B.C.A.LL.B.(Hons.)</strong></a></li></ul><p>With our 5 years LLB law and business courses we strive to deliver outstanding academic and employment-focused education to help you hone your skills and graduate with the experience that will set you up for success.</p></b></p>
+                            <a class="explore-button" style="color:white" href="pdf-3/Prospectus_for_5_Year_B.A.LL.B._Degree_Course_(Affiliated%20Law%20Colleges)2022-2023.pdf" target="_blank">Learn  More</a>
+                        </div>
+                    </div>
+
+                                            <div class="col-lg-5 col-md-6 col-12">
+                            <div class="courseoffered-img wow animate fadeInRight">
+                                    <img src="https://www.tndalu.ac.in/storage/cms/677cd8004a2e5.jpeg" alt="5 Year Integrated Degree Courses"
+         class="profile-img" loading="lazy">
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </section>
+            <section class="courseoffered-section courseoffered02-section">
+            <div class="container">
+          
+                <div class="row">
+                                            <div class="col-lg-5 col-md-6 col-12">
+                            <div class="courseoffered-img wow animate fadeInLeft">
+
+                                <img src="https://www.tndalu.ac.in/storage/cms/66e7e6e47b647.jpeg" alt="LL.M Degree Courses (Under CBCS)"
+         class="profile-img" loading="lazy">
+
+
+                            </div>
+                        </div>
+                    
+                    <div class="col-lg-7 col-md-6 col-12">
+                        <div class="courseoffered-text wow animate fadeInRight">
+                            <div class="courseoffered-head">
+                                <div class="newshead"><img src="https://www.tndalu.ac.in/frontend/images/law.png" alt="Law icon">
+                                </div>
+                                <h3>LL.M Degree Courses (Under CBCS)</h3>
+                            </div>
+                            <p><b><ul><li><a href="businesslaw">Department of Business Law</a></li><li><a href="https://tndalu.ac.in/constitutional-law-and-human-rights">Department of Constitutional Law & Human Rights</a></li><li><a href="https://tndalu.ac.in/intellectual-property-law">Department of Intellectual Property Law</a></li><li><a href="https://tndalu.ac.in/international-law-and-organization">Department of International Law and Organisation</a></li><li><a href="https://tndalu.ac.in/environmental-law-and-legal-order">Department of Environmental Law and Legal Order</a></li><li><a href="https://tndalu.ac.in/criminal-law-and-criminal-justice-administration">Department of Criminal Law and Criminal Justice Administration</a></li><li><a href="https://tndalu.ac.in/human-rights-and-duties-education">Department of Human Rights and Duties Education</a></li><li><a href="https://tndalu.ac.in/labour-law-and-administrative-law">Department of Labour Law and Administrative Law</a></li><li><a href="https://tndalu.ac.in/taxation-law">Department of Taxation Law</a></li><li><a href="https://tndalu.ac.in/cyberspace-law-and-justice">Department of Cyber Space - Law and Justice</a></li><li><a href="https://tndalu.ac.in/maritime-law">Department of Maritime Law</a></li><li><a href="#">Department of Property Law</a></li><li><a href="#">Department of Crime and Forensic Law</a></li></ul></b></p>
+                            <a class="explore-button" style="color:white" href="pdf-3/Prospectus_for_UG_&amp;_PG_Law_Degree_Courses_(SOEL)2022-2023.pdf" target="_blank">learn more</a>
+                        </div>
+                    </div>
+
+                                    </div>
+            </div>
+        </section>
+            <section class="courseoffered-section ">
+            <div class="container">
+          
+                <div class="row">
+                    
+                    <div class="col-lg-7 col-md-6 col-12">
+                        <div class="courseoffered-text wow animate fadeInLeft">
+                            <div class="courseoffered-head">
+                                <div class="newshead"><img src="https://www.tndalu.ac.in/frontend/images/law.png" alt="Law icon">
+                                </div>
+                                <h3>3 Years LL.B.(Hons.)Degree Course</h3>
+                            </div>
+                            <p><b><p>Our 3 years LLB courses in law, business, criminology and policing have been specially designed to give you an exciting, practical academic experience, teaching you real-world skills so that you can achieve your ambitions.</p></b></p>
+                            <a class="explore-button" style="color:white" href="pdf-3/Prospectus_for_UG_&amp;_PG_Law_Degree_Courses_(SOEL)2022-2023.pdf" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+
+                                            <div class="col-lg-5 col-md-6 col-12">
+                            <div class="courseoffered-img wow animate fadeInRight">
+                                    <img src="https://www.tndalu.ac.in/storage/cms/672daaad79c5e.jpeg" alt="3 Years LL.B.(Hons.)Degree Course"
+         class="profile-img" loading="lazy">
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </section>
+        <!-- Course Offered Section End -->
+
+    <!-- Campus Tour Section -->
+        <section class="campustour-section wow animate fadeInUp">
+        <div class="container">
+            <h2>Campus Tour</h2>
+            <div class="videocard">
+                                    <video src="https://www.tndalu.ac.in/storage/cms/672db1f63f316.mp4" height="400" width="100%" controls>
+                        
+                    </video>
+                            </div>
+        </div>
+    </section>
+    <!-- Campus Tour Section End -->
+
+    <!-- Notable Alumni Section -->
+    
+
+            <section class="notablenlumni-section">
+            <div class="container-fluid">
+                <h2>Notable Alumni</h2>
+                <div class="owl-carousel notablenlumni-carousel owl-theme wow animate fadeInUp">
+                                            <div class="item">
+                            <div class="notablenlumni-sect">
+                                <img src="https://www.tndalu.ac.in/storage/cms/69f04fcf93dca.jpeg" alt="Karthikeyan .N"
+                                    class="profile-img" loading="lazy">
+                                <div class="notablenlumni-text">
+                                    Karthikeyan .N <br>
+                                    Official Guest Lecturer at Central Bureau of Investigation (CBI)
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="item">
+                            <div class="notablenlumni-sect">
+                                <img src="https://www.tndalu.ac.in/storage/cms/69c80842e3c28.jpeg" alt="Ms Divyadharshini IAS"
+                                    class="profile-img" loading="lazy">
+                                <div class="notablenlumni-text">
+                                    Ms Divyadharshini IAS <br>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="item">
+                            <div class="notablenlumni-sect">
+                                <img src="https://www.tndalu.ac.in/storage/cms/679a213f5cd32.jpeg" alt="Ilakiya Karunakaran IPS"
+                                    class="profile-img" loading="lazy">
+                                <div class="notablenlumni-text">
+                                    Ilakiya Karunakaran IPS <br>
+                                    Developer
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="item">
+                            <div class="notablenlumni-sect">
+                                <img src="https://www.tndalu.ac.in/storage/cms/679a213f5f2f5.jpeg" alt="S. Saraswathi IRS"
+                                    class="profile-img" loading="lazy">
+                                <div class="notablenlumni-text">
+                                    S. Saraswathi IRS <br>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="item">
+                            <div class="notablenlumni-sect">
+                                <img src="https://www.tndalu.ac.in/storage/cms/679a213f5dbf3.jpeg" alt="Mr. Swarna Rajagopal"
+                                    class="profile-img" loading="lazy">
+                                <div class="notablenlumni-text">
+                                    Mr. Swarna Rajagopal <br>
+                                    Direct Recruit District Court Judge
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="item">
+                            <div class="notablenlumni-sect">
+                                <img src="https://www.tndalu.ac.in/storage/cms/679a213f5e211.jpeg" alt="LIEUTENANT MONISHA. V. V. JAG"
+                                    class="profile-img" loading="lazy">
+                                <div class="notablenlumni-text">
+                                    LIEUTENANT MONISHA. V. V. JAG <br>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="item">
+                            <div class="notablenlumni-sect">
+                                <img src="https://www.tndalu.ac.in/storage/cms/679a213f5e7a9.jpeg" alt="Shri K. P. Anand"
+                                    class="profile-img" loading="lazy">
+                                <div class="notablenlumni-text">
+                                    Shri K. P. Anand <br>
+                                    Joint Director (Law)
+                                </div>
+                            </div>
+                        </div>
+                                            <div class="item">
+                            <div class="notablenlumni-sect">
+                                <img src="https://www.tndalu.ac.in/storage/cms/679a213f5ed2e.jpeg" alt="Sriraj Vankatasamy"
+                                    class="profile-img" loading="lazy">
+                                <div class="notablenlumni-text">
+                                    Sriraj Vankatasamy <br>
+                                    Joint Director of the Regional Office (South)
+                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </section>
+        <!-- Notable Alumni Section End -->
+
+    <!-- Client Section -->
+    
+            <section class="clientcard-section">
+            <div class="container-fluid">
+                <div class="adv-bg">
+                    <div class="adv">
+                                                    <a href="#" target="_blank">
+                                <img src="https://www.tndalu.ac.in/storage/cms/66e172cf842b6.png"
+                                    class="rounded mx-auto d-block imhj" alt="" loading="lazy">
+                            </a>
+                                                    <a href="#" target="_blank">
+                                <img src="https://www.tndalu.ac.in/storage/cms/66e172cf874d5.jpg"
+                                    class="rounded mx-auto d-block imhj" alt="" loading="lazy">
+                            </a>
+                                                    <a href="#" target="_blank">
+                                <img src="https://www.tndalu.ac.in/storage/cms/66e172cf89aab.png"
+                                    class="rounded mx-auto d-block imhj" alt="" loading="lazy">
+                            </a>
+                                                    <a href="#" target="_blank">
+                                <img src="https://www.tndalu.ac.in/storage/cms/66e172cf8aa96.jpg"
+                                    class="rounded mx-auto d-block imhj" alt="" loading="lazy">
+                            </a>
+                                                    <a href="#" target="_blank">
+                                <img src="https://www.tndalu.ac.in/storage/cms/66e172cf8bcd8.jpg"
+                                    class="rounded mx-auto d-block imhj" alt="" loading="lazy">
+                            </a>
+                                                    <a href="#" target="_blank">
+                                <img src="https://www.tndalu.ac.in/storage/cms/66e172cf8ce01.jpg"
+                                    class="rounded mx-auto d-block imhj" alt="" loading="lazy">
+                            </a>
+                                                    <a href="#" target="_blank">
+                                <img src="https://www.tndalu.ac.in/storage/cms/68596c7c153fc.png"
+                                    class="rounded mx-auto d-block imhj" alt="" loading="lazy">
+                            </a>
+                                                    <a href="#" target="_blank">
+                                <img src="https://www.tndalu.ac.in/storage/cms/685a83055ee73.png"
+                                    class="rounded mx-auto d-block imhj" alt="" loading="lazy">
+                            </a>
+                                            </div>
+                </div>
+            </div>
+        </section>
+               <div style="background-color:#a46a95">
+                                <div class="container-fluid" style="width: 100% !important; text-align: center !important;">
+                                   <h2></h2>
+                                    <div class="row">   </div>
+                            </div>
+                            </div>
+         <!-- Client Section End -->
+        <!-- Footer -->
+<footer class="footer">
+    <div class="container-fluid">
+      <div class="row position-relative">
+
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="footer-links">
+            <h3 style="color:white">TNDALU</h3>
+            <h6 style="color:white"><b>"Perungudi Campus",
+              M.G.R. Salai,
+              Near Taramani [ MRTS ] Railway Station,
+              Perungudi,
+              Chennai - 600 113.</b></h6>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="footer-links">
+            <h3 style="color:white">TNDALU</h3>
+            <h6 style="color:white">
+            <b>   "Poompozhil",
+              5, Dr. D.G.S. Dinakaran Salai,
+              Chennai 600 028.
+              Tamilnadu, India.</b>
+            </h6>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="footer-links">
+            <h3 style="color:white">Website Information Manager</h3>
+            <h6 style="color:white"><b>Central Library,
+                M.G.R. Salai,
+                Perungudi,
+                Chennai - 600 113.</b><br>
+                <p style="color:white"><b>tndaluwebsite@gmail.com.</b></p></h6>
+                <p style="color:white">
+                <span><i class="fab fa-youtube" aria-hidden="true"></i></span> 
+                <a target="_blank" href="https://youtube.com/c/TNDALUMedia" style="color:white"><b>Youtube</b></a> &nbsp; <span><i class="fab fa-twitter" aria-hidden="true"></i></span> 
+                    <a target="_blank" href="https://twitter.com/Tndalu_chn" style="color:white"><b>Twitter</b></a>
+                </p>
+                <!--<p style="color:white">-->
+                <!--    <span><i class="fab fa-twitter" aria-hidden="true"></i></span> -->
+                <!--    <a target="_blank" href="https://twitter.com/Tndalu_chn" style="color:white"><b>Twitter</b></a>-->
+                <!--</p>-->
+                <p style="color:white">
+                    <span><i class="fab fa-instagram" aria-hidden="true"></i></span> 
+                    <a target="_blank" href="https://www.instagram.com/tndalu_lawuniversity/" style="color:white"><b>Instagram</b></a>
+                </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="footer-links">
+            <h3 style="color:white">Contact Us </h3>
+            <h6 style="color:white">
+            <b> 044-24641212 - Poompozhil
+              044-24641919 - Poompozhil
+              044-22439051 - Perungudi Campus</b>
+             <p style="color:white">registrar@tndalu.ac.in</p>
+            </h6>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="footer-links">
+            <h3 style="color:white">Terms & Conditions</h3>
+            <b> <ul><li style="color:white"><a target="_blank" href="pdf-3/Privacy%20Policy_TNDALU.pdf"><b style="color:white">Privacy Policy</b></a></li></ul></b>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="footer-links">
+            <h3 style="color:white">Controller of Examinations</h3>
+            <h6 style="color:white"><b>coetndralu@gmail.com <br>Ph: 044 - 22439177 <br>Cell: 7200504871.</b></h6>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="footer-links">
+            <h3 style="color:white">Important Links</h3>
+            <b>  <ul><li style="color:white"><a href="https://www.tndalu.ac.in/rti"><b style="color:white">RTI</b></a></li></li><li style="color:white"><a target="_blank" href="https://www.antiragging.in/"><b style="color:white">AntiRagging</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/ecosystem-for-knowledge-transfer"><b style="color:white">Ecosystem For Knowledge Transfer</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/gender-sensitization"><b style="color:white">Gender Sensitization</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/mobilization-of-funds"><b style="color:white">Mobilization Of Funds</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/link-air-cafe"><b style="color:white">Link AIR CAFE</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/research-ethics-committee"><b style="color:white">Research Ethics Committee</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/consultancy-rules"><b style="color:white">Consultancy Rules</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/distinctiveness"><b style="color:white">Distinctiveness</b></a></li></ul></b>
+          </div>
+          
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="footer-links">
+            <h3 style="color:white">Important Links</h3>
+            <b> <ul></li><li style="color:white"><a href="https://www.tndalu.ac.in/e-content"><b style="color:white">E-content</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/feedback"><b style="color:white">Feedback</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/link-annual-report-2016-2017-2018"><b style="color:white">Link ANNUAL REPORT 2016 2017 2018</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/teach-learn-facility"><b style="color:white">Teach Learn Facility</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/link-curriculum-feedback"><b style="color:white">Link Curriculum Feedback</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/research"><b style="color:white">Research</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/link-grants-recieved-from-govt"><b style="color:white">Link Grants Recieved From Govt</b></a></li></li><li style="color:white"><a href="https://www.tndalu.ac.in/capacity-building"><b style="color:white">Capacity Building</b></a></li></li></ul></b>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="footer-links">
+            <h3 style="color:white">Admission Contact</h3>
+            <p style="color:white"><span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="#" style="color:white">Ph : <b>044-24641919 / 24957414</b></a></p>
+            <p style="color:white"><span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="mailto:thechairmanlawadmissions@gmail.com" style="color:white;font-size:13px;"><b>thechairmanlawadmissions@gmail.com</b></a></p>
+            <h6 style="color:white"><b>5Years B.A/B.B.A.LL.B(Hons.) :</b><br>
+            <b> 5Year B.Com.LL.B(Hons) :</b><br>
+            <b> 5Year B.C.A.LL.B.(Hons) :</b><br>
+            <b>  5Year B.A.LL.B Degree Course :</b></h6>
+
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="footer-links">
+            <h3 style="color:white;font-size: 11px;font-weight:bold;">இலஞ்சம் வாங்குவதும், கொடுப்பதும் குற்றம்.</h3>
+            <p style="color:white;font-size: 12px;font-weight:bold;">“Bribe giving and receiving is an offence”</p>
+            <p style="color:white;font-size: 12px;font-weight:bold;">The complaints about corruption may be sent to the Directorate of Vigilance and Anti-corruption,</p>
+            <p style="color:white;font-size: 12px;font-weight:bold;">No.293, MKN Road, Alandur, Chennai - 600 016</p>
+            <p style="color:white;font-size: 12px;font-weight:bold;">Phone: +91-44-22321090 / 22321085 / 22310989 / 22342142</p>
+            <p style="color:white;font-size: 12px;font-weight:bold;">Mobile: 94981 80936 (Whatsapp)</p>
+            <p style="color:white;font-size: 12px;font-weight:bold;">Fax: 91-44-2232 1005</p>
+            <p style="color:white;font-size: 12px;font-weight:bold;">E-mail: dvac@nic.in</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-12">
+              <p style="color:white;margin-top:10px;font-weight:bold">Last Updated: November 2026</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container-fluid">
+        <div class="usefulgst-card">
+          <div class="flashtext" style="color:white">TNDALU-NEWS</div>
+          <!-- Old marquee code commented out -->
+          <!--
+          <marquee width="100%" direction="left" onmouseover="stop()" onmouseout="start()">
+                                              <a href="https://tndalu.ac.in/registrar-notification" target="_blank" style="color: red;">
+                      <b>NOTIFICATION - APPLICATIONS ARE INVITED FOR THE POST OF REGISTRAR</b>
+                  </a>
+                                        <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                    <span style="color:black"> ||</span>
+                                  <a href="https://tndalu.ac.in/notification" target="_blank" style="color: red;">
+                      <b>NOTIFICATION - APPLICATIONS ARE INVITED FOR THE POST OF CONTROLLER OF EXAMINATIONS.</b>
+                  </a>
+                                        <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                    <span style="color:black"> ||</span>
+                                  <a href="https://tndalu.ac.in/november-2026-examinations" target="_blank" style="color: red;">
+                      <b>U.G. DEGREE SEMESTER EXAMINATIONS, NOVEMBER 2026 - NOTIFICATION</b>
+                  </a>
+                                        <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                    <span style="color:black"> ||</span>
+                                  <a href="https://tndalu.ac.in/law-admission-cut-off-marks-2026-2027" target="_blank" style="color: red;">
+                      <b>LAW ADMISSION CUT-OFF MARKS 2026-2027.</b>
+                  </a>
+                                        <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                    <span style="color:black"> ||</span>
+                                  <a href="https://www.tndalu.ac.in/storage/cms/6a54bc7cc287a.pdf" target="_blank" style="color: red;">
+                      <b>LL.M. Admission : Application Deadline Extended to 17 July 2026</b>
+                  </a>
+                                        <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                    <span style="color:black"> ||</span>
+                                  <a href="https://www.tndalu.ac.in/storage/cms/6a42add666c35.pdf" target="_blank" style="color: red;">
+                      <b>ADMISSION NOTIFICATION - L.L.M DEGREE COURSE AY2026-2027</b>
+                  </a>
+                                        <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                    <span style="color:black"> ||</span>
+                                  <a href="https://www.tndalu.ac.in/storage/cms/6a4231e7763c0.pdf" target="_blank" style="color: red;">
+                      <b>ADMISSION NOTIFICATION: 3_Year Law Degree Courses - AY2026 - 2027</b>
+                  </a>
+                                        <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                    <span style="color:black"> ||</span>
+                                  <a href="https://meta-secure.com/TNDALU/candidatelogin.aspx" target="_blank" style="color: red;">
+                      <b>Online Counseling - Candidate Login Link</b>
+                  </a>
+                                        <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                    <span style="color:black"> ||</span>
+                                  <a href="https://tndalu.ac.in/law-admission-cut-off-marks-2026-2027" target="_blank" style="color: red;">
+                      <b>LAW ADMISSION CUT-OFF MARKS 2026-2027</b>
+                  </a>
+                                        <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                    <span style="color:black"> ||</span>
+                                  <a href="https://www.tndalu.ac.in/storage/cms/6a0570703e683.pdf" target="_blank" style="color: red;">
+                      <b>ADMISSION NOTIFICATION 2026-2027</b>
+                  </a>
+                                        <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                    <span style="color:black"> ||</span>
+                                      </marquee>
+          -->
+
+          <!-- New Bootstrap/CSS/JS News Ticker -->
+          <div class="news-ticker-wrapper" style="overflow:hidden; width:100%; white-space:nowrap; position:relative;">
+            <div id="news-ticker" class="news-ticker" style="display:inline-block; white-space:nowrap; animation: ticker-scroll 120s linear infinite;">
+                                                    <a href="https://tndalu.ac.in/registrar-notification" target="_blank" style="color: red;">
+                        <b>NOTIFICATION - APPLICATIONS ARE INVITED FOR THE POST OF REGISTRAR</b>
+                    </a>
+                                            <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                        <span style="color:black"> ||</span>
+                                      <a href="https://tndalu.ac.in/notification" target="_blank" style="color: red;">
+                        <b>NOTIFICATION - APPLICATIONS ARE INVITED FOR THE POST OF CONTROLLER OF EXAMINATIONS.</b>
+                    </a>
+                                            <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                        <span style="color:black"> ||</span>
+                                      <a href="https://tndalu.ac.in/november-2026-examinations" target="_blank" style="color: red;">
+                        <b>U.G. DEGREE SEMESTER EXAMINATIONS, NOVEMBER 2026 - NOTIFICATION</b>
+                    </a>
+                                            <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                        <span style="color:black"> ||</span>
+                                      <a href="https://tndalu.ac.in/law-admission-cut-off-marks-2026-2027" target="_blank" style="color: red;">
+                        <b>LAW ADMISSION CUT-OFF MARKS 2026-2027.</b>
+                    </a>
+                                            <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                        <span style="color:black"> ||</span>
+                                      <a href="https://www.tndalu.ac.in/storage/cms/6a54bc7cc287a.pdf" target="_blank" style="color: red;">
+                        <b>LL.M. Admission : Application Deadline Extended to 17 July 2026</b>
+                    </a>
+                                            <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                        <span style="color:black"> ||</span>
+                                      <a href="https://www.tndalu.ac.in/storage/cms/6a42add666c35.pdf" target="_blank" style="color: red;">
+                        <b>ADMISSION NOTIFICATION - L.L.M DEGREE COURSE AY2026-2027</b>
+                    </a>
+                                            <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                        <span style="color:black"> ||</span>
+                                      <a href="https://www.tndalu.ac.in/storage/cms/6a4231e7763c0.pdf" target="_blank" style="color: red;">
+                        <b>ADMISSION NOTIFICATION: 3_Year Law Degree Courses - AY2026 - 2027</b>
+                    </a>
+                                            <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                        <span style="color:black"> ||</span>
+                                      <a href="https://meta-secure.com/TNDALU/candidatelogin.aspx" target="_blank" style="color: red;">
+                        <b>Online Counseling - Candidate Login Link</b>
+                    </a>
+                                            <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                        <span style="color:black"> ||</span>
+                                      <a href="https://tndalu.ac.in/law-admission-cut-off-marks-2026-2027" target="_blank" style="color: red;">
+                        <b>LAW ADMISSION CUT-OFF MARKS 2026-2027</b>
+                    </a>
+                                            <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                        <span style="color:black"> ||</span>
+                                      <a href="https://www.tndalu.ac.in/storage/cms/6a0570703e683.pdf" target="_blank" style="color: red;">
+                        <b>ADMISSION NOTIFICATION 2026-2027</b>
+                    </a>
+                                            <img src="https://www.tndalu.ac.in/frontend/images/new.gif" alt="New">
+                                        <span style="color:black"> ||</span>
+                                            </div>
+          </div>
+          <style>
+          @keyframes ticker-scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+          }
+          .news-ticker-wrapper { cursor: pointer; }
+          </style>
+          <script>
+          // Pause/resume ticker on mouse events
+          document.addEventListener('DOMContentLoaded', function() {
+            var ticker = document.getElementById('news-ticker');
+            ticker.style.animationPlayState = 'running';
+            ticker.addEventListener('mouseover', function() {
+              ticker.style.animationPlayState = 'paused';
+            });
+            ticker.addEventListener('mouseout', function() {
+              ticker.style.animationPlayState = 'running';
+            });
+          });
+          </script>
+        </div>
+        <!-- End Bootstrap/CSS/JS News Ticker -->
+
+        <h6><a href="#"><b>© TNDALU 2026</b></a></h6>
+    </div>
+  </div>
+</footer>
+<!-- Footer End -->
+        <div class="go-top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></div>
+<script src="https://www.tndalu.ac.in/frontend/js/jquery.min.js"></script>
+<script src="https://www.tndalu.ac.in/frontend/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://www.tndalu.ac.in/frontend/js/owl.carousel.min.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+<script src="https://www.tndalu.ac.in/frontend/js/WOW.js"></script>
+<script src="https://www.tndalu.ac.in/frontend/js/stellarnav.min.js"></script>
+<script src="https://www.tndalu.ac.in/frontend/js/custom.js"></script>
+<script src="https://kit.fontawesome.com/c7890550ed.js" crossorigin="anonymous"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<script>
+    
+  $(document).ready(function() {
+    
+    $('.banner-carousel').owlCarousel({
+       animateOut: 'fadeOut',
+       animateIn: 'fadeIn',
+      loop: true,
+      margin: 0,
+      navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+      // navText: ["<img src='images/arrow-alt-left.png'>","<img src='images/arrow-alt-right.png'>"],
+      autoplay:true,
+      responsiveClass: true,
+      // smartSpeed:450,
+      responsive: {
+        0: {
+          items: 1,
+          nav: true
+        },
+        600: {
+          items: 1,
+          nav: false
+        },
+        1000: {
+          items: 1,
+          nav: true,
+          loop: false,
+          margin: 0
+        }
+      }
+    })
+  })
+
+
+  $(document).ready(function() {
+        // Initialize Fancybox
+        $('[data-fancybox="gallery"]').fancybox({
+            // Optional: Add any additional options here
+            loop: true, // Allows cycling through images
+            buttons: [
+                "zoom",
+                "close"
+            ]
+        });
+    });
+</script>
+<script>
+  $('.notablenlumni-carousel').owlCarousel({
+       loop: true,
+       autoplay:true,
+       stagePadding: 190,
+       margin: 12,
+       nav: false,
+       dots: true,
+       items: 5,
+       responsiveClass: true,
+       navText : ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+       responsive: {
+           0: {
+             stagePadding: 0,
+               items: 1,
+               nav: false,
+               dots: true
+           },
+           600: {
+             stagePadding: 0,
+             items: 3,
+             nav: false,
+             dots: true
+           },
+           1000: {
+               stagePadding: 0,
+               items: 5,
+               loop: true,
+           }
+       }
+   })
+</script>
+
+<script>
+  var canvas = document.getElementById("canvas");
+  var ctx = canvas.getContext("2d");
+  var radius = canvas.height / 2;
+  ctx.translate(radius, radius);
+  radius = radius * 0.90
+  setInterval(drawClock, 1000);
+
+  function drawClock() {
+    drawFace(ctx, radius);
+    drawNumbers(ctx, radius);
+    drawTime(ctx, radius);
+  }
+
+  function drawFace(ctx, radius) {
+    var grad;
+    ctx.beginPath();
+    ctx.arc(0, 0, radius, 0, 2 * Math.PI);
+    ctx.fillStyle = 'white';
+    ctx.fill();
+    grad = ctx.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05);
+    grad.addColorStop(0, '#333');
+    grad.addColorStop(0.5, 'white');
+    grad.addColorStop(1, '#333');
+    ctx.strokeStyle = grad;
+    ctx.lineWidth = radius * 0.1;
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.arc(0, 0, radius * 0.1, 0, 2 * Math.PI);
+    ctx.fillStyle = '#333';
+    ctx.fill();
+  }
+
+  function drawNumbers(ctx, radius) {
+    var ang;
+    var num;
+    ctx.font = radius * 0.15 + "px arial";
+    ctx.textBaseline = "middle";
+    ctx.textAlign = "center";
+    for (num = 1; num < 13; num++) {
+      ang = num * Math.PI / 6;
+      ctx.rotate(ang);
+      ctx.translate(0, -radius * 0.85);
+      ctx.rotate(-ang);
+      ctx.fillText(num.toString(), 0, 0);
+      ctx.rotate(ang);
+      ctx.translate(0, radius * 0.85);
+      ctx.rotate(-ang);
+    }
+  }
+
+  function drawTime(ctx, radius) {
+    var now = new Date();
+    var hour = now.getHours();
+    var minute = now.getMinutes();
+    var second = now.getSeconds();
+    //hour
+    hour = hour % 12;
+    hour = (hour * Math.PI / 6) +
+      (minute * Math.PI / (6 * 60)) +
+      (second * Math.PI / (360 * 60));
+    drawHand(ctx, hour, radius * 0.5, radius * 0.07);
+    //minute
+    minute = (minute * Math.PI / 30) + (second * Math.PI / (30 * 60));
+    drawHand(ctx, minute, radius * 0.8, radius * 0.07);
+    // second
+    second = (second * Math.PI / 30);
+    drawHand(ctx, second, radius * 0.9, radius * 0.02);
+  }
+
+  function drawHand(ctx, pos, length, width) {
+    ctx.beginPath();
+    ctx.lineWidth = width;
+    ctx.lineCap = "round";
+    ctx.moveTo(0, 0);
+    ctx.rotate(pos);
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+    ctx.rotate(-pos);
+  }
+  $('.count').each(function () {
+    $(this).prop('Counter', 0).animate({
+      Counter: $(this).text()
+    }, {
+      duration: 5000,
+      easing: 'swing',
+      step: function (now) {
+        $(this).text(Math.ceil(now));
+      }
+    });
+  });
+</script>
+
+
+<!-- <script>
+  $(window).scroll(function () {
+        if ($(this).scrollTop() > 50)  /*height in pixels when the navbar becomes non scroll*/ {
+            $('.main-nav').addClass('scroll');
+        } else {
+            $('.main-nav').removeClass('scroll');
+        }
+    });
+</script> -->
+    <script>
+        document.querySelectorAll('.nav-link').forEach(function(tab) {
+        tab.addEventListener('click', function() {
+            // Remove active class and reset colors
+            document.querySelectorAll('.nav-link').forEach(function(link) {
+                link.classList.remove('active');
+                link.style.color = 'black'; // Set inactive tabs to black
+            });
+            // Set the clicked tab to active and change color to white
+            this.classList.add('active');
+            this.style.color = 'white';
+        });
+    });
+    </script>
+</body>
+
+</html>
