@@ -67,7 +67,10 @@ nav a {
   color: var(--maroon); text-decoration: none; font-weight: 600;
   margin: 0 14px; font-size: 16px;
 }
-nav a:hover { text-decoration: underline; }
+nav a:hover { text-decoration: underline; }nav a[aria-current="page"] {
+  border-bottom: 3px solid var(--gold); padding-bottom: 2px;
+  pointer-events: none;
+}
 
 /* ---------- headlines ---------- */
 .rule { border: 0; border-top: 3px double var(--gold); margin: 0 auto; }

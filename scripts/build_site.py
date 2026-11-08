@@ -4,7 +4,7 @@
 Every number on the page is computed from docs/data at build time —
 no hand-typed figures. Rerun: python3 scripts/build_site.py
 """
-import csv, json, collections, os, re
+import csv, json, collections, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "docs", "data")
@@ -402,3 +402,8 @@ print(f"index.html written: {total} records, {hij} hijacked, {a_copies+k_copies}
 print("top registrants:", S["reg_top"])
 print("ACL waves:", S["a_top_waves"])
 print("KCL waves:", S["k_top_waves"])
+
+# keep the navbar identical on every page (see scripts/build_nav.py)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import build_nav
+build_nav.sync_all()
