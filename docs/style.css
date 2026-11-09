@@ -244,3 +244,4 @@ table.actor th, table.actor td { border: 1px solid var(--line); padding: 9px 12p
 table.actor th { background: var(--maroon); color: #f7f2e2; font-weight: 600; }
 table.actor td:first-child { width: 22%; }
 .muted { color: var(--grey); }
+.fine { font-size: 13.5px; color: var(--grey); max-width: 860px; margin: 8px 0 0; }

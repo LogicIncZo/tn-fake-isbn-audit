@@ -155,7 +155,7 @@ HTML = f"""<!doctype html>
         <li>2026 நவம்பர் 5 அன்று எழுத்தாளர் பெருமாள் முருகன், கோயம்புத்தூர் பெரியார் அறிவுலக நூலகத்தில் போலி ISBN கொண்ட சுமார் 1,800 <b>அகல்விளக்கு</b>, 2,000 <b>பீனிக்ஸ்</b> புத்தகங்கள் உள்ளன என <a href="https://www.sindhai.com/essays/perumal-murugan-on-the-corruption-in-periyar-arivulagam-1387700" target="_blank" rel="noopener"><i>சிந்தனை</i> இதழில்</a> குற்றச்சாட்டு எழுப்பினார்; மறுநாளே பள்ளிக் கல்வித்துறை அமைச்சர் விசாரணை உத்தரவிட்டார்.</li>
         <li>அதே இரு பதிப்பகங்களின் தடம் வேறு அரசு நூலகங்களிலும் உள்ளதா என்று இந்த ஆய்வு மேற்கொண்டது — <b>அண்ணா நூற்றாண்டு நூலகம் (சென்னை)</b>, <b>கலைஞர் நூற்றாண்டு நூலகம் (மதுரை)</b>.</li>
         <li>முடிவு: ஆய்வு செய்யப்பட்ட {total} பதிவுகளில் {hij}-ன் ISBN-கள், தேசிய பதிவேட்டின்படி, வேறு புத்தகங்களைச் சேர்ந்தவை — அல்லது பதிவேட்டிலேயே இல்லை.</li>
-        <li>{hij}-ல் 379-ல் நூலின் மீதே அச்சிடப்பட்ட பதிப்பகப் பெயர் <b>பீனிக்ஸ்</b>; மற்றவை ISBN அடுக்கிலேயே தோல்வி. கொள்முதல் ஒரே நாள் அலைகளாக நடந்தது — சென்னையில் ஒரு நாளில் (13.04.2024) 293 பிரதிகள்; மதுரையில் ஒரு நாளில் (12.06.2023) 173 தலைப்புகள் / 366 பிரதிகள். பெரும்பாலான பல-பிரதி பதிவுகளில் சரியாக 2 பிரதிகளே.</li>
+        <li>அலை ஒரு துணைக்குழுவே, முழுமை அல்ல: மதுரை நூலகத்தின் <b>ஒவ்வொரு பதிவையும்</b> (4,576) பதிவேட்டில் ஒப்பிட்டபோது, பதிவேட்டில் காணப்படும் 818 ISBN-இல் <b>812 (99.3%)</b> வேறு நூல்களுக்கே சொந்தம்; 6 மட்டுமே உண்மையானவை (NEET/CUET வழிகாட்டிகள்) — மோசடி தேர்வுசெய்யப்பட்டது. அலையில் 379-ல் நூலின் மீதே <b>பீனிக்ஸ்</b> பதிப்பகப் பெயர் அச்சிடப்பட்டுள்ளது; மற்றவை ISBN அடுக்கிலேயே தோல்வி. கொள்முதல் ஒரே நாள் அலைகள் — சென்னை 13.04.2024 (293 பிரதிகள்), மதுரை 12.06.2023 (173 தலைப்புகள் / 366 பிரதிகள்).</li>
         <li>இரு நூலகங்களும் அதே ISBN வரிசைத்தொகுதிகளைப் பயன்படுத்தின: 978-93-9461 (329), 978-93-9235 (34) — மேலும் சென்னையின் பழைய ஒதுக்கீட்டில் 978-93-9236, அதாவது கோயம்புத்தூர் புகாரில் அச்சிடப்பட்ட அதே எண். ஒரே அமைப்பு, மூன்று நூலக இடங்கள்.</li>
         <li>எல்லாத் தரவும் திறந்தது; ஒவ்வொரு கூற்றும் சரிபார்க்கத்தக்கது; 2026 நவம்பர் 7 அன்று DVAC-க்குப் புகார் அளிக்கப்பட்டது. கீழே உள்ள எண்கள் அனைத்தையும் நீங்களே சரிபாருங்கள்.</li>
       </ol>
@@ -166,7 +166,7 @@ HTML = f"""<!doctype html>
         <li>On 5 November 2026, writer Perumal Murugan alleged in <a href="https://www.sindhai.com/essays/perumal-murugan-on-the-corruption-in-periyar-arivulagam-1387700" target="_blank" rel="noopener"><i>Sindhai</i></a> that the new Periyar Arivulagam library (Coimbatore) held roughly 1,800 <b>Akalvilakku</b> and 2,000 <b>Phoenix</b> imprint books with fake ISBNs; the School Education minister ordered an inquiry the next day.</li>
         <li>This desk then asked whether the same two imprints had left traces in <i>other</i> state libraries — and audited the public catalogs of the <b>Anna Centenary Library (Chennai)</b> and the <b>Kalaignar Centenary Library (Madurai)</b>, record by record, against the national ISBN registry at isbn.gov.in.</li>
         <li>Result: {hij} of {total} screened records carry ISBNs the registry assigns to unrelated real books — or numbers that never existed at all.</li>
-        <li>On 379 of those {hij}, the book itself is printed with a <b>Phoenix / Akalvilakku</b> imprint; the rest fail at the ISBN layer alone. Acquisition arrived in single-day waves — 293 copies in one day in Chennai (13 Apr 2024); 173 titles / 366 copies in one day in Madurai (12 Jun 2023).</li>
+        <li>The wave was a subset, not the whole. Screening <b>every one</b> of KCL's 4,576 catalog records: of the 818 ISBNs that exist in the registry at all, <b>812 (99.3%)</b> are allocated to unrelated real books — only 6 records are genuine (NEET/CUET guides), so the fraud is selective. On 379 wave records the <b>Phoenix / Akalvilakku</b> imprint is printed on the book itself; the rest fail at the ISBN layer alone. Acquisition arrived in single-day waves — 293 copies in one day in Chennai (13 Apr 2024); 173 titles / 366 copies in one day in Madurai (12 Jun 2023).</li>
         <li>Every number below is open data and independently checkable; a DVAC complaint was filed on 7 November 2026. <a href="verify.html">Verify it yourself →</a></li>
       </ol>
     </div>
@@ -179,9 +179,10 @@ HTML = f"""<!doctype html>
     <div class="stat"><span class="n">{total}</span><span class="l">catalog records screened<br>(two public libraries)</span></div>
     <div class="stat"><span class="n">{hij}</span><span class="l">ISBNs hijacked from<br>legitimate registrants</span></div>
     <div class="stat"><span class="n">{never}</span><span class="l">ISBNs that never<br>existed in the registry</span></div>
-    <div class="stat"><span class="n">{inr(a_cost+k_cost)}</span><span class="l">public money visible<br>in acquisition bills</span></div>
+    <div class="stat"><span class="n">{inr(a_cost+k_cost)}</span><span class="l">public money visible in bills<br>(569-record wave — see note)</span></div>
     <div class="stat"><span class="n">{a_copies + k_copies}</span><span class="l">physical copies<br>on public shelves</span></div>
   </div>
+  <p class="fine">Bill and copy totals are visible only where the OPAC exposes them — the 569-record wave (ACL full ledger + KCL's original 354). The KCL full-catalog cost trail rides on the MARC harvest in progress (claim C63).</p>
   <hr class="rule">
 </section>
 
@@ -200,6 +201,29 @@ HTML = f"""<!doctype html>
 </section>
 
 <section>
+  <div class="kicker">The Full-Catalog Expansion · <span class="ta">முழு ஆய்வு</span></div>
+  <h2>Every record, not just the wave · <span class="ta">அலை அல்ல, முழு பட்டியல்</span></h2>
+  <p class="dek">The original screen covered the visible wave. We then queried every one of the Kalaignar Centenary Library's 4,576 catalog records against the isbn.gov.in registry.</p>
+  <div class="tblwrap">
+    <table>
+      <thead><tr><th>Registry verdict (KCL, all 4,576 records)</th><th>Records</th><th>What it means</th></tr></thead>
+      <tbody>
+        <tr><td>HIJACKED — allocated to a different title</td><td><b>812</b></td><td>99.3% of every ISBN that exists in the registry (812 of 818) — claim C60/C61</td></tr>
+        <tr><td>LEGIT — registry confirms the catalog copy</td><td>6</td><td>NEET/CUET coaching guides — the fraud is selective, not blanket</td></tr>
+        <tr><td>NOT-IN-REGISTRY</td><td>3,490</td><td>Counted, not judged — withdrawn registrations, pre-ISBN imports, cataloguing typos or registry gaps; not fraud evidence (C62)</td></tr>
+        <tr><td>NO-ISBN-IN-CATALOG</td><td>244</td><td>No ISBN on the record to check</td></tr>
+        <tr><td>MALFORMED-ISBN</td><td>24</td><td>ISBN field unparseable</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="prose">
+    <p>The wave we reported first — 354 records with Phoenix and Akalvilakku imprints — is a subset of a much larger pattern. Of KCL's entire catalog, 818 ISBNs have any registry row; 812 of those rows allocate the number to an unrelated real book. Six genuine records exist (NEET/CUET guides, biblionumbers 102617–102630), so the fraud is selective rather than blanket — someone chose which books to fake.</p>
+    <p>Publisher attribution across the 812 is interim: 761 records carry any publisher string so far, and the MARC export harvest that adds imprint and price fields is still running from an Indian vantage (C63). Early clusters before normalisation: CBS Publishers variants 140 records / 112 hijacked; McGraw Hill variants 104 / 22; W W Norton 77 / 0. The unattributed remainder (3,589 records, of which 646 hijacked) waits on the MARC trail — the full per-publisher and cost table follows when it completes.</p>
+  </div>
+</section>
+
+<section>
+  <div class="kicker">The Origin Case<section>
   <div class="kicker">The Origin Case · <span class="ta">மூல வழக்கு</span></div>
   <h2>The same actor, two more libraries · <span class="ta">அதே பதிப்பகம், இன்னும் இரண்டு நூலகங்கள்</span></h2>
   <p class="dek">Perumal Murugan's essay named the imprints at Coimbatore. Our audit then found the same two names on hijacked-ISBN books in Chennai and Madurai. Three libraries, one distribution system.</p>
@@ -229,7 +253,7 @@ HTML = f"""<!doctype html>
         </tr>
         <tr>
           <td>Kalaignar Centenary Library, Madurai</td>
-          <td>218 hijacked records in the full sweep</td>
+          <td>218 in the visible wave — <b>812 registry-confirmed hijacks</b> across the full 4,576-record catalog (C60)</td>
           <td><b>Phoenix</b> imprint on all 218 — Chennai/"first edition" styling, 2021–2023</td>
           <td>12.06.2023 — 173 titles / 366 copies in one day</td>
           <td><span class="badge l4">confirmed · L4</span></td>
@@ -317,7 +341,7 @@ HTML = f"""<!doctype html>
   <div class="tblwrap">
   <table>
     <tr><th>Library</th><th>Koha OPAC</th><th>pb:Phoenix</th><th>pb:Thenmozhi</th><th>nb:9789394612709 (cross-library fingerprint)</th><th>Verdict</th></tr>
-    <tr><td>Anna Centenary Library, Chennai</td><td><a href="http://118.185.210.241:8001">118.185.210.241:8001</a></td><td>145 hijacked rows (full-catalog screen)</td><td>—</td><td class="num">1</td><td><span class="badge l1">factory present</span></td></tr>
+    <tr><td>Anna Centenary Library, Chennai</td><td><a href="http://118.185.210.241:8001">118.185.210.241:8001</a></td><td>145 pb:Phoenix rows by catalog publisher-string; 164 registry-confirmed hijacks (C53/C60)</td><td>—</td><td class="num">1</td><td><span class="badge l1">factory present</span></td></tr>
     <tr><td>Kalaignar Centenary Library, Madurai</td><td><a href="http://122.184.84.190:1011">122.184.84.190:1011</a></td><td class="num">352</td><td class="num">0</td><td class="num">1</td><td><span class="badge l1">factory present</span></td></tr>
     <tr><td>University of Madras Library, Chennai</td><td><a href="http://117.239.156.200">117.239.156.200</a></td><td class="num">16 (sampled: real "Phoenix" books)</td><td class="num">0</td><td class="num">0</td><td>clean</td></tr>
     <tr><td>Periyar University "Thiruvalluvar Library", Salem</td><td><a href="http://14.139.186.90:8081">14.139.186.90:8081</a></td><td class="num">5</td><td class="num">16 (M.Thenmozhi 1996–2001, real Tamil publisher)</td><td class="num">0</td><td>clean</td></tr>

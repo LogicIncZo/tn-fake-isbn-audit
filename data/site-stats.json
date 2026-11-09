@@ -1,35 +1,35 @@
 {
- "total": 569,
- "hij": 382,
- "never": 78,
- "noisbn": 109,
+ "total": 4791,
+ "hij": 976,
+ "never": 3541,
+ "noisbn": 244,
  "acl_n": 215,
  "acl_hij": 164,
  "acl_never": 51,
  "acl_copies": 419,
  "acl_cost": "\u20b91,51,675.00",
- "kcl_n": 354,
- "kcl_hij": 218,
- "kcl_never": 27,
- "kcl_noisbn": 109,
+ "kcl_n": 4576,
+ "kcl_hij": 812,
+ "kcl_never": 3490,
+ "kcl_noisbn": 244,
  "kcl_copies": 453,
  "kcl_cost": "\u20b932,148.22",
  "reg_top": [
   [
+   "CBS Publishers and Distributors Private Limited",
+   243
+  ],
+  [
+   "Satish Kumar Jain",
+   118
+  ],
+  [
    "Thenmozhi B",
-   226
+   106
   ],
   [
-   "Hay House Publishers India Pvt. Ltd.",
-   83
-  ],
-  [
-   "Ashok Chopra",
-   20
-  ],
-  [
-   "Vidya Publications",
-   19
+   "McGraw Hill Education (India) Private Limited",
+   100
   ]
  ],
  "a_top_waves": [
