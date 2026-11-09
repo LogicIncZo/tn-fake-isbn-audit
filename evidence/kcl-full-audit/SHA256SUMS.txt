@@ -1,0 +1,5 @@
+65b978c27e80caa180031340ca4bb95d480fd652b17b62e3c16013335a8b50b0  data/kcl-registry-full.jsonl
+c76f77d96934fe02660e3a5c45eb1059fa11cb5c3d9919c7d09a4d2cbf76128d  data/kcl-full-audit.json
+0aa910f69902c45dff70628fb77f252a27f5b4f0835990c763d494c6b6786f3e  evidence/kcl-full-audit/kcl_pubsweep.py
+05a0bdce87712596a2e02487f1442cffb5fe8afffe8321031860afe57cfe19d6  report/KCL-FULL-AUDIT.md
+c76f77d96934fe02660e3a5c45eb1059fa11cb5c3d9919c7d09a4d2cbf76128d  data/kcl-full-audit.json
