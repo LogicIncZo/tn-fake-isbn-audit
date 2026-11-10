@@ -25,12 +25,26 @@ isbn.gov.in registry.
 | Visible acquisition cost (sum of OPAC-printed prices) | ₹1,83,823.22 (ACL ₹1,51,675.00 + KCL ₹32,148.22) | `docs/data/fakeisbn-verification.json` |
 | Wave dates, ACL | 13.04.2024 (293 copies), 22.08.2024 (250), 28.06.2024 (10) | same |
 | Wave dates, KCL | 12.06.2023 (366 copies), 13–14.06.2023 (75) | `data/kcl-books.jsonl` |
+| TN books vote for public libraries, 2026-27 BE | ₹136.00 crore (2025-26 BE ₹168.00 crore) | `data/budget/library-book-spend.csv` |
 | Dominant registry registrant of the hijacked ISBNs | "Thenmozhi B" (226 allocations), Hay House India (83) | `data/full-registry-lookup.jsonl` |
 
 Labels: catalog figures = read directly from public OPAC pages (L4: artifact on disk).
 Registry figures = live `isbn.gov.in` queries 07–08 Nov 2026 (L4: raw JSONL on disk).
 "Cost of scam" beyond the visible ₹1,83,823.22 cannot be computed from OPAC alone —
 ACL prices are printed on the OPAC for 280 of 419 hijacked copies; KCL prices are absent from its holdings screen but present on the two purchase-bill lines (19/23-24) recorded in the MARC data — that is the ₹32,148.22. The rest sits in bills DVAC holds; we do not claim a number we cannot show.
+
+## The money side
+
+The books in this audit are bought through one budget line: object head **33402
+"Purchase of Books & Periodicals to Libraries"**, under 043 05 Directorate of
+Public Libraries, inside Demand No. 43 School Education. That line is per
+institution from 2022-23 and reaches **₹136 crore for 2026-27** across five
+libraries. Full trail, every source PDF hashed:
+`report/BUDGET-AND-PROCUREMENT-TRAIL.md`.
+
+IFHRMS (`karuvoolam.tn.gov.in`) is where the bills would sit, but it is behind
+DDO login — no public expenditure query. CAG's 2023 performance audit of IFHRMS
+is the caveat on the treasury's own data (`data/budget/`, claims C64–C69).
 
 ## The shape of the finding
 
@@ -51,12 +65,15 @@ ACL prices are printed on the OPAC for 280 of 419 hijacked copies; KCL prices ar
    real books' blurbs, real titles' fragments. Anatomy with worked examples:
    <https://logicinczo.github.io/tn-fake-isbn-audit/anatomy.html>
 
-## Repository layout## Repository layout
+## Repository layout
 
 ```
-report/          Dossiers and analysis notes (PHOENIX-DOSSIER.md is the origin case)
+report/          Dossiers and analysis notes (PHOENIX-DOSSIER.md is the origin case;
+                 BUDGET-AND-PROCUREMENT-TRAIL.md is the money side)
 data/            Derived datasets (CSV/JSONL) — every figure above cites one
   registry/      Raw isbn.gov.in responses + probe logs + earlier DVAC crossmatch
+  budget/        TN Detailed Demand for Grants No.43 PDFs (2018-19..2026-27) + extracted
+                 object-head 33402 book-purchase series + CAG IFHRMS audit + SHA256SUMS
 scripts/         The full pipeline — rerun to reproduce every dataset
 evidence/        Raw HTML evidence (catalog pages) + DVAC complaint scans
   SHA256SUMS     Hash manifest over evidence/ and data/ (integrity pin)

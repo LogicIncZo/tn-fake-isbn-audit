@@ -124,3 +124,21 @@ zo.pub archive manifest). Verify with `sha256sum -c evidence/SHA256SUMS`.
 Collections ran read-only: GET requests against public OPAC endpoints and the
 registry's own search endpoint, ~1–1.5 s spacing, no authentication, no
 login-circumvention, no writes to any target system.
+
+## 2026-11-10 — DDG No.43 book-purchase series (Demand 43, 2018-19..2026-27)
+
+Eleven `financedept.tn.gov.in` PDFs pulled from ocitwo (Indian vantage; the host 403s
+the sandbox on its root and publications index and serves direct `/en/my-documents/`
+paths normally). Bytes as received, hashed into `data/budget/SHA256SUMS`, never
+re-saved by an editor. `scripts/fetch_ddg43.sh` replays the pull;
+`data/budget/ddg43-sources.csv` maps each local file to its URL, budget year and
+document kind. Text extracted with `pdftotext -layout`; object head 33402 lines
+picked by regex with the four printed numeric columns kept verbatim alongside the
+parsed value.
+
+Cannot prove: that a vote was spent. DDG is the demand for grants as printed, with
+actual columns filled from the treasury. The vouchers behind any object head are in
+IFHRMS, which has no anonymous query.
+
+Culled: bulk `financedept` mirror copies deleted after hash verification against
+SHA256SUMS. Early drafts of the analysis note removed once superseded.

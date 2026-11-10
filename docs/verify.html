@@ -88,8 +88,9 @@ python3 scripts/fix_acl_titles.py       # restores true titles from registry row
 <h3>4 · The evidence chain</h3>
 <ul class="prose">
   <li><code>docs/evidence/</code> — archived OPAC pages (ACL + KCL) with <code>SHA256SUMS</code> over every byte; the DVAC complaint scan (3 pages); archive.org captures of the Phoenix website.</li>
-  <li><code>data/claims-register.csv</code> — the 30 claims in the report, each with its L0–L5 evidence rung.</li>
+  <li><code>data/claims-register.csv</code> — the 36 claims in the report, each with its L0–L5 evidence rung.</li>
   <li><code>report/PROVENANCE.md</code> — chain of custody: what was fetched, when, from where, and what the scripts cannot prove (procurement bills, physical shelf counts — those are for DVAC, which holds the complaint).</li>
+  <li><code>report/BUDGET-AND-PROCUREMENT-TRAIL.md</code> — the money side: every object-head 33402 book-purchase line in Demand No.43, 2018-19 to 2026-27, with the source PDF, the printed column and a hash for each file. Budget votes, not vouchers.</li>
   <li><code>evidence/SHA256SUMS</code> — recompute anytime: <code>sha256sum -c evidence/SHA256SUMS</code> from the repo root.</li>
 </ul>
 
@@ -97,7 +98,7 @@ python3 scripts/fix_acl_titles.py       # restores true titles from registry row
 <ul class="prose">
   <li>The registry check is a snapshot. Allocations can be amended; if a registrant transfers an ISBN after our check, the live registry may differ. The snapshot date is on every row.</li>
   <li>"Registry matches" can still hide problems we did not test (print quality, physical existence on the shelf).</li>
-  <li>Price columns are the number printed on the catalog record, not audited spend. Total visible spend ₹1,22,018 is an upper-bound on what the records <em>claim</em> — bills live in government files.</li>
+  <li>Price columns are the number printed on the catalog record, not audited spend. Total visible spend ₹1,83,823.22 is an upper-bound on what the records <em>claim</em> — bills live in government files.</li>
   <li>ACL's OPAC was intermittently unreachable during our harvest; the 188-record gap analysis and the login-wall limitation are documented in PROVENANCE.md, not smoothed over.</li>
 </ul>
 

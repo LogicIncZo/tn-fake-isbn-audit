@@ -116,6 +116,16 @@ for c in claims:
 '''
 
 
+def _cr(fy, stage):
+    tot = 0
+    for r in csv.DictReader(open(os.path.join(D, "budget", "library-book-spend.csv"), encoding="utf-8")):
+        if r["fiscal_year"] == fy and r["stage"] == stage and r["amount_inr"]:
+            tot += int(r["amount_inr"])
+    return tot / 1e7
+
+
+books_2526_be, books_2627_be = _cr("2025-26", "budget_estimate"), _cr("2026-27", "budget_estimate")
+
 HTML = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -319,6 +329,37 @@ HTML = f"""<!doctype html>
     over half the intake in three days, on bill 19/23-24 (210 records). The price range runs ₹399 to ₹10,231, and ₹2,895 (×3) matches a Chennai price point exactly.</p>
     <p>Where the OPAC shows no price — {kcl and sum(1 for r in kcl if not (r.get('price') or '').strip() or (r.get('price') or '') in ('0','0.00'))} KCL copies — the bill, not the screen, is the audit source. We have asked; the OPAC does not show it.</p>
   </div>
+</section>
+
+<section>
+  <div class="kicker">The Money</div>
+  <h2>What the treasury voted for library books, year by year</h2>
+  <p class="dek">Demand No. 43, object head 33402, as printed. Estimates, not vouchers — IFHRMS is closed to the public.</p>
+  <div class="prose">
+    <p>The state's books vote for public libraries is a line item. From 2022-23 it is broken out per institution, which makes it auditable and makes it small enough to be worth taking. The Directorate carries ₹64.00 crore a year against branch and district library charges under the 1948 Act. Madurai's memorial library took ₹10.00 crore budgeted in 2022-23 and ₹40.00 crore at revision in 2023-24, then fell back to a ₹1,000 token. Coimbatore and Tiruchirappalli were each voted ₹50.00 crore for 2025-26 and revised to ₹20.00 crore. The 2025-26 books vote peaked at ₹{books_2526_be:.2f} crore; the 2026-27 vote is ₹{books_2627_be:.2f} crore.</p>
+    <p>Five libraries now share ₹{books_2627_be:.0f} crore. Their printed prices cluster on the same handful of round numbers, in the same single-day waves, from the same twenty-five imprints. Small conspiracies of imprints divide the round price points between themselves — mostly two copies per title. At ₹2,895 a copy against a ₹100–₹300 reprint, the margin on the shelf is the state's money, and the ISBN on the spine is what makes the invoice look ordinary.</p>
+    <p>Against that denominator our 569 identified records are ₹1.83 lakh on the OPAC price print, 0.02 per cent of one year's vote. The scale here is not the size of the theft; it is the size of the shelf it can hide on. <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit/blob/main/report/BUDGET-AND-PROCUREMENT-TRAIL.md">The full budget trail, with every source PDF hashed &rarr;</a></p>
+  </div>
+  <div class="tblwrap">
+  <table>
+    <thead><tr><th>Institution (DDG group)</th><th class="num">2023-24 act.</th><th class="num">2024-25 act.</th><th class="num">2025-26 BE</th><th class="num">2025-26 RE</th><th class="num">2026-27 BE</th></tr></thead>
+    <tbody>
+      <tr><td>Directorate of Public Libraries (AA)</td><td class="num">...</td><td class="num">64.00</td><td class="num">64.00</td><td class="num">64.00</td><td class="num">64.00</td></tr>
+      <tr><td>Charges under TN Public Libraries Act 1948 (AF)</td><td class="num">...</td><td class="num">1.00</td><td class="num">4.00</td><td class="num">2.00</td><td class="num">2.00</td></tr>
+      <tr><td>Kalaignar Memorial Library, Madurai (BA)</td><td class="num">40.00</td><td class="num">—</td><td class="num">0.001</td><td class="num">...</td><td class="num">...</td></tr>
+      <tr><td>Grand Library &amp; Science Centre, Coimbatore (BD)</td><td class="num">—</td><td class="num">—</td><td class="num">50.00</td><td class="num">20.00</td><td class="num">20.00</td></tr>
+      <tr><td>Grand Library &amp; Intellectual Centre, Tiruchirappalli (BE)</td><td class="num">—</td><td class="num">—</td><td class="num">50.00</td><td class="num">20.00</td><td class="num">20.00</td></tr>
+      <tr><td>Bharathidasan Arivulagam, Salem (BF)</td><td class="num">—</td><td class="num">—</td><td class="num">0.001</td><td class="num">10.00</td><td class="num">10.00</td></tr>
+      <tr><td>Anjalaiammal Arivulagam, Cuddalore (BG)</td><td class="num">—</td><td class="num">—</td><td class="num">0.001</td><td class="num">10.00</td><td class="num">10.00</td></tr>
+      <tr><td>Quaid-e-Millat Arivulagam, Tirunelveli (BH)</td><td class="num">—</td><td class="num">—</td><td class="num">0.001</td><td class="num">10.00</td><td class="num">10.00</td></tr>
+      <tr><td>Children &amp; Adolescents Libraries scheme (JQ)</td><td class="num">8.21</td><td class="num">8.21</td><td class="num">...</td><td class="num">...</td><td class="num">...</td></tr>
+      <tr><td><b>Total, crore</b></td><td class="num"><b>48.21</b></td><td class="num"><b>73.21</b></td><td class="num"><b>168.00</b></td><td class="num"><b>136.00</b></td><td class="num"><b>136.00</b></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p style="max-width:820px;margin:14px auto 0;color:var(--grey);font-size:16px">
+  Rupees, crore, as printed in thousands. "..." is nil, "—" is no line, "1" is a ₹1,000 token vote. Budget figures are votes, not spends; the "act." columns are the actuals the next year's demand restates. IFHRMS itself sits behind DDO login on karuvoolam.tn.gov.in and publishes no anonymous expenditure query, so bill-level attribution needs an RTI — and CAG's own 2023 audit found the IFHRMS budget module permits transfers between grants and expenditure without provision, so head-code integrity needs checking even inside.
+  </p>
 </section>
 
 <section>
