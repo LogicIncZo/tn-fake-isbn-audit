@@ -1,0 +1,3300 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	e-Granthalaya OPAC: A Digital Agenda for Library Automation and Networking
+</title><link rel="shortcut icon" href="../Images/nicicon.ico" type="image/vnd.microsoft.icon" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" /><meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+     
+   
+    <!-- plugins:css -->
+    
+    <link rel="stylesheet" href="../theme/vendors/ti-icons/css/themify-icons.css" />
+    
+    <!-- endinject -->
+
+    <!-- Plugin css for this page -->
+    
+    
+    <link rel="stylesheet" type="text/css" href="../theme/js/select.dataTables.min.css" />
+    <!-- End plugin css for this page -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../theme/css/vertical-layout-light/style.css" />
+    <!-- endinject -->
+
+    
+    <link href="../Styles/Style.css" rel="stylesheet" type="text/css" media="all" /><link href="../Styles/w3.css" rel="stylesheet" />
+    
+
+     <script src="../Js/jquery-3.6.0.min.js" type="text/javascript" defer="defer"></script> 
+     <script src="../Js/jquery.min.js" type="text/javascript" defer="defer"></script>
+
+    <style type="text/css"> 
+        .Shadowtextx {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext {
+            text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        }
+
+        .Shadowtextx7 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext1 {
+            color: red;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+
+        .Shadowtext2 {
+            color: black;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .Shadowtext3 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext31 {
+            color: #336699;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            /*background-color:#FFFFFF;*/
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext4 {
+            color: black;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            margin-top: -5px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .Shadowtext5 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 15px;
+            background-color: #336699;
+            border-width: 5px;
+            border: 2px solid red;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+
+        .ShadowTable2 {
+            color: black;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px 5px #000000;
+            border-width: 0px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            margin-left: 0px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .Shadowtextx7 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+
+
+        .Shadowtext5 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 10px;
+            background-color: #336699;
+            border-width: 5px;
+            border: 2px solid red;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 30px 45px rgba(35,31,32,.3);
+            /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext6 {
+            border-style: solid;
+            border-color: inherit;
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            height: 25px;
+            background-color: #336699;
+            border-width: 2px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            text-align: center;
+        }
+
+        .Shadowtext8 {
+            border-style: solid;
+            border-color: inherit;
+            /*color: #eeeeee;*/
+            font-size: medium;
+            font-weight: 400;
+            height: 25px;
+            background-color: #336699;
+            border-width: 2px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            text-align: center;
+        }
+    </style>
+
+    <style type="text/css">
+        .Panel11 {
+            width: 100% !important;
+            overflow-wrap: break-word;
+        }
+
+        .input-txt {
+            width: 100%;
+            padding: 20px 10px;
+            border-style: none;
+            font-size: 1em;
+            color: black;
+            border-bottom: 1px dotted rgba(250, 250, 250, 0.4);
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            -moz-transition: background-color 0.5s ease-in-out;
+            -o-transition: background-color 0.5s ease-in-out;
+            -webkit-transition: background-color 0.5s ease-in-out;
+            transition: background-color 0.5s ease-in-out;
+        }
+
+        .input-Select {
+            width: 100%;
+            font: 0.875em "Tenor Sans", sans-serif;
+            height: 40px;
+        }
+
+        .input-txt:-moz-placeholder {
+            color: #e1184a;
+        }
+
+        .input-txt:-ms-input-placeholder {
+            color: #e1184a;
+        }
+
+        .input-txt::-webkit-input-placeholder {
+            color: #e1184a;
+        }
+
+        .input-txt:focus {
+            background-color: #e1184a;
+        }
+
+        .fade.in {
+            opacity: 1;
+        }
+
+        .modal-title {
+            margin: 0;
+            line-height: 1.42857143;
+        }
+
+        .modal-body {
+            position: relative;
+            padding: 15px;
+            top: -2px;
+            left: 0px;
+        }
+
+        /* Bootstrap Modal Backdrop */
+.modal-backdrop,
+.ModalPopupBG,
+.modalBackground,
+.modalXBackground {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 1040 !important;
+
+    /* Make background hidden/dim */
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    opacity: 1 !important;
+}
+
+/* Modal should appear above backdrop */
+.modal {
+    z-index: 1050 !important;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+/* Force modal overlay/backdrop */
+body.modal-open {
+    overflow: hidden !important;
+}
+
+.modal-backdrop,
+.opac-custom-backdrop {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0, 0, 0, 0.75) !important;
+    z-index: 1040 !important;
+    opacity: 1 !important;
+}
+
+#mymodalupdate {
+    z-index: 1050 !important;
+     position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0, 0, 0, 0.75) !important;
+    z-index: 1040 !important;
+    opacity: 1 !important;
+}
+
+#mymodalupdate .modal-dialog {
+    z-index: 1060 !important;
+}
+
+/* Modal content/panel */
+.modal-dialog,
+.modalPopup {
+    position: relative !important;
+    z-index: 1060 !important;
+}
+
+/* Stop background scrolling */
+body.modal-open {
+    overflow: hidden !important;
+}
+
+/* Close button should always remain clickable */
+.modal .close,
+.modalPopup .close,
+.close {
+    position: relative;
+    z-index: 1060;
+    cursor: pointer;
+}
+
+        .style1 {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .style2 {
+            color: #336699;
+            font-size: large;
+            text-align: center;
+        }
+
+        .style3 {
+            color: #FFFFFF;
+            text-align: center;
+            font-family: "Goudy Old Style";
+        }
+
+        .style5 {
+            text-align: center;
+        }
+
+        .style6 {
+            color: #FFFFFF;
+        }
+
+        .style6B {
+            color: #336699;
+        }
+
+        .style8 {
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        .bg-gradient-primary text-white {
+            cursor: pointer;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        /*.styleBttn {
+            background-color: #FFFFFF;
+            cursor: pointer;
+            margin-left: 0px;
+            font-weight: 700;
+            font-family: "Arial Black";
+            text-shadow: inherit;
+            border-radius: 4px;
+            border-color: #336699;
+            border-width: 1px;*/
+        /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+        /*}*/
+
+        /* .styleBttn:hover {
+                background-color: #d2e6c9;
+            }*/
+
+
+
+        #DataPager1 > a {
+            -moz-transition: all 200ms ease-in;
+            position: relative;
+            padding: 5px 12px;
+            line-height: 1.42857143;
+            text-decoration: none;
+            border: 1px solid #ddd;
+        }
+
+        #DataPager1 > span {
+            color: #fff;
+            cursor: default;
+            background-color: #337ab7;
+            border: 1px solid #ddd;
+            padding: 5px 12px;
+        }
+
+        .preview-image {
+            display: block;
+            margin: 10px 0;
+            border: solid 3px #aaa;
+            padding: 1px;
+            background: #fff;
+        }
+
+        .PromptCSS {
+            color: Blue;
+            font-weight: bold;
+            font-family: Arial;
+            background-color: Silver;
+            height: 20px;
+        }
+
+
+
+        #tooltip {
+            display: none;
+            border: solid 1px #708069;
+            background-color: #336699;
+            color: #fff;
+            line-height: 20px;
+            padding: 5px 10px;
+            position: absolute;
+            z-index: 3001;
+            width: auto;
+            height: auto;
+        }
+
+            #tooltip h3, #tooltip div {
+                margin: 0;
+            }
+
+        .hiddencol {
+            display: none;
+        }
+
+        .stylePager {
+            border-style: none;
+            border-color: inherit;
+            padding: 0px;
+            background-color: #99CCFF;
+        }
+
+        .cssPager {
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        .alternating {
+            background-color: #eeeeee;
+        }
+
+        .accordion {
+            border-radius: 3px !important;
+        }
+
+        .statistics {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            border-radius: 4px;
+        }
+
+        .accordionHeader p-2 bg-primary mt-0 {
+            border: 1px solid #2F4F4F;
+            color: white;
+            background-color: #4B49AC;
+            font-family: Arial, Sans-Serif;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 5px;
+            margin-top: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .accordionHeader p-2 bg-primary mt-01 {
+            /*border: 1px solid #2F4F4F;*/
+            color: darkblue;
+            background-color: #eeeeee;
+            font-family: Arial, Sans-Serif;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 5px;
+            /*margin-top: 5px;*/
+            cursor: pointer;
+            border-radius: 4px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+            .accordionHeader p-2 bg-primary mt-01:hover {
+                background-color: Gray;
+                color: white;
+            }
+
+
+        .accordionHeaderSelected {
+            border: 1px solid #2F4F4F;
+            color: white;
+            background-color: #4B49AC;
+            font-family: Arial, Sans-Serif;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 5px;
+            margin-top: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .accordionHeaderSelected1 {
+            border: 1px solid #2F4F4F;
+            color: white;
+            background-color: Gray;
+            font-family: Arial, Sans-Serif;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 5px;
+            margin-top: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .accordionContent {
+            border: 1px dashed #2F4F4F;
+            border-top: none;
+            padding: 5px;
+            padding-top: 10px;
+        }
+
+        .style44 {
+            font-size: small;
+            font-family: Arial;
+        }
+
+        .style45 {
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        .style46 {
+            color: #336699;
+            font-family: Arial;
+            font-size: medium;
+            text-align: center;
+        }
+
+        .style47 {
+            color: #336699;
+            font-weight: bold;
+        }
+
+        .style48 {
+            color: #FFFFFF;
+            text-align: center;
+            font-family: Arial;
+            font-size: small;
+        }
+
+        .style52 {
+            text-align: center;
+            border-style: none;
+            padding: 0px;
+            font-weight: bold;
+            background-color: #D5EAFF;
+            height: 18px;
+        }
+
+
+        .loading {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 3px solid #a09ed6;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+
+
+        /* jQuery lightBox plugin - Gallery style */
+        #Table2 {
+            background-color: #444;
+            padding: 10px;
+            width: 668px;
+        }
+
+            #Table2 ul a:hover img {
+                border: 5px solid #fff;
+                border-width: 5px 5px 20px;
+                color: #fff;
+            }
+
+            #Table2 li {
+                display: inline;
+                margin-right: 3px;
+            }
+
+            #Table2 #main-img {
+                background: url(../Images/wood.jpg);
+                padding: 26px;
+                width: 500px;
+                height: 300px;
+            }
+
+        input[name="CAPTCHA"] {
+            text-transform: uppercase !important;
+        }
+
+        div#jqChart {
+            width: 100%;
+            height: 250px;
+            border: none;
+            margin: auto;
+            position: relative;
+        }
+
+        .amcharts-pie-slice {
+            -webkit-transition: all .3s ease-out;
+            -moz-transition: all .3s ease-out;
+            -o-transition: all .3s ease-out;
+            cursor: pointer;
+        }
+
+        .ui-jqchart {
+            position: relative;
+        }
+
+        .ui-jqchart-tooltip {
+            position: absolute;
+            white-space: nowrap;
+            padding: .2em .4em;
+            z-index: 9999;
+            border: 1px solid #dddddd;
+            color: #333333;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-box-shadow: 0 0 5px #aaa;
+            -webkit-box-shadow: 0 0 5px #aaa;
+        }
+
+        * html .ui-jqchart-tooltip {
+            background-image: none;
+        }
+
+        body .ui-jqchart-tooltip {
+            border-width: 2px;
+        }
+
+        a {
+            color: darkblue;
+        }
+
+
+        .Meenu img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .Shadowtextx {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext {
+            font-size: medium;
+            font-weight: 400;
+            text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        }
+
+        .Shadowtextx7 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext1 {
+            color: red;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+
+        .Shadowtext2 {
+            color: black;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .Shadowtext3 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext31 {
+            color: #336699;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            /*background-color:#FFFFFF;*/
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext4 {
+            color: black;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            margin-top: -5px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .img_rpt {
+            height: 200px;
+            width: 150px;
+            border-style: none;
+        }
+
+        .ShadowTable {
+            color: black;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px 5px #000000;
+            border-width: 1px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            margin-left: 0px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /* box-shadow: 0 30px 45px rgba(35,31,32,.3);*/
+            /*box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;*/
+        }
+
+        .Shadowtext5 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 15px;
+            background-color: #336699;
+            border-width: 5px;
+            border: 2px solid red;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+
+        .ShadowTable2 {
+            color: black;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px 5px #000000;
+            border-width: 0px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            margin-left: 0px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .Shadowtextx7 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+
+
+        .Shadowtext5 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 10px;
+            background-color: #336699;
+            border-width: 5px;
+            border: 2px solid red;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 30px 45px rgba(35,31,32,.3);
+            /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext6 {
+            border-style: solid;
+            border-color: inherit;
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            height: 25px;
+            background-color: #336699;
+            border-width: 2px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            text-align: center;
+        }
+
+        .Shadowtext8 {
+            border-style: solid;
+            border-color: inherit;
+            /*color: #eeeeee;*/
+            font-size: medium;
+            font-weight: 400;
+            height: 25px;
+            background-color: #336699;
+            border-width: 2px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            text-align: center;
+        }
+
+
+
+        .custom-logo {
+            max-width: 100%;
+            max-height: 81px;
+            /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+        }
+
+        .custom-photo {
+            max-width: 100%;
+            max-height: 370px;
+            /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+        }
+
+        .custom-image {
+            display: block;
+            max-width: 100%;
+            max-height: 100px;
+            /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+        }
+
+        /* .btn {
+            cursor: pointer;
+            border: none;
+            color: #ffffff;
+            background-color: #009999;
+            text-underline-position: below;
+            width: 100px;
+            height: 30px;
+            text-decoration: none;
+            text-align: center;
+            font-size: medium;
+            vertical-align: text-bottom;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .btnBlue {
+            cursor: pointer;
+            border: none;
+            color: #ffffff;
+            background-color: #336699;
+            text-underline-position: below;
+            width: 100px;
+            height: 30px;
+            text-decoration: none;
+            text-align: center;
+            font-size: medium;
+            vertical-align: text-bottom;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .btn:hover {
+            background-color: #D91630;
+        }*/
+    </style>
+
+    <style type="text/css">
+        .pagerx {
+            display: inline-block;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+            .pagerx:link {
+                color: white;
+                float: none;
+                padding: 3px 16px;
+                text-decoration: none;
+                transition: background-color .3s;
+                background-color: #a09ed6;
+                border-radius: 5px;
+                font-size: medium;
+                font-weight: 400;
+            }
+
+            .pagerx:visited {
+                background-color: #ffffff;
+                color: red;
+                font-size: medium;
+            }
+
+        pagerx:hover {
+            /*color: hotpink;*/
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+        }
+
+
+        .pagerx:link:hover:not(.active) {
+            background-color: #e1184a;
+            color: #ffffff;
+        }
+
+
+        pagerx:link:active {
+            /*color: red;
+        font-size:medium;*/
+            background-color: #337ab7;
+            color: white;
+        }
+    </style>
+
+
+    <style type="text/css">
+        div.card {
+            width: 250px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+        }
+
+        div.header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            font-size: 40px;
+        }
+
+        div.container {
+            padding: 10px;
+        }
+
+        .Shadowtext5x {
+            color: #6e6e6e;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 15px;
+            background-color: white;
+            border-width: 5px;
+            border: 20px solid #EEEEEE;
+            box-shadow: 1px 1px 1px 1px #EEEEEE;
+            text-wrap: normal;
+            width: 100%;
+        }
+    </style>
+
+    <style type="text/css">
+        /* Create three unequal columns that floats next to each other */
+        .columnx {
+            float: left;
+            padding: 5px;
+        }
+
+            /* Left and right column */
+            .columnx.side {
+                width: 17%;
+                text-align: center;
+            }
+
+            .columnx.side10 {
+                width: 10%;
+                text-align: center;
+            }
+
+            /* Middle column */
+            .columnx.middle {
+                width: 66%;
+            }
+
+            .columnx.middle85 {
+                width: 78%;
+                margin-left: 11px;
+                min-height: 160px;
+            }
+
+            .columnx.middle90 {
+                width: 90%;
+            }
+
+        .CurrentColor {
+            /*color: green;*/
+            box-shadow: 0px 0px 15px currentcolor;
+            border: 0px solid currentcolor;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        .columnx:hover {
+            /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+        }
+
+        /* Clear floats after the columns */
+        .rowx:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 1000px) {
+            .columnx.side, .columnx.middle, .columnx.middle85, .columnx.side10, .columnx.middle90 {
+                width: 100%;
+            }
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (min-width:1000px) and (max-width: 1300px) {
+            .columnx.middle85 {
+                width: 71%;
+                margin-left: 45px;
+            }
+
+            .img_rpt {
+                height: 165px;
+                width: 125px;
+                border-style: none;
+            }
+        }
+
+        @media screen and (min-width:1300px) and (max-width: 1520px) {
+            .columnx.middle85 {
+                width: 74%;
+                margin-left: 39px;
+            }
+
+            .img_rpt {
+                height: 200px;
+                width: 150px;
+                border-style: none;
+            }
+        }
+
+
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .content_container {
+                padding: 2px;
+                text-align: center;
+            }
+
+            .content_header {
+                width: 100% !important;
+                padding-left: 2px;
+                padding-right: 2px;
+                text-align: center;
+            }
+
+            .content_full {
+                width: 100% !important;
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+
+
+
+            .CurrentColor {
+                /*color: green;*/
+                box-shadow: 0px 0px 15px currentcolor;
+                border: 0px solid currentcolor;
+                padding: 15px;
+                border-radius: 4px;
+                box-shadow: 0 30px 45px rgba(35,31,32,.3);
+            }
+
+
+
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                border-radius: 5px;
+            }
+
+                .card:hover {
+                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                }
+        }
+    </style>
+      
+    <script src="../Scripts/jquery-1.8.2.js" type="text/javascript" async="async" defer="defer"></script>
+    <script src="../Scripts/jquery.tooltip.min.js" type="text/javascript" async="async" defer="defer"></script>
+    
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="../Styles/Chartui.css" /><link href="../Styles/Notice.css" rel="stylesheet" /><link href="/WebResource.axd?d=S6_fIgmdEHSOLZzP-n3GXaICrVg_AskPf7AolP2GSSjZ21ZIs4Z5CTD99WCPKc4GimzOOqnt8KYGAon35AlT2T0ktLZMi0Wh-gzu2MbsPBusg4pDVR2b2yAKozFF_XME8PDhq1bR2B3L3Dl_v3BVsRWZ-nOQq6fXbyB0AUW2Axs1&amp;t=638639044764662532" type="text/css" rel="stylesheet" /></head>
+<body style="background-color: #F5F7FF!important; font-family: Arial!important;" >
+   
+
+    <script type="text/javascript">
+        // Robust OPAC details modal handling.
+        // Reason: this page uses WebForms postbacks/partial rendering. Direct bindings inside
+        // $(window).load(...) are sometimes lost, and plain .hide() leaves Bootstrap backdrop/body state behind.
+        (function () {
+            function getDropdownValue(selector) {
+                var el = $(selector);
+                return el.length ? (el.val() || '') : '';
+            }
+
+            window.CloseOpacDetailsModal = function () {
+                var modal = $('#mymodalupdate');
+
+                // Stop loading the details iframe and release browser memory.
+                $('#showdetails').attr('src', 'about:blank');
+                $('#linkdivupdate').hide();
+
+                if (modal.length && $.fn.modal) {
+                    modal.modal('hide');
+                }
+
+                // Fallback/cleanup for cases where Bootstrap modal state is broken after async postback.
+                modal.removeClass('in show ModalPopupBG').hide().attr('aria-hidden', 'true');
+                $('.modal-backdrop').remove();
+                $('body').removeClass('modal-open').css({ 'padding-right': '', 'overflow': '' });
+            };
+
+            window.ShowPopup = function () {
+                var modal = $('#mymodalupdate');
+                $('#linkdivupdate').show();
+
+                if (modal.length && $.fn.modal) {
+                    modal.modal({ backdrop: 'static', keyboard: false, show: true });
+                } else {
+                    modal.addClass('in show').show();
+                }
+            };
+
+            window.showValues = function (ID, isChecked) {
+                var url = '../OPAC/Details.aspx?ctr=' + encodeURIComponent(ID)
+                    + '&isChecked=' + encodeURIComponent(isChecked)
+                    + '&cluster=' + encodeURIComponent(getDropdownValue('#AccordionPaneUnion_content_DDL_Clusters'))
+                    + '&library=' + encodeURIComponent(getDropdownValue('#AccordionPaneUnion_content_DDL_ClusterLibraries'));
+
+                $('#showdetails').attr('src', url);
+                ShowPopup();
+                return false;
+            };
+
+            function bindOpacModalClose() {
+                $(document)
+                    .off('click.opacModalClose', '#closemodal,#closemodal2')
+                    .on('click.opacModalClose', '#closemodal,#closemodal2', function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        CloseOpacDetailsModal();
+                        return false;
+                    });
+
+                $('#mymodalupdate')
+                    .off('hidden.bs.modal.opacCleanup')
+                    .on('hidden.bs.modal.opacCleanup', function () {
+                        $('#showdetails').attr('src', 'about:blank');
+                        $('#linkdivupdate').hide();
+                        $('.modal-backdrop').remove();
+                        $('body').removeClass('modal-open').css({ 'padding-right': '', 'overflow': '' });
+                    });
+            }
+
+            $(document).ready(bindOpacModalClose);
+
+            // ASP.NET AJAX calls pageLoad after UpdatePanel partial postbacks.
+            window.pageLoad = function () {
+                bindOpacModalClose();
+            };
+        })();
+    </script>
+
+    <script type="text/javascript">
+        function ShowProgress() {
+            //        setTimeout(function () {
+            var modal = $('<div />');
+            modal.addClass("modal");
+            $('body').append(modal);
+            var loading = $(".loading");
+            loading.show();
+            var top = Math.max($(window).height() / 2 - loading[0].offsetHeight / 2, 0);
+            var left = Math.max($(window).width() / 2 - loading[0].offsetWidth / 2, 0);
+            loading.css({ top: top, left: left });
+            //        }, 200);
+        }
+
+
+        $('form').on("submit", function () {
+            ShowProgress();
+        });
+
+    </script>
+
+    <script type="text/javascript">
+        function HideProgress() {
+            var modal = $('<div />');
+            modal.addClass("modal");
+            $('body').append(modal);
+            var loading = $(".loading");
+            loading.hide();
+        }
+        function jsShowHideProgress() {
+            ShowProgress();
+            deleteCookie();
+
+            var timeInterval = 500; // milliseconds (checks the cookie for every half second )
+            var loop = setInterval(function () {
+                if (IsCookieValid()) {
+
+                    HideProgress();
+                    clearInterval(loop);
+
+                }
+
+            }, timeInterval);
+        }
+
+        // cookies
+        function deleteCookie() {
+            var cook = getExcelCookie('RptDwnloadFlag');
+            if (cook != "") {
+                document.cookie = "RptDwnloadFlag=; Path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+            }
+        }
+
+        function IsCookieValid() {
+            var cook = getExcelCookie('RptDwnloadFlag');
+
+            return cook != '';
+        }
+
+        function getExcelCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+    </script>
+
+    <script type="text/javascript">
+        function ClientItemSelected(sender, e) {
+            $get("txt_Search").value = e.get_value();
+            $('#Book_View_Bttn').css('display', 'inline-block');
+            document.getElementById('DDL_Field').value = 'CAT_NO';
+        }
+    </script>
+
+    
+    
+
+    <script language="javascript" src="../sha256.js" type="module" async="async" defer="defer"></script>
+    <script language="javascript" src="../md5.js" type="module" async="async" defer="defer"></script>
+
+    <script type="text/javascript">
+        function maintainScrollPositionAuthor() {
+            $("#DivAuthor").scrollTop($('#hfAuthor').val());
+        }
+        function maintainScrollPositionLibraries() {
+            $("#DivLibraries").scrollTop($('#hfLibraries').val());
+        }
+        function maintainScrollPositionMedium() {
+            $("#DivMedium").scrollTop($('#hfMedium').val());
+        }
+        function maintainScrollPositionSubject() {
+            $("#DivSubject").scrollTop($('#hfSubject').val());
+        }
+        function maintainScrollPositionYear() {
+            $("#DivYear").scrollTop($('#hfYear').val());
+        }
+        function maintainScrollPositionPublisher() {
+           
+        }
+
+        function maintainScrollPositionDoctype() {
+            $("#DivDoctype").scrollTop($('#hfDoctype').val());
+        }
+        function maintainScrollPositionLang() {
+            $("#DivLang").scrollTop($('#hfLang').val());
+        }
+        function maintainScrollPositionPlace() {
+            $("#DivPlace").scrollTop($('#hfPlace').val());
+        }
+
+
+        function maintainScrollPositionNewsLibrary() {
+            $("#DivNewsLibrary").scrollTop($('#hfNewsLibrary').val());
+        }
+        function maintainScrollPositionNewsPaper() {
+            $("#DivNewsPaper").scrollTop($('#hfNewsPaper').val());
+        }
+        function maintainScrollPositionNewsYear() {
+            $("#DivNewsYear").scrollTop($('#hfNewsYear').val());
+        }
+        function maintainScrollPositionNewsDate() {
+            $("#DivNewsDate").scrollTop($('#hfNewsDate').val());
+        }
+        function maintainScrollPositionNewsSubject() {
+            $("#DivNewsSubject").scrollTop($('#hfNewsSubject').val());
+        }
+
+
+        function maintainScrollPositionArtLibrary() {
+            $("#DivArtLibrary").scrollTop($('#hfArtLibrary').val());
+        }
+        function maintainScrollPositionArtSource() {
+            $("#DivArtSource").scrollTop($('#hfArtSource').val());
+        }
+        function maintainScrollPositionArtYear() {
+            $("#DivArtYear").scrollTop($('#hfArtYear').val());
+        }
+        function maintainScrollPositionArtDate() {
+            $("#DivArtDate").scrollTop($('#hfArtDate').val());
+        }
+        function maintainScrollPositionArtSubject() {
+            $("#DivArtSubject").scrollTop($('#hfArtSubject').val());
+        }
+        function maintainScrollPositionFullText() {
+            $("#DivFullText").scrollTop($('#hfFullText').val());
+        }
+        function maintainScrollPositionArtType() {
+            $("#DivArtType").scrollTop($('#hfArtType').val());
+        }
+
+
+
+        function maintainScrollPositionIRLib() {
+            $("#DivIRLib").scrollTop($('#HiddenFieldIRLib').val());
+        }
+        function maintainScrollPositionIRCategory() {
+            $("#DivIRCategory").scrollTop($('#HiddenFieldIRCategory').val());
+        }
+
+        function maintainScrollPositionIRSubject() {
+            $("#Div_IRSubject").scrollTop($('#HiddenFieldIRSubject').val());
+        }
+         
+        function setScrollPositionAuthor(scrollValue) {
+            $('#hfAuthor').val(scrollValue);
+
+        }
+        function setScrollPositionSubject(scrollValue) {
+            $('#hfSubject').val(scrollValue);
+
+        }
+        function setScrollPositionMedium(scrollValue) {
+            $('#hfMedium').val(scrollValue);
+
+        }
+        function setScrollPositionLibrary(scrollValue) {
+            $('#hfLibraries').val(scrollValue);
+
+        }
+        function setScrollPositionYear(scrollValue) {
+            $('#hfYear').val(scrollValue);
+
+        }
+        function setScrollPositionPublisher(scrollValue) {
+            $('#hfPublisher').val(scrollValue);
+
+        }
+        function setScrollPositionDoctype(scrollValue) {
+            $('#hfDoctype').val(scrollValue);
+
+        }
+        function setScrollPositionLang(scrollValue) {
+            $('#hfLang').val(scrollValue);
+
+        }
+        function setScrollPositionPlace(scrollValue) {
+            $('#hfPlace').val(scrollValue);
+
+        }
+
+
+
+
+        function setScrollPositionNewsLibrary(scrollValue) {
+            $('#hfNewsLibrary').val(scrollValue);
+
+        }
+        function setScrollPositionNewsPaper(scrollValue) {
+            $('#hfNewsPaper').val(scrollValue);
+
+        }
+        function setScrollPositionNewsYear(scrollValue) {
+            $('#hfNewsYear').val(scrollValue);
+
+        }
+        function setScrollPositionNewsDate(scrollValue) {
+            $('#hfNewsDate').val(scrollValue);
+
+        }
+        function setScrollPositionNewsSubject(scrollValue) {
+            $('#hfNewsSubject').val(scrollValue);
+
+        }
+
+
+        function setScrollPositionArtLibrary(scrollValue) {
+            $('#hfArtLibrary').val(scrollValue);
+        }
+
+        function setScrollPositionArtSource(scrollValue) {
+            $('#hfArtSource').val(scrollValue);
+        }
+
+        function setScrollPositionArtYear(scrollValue) {
+            $('#hfArtYear').val(scrollValue);
+        }
+
+        function setScrollPositionArtDate(scrollValue) {
+            $('#hfArtDate').val(scrollValue);
+        }
+
+        function setScrollPositionArtSubject(scrollValue) {
+            $('#hfArtSubject').val(scrollValue);
+        }
+        function setScrollPositionFullText(scrollValue) {
+            $('#hfFullText').val(scrollValue);
+        }
+
+        function setScrollPositionArtType(scrollValue) {
+            $('#hfArtType').val(scrollValue);
+        }
+
+
+        function setScrollPositionIRLib(scrollValue) {
+            $('#HiddenFieldIRLib').val(scrollValue);
+        }
+        function setScrollPositionIRCategory(scrollValue) {
+            $('#HiddenFieldIRCategory').val(scrollValue);
+        }
+
+        function setScrollPositionIRSubject(scrollValue) {
+            $('#HiddenFieldIRSubject').val(scrollValue);
+        }
+         
+        function pageLoad(sender, args) {
+            if (args.get_isPartialLoad()) {
+
+                //below function is used to view photo gallery
+                $("#tabs li img").hover(function () {
+                    // alert('hi');
+                    //$('#main-img').attr('src', $(this).attr('src').replace('photo', 'photo'));
+                    $('#main-img').attr('src', $(this).attr('src'));
+                }); 
+                maintainScrollPositionAuthor();
+                maintainScrollPositionLibraries();
+                maintainScrollPositionMedium();
+                maintainScrollPositionSubject();
+                maintainScrollPositionYear();
+                maintainScrollPositionPublisher();
+                maintainScrollPositionDoctype();
+                maintainScrollPositionLang();
+                maintainScrollPositionPlace();
+
+                maintainScrollPositionNewsLibrary();
+                maintainScrollPositionNewsPaper();
+                maintainScrollPositionNewsYear();
+                maintainScrollPositionNewsDate();
+                maintainScrollPositionNewsSubject();
+
+                maintainScrollPositionArtLibrary();
+                maintainScrollPositionArtSource();
+                maintainScrollPositionArtYear();
+                maintainScrollPositionArtDate();
+                maintainScrollPositionArtSubject();
+                maintainScrollPositionFullText();
+                maintainScrollPositionArtType();
+
+                maintainScrollPositionIRLib();
+                maintainScrollPositionIRCategory();
+                maintainScrollPositionIRSubject();
+
+                InitializeToolTip(); 
+            }
+        }
+
+
+
+    </script>
+    <script language="javascript" type="text/javascript">
+
+        var MyHashed;
+        var MyHashed2;
+        var salt;
+        function test2() {
+            //alert('1');
+            var usrnam = "";
+            var pwd = "";
+            var lbcode = "";
+             
+            usrnam = document.getElementById("txtMemberNo").value; 
+            pwd = document.getElementById("txtPassword").value; 
+            lbcode = document.getElementById('DDL_Library').value; 
+            //lbcode = document.getElementById("DDL_Library").value; 
+
+            if (lbcode == "") {
+                alert("Please Select Your Library from Drop-Down \" Library Code\" field.");
+                document.getElementById("DDL_Library").focus();
+                return (false);
+            }
+
+
+            //            if (document.getElementById("txtLibCode").value.length < 4) {
+            //                alert("Length of \"Library Code\" should be Min 4 characters.");
+            //                document.getElementById("txtLibCode").focus();
+            //                return (false);
+            //            }
+            //            if (document.getElementById("txtLibCode").value.length > 10) {
+            //                alert("Length of \" Library Code\" should be Max 10 characters.");
+            //                document.getElementById("txtLibCode").focus();
+            //                return (false);
+            //            }
+
+
+
+            if (usrnam == "") {
+                alert("Please enter proper \" Member No\" field.");
+                document.getElementById("txtMemberNo").focus();
+                return (false);
+            }
+            if (document.getElementById("txtMemberNo").value.length < 1) {
+                alert("Length of \"Member No\" should be Min 1 characters.");
+                document.getElementById("txtMemberNo").focus();
+                return (false);
+            }
+            if (document.getElementById("txtMemberNo").value.length > 20) {
+                alert("Length of \"Member No\" should be Max 20 characters.");
+                document.getElementById("txtMemberNo").focus();
+                return (false);
+            }
+
+            if (pwd == "") {
+                alert("Please enter proper \"Password\" field.");
+                document.getElementById("txtPassword").focus();
+                return (false);
+            }
+            if (document.getElementById("txtPassword").value.length < 5) {
+                alert("Length of \"Password\" should be Min 6 characters.");
+                document.getElementById("txtPassword").focus();
+                return (false);
+            }
+            if (document.getElementById("txtPassword").value.length > 10) {
+                alert("Length of \"Password\" should be Max 10 characters.");
+                document.getElementById("txtPassword").focus();
+                return (false);
+            }
+
+            else {
+
+                salt = 'rUVAgXy0aoX';
+                //MyHashed = hex_md5(pwd);
+               // var str1;
+               // str1 = salt + MyHashed;
+               // var hashplus = hex_md5(str1);
+
+
+                MyHashed2 = sha256(pwd);
+                document.getElementById("SHA_Hash_Pass").value = MyHashed2;
+                 
+                var str2;
+                str2 = salt + MyHashed2;
+                 
+                var hashplus1 = sha256(str2); 
+                //document.getElementById("RKPass2").value = hashplus;
+                document.getElementById("SaltedSHA_Hash_Pass").value = hashplus1;
+                document.getElementById("txtPassword").value = hashplus1;
+                return (true);
+            }
+            return (false);
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                alert("Please Enter Numeric Characters Only!");
+                return false;
+            }
+
+            return true;
+        };
+
+        function isDate(evt) {
+            var charCode = (evt.which) ? evt.which : evt.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57) && charCode != 191) {
+                return false;
+            }
+            return true; 
+        };
+
+    </script>
+
+
+
+    <script language="javascript" type="text/javascript">
+        function testmail() {
+            ShowProgress();
+            var email = "";
+
+            email = document.getElementById("txt_Mem_Mail").value;
+
+            if (email == "") {
+                alert("Please enter proper \"E-Mail\" field.");
+                document.getElementById("txt_Mem_Mail").focus();
+                return (false);
+            }
+            re = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if (!re.test(document.getElementById("txt_Mem_Mail").value)) {
+                alert("Error: Not a proper mail address!");
+                document.getElementById("txt_Mem_Mail").focus();
+                return false;
+            }
+
+            return (true);
+        }
+
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        function test1() {
+            ShowProgress();
+            var email = "";
+            var sq = "";
+            var sa = "";
+            email = document.getElementById("Txt_Mem_Email").value;
+            sq = document.getElementById("SelectSecQuestion").value;
+            sa = document.getElementById("txt_Mem_Ans").value;
+
+            if (email == "") {
+                alert("Please enter proper \"E-Mail\" field.");
+                document.getElementById("txt_Mem_Email").focus();
+                return (false);
+            }
+            re = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if (!re.test(document.getElementById("txt_Mem_Email").value)) {
+                alert("Error: Not a proper mail address!");
+                document.getElementById("txt_Mem_Email").focus();
+                return false;
+            }
+
+
+
+            if (document.getElementById("CheckBox1").checked == true) {
+
+                if (document.getElementById("SelectSecQuestion").value == "-- Select One --") {
+                    alert("Please Select Secret Question");
+                    document.getElementById("SelectSecQuestion").focus();
+                    return (false);
+                }
+                if (document.getElementById("SelectSecQuestion").value == "") {
+                    alert("Please enter proper \" Security Question \" field.");
+                    document.getElementById("SelectSecQuestion").focus();
+                    return (false);
+                }
+
+                if (document.getElementById("txt_Mem_Ans").value == "") {
+                    alert("Please enter proper \" Security Answer \" field.");
+                    document.getElementById("txt_Mem_Ans").focus();
+                    return (false);
+                }
+
+                else {
+                    //secanswer = hex_md5(document.getElementById("txt_Mem_Ans").value);
+                    secanswer = sha256(document.getElementById("txt_Mem_Ans").value);
+                    document.getElementById("SecQInput").value = secanswer;
+                    document.getElementById('txt_Mem_Ans').value = "";
+
+                    return (true);
+                }
+
+                return (false);
+            }
+        }
+
+    </script>
+
+    <script language="javascript" type="text/javascript">
+
+        var MyHashed;
+        var MyHashedOld;
+
+
+        function test3() {
+            var usercode = "";
+            var pwd = "";
+            var repwd = "";
+
+            usercode = document.getElementById("txt_UserCode").value;
+            pwd = document.getElementById("txt_UserPass").value;
+            repwd = document.getElementById("txt_UserRePass").value;
+
+            if (usercode == "") {
+                alert("Please enter proper \" Member No\" field.");
+                document.getElementById("txt_UserCode").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserCode").value.length < 1) {
+                alert("Length of \" Member No\" should be Min 1 characters.");
+                document.getElementById("txt_UserCode").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserCode").value.length > 20) {
+                alert("Length of \"Member No\" should be Max 20 characters.");
+                document.getElementById("txt_UserCode").focus();
+                return (false);
+            }
+
+            if (document.getElementById("txt_User_OldPass").value == "") {
+                alert("Please enter Current \" Password\" field.");
+                document.getElementById("txt_User_OldPass").focus();
+                return (false);
+            }
+
+
+            if (pwd == "") {
+                alert("Please enter proper \"Password\" field.");
+                document.getElementById("txt_UserPass").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserPass").value.length < 5) {
+                alert("Length of \"Password\" should be Min 5 characters.");
+                document.getElementById("txt_UserPass").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserPass").value.length > 10) {
+                alert("Length of \"Password\" should be Max 10 characters.");
+                document.getElementById("txt_UserPass").focus();
+                return (false);
+            }
+
+            re = /[0-9]/;
+            if (!re.test(document.getElementById("txt_UserPass").value)) {
+                alert("Error: password must contain at least one number (0-9)!");
+                document.getElementById("txt_UserPass").focus();
+                return false;
+            }
+            re = /[a-z]/;
+            if (!re.test(document.getElementById("txt_UserPass").value)) {
+                alert("Error: password must contain at least one lowercase letter (a-z)!");
+                document.getElementById("txt_UserPass").focus();
+                return false;
+            }
+            re = /[A-Z]/;
+            if (!re.test(document.getElementById("txt_UserPass").value)) {
+                alert("Error: password must contain at least one uppercase letter (A-Z)!");
+                document.getElementById("txt_UserPass").focus();
+                return false;
+            }
+
+            re = /[\!\@\#\$\%\^\&\*\-]/;
+            if (!re.test(document.getElementById("txt_UserPass").value)) {
+                alert("Error: password must contain at least one One special Character (!@#$%^&*-)!");
+                document.getElementById("txt_UserPass").focus();
+                return false;
+            }
+
+            if (repwd == "") {
+                alert("Please enter proper \"Re-Password\" field.");
+                document.getElementById("txt_UserRePass").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserRePass").value.length < 5) {
+                alert("Length of \"Re-Password\" should be Min 5 characters.");
+                document.getElementById("txt_UserRePass").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserRePass").value.length > 10) {
+                alert("Length of \"Re-Password\" should be Max 10 characters.");
+                document.getElementById("txt_UserRePass").focus();
+                return (false);
+            }
+            if (pwd != repwd) {
+                alert("Please Re-Type the correct \"Password\" field.");
+                document.getElementById("txt_UserRePass").focus();
+                return (false);
+            }
+
+            else {
+
+                // MyHashed = hex_md5(document.getElementById("txt_UserPass").value);
+                MyHashed = sha256(document.getElementById("txt_UserPass").value);
+                document.getElementById("HashPass2").value = MyHashed;
+
+
+                //salt = ''
+                //var hashplus = hex_md5(salt);
+                //document.getElementById("HassPass3").value = hashplus;
+
+                //for old pw
+                // MyHashedOld = hex_md5(document.getElementById("txt_User_OldPass").value);
+                MyHashedOld = sha256(document.getElementById("txt_User_OldPass").value);
+
+                var salt3;
+                salt3 = 'rUVAgXy0aoX';
+                var str1;
+                str1 = salt3 + MyHashedOld;
+
+                //var hashplusOld = hex_md5(str1);
+                var hashplusOld = sha256(str1);
+                document.getElementById("HashPassOld").value = hashplusOld;
+
+                return (true);
+            }
+            return (false);
+        }
+    </script>
+
+    <script type="text/javascript">
+        function InitializeToolTip() {
+            $(".gridViewToolTip").tooltip({
+                track: true,
+                delay: 0,
+                showURL: false,
+                fade: 100,
+                bodyHandler: function () {
+                    return $($(this).next().html());
+                },
+                showURL: false
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            InitializeToolTip();
+        })
+    </script>
+
+    <script type="text/javascript">
+        function pageLoad(sender, args) {
+            if (args.get_isPartialLoad()) {
+                InitializeToolTip();
+            }
+        }
+    </script>
+
+    
+
+    <script src="../Js/loader.js" type="text/javascript" async="async" defer="defer"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $('.my-select2-dropdown').select2({
+                placeholder: "Select an option", // Optional placeholder text
+                allowClear: true // Optional: allows clearing the selection
+            });
+
+
+            if ($('#DDL_Library :selected').text() == 'All Libraries') {
+                //$.ajax({
+                //    type: "POST",
+                //    url: "Default.aspx/GetGroupDetails2",
+                //    data: '{}',
+                //    contentType: "application/json; charset=utf-8",
+                //    dataType: "json",
+                //    success: function (response) {
+
+                //        initChartGrp(response)
+                //    },
+                //    failure: function (msg) {
+                //        alert(msg);
+                //    }
+                //});
+
+
+                $.ajax({
+                    type: "POST",
+                    url: "Default.aspx/GetLibDetails",
+                    data: JSON.stringify({ grp_code: null }),
+                    //data: '{}',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        initChart(response)
+                    },
+                    failure: function (msg) {
+                        alert(msg);
+                    }
+                });
+                //}
+
+            }
+        });
+
+
+        function initChartGrp(response) {
+            var color = ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#BBB389', '#FFE389', '#718CF0', '#FCB549', '#E0500B', '#076493'];
+
+            var chart = am4core.create("grpChart", am4charts.PieChart3D);
+            var data = [];
+            response = response.d;
+            for (var i in response) {
+                var serie = { ClusterName: response[i].grp_code, LibraryCount: response[i].count, color: am4core.color(color[i]) };
+                data.push(serie);
+
+            }
+            // Add data
+            chart.data = data;
+
+            if (response != null) {
+                var title = chart.titles.create();
+                title.text = "Group Wise Libraries";
+                title.fontSize = 25;
+
+                //title.marginBottom = 30;
+                // Add and configure Series
+                var pieSeries = chart.series.push(new am4charts.PieSeries3D());
+                pieSeries.dataFields.value = "LibraryCount";
+                pieSeries.dataFields.category = "ClusterName";
+                pieSeries.slices.template.propertyFields.fill = "color";
+                pieSeries.labels.template.text = "{ClusterName}: {LibraryCount}";
+                pieSeries.slices.template.tooltipText = "{ClusterName}: {LibraryCount}";
+                pieSeries.slices.template.events.on("hit", function (ev) {
+                    if (ev.target.dataItem.properties.category != "Others") {
+                        $.ajax({
+                            type: "POST",
+                            url: "Default.aspx/GetLibDetails", // add web service Name and web service Method Name
+                            data: JSON.stringify({ grp_code: ev.target.dataItem.properties.category }), //web Service method Parameter Name and ,user Input value which in Name Variable.
+                            contentType: "application/json; charset=utf-8",
+                            dataType: "json",
+                            beforeSend: function () {
+                            },
+                            success: function (response) {
+                                initChart(response);
+                            },
+                            failure: function (msg) {
+
+                            }
+                        });
+                        $('#statusdiv').css("display", 'none');
+                    }
+
+                });
+                //chart.legend = new am4charts.Legend(); //legends not required to save space 31/08/2020
+                pieSeries.slices.template.fillOpacity = 1;
+
+                var hs = pieSeries.slices.template.states.getKey("hover");
+                hs.properties.scale = 1;
+                hs.properties.fillOpacity = 0.5;
+                $('#grpChart').css({ display: "block" });
+
+            }
+            else {
+
+                $('#grpChart').css({ display: "none" });
+            }
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        //$(document).ready(function () {
+
+        //});
+
+        function initChart(response) {
+            // alert("jqchart");
+            var data = [];
+            response = response.d;
+
+            if (response.length > 0) {
+                for (var i in response) {
+                    var label = response[i].Library_Code;
+                    var value = response[i].Holding_Count;
+                    var labelname = response[i].Library_Name;
+                    data.push([label, parseFloat(value), labelname]);
+                }
+            }
+            else {
+                $('#jqChart').css({ display: "none" });
+            }
+            if (response.length <= 20) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '100%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+            else if (response.length <= 30) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '200%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+            else if (response.length <= 50) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '300%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+            else if (response.length <= 100) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '400%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+
+            else if (response.length <= 200) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '600%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+            else if (response.length <= 300) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '800%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+            else {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '800%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+
+            $('#jqChart').bind('tooltipFormat', function (e, data) {
+                $('#jqChart').css('cursor', 'pointer');
+                return '<b>' + data.dataItem[0] + ' (' + data.dataItem[2] + ') ' + parseFloat(data.dataItem[1]) + '</b>';
+            });
+
+            $('#jqChart').bind('dataPointMouseDown', function (e, data) {
+
+                $('[name="HdLibName"]').val(data.dataItem[2]); //added on  24/06/2020  to display name of lib on status-wise chart
+
+                $.ajax({
+                    type: "POST",
+                    url: "Default.aspx/GetLibHoldDetails", // add web service Name and web service Method Name
+                    data: JSON.stringify({ Lib_Code: data.x }), //web Service method Parameter Name and ,user Input value which in Name Variable.
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    beforeSend: function () {
+                        $('#ImgLoading2').show();
+                    },
+                    success: function (response) {
+                        $('#ImgLoading2').hide();
+                        initChart3(response);
+                    },
+                    failure: function (msg) {
+                        $('#ImgLoading2').hide();
+                        alert(msg);
+                    }
+                });
+
+
+
+                $('#statusdiv').css("display", 'none');
+                $.ajax({
+                    type: "POST",
+                    async: true,
+                    url: "Default.aspx/GetCurrentCirculation", // add web service Name and web service Method Name
+                    data: JSON.stringify({ Lib_Code: data.x }),  //web Service method Parameter Name and ,user Input value which in Name Variable.
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    beforeSend: function () {
+                        $('#ImgLoading3').show();
+                    },
+                    success: function (response) {
+                        $('#ImgLoading3').hide();
+                        initChart4(response);
+
+                    },
+                    failure: function (msg) {
+                        $('#ImgLoading3').hide();
+                        // alert(msg);
+                    }
+                });
+            });
+              
+
+            function initChart3(response) {
+                var color = ['#418CF0', '#FCB441', '#E0400A', '#056492'];
+                var chart = am4core.create("chartdiv", am4charts.PieChart3D);
+
+                //var chart = am4core.create("chartdiv",  {
+                //    "type": "pie","depth3D": 15});
+
+
+                var data = [];
+                response = response.d;
+                for (var i in response) {
+                    var serie = { ClusterName: response[i].Library_Name, LibraryCount: response[i].Holding_Count };
+                    data.push(serie);
+                }
+                chart.data = data;
+                var title = chart.titles.create();
+                title.text = "Status-Wise Collection of " + $("#HdLibName").val();
+                title.fontSize = 25;
+                title.marginTop = 10;
+
+                // Add and configure Series
+                var pieSeries = chart.series.push(new am4charts.PieSeries3D());
+                pieSeries.dataFields.value = "LibraryCount";
+                pieSeries.dataFields.category = "ClusterName";
+                pieSeries.slices.template.propertyFields.fill = "color";
+                pieSeries.labels.template.text = "{ClusterName}: {LibraryCount}";
+                pieSeries.slices.template.tooltipText = "{ClusterName}: {LibraryCount}";
+                //chart.legend = new am4charts.Legend();
+                //chart.legend.scrollable = true;
+                //chart.legend.maxHeight = 400;
+                //chart.legend.position = "right";
+
+                pieSeries.slices.template.fillOpacity = 1;
+
+                var hs = pieSeries.slices.template.states.getKey("hover");
+                hs.properties.scale = 1;
+                hs.properties.fillOpacity = 0.5;
+                $('#chartdiv').css("display", '');
+                if (response.length <= 10) {
+                    $('#chartdiv').css("height", "300px");
+                }
+                else if (response.length <= 20) {
+                    $('#chartdiv').css("height", "500px");
+                }
+                else if (response.length > 50) {
+                    $('#chartdiv').css("height", "800px");
+                }
+            } 
+        }
+
+
+        function initChart4(response) {
+            var color = ['#418CF0', '#FCB441', '#E0400A', '#056492'];
+            var chart = am4core.create("statusdiv", am4charts.PieChart3D);
+            var data = [];
+            response = response.d;
+            for (var i in response) {
+                var serie = { Status: response[i].Status, Total: response[i].Total };
+                data.push(serie);
+            }
+            chart.data = data;
+            var title = chart.titles.create();
+            title.text = "Today's Transactions " + $("#HdLibName").val();
+            title.fontSize = 25;
+            title.marginTop = 10;
+            // Add and configure Series
+            var pieSeries = chart.series.push(new am4charts.PieSeries3D());
+            pieSeries.dataFields.value = "Total";
+            pieSeries.dataFields.category = "Status";
+            pieSeries.slices.template.propertyFields.fill = "color";
+            pieSeries.labels.template.text = "{Status}: {Total}";
+            pieSeries.slices.template.tooltipText = "{Status}: {Total}";
+            chart.legend = new am4charts.Legend();
+            pieSeries.slices.template.fillOpacity = 1;
+            var hs = pieSeries.slices.template.states.getKey("hover");
+            hs.properties.scale = 1;
+            hs.properties.fillOpacity = 0.5;
+
+            $('#statusdiv').css("display", '');
+            if (response.length <= 10) {
+                $('#statusdiv').css("height", "400px");
+
+            }
+
+
+            chart.addListener("init", handleInit);
+
+            chart.addListener("rollOverSlice", function (e) {
+                handleRollOver(e);
+            });
+
+            function handleInit() {
+                chart.legend.addListener("rollOverItem", handleRollOver);
+            }
+
+            function handleRollOver(e) {
+                var wedge = e.dataItem.wedge.node;
+                wedge.parentNode.appendChild(wedge);
+            }
+        } 
+    </script>
+
+    <script type="text/javascript"> 
+        function selectallcheckboxes() {
+            var chkb = document.getElementsByClassName("cbLevel");
+            var ImageButton1 = document.getElementById('ImageButton1');
+            var i;
+            if (ImageButton1.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = true;
+                }
+            }
+        }
+
+
+        function Deselectallcheckboxes() {
+            var chkb = document.getElementsByClassName("cbLevel");
+            var ImageButton2 = document.getElementById('ImageButton2');
+            var i;
+            if (ImageButton2.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = false;
+                }
+            }
+        }
+
+        function selectallcheckboxesarticles() {
+            var chkb = document.getElementsByClassName("cbLevel_art");
+            var ImageButton3 = document.getElementById('ImageButton3');
+            var i;
+            if (ImageButton3.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = true;
+                }
+            }
+        }
+
+
+        function Deselectallcheckboxesarticles() {
+            var chkb = document.getElementsByClassName("cbLevel_art");
+            var ImageButton4 = document.getElementById('ImageButton4');
+            var i;
+            if (ImageButton4.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = false;
+                }
+            }
+        }
+
+
+        function selectallcheckboxesnews() {
+            var chkb = document.getElementsByClassName("cbLevel_news");
+            var ImageButton5 = document.getElementById('ImageButton5');
+            var i;
+            if (ImageButton5.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = true;
+                }
+            }
+        }
+
+
+        function Deselectallcheckboxesnews() {
+            var chkb = document.getElementsByClassName("cbLevel_news");
+            var ImageButton6 = document.getElementById('ImageButton6');
+            var i;
+            if (ImageButton6.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = false;
+                }
+            }
+        }
+    </script>
+
+
+    
+
+
+    <form method="post" action="./Default.aspx?CL_NAME=TAMILNADU" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=3wVMYDUtB5a3QiuIs74jN5Ra3it_vRQ0PXlgUARYMXtpnw82MDuHoeKXV0gxL2wbQIIHtBGFxNuAjULjAaqYjzDaazHTVjE113sGmh_agvo1&amp;t=639202794265548063" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=LBt-kNtCBTB3-7NpnOuTDhI8CJhS3-Lm5tjlI8cascCqd6MOHBNx040Wb1cL3UYDeKhGtWyzZKVqEvWLZ4c49ryF0Qjj9OufO7q5gFYWBOBVnpCkrR8ycLqAFEOBAQS1KLBRtlORss8oIWEG6TDsEw2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=4uRTjEQyiQ5yTnNFk4DRvACpd5RpqsNRAenbHvhovOFY4X8_5mGkotL2Uitn7jSdSm_BCtXPV7XOnVusL7fzyuPKCHfZov0ZWFabsMkZeWKTwtUvp3e6uCZyVZxLVC8J8_W9HKnoKzWPoNNYERMIig2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=eFbMoUnZgotQoSFk7cg_kWt9ogMdBrvOacmId8-nuNyC_d4m4ynwzOOZDZx8cxgGaQHrNvkiOiI-ezV6t3GIKMYfJYIZyJleq8OGRf6ct-aOGhufjC-Ck05bYPJU9C0q8BB3mEEDkfnrBC2HsOQrfw2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mgG7hUH2Iuce1WQeUeVlxQzHKvwWPBrdt6dv-ya31B9sGvjP5KI4l0nZn_3XoftUa5GU3nhsgmwGgocWoEP96mlc2tM8daUrPpvV5H-27h3AWLsYpIrkphs6hPcOC8Au0qi13OptROAjzmttSwHYXA2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=RU-8t2ybRZ7aKcgN_8eUQf53bFVEink9BISOccHukUhIzM1sYgT6wya2YC0bWIHriXYjTWHp5u1zrRI8vWVCxCbDwyth9WK2dCKanAaeo53F6-B1M2pGihFHJcpwvBPSGVFsGfdvPz4UbYADrYr0cw2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=NnBOSOgiFL3_41RydPUTA9xoLOXNsujzjzPoA694-URwLqSHfKRtlqUguvDrN8cQZePRfFWsc3CKrk2VlBG0Kbi1UFMirw3_teqZ0WRfRQl63tUvGROavW0UHbugD3kGmXN1cstXCyGQ5rtcsEt2SRy3UhxXRfeKal5Bg8foWmY1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=84bsXmdV7GzMkzSCRN7WEJO4XG_jllnuhdxN-sR2DN63hWqo7-jR33B_9kuMIyz0vVajXmbusX8K-EMOVFYihf3oDKAFwGnhwwv0bxMdhSA5vmTnff5K2tnWrnrV599sYXZcmmaebAoSGmOD8WeyThZgb9FM4q0ZYnZowY5kmZA1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=h6fBY0AAzGpuzShESUMK8rj39134zuxOCJuale4FGJMRkRWy1iW_Ttf_8irGhkM16wSseViOeNqWsIXP9fsfAanVApevN-L6TsMXEJ69ixQwuUjUlRu9yvw34lL84-1kRjPHcyQvX0yB9hgOBQvnbQ2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=coAmEpBOwlAy06ObAVojK3rRHq3sd4IXuk89E8ShAnui8-78JxJ00iSDTPQ6EupQ3v8oBkC5bnobesfhOPKTa8rUp9EOdK0k4DR8kN2U3v0bQ-zGunPX8VaUCRreCS0qL3D02r6ZoQp9AvterTav0Rd3SUnV1U8OsNJ9SJqDQlY1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=hh76yuOAzCnmOH-ALs8UR_yeYG18w65FBW-e1tKEvGZ0XxHC4XSztJY7ZOr87G_tXgNLGNs4G5FLFJcnJJdVZt6uBmyj95x_3D7SQARx4mtLSGD1xqeo9DR3XshrSkdza-IwIEXdglblNkLsgUzM_C4DGrRwgZb9J5VseH4Qxno1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_LZXNg5ZeV-8N9zsouwcWPKWESUx_dBbdM2VHlJPJaO_quCPcDASgh4FhZw6Ke_1abBoPBBopeBZl9tjMHhMSsVV_XsgY04i8Eh-Zc_T51B_J93Dhx6weY_Oer-xPbxFIiVhm2zZc_hLbpbdwxP5vQ2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=o9sVhmqXZ4CXwIp19CukkpGngDHXTuOXE68EioiMAJ9Ni7esfHh2C_CMJvjHEkwuv-fz8uNGjCtyn0Vxi4wCgndaxdG9PSv8RNawaHFdYWTrz9NiGOwzxB8PdDMregRQOoY0k4U3XfGWFPiSXuGPMfq27-aC9-rbcPI5FOPvjEo1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=NX_XXFgtSR9W5WCBhZHrMC2y2g6LHXQiPb-a4Hk1bhqpbdkDDZ5Bs1-ldUTa0YVyZFFo_Q3jcreMIrumyA2frYjLlmzagIWnRfly9LhJBFdG_A3EB3pwkDynz_9PT56yGEsTEW7x21fe9VF5FdfGqfxYjD_TmmjOplWQxnYbq_U1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zLbMBjGOCkYQ2oXHF-8ngF5ZV7kMQUA7m5uiGqDfZvg39VL0hkJQvNpZM5KCvjsl4XRPGbENzFBeqzitFALYGMayYGZmrQRWeRY015LIlAkpWu1k1e3Dmubn2a8W74b640YzgcS_KRvJIKc8J0YuaO0Z9NpWWBWMtF36xkozgS41&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=vGzv4bDwTUvX7UK4HvRXPU46ZnMcultY0KVbxf3E4XikgQIh4DHyKSTMOUBFSmmhzLw9W4Vp8xksa7F7T0Ht-swHhzoaBHiHLHy_kcjAMqEfAeVYpD3rV1x7NDVev-2U-OITL3NXcCoPSvuyNPBPO_NlDeMSV91G9ql-njkzKLQ1&amp;t=7f16157c" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="98299D9F" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', ['tUpdatePanel5','UpdatePanel5'], [], [], 90, '');
+//]]>
+</script>
+
+
+        <div class="container-scroller" style="margin-top: 10px; margin-left: 20px; margin-right: 20px; margin-bottom: 10px; background-color: #fff;">
+            <input name="RKPass2" type="hidden" id="RKPass2" />
+            <input name="HassPass3" type="hidden" id="HassPass3" />
+            <input name="SaltedSHA_Hash_Pass" type="hidden" id="SaltedSHA_Hash_Pass" />
+            <input name="SHA_Hash_Pass" type="hidden" id="SHA_Hash_Pass" />
+
+            <div id="Panel3" Max-Height="20" class="row" style="color:#4B49AC;font-weight: 700; font-size: small; text-align: right;float:right;">
+	
+                <span id="Label2" style="font-size: small; margin-right: 20px;"></span>
+                <span id="Label4" style="font-size: x-small"></span>
+            
+</div>
+
+            
+                    <div class="col-lg-12 row d-none d-lg-flex" style="margin-left: 0px; background-color: #fff;">
+                        <div class="col-lg-8 d-flex justify-content-start align-self-center pl-0">
+                            <div class="d-flex align-items-start p-1" style="min-height: 90px; min-width: 100px">
+                                <img id="Image4" class="custom-logo rounded" alt="emblem" src="../Account/Cluster_GetLogo.aspx?IMGID=8asEtUzomA87v&amp;cluster=TAMILNADU" align="left" style="border-color:AliceBlue;border-width:0px;" />
+                            </div>
+                            <div class="d-flex align-items-start flex-column ps-2">
+                                <span id="Lbl_LibName" class="Shadowtext font-weight-bold text-primary" style="font-family: Arial Black; font-size: x-large; ">Tamil Nadu Government Libraries Network</span>
+                                <span id="Lbl_LibName2" class="justify-content-md-start font-weight-bold Shadowtext text-primary" style="font-size: medium; font-family: Arial Black;">तमिलनाडु सरकार पुस्तकालय नेटवर्क</span>
+                                <span id="Lbl_Address" class="justify-content-md-start font-weight-bold Shadowtext text-primary" style="font-size: medium; font-family: Arial Black;">Maintained By: NIC, A-Block, CGO, New De;hi - 3</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-flex justify-content-end align-self-baseline pr-0">
+                            <span id="Lbl_LibCity" class="Shadowtext font-weight-bold text-primary" style="font-weight: bold; font-size: large; text-align: right; font-family: 'Arial Black';">e-Library</span>
+                        </div>
+                    </div>
+                    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row d-lg-none">
+                        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                            <a class="navbar-brand brand-logo-mini" href="Landing.aspx">
+                                <img alt="emblem" src="/images/emblem1.png" />
+                            </a>
+                        </div>
+                        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-around">
+                            <span class="font-weight-500 h2" style="text-shadow: 2px 1px #b3b3b3; font-family: Roboto-Bold; margin-bottom: 4px;"><b>e-Granthalaya</b></span>
+                            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                                <span class="icon-menu"></span>
+                            </button>
+                        </div>
+                    </nav>
+                    <div class="col-lg-12 col-12 row d-none d-lg-flex mb-1" style="margin-left: 0px; background-color: #fff;">
+                        <div class="col-lg-12 col-12 row nav navbar-menu-wrapper bg-gradient-primary Shadowtext3" style="background-color: #F5F7FF; margin-left: 0%;">
+                            <div class="col-lg-8 text-sm-left d-flex align-items-center p-2" style="padding-left: 0px">
+                                <span>
+                                    <img id="Image2" src="../Images/flag-indian.gif" alt="emblem" style="width: 42px;" />
+                                    <b>
+                                        <span id="Label7" style="font-weight: bold; font-size: small; font-family: Arial; color: #FFFFFF;">Powered By: e-Granthalaya - A Digital Solution for Automation and Management of Government Libraries from NIC.</span></b></span>
+                            </div>
+                            <div class="col-lg-4 d-flex float-sm-right align-self-center justify-content-end d-none d-lg-flex" style="padding-right: 0px;">
+                                <input type="image" name="HomeBttn" id="HomeBttn" tabindex="10" title="Home" class="Shadowtext3" src="../Images/home2.webp" style="height:30px;width:30px;" />
+                                &nbsp;&nbsp; 
+                                <input type="image" name="MemLoginBttn" id="MemLoginBttn" title="Click to Login" class="Shadowtext2" src="../Images/user.webp" style="height:30px;width:30px;" />
+                                &nbsp;&nbsp;
+                                <input type="image" name="ImageDashBoard_Bttn" id="ImageDashBoard_Bttn" title="Click to view Dashboard" class="Shadowtext3" src="../Images/Dashboard.webp" style="height:30px;width:30px;" />
+                                &nbsp;&nbsp;
+                                <a target="_blank" href="/OPAC/DLibrary.aspx?CL_NAME=TAMILNADU" style="vertical-align: top;">
+                                    <img id="Image7" title="Access Digital Library" class="Shadowtext3" src="../Images/digitallibrary.webp" style="height:30px;width:30px;" />
+                                </a>&nbsp;&nbsp;
+                                <input type="image" name="ImageButton_Registration" id="ImageButton_Registration" title="Guest Registration" class="Shadowtext3" src="../Images/user%20red.webp" style="height:30px;width:30px;" />
+                                &nbsp
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-lg-12 col-12">
+                        <div class="col-lg-12" style="background-color: #F5F7FF !important; padding-top: 10px;">
+                            <div id="pnl_search" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;Basic_Search_Bttn&#39;)">
+	
+                                <div class="col-lg-12 pb-2">
+                                    <div class="row" align="center">
+                                        <div id="Accordion2" class="accordion" style="font-weight:bold;width:99.9%;">
+		<input type="hidden" name="Accordion2_AccordionExtender_ClientState" id="Accordion2_AccordionExtender_ClientState" value="2" /><div id="AccordionPaneUnion_header" class="accordionHeader text-primary mt-01">
+			
+                                                        <strong><b class="Shadowtext font-weight-bold">Search Union Catalog</b></strong>
+                                                    
+		</div><div id="AccordionPaneUnion_content" class="accordionContent" style="display:none;">
+			
+                                                        <div class="col-sm-12 Shadowtext5x" style="text-align: center;">
+                                                            <span class="w3-hover-blue-gray w3-third"><input id="AccordionPaneUnion_content_CB_Union" type="checkbox" name="AccordionPaneUnion_content$CB_Union" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;AccordionPaneUnion_content$CB_Union\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="AccordionPaneUnion_content_CB_Union">Serch All Clusters</label></span>
+                                                            <select name="AccordionPaneUnion_content$DDL_Clusters" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;AccordionPaneUnion_content$DDL_Clusters\&#39;,\&#39;\&#39;)&#39;, 0)" id="AccordionPaneUnion_content_DDL_Clusters" class="text-input w3-third" style="color:Black;font-weight:normal;height:33px;">
+
+			</select>
+                                                            <select name="AccordionPaneUnion_content$DDL_ClusterLibraries" id="AccordionPaneUnion_content_DDL_ClusterLibraries" title="Select Library" class="text-input w3-third" style="color:Black;font-size:Large;font-weight:normal;height:33px;">
+
+			</select>
+                                                        </div>
+
+                                                    
+		</div>
+	</div>
+                                    </div>
+                                </div>
+                                <hr class="m-0" />
+                                
+
+                                <div class="row content_container pb-2 pt-2">
+                                    <div class="col-md-12" style="text-align: center;">
+                                        <strong style="color: black;" class="content_header">Search Catalog</strong>&nbsp;&nbsp; 
+                                <select name="DDL_Materials" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;DDL_Materials\&#39;,\&#39;\&#39;)&#39;, 0)" id="DDL_Materials" title="Select Reading Material for searching" class="content_full" style="font-size:Large;font-weight:bold;height:31px;">
+		<option selected="selected" value="Books">Books</option>
+		<option value="Non-Books">Non-Books</option>
+		<option value="Journals">Journals</option>
+		<option value="Articles">Articles</option>
+		<option value="News Items">News Items</option>
+		<option value="e-Resources">e-Resources</option>
+		<option value="Internet Resources">Internet Resources</option>
+
+	</select>
+
+                                        <input name="txt_Search" type="text" id="txt_Search" class="content_full pl-2" placeholder="Enter word to search" style="border-color:#4B49AC;border-style:Solid;font-size:Large;height:31px;" />
+
+                                        <strong style="color: black;" class="content_header">Select Field : </strong>
+                                        <select name="DDL_Field" id="DDL_Field" title="Select Field" class="content_full pl-2" style="font-size:Large;font-weight:bold;height:31px;">
+		<option value="TITLE">Title</option>
+		<option value="AUTHOR">Contributors/Authors</option>
+		<option value="STANDARD_NO">ISBN</option>
+		<option value="KEYWORDS">Keywords</option>
+		<option value="YEAR_OF_PUB">Year</option>
+		<option value="ACCESSION_NO">Accession No</option>
+		<option value="CLASS_NO">Class Number</option>
+		<option value="PHYSICAL_LOCATION">Shelf Number</option>
+		<option value="NOTE">Note / Abstract</option>
+		<option value="CONF_NAME">Conference Name</option>
+		<option value="TAGS">Tags</option>
+		<option value="PUB_NAME">Publisher</option>
+		<option value="SUB_NAME">Subject</option>
+		<option value="VOL_TITLE">Volume Title</option>
+		<option value="ACADEMIC_LEVEL">Academic Level</option>
+		<option value="CAT_NO">Catalog Record Number</option>
+		<option value="ALL">ALL</option>
+
+	</select>
+
+                                        <strong style="color: black;" class="content_header pl-2">With Boolean: </strong>
+                                        <select name="DDL_Boolean" id="DDL_Boolean" title="Select Boolean Operator" class="content_full pl-2" style="font-size:Large;font-weight:bold;height:31px;">
+		<option value="AND">All Words</option>
+		<option value="OR">Any Word</option>
+		<option selected="selected" value="LIKE">Like</option>
+		<option value="SW">Start With</option>
+		<option value="EW">End With</option>
+
+	</select>
+
+                                        <strong style="color: black;" class="content_header">Order By: </strong>
+
+                                        <select name="DDL_OrderBy" id="DDL_OrderBy" title="Select Boolean Operator" class="content_full" style="font-size:Large;font-weight:bold;height:31px;">
+		<option selected="selected" value="TITLE">Title</option>
+		<option value="YEAR">Year</option>
+		<option value="CONTRIBUTOR">Contributor</option>
+		<option value="DATE_ADDED">Date of Entry</option>
+
+	</select>
+                                        <hr class="mt-3 mb-2" />
+                                        <strong style="color: black;" class="content_header">Sort By: </strong>
+                                        <select name="DDL_SortBy" id="DDL_SortBy" title="Select Boolean Operator" class="content_full pl-1 pr-1" style="font-size:Large;font-weight:bold;height:31px;">
+		<option selected="selected" value="ASC">Ascending</option>
+		<option value="DESC">Descending</option>
+
+	</select>
+
+
+                                        <strong>View</strong>&nbsp;<select name="DDL_Pages" id="DDL_Pages" title="Select Boolean Operator" class="content_full pr-2" style="font-size:Large;font-weight:bold;height:31px;">
+		<option selected="selected" value="20">20</option>
+		<option value="100">100</option>
+		<option value="500">500</option>
+		<option value="1000">1000</option>
+
+	</select>
+                                        Records 
+                               
+                                <input type="submit" name="Basic_Search_Bttn" value="Search" id="Basic_Search_Bttn" class="font-weight-bold btn btn-sm btn-primary mr-3 ml-2" />
+
+                                        <a id="LinkButton_Advance" class="font-weight-bold btn-sm btn btn-outline-secondary" href="javascript:__doPostBack(&#39;LinkButton_Advance&#39;,&#39;&#39;)">Advance Search</a>
+                                         
+                                    </div>
+                                </div>
+                            
+</div>
+                        </div>
+                    </div>
+                    <hr class="bg-gradient-dark" style="height: 1px; width: 100%; margin: 0px; border-top: 0px; padding: 0px;" />
+                    <hr class="bg-white mb-2" style="height: 1px; width: 100%; margin-top: 0px; border-top: 0px; padding: 0px;" />
+
+                    <div class="row ml-3 mr-3" style="background-color: #fff;">
+                        
+                        <div class="columnx side p-0">
+                            <div class="shadow p-1 rounded-sm">
+                                <div id="Panel_Cluster_statisics" class="container statistics mb-4">
+                                    <p class="p-2 bg-gradient-primary text-white font-weight-bold">CLUSTER STATISTICS</p>
+                                    <table align="left" border="1" cellspacing="4" style="border-color: #F5F7FF; text-align: left; font-family: Arial; font-size: medium;" width="100%">
+
+                                        <tr class="bg-light clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalTitles" class="h6 font-weight-bold">Total Titles</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalTitles2" class="badge rounded-pill bg-success justify-content-end text-white float-right font-weight-bold">14061</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-gradient-secondary clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalHold" class="h6 font-weight-bold">Total Holdings</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalHold2" class="badge rounded-pill bg-danger text-white float-right font-weight-bold">35761</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-light clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalMembers" class="h6 font-weight-bold">Total Members</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalMembers2" class="badge rounded-pill bg-warning font-weight-bold float-right text-white">2</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="bg-gradient-secondary clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalArticles" class="6 font-weight-bold">Total Articles</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalArticles2" class="badge rounded-pill bg-primary float-right font-weight-bold text-white">0</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="bg-light clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalNews" class="h6 font-weight-bold">Total News Items</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalNews2" class="badge rounded-pill bg-warning font-weight-bold float-right text-white">0</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-gradient-secondary clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalFullText" class="h6 font-weight-bold">Full-Text Files Uploaded in Cluster</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalFullText_data" class="badge rounded-pill bg-primary float-right font-weight-bold text-white">0</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="bg-light clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalLibCount" class="h6 font-weight-bold">Libraries in Cluster</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalLibCount2" class="badge rounded-pill bg-dark float-right font-weight-bold text-white">10</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <br />
+                                    <br />
+                                    <br /> 
+                                    <hr class="bg-gradient-warning" style="height: 1px; width: 100%; margin: 0px; border-top: 0px; padding: 0px;" />
+                                    <hr class="bg-white" style="height: 1px; width: 100%; margin: 0px; border-top: 0px; padding: 0px;" />
+                                </div>
+
+                                <div id="Accordion_SearchParameters" class="accordion mt-1" style="font-weight:bold;width:100%;">
+	<input type="hidden" name="Accordion_SearchParameters_AccordionExtender_ClientState" id="Accordion_SearchParameters_AccordionExtender_ClientState" value="1" /><div id="AdvSearchPane_header" class="accordionHeader bg-primary text-white p-2 mt-0">
+		
+                                                
+                                                <p class="font-weight-bold h6 mb-0" style="font-family: Arial!important;">Advance Search Parameters</p>
+                                            
+	</div><div id="AdvSearchPane_content" class="accordionContent" style="display:none;">
+		
+                                                <div id="Div3" style="text-align: center;">
+                                                    <input id="AdvSearchPane_content_CHK_Year" type="checkbox" name="AdvSearchPane_content$CHK_Year" /><label for="AdvSearchPane_content_CHK_Year">Search By Year</label>
+                                                    <br />
+                                                    FROM: 
+                                                <input name="AdvSearchPane_content$txt_Year_From" type="text" maxlength="4" id="AdvSearchPane_content_txt_Year_From" title="Click to Select Date" onkeypress="return isNumberKey(event)" style="font-size:Large;height:30px;width:20%;" />
+
+                                                    TO:<input name="AdvSearchPane_content$txt_Year_To" type="text" maxlength="4" id="AdvSearchPane_content_txt_Year_To" title="Click to Select End Date " onkeypress="return isNumberKey(event)" style="font-size:Large;height:30px;width:20%;" />
+                                                    <hr />
+                                                    <input id="AdvSearchPane_content_CHK_Dates" type="checkbox" name="AdvSearchPane_content$CHK_Dates" /><label for="AdvSearchPane_content_CHK_Dates">Search By Dates</label>
+                                                    <br />
+                                                    FROM: 
+                                                <input name="AdvSearchPane_content$txt_news_SDate" type="text" maxlength="10" id="AdvSearchPane_content_txt_news_SDate" title="Click to Select Date" onkeypress="return isDate (event);" style="font-size:Large;height:30px;width:100px;" />
+                                                    
+
+                                                    TO:<input name="AdvSearchPane_content$txt_news_EDate" type="text" maxlength="10" id="AdvSearchPane_content_txt_news_EDate" title="Click to Select End Date " onkeypress="return isDate (event);" style="font-size:Large;height:30px;width:100px;" />
+                                                    
+                                                </div>
+                                            
+	</div>
+</div>
+                                <br />
+                                <div id="Accordion1" class="accordion" style="font-weight:bold;width:100%;">
+	<input type="hidden" name="Accordion1_AccordionExtender_ClientState" id="Accordion1_AccordionExtender_ClientState" value="2" /><div id="AccordionPane1_header" class="accordionHeader p-2 bg-primary text-white mt-1">
+		
+                                                <p class="font-weight-bold h6 mb-0  mt-1" style="font-family: Arial!important;">Search</p>
+                                            
+	</div><div id="AccordionPane1_content" class="accordionContent" style="display:none;">
+		
+
+                                                <input type="submit" name="AccordionPane1_content$Recent_Bttn" value="New Arrivals" onclick="ShowProgress();" id="AccordionPane1_content_Recent_Bttn" class="styleBttn text-primary" style="height:30px;width:100%;" />
+                                                <br />
+                                                <input type="submit" name="AccordionPane1_content$Current_Journals_Bttn" value="Current Journals" onclick="ShowProgress();" id="AccordionPane1_content_Current_Journals_Bttn" class="styleBttn text-primary" style="height:30px;width:100%;" />
+                                                <br />
+                                                <input type="submit" name="AccordionPane1_content$Combined_Search_Bttn" value="Combined Search" onclick="ShowProgress();" id="AccordionPane1_content_Combined_Search_Bttn" class="styleBttn text-primary" style="color:#4B49AC;height:30px;width:100%;" />
+                                                <br />
+                                                <input type="submit" name="AccordionPane1_content$Current_News_Bttn" value="Current News" onclick="ShowProgress();" id="AccordionPane1_content_Current_News_Bttn" class="styleBttn text-primary" style="color:#4B49AC;height:30px;width:100%;" />
+                                                <br />
+                                                <input type="submit" name="AccordionPane1_content$Internet_resources_Bttn" value="Internet Resources" onclick="ShowProgress();" id="AccordionPane1_content_Internet_resources_Bttn" class="styleBttn text-primary" style="color:#4B49AC;height:30px;width:100%;" />
+                                                <br />
+
+
+                                                
+                                                <br />
+
+                                            
+	</div>
+</div>
+                                <br />
+                                <strong>
+                                    <span class="Shadowtext text-primary font-weight-bold">Browse Collection By</span></strong>
+                                <br />
+                                <select name="DDL_Browse" onchange="ShowProgress();setTimeout(&#39;__doPostBack(\&#39;DDL_Browse\&#39;,\&#39;\&#39;)&#39;, 0)" id="DDL_Browse" title="Select Field" class="mt-2" style="font-size:Medium;font-weight:bold;height:30px;width:100%;">
+	<option selected="selected" value=""></option>
+	<option value="Title">Title</option>
+	<option value="Document Type">Document Type</option>
+	<option value="Author">Author</option>
+	<option value="Language">Language</option>
+	<option value="Year">Year</option>
+	<option value="Publisher">Publisher</option>
+	<option value="Subject">Subject</option>
+	<option value="Place">Place</option>
+	<option value="Medium">Medium</option>
+	<option value="e-Resources">e-Resources</option>
+	<option value="Academic Levels">Academic Levels</option>
+	<option value="Academic Materials">Academic Materials</option>
+
+</select>
+
+                                <input type="hidden" name="hfLibraries" id="hfLibraries" value="0" />
+                                <input type="hidden" name="hfMedium" id="hfMedium" value="0" />
+                                <input type="hidden" name="hfSubject" id="hfSubject" value="0" />
+                                <input type="hidden" name="hfAuthor" id="hfAuthor" value="0" />
+                                <input type="hidden" name="hfYear" id="hfYear" value="0" />
+                                <input type="hidden" name="hfPublisher" id="hfPublisher" value="0" />
+                                <input type="hidden" name="hfDoctype" id="hfDoctype" value="0" />
+                                <input type="hidden" name="hfLang" id="hfLang" value="0" />
+                                <input type="hidden" name="hfPlace" id="hfPlace" value="0" />
+
+                                
+
+
+
+                                <input type="hidden" name="hfNewsLibrary" id="hfNewsLibrary" value="0" />
+                                <input type="hidden" name="hfNewsPaper" id="hfNewsPaper" value="0" />
+                                <input type="hidden" name="hfNewsYear" id="hfNewsYear" value="0" />
+                                <input type="hidden" name="hfNewsDate" id="hfNewsDate" value="0" />
+                                <input type="hidden" name="hfNewsSubject" id="hfNewsSubject" value="0" />
+                                
+                                <input type="hidden" name="hfArtLibrary" id="hfArtLibrary" value="0" />
+                                <input type="hidden" name="hfArtSource" id="hfArtSource" value="0" />
+                                <input type="hidden" name="hfArtYear" id="hfArtYear" value="0" />
+                                <input type="hidden" name="hfArtDate" id="hfArtDate" value="0" />
+                                <input type="hidden" name="hfArtSubject" id="hfArtSubject" value="0" />
+                                <input type="hidden" name="hfFullText" id="hfFullText" value="0" />
+                                <input type="hidden" name="hfArtType" id="hfArtType" value="0" />
+                                
+
+
+                                <input type="hidden" name="HiddenFieldIRLib" id="HiddenFieldIRLib" value="0" />
+                                <input type="hidden" name="HiddenFieldIRCategory" id="HiddenFieldIRCategory" value="0" />
+                                <input type="hidden" name="HiddenFieldIRSubject" id="HiddenFieldIRSubject" value="0" />
+
+                                
+                                 
+                                <br />
+                                
+                            </div>
+                        </div>
+
+                        <div class="columnx middle">
+
+                            
+
+                            
+
+                            <div id="Panel8" style="width:100%;text-align:center;text-align: center; padding-bottom: 3px;">
+	
+                                <img id="Image10" class="custom-photo ShadowTable" align="Centre" src="data:image/png;base64,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" align="middle" style="border-color:AliceBlue;border-width:0px;width:90%;height: 370px;" />
+                            
+</div>
+
+                            <div id="ImgLoading2" class="card" align="center" style="width: 90%; display: none;">
+                                <img src="../Images/loader.gif" alt="Loading Data" style="display: inline;" />
+                                <font color="blue">
+                                    <label style="font-size: 18px; text-align: center; vertical-align: top; display: table-cell; line-height: 150px; text-shadow: 1px 1px 1px #fff, 3px 3px 5px #000;" />
+                                    <b>Graph is Loading... </b>
+                                </font>
+                            </div>
+
+                            <div id="chartdiv" class="card" style="border-style: solid; border-width: thin; height: 400px; text-align: center; margin-left: 5%; width: 90%; font-size: 11px; background-color: #E3D8DA; border-radius: 15px; display: none; position: relative;">
+                            </div>
+
+                            <div id="ImgLoading3" class="card" align="center" style="width: 90%; display: none;">
+                                <img src="../Images/loader.gif" alt="Loading Data" style="display: inline;" />
+                                <font color="Blue">
+                                    <label style="font-size: 18px; text-align: center; vertical-align: top; display: table-cell; line-height: 150px; text-shadow: 1px 1px 1px #fff, 3px 3px 5px #000;" />
+                                    <b>Graph is Loading... </b>
+                                </font>
+                            </div>
+
+                            <div id="statusdiv" class="card" style="border-style: solid; border-width: thin; height: 400px; font-size: 11px; background-color: #d2e6c9; border-radius: 15px; display: none; position: relative; text-align: center; margin-left: 5%; width: 90%;">
+                            </div>
+
+                            <input name="HdLibName" type="hidden" id="HdLibName" />
+
+
+                            
+
+                            
+
+                            
+
+                            <div class="loading rounded-sm" align="center">
+                                Processing! Please wait....
+                                <br />
+                                <img src="../Images/loader.gif" style="width: 75px!important;height: 65px!important;" alt="" />
+                            </div>
+
+                            
+
+                            <div id="Panel6" style="text-align:center;font-weight: 500; width: 90%; margin-left: 5%; font-size: x-large; text-align: justify;">
+	
+                                <br />
+                                <span id="Lbl_Cluster_Eng" style="font-size: medium; font-family: Arial;">This Cluster is dedicated to Libraries of various Organizations/Departments/Colleges and Polytechnics under Tamil Nadu Government where e-Granthalaya Software is being used for Automation and Networking. The Cluster provides access to Cloud-Based e-Granthalaya 4.0  developed by NIC and hosted in NIC Cloud. The Application is used Online by participating libraries for data entry and other member services. The e-Catalog of these libraries and other member services are accessed in public domain.</span>
+                            
+</div>
+
+                            <div id="Panel7" style="text-align:center;font-weight: 500; width: 90%; margin-left: 5%; font-size: medium; text-align: justify;">
+	
+                                <br />
+                                <span id="Lbl_Cluster_Hindi" style="text-align: justify">यह क्लस्टर तमिलनाडु सरकार के अधीन पपुस्तकालयों जहां ई-Granthalaya सॉफ्टवेयर स्वचालन और नेटवर्किंग के लिए इस्तेमाल किया जा रहा है के लिए समर्पित है। क्लस्टर क्लाउड-आधारित ई-Granthalaya 4.0 एनआईसी द्वारा विकसित और एनआईसी क्लाउड में होस्टेड है। पुस्तकालयों की पुस्तकों का डेटा प्रविष्टि और अन्य सदस्य सेवाए ऑनलाइन किया जाता है। इन पुस्तकालयों की पुस्तक सूचि और अन्य सदस्य सेवाए भी ऑनलाइन उपलब्ध हैं।</span>
+                            
+</div>
+
+                            
+                             
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <input name="HassPass4" type="hidden" id="HassPass4" />
+                            <input name="SecQInput" type="hidden" id="SecQInput" />
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+
+                            <table class="style1" border="0" width="100%">
+                                <tr align="center" style="text-align: left;">
+                                    <td style="text-align: justify" valign="top" width="20%" bgcolor="#ffffff"></td>
+                                    <td style="text-align: center; width: 80%;" width="80%" bgcolor="#ffffff" colspan="2">
+                                        
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style5" width="20%">&nbsp;</td>
+                                    <td valign="top" style="text-align: center; width: 80%;" class="style3" colspan="2">&nbsp;</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="columnx side p-0">
+                            <div class="shadow p-1 rounded-sm">
+                                <p class="p-2 bg-gradient-primary text-white font-weight-bold">MEMBER LOGIN</p>
+                                
+                                <span class="style6">
+                                    <strong>
+                                        <span id="Label6" class="text-primary"></span>
+                                    </strong>
+                                </span>
+                                
+                               
+                                <link href="../theme/vendors/select2/select2.min.css" rel="stylesheet" />
+                                <script src="../theme/vendors/select2/select2.min.js" type="text/javascript" async="async" defer="defer"></script>
+                                <select name="DDL_Library" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;DDL_Library\&#39;,\&#39;\&#39;)&#39;, 0)" id="DDL_Library" title="Select Your Library for Login" class="my-select2-dropdown form-control form-control-sm mt-1" style="height:30px;width:100%;">
+	<option selected="selected" value="All Libraries">All Libraries</option>
+	<option value="AAGAC">AAGAC Library (AAGAC)</option>
+	<option value="DGGACW">DGGACW Library (DGGACW)</option>
+	<option value="GCEPUD">GCEPUD Library (GCEPUD)</option>
+	<option value="IIITTLIB23">Indian Institute Of Information Technology Tiruchirappalli (IIITTLIB23)</option>
+	<option value="MGACVEL">MGACVEL Library (MGACVEL)</option>
+	<option value="RAGCW">RAGCW Library (RAGCW)</option>
+	<option value="RVGAC">RVGAC Library (RVGAC)</option>
+	<option value="TAGGAC">TAGGAC Library (TAGGAC)</option>
+	<option value="TKGACM">TKGACM Library (TKGACM)</option>
+	<option value="TNMGRMU">TNMGRMU Library (TNMGRMU)</option>
+
+</select>
+
+                                <input type="hidden" name="ListSearchExtender1DDL_Library_ClientState" id="ListSearchExtender1DDL_Library_ClientState" />
+                                
+                                <div id="Panel_Login" class="text-primary" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;bttn_LogIn&#39;)" style="text-align:center;">
+	
+                                    <p class="text-black-50 p-1 h6  mt-1 mb-0">Login With:</p>
+                                    <hr class="m-1 bg-primary" />
+                                    <span class="p-1"><input id="RB_PW" type="radio" name="login" value="RB_PW" checked="checked" /><label for="RB_PW"> Password</label></span>
+                                    <span class="p-1"><input id="RB_OTP" type="radio" name="login" value="RB_OTP" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;RB_OTP\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="RB_OTP"> OTP</label></span>
+                                    
+
+                                    
+                                    <input name="txtMemberNo" type="text" maxlength="20" id="txtMemberNo" title="Enter your Member No." class="form-control form-control-sm mt-1" placeholder="Member No." onkeydown="return (event.keyCode!=13);" AUTOCOMPLETE="Off" style="height:31px;text-transform: uppercase" />
+
+
+                                    
+                                    <input name="txtPassword" type="password" maxlength="10" id="txtPassword" class="form-control form-control-sm mt-1" placeholder="Password" onkeydown="return (event.keyCode!=13);" AUTOCOMPLETE="off" style="height:31px;" />
+
+                                    
+                                    <img src="../Captcha.aspx" alt="Captcha" class="w-100 mt-1 p-0" style="height: 45px;" />
+                                    <input name="txt_captcha" type="text" id="txt_captcha" title="security code" class="form-control form-control-sm mt-1 mb-2" style="height:31px;" placeholder="Captcha" aria-label="Captcha" aria-describedby="basic-addon2" />
+
+                                    <input type="submit" name="bttn_LogIn" value="Login" onclick="return test2();" id="bttn_LogIn" class="bg-primary p-1 text-white border-0" style="width:70%;" />
+
+                                    
+
+                                    
+                                     
+                                    <hr class="m-0 bg-gradient-primary" style="height:1px;" />
+                                    
+                                     
+                                    
+                                
+</div>
+
+                                <div id="UpdatePanel5">
+	
+                                        
+                                    
+</div>  
+                                
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+        </div>
+
+        
+        <button type="button" style="display: none" id="popup" class="btn btn-info btn-lg"
+            data-toggle="modal" data-target="#mymodalupdate" data-backdrop="static" data-keyboard="false">
+            Open Modal</button>
+
+        <div class="modal fade" id="mymodalupdate" role="dialog">
+            <div class="modal-dialog" style="width: 95%!important; max-width: 96%!important; top: 00px!important;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class=" col-md-12 row modal-title">
+                            <div class="col-md-6">
+                                <h4>Details</h4>
+                            </div>
+                            <div class="col-md-6">
+                                <button id="closemodal" type="button" onclick="return CloseOpacDetailsModal();" style="color: #fff; background-color: red; border-color: #204d74; float: right; height: 30px;">
+                                    X</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="linkdivupdate" style="display: none; z-index: 9999;">
+                            <iframe id="showdetails" src="about:blank" height="550px" width="100%" scrolling="yes" frameborder="0" seamless=""></iframe>
+                            <br />
+                            <div class="row" style="text-align: center" align="center">
+                                <div class="col-md-12">
+                                    <button type="button" id="closemodal2" class="btn btn-primary" onclick="return CloseOpacDetailsModal();">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-inverse-light text-white" style="width: 100%;">
+            <div>
+                <div class="container-fluid" align="center">
+                    
+
+                    <footer class="footer" style="background-color: #fff">
+                        <div class="d-sm-flex justify-content-center ">
+                            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  The Application has been designed, developed by <a href="https://www.nic.in/" target="_blank">National Informatics Centre</a> , Government of India and hosted in NIC National Cloud.</span>
+                            
+                        </div>
+                        <div class="d-sm-flex justify-content-center ">
+                            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">The Contents are uploaded by participating libraries.</span>
+                        </div>
+                    </footer>
+
+                </div>
+            </div>
+        </div>
+
+        <script language="javascript" type="text/javascript">
+            function checkLogin() {
+                var mem = ""
+                mem = '';
+                //alert(mem);
+                if (mem == "") {
+                    alert("Please login the site to avail this facility..");
+                    return false;
+                }
+                else {
+                    return true;
+                }
+                return false;
+            }
+        </script>
+
+        <script type="text/javascript" id="script_viewer">
+
+            function showpdf(a, cat_no) {
+
+                 
+                // cat_no = cat_no || 0 ;
+                var mem = ""
+                mem = '';
+                if (mem == "" && (a.indexOf('pb.pdf') == -1)){
+                    alert("Please login the site to avail this facility..");
+                    return false;
+                } 
+                else {
+                    var data = a.getAttribute("data-doc");
+                    var url = '';
+                    data = '../../../' + data;
+                    sessionStorage.setItem('file', data);
+                    if (data.endsWith('pdf')) {
+                        url = '../pdf-viewer-master/external/pdfjs-2.1.266-dist/web/viewer.html';
+                        $('#dv_hide_popout').css('display', 'none');
+                        $('#dv_book_flip').css('display', 'none');
+                    }
+
+                    else if (data.endsWith('tif') || data.endsWith('tiff')) {
+                        url = '../HOME/ebook_view7.aspx?cat_no=' + cat_no;
+                        $('#dv_hide_popout').css('display', 'none');
+                        $('#dv_book_flip').css('display', 'none');
+
+                    }
+
+                    else {
+                        //alert(data);
+                        url = 'http://docs.google.com/gview?url=' + data + '&embedded=true';
+                        $('#dv_hide_popout').css('display', 'block');
+                        $('#dv_book_flip').css('display', 'none');
+                    }
+                    $('#iframe_pdf').attr('src', url)
+
+                    $('#iframe_pdf').load(function () {
+                        $('.hover_bkgr_fricc').show();
+                    });
+                }
+
+                function showbookflip(a) {
+                    // sessionStorage.setItem('file', data);
+
+                    url = '../HOME/ebook_view7.aspx';
+                    $('#dv_hide_popout').css('display', 'none');
+                    $('#dv_book_flip').css('display', 'none');
+                    $('#iframe_pdf').attr('src', url)
+                    $('.hover_bkgr_fricc').show();
+                }
+
+            }
+
+
+
+
+            $(window).load(function () {
+                $('.popupCloseButton').click(function () {
+                    $('.hover_bkgr_fricc').hide();
+                });
+            });
+
+
+            $(document).ready(function () {
+                var cookies = document.cookie.split(';');
+                var scrollPosition = 0;
+
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = cookies[i].trim();
+                    if (cookie.startsWith("scrollPosition=")) {
+                        scrollPosition = parseInt(cookie.substring("scrollPosition=".length), 10);
+                        break;
+                    }
+                }
+
+                $(window).scrollTop(scrollPosition);
+            });
+
+
+
+        </script>
+
+        <div class="hover_bkgr_fricc" style="height: 100%; width: 100%; display: none; vertical-align: central;">
+            <div style="padding: 6px 1.5%; height: 97% !important; width: 100% !important; display: inline-block !important; position: sticky !important; max-width: 98% ! important; background-color: none !important;">
+                <div class="popupCloseButton">X</div>
+                <div id="dv_pdf_viewer" style="height: 100%; width: 100%; background-image: url('../images/wood.jpg');">
+                    <iframe id="iframe_pdf" src="about:blank" height="100%" width="100%" scrolling="no" frameborder="0" seamless="" style="background-image: url('../images/wood.jpg');"></iframe>
+                    <div id="dv_hide_popout" style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 28px; top: 6px;"></div>
+                    <div id="dv_book_flip" style="width: 125px; height: 24px; position: absolute; opacity: 0; left: 47%; top: 10px; background-color: black; opacity: 0.6; text-align: center; z-index: 2; border-radius: 6px; vertical-align: middle; box-shadow: 10px 10px 60px #555;">
+                        <a onclick="showbookflip(this);" href="javascript:void(0);" style="color: whitesmoke; font-family: monospace">View FlipBook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- plugins:js -->
+        
+        <!-- endinject -->
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AccordionBehavior, {"ClientStateFieldID":"Accordion2_AccordionExtender_ClientState","HeaderCssClass":"accordionHeader text-primary mt-01","HeaderSelectedCssClass":"accordionHeaderSelected1","SelectedIndex":2,"id":"Accordion2_AccordionExtender","requireOpenedPane":false,"suppressHeaderPostbacks":true}, null, null, $get("Accordion2"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AccordionBehavior, {"ClientStateFieldID":"Accordion_SearchParameters_AccordionExtender_ClientState","HeaderCssClass":"accordionHeader bg-primary text-white p-2 mt-0","HeaderSelectedCssClass":"accordionHeaderSelected","SelectedIndex":1,"id":"Accordion_SearchParameters_AccordionExtender","requireOpenedPane":false,"suppressHeaderPostbacks":true}, null, null, $get("Accordion_SearchParameters"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.CalendarBehavior, {"format":"dd/MM/yyyy","id":"AdvSearchPane_content_txt_news_SDate_CalendarExtender"}, null, null, $get("AdvSearchPane_content_txt_news_SDate"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.CalendarBehavior, {"format":"dd/MM/yyyy","id":"AdvSearchPane_content_txt_news_EDate_CalendarExtender"}, null, null, $get("AdvSearchPane_content_txt_news_EDate"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AccordionBehavior, {"ClientStateFieldID":"Accordion1_AccordionExtender_ClientState","HeaderCssClass":"accordionHeader p-2 bg-primary text-white mt-1","HeaderSelectedCssClass":"accordionHeaderSelected","SelectedIndex":2,"id":"Accordion1_AccordionExtender","requireOpenedPane":false,"suppressHeaderPostbacks":true}, null, null, $get("Accordion1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ListSearchBehavior, {"ClientStateFieldID":"ListSearchExtender1DDL_Library_ClientState","id":"ListSearchExtender1DDL_Library","promptCssClass":"PromptCSS"}, null, null, $get("DDL_Library"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

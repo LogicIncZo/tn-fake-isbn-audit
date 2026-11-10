@@ -1,0 +1,52 @@
+[
+ {
+  "lib_code": "AAGAC",
+  "name": "AAGAC Library (Govt. AYUSH/medical college library)",
+  "client": "TAMILNADU"
+ },
+ {
+  "lib_code": "DGGACW",
+  "name": "DGGACW Library",
+  "client": "TAMILNADU"
+ },
+ {
+  "lib_code": "GCEPUD",
+  "name": "GCEPUD Library",
+  "client": "TAMILNADU"
+ },
+ {
+  "lib_code": "IIITTLIB23",
+  "name": "Indian Institute of Information Technology Tiruchirappalli Library",
+  "client": "TAMILNADU"
+ },
+ {
+  "lib_code": "MGACVEL",
+  "name": "MGACVEL Library",
+  "client": "TAMILNADU"
+ },
+ {
+  "lib_code": "RAGCW",
+  "name": "RAGCW Library",
+  "client": "TAMILNADU"
+ },
+ {
+  "lib_code": "RVGAC",
+  "name": "RVGAC Library",
+  "client": "TAMILNADU"
+ },
+ {
+  "lib_code": "TAGGAC",
+  "name": "TAGGAC Library",
+  "client": "TAMILNADU"
+ },
+ {
+  "lib_code": "TKGACM",
+  "name": "TKGACM Library",
+  "client": "TAMILNADU"
+ },
+ {
+  "lib_code": "TNMGRMU",
+  "name": "TNMGRMU Library (The Tamil Nadu Dr. M.G.R. Medical University)",
+  "client": "TAMILNADU"
+ }
+]

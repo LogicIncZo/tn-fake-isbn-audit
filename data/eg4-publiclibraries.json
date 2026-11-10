@@ -1,0 +1,668 @@
+[
+ {
+  "lib_code": "AVWCDP",
+  "name": "Adarsh Vachanalay Wrora Chandrapur Library (AVWCDP)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLADGD",
+  "name": "Adugodi Branch Library (CCLADGD)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "NPPLAKOLA",
+  "name": "Akot Nagarparishad Public Library (NPPLAKOLA)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "ATALJHANSI",
+  "name": "Atal Smarti Pustakalaya (ATALJHANSI)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "MMCGOA",
+  "name": "Athaide Municipal Library (MMCGOA)",
+  "state": "Goa",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "BNPVC",
+  "name": "Ballarpur Nagar Parishad, Ballarpur Library, Dist. Chandrapur (BNPVC)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "BVARGBD",
+  "name": "Balwant Vachnalaya, Aurangabad Library (BVARGBD)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "BCSCL",
+  "name": "Birchandra State Central Library (BCSCL)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLSZBTML",
+  "name": "BTM Layout 2nd Stage Branch Library (CCLSZBTML)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLH",
+  "name": "CCLH Library (CCLH)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "SILVASSA",
+  "name": "Central Library, Silvassa (SILVASSA)",
+  "state": "Dadra & Nagar Haveli",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLDWDSAP",
+  "name": "City Central Library Saptapur Branch (CCLDWDSAP)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLDWDBDK",
+  "name": "City Central Library Bajridevarkoppa Branch (CCLDWDBDK)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLBDR",
+  "name": "City Central Library Bidar (CCLBDR)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLKLBG",
+  "name": "City Central Library Kalaburagi (CCLKLBG)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLDWDDCC",
+  "name": "City Central Library Main Branch, D.C. Compound (CCLDWDDCC)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLDWDLMN",
+  "name": "City Central Library Main Branch, Hubli (CCLDWDLMN)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLDWDMRI",
+  "name": "City Central Library Murugamath Branch (CCLDWDMRI)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLDWDMMH",
+  "name": "City Central Library Murusaveermath Branch (CCLDWDMMH)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLBDRSPO",
+  "name": "City Central Library SP Office Branch Bidar (CCLBDRSPO)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLKMMB",
+  "name": "City Central Library Udupi K M Marga Branch Library (CCLKMMB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLWZBN",
+  "name": "City Central Library West Zone (CCLWZBN)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLWZBNG",
+  "name": "City Central Library West Zone Bangalore (CCLWZBNG)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLWZBSV",
+  "name": "City Central Library West Zone Basaveshwaranagara (CCLWZBSV)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLWZKST",
+  "name": "City Central Library West Zone Kengeri Satellite Town (CCLWZKST)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLWZPSTN",
+  "name": "City Central Library West Zone PRASHANTHANAGARA (CCLWZPSTN)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLWZVJY",
+  "name": "City Central Library West Zone Vijayanagara Library (CCLWZVJY)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLCZHBLIB",
+  "name": "City central library, Haralur Branch (CCLCZHBLIB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLCZBBLIB",
+  "name": "City central library, Begur Branch (CCLCZBBLIB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLEZDCB",
+  "name": "City central Library, East zone, Dollars Colony Branch (CCLEZDCB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLEZHRB",
+  "name": "City central Library, East Zone, Haines Road Branch (CCLEZHRB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLEZJPB",
+  "name": "City central Library, East zone, Jogupalya Branch (CCLEZJPB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLEZRKNB",
+  "name": "City central Library, East zone, Kalyana Nagara Branch (CCLEZRKNB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLEZRTNB",
+  "name": "City central Library, East zone, RT Nagar Branch (CCLEZRTNB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLEZTDL",
+  "name": "City central Library, East zone, Thubarahalli Digital Library, (CCLEZTDL)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLCZHNB",
+  "name": "City central library, Hombegowda Nagara Branch (CCLCZHNB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLCZRTB",
+  "name": "City central library, RICHMOND TOWN BRANCH (CCLCZRTB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLCZSNB",
+  "name": "City central library, Sahakaranagara Branch (CCLCZSNB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLCZSKPB",
+  "name": "City central library, Shankarapuram Branch (CCLCZSKPB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLSZBNSK",
+  "name": "City Central Library, South Zone, Banashankari 2nd Stage (CCLSZBNSK)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLSZBNG",
+  "name": "City Central Library, South Zone, Bangalore Library (CCLSZBNG)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLSZSNGR",
+  "name": "City Central Library, South Zone, Vidyapeeta (CCLSZSNGR)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CMOSEH",
+  "name": "CMO Sehore Library (CMOSEH)",
+  "state": "Madhya Pradesh",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLBDRAUD",
+  "name": "DCL AURAD Library (DCLBDRAUD)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLBDRBK",
+  "name": "DCL BASAVAKALYAN Library (DCLBDRBK)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLBDRBLK",
+  "name": "DCL BHALKI Library (DCLBDRBLK)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLBDRCTG",
+  "name": "DCL CHITTAGUPPA Library (DCLBDRCTG)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLBDRHMBD",
+  "name": "DCL HUMNABAD Library (DCLBDRHMBD)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLM",
+  "name": "DCLM Library (DCLM)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLHASSAN",
+  "name": "Department of Public Library (CCLHASSAN)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DHALAILIB",
+  "name": "Dhalai District Public Library (DHALAILIB)",
+  "state": "Tripura",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DLHSPR",
+  "name": "Digital Library Hoshiarpur (DLHSPR)",
+  "state": "Punjab",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLBAGALKT",
+  "name": "District Central Library Bagalkot Karnataka (DCLBAGALKT)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLBNGR",
+  "name": "District central Library Bangalore Rural (DCLBNGR)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLUDUKK",
+  "name": "District central library, Karkala Branch (DCLUDUKK)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLUDUSG",
+  "name": "District Central Library, Saligrama Branch (DCLUDUSG)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DJLH",
+  "name": "DJLH Library (DJLH)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "BAVCVA",
+  "name": "Dr. Babasaheb Ambedkar Vachanalay and Y M Chavan Vachanalay (BAVCVA)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DBANPVAMB",
+  "name": "Dr. Babasheb Ambedkar Nagarparished Vachanalay Ambajogai (DBANPVAMB)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DBSANPWK",
+  "name": "Dr. Babasheb Ambedkar Nagarparished Wachanalay Kandhar Library (DBSANPWK)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DRBL",
+  "name": "DRBL Library (DRBL)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DSPL",
+  "name": "Dyal Singh Public Library (DSPL)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "GDLMOHALI",
+  "name": "GDL MOHALI Library (GDLMOHALI)",
+  "state": "Punjab",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "GDLMORENA",
+  "name": "Government District E Library Morena (GDLMORENA)",
+  "state": "Madhya Pradesh",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "GDLNABHA",
+  "name": "Government District Library Nabha (Bhai Kahan Singh Library) (GDLNABHA)",
+  "state": "Punjab",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "GDLDUMKA",
+  "name": "Government District Library, Dumka (GDLDUMKA)",
+  "state": "Jharkhand",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "GGLNPLONA",
+  "name": "Guruji Granthalay Lonavla Nagarparished Lonavala (GGLNPLONA)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "HKMSLIB",
+  "name": "Harekrushna Mahtab State Library (HKMSLIB)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "HGPLSDNPN",
+  "name": "Hutatma Govindrao Public Library &amp; Study, Dharmabad Nagarparishad (HGPLSDNPN)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "HSVNPB",
+  "name": "Hutatma Smarak Vachanalay Nagarparished Bandara Library (HSVNPB)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "IGGDL",
+  "name": "IGGD Library (IGGDL)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLSZIDRN",
+  "name": "Indiranagar Branch Library (CCLSZIDRN)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "INPL",
+  "name": "Islampur Nagarparishad Library (INPL)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "VVCMC",
+  "name": "K.B. Hegdewar Public Library (VVCMC)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "KVMVB",
+  "name": "Kavivarya Moropant Vachanalay Bhigvan Chouk Baramati (KVMVB)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "KHOWAILIB",
+  "name": "Khowai District Library, (KHOWAILIB)",
+  "state": "Tripura",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "KNPPVKGN",
+  "name": "Kopargaon Nagarparishad Vachanalay Korargaon (KNPPVKGN)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "KSRP",
+  "name": "KSRP Library (KSRP)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLKSDB",
+  "name": "Lakkasandra Branch Library (CCLKSDB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "NUSVMH",
+  "name": "Late Narayanrao Ujlambkar Sarvjanik Vachnalya Library (NUSVMH)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "LMCPUNE",
+  "name": "LMCPUNE Library (LMCPUNE)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "LSASVINP",
+  "name": "Loksahir Sahityaratna Annabhau Sathe Vachanalay Igatpuri Nagarparishad (LSASVINP)",
+  "state": "Punjab",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "MMHLIB",
+  "name": "Maulana Mazharul Haque Library (MMHLIB)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "MMRDA",
+  "name": "MMRDA Library (MMRDA)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DCLMMBL",
+  "name": "Moodabidre branch library (DCLMMBL)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "MPCL",
+  "name": "MPCL Library (MPCL)",
+  "state": "Madhya Pradesh",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "NPPVPLCH",
+  "name": "Nagarparishad Vivekanand Public Library Chikhli (NPPVPLCH)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "NPDGP",
+  "name": "Nagarparished Deulgaonraja Buldhana Library (NPDGP)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "NPLDA",
+  "name": "Nagarparished Library Dhamangaon Amravati (NPLDA)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "NPWASHIM",
+  "name": "Nagarparished Washim Library (NPWASHIM)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "SCLLDP",
+  "name": "Public Library, Kavarati Island, Lakshadweep (SCLLDP)",
+  "state": "Lakshadweep",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "CCLRRMRB",
+  "name": "Rajaram Mohan Roy Branch Library (CCLRRMRB)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "RNCCL",
+  "name": "RNCCL Library (RNCCL)",
+  "state": "Karnataka",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "SRSKSMVS",
+  "name": "S R S Karwa Sarvajanik Mofat Vachanalay Sangamner (SRSKSMVS)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "SBBH",
+  "name": "SBBH Library (SBBH)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "SVKAGAL",
+  "name": "Shri Sahu Vachanalay Kagal Library (SVKAGAL)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "STMVD",
+  "name": "Shri Trimbakraj Mophat Vachanalay Deolali Library (STMVD)",
+  "state": "Maharashtra",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "SVCLRC",
+  "name": "Sri Venkateswara Central Library &amp; Research Centre (SVCLRC)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "SCLBAN",
+  "name": "State Central Library (SCLBAN)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "SCLIMPHAL",
+  "name": "State Central Library Imphal,Department of Art &amp; Culture,Manipur (SCLIMPHAL)",
+  "state": "Manipur",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "SUBDCHATRA",
+  "name": "Subdivisional Library, Chatra (SUBDCHATRA)",
+  "state": "Jharkhand",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "SVAGWANI",
+  "name": "Swami Vivekanand Abhyas Gat Wani Library (SVAGWANI)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "POOHLIPB",
+  "name": "The Youth Library , Bathinda (POOHLIPB)",
+  "state": "Punjab",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "UDLIB",
+  "name": "Unakoti District Library (UDLIB)",
+  "state": "Tripura",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "VIPLAVILIB",
+  "name": "Viplavi Pustakalaya Godargama (VIPLAVILIB)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "VSWLIB",
+  "name": "Vivekanand Sarvjanik Wachnalay Library (VSWLIB)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "YCSGSANG",
+  "name": "Yashawantrao Chavan Sarvajanik Granthalay Sangli (YCSGSANG)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "AKKANWALI",
+  "name": "Youth Library, Akkanwali (AKKANWALI)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "KHIALICLNW",
+  "name": "Youth Library, Khiali Chailnwali (KHIALICLNW)",
+  "state": "Other",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "RAIPUR2",
+  "name": "Youth Library, Raipur-2 (RAIPUR2)",
+  "state": "Chhattisgarh",
+  "client": "PUBLICLIBRARIES"
+ },
+ {
+  "lib_code": "DGBASTAR",
+  "name": "लाला जगदलपुरी केंद्रीय ग्रंथालय (DGBASTAR)",
+  "state": "Chhattisgarh",
+  "client": "PUBLICLIBRARIES"
+ }
+]

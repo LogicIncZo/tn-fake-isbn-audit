@@ -229,7 +229,6 @@ HTML = f"""<!doctype html>
 </section>
 
 <section>
-  <div class="kicker">The Origin Case<section>
   <div class="kicker">The Origin Case · <span class="ta">மூல வழக்கு</span></div>
   <h2>The same actor, two more libraries · <span class="ta">அதே பதிப்பகம், இன்னும் இரண்டு நூலகங்கள்</span></h2>
   <p class="dek">Perumal Murugan's essay named the imprints at Coimbatore. Our audit then found the same two names on hijacked-ISBN books in Chennai and Madurai. Three libraries, one distribution system.</p>
@@ -358,11 +357,16 @@ HTML = f"""<!doctype html>
   </table>
   </div>
   <p class="dek">The cross-library fingerprint ISBN (9789394612709, "Data Analysis Using Python", printed Phoenix 2023) is in the registry allocated to <b>Thenmozhi B</b> for a different book entirely (“Introduction to Projective Geometry”). It sits on shelves at both flagship libraries. None of the five other TN Koha catalogs we could reach hold it. Raw sweep: <a href="data/koha-tn-sweep.csv">koha-tn-sweep.csv</a> · instances: <a href="data/tn-koha-instances.json">tn-koha-instances.json</a>.</p>
+  <h3 style="margin-top:30px">Beyond Koha: the NIC e-Granthalaya cloud (eg4.nic.in)</h3>
+  <div class="tblwrap"><table>
+    <tr><th>e-Granthalaya union catalog</th><th>Member libraries</th><th>3 fake ISBNs (nb:)</th><th>pb:Phoenix</th><th>pb:Thenmozhi</th><th>Control pb:Oxford</th><th>Verdict</th></tr>
+    <tr><td><a href="https://eg4.nic.in/OPAC/Default.aspx?CL_NAME=TAMILNADU">TAMILNADU client</a> — TN Dr MGR Medical University college libraries + IIIT Trichy</td><td class="num">10</td><td class="num">0 / 0 / 0</td><td class="num">1 — Alice Walker, <i>The color purple</i>, Phoenix; New Delhi; 2004 (genuine homonym)</td><td class="num">2 — Guruthenmozhi, Chennai / Dindukal (different publisher)</td><td class="num">232</td><td><span class="badge l1">clean</span></td></tr>
+    <tr><td><a href="https://eg4.nic.in/OPAC/Default.aspx?CL_NAME=PUBLICLIBRARIES">PUBLICLIBRARIES client</a> — district / state central + municipal public libraries: Karnataka, Maharashtra, Punjab, Tripura, Lakshadweep, Jharkhand, MP, Manipur, Delhi</td><td class="num">127</td><td class="num">0 / 0 / 0</td><td class="num">181 — sampled: Phoenix House London 1957, Phoenix Prakashani Bhadrak, Phoenix Sports Books (all homonyms, no factory imprints)</td><td class="num">0</td><td class="num">7,634</td><td><span class="badge l1">clean</span></td></tr>
+  </table></div>
+  <p class="dek">Beyond Koha, the second-biggest government-library platform is NIC's e-Granthalaya cloud. Both union catalogs were searched in full (each search covers every member library), 10 Nov 2026: <b>zero records for all three fingerprint ISBNs across 137 member OPACs</b>, and every pb:Phoenix / pb:Thenmozhi hit inspected resolves to a different, genuine publisher. The Oxford control counts prove the searches execute. Raw: <a href="data/eg4-sweep-summary.json">eg4-sweep-summary.json</a>.</p>
 </section>
 
 <section>
-  <div class="kicker">The Complaint</div>
-  <h2>The DVAC complaint, in facsimile</h2><section>
   <div class="kicker">The Complaint</div>
   <h2>The DVAC complaint, in facsimile</h2>
   <p class="dek">Filed 07 November 2026 with the Directorate of Vigilance and Anti-Corruption, Tamil Nadu. Pages 1–4.</p>

@@ -1,0 +1,55 @@
+{
+ "platform": "NIC e-Granthalaya 4.0 cloud OPAC (eg4.nic.in)",
+ "probe_date": "2026-11-10",
+ "method": "ASP.NET postback search: GET Default.aspx (session+ViewState harvest) -> POST txt_Search + DDL_Field + Basic_Search_Bttn; union search covers all member libraries; every request logged to data/probes-eg4-sweep.jsonl; raw HTML in evidence/eg4-sweep/",
+ "clients": {
+  "TAMILNADU": {
+   "url": "https://eg4.nic.in/OPAC/Default.aspx?CL_NAME=TAMILNADU",
+   "member_libraries": 10,
+   "composition": "TN Dr MGR Medical University college libraries (AAGAC, DGGACW, GCEPUD, MGACVEL, RAGCW, RVGAC, TAGGAC, TKGACM, TNMGRMU) + IIIT Tiruchirappalli",
+   "results": {
+    "nb:9789392360091": 0,
+    "nb:9789394612709": 0,
+    "nb:9789394612778": 0,
+    "pb:Phoenix": {
+     "count": 1,
+     "rows": [
+      "Walker, Alice - The color purple - Phoenix; New Delhi; 2004 (genuine homonym)"
+     ]
+    },
+    "pb:Thenmozhi": {
+     "count": 2,
+     "rows": [
+      "Guruthenmozhi, Chennai/Dindukal (different publisher)"
+     ]
+    },
+    "pb:Oxford (control)": 232
+   },
+   "verdict": "clean"
+  },
+  "PUBLICLIBRARIES": {
+   "url": "https://eg4.nic.in/OPAC/Default.aspx?CL_NAME=PUBLICLIBRARIES",
+   "member_libraries": 127,
+   "composition": "district/state central + municipal public libraries across Karnataka, Maharashtra, Punjab, Tripura, Lakshadweep, Jharkhand, MP, Manipur, Delhi and other states; no Tamil Nadu district central libraries in this client",
+   "results": {
+    "nb:9789392360091": 0,
+    "nb:9789394612709": 0,
+    "nb:9789394612778": 0,
+    "pb:Phoenix": {
+     "count": 181,
+     "sampled": [
+      "Phoenix House; London; 1957",
+      "Phoenix Prakashani; Bhadrak",
+      "Phoenix Sports Books"
+     ],
+     "factory_imprints_found": 0
+    },
+    "pb:Thenmozhi": 0,
+    "pb:Oxford (control)": 7634
+   },
+   "verdict": "clean"
+  }
+ },
+ "conclusion": "Fake-ISBN factory fingerprints absent from NIC e-Granthalaya cloud layer; 137 member OPACs covered by union search; all publisher hits inspected resolve to genuine homonyms.",
+ "notes": "Tamil Nadu district central libraries: the two flagships with Koha (ACL Chennai, KCL Madurai) remain the only reachable public-library OPACs in TN; tamilnadupubliclibraries.org main site unresponsive (ocitwo + sandbox, 10 Nov 2026); bookprocurement.tamilnadupubliclibraries.org (DIPR shop) has no public catalog."
+}

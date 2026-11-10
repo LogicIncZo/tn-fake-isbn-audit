@@ -66,6 +66,37 @@ points + signature), plus `registry-stem-verify.py`, the script used to verify
 the complaint's ISBN tables against the live registry on 07 Nov 2026
 (`registry-stem-live-20261107.txt`).
 
+## Beyond-Koha layer: NIC e-Granthalaya cloud (10 Nov 2026)
+
+Question: does the factory reach government libraries that do not run Koha? The
+second-biggest government-library platform is NIC's e-Granthalaya 4.0 cloud
+(eg4.nic.in). Both relevant union catalogs were searched end-to-end with the
+site's own ASP.NET postback flow (session cookie + ViewState harvested per
+search, `DDL_Field` set per probe, Oxford control query proving execution):
+
+- TAMILNADU client — 10 member libraries (TN Dr MGR Medical University college
+  libraries + IIIT Tiruchirappalli): all three factory ISBNs return 0 records;
+  pb:Phoenix = 1 (Walker, *The color purple*, Phoenix New Delhi 2004 — genuine
+  homonym); pb:Thenmozhi = 2 (Guruthenmozhi, Chennai/Dindukal — different
+  publisher); control pb:Oxford = 232.
+- PUBLICLIBRARIES client — 127 member public/state/district libraries across
+  Karnataka, Maharashtra, Punjab, Tripura, Lakshadweep, Jharkhand, MP, Manipur,
+  Delhi and others (no Tamil Nadu district central library is on this cloud):
+  all three factory ISBNs return 0 records; pb:Phoenix = 181 records in 20
+  imprints, all genuine homonyms (Phoenix House London 1957, Phoenix
+  Prakashani Bhadrak, Phoenix Sports Books, Phoenix New Delhi 2000s…); control
+  pb:Oxford = 7,634.
+
+Evidence: `evidence/eg4-sweep/*.html` (all responses, hashed in
+`evidence/SHA256SUMS.txt`), `data/probes-eg4-sweep.jsonl` (request log),
+`docs/data/eg4-sweep-summary.json` (summary), claims C60/C61.
+Claim status: `confirmed` at A1 (POST form search, repeated rung-A1 probes,
+each response saved + hashed). TN district central libraries beyond ACL/KCL
+have no reachable public OPAC; the Directorate of Public Libraries main site
+(tamilnadupubliclibraries.org) did not resolve from two vantages on 10 Nov
+2026 (only the book-procurement subdomain lives).
+
+## Publication surfaces
 ## Publication surfaces
 
 - Ledger page: https://cashlessconsumer.zo.space/aram/fakeisbn/ledger

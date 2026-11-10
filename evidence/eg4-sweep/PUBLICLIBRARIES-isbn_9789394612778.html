@@ -1,0 +1,3418 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head id="Head1"><title>
+	e-Granthalaya OPAC: A Digital Agenda for Library Automation and Networking
+</title><link rel="shortcut icon" href="../Images/nicicon.ico" type="image/vnd.microsoft.icon" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><meta http-equiv="Page-Enter" content="blendTrans(Duration=0)" /><meta http-equiv="Page-Exit" content="blendTrans(Duration=0)" />
+     
+   
+    <!-- plugins:css -->
+    
+    <link rel="stylesheet" href="../theme/vendors/ti-icons/css/themify-icons.css" />
+    
+    <!-- endinject -->
+
+    <!-- Plugin css for this page -->
+    
+    
+    <link rel="stylesheet" type="text/css" href="../theme/js/select.dataTables.min.css" />
+    <!-- End plugin css for this page -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../theme/css/vertical-layout-light/style.css" />
+    <!-- endinject -->
+
+    
+    <link href="../Styles/Style.css" rel="stylesheet" type="text/css" media="all" /><link href="../Styles/w3.css" rel="stylesheet" />
+    
+
+     <script src="../Js/jquery-3.6.0.min.js" type="text/javascript" defer="defer"></script> 
+     <script src="../Js/jquery.min.js" type="text/javascript" defer="defer"></script>
+
+    <style type="text/css"> 
+        .Shadowtextx {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext {
+            text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        }
+
+        .Shadowtextx7 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext1 {
+            color: red;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+
+        .Shadowtext2 {
+            color: black;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .Shadowtext3 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext31 {
+            color: #336699;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            /*background-color:#FFFFFF;*/
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext4 {
+            color: black;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            margin-top: -5px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .Shadowtext5 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 15px;
+            background-color: #336699;
+            border-width: 5px;
+            border: 2px solid red;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+
+        .ShadowTable2 {
+            color: black;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px 5px #000000;
+            border-width: 0px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            margin-left: 0px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .Shadowtextx7 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+
+
+        .Shadowtext5 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 10px;
+            background-color: #336699;
+            border-width: 5px;
+            border: 2px solid red;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 30px 45px rgba(35,31,32,.3);
+            /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext6 {
+            border-style: solid;
+            border-color: inherit;
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            height: 25px;
+            background-color: #336699;
+            border-width: 2px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            text-align: center;
+        }
+
+        .Shadowtext8 {
+            border-style: solid;
+            border-color: inherit;
+            /*color: #eeeeee;*/
+            font-size: medium;
+            font-weight: 400;
+            height: 25px;
+            background-color: #336699;
+            border-width: 2px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            text-align: center;
+        }
+    </style>
+
+    <style type="text/css">
+        .Panel11 {
+            width: 100% !important;
+            overflow-wrap: break-word;
+        }
+
+        .input-txt {
+            width: 100%;
+            padding: 20px 10px;
+            border-style: none;
+            font-size: 1em;
+            color: black;
+            border-bottom: 1px dotted rgba(250, 250, 250, 0.4);
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            -moz-transition: background-color 0.5s ease-in-out;
+            -o-transition: background-color 0.5s ease-in-out;
+            -webkit-transition: background-color 0.5s ease-in-out;
+            transition: background-color 0.5s ease-in-out;
+        }
+
+        .input-Select {
+            width: 100%;
+            font: 0.875em "Tenor Sans", sans-serif;
+            height: 40px;
+        }
+
+        .input-txt:-moz-placeholder {
+            color: #e1184a;
+        }
+
+        .input-txt:-ms-input-placeholder {
+            color: #e1184a;
+        }
+
+        .input-txt::-webkit-input-placeholder {
+            color: #e1184a;
+        }
+
+        .input-txt:focus {
+            background-color: #e1184a;
+        }
+
+        .fade.in {
+            opacity: 1;
+        }
+
+        .modal-title {
+            margin: 0;
+            line-height: 1.42857143;
+        }
+
+        .modal-body {
+            position: relative;
+            padding: 15px;
+            top: -2px;
+            left: 0px;
+        }
+
+        /* Bootstrap Modal Backdrop */
+.modal-backdrop,
+.ModalPopupBG,
+.modalBackground,
+.modalXBackground {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 1040 !important;
+
+    /* Make background hidden/dim */
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    opacity: 1 !important;
+}
+
+/* Modal should appear above backdrop */
+.modal {
+    z-index: 1050 !important;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+/* Force modal overlay/backdrop */
+body.modal-open {
+    overflow: hidden !important;
+}
+
+.modal-backdrop,
+.opac-custom-backdrop {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0, 0, 0, 0.75) !important;
+    z-index: 1040 !important;
+    opacity: 1 !important;
+}
+
+#mymodalupdate {
+    z-index: 1050 !important;
+     position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background: rgba(0, 0, 0, 0.75) !important;
+    z-index: 1040 !important;
+    opacity: 1 !important;
+}
+
+#mymodalupdate .modal-dialog {
+    z-index: 1060 !important;
+}
+
+/* Modal content/panel */
+.modal-dialog,
+.modalPopup {
+    position: relative !important;
+    z-index: 1060 !important;
+}
+
+/* Stop background scrolling */
+body.modal-open {
+    overflow: hidden !important;
+}
+
+/* Close button should always remain clickable */
+.modal .close,
+.modalPopup .close,
+.close {
+    position: relative;
+    z-index: 1060;
+    cursor: pointer;
+}
+
+        .style1 {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .style2 {
+            color: #336699;
+            font-size: large;
+            text-align: center;
+        }
+
+        .style3 {
+            color: #FFFFFF;
+            text-align: center;
+            font-family: "Goudy Old Style";
+        }
+
+        .style5 {
+            text-align: center;
+        }
+
+        .style6 {
+            color: #FFFFFF;
+        }
+
+        .style6B {
+            color: #336699;
+        }
+
+        .style8 {
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        .bg-gradient-primary text-white {
+            cursor: pointer;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        /*.styleBttn {
+            background-color: #FFFFFF;
+            cursor: pointer;
+            margin-left: 0px;
+            font-weight: 700;
+            font-family: "Arial Black";
+            text-shadow: inherit;
+            border-radius: 4px;
+            border-color: #336699;
+            border-width: 1px;*/
+        /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+        /*}*/
+
+        /* .styleBttn:hover {
+                background-color: #d2e6c9;
+            }*/
+
+
+
+        #DataPager1 > a {
+            -moz-transition: all 200ms ease-in;
+            position: relative;
+            padding: 5px 12px;
+            line-height: 1.42857143;
+            text-decoration: none;
+            border: 1px solid #ddd;
+        }
+
+        #DataPager1 > span {
+            color: #fff;
+            cursor: default;
+            background-color: #337ab7;
+            border: 1px solid #ddd;
+            padding: 5px 12px;
+        }
+
+        .preview-image {
+            display: block;
+            margin: 10px 0;
+            border: solid 3px #aaa;
+            padding: 1px;
+            background: #fff;
+        }
+
+        .PromptCSS {
+            color: Blue;
+            font-weight: bold;
+            font-family: Arial;
+            background-color: Silver;
+            height: 20px;
+        }
+
+
+
+        #tooltip {
+            display: none;
+            border: solid 1px #708069;
+            background-color: #336699;
+            color: #fff;
+            line-height: 20px;
+            padding: 5px 10px;
+            position: absolute;
+            z-index: 3001;
+            width: auto;
+            height: auto;
+        }
+
+            #tooltip h3, #tooltip div {
+                margin: 0;
+            }
+
+        .hiddencol {
+            display: none;
+        }
+
+        .stylePager {
+            border-style: none;
+            border-color: inherit;
+            padding: 0px;
+            background-color: #99CCFF;
+        }
+
+        .cssPager {
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        .alternating {
+            background-color: #eeeeee;
+        }
+
+        .accordion {
+            border-radius: 3px !important;
+        }
+
+        .statistics {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+            border-radius: 4px;
+        }
+
+        .accordionHeader p-2 bg-primary mt-0 {
+            border: 1px solid #2F4F4F;
+            color: white;
+            background-color: #4B49AC;
+            font-family: Arial, Sans-Serif;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 5px;
+            margin-top: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .accordionHeader p-2 bg-primary mt-01 {
+            /*border: 1px solid #2F4F4F;*/
+            color: darkblue;
+            background-color: #eeeeee;
+            font-family: Arial, Sans-Serif;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 5px;
+            /*margin-top: 5px;*/
+            cursor: pointer;
+            border-radius: 4px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+            .accordionHeader p-2 bg-primary mt-01:hover {
+                background-color: Gray;
+                color: white;
+            }
+
+
+        .accordionHeaderSelected {
+            border: 1px solid #2F4F4F;
+            color: white;
+            background-color: #4B49AC;
+            font-family: Arial, Sans-Serif;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 5px;
+            margin-top: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .accordionHeaderSelected1 {
+            border: 1px solid #2F4F4F;
+            color: white;
+            background-color: Gray;
+            font-family: Arial, Sans-Serif;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 5px;
+            margin-top: 5px;
+            cursor: pointer;
+            border-radius: 4px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .accordionContent {
+            border: 1px dashed #2F4F4F;
+            border-top: none;
+            padding: 5px;
+            padding-top: 10px;
+        }
+
+        .style44 {
+            font-size: small;
+            font-family: Arial;
+        }
+
+        .style45 {
+            color: #FFFFFF;
+            text-align: center;
+        }
+
+        .style46 {
+            color: #336699;
+            font-family: Arial;
+            font-size: medium;
+            text-align: center;
+        }
+
+        .style47 {
+            color: #336699;
+            font-weight: bold;
+        }
+
+        .style48 {
+            color: #FFFFFF;
+            text-align: center;
+            font-family: Arial;
+            font-size: small;
+        }
+
+        .style52 {
+            text-align: center;
+            border-style: none;
+            padding: 0px;
+            font-weight: bold;
+            background-color: #D5EAFF;
+            height: 18px;
+        }
+
+
+        .loading {
+            font-family: Arial;
+            font-size: 10pt;
+            border: 3px solid #a09ed6;
+            width: 200px;
+            height: 100px;
+            display: none;
+            position: fixed;
+            background-color: White;
+            z-index: 999;
+        }
+
+
+        /* jQuery lightBox plugin - Gallery style */
+        #Table2 {
+            background-color: #444;
+            padding: 10px;
+            width: 668px;
+        }
+
+            #Table2 ul a:hover img {
+                border: 5px solid #fff;
+                border-width: 5px 5px 20px;
+                color: #fff;
+            }
+
+            #Table2 li {
+                display: inline;
+                margin-right: 3px;
+            }
+
+            #Table2 #main-img {
+                background: url(../Images/wood.jpg);
+                padding: 26px;
+                width: 500px;
+                height: 300px;
+            }
+
+        input[name="CAPTCHA"] {
+            text-transform: uppercase !important;
+        }
+
+        div#jqChart {
+            width: 100%;
+            height: 250px;
+            border: none;
+            margin: auto;
+            position: relative;
+        }
+
+        .amcharts-pie-slice {
+            -webkit-transition: all .3s ease-out;
+            -moz-transition: all .3s ease-out;
+            -o-transition: all .3s ease-out;
+            cursor: pointer;
+        }
+
+        .ui-jqchart {
+            position: relative;
+        }
+
+        .ui-jqchart-tooltip {
+            position: absolute;
+            white-space: nowrap;
+            padding: .2em .4em;
+            z-index: 9999;
+            border: 1px solid #dddddd;
+            color: #333333;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-box-shadow: 0 0 5px #aaa;
+            -webkit-box-shadow: 0 0 5px #aaa;
+        }
+
+        * html .ui-jqchart-tooltip {
+            background-image: none;
+        }
+
+        body .ui-jqchart-tooltip {
+            border-width: 2px;
+        }
+
+        a {
+            color: darkblue;
+        }
+
+
+        .Meenu img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .Shadowtextx {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #FFFFFF;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext {
+            font-size: medium;
+            font-weight: 400;
+            text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        }
+
+        .Shadowtextx7 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext1 {
+            color: red;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+
+        .Shadowtext2 {
+            color: black;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .Shadowtext3 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext31 {
+            color: #336699;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            /*background-color:#FFFFFF;*/
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext4 {
+            color: black;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px 5px #000000;
+            border-width: 5px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            margin-top: -5px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .img_rpt {
+            height: 200px;
+            width: 150px;
+            border-style: none;
+        }
+
+        .ShadowTable {
+            color: black;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px 5px #000000;
+            border-width: 1px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            margin-left: 0px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /* box-shadow: 0 30px 45px rgba(35,31,32,.3);*/
+            /*box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;*/
+        }
+
+        .Shadowtext5 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 15px;
+            background-color: #336699;
+            border-width: 5px;
+            border: 2px solid red;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+
+        .ShadowTable2 {
+            color: black;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px 5px #000000;
+            border-width: 0px;
+            font-size: medium;
+            padding: 2px;
+            width: 155px;
+            margin-left: 0px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .Shadowtextx7 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 4px;
+            background-color: #D91630;
+            border-width: 5px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+
+
+        .Shadowtext5 {
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 10px;
+            background-color: #336699;
+            border-width: 5px;
+            border: 2px solid red;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 30px 45px rgba(35,31,32,.3);
+            /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+            /*text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;*/
+        }
+
+        .Shadowtext6 {
+            border-style: solid;
+            border-color: inherit;
+            color: #ffffff;
+            font-size: medium;
+            font-weight: 400;
+            height: 25px;
+            background-color: #336699;
+            border-width: 2px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            text-align: center;
+        }
+
+        .Shadowtext8 {
+            border-style: solid;
+            border-color: inherit;
+            /*color: #eeeeee;*/
+            font-size: medium;
+            font-weight: 400;
+            height: 25px;
+            background-color: #336699;
+            border-width: 2px;
+            box-shadow: 1px 1px 1px 1px #000000;
+            text-wrap: normal;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            text-align: center;
+        }
+
+
+
+        .custom-logo {
+            max-width: 100%;
+            max-height: 81px;
+            /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+        }
+
+        .custom-photo {
+            max-width: 100%;
+            max-height: 370px;
+            /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+        }
+
+        .custom-image {
+            display: block;
+            max-width: 100%;
+            max-height: 100px;
+            /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+        }
+
+        /* .btn {
+            cursor: pointer;
+            border: none;
+            color: #ffffff;
+            background-color: #009999;
+            text-underline-position: below;
+            width: 100px;
+            height: 30px;
+            text-decoration: none;
+            text-align: center;
+            font-size: medium;
+            vertical-align: text-bottom;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .btnBlue {
+            cursor: pointer;
+            border: none;
+            color: #ffffff;
+            background-color: #336699;
+            text-underline-position: below;
+            width: 100px;
+            height: 30px;
+            text-decoration: none;
+            text-align: center;
+            font-size: medium;
+            vertical-align: text-bottom;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+        .btn:hover {
+            background-color: #D91630;
+        }*/
+    </style>
+
+    <style type="text/css">
+        .pagerx {
+            display: inline-block;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+            .pagerx:link {
+                color: white;
+                float: none;
+                padding: 3px 16px;
+                text-decoration: none;
+                transition: background-color .3s;
+                background-color: #a09ed6;
+                border-radius: 5px;
+                font-size: medium;
+                font-weight: 400;
+            }
+
+            .pagerx:visited {
+                background-color: #ffffff;
+                color: red;
+                font-size: medium;
+            }
+
+        pagerx:hover {
+            /*color: hotpink;*/
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+        }
+
+
+        .pagerx:link:hover:not(.active) {
+            background-color: #e1184a;
+            color: #ffffff;
+        }
+
+
+        pagerx:link:active {
+            /*color: red;
+        font-size:medium;*/
+            background-color: #337ab7;
+            color: white;
+        }
+    </style>
+
+
+    <style type="text/css">
+        div.card {
+            width: 250px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+        }
+
+        div.header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            font-size: 40px;
+        }
+
+        div.container {
+            padding: 10px;
+        }
+
+        .Shadowtext5x {
+            color: #6e6e6e;
+            font-size: medium;
+            font-weight: 400;
+            border-radius: 15px;
+            background-color: white;
+            border-width: 5px;
+            border: 20px solid #EEEEEE;
+            box-shadow: 1px 1px 1px 1px #EEEEEE;
+            text-wrap: normal;
+            width: 100%;
+        }
+    </style>
+
+    <style type="text/css">
+        /* Create three unequal columns that floats next to each other */
+        .columnx {
+            float: left;
+            padding: 5px;
+        }
+
+            /* Left and right column */
+            .columnx.side {
+                width: 17%;
+                text-align: center;
+            }
+
+            .columnx.side10 {
+                width: 10%;
+                text-align: center;
+            }
+
+            /* Middle column */
+            .columnx.middle {
+                width: 66%;
+            }
+
+            .columnx.middle85 {
+                width: 78%;
+                margin-left: 11px;
+                min-height: 160px;
+            }
+
+            .columnx.middle90 {
+                width: 90%;
+            }
+
+        .CurrentColor {
+            /*color: green;*/
+            box-shadow: 0px 0px 15px currentcolor;
+            border: 0px solid currentcolor;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        .columnx:hover {
+            /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+        }
+
+        /* Clear floats after the columns */
+        .rowx:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 1000px) {
+            .columnx.side, .columnx.middle, .columnx.middle85, .columnx.side10, .columnx.middle90 {
+                width: 100%;
+            }
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (min-width:1000px) and (max-width: 1300px) {
+            .columnx.middle85 {
+                width: 71%;
+                margin-left: 45px;
+            }
+
+            .img_rpt {
+                height: 165px;
+                width: 125px;
+                border-style: none;
+            }
+        }
+
+        @media screen and (min-width:1300px) and (max-width: 1520px) {
+            .columnx.middle85 {
+                width: 74%;
+                margin-left: 39px;
+            }
+
+            .img_rpt {
+                height: 200px;
+                width: 150px;
+                border-style: none;
+            }
+        }
+
+
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 400px) {
+            .content_container {
+                padding: 2px;
+                text-align: center;
+            }
+
+            .content_header {
+                width: 100% !important;
+                padding-left: 2px;
+                padding-right: 2px;
+                text-align: center;
+            }
+
+            .content_full {
+                width: 100% !important;
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+
+
+
+            .CurrentColor {
+                /*color: green;*/
+                box-shadow: 0px 0px 15px currentcolor;
+                border: 0px solid currentcolor;
+                padding: 15px;
+                border-radius: 4px;
+                box-shadow: 0 30px 45px rgba(35,31,32,.3);
+            }
+
+
+
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+                transition: 0.3s;
+                border-radius: 5px;
+            }
+
+                .card:hover {
+                    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+                }
+        }
+    </style>
+      
+    <script src="../Scripts/jquery-1.8.2.js" type="text/javascript" async="async" defer="defer"></script>
+    <script src="../Scripts/jquery.tooltip.min.js" type="text/javascript" async="async" defer="defer"></script>
+    
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="../Styles/Chartui.css" /><link href="../Styles/Notice.css" rel="stylesheet" /><link href="/WebResource.axd?d=S6_fIgmdEHSOLZzP-n3GXaICrVg_AskPf7AolP2GSSjZ21ZIs4Z5CTD99WCPKc4GimzOOqnt8KYGAon35AlT2T0ktLZMi0Wh-gzu2MbsPBusg4pDVR2b2yAKozFF_XME8PDhq1bR2B3L3Dl_v3BVsRWZ-nOQq6fXbyB0AUW2Axs1&amp;t=638639044764662532" type="text/css" rel="stylesheet" /></head>
+<body style="background-color: #F5F7FF!important; font-family: Arial!important;" >
+   
+
+    <script type="text/javascript">
+        // Robust OPAC details modal handling.
+        // Reason: this page uses WebForms postbacks/partial rendering. Direct bindings inside
+        // $(window).load(...) are sometimes lost, and plain .hide() leaves Bootstrap backdrop/body state behind.
+        (function () {
+            function getDropdownValue(selector) {
+                var el = $(selector);
+                return el.length ? (el.val() || '') : '';
+            }
+
+            window.CloseOpacDetailsModal = function () {
+                var modal = $('#mymodalupdate');
+
+                // Stop loading the details iframe and release browser memory.
+                $('#showdetails').attr('src', 'about:blank');
+                $('#linkdivupdate').hide();
+
+                if (modal.length && $.fn.modal) {
+                    modal.modal('hide');
+                }
+
+                // Fallback/cleanup for cases where Bootstrap modal state is broken after async postback.
+                modal.removeClass('in show ModalPopupBG').hide().attr('aria-hidden', 'true');
+                $('.modal-backdrop').remove();
+                $('body').removeClass('modal-open').css({ 'padding-right': '', 'overflow': '' });
+            };
+
+            window.ShowPopup = function () {
+                var modal = $('#mymodalupdate');
+                $('#linkdivupdate').show();
+
+                if (modal.length && $.fn.modal) {
+                    modal.modal({ backdrop: 'static', keyboard: false, show: true });
+                } else {
+                    modal.addClass('in show').show();
+                }
+            };
+
+            window.showValues = function (ID, isChecked) {
+                var url = '../OPAC/Details.aspx?ctr=' + encodeURIComponent(ID)
+                    + '&isChecked=' + encodeURIComponent(isChecked)
+                    + '&cluster=' + encodeURIComponent(getDropdownValue('#AccordionPaneUnion_content_DDL_Clusters'))
+                    + '&library=' + encodeURIComponent(getDropdownValue('#AccordionPaneUnion_content_DDL_ClusterLibraries'));
+
+                $('#showdetails').attr('src', url);
+                ShowPopup();
+                return false;
+            };
+
+            function bindOpacModalClose() {
+                $(document)
+                    .off('click.opacModalClose', '#closemodal,#closemodal2')
+                    .on('click.opacModalClose', '#closemodal,#closemodal2', function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        CloseOpacDetailsModal();
+                        return false;
+                    });
+
+                $('#mymodalupdate')
+                    .off('hidden.bs.modal.opacCleanup')
+                    .on('hidden.bs.modal.opacCleanup', function () {
+                        $('#showdetails').attr('src', 'about:blank');
+                        $('#linkdivupdate').hide();
+                        $('.modal-backdrop').remove();
+                        $('body').removeClass('modal-open').css({ 'padding-right': '', 'overflow': '' });
+                    });
+            }
+
+            $(document).ready(bindOpacModalClose);
+
+            // ASP.NET AJAX calls pageLoad after UpdatePanel partial postbacks.
+            window.pageLoad = function () {
+                bindOpacModalClose();
+            };
+        })();
+    </script>
+
+    <script type="text/javascript">
+        function ShowProgress() {
+            //        setTimeout(function () {
+            var modal = $('<div />');
+            modal.addClass("modal");
+            $('body').append(modal);
+            var loading = $(".loading");
+            loading.show();
+            var top = Math.max($(window).height() / 2 - loading[0].offsetHeight / 2, 0);
+            var left = Math.max($(window).width() / 2 - loading[0].offsetWidth / 2, 0);
+            loading.css({ top: top, left: left });
+            //        }, 200);
+        }
+
+
+        $('form').on("submit", function () {
+            ShowProgress();
+        });
+
+    </script>
+
+    <script type="text/javascript">
+        function HideProgress() {
+            var modal = $('<div />');
+            modal.addClass("modal");
+            $('body').append(modal);
+            var loading = $(".loading");
+            loading.hide();
+        }
+        function jsShowHideProgress() {
+            ShowProgress();
+            deleteCookie();
+
+            var timeInterval = 500; // milliseconds (checks the cookie for every half second )
+            var loop = setInterval(function () {
+                if (IsCookieValid()) {
+
+                    HideProgress();
+                    clearInterval(loop);
+
+                }
+
+            }, timeInterval);
+        }
+
+        // cookies
+        function deleteCookie() {
+            var cook = getExcelCookie('RptDwnloadFlag');
+            if (cook != "") {
+                document.cookie = "RptDwnloadFlag=; Path=/; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+            }
+        }
+
+        function IsCookieValid() {
+            var cook = getExcelCookie('RptDwnloadFlag');
+
+            return cook != '';
+        }
+
+        function getExcelCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+    </script>
+
+    <script type="text/javascript">
+        function ClientItemSelected(sender, e) {
+            $get("txt_Search").value = e.get_value();
+            $('#Book_View_Bttn').css('display', 'inline-block');
+            document.getElementById('DDL_Field').value = 'CAT_NO';
+        }
+    </script>
+
+    
+    
+
+    <script language="javascript" src="../sha256.js" type="module" async="async" defer="defer"></script>
+    <script language="javascript" src="../md5.js" type="module" async="async" defer="defer"></script>
+
+    <script type="text/javascript">
+        function maintainScrollPositionAuthor() {
+            $("#DivAuthor").scrollTop($('#hfAuthor').val());
+        }
+        function maintainScrollPositionLibraries() {
+            $("#DivLibraries").scrollTop($('#hfLibraries').val());
+        }
+        function maintainScrollPositionMedium() {
+            $("#DivMedium").scrollTop($('#hfMedium').val());
+        }
+        function maintainScrollPositionSubject() {
+            $("#DivSubject").scrollTop($('#hfSubject').val());
+        }
+        function maintainScrollPositionYear() {
+            $("#DivYear").scrollTop($('#hfYear').val());
+        }
+        function maintainScrollPositionPublisher() {
+           
+        }
+
+        function maintainScrollPositionDoctype() {
+            $("#DivDoctype").scrollTop($('#hfDoctype').val());
+        }
+        function maintainScrollPositionLang() {
+            $("#DivLang").scrollTop($('#hfLang').val());
+        }
+        function maintainScrollPositionPlace() {
+            $("#DivPlace").scrollTop($('#hfPlace').val());
+        }
+
+
+        function maintainScrollPositionNewsLibrary() {
+            $("#DivNewsLibrary").scrollTop($('#hfNewsLibrary').val());
+        }
+        function maintainScrollPositionNewsPaper() {
+            $("#DivNewsPaper").scrollTop($('#hfNewsPaper').val());
+        }
+        function maintainScrollPositionNewsYear() {
+            $("#DivNewsYear").scrollTop($('#hfNewsYear').val());
+        }
+        function maintainScrollPositionNewsDate() {
+            $("#DivNewsDate").scrollTop($('#hfNewsDate').val());
+        }
+        function maintainScrollPositionNewsSubject() {
+            $("#DivNewsSubject").scrollTop($('#hfNewsSubject').val());
+        }
+
+
+        function maintainScrollPositionArtLibrary() {
+            $("#DivArtLibrary").scrollTop($('#hfArtLibrary').val());
+        }
+        function maintainScrollPositionArtSource() {
+            $("#DivArtSource").scrollTop($('#hfArtSource').val());
+        }
+        function maintainScrollPositionArtYear() {
+            $("#DivArtYear").scrollTop($('#hfArtYear').val());
+        }
+        function maintainScrollPositionArtDate() {
+            $("#DivArtDate").scrollTop($('#hfArtDate').val());
+        }
+        function maintainScrollPositionArtSubject() {
+            $("#DivArtSubject").scrollTop($('#hfArtSubject').val());
+        }
+        function maintainScrollPositionFullText() {
+            $("#DivFullText").scrollTop($('#hfFullText').val());
+        }
+        function maintainScrollPositionArtType() {
+            $("#DivArtType").scrollTop($('#hfArtType').val());
+        }
+
+
+
+        function maintainScrollPositionIRLib() {
+            $("#DivIRLib").scrollTop($('#HiddenFieldIRLib').val());
+        }
+        function maintainScrollPositionIRCategory() {
+            $("#DivIRCategory").scrollTop($('#HiddenFieldIRCategory').val());
+        }
+
+        function maintainScrollPositionIRSubject() {
+            $("#Div_IRSubject").scrollTop($('#HiddenFieldIRSubject').val());
+        }
+         
+        function setScrollPositionAuthor(scrollValue) {
+            $('#hfAuthor').val(scrollValue);
+
+        }
+        function setScrollPositionSubject(scrollValue) {
+            $('#hfSubject').val(scrollValue);
+
+        }
+        function setScrollPositionMedium(scrollValue) {
+            $('#hfMedium').val(scrollValue);
+
+        }
+        function setScrollPositionLibrary(scrollValue) {
+            $('#hfLibraries').val(scrollValue);
+
+        }
+        function setScrollPositionYear(scrollValue) {
+            $('#hfYear').val(scrollValue);
+
+        }
+        function setScrollPositionPublisher(scrollValue) {
+            $('#hfPublisher').val(scrollValue);
+
+        }
+        function setScrollPositionDoctype(scrollValue) {
+            $('#hfDoctype').val(scrollValue);
+
+        }
+        function setScrollPositionLang(scrollValue) {
+            $('#hfLang').val(scrollValue);
+
+        }
+        function setScrollPositionPlace(scrollValue) {
+            $('#hfPlace').val(scrollValue);
+
+        }
+
+
+
+
+        function setScrollPositionNewsLibrary(scrollValue) {
+            $('#hfNewsLibrary').val(scrollValue);
+
+        }
+        function setScrollPositionNewsPaper(scrollValue) {
+            $('#hfNewsPaper').val(scrollValue);
+
+        }
+        function setScrollPositionNewsYear(scrollValue) {
+            $('#hfNewsYear').val(scrollValue);
+
+        }
+        function setScrollPositionNewsDate(scrollValue) {
+            $('#hfNewsDate').val(scrollValue);
+
+        }
+        function setScrollPositionNewsSubject(scrollValue) {
+            $('#hfNewsSubject').val(scrollValue);
+
+        }
+
+
+        function setScrollPositionArtLibrary(scrollValue) {
+            $('#hfArtLibrary').val(scrollValue);
+        }
+
+        function setScrollPositionArtSource(scrollValue) {
+            $('#hfArtSource').val(scrollValue);
+        }
+
+        function setScrollPositionArtYear(scrollValue) {
+            $('#hfArtYear').val(scrollValue);
+        }
+
+        function setScrollPositionArtDate(scrollValue) {
+            $('#hfArtDate').val(scrollValue);
+        }
+
+        function setScrollPositionArtSubject(scrollValue) {
+            $('#hfArtSubject').val(scrollValue);
+        }
+        function setScrollPositionFullText(scrollValue) {
+            $('#hfFullText').val(scrollValue);
+        }
+
+        function setScrollPositionArtType(scrollValue) {
+            $('#hfArtType').val(scrollValue);
+        }
+
+
+        function setScrollPositionIRLib(scrollValue) {
+            $('#HiddenFieldIRLib').val(scrollValue);
+        }
+        function setScrollPositionIRCategory(scrollValue) {
+            $('#HiddenFieldIRCategory').val(scrollValue);
+        }
+
+        function setScrollPositionIRSubject(scrollValue) {
+            $('#HiddenFieldIRSubject').val(scrollValue);
+        }
+         
+        function pageLoad(sender, args) {
+            if (args.get_isPartialLoad()) {
+
+                //below function is used to view photo gallery
+                $("#tabs li img").hover(function () {
+                    // alert('hi');
+                    //$('#main-img').attr('src', $(this).attr('src').replace('photo', 'photo'));
+                    $('#main-img').attr('src', $(this).attr('src'));
+                }); 
+                maintainScrollPositionAuthor();
+                maintainScrollPositionLibraries();
+                maintainScrollPositionMedium();
+                maintainScrollPositionSubject();
+                maintainScrollPositionYear();
+                maintainScrollPositionPublisher();
+                maintainScrollPositionDoctype();
+                maintainScrollPositionLang();
+                maintainScrollPositionPlace();
+
+                maintainScrollPositionNewsLibrary();
+                maintainScrollPositionNewsPaper();
+                maintainScrollPositionNewsYear();
+                maintainScrollPositionNewsDate();
+                maintainScrollPositionNewsSubject();
+
+                maintainScrollPositionArtLibrary();
+                maintainScrollPositionArtSource();
+                maintainScrollPositionArtYear();
+                maintainScrollPositionArtDate();
+                maintainScrollPositionArtSubject();
+                maintainScrollPositionFullText();
+                maintainScrollPositionArtType();
+
+                maintainScrollPositionIRLib();
+                maintainScrollPositionIRCategory();
+                maintainScrollPositionIRSubject();
+
+                InitializeToolTip(); 
+            }
+        }
+
+
+
+    </script>
+    <script language="javascript" type="text/javascript">
+
+        var MyHashed;
+        var MyHashed2;
+        var salt;
+        function test2() {
+            //alert('1');
+            var usrnam = "";
+            var pwd = "";
+            var lbcode = "";
+             
+            usrnam = document.getElementById("txtMemberNo").value; 
+            pwd = document.getElementById("txtPassword").value; 
+            lbcode = document.getElementById('DDL_Library').value; 
+            //lbcode = document.getElementById("DDL_Library").value; 
+
+            if (lbcode == "") {
+                alert("Please Select Your Library from Drop-Down \" Library Code\" field.");
+                document.getElementById("DDL_Library").focus();
+                return (false);
+            }
+
+
+            //            if (document.getElementById("txtLibCode").value.length < 4) {
+            //                alert("Length of \"Library Code\" should be Min 4 characters.");
+            //                document.getElementById("txtLibCode").focus();
+            //                return (false);
+            //            }
+            //            if (document.getElementById("txtLibCode").value.length > 10) {
+            //                alert("Length of \" Library Code\" should be Max 10 characters.");
+            //                document.getElementById("txtLibCode").focus();
+            //                return (false);
+            //            }
+
+
+
+            if (usrnam == "") {
+                alert("Please enter proper \" Member No\" field.");
+                document.getElementById("txtMemberNo").focus();
+                return (false);
+            }
+            if (document.getElementById("txtMemberNo").value.length < 1) {
+                alert("Length of \"Member No\" should be Min 1 characters.");
+                document.getElementById("txtMemberNo").focus();
+                return (false);
+            }
+            if (document.getElementById("txtMemberNo").value.length > 20) {
+                alert("Length of \"Member No\" should be Max 20 characters.");
+                document.getElementById("txtMemberNo").focus();
+                return (false);
+            }
+
+            if (pwd == "") {
+                alert("Please enter proper \"Password\" field.");
+                document.getElementById("txtPassword").focus();
+                return (false);
+            }
+            if (document.getElementById("txtPassword").value.length < 5) {
+                alert("Length of \"Password\" should be Min 6 characters.");
+                document.getElementById("txtPassword").focus();
+                return (false);
+            }
+            if (document.getElementById("txtPassword").value.length > 10) {
+                alert("Length of \"Password\" should be Max 10 characters.");
+                document.getElementById("txtPassword").focus();
+                return (false);
+            }
+
+            else {
+
+                salt = 'rUVAgXy0aoX';
+                //MyHashed = hex_md5(pwd);
+               // var str1;
+               // str1 = salt + MyHashed;
+               // var hashplus = hex_md5(str1);
+
+
+                MyHashed2 = sha256(pwd);
+                document.getElementById("SHA_Hash_Pass").value = MyHashed2;
+                 
+                var str2;
+                str2 = salt + MyHashed2;
+                 
+                var hashplus1 = sha256(str2); 
+                //document.getElementById("RKPass2").value = hashplus;
+                document.getElementById("SaltedSHA_Hash_Pass").value = hashplus1;
+                document.getElementById("txtPassword").value = hashplus1;
+                return (true);
+            }
+            return (false);
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+                alert("Please Enter Numeric Characters Only!");
+                return false;
+            }
+
+            return true;
+        };
+
+        function isDate(evt) {
+            var charCode = (evt.which) ? evt.which : evt.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57) && charCode != 191) {
+                return false;
+            }
+            return true; 
+        };
+
+    </script>
+
+
+
+    <script language="javascript" type="text/javascript">
+        function testmail() {
+            ShowProgress();
+            var email = "";
+
+            email = document.getElementById("txt_Mem_Mail").value;
+
+            if (email == "") {
+                alert("Please enter proper \"E-Mail\" field.");
+                document.getElementById("txt_Mem_Mail").focus();
+                return (false);
+            }
+            re = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if (!re.test(document.getElementById("txt_Mem_Mail").value)) {
+                alert("Error: Not a proper mail address!");
+                document.getElementById("txt_Mem_Mail").focus();
+                return false;
+            }
+
+            return (true);
+        }
+
+    </script>
+
+    <script language="javascript" type="text/javascript">
+        function test1() {
+            ShowProgress();
+            var email = "";
+            var sq = "";
+            var sa = "";
+            email = document.getElementById("Txt_Mem_Email").value;
+            sq = document.getElementById("SelectSecQuestion").value;
+            sa = document.getElementById("txt_Mem_Ans").value;
+
+            if (email == "") {
+                alert("Please enter proper \"E-Mail\" field.");
+                document.getElementById("txt_Mem_Email").focus();
+                return (false);
+            }
+            re = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if (!re.test(document.getElementById("txt_Mem_Email").value)) {
+                alert("Error: Not a proper mail address!");
+                document.getElementById("txt_Mem_Email").focus();
+                return false;
+            }
+
+
+
+            if (document.getElementById("CheckBox1").checked == true) {
+
+                if (document.getElementById("SelectSecQuestion").value == "-- Select One --") {
+                    alert("Please Select Secret Question");
+                    document.getElementById("SelectSecQuestion").focus();
+                    return (false);
+                }
+                if (document.getElementById("SelectSecQuestion").value == "") {
+                    alert("Please enter proper \" Security Question \" field.");
+                    document.getElementById("SelectSecQuestion").focus();
+                    return (false);
+                }
+
+                if (document.getElementById("txt_Mem_Ans").value == "") {
+                    alert("Please enter proper \" Security Answer \" field.");
+                    document.getElementById("txt_Mem_Ans").focus();
+                    return (false);
+                }
+
+                else {
+                    //secanswer = hex_md5(document.getElementById("txt_Mem_Ans").value);
+                    secanswer = sha256(document.getElementById("txt_Mem_Ans").value);
+                    document.getElementById("SecQInput").value = secanswer;
+                    document.getElementById('txt_Mem_Ans').value = "";
+
+                    return (true);
+                }
+
+                return (false);
+            }
+        }
+
+    </script>
+
+    <script language="javascript" type="text/javascript">
+
+        var MyHashed;
+        var MyHashedOld;
+
+
+        function test3() {
+            var usercode = "";
+            var pwd = "";
+            var repwd = "";
+
+            usercode = document.getElementById("txt_UserCode").value;
+            pwd = document.getElementById("txt_UserPass").value;
+            repwd = document.getElementById("txt_UserRePass").value;
+
+            if (usercode == "") {
+                alert("Please enter proper \" Member No\" field.");
+                document.getElementById("txt_UserCode").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserCode").value.length < 1) {
+                alert("Length of \" Member No\" should be Min 1 characters.");
+                document.getElementById("txt_UserCode").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserCode").value.length > 20) {
+                alert("Length of \"Member No\" should be Max 20 characters.");
+                document.getElementById("txt_UserCode").focus();
+                return (false);
+            }
+
+            if (document.getElementById("txt_User_OldPass").value == "") {
+                alert("Please enter Current \" Password\" field.");
+                document.getElementById("txt_User_OldPass").focus();
+                return (false);
+            }
+
+
+            if (pwd == "") {
+                alert("Please enter proper \"Password\" field.");
+                document.getElementById("txt_UserPass").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserPass").value.length < 5) {
+                alert("Length of \"Password\" should be Min 5 characters.");
+                document.getElementById("txt_UserPass").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserPass").value.length > 10) {
+                alert("Length of \"Password\" should be Max 10 characters.");
+                document.getElementById("txt_UserPass").focus();
+                return (false);
+            }
+
+            re = /[0-9]/;
+            if (!re.test(document.getElementById("txt_UserPass").value)) {
+                alert("Error: password must contain at least one number (0-9)!");
+                document.getElementById("txt_UserPass").focus();
+                return false;
+            }
+            re = /[a-z]/;
+            if (!re.test(document.getElementById("txt_UserPass").value)) {
+                alert("Error: password must contain at least one lowercase letter (a-z)!");
+                document.getElementById("txt_UserPass").focus();
+                return false;
+            }
+            re = /[A-Z]/;
+            if (!re.test(document.getElementById("txt_UserPass").value)) {
+                alert("Error: password must contain at least one uppercase letter (A-Z)!");
+                document.getElementById("txt_UserPass").focus();
+                return false;
+            }
+
+            re = /[\!\@\#\$\%\^\&\*\-]/;
+            if (!re.test(document.getElementById("txt_UserPass").value)) {
+                alert("Error: password must contain at least one One special Character (!@#$%^&*-)!");
+                document.getElementById("txt_UserPass").focus();
+                return false;
+            }
+
+            if (repwd == "") {
+                alert("Please enter proper \"Re-Password\" field.");
+                document.getElementById("txt_UserRePass").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserRePass").value.length < 5) {
+                alert("Length of \"Re-Password\" should be Min 5 characters.");
+                document.getElementById("txt_UserRePass").focus();
+                return (false);
+            }
+            if (document.getElementById("txt_UserRePass").value.length > 10) {
+                alert("Length of \"Re-Password\" should be Max 10 characters.");
+                document.getElementById("txt_UserRePass").focus();
+                return (false);
+            }
+            if (pwd != repwd) {
+                alert("Please Re-Type the correct \"Password\" field.");
+                document.getElementById("txt_UserRePass").focus();
+                return (false);
+            }
+
+            else {
+
+                // MyHashed = hex_md5(document.getElementById("txt_UserPass").value);
+                MyHashed = sha256(document.getElementById("txt_UserPass").value);
+                document.getElementById("HashPass2").value = MyHashed;
+
+
+                //salt = ''
+                //var hashplus = hex_md5(salt);
+                //document.getElementById("HassPass3").value = hashplus;
+
+                //for old pw
+                // MyHashedOld = hex_md5(document.getElementById("txt_User_OldPass").value);
+                MyHashedOld = sha256(document.getElementById("txt_User_OldPass").value);
+
+                var salt3;
+                salt3 = 'rUVAgXy0aoX';
+                var str1;
+                str1 = salt3 + MyHashedOld;
+
+                //var hashplusOld = hex_md5(str1);
+                var hashplusOld = sha256(str1);
+                document.getElementById("HashPassOld").value = hashplusOld;
+
+                return (true);
+            }
+            return (false);
+        }
+    </script>
+
+    <script type="text/javascript">
+        function InitializeToolTip() {
+            $(".gridViewToolTip").tooltip({
+                track: true,
+                delay: 0,
+                showURL: false,
+                fade: 100,
+                bodyHandler: function () {
+                    return $($(this).next().html());
+                },
+                showURL: false
+            });
+        }
+    </script>
+
+    <script type="text/javascript">
+        $(function () {
+            InitializeToolTip();
+        })
+    </script>
+
+    <script type="text/javascript">
+        function pageLoad(sender, args) {
+            if (args.get_isPartialLoad()) {
+                InitializeToolTip();
+            }
+        }
+    </script>
+
+    
+
+    <script src="../Js/loader.js" type="text/javascript" async="async" defer="defer"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $('.my-select2-dropdown').select2({
+                placeholder: "Select an option", // Optional placeholder text
+                allowClear: true // Optional: allows clearing the selection
+            });
+
+
+            if ($('#DDL_Library :selected').text() == 'All Libraries') {
+                //$.ajax({
+                //    type: "POST",
+                //    url: "Default.aspx/GetGroupDetails2",
+                //    data: '{}',
+                //    contentType: "application/json; charset=utf-8",
+                //    dataType: "json",
+                //    success: function (response) {
+
+                //        initChartGrp(response)
+                //    },
+                //    failure: function (msg) {
+                //        alert(msg);
+                //    }
+                //});
+
+
+                $.ajax({
+                    type: "POST",
+                    url: "Default.aspx/GetLibDetails",
+                    data: JSON.stringify({ grp_code: null }),
+                    //data: '{}',
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        initChart(response)
+                    },
+                    failure: function (msg) {
+                        alert(msg);
+                    }
+                });
+                //}
+
+            }
+        });
+
+
+        function initChartGrp(response) {
+            var color = ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#BBB389', '#FFE389', '#718CF0', '#FCB549', '#E0500B', '#076493'];
+
+            var chart = am4core.create("grpChart", am4charts.PieChart3D);
+            var data = [];
+            response = response.d;
+            for (var i in response) {
+                var serie = { ClusterName: response[i].grp_code, LibraryCount: response[i].count, color: am4core.color(color[i]) };
+                data.push(serie);
+
+            }
+            // Add data
+            chart.data = data;
+
+            if (response != null) {
+                var title = chart.titles.create();
+                title.text = "Group Wise Libraries";
+                title.fontSize = 25;
+
+                //title.marginBottom = 30;
+                // Add and configure Series
+                var pieSeries = chart.series.push(new am4charts.PieSeries3D());
+                pieSeries.dataFields.value = "LibraryCount";
+                pieSeries.dataFields.category = "ClusterName";
+                pieSeries.slices.template.propertyFields.fill = "color";
+                pieSeries.labels.template.text = "{ClusterName}: {LibraryCount}";
+                pieSeries.slices.template.tooltipText = "{ClusterName}: {LibraryCount}";
+                pieSeries.slices.template.events.on("hit", function (ev) {
+                    if (ev.target.dataItem.properties.category != "Others") {
+                        $.ajax({
+                            type: "POST",
+                            url: "Default.aspx/GetLibDetails", // add web service Name and web service Method Name
+                            data: JSON.stringify({ grp_code: ev.target.dataItem.properties.category }), //web Service method Parameter Name and ,user Input value which in Name Variable.
+                            contentType: "application/json; charset=utf-8",
+                            dataType: "json",
+                            beforeSend: function () {
+                            },
+                            success: function (response) {
+                                initChart(response);
+                            },
+                            failure: function (msg) {
+
+                            }
+                        });
+                        $('#statusdiv').css("display", 'none');
+                    }
+
+                });
+                //chart.legend = new am4charts.Legend(); //legends not required to save space 31/08/2020
+                pieSeries.slices.template.fillOpacity = 1;
+
+                var hs = pieSeries.slices.template.states.getKey("hover");
+                hs.properties.scale = 1;
+                hs.properties.fillOpacity = 0.5;
+                $('#grpChart').css({ display: "block" });
+
+            }
+            else {
+
+                $('#grpChart').css({ display: "none" });
+            }
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        //$(document).ready(function () {
+
+        //});
+
+        function initChart(response) {
+            // alert("jqchart");
+            var data = [];
+            response = response.d;
+
+            if (response.length > 0) {
+                for (var i in response) {
+                    var label = response[i].Library_Code;
+                    var value = response[i].Holding_Count;
+                    var labelname = response[i].Library_Name;
+                    data.push([label, parseFloat(value), labelname]);
+                }
+            }
+            else {
+                $('#jqChart').css({ display: "none" });
+            }
+            if (response.length <= 20) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '100%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+            else if (response.length <= 30) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '200%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+            else if (response.length <= 50) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '300%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+            else if (response.length <= 100) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '400%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+
+            else if (response.length <= 200) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '600%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+            else if (response.length <= 300) {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '800%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+            else {
+                $('#jqChart').jqChart({
+                    title: "Library-Wise Holding Statistics",
+                    legend: { visible: false },
+                    animation: { duration: 2 },
+                    background: '#d2e6c9',
+                    width: '800%',
+                    series: [
+                        {
+                            type: 'column',
+                            fillStyles: ['#418CF0', '#FCB441', '#E0400A', '#056492', '#BFBFBF', '#1A3B69', '#FFE382'],
+                            labels:
+                            {
+                                font: '12px sans-serif'
+                            },
+
+                            data: data
+                        }
+                    ]
+                });
+            }
+
+            $('#jqChart').bind('tooltipFormat', function (e, data) {
+                $('#jqChart').css('cursor', 'pointer');
+                return '<b>' + data.dataItem[0] + ' (' + data.dataItem[2] + ') ' + parseFloat(data.dataItem[1]) + '</b>';
+            });
+
+            $('#jqChart').bind('dataPointMouseDown', function (e, data) {
+
+                $('[name="HdLibName"]').val(data.dataItem[2]); //added on  24/06/2020  to display name of lib on status-wise chart
+
+                $.ajax({
+                    type: "POST",
+                    url: "Default.aspx/GetLibHoldDetails", // add web service Name and web service Method Name
+                    data: JSON.stringify({ Lib_Code: data.x }), //web Service method Parameter Name and ,user Input value which in Name Variable.
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    beforeSend: function () {
+                        $('#ImgLoading2').show();
+                    },
+                    success: function (response) {
+                        $('#ImgLoading2').hide();
+                        initChart3(response);
+                    },
+                    failure: function (msg) {
+                        $('#ImgLoading2').hide();
+                        alert(msg);
+                    }
+                });
+
+
+
+                $('#statusdiv').css("display", 'none');
+                $.ajax({
+                    type: "POST",
+                    async: true,
+                    url: "Default.aspx/GetCurrentCirculation", // add web service Name and web service Method Name
+                    data: JSON.stringify({ Lib_Code: data.x }),  //web Service method Parameter Name and ,user Input value which in Name Variable.
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    beforeSend: function () {
+                        $('#ImgLoading3').show();
+                    },
+                    success: function (response) {
+                        $('#ImgLoading3').hide();
+                        initChart4(response);
+
+                    },
+                    failure: function (msg) {
+                        $('#ImgLoading3').hide();
+                        // alert(msg);
+                    }
+                });
+            });
+              
+
+            function initChart3(response) {
+                var color = ['#418CF0', '#FCB441', '#E0400A', '#056492'];
+                var chart = am4core.create("chartdiv", am4charts.PieChart3D);
+
+                //var chart = am4core.create("chartdiv",  {
+                //    "type": "pie","depth3D": 15});
+
+
+                var data = [];
+                response = response.d;
+                for (var i in response) {
+                    var serie = { ClusterName: response[i].Library_Name, LibraryCount: response[i].Holding_Count };
+                    data.push(serie);
+                }
+                chart.data = data;
+                var title = chart.titles.create();
+                title.text = "Status-Wise Collection of " + $("#HdLibName").val();
+                title.fontSize = 25;
+                title.marginTop = 10;
+
+                // Add and configure Series
+                var pieSeries = chart.series.push(new am4charts.PieSeries3D());
+                pieSeries.dataFields.value = "LibraryCount";
+                pieSeries.dataFields.category = "ClusterName";
+                pieSeries.slices.template.propertyFields.fill = "color";
+                pieSeries.labels.template.text = "{ClusterName}: {LibraryCount}";
+                pieSeries.slices.template.tooltipText = "{ClusterName}: {LibraryCount}";
+                //chart.legend = new am4charts.Legend();
+                //chart.legend.scrollable = true;
+                //chart.legend.maxHeight = 400;
+                //chart.legend.position = "right";
+
+                pieSeries.slices.template.fillOpacity = 1;
+
+                var hs = pieSeries.slices.template.states.getKey("hover");
+                hs.properties.scale = 1;
+                hs.properties.fillOpacity = 0.5;
+                $('#chartdiv').css("display", '');
+                if (response.length <= 10) {
+                    $('#chartdiv').css("height", "300px");
+                }
+                else if (response.length <= 20) {
+                    $('#chartdiv').css("height", "500px");
+                }
+                else if (response.length > 50) {
+                    $('#chartdiv').css("height", "800px");
+                }
+            } 
+        }
+
+
+        function initChart4(response) {
+            var color = ['#418CF0', '#FCB441', '#E0400A', '#056492'];
+            var chart = am4core.create("statusdiv", am4charts.PieChart3D);
+            var data = [];
+            response = response.d;
+            for (var i in response) {
+                var serie = { Status: response[i].Status, Total: response[i].Total };
+                data.push(serie);
+            }
+            chart.data = data;
+            var title = chart.titles.create();
+            title.text = "Today's Transactions " + $("#HdLibName").val();
+            title.fontSize = 25;
+            title.marginTop = 10;
+            // Add and configure Series
+            var pieSeries = chart.series.push(new am4charts.PieSeries3D());
+            pieSeries.dataFields.value = "Total";
+            pieSeries.dataFields.category = "Status";
+            pieSeries.slices.template.propertyFields.fill = "color";
+            pieSeries.labels.template.text = "{Status}: {Total}";
+            pieSeries.slices.template.tooltipText = "{Status}: {Total}";
+            chart.legend = new am4charts.Legend();
+            pieSeries.slices.template.fillOpacity = 1;
+            var hs = pieSeries.slices.template.states.getKey("hover");
+            hs.properties.scale = 1;
+            hs.properties.fillOpacity = 0.5;
+
+            $('#statusdiv').css("display", '');
+            if (response.length <= 10) {
+                $('#statusdiv').css("height", "400px");
+
+            }
+
+
+            chart.addListener("init", handleInit);
+
+            chart.addListener("rollOverSlice", function (e) {
+                handleRollOver(e);
+            });
+
+            function handleInit() {
+                chart.legend.addListener("rollOverItem", handleRollOver);
+            }
+
+            function handleRollOver(e) {
+                var wedge = e.dataItem.wedge.node;
+                wedge.parentNode.appendChild(wedge);
+            }
+        } 
+    </script>
+
+    <script type="text/javascript"> 
+        function selectallcheckboxes() {
+            var chkb = document.getElementsByClassName("cbLevel");
+            var ImageButton1 = document.getElementById('ImageButton1');
+            var i;
+            if (ImageButton1.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = true;
+                }
+            }
+        }
+
+
+        function Deselectallcheckboxes() {
+            var chkb = document.getElementsByClassName("cbLevel");
+            var ImageButton2 = document.getElementById('ImageButton2');
+            var i;
+            if (ImageButton2.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = false;
+                }
+            }
+        }
+
+        function selectallcheckboxesarticles() {
+            var chkb = document.getElementsByClassName("cbLevel_art");
+            var ImageButton3 = document.getElementById('ImageButton3');
+            var i;
+            if (ImageButton3.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = true;
+                }
+            }
+        }
+
+
+        function Deselectallcheckboxesarticles() {
+            var chkb = document.getElementsByClassName("cbLevel_art");
+            var ImageButton4 = document.getElementById('ImageButton4');
+            var i;
+            if (ImageButton4.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = false;
+                }
+            }
+        }
+
+
+        function selectallcheckboxesnews() {
+            var chkb = document.getElementsByClassName("cbLevel_news");
+            var ImageButton5 = document.getElementById('ImageButton5');
+            var i;
+            if (ImageButton5.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = true;
+                }
+            }
+        }
+
+
+        function Deselectallcheckboxesnews() {
+            var chkb = document.getElementsByClassName("cbLevel_news");
+            var ImageButton6 = document.getElementById('ImageButton6');
+            var i;
+            if (ImageButton6.click) {
+                for (i = 0; i < chkb.length; i++) {
+                    var inputs = chkb[i].getElementsByTagName('input');
+                    inputs[0].checked = false;
+                }
+            }
+        }
+    </script>
+
+
+    
+
+
+    <form method="post" action="./Default.aspx?CL_NAME=PUBLICLIBRARIES" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=3wVMYDUtB5a3QiuIs74jN5Ra3it_vRQ0PXlgUARYMXtpnw82MDuHoeKXV0gxL2wbQIIHtBGFxNuAjULjAaqYjzDaazHTVjE113sGmh_agvo1&amp;t=639202794265548063" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=LBt-kNtCBTB3-7NpnOuTDhI8CJhS3-Lm5tjlI8cascCqd6MOHBNx040Wb1cL3UYDeKhGtWyzZKVqEvWLZ4c49ryF0Qjj9OufO7q5gFYWBOBVnpCkrR8ycLqAFEOBAQS1KLBRtlORss8oIWEG6TDsEw2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=4uRTjEQyiQ5yTnNFk4DRvACpd5RpqsNRAenbHvhovOFY4X8_5mGkotL2Uitn7jSdSm_BCtXPV7XOnVusL7fzyuPKCHfZov0ZWFabsMkZeWKTwtUvp3e6uCZyVZxLVC8J8_W9HKnoKzWPoNNYERMIig2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=eFbMoUnZgotQoSFk7cg_kWt9ogMdBrvOacmId8-nuNyC_d4m4ynwzOOZDZx8cxgGaQHrNvkiOiI-ezV6t3GIKMYfJYIZyJleq8OGRf6ct-aOGhufjC-Ck05bYPJU9C0q8BB3mEEDkfnrBC2HsOQrfw2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mgG7hUH2Iuce1WQeUeVlxQzHKvwWPBrdt6dv-ya31B9sGvjP5KI4l0nZn_3XoftUa5GU3nhsgmwGgocWoEP96mlc2tM8daUrPpvV5H-27h3AWLsYpIrkphs6hPcOC8Au0qi13OptROAjzmttSwHYXA2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=RU-8t2ybRZ7aKcgN_8eUQf53bFVEink9BISOccHukUhIzM1sYgT6wya2YC0bWIHriXYjTWHp5u1zrRI8vWVCxCbDwyth9WK2dCKanAaeo53F6-B1M2pGihFHJcpwvBPSGVFsGfdvPz4UbYADrYr0cw2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=NnBOSOgiFL3_41RydPUTA9xoLOXNsujzjzPoA694-URwLqSHfKRtlqUguvDrN8cQZePRfFWsc3CKrk2VlBG0Kbi1UFMirw3_teqZ0WRfRQl63tUvGROavW0UHbugD3kGmXN1cstXCyGQ5rtcsEt2SRy3UhxXRfeKal5Bg8foWmY1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=84bsXmdV7GzMkzSCRN7WEJO4XG_jllnuhdxN-sR2DN63hWqo7-jR33B_9kuMIyz0vVajXmbusX8K-EMOVFYihf3oDKAFwGnhwwv0bxMdhSA5vmTnff5K2tnWrnrV599sYXZcmmaebAoSGmOD8WeyThZgb9FM4q0ZYnZowY5kmZA1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=h6fBY0AAzGpuzShESUMK8rj39134zuxOCJuale4FGJMRkRWy1iW_Ttf_8irGhkM16wSseViOeNqWsIXP9fsfAanVApevN-L6TsMXEJ69ixQwuUjUlRu9yvw34lL84-1kRjPHcyQvX0yB9hgOBQvnbQ2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=coAmEpBOwlAy06ObAVojK3rRHq3sd4IXuk89E8ShAnui8-78JxJ00iSDTPQ6EupQ3v8oBkC5bnobesfhOPKTa8rUp9EOdK0k4DR8kN2U3v0bQ-zGunPX8VaUCRreCS0qL3D02r6ZoQp9AvterTav0Rd3SUnV1U8OsNJ9SJqDQlY1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=hh76yuOAzCnmOH-ALs8UR_yeYG18w65FBW-e1tKEvGZ0XxHC4XSztJY7ZOr87G_tXgNLGNs4G5FLFJcnJJdVZt6uBmyj95x_3D7SQARx4mtLSGD1xqeo9DR3XshrSkdza-IwIEXdglblNkLsgUzM_C4DGrRwgZb9J5VseH4Qxno1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_LZXNg5ZeV-8N9zsouwcWPKWESUx_dBbdM2VHlJPJaO_quCPcDASgh4FhZw6Ke_1abBoPBBopeBZl9tjMHhMSsVV_XsgY04i8Eh-Zc_T51B_J93Dhx6weY_Oer-xPbxFIiVhm2zZc_hLbpbdwxP5vQ2&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=o9sVhmqXZ4CXwIp19CukkpGngDHXTuOXE68EioiMAJ9Ni7esfHh2C_CMJvjHEkwuv-fz8uNGjCtyn0Vxi4wCgndaxdG9PSv8RNawaHFdYWTrz9NiGOwzxB8PdDMregRQOoY0k4U3XfGWFPiSXuGPMfq27-aC9-rbcPI5FOPvjEo1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=NX_XXFgtSR9W5WCBhZHrMC2y2g6LHXQiPb-a4Hk1bhqpbdkDDZ5Bs1-ldUTa0YVyZFFo_Q3jcreMIrumyA2frYjLlmzagIWnRfly9LhJBFdG_A3EB3pwkDynz_9PT56yGEsTEW7x21fe9VF5FdfGqfxYjD_TmmjOplWQxnYbq_U1&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zLbMBjGOCkYQ2oXHF-8ngF5ZV7kMQUA7m5uiGqDfZvg39VL0hkJQvNpZM5KCvjsl4XRPGbENzFBeqzitFALYGMayYGZmrQRWeRY015LIlAkpWu1k1e3Dmubn2a8W74b640YzgcS_KRvJIKc8J0YuaO0Z9NpWWBWMtF36xkozgS41&amp;t=7f16157c" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=vGzv4bDwTUvX7UK4HvRXPU46ZnMcultY0KVbxf3E4XikgQIh4DHyKSTMOUBFSmmhzLw9W4Vp8xksa7F7T0Ht-swHhzoaBHiHLHy_kcjAMqEfAeVYpD3rV1x7NDVev-2U-OITL3NXcCoPSvuyNPBPO_NlDeMSV91G9ql-njkzKLQ1&amp;t=7f16157c" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="98299D9F" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', ['tUpdatePanel5','UpdatePanel5'], [], [], 90, '');
+//]]>
+</script>
+
+
+        <div class="container-scroller" style="margin-top: 10px; margin-left: 20px; margin-right: 20px; margin-bottom: 10px; background-color: #fff;">
+            <input name="RKPass2" type="hidden" id="RKPass2" />
+            <input name="HassPass3" type="hidden" id="HassPass3" />
+            <input name="SaltedSHA_Hash_Pass" type="hidden" id="SaltedSHA_Hash_Pass" />
+            <input name="SHA_Hash_Pass" type="hidden" id="SHA_Hash_Pass" />
+
+            <div id="Panel3" Max-Height="20" class="row" style="color:#4B49AC;font-weight: 700; font-size: small; text-align: right;float:right;">
+	
+                <span id="Label2" style="font-size: small; margin-right: 20px;"></span>
+                <span id="Label4" style="font-size: x-small"></span>
+            
+</div>
+
+            
+                    <div class="col-lg-12 row d-none d-lg-flex" style="margin-left: 0px; background-color: #fff;">
+                        <div class="col-lg-8 d-flex justify-content-start align-self-center pl-0">
+                            <div class="d-flex align-items-start p-1" style="min-height: 90px; min-width: 100px">
+                                <img id="Image4" class="custom-logo rounded" alt="emblem" src="../Account/Cluster_GetLogo.aspx?IMGID=JYygK2ANe1XVn&amp;cluster=PUBLICLIBRARIES" align="left" style="border-color:AliceBlue;border-width:0px;" />
+                            </div>
+                            <div class="d-flex align-items-start flex-column ps-2">
+                                <span id="Lbl_LibName" class="Shadowtext font-weight-bold text-primary" style="font-family: Arial Black; font-size: x-large; ">Govt Public Libraries Network</span>
+                                <span id="Lbl_LibName2" class="justify-content-md-start font-weight-bold Shadowtext text-primary" style="font-size: medium; font-family: Arial Black;">सार्वजनिक पुस्तकालय नेटवर्क</span>
+                                <span id="Lbl_Address" class="justify-content-md-start font-weight-bold Shadowtext text-primary" style="font-size: medium; font-family: Arial Black;">Maintained By: NIC, A-Block, CGO, New Delhi - 110 003</span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-flex justify-content-end align-self-baseline pr-0">
+                            <span id="Lbl_LibCity" class="Shadowtext font-weight-bold text-primary" style="font-weight: bold; font-size: large; text-align: right; font-family: 'Arial Black';">e-Library</span>
+                        </div>
+                    </div>
+                    <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row d-lg-none">
+                        <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                            <a class="navbar-brand brand-logo-mini" href="Landing.aspx">
+                                <img alt="emblem" src="/images/emblem1.png" />
+                            </a>
+                        </div>
+                        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-around">
+                            <span class="font-weight-500 h2" style="text-shadow: 2px 1px #b3b3b3; font-family: Roboto-Bold; margin-bottom: 4px;"><b>e-Granthalaya</b></span>
+                            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+                                <span class="icon-menu"></span>
+                            </button>
+                        </div>
+                    </nav>
+                    <div class="col-lg-12 col-12 row d-none d-lg-flex mb-1" style="margin-left: 0px; background-color: #fff;">
+                        <div class="col-lg-12 col-12 row nav navbar-menu-wrapper bg-gradient-primary Shadowtext3" style="background-color: #F5F7FF; margin-left: 0%;">
+                            <div class="col-lg-8 text-sm-left d-flex align-items-center p-2" style="padding-left: 0px">
+                                <span>
+                                    <img id="Image2" src="../Images/flag-indian.gif" alt="emblem" style="width: 42px;" />
+                                    <b>
+                                        <span id="Label7" style="font-weight: bold; font-size: small; font-family: Arial; color: #FFFFFF;">Powered By: e-Granthalaya - A Digital Solution for Automation and Management of Government Libraries from NIC.</span></b></span>
+                            </div>
+                            <div class="col-lg-4 d-flex float-sm-right align-self-center justify-content-end d-none d-lg-flex" style="padding-right: 0px;">
+                                <input type="image" name="HomeBttn" id="HomeBttn" tabindex="10" title="Home" class="Shadowtext3" src="../Images/home2.webp" style="height:30px;width:30px;" />
+                                &nbsp;&nbsp; 
+                                <input type="image" name="MemLoginBttn" id="MemLoginBttn" title="Click to Login" class="Shadowtext2" src="../Images/user.webp" style="height:30px;width:30px;" />
+                                &nbsp;&nbsp;
+                                <input type="image" name="ImageDashBoard_Bttn" id="ImageDashBoard_Bttn" title="Click to view Dashboard" class="Shadowtext3" src="../Images/Dashboard.webp" style="height:30px;width:30px;" />
+                                &nbsp;&nbsp;
+                                <a target="_blank" href="/OPAC/DLibrary.aspx?CL_NAME=PUBLICLIBRARIES" style="vertical-align: top;">
+                                    <img id="Image7" title="Access Digital Library" class="Shadowtext3" src="../Images/digitallibrary.webp" style="height:30px;width:30px;" />
+                                </a>&nbsp;&nbsp;
+                                <input type="image" name="ImageButton_Registration" id="ImageButton_Registration" title="Guest Registration" class="Shadowtext3" src="../Images/user%20red.webp" style="height:30px;width:30px;" />
+                                &nbsp
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-lg-12 col-12">
+                        <div class="col-lg-12" style="background-color: #F5F7FF !important; padding-top: 10px;">
+                            <div id="pnl_search" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;Basic_Search_Bttn&#39;)">
+	
+                                <div class="col-lg-12 pb-2">
+                                    <div class="row" align="center">
+                                        <div id="Accordion2" class="accordion" style="font-weight:bold;width:99.9%;">
+		<input type="hidden" name="Accordion2_AccordionExtender_ClientState" id="Accordion2_AccordionExtender_ClientState" value="2" /><div id="AccordionPaneUnion_header" class="accordionHeader text-primary mt-01">
+			
+                                                        <strong><b class="Shadowtext font-weight-bold">Search Union Catalog</b></strong>
+                                                    
+		</div><div id="AccordionPaneUnion_content" class="accordionContent" style="display:none;">
+			
+                                                        <div class="col-sm-12 Shadowtext5x" style="text-align: center;">
+                                                            <span class="w3-hover-blue-gray w3-third"><input id="AccordionPaneUnion_content_CB_Union" type="checkbox" name="AccordionPaneUnion_content$CB_Union" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;AccordionPaneUnion_content$CB_Union\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="AccordionPaneUnion_content_CB_Union">Serch All Clusters</label></span>
+                                                            <select name="AccordionPaneUnion_content$DDL_Clusters" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;AccordionPaneUnion_content$DDL_Clusters\&#39;,\&#39;\&#39;)&#39;, 0)" id="AccordionPaneUnion_content_DDL_Clusters" class="text-input w3-third" style="color:Black;font-weight:normal;height:33px;">
+
+			</select>
+                                                            <select name="AccordionPaneUnion_content$DDL_ClusterLibraries" id="AccordionPaneUnion_content_DDL_ClusterLibraries" title="Select Library" class="text-input w3-third" style="color:Black;font-size:Large;font-weight:normal;height:33px;">
+
+			</select>
+                                                        </div>
+
+                                                    
+		</div>
+	</div>
+                                    </div>
+                                </div>
+                                <hr class="m-0" />
+                                
+
+                                <div class="row content_container pb-2 pt-2">
+                                    <div class="col-md-12" style="text-align: center;">
+                                        <strong style="color: black;" class="content_header">Search Catalog</strong>&nbsp;&nbsp; 
+                                <select name="DDL_Materials" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;DDL_Materials\&#39;,\&#39;\&#39;)&#39;, 0)" id="DDL_Materials" title="Select Reading Material for searching" class="content_full" style="font-size:Large;font-weight:bold;height:31px;">
+		<option selected="selected" value="Books">Books</option>
+		<option value="Non-Books">Non-Books</option>
+		<option value="Journals">Journals</option>
+		<option value="Articles">Articles</option>
+		<option value="News Items">News Items</option>
+		<option value="e-Resources">e-Resources</option>
+		<option value="Internet Resources">Internet Resources</option>
+
+	</select>
+
+                                        <input name="txt_Search" type="text" value="9789394612778" id="txt_Search" class="content_full pl-2" placeholder="Enter word to search" style="border-color:#4B49AC;border-style:Solid;font-size:Large;height:31px;" />
+
+                                        <strong style="color: black;" class="content_header">Select Field : </strong>
+                                        <select name="DDL_Field" id="DDL_Field" title="Select Field" class="content_full pl-2" style="font-size:Large;font-weight:bold;height:31px;">
+		<option value="TITLE">Title</option>
+		<option value="AUTHOR">Contributors/Authors</option>
+		<option selected="selected" value="STANDARD_NO">ISBN</option>
+		<option value="KEYWORDS">Keywords</option>
+		<option value="YEAR_OF_PUB">Year</option>
+		<option value="ACCESSION_NO">Accession No</option>
+		<option value="CLASS_NO">Class Number</option>
+		<option value="PHYSICAL_LOCATION">Shelf Number</option>
+		<option value="NOTE">Note / Abstract</option>
+		<option value="CONF_NAME">Conference Name</option>
+		<option value="TAGS">Tags</option>
+		<option value="PUB_NAME">Publisher</option>
+		<option value="SUB_NAME">Subject</option>
+		<option value="VOL_TITLE">Volume Title</option>
+		<option value="ACADEMIC_LEVEL">Academic Level</option>
+		<option value="CAT_NO">Catalog Record Number</option>
+		<option value="ALL">ALL</option>
+
+	</select>
+
+                                        <strong style="color: black;" class="content_header pl-2">With Boolean: </strong>
+                                        <select name="DDL_Boolean" id="DDL_Boolean" title="Select Boolean Operator" class="content_full pl-2" style="font-size:Large;font-weight:bold;height:31px;">
+		<option value="AND">All Words</option>
+		<option value="OR">Any Word</option>
+		<option selected="selected" value="LIKE">Like</option>
+		<option value="SW">Start With</option>
+		<option value="EW">End With</option>
+
+	</select>
+
+                                        <strong style="color: black;" class="content_header">Order By: </strong>
+
+                                        <select name="DDL_OrderBy" id="DDL_OrderBy" title="Select Boolean Operator" class="content_full" style="font-size:Large;font-weight:bold;height:31px;">
+		<option selected="selected" value="TITLE">Title</option>
+		<option value="YEAR">Year</option>
+		<option value="CONTRIBUTOR">Contributor</option>
+		<option value="DATE_ADDED">Date of Entry</option>
+
+	</select>
+                                        <hr class="mt-3 mb-2" />
+                                        <strong style="color: black;" class="content_header">Sort By: </strong>
+                                        <select name="DDL_SortBy" id="DDL_SortBy" title="Select Boolean Operator" class="content_full pl-1 pr-1" style="font-size:Large;font-weight:bold;height:31px;">
+		<option selected="selected" value="ASC">Ascending</option>
+		<option value="DESC">Descending</option>
+
+	</select>
+
+
+                                        <strong>View</strong>&nbsp;<select name="DDL_Pages" id="DDL_Pages" title="Select Boolean Operator" class="content_full pr-2" style="font-size:Large;font-weight:bold;height:31px;">
+		<option selected="selected" value="20">20</option>
+		<option value="100">100</option>
+		<option value="500">500</option>
+		<option value="1000">1000</option>
+
+	</select>
+                                        Records 
+                               
+                                <input type="submit" name="Basic_Search_Bttn" value="Search" id="Basic_Search_Bttn" class="font-weight-bold btn btn-sm btn-primary mr-3 ml-2" />
+
+                                        <a id="LinkButton_Advance" class="font-weight-bold btn-sm btn btn-outline-secondary" href="javascript:__doPostBack(&#39;LinkButton_Advance&#39;,&#39;&#39;)">Advance Search</a>
+                                         
+                                    </div>
+                                </div>
+                            
+</div>
+                        </div>
+                    </div>
+                    <hr class="bg-gradient-dark" style="height: 1px; width: 100%; margin: 0px; border-top: 0px; padding: 0px;" />
+                    <hr class="bg-white mb-2" style="height: 1px; width: 100%; margin-top: 0px; border-top: 0px; padding: 0px;" />
+
+                    <div class="row ml-3 mr-3" style="background-color: #fff;">
+                        
+                        <div class="columnx side p-0">
+                            <div class="shadow p-1 rounded-sm">
+                                <div id="Panel_Cluster_statisics" class="container statistics mb-4">
+                                    <p class="p-2 bg-gradient-primary text-white font-weight-bold">CLUSTER STATISTICS</p>
+                                    <table align="left" border="1" cellspacing="4" style="border-color: #F5F7FF; text-align: left; font-family: Arial; font-size: medium;" width="100%">
+
+                                        <tr class="bg-light clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalTitles" class="h6 font-weight-bold">Total Titles</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalTitles2" class="badge rounded-pill bg-success justify-content-end text-white float-right font-weight-bold">1204959</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-gradient-secondary clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalHold" class="h6 font-weight-bold">Total Holdings</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalHold2" class="badge rounded-pill bg-danger text-white float-right font-weight-bold">2106678</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-light clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalMembers" class="h6 font-weight-bold">Total Members</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalMembers2" class="badge rounded-pill bg-warning font-weight-bold float-right text-white">95385</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="bg-gradient-secondary clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalArticles" class="6 font-weight-bold">Total Articles</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalArticles2" class="badge rounded-pill bg-primary float-right font-weight-bold text-white">8405</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="bg-light clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalNews" class="h6 font-weight-bold">Total News Items</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalNews2" class="badge rounded-pill bg-warning font-weight-bold float-right text-white">14</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-gradient-secondary clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalFullText" class="h6 font-weight-bold">Full-Text Files Uploaded in Cluster</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalFullText_data" class="badge rounded-pill bg-primary float-right font-weight-bold text-white">554</span>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="bg-light clearfix">
+                                            <td>
+                                                <span id="Lbl_TotalLibCount" class="h6 font-weight-bold">Libraries in Cluster</span>
+                                            </td>
+                                            <td>
+                                                <span id="Lbl_TotalLibCount2" class="badge rounded-pill bg-dark float-right font-weight-bold text-white">130</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <br />
+                                    <br />
+                                    <br /> 
+                                    <hr class="bg-gradient-warning" style="height: 1px; width: 100%; margin: 0px; border-top: 0px; padding: 0px;" />
+                                    <hr class="bg-white" style="height: 1px; width: 100%; margin: 0px; border-top: 0px; padding: 0px;" />
+                                </div>
+
+                                <div id="Accordion_SearchParameters" class="accordion mt-1" style="font-weight:bold;width:100%;">
+	<input type="hidden" name="Accordion_SearchParameters_AccordionExtender_ClientState" id="Accordion_SearchParameters_AccordionExtender_ClientState" value="1" /><div id="AdvSearchPane_header" class="accordionHeader bg-primary text-white p-2 mt-0">
+		
+                                                
+                                                <p class="font-weight-bold h6 mb-0" style="font-family: Arial!important;">Advance Search Parameters</p>
+                                            
+	</div><div id="AdvSearchPane_content" class="accordionContent" style="display:none;">
+		
+                                                <div id="Div3" style="text-align: center;">
+                                                    <input id="AdvSearchPane_content_CHK_Year" type="checkbox" name="AdvSearchPane_content$CHK_Year" /><label for="AdvSearchPane_content_CHK_Year">Search By Year</label>
+                                                    <br />
+                                                    FROM: 
+                                                <input name="AdvSearchPane_content$txt_Year_From" type="text" maxlength="4" id="AdvSearchPane_content_txt_Year_From" title="Click to Select Date" onkeypress="return isNumberKey(event)" style="font-size:Large;height:30px;width:20%;" />
+
+                                                    TO:<input name="AdvSearchPane_content$txt_Year_To" type="text" maxlength="4" id="AdvSearchPane_content_txt_Year_To" title="Click to Select End Date " onkeypress="return isNumberKey(event)" style="font-size:Large;height:30px;width:20%;" />
+                                                    <hr />
+                                                    <input id="AdvSearchPane_content_CHK_Dates" type="checkbox" name="AdvSearchPane_content$CHK_Dates" /><label for="AdvSearchPane_content_CHK_Dates">Search By Dates</label>
+                                                    <br />
+                                                    FROM: 
+                                                <input name="AdvSearchPane_content$txt_news_SDate" type="text" maxlength="10" id="AdvSearchPane_content_txt_news_SDate" title="Click to Select Date" onkeypress="return isDate (event);" style="font-size:Large;height:30px;width:100px;" />
+                                                    
+
+                                                    TO:<input name="AdvSearchPane_content$txt_news_EDate" type="text" maxlength="10" id="AdvSearchPane_content_txt_news_EDate" title="Click to Select End Date " onkeypress="return isDate (event);" style="font-size:Large;height:30px;width:100px;" />
+                                                    
+                                                </div>
+                                            
+	</div>
+</div>
+                                <br />
+                                <div id="Accordion1" class="accordion" style="font-weight:bold;width:100%;">
+	<input type="hidden" name="Accordion1_AccordionExtender_ClientState" id="Accordion1_AccordionExtender_ClientState" value="2" /><div id="AccordionPane1_header" class="accordionHeader p-2 bg-primary text-white mt-1">
+		
+                                                <p class="font-weight-bold h6 mb-0  mt-1" style="font-family: Arial!important;">Search</p>
+                                            
+	</div><div id="AccordionPane1_content" class="accordionContent" style="display:none;">
+		
+
+                                                <input type="submit" name="AccordionPane1_content$Recent_Bttn" value="New Arrivals" onclick="ShowProgress();" id="AccordionPane1_content_Recent_Bttn" class="styleBttn text-primary" style="height:30px;width:100%;" />
+                                                <br />
+                                                <input type="submit" name="AccordionPane1_content$Current_Journals_Bttn" value="Current Journals" onclick="ShowProgress();" id="AccordionPane1_content_Current_Journals_Bttn" class="styleBttn text-primary" style="height:30px;width:100%;" />
+                                                <br />
+                                                <input type="submit" name="AccordionPane1_content$Combined_Search_Bttn" value="Combined Search" onclick="ShowProgress();" id="AccordionPane1_content_Combined_Search_Bttn" class="styleBttn text-primary" style="color:#4B49AC;height:30px;width:100%;" />
+                                                <br />
+                                                <input type="submit" name="AccordionPane1_content$Current_News_Bttn" value="Current News" onclick="ShowProgress();" id="AccordionPane1_content_Current_News_Bttn" class="styleBttn text-primary" style="color:#4B49AC;height:30px;width:100%;" />
+                                                <br />
+                                                <input type="submit" name="AccordionPane1_content$Internet_resources_Bttn" value="Internet Resources" onclick="ShowProgress();" id="AccordionPane1_content_Internet_resources_Bttn" class="styleBttn text-primary" style="color:#4B49AC;height:30px;width:100%;" />
+                                                <br />
+
+
+                                                
+                                                <br />
+
+                                            
+	</div>
+</div>
+                                <br />
+                                <strong>
+                                    <span class="Shadowtext text-primary font-weight-bold">Browse Collection By</span></strong>
+                                <br />
+                                <select name="DDL_Browse" onchange="ShowProgress();setTimeout(&#39;__doPostBack(\&#39;DDL_Browse\&#39;,\&#39;\&#39;)&#39;, 0)" id="DDL_Browse" title="Select Field" class="mt-2" style="font-size:Medium;font-weight:bold;height:30px;width:100%;">
+	<option selected="selected" value=""></option>
+	<option value="Title">Title</option>
+	<option value="Document Type">Document Type</option>
+	<option value="Author">Author</option>
+	<option value="Language">Language</option>
+	<option value="Year">Year</option>
+	<option value="Publisher">Publisher</option>
+	<option value="Subject">Subject</option>
+	<option value="Place">Place</option>
+	<option value="Medium">Medium</option>
+	<option value="e-Resources">e-Resources</option>
+	<option value="Academic Levels">Academic Levels</option>
+	<option value="Academic Materials">Academic Materials</option>
+
+</select>
+
+                                <input type="hidden" name="hfLibraries" id="hfLibraries" value="0" />
+                                <input type="hidden" name="hfMedium" id="hfMedium" value="0" />
+                                <input type="hidden" name="hfSubject" id="hfSubject" value="0" />
+                                <input type="hidden" name="hfAuthor" id="hfAuthor" value="0" />
+                                <input type="hidden" name="hfYear" id="hfYear" value="0" />
+                                <input type="hidden" name="hfPublisher" id="hfPublisher" value="0" />
+                                <input type="hidden" name="hfDoctype" id="hfDoctype" value="0" />
+                                <input type="hidden" name="hfLang" id="hfLang" value="0" />
+                                <input type="hidden" name="hfPlace" id="hfPlace" value="0" />
+
+                                
+
+
+
+                                <input type="hidden" name="hfNewsLibrary" id="hfNewsLibrary" value="0" />
+                                <input type="hidden" name="hfNewsPaper" id="hfNewsPaper" value="0" />
+                                <input type="hidden" name="hfNewsYear" id="hfNewsYear" value="0" />
+                                <input type="hidden" name="hfNewsDate" id="hfNewsDate" value="0" />
+                                <input type="hidden" name="hfNewsSubject" id="hfNewsSubject" value="0" />
+                                
+                                <input type="hidden" name="hfArtLibrary" id="hfArtLibrary" value="0" />
+                                <input type="hidden" name="hfArtSource" id="hfArtSource" value="0" />
+                                <input type="hidden" name="hfArtYear" id="hfArtYear" value="0" />
+                                <input type="hidden" name="hfArtDate" id="hfArtDate" value="0" />
+                                <input type="hidden" name="hfArtSubject" id="hfArtSubject" value="0" />
+                                <input type="hidden" name="hfFullText" id="hfFullText" value="0" />
+                                <input type="hidden" name="hfArtType" id="hfArtType" value="0" />
+                                
+
+
+                                <input type="hidden" name="HiddenFieldIRLib" id="HiddenFieldIRLib" value="0" />
+                                <input type="hidden" name="HiddenFieldIRCategory" id="HiddenFieldIRCategory" value="0" />
+                                <input type="hidden" name="HiddenFieldIRSubject" id="HiddenFieldIRSubject" value="0" />
+
+                                
+                                 
+                                <br />
+                                
+                            </div>
+                        </div>
+
+                        <div class="columnx middle">
+
+                            
+
+                            
+
+                            
+
+                            <div id="ImgLoading2" class="card" align="center" style="width: 90%; display: none;">
+                                <img src="../Images/loader.gif" alt="Loading Data" style="display: inline;" />
+                                <font color="blue">
+                                    <label style="font-size: 18px; text-align: center; vertical-align: top; display: table-cell; line-height: 150px; text-shadow: 1px 1px 1px #fff, 3px 3px 5px #000;" />
+                                    <b>Graph is Loading... </b>
+                                </font>
+                            </div>
+
+                            <div id="chartdiv" class="card" style="border-style: solid; border-width: thin; height: 400px; text-align: center; margin-left: 5%; width: 90%; font-size: 11px; background-color: #E3D8DA; border-radius: 15px; display: none; position: relative;">
+                            </div>
+
+                            <div id="ImgLoading3" class="card" align="center" style="width: 90%; display: none;">
+                                <img src="../Images/loader.gif" alt="Loading Data" style="display: inline;" />
+                                <font color="Blue">
+                                    <label style="font-size: 18px; text-align: center; vertical-align: top; display: table-cell; line-height: 150px; text-shadow: 1px 1px 1px #fff, 3px 3px 5px #000;" />
+                                    <b>Graph is Loading... </b>
+                                </font>
+                            </div>
+
+                            <div id="statusdiv" class="card" style="border-style: solid; border-width: thin; height: 400px; font-size: 11px; background-color: #d2e6c9; border-radius: 15px; display: none; position: relative; text-align: center; margin-left: 5%; width: 90%;">
+                            </div>
+
+                            <input name="HdLibName" type="hidden" id="HdLibName" />
+
+
+                            
+
+                            
+
+                            <div id="Panel1" style="width:90%;overflow:auto;text-align:center;text-align: center; margin-left: 5%;">
+	
+                                <span id="Label1" style="color:#4B49AC;font-weight:bold;font-size: x-large"></span>
+                                <h2 style="text-align: center;" class="mt-0">
+                                    <span id="Label37" style="color:#4B49AC;font-size:Large;font-weight:bold;">Your Search Returned 0  Record(s)</span></h2>
+                                <hr style="border-width: 2px; height: 2px;" class="Shadowtext31 mt-1" />
+                                
+                                <hr />
+                            
+</div>
+
+                            <div class="loading rounded-sm" align="center">
+                                Processing! Please wait....
+                                <br />
+                                <img src="../Images/loader.gif" style="width: 75px!important;height: 65px!important;" alt="" />
+                            </div>
+
+                            
+
+                            
+
+                            
+
+                            
+                             
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            <input name="HassPass4" type="hidden" id="HassPass4" />
+                            <input name="SecQInput" type="hidden" id="SecQInput" />
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+
+                            <table class="style1" border="0" width="100%">
+                                <tr align="center" style="text-align: left;">
+                                    <td style="text-align: justify" valign="top" width="20%" bgcolor="#ffffff"></td>
+                                    <td style="text-align: center; width: 80%;" width="80%" bgcolor="#ffffff" colspan="2">
+                                        
+                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="style5" width="20%">&nbsp;</td>
+                                    <td valign="top" style="text-align: center; width: 80%;" class="style3" colspan="2">&nbsp;</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div class="columnx side p-0">
+                            <div class="shadow p-1 rounded-sm">
+                                <p class="p-2 bg-gradient-primary text-white font-weight-bold">MEMBER LOGIN</p>
+                                
+                                <span class="style6">
+                                    <strong>
+                                        <span id="Label6" class="text-primary"></span>
+                                    </strong>
+                                </span>
+                                
+                               
+                                <link href="../theme/vendors/select2/select2.min.css" rel="stylesheet" />
+                                <script src="../theme/vendors/select2/select2.min.js" type="text/javascript" async="async" defer="defer"></script>
+                                <select name="DDL_Library" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;DDL_Library\&#39;,\&#39;\&#39;)&#39;, 0)" id="DDL_Library" title="Select Your Library for Login" class="my-select2-dropdown form-control form-control-sm mt-1" style="height:30px;width:100%;">
+	<option selected="selected" value="All Libraries">All Libraries</option>
+	<option value="AVWCDP">Adarsh Vachanalay Wrora Chandrapur Library (AVWCDP)</option>
+	<option value="SSCGL">ADSSCGL (SSCGL)</option>
+	<option value="CCLADGD">Adugodi Branch Library (CCLADGD)</option>
+	<option value="NPPLAKOLA">Akot Nagarparishad Public Library (NPPLAKOLA)</option>
+	<option value="ATALJHANSI">Atal Smarti Pustakalaya (ATALJHANSI)</option>
+	<option value="MMCGOA">Athaide Municipal Library (MMCGOA)</option>
+	<option value="BNPVC">Ballarpur Nagar Parishad, Ballarpur Library, Dist. Chandrapur (BNPVC)</option>
+	<option value="BVARGBD">Balwant Vachnalaya, Aurangabad Library (BVARGBD)</option>
+	<option value="BCSCL">Birchandra State Central Library (BCSCL)</option>
+	<option value="CCLSZBTML">BTM Layout 2nd Stage Branch Library (CCLSZBTML)</option>
+	<option value="CCLH">CCLH Library (CCLH)</option>
+	<option value="SILVASSA">Central Library, Silvassa (SILVASSA)</option>
+	<option value="CCLDWDSAP">City Central Library  Saptapur Branch (CCLDWDSAP)</option>
+	<option value="CCLDWDBDK">City Central Library Bajridevarkoppa Branch (CCLDWDBDK)</option>
+	<option value="CCLBDR">City Central Library Bidar (CCLBDR)</option>
+	<option value="CCLKLBG">City Central Library Kalaburagi (CCLKLBG)</option>
+	<option value="CCLDWDDCC">City Central Library Main Branch, D.C. Compound (CCLDWDDCC)</option>
+	<option value="CCLDWDLMN">City Central Library Main Branch, Hubli (CCLDWDLMN)</option>
+	<option value="CCLMGLR">CITY CENTRAL LIBRARY MANGALORE (CCLMGLR)</option>
+	<option value="CCLDWDMRI">City Central Library Murugamath Branch (CCLDWDMRI)</option>
+	<option value="CCLDWDMMH">City Central Library Murusaveermath Branch (CCLDWDMMH)</option>
+	<option value="CCLSZJYNGR">CITY CENTRAL LIBRARY SOUTH ZONE JAYANAGAR 5TH BLOCK (CCLSZJYNGR)</option>
+	<option value="CCLSZBTLN">CITY CENTRAL LIBRARY SOUTH ZONE KSRP 3RD BN (CCLSZBTLN)</option>
+	<option value="CCLSZJYS">CITY CENTRAL LIBRARY SOUTH ZONE SOUTH END CIRCLE BRANCH (CCLSZJYS)</option>
+	<option value="CCLSZGGND">CITY CENTRAL LIBRARY SOUTH ZONE, GAVIGANGADHARESHWAR (CCLSZGGND)</option>
+	<option value="CCLSZLYT">CITY CENTRAL LIBRARY SOUTH ZONE, HSR LAYOUT (CCLSZLYT)</option>
+	<option value="CCLSZYDYR">CITY CENTRAL LIBRARY SOUTH ZONE, Yediyuru (CCLSZYDYR)</option>
+	<option value="CCLBDRSPO">City Central Library SP Office Branch Bidar (CCLBDRSPO)</option>
+	<option value="CCLKMMB">City Central Library Udupi K M Marga Branch Library (CCLKMMB)</option>
+	<option value="CCLWZBN">City Central Library West Zone (CCLWZBN)</option>
+	<option value="CCLWZBNG">City Central Library West Zone Bangalore (CCLWZBNG)</option>
+	<option value="CCLWZBSV">City Central Library West Zone Basaveshwaranagara (CCLWZBSV)</option>
+	<option value="CCLWZKST">City Central Library West Zone Kengeri Satellite Town (CCLWZKST)</option>
+	<option value="CCLWZPSTN">City Central Library West Zone PRASHANTHANAGARA (CCLWZPSTN)</option>
+	<option value="CCLWZVJY">City Central Library West Zone Vijayanagara Library (CCLWZVJY)</option>
+	<option value="CCLCZHBLIB">City central library,  Haralur Branch (CCLCZHBLIB)</option>
+	<option value="CCLCZBBLIB">City central library, Begur Branch (CCLCZBBLIB)</option>
+	<option value="CCLEZDCB">City central Library, East zone, Dollars Colony Branch (CCLEZDCB)</option>
+	<option value="CCLEZHRB">City central Library, East Zone, Haines Road Branch (CCLEZHRB)</option>
+	<option value="CCLEZJPB">City central Library, East zone, Jogupalya Branch (CCLEZJPB)</option>
+	<option value="CCLEZRKNB">City central Library, East zone, Kalyana Nagara Branch (CCLEZRKNB)</option>
+	<option value="CCLEZRTNB">City central Library, East zone, RT Nagar Branch (CCLEZRTNB)</option>
+	<option value="CCLEZTDL">City central Library, East zone, Thubarahalli Digital Library, (CCLEZTDL)</option>
+	<option value="CCLCZHNB">City central library, Hombegowda Nagara Branch (CCLCZHNB)</option>
+	<option value="CCLNZMALBR">CITY CENTRAL LIBRARY, NORTHZONE, MALLESHWARA BRANCH (CCLNZMALBR)</option>
+	<option value="CCLCZRTB">City central library, RICHMOND TOWN BRANCH (CCLCZRTB)</option>
+	<option value="CCLCZSNB">City central library, Sahakaranagara Branch (CCLCZSNB)</option>
+	<option value="CCLCZSKPB">City central library, Shankarapuram Branch (CCLCZSKPB)</option>
+	<option value="CCLSZBNSK">City Central Library, South Zone, Banashankari 2nd Stage (CCLSZBNSK)</option>
+	<option value="CCLSZBNG">City Central Library, South Zone, Bangalore Library (CCLSZBNG)</option>
+	<option value="CCLSZSNGR">City Central Library, South Zone, Vidyapeeta (CCLSZSNGR)</option>
+	<option value="CMOSEH">CMO Sehore Library (CMOSEH)</option>
+	<option value="DCLBDRAUD">DCL AURAD Library (DCLBDRAUD)</option>
+	<option value="DCLBDRBK">DCL BASAVAKALYAN Library (DCLBDRBK)</option>
+	<option value="DCLBDRBLK">DCL BHALKI Library (DCLBDRBLK)</option>
+	<option value="DCLBDRCTG">DCL CHITTAGUPPA Library (DCLBDRCTG)</option>
+	<option value="DCLBDRHMBD">DCL HUMNABAD Library (DCLBDRHMBD)</option>
+	<option value="DCLM">DCLM Library (DCLM)</option>
+	<option value="CCLSZKTRG">DEPARTMENT OF PUBLIC LIBRARIES (CCLSZKTRG)</option>
+	<option value="CCLSZNRCB">DEPARTMENT OF PUBLIC LIBRARIES (CCLSZNRCB)</option>
+	<option value="CCLHASSAN">Department of Public Library (CCLHASSAN)</option>
+	<option value="DHALAILIB">Dhalai District Public Library (DHALAILIB)</option>
+	<option value="DLHSPR">Digital Library Hoshiarpur (DLHSPR)</option>
+	<option value="DCLBAGALKT">District Central Library Bagalkot Karnataka (DCLBAGALKT)</option>
+	<option value="DCLBNGR">District central Library Bangalore Rural (DCLBNGR)</option>
+	<option value="DCLUDUKK">District central library, Karkala Branch (DCLUDUKK)</option>
+	<option value="DCLUDUSG">District Central Library, Saligrama Branch (DCLUDUSG)</option>
+	<option value="DJLH">DJLH Library (DJLH)</option>
+	<option value="BAVCVA">Dr. Babasaheb Ambedkar Vachanalay and Y M Chavan Vachanalay (BAVCVA)</option>
+	<option value="DBANPVAMB">Dr. Babasheb Ambedkar Nagarparished Vachanalay Ambajogai (DBANPVAMB)</option>
+	<option value="DBSANPWK">Dr. Babasheb Ambedkar Nagarparished Wachanalay Kandhar Library (DBSANPWK)</option>
+	<option value="DRBL">DRBL Library (DRBL)</option>
+	<option value="DSPL">Dyal Singh Public Library (DSPL)</option>
+	<option value="GDLMOHALI">GDL MOHALI Library (GDLMOHALI)</option>
+	<option value="GDLMORENA">Government District E Library Morena (GDLMORENA)</option>
+	<option value="GDLNABHA">Government District Library Nabha (Bhai Kahan Singh Library) (GDLNABHA)</option>
+	<option value="GDLDUMKA">Government District Library, Dumka (GDLDUMKA)</option>
+	<option value="GGLNPLONA">Guruji Granthalay Lonavla Nagarparished Lonavala (GGLNPLONA)</option>
+	<option value="HKMSLIB">Harekrushna Mahtab State Library (HKMSLIB)</option>
+	<option value="HGPLSDNPN">Hutatma Govindrao Public Library &amp; Study, Dharmabad Nagarparishad (HGPLSDNPN)</option>
+	<option value="HSVNPB">Hutatma Smarak Vachanalay Nagarparished Bandara Library (HSVNPB)</option>
+	<option value="IGGDL">IGGD Library (IGGDL)</option>
+	<option value="CCLSZIDRN">Indiranagar Branch Library (CCLSZIDRN)</option>
+	<option value="SGESMPL">Ishwargranthalaya Basmat (SGESMPL)</option>
+	<option value="INPL">Islampur Nagarparishad Library (INPL)</option>
+	<option value="VVCMC">K.B. Hegdewar Public Library (VVCMC)</option>
+	<option value="KVMVB">Kavivarya Moropant Vachanalay Bhigvan Chouk Baramati (KVMVB)</option>
+	<option value="KHOWAILIB">Khowai District Library, (KHOWAILIB)</option>
+	<option value="KNPPVKGN">Kopargaon Nagarparishad Vachanalay Korargaon (KNPPVKGN)</option>
+	<option value="KSRP">KSRP Library (KSRP)</option>
+	<option value="CCLKSDB">Lakkasandra Branch Library (CCLKSDB)</option>
+	<option value="NUSVMH">Late Narayanrao Ujlambkar Sarvjanik Vachnalya Library (NUSVMH)</option>
+	<option value="LMCPUNE">LMCPUNE Library (LMCPUNE)</option>
+	<option value="LSASVINP">Loksahir Sahityaratna Annabhau Sathe Vachanalay Igatpuri Nagarparishad (LSASVINP)</option>
+	<option value="DCLPALMU">Master Sobran Manjhi Zila Pustkalaya Palamu (DCLPALMU)</option>
+	<option value="MMHLIB">Maulana Mazharul Haque Library (MMHLIB)</option>
+	<option value="MMRDA">MMRDA Library (MMRDA)</option>
+	<option value="DCLMMBL">Moodabidre branch library (DCLMMBL)</option>
+	<option value="MPCL">MPCL Library (MPCL)</option>
+	<option value="NPPVPLCH">Nagarparishad Vivekanand Public Library Chikhli (NPPVPLCH)</option>
+	<option value="NPDGP">Nagarparished Deulgaonraja Buldhana Library (NPDGP)</option>
+	<option value="NPLDA">Nagarparished Library Dhamangaon Amravati (NPLDA)</option>
+	<option value="NPWASHIM">Nagarparished Washim Library (NPWASHIM)</option>
+	<option value="SCLLDP">Public Library, Kavarati Island, Lakshadweep (SCLLDP)</option>
+	<option value="CCLRRMRB">Rajaram Mohan Roy Branch Library (CCLRRMRB)</option>
+	<option value="RNCCL">RNCCL Library (RNCCL)</option>
+	<option value="SRSKSMVS">S R S Karwa Sarvajanik Mofat Vachanalay Sangamner (SRSKSMVS)</option>
+	<option value="SBBH">SBBH Library (SBBH)</option>
+	<option value="SCSMSLIB">Shri Chhatrapati Shivaji Maharaj Sarvajanik Wachanalaya, Shivpur Tq. Shirur Anantpal Dist. Latur (SCSMSLIB)</option>
+	<option value="SVKAGAL">Shri Sahu Vachanalay Kagal Library (SVKAGAL)</option>
+	<option value="STMVD">Shri Trimbakraj Mophat Vachanalay Deolali Library (STMVD)</option>
+	<option value="CCLSZSJICS">Sri Jayadeva Institute of Cardiovascular sciences and Research Centre Branch Library (CCLSZSJICS)</option>
+	<option value="SVCLRC">Sri Venkateswara Central Library &amp; Research Centre (SVCLRC)</option>
+	<option value="SCLBAN">State Central Library (SCLBAN)</option>
+	<option value="SCLIMPHAL">State Central Library Imphal,Department of Art &amp; Culture,Manipur (SCLIMPHAL)</option>
+	<option value="SUBDCHATRA">Subdivisional Library, Chatra (SUBDCHATRA)</option>
+	<option value="SVAGWANI">Swami Vivekanand Abhyas Gat Wani Library (SVAGWANI)</option>
+	<option value="SVDSNPA">Swatantryaveer V. D. Sawarkar Nagar parishad Sarvjanik Vachnalay Telhara Dist. Akola (SVDSNPA)</option>
+	<option value="POOHLIPB">The Youth Library , Bathinda (POOHLIPB)</option>
+	<option value="UDLIB">Unakoti District Library (UDLIB)</option>
+	<option value="VIDHYA">VIDHYAPOSHINI GRANTHALAYAM (VIDHYA)</option>
+	<option value="VIPLAVILIB">Viplavi Pustakalaya Godargama (VIPLAVILIB)</option>
+	<option value="VSWLIB">Vivekanand Sarvjanik Wachnalay Library (VSWLIB)</option>
+	<option value="YCSGSANG">Yashawantrao Chavan Sarvajanik Granthalay Sangli (YCSGSANG)</option>
+	<option value="AKKANWALI">Youth Library, Akkanwali (AKKANWALI)</option>
+	<option value="KAHNEWALA">YOUTH LIBRARY, KAHNEWALA (KAHNEWALA)</option>
+	<option value="KHIALICLNW">Youth Library, Khiali Chailnwali (KHIALICLNW)</option>
+	<option value="RAIPUR2">Youth Library, Raipur-2 (RAIPUR2)</option>
+	<option value="DGBASTAR">लाला जगदलपुरी केंद्रीय ग्रंथालय (DGBASTAR)</option>
+	<option value="CCUDUPI">ನಗರ ಕೇಂದ್ರ ಗ್ರಂಥಾಲಯ ಉಡುಪಿ (CCUDUPI)</option>
+
+</select>
+
+                                <input type="hidden" name="ListSearchExtender1DDL_Library_ClientState" id="ListSearchExtender1DDL_Library_ClientState" />
+                                
+                                <div id="Panel_Login" class="text-primary" onkeypress="javascript:return WebForm_FireDefaultButton(event, &#39;bttn_LogIn&#39;)" style="text-align:center;">
+	
+                                    <p class="text-black-50 p-1 h6  mt-1 mb-0">Login With:</p>
+                                    <hr class="m-1 bg-primary" />
+                                    <span class="p-1"><input id="RB_PW" type="radio" name="login" value="RB_PW" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;RB_PW\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="RB_PW"> Password</label></span>
+                                    <span class="p-1"><input id="RB_OTP" type="radio" name="login" value="RB_OTP" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;RB_OTP\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="RB_OTP"> OTP</label></span>
+                                    
+
+                                    
+                                    <input name="txtMemberNo" type="text" maxlength="20" id="txtMemberNo" title="Enter your Member No." class="form-control form-control-sm mt-1" placeholder="Member No." onkeydown="return (event.keyCode!=13);" AUTOCOMPLETE="Off" style="height:31px;text-transform: uppercase" />
+
+
+                                    
+                                    <input name="txtPassword" type="password" maxlength="10" id="txtPassword" class="form-control form-control-sm mt-1" placeholder="Password" onkeydown="return (event.keyCode!=13);" AUTOCOMPLETE="off" style="height:31px;" />
+
+                                    
+                                    <img src="../Captcha.aspx" alt="Captcha" class="w-100 mt-1 p-0" style="height: 45px;" />
+                                    <input name="txt_captcha" type="text" id="txt_captcha" title="security code" class="form-control form-control-sm mt-1 mb-2" style="height:31px;" placeholder="Captcha" aria-label="Captcha" aria-describedby="basic-addon2" />
+
+                                    <input type="submit" name="bttn_LogIn" value="Login" onclick="return test2();" id="bttn_LogIn" class="bg-primary p-1 text-white border-0" style="width:70%;" />
+
+                                    
+
+                                    
+                                     
+                                    <hr class="m-0 bg-gradient-primary" style="height:1px;" />
+                                    
+                                     
+                                    
+                                
+</div>
+
+                                <div id="UpdatePanel5">
+	
+                                        
+                                    
+</div>  
+                                
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+        </div>
+
+        
+        <button type="button" style="display: none" id="popup" class="btn btn-info btn-lg"
+            data-toggle="modal" data-target="#mymodalupdate" data-backdrop="static" data-keyboard="false">
+            Open Modal</button>
+
+        <div class="modal fade" id="mymodalupdate" role="dialog">
+            <div class="modal-dialog" style="width: 95%!important; max-width: 96%!important; top: 00px!important;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class=" col-md-12 row modal-title">
+                            <div class="col-md-6">
+                                <h4>Details</h4>
+                            </div>
+                            <div class="col-md-6">
+                                <button id="closemodal" type="button" onclick="return CloseOpacDetailsModal();" style="color: #fff; background-color: red; border-color: #204d74; float: right; height: 30px;">
+                                    X</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="linkdivupdate" style="display: none; z-index: 9999;">
+                            <iframe id="showdetails" src="about:blank" height="550px" width="100%" scrolling="yes" frameborder="0" seamless=""></iframe>
+                            <br />
+                            <div class="row" style="text-align: center" align="center">
+                                <div class="col-md-12">
+                                    <button type="button" id="closemodal2" class="btn btn-primary" onclick="return CloseOpacDetailsModal();">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-inverse-light text-white" style="width: 100%;">
+            <div>
+                <div class="container-fluid" align="center">
+                    
+
+                    <footer class="footer" style="background-color: #fff">
+                        <div class="d-sm-flex justify-content-center ">
+                            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  The Application has been designed, developed by <a href="https://www.nic.in/" target="_blank">National Informatics Centre</a> , Government of India and hosted in NIC National Cloud.</span>
+                            
+                        </div>
+                        <div class="d-sm-flex justify-content-center ">
+                            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">The Contents are uploaded by participating libraries.</span>
+                        </div>
+                    </footer>
+
+                </div>
+            </div>
+        </div>
+
+        <script language="javascript" type="text/javascript">
+            function checkLogin() {
+                var mem = ""
+                mem = '';
+                //alert(mem);
+                if (mem == "") {
+                    alert("Please login the site to avail this facility..");
+                    return false;
+                }
+                else {
+                    return true;
+                }
+                return false;
+            }
+        </script>
+
+        <script type="text/javascript" id="script_viewer">
+
+            function showpdf(a, cat_no) {
+
+                 
+                // cat_no = cat_no || 0 ;
+                var mem = ""
+                mem = '';
+                if (mem == "" && (a.indexOf('pb.pdf') == -1)){
+                    alert("Please login the site to avail this facility..");
+                    return false;
+                } 
+                else {
+                    var data = a.getAttribute("data-doc");
+                    var url = '';
+                    data = '../../../' + data;
+                    sessionStorage.setItem('file', data);
+                    if (data.endsWith('pdf')) {
+                        url = '../pdf-viewer-master/external/pdfjs-2.1.266-dist/web/viewer.html';
+                        $('#dv_hide_popout').css('display', 'none');
+                        $('#dv_book_flip').css('display', 'none');
+                    }
+
+                    else if (data.endsWith('tif') || data.endsWith('tiff')) {
+                        url = '../HOME/ebook_view7.aspx?cat_no=' + cat_no;
+                        $('#dv_hide_popout').css('display', 'none');
+                        $('#dv_book_flip').css('display', 'none');
+
+                    }
+
+                    else {
+                        //alert(data);
+                        url = 'http://docs.google.com/gview?url=' + data + '&embedded=true';
+                        $('#dv_hide_popout').css('display', 'block');
+                        $('#dv_book_flip').css('display', 'none');
+                    }
+                    $('#iframe_pdf').attr('src', url)
+
+                    $('#iframe_pdf').load(function () {
+                        $('.hover_bkgr_fricc').show();
+                    });
+                }
+
+                function showbookflip(a) {
+                    // sessionStorage.setItem('file', data);
+
+                    url = '../HOME/ebook_view7.aspx';
+                    $('#dv_hide_popout').css('display', 'none');
+                    $('#dv_book_flip').css('display', 'none');
+                    $('#iframe_pdf').attr('src', url)
+                    $('.hover_bkgr_fricc').show();
+                }
+
+            }
+
+
+
+
+            $(window).load(function () {
+                $('.popupCloseButton').click(function () {
+                    $('.hover_bkgr_fricc').hide();
+                });
+            });
+
+
+            $(document).ready(function () {
+                var cookies = document.cookie.split(';');
+                var scrollPosition = 0;
+
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = cookies[i].trim();
+                    if (cookie.startsWith("scrollPosition=")) {
+                        scrollPosition = parseInt(cookie.substring("scrollPosition=".length), 10);
+                        break;
+                    }
+                }
+
+                $(window).scrollTop(scrollPosition);
+            });
+
+
+
+        </script>
+
+        <div class="hover_bkgr_fricc" style="height: 100%; width: 100%; display: none; vertical-align: central;">
+            <div style="padding: 6px 1.5%; height: 97% !important; width: 100% !important; display: inline-block !important; position: sticky !important; max-width: 98% ! important; background-color: none !important;">
+                <div class="popupCloseButton">X</div>
+                <div id="dv_pdf_viewer" style="height: 100%; width: 100%; background-image: url('../images/wood.jpg');">
+                    <iframe id="iframe_pdf" src="about:blank" height="100%" width="100%" scrolling="no" frameborder="0" seamless="" style="background-image: url('../images/wood.jpg');"></iframe>
+                    <div id="dv_hide_popout" style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 28px; top: 6px;"></div>
+                    <div id="dv_book_flip" style="width: 125px; height: 24px; position: absolute; opacity: 0; left: 47%; top: 10px; background-color: black; opacity: 0.6; text-align: center; z-index: 2; border-radius: 6px; vertical-align: middle; box-shadow: 10px 10px 60px #555;">
+                        <a onclick="showbookflip(this);" href="javascript:void(0);" style="color: whitesmoke; font-family: monospace">View FlipBook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- plugins:js -->
+        
+        <!-- endinject -->
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+
+theForm.oldOnLoad = window.onload;
+window.onload = WebForm_RestoreScrollPosition;
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AccordionBehavior, {"ClientStateFieldID":"Accordion2_AccordionExtender_ClientState","HeaderCssClass":"accordionHeader text-primary mt-01","HeaderSelectedCssClass":"accordionHeaderSelected1","SelectedIndex":2,"id":"Accordion2_AccordionExtender","requireOpenedPane":false,"suppressHeaderPostbacks":true}, null, null, $get("Accordion2"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AccordionBehavior, {"ClientStateFieldID":"Accordion_SearchParameters_AccordionExtender_ClientState","HeaderCssClass":"accordionHeader bg-primary text-white p-2 mt-0","HeaderSelectedCssClass":"accordionHeaderSelected","SelectedIndex":1,"id":"Accordion_SearchParameters_AccordionExtender","requireOpenedPane":false,"suppressHeaderPostbacks":true}, null, null, $get("Accordion_SearchParameters"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.CalendarBehavior, {"format":"dd/MM/yyyy","id":"AdvSearchPane_content_txt_news_SDate_CalendarExtender"}, null, null, $get("AdvSearchPane_content_txt_news_SDate"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.CalendarBehavior, {"format":"dd/MM/yyyy","id":"AdvSearchPane_content_txt_news_EDate_CalendarExtender"}, null, null, $get("AdvSearchPane_content_txt_news_EDate"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.AccordionBehavior, {"ClientStateFieldID":"Accordion1_AccordionExtender_ClientState","HeaderCssClass":"accordionHeader p-2 bg-primary text-white mt-1","HeaderSelectedCssClass":"accordionHeaderSelected","SelectedIndex":2,"id":"Accordion1_AccordionExtender","requireOpenedPane":false,"suppressHeaderPostbacks":true}, null, null, $get("Accordion1"));
+});
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ListSearchBehavior, {"ClientStateFieldID":"ListSearchExtender1DDL_Library_ClientState","id":"ListSearchExtender1DDL_Library","promptCssClass":"PromptCSS"}, null, null, $get("DDL_Library"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>
