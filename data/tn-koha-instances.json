@@ -104,12 +104,13 @@
  },
  {
   "library": "Connemara Public Library, Chennai",
-  "type": "State central library (deposit library)",
-  "opac": "librarytechnology.org/library/193151 lists a catalogue link; host did not resolve at probe time",
-  "koha": "unconfirmed",
-  "status": "unresolved",
+  "type": "State central library (deposit library, Delivery of Books Act 1954)",
+  "opac": "connemara.tnopac.gov.in (gateway stub \u2192 TNSWAN proxy 172.17.17.1:8090)",
+  "koha": "unconfirmed \u2014 tnopac.gov.in platform, software not observable externally",
+  "status": "external-dead (10 Nov 2026): gateway resolves and answers, but the application is bound to a TNSWAN-internal proxy; ports 8090/8080/8093 closed on 117.239.68.20/.22/.23",
   "factory_hits": {},
-  "verdict": "not tested"
+  "verdict": "not testable from public internet",
+  "note": "Same fate for the 22 district subdomains (chennai, madurai, salem, coimbatore, \u2026). Only reachable inside TNSWAN; see claims C62 + docs/data/tnopac-gateways.json"
  },
  {
   "library": "Madurai Kamaraj / Bharathiar / Bharathidasan / Alagappa / MSU / TNDALU / TNOU / TANUVAS / TNNLU",

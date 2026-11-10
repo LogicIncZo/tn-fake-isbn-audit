@@ -1,0 +1,42 @@
+{
+ "probe_date": "2026-11-10",
+ "platform": "tnopac.gov.in \u2014 Directorate of Public Libraries (TN) centralized OPAC (Connemara + district central libraries)",
+ "gateway_stub": "POSTs request_url to http://172.17.17.1:8090/httpclient.html (TNSWAN-internal RFC1918)",
+ "public_ips": {
+  "tnopac.gov.in/www": "117.239.68.20",
+  "district+connemara": "117.239.68.22, 117.239.68.23"
+ },
+ "closed_ports_on_public_ips": [
+  8090,
+  8080,
+  8093
+ ],
+ "crt_sh_subdomains": 0,
+ "resolving_subdomains": {
+  "connemara": "117.239.68.22",
+  "chennai": "117.239.68.22",
+  "madurai": "117.239.68.22",
+  "salem": "117.239.68.23",
+  "coimbatore": "117.239.68.22",
+  "erode": "117.239.68.22",
+  "nagapattinam": "117.239.68.22",
+  "vellore": "117.239.68.23",
+  "cuddalore": "117.239.68.22",
+  "tirunelveli": "117.239.68.23",
+  "thanjavur": "117.239.68.23",
+  "karur": "117.239.68.22",
+  "perambalur": "117.239.68.22",
+  "sivagangai": "117.239.68.23",
+  "ramanathapuram": "117.239.68.23",
+  "dharmapuri": "117.239.68.22",
+  "krishnagiri": "117.239.68.22",
+  "namakkal": "117.239.68.22",
+  "nilgiris": "117.239.68.22",
+  "tiruppur": "117.239.68.23",
+  "dindigul": "117.239.68.22",
+  "virudhunagar": "117.239.68.23",
+  "ariyalur": "117.239.68.22"
+ },
+ "count": 23,
+ "verdict": "external-dead \u2014 not auditable from public internet (claim C62)"
+}

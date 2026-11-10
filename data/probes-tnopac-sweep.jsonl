@@ -1,0 +1,49 @@
+{"ts": "2026-11-10T17:33:39+00:00", "target": "connemaralibrary.org / .com", "method": "DNS+HTTP", "result": "no A record / parked domain-for-sale page", "rung": "A0"}
+{"ts": "2026-11-10T17:33:39+00:00", "target": "www.connemarapubliclibrarychennai.com", "method": "GET /", "result": "200, domain-for-sale parking page (abovedomains)", "rung": "A1"}
+{"ts": "2026-11-10T17:33:39+00:00", "target": "pallikalvi.in (2012 catalog host per The Hindu)", "method": "GET / (sandbox + ocitwo Indian vantage)", "result": "dead from both vantage points", "rung": "A1"}
+{"ts": "2026-11-10T17:33:39+00:00", "target": "librarytechnology.org/library/193151", "method": "GET", "result": "403 blocked; JDVu digitalref survey PDF instead names connemara.tnopac.gov.in", "rung": "A1"}
+{"ts": "2026-11-10T17:33:39+00:00", "target": "crt.sh q=%25.tnopac.gov.in", "method": "CT log query", "result": "0 certificates", "rung": "A0"}
+{"ts": "2026-11-10T17:33:39+00:00", "target": "tnopac.gov.in / connemara.tnopac.gov.in DNS", "method": "getent", "result": "live: 117.239.68.20 / 117.239.68.22", "rung": "A0"}
+{"ts": "2026-11-10T17:33:39+00:00", "target": "connemara.tnopac.gov.in:80", "method": "GET /", "result": "200 777B gateway stub; POSTs request_url to http://172.17.17.1:8090/httpclient.html (TNSWAN-internal)", "rung": "A1"}
+{"ts": "2026-11-10T17:33:39+00:00", "target": "tnopac.gov.in:80 (apex)", "method": "GET /", "result": "200 757B same stub, same internal proxy", "rung": "A1"}
+{"ts": "2026-11-10T17:33:39+00:00", "target": "chennai/madurai/salem.tnopac.gov.in:80", "method": "GET /", "result": "same stub, action=172.17.17.1:8090", "rung": "A1"}
+{"ts": "2026-11-10T17:33:39+00:00", "target": "117.239.68.22/.23 :8090 :8080 :8093", "method": "TCP", "result": "all closed/filtered from public internet", "rung": "A1"}
+{"ts": "2026-11-10T17:33:39+00:00", "target": "tnopac.gov.in district subdomains (DNS sweep of TN district names)", "method": "DNS", "result": "22 resolve -> same 2 hosts; all serve identical gateway stub", "rung": "A0"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "connemara.tnopac.gov.in", "method": "GET", "summary": "200; stub form POSTs to http://172.17.17.1:8090/httpclient.html"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "tnopac.gov.in", "method": "GET", "summary": "200; identical stub"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "chennai.tnopac.gov.in", "method": "GET", "summary": "200; identical stub, action=172.17.17.1:8090"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "madurai.tnopac.gov.in", "method": "GET", "summary": "200; identical stub, action=172.17.17.1:8090"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "salem.tnopac.gov.in", "method": "GET", "summary": "200; identical stub, action=172.17.17.1:8090"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "117.239.68.22:8090", "method": "TCP/GET", "summary": "closed/000 from sandbox"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "117.239.68.22:8080", "method": "TCP/GET", "summary": "closed/000 from sandbox"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "117.239.68.22:8093", "method": "TCP/GET", "summary": "closed/000 from sandbox"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "117.239.68.20:8090", "method": "TCP/GET", "summary": "closed/000 from sandbox"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "117.239.68.20:8080", "method": "TCP/GET", "summary": "closed/000 from sandbox"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "117.239.68.20:8093", "method": "TCP/GET", "summary": "closed/000 from sandbox"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "117.239.68.23:8090", "method": "TCP/GET", "summary": "closed/000 from sandbox"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "117.239.68.23:8080", "method": "TCP/GET", "summary": "closed/000 from sandbox"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "117.239.68.23:8093", "method": "TCP/GET", "summary": "closed/000 from sandbox"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "crt.sh?q=%.tnopac.gov.in", "method": "GET", "summary": "0 certificates"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "connemara.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "chennai.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "madurai.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "salem.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.23"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "coimbatore.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "erode.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "nagapattinam.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "vellore.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.23"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "cuddalore.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "tirunelveli.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.23"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "thanjavur.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.23"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "karur.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "perambalur.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "sivagangai.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.23"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "ramanathapuram.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.23"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "dharmapuri.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "krishnagiri.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "namakkal.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "nilgiris.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "tiruppur.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.23"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "dindigul.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "virudhunagar.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.23"}
+{"ts": "2026-11-10T17:35:36+00:00", "target": "ariyalur.tnopac.gov.in", "method": "DNS", "summary": "A 117.239.68.22"}
