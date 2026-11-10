@@ -142,3 +142,27 @@ IFHRMS, which has no anonymous query.
 
 Culled: bulk `financedept` mirror copies deleted after hash verification against
 SHA256SUMS. Early drafts of the analysis note removed once superseded.
+
+## 2026-11-10 — budget and procurement trail
+
+Eleven Demand No.43 PDFs pulled from `financedept.tn.gov.in` over an Indian address
+(ocitwo), 2018-19 to 2026-27, sha256 recorded in `data/budget/SHA256SUMS` before any
+extraction. The publications index and the site root 403 the sandbox, so the DDG
+paths were resolved from the index over ocitwo and fetched there; the sandbox never
+touched the PDF bytes. CAG Report No.3 of 2023 (TN) came from `cag.gov.in`, same
+hash discipline.
+
+`pdftotext -layout` on each PDF. Object-head 33402 lines extracted with the four
+numeric columns and the source line number, so any figure can be re-read from the
+hash-matched PDF at the recorded line. Line numbers in
+`data/budget/library-book-spend.csv` are 1-indexed on the extracted text, not the PDF.
+
+What this cannot prove: the text layer. The 2022-23 and 2023-24 documents use a
+broken Cyrillic-ish Tamil font mapping, so institution names were resolved from the
+group code on the line and confirmed once per group against the English half of the
+scheme header, not from the Tamil. A mis-mapped numeral would survive the hash
+check — the defence is that every value is one `grep` away from its source line.
+
+Also cannot prove: anything about what was actually billed. The series is votes and
+actuals at object-head level. Bills, invoice numbers and the per-title split sit in
+IFHRMS and in the libraries' own files, neither of which is public.
