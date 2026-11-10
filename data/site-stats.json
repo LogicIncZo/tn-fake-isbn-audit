@@ -1,11 +1,11 @@
 {
- "total": 4791,
+ "total": 5277,
  "hij": 976,
- "never": 3541,
- "noisbn": 244,
- "acl_n": 215,
+ "never": 4020,
+ "noisbn": 251,
+ "acl_n": 701,
  "acl_hij": 164,
- "acl_never": 51,
+ "acl_never": 530,
  "acl_copies": 419,
  "acl_cost": "\u20b91,51,675.00",
  "kcl_n": 4576,
@@ -14,6 +14,7 @@
  "kcl_noisbn": 244,
  "kcl_copies": 453,
  "kcl_cost": "\u20b932,148.22",
+ "acl_wave2": 486,
  "reg_top": [
   [
    "CBS Publishers and Distributors Private Limited",
