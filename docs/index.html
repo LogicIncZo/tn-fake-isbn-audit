@@ -212,7 +212,7 @@
   <div class="prose">
     <p>The state's books vote for public libraries is a line item. From 2022-23 it is broken out per institution, which makes it auditable and makes it small enough to be worth taking. The Directorate carries ₹64.00 crore a year against branch and district library charges under the 1948 Act. Madurai's memorial library took ₹10.00 crore budgeted in 2022-23 and ₹40.00 crore at revision in 2023-24, then fell back to a ₹1,000 token. Coimbatore and Tiruchirappalli were each voted ₹50.00 crore for 2025-26 and revised to ₹20.00 crore. The 2025-26 books vote peaked at ₹168.00 crore; the 2026-27 vote is ₹136.00 crore.</p>
     <p>Five libraries now share ₹136 crore. Their printed prices cluster on the same handful of round numbers, in the same single-day waves, from the same twenty-five imprints. Small conspiracies of imprints divide the round price points between themselves — mostly two copies per title. At ₹2,895 a copy against a ₹100–₹300 reprint, the margin on the shelf is the state's money, and the ISBN on the spine is what makes the invoice look ordinary.</p>
-    <p>Against that denominator our 569 identified records are ₹1.83 lakh on the OPAC price print, 0.02 per cent of one year's vote. The scale here is not the size of the theft; it is the size of the shelf it can hide on. <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit/blob/main/report/BUDGET-AND-PROCUREMENT-TRAIL.md">The full budget trail, with every source PDF hashed &rarr;</a></p>
+    <p>Against that denominator our 569 identified records are ₹1.83 lakh on the OPAC price print, 0.02 per cent of one year's vote. The scale here is not the size of the theft; it is the size of the shelf it can hide on. <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit/blob/master/report/BUDGET-AND-PROCUREMENT-TRAIL.md">The full budget trail, with every source PDF hashed &rarr;</a></p>
   </div>
   <div class="tblwrap">
   <table>
@@ -400,8 +400,8 @@
 <div class="meta">Source: our verification</div>
 </div>
 <div class="claim">
-<span class="cid">C53</span><span class="badge l1">full-catalog screen / registry block pull</span>
-<p>Full-catalog screen: 569 ISBN-bearing records across ACL Chennai (215) + KCL Madurai (354); 382 hijacked (allocated elsewhere), 78 never in registry, 109 carry no ISBN; 872 copies; visible OPAC spend Rs 1,83,823.22</p>
+<span class="cid">C53</span><span class="badge l1">visible-wave screen / registry block pull</span>
+<p>Visible wave (pre-full-catalog screen): 569 records across ACL Chennai (215) + KCL Madurai (354); 382 hijacked (allocated elsewhere), 78 never in registry, 109 carry no ISBN; 872 copies; visible OPAC spend Rs 1,83,823.22 — superseded at catalog scale by C60</p>
 <div class="meta">Source:  70 counterfeit (never allocated)</div>
 </div>
 <div class="claim">
@@ -416,7 +416,7 @@
 </div>
 <div class="claim">
 <span class="cid">C56</span><span class="badge l1">full-catalog screen / registry block pull</span>
-<p>Same actor, two libraries: blocks 978-93-9461 and 978-93-9235 allocated to registrant Thenmozhi B supply hijacked ISBNs in both ACL Chennai and KCL Madurai (348 of 382 hijacked); Phoenix imprint printed on 237 of 382 hijacked books</p>
+<p>Same actor, two libraries: Thenmozhi B blocks (978-93-9461 / 978-93-9235) supply 145 of 976 registry-proven hijacked records across ACL Chennai (701 screened) and KCL Madurai (4,576 screened); Phoenix imprint appears on 161 of 976 hijacked (142 overlap with the blocks)</p>
 <div class="meta">Source: fakeisbn-verification.json (this repo), recompute_truth.py</div>
 </div>
 <div class="claim">
@@ -433,6 +433,51 @@
 <span class="cid">C59</span><span class="badge l1">A1 GET detail page + registry lookup (2026-11-08)</span>
 <p>KCL biblio 100032 carries ISBN 9789394612709 while registry's Phoenix Publications allocation for the same title (Data Analysis Using Python) is 978-93-94612-77-8 - printed ISBN differs from registry allocation (corrects 2026-11-07 inventory note)</p>
 <div class="meta">Source: evidence/koha-tn-sweep/kcl-detail-100032-recheck.html</div>
+</div>
+<div class="claim">
+<span class="cid">C60</span><span class="badge l1">L2 confirmed</span>
+<p>e-Granthalaya TAMILNADU union catalog (10 TN member libraries, eg4.nic.in) returns 0 records for all 3 factory ISBNs (9789392360091/9789394612709/9789394612778); pb:Phoenix=1 (Alice Walker, The color purple, Phoenix New Delhi 2004 - genuine homonym); pb:Thenmozhi=2 (Guruthenmozhi Chennai/Dindukal - different publisher); control pb:Oxford=232</p>
+<div class="meta">Source: POST search w/ ViewState+session cookie, eg4-sweep 2026-11-10; data/eg4-sweep.csv</div>
+</div>
+<div class="claim">
+<span class="cid">C61</span><span class="badge l1">L2 confirmed</span>
+<p>e-Granthalaya PUBLICLIBRARIES union catalog (127 member public libraries across 9 states, eg4.nic.in) returns 0 records for all 3 factory ISBNs; pb:Phoenix=181 (sampled homonyms: Phoenix House London 1957, Phoenix Prakashani Bhadrak, Phoenix Sports Books - no factory imprints); pb:Thenmozhi=0; control pb:Oxford=7634</p>
+<div class="meta">Source: POST search w/ ViewState+session cookie, eg4-sweep 2026-11-10; data/eg4-sweep.csv</div>
+</div>
+<div class="claim">
+<span class="cid">C62</span><span class="badge l1">all identical</span>
+<p>TN centralized public-library OPAC (tnopac.gov.in; Connemara + district central libraries) resolves in DNS but is external-dead: every gateway stub POSTs to TNSWAN-internal proxy 172.17.17.1:8090; ports 8090/8080/8093 closed on 117.239.68.22/.23; 25 subdomains enumerated</p>
+<div class="meta">Source: 2026-11-10</div>
+</div>
+<div class="claim">
+<span class="cid">C64</span><span class="badge l1">confirmed</span>
+<p>The TN School Education detailed demand for grants No.43 carries a distinct object head 33402 (Purchase of Books & Periodicals to Libraries) broken out per institution from budget 2022-23 onward — Madurai (BA), Coimbatore (BD), Tiruchirappalli (BE), Salem (BF), Cuddalore (BG), Tirunelveli (BH), plus the state Directorate (AA), 1948-Act library charges (AF) and the children's-libraries scheme (JQ).</p>
+<div class="meta">Source: https://financedept.tn.gov.in/en/my-documents/2020/07/DemandBook_43-3.pdf — object-head 33402 lines, text line 6904 (AA), 7042 (AF), 7227 (BD), 7254 (BE), 7271 (BF), 7289 (BG), 7306 (BH); DATA budget/library-book-spend.csv</div>
+</div>
+<div class="claim">
+<span class="cid">C65</span><span class="badge l1">confirmed</span>
+<p>Library book purchase actuals: 2022-23 Rs 10.00 crore, 2023-24 Rs 48.21 crore, 2024-25 Rs 73.21 crore. Budgets: 2025-26 BE Rs 168.00 crore, RE Rs 136.00 crore, 2026-27 BE Rs 136.00 crore.</p>
+<div class="meta">Source: derived DATA budget/library-book-spend.csv (per-row source PDF + line recorded); 2023-24 act = 40.00 (BA) + 8.21 (JQ) from DemandBook_43-1.txt line 7136 / 7280</div>
+</div>
+<div class="claim">
+<span class="cid">C66</span><span class="badge l1">confirmed</span>
+<p>The books vote ran as a lump inside object head 33400 until 2022-23; the 33402 sub-item appears with the Madurai memorial library, and the 2018-19 to 2021-22 demands contain no 33402 line at all.</p>
+<div class="meta">Source: grep -c 33402 over the 11 demand PDFs (2018-19 .. 2026-27); zero hits in 2018-19 through 2021-22, first hit 2022-23</div>
+</div>
+<div class="claim">
+<span class="cid">C67</span><span class="badge l1">confirmed</span>
+<p>IFHRMS runs on karuvoolam.tn.gov.in, not ifhrms.tn.gov.in (which does not resolve). Anonymous access reaches only a Public Challan page, circulars and a wiki FAQ — no expenditure query, no bill-level export, no object-head report.</p>
+<div class="meta">Source: https://www.karuvoolam.tn.gov.in/ link inventory; https://karuvoolam.tn.gov.in/web/tnta/new-faq ; DNS: ifhrms.tn.gov.in has no A record</div>
+</div>
+<div class="claim">
+<span class="cid">C68</span><span class="badge l1">confirmed</span>
+<p>CAG Report No.3 of 2023 (Tamil Nadu), performance audit of IFHRMS: the budget module allowed transfer of funds between Grants, expenditure without budget provision and withdrawal of the whole allocation after expenditure; expenditure was also booked under unrelated HoD codes (3.4) and under heads deleted from the accounts (3.3); the budget-availability report has no date field.</p>
+<div class="meta">Source: https://cag.gov.in/uploads/download_audit_report/2022/Report-No.-3,-2023,-Tamil-Nadu-068b16560041f41.94078888.pdf ch.III pp.15-17, 88-91; DATA budget/cag-report-3-2023-tn-ifhrms-performance-audit.pdf</div>
+</div>
+<div class="claim">
+<span class="cid">C69</span><span class="badge l1">confirmed</span>
+<p>Of Rs 1,83,823.22 printed on the 569 OPAC records that show a price, 95.3 per cent (Rs 1,75,138.22) sits on an ISBN that does not describe the book in hand: Rs 1,09,650.00 on an ISBN allocated to another title, Rs 65,488.22 on a number never allocated.</p>
+<div class="meta">Source: DATA fakeisbn-verification.csv summed on registry_verdict against price_shown</div>
 </div>
 
   </div>
@@ -453,6 +498,8 @@
     <a class="download-pill" href="data/kcl-books.jsonl" download>KCL catalog JSONL</a>
     <a class="download-pill" href="data/full-registry-lookup.jsonl" download>raw registry responses</a>
     <a class="download-pill" href="data/tn-koha-instances.json" download>TN Koha instances</a>
+    <a class="download-pill" href="data/budget/library-book-spend.csv" download>book-vote series (DDG 33402)</a>
+    <a class="download-pill" href="data/budget/ddg43-sources.csv" download>DDG source URLs + sha256</a>
     <a class="download-pill" href="https://github.com/LogicIncZo/tn-fake-isbn-audit">GitHub repo (scripts + hashes)</a>
   </div>
 </section>

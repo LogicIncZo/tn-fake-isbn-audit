@@ -118,7 +118,7 @@ for c in claims:
 
 def _cr(fy, stage):
     tot = 0
-    for r in csv.DictReader(open(os.path.join(D, "budget", "library-book-spend.csv"), encoding="utf-8")):
+    for r in csv.DictReader(open(os.path.join(DATA, "budget", "library-book-spend.csv"), encoding="utf-8")):
         if r["fiscal_year"] == fy and r["stage"] == stage and r["amount_inr"]:
             tot += int(r["amount_inr"])
     return tot / 1e7
@@ -338,7 +338,7 @@ HTML = f"""<!doctype html>
   <div class="prose">
     <p>The state's books vote for public libraries is a line item. From 2022-23 it is broken out per institution, which makes it auditable and makes it small enough to be worth taking. The Directorate carries ₹64.00 crore a year against branch and district library charges under the 1948 Act. Madurai's memorial library took ₹10.00 crore budgeted in 2022-23 and ₹40.00 crore at revision in 2023-24, then fell back to a ₹1,000 token. Coimbatore and Tiruchirappalli were each voted ₹50.00 crore for 2025-26 and revised to ₹20.00 crore. The 2025-26 books vote peaked at ₹{books_2526_be:.2f} crore; the 2026-27 vote is ₹{books_2627_be:.2f} crore.</p>
     <p>Five libraries now share ₹{books_2627_be:.0f} crore. Their printed prices cluster on the same handful of round numbers, in the same single-day waves, from the same twenty-five imprints. Small conspiracies of imprints divide the round price points between themselves — mostly two copies per title. At ₹2,895 a copy against a ₹100–₹300 reprint, the margin on the shelf is the state's money, and the ISBN on the spine is what makes the invoice look ordinary.</p>
-    <p>Against that denominator our 569 identified records are ₹1.83 lakh on the OPAC price print, 0.02 per cent of one year's vote. The scale here is not the size of the theft; it is the size of the shelf it can hide on. <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit/blob/main/report/BUDGET-AND-PROCUREMENT-TRAIL.md">The full budget trail, with every source PDF hashed &rarr;</a></p>
+    <p>Against that denominator our 569 identified records are ₹1.83 lakh on the OPAC price print, 0.02 per cent of one year's vote. The scale here is not the size of the theft; it is the size of the shelf it can hide on. <a href="https://github.com/LogicIncZo/tn-fake-isbn-audit/blob/master/report/BUDGET-AND-PROCUREMENT-TRAIL.md">The full budget trail, with every source PDF hashed &rarr;</a></p>
   </div>
   <div class="tblwrap">
   <table>
@@ -444,6 +444,8 @@ HTML = f"""<!doctype html>
     <a class="download-pill" href="data/kcl-books.jsonl" download>KCL catalog JSONL</a>
     <a class="download-pill" href="data/full-registry-lookup.jsonl" download>raw registry responses</a>
     <a class="download-pill" href="data/tn-koha-instances.json" download>TN Koha instances</a>
+    <a class="download-pill" href="data/budget/library-book-spend.csv" download>book-vote series (DDG 33402)</a>
+    <a class="download-pill" href="data/budget/ddg43-sources.csv" download>DDG source URLs + sha256</a>
     <a class="download-pill" href="https://github.com/LogicIncZo/tn-fake-isbn-audit">GitHub repo (scripts + hashes)</a>
   </div>
 </section>
@@ -482,3 +484,14 @@ print("KCL waves:", S["k_top_waves"])
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import build_nav
 build_nav.sync_all()
+
+# mirror the budget trail (report + hashed sources) into the published tree
+import shutil
+os.makedirs(os.path.join(ROOT, "docs", "report"), exist_ok=True)
+os.makedirs(os.path.join(ROOT, "docs", "data", "budget"), exist_ok=True)
+for name in ("library-book-spend.csv", "ddg43-sources.csv", "SHA256SUMS",
+             "cag-report-3-2023-tn-ifhrms-performance-audit.pdf"):
+    shutil.copy2(os.path.join(ROOT, "data", "budget", name),
+                 os.path.join(ROOT, "docs", "data", "budget", name))
+shutil.copy2(os.path.join(ROOT, "report", "BUDGET-AND-PROCUREMENT-TRAIL.md"),
+             os.path.join(ROOT, "docs", "report", "BUDGET-AND-PROCUREMENT-TRAIL.md"))
