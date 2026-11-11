@@ -95,4 +95,4 @@ rows returned, 1,078 confirmed absent. Verdicts reclassified.
 - Combined two-library figures: 181 hijacked / 3,708 never-registered. Phoenix
   imprint on 159 of 181 hijacked records (all Chennai).
 
-Claims: C64 registers the retest; C54/C56 carry supersession pointers.
+Claims: C70 registers the retest; C54/C56 carry supersession pointers.
