@@ -20,8 +20,17 @@ chain: what was collected, from where, when, by which script.
   the search-result listing and `catalog title unavailable` markers, with the
   corresponding raw page archived for audit.** ISBNs, acquisition dates and
   prices for these rows came from holdings tables that loaded successfully.
-  Refetch queued for when the OPAC is stably reachable; the hijack verdicts do
-  not depend on catalog titles — they are registry-verified (below).
+  Refetch queued for when the OPAC is stably reachable. [RETEST 2026-11-10]
+  correction: the hijack verdicts DO depend on catalog titles — the original
+  comparator flagged every registry-hit ISBN with no publisher match as
+  hijacked and produced an inflated 812. The corrected comparator
+  (notes/2026-11-10-comparator-retest.md) compares catalog and registry titles;
+  confirmed hijacks: 14 (KCL), 162 (ACL wave, reclassified with title evidence).
+  [RETEST 2026-11-10] The title-independent claim above is withdrawn: the
+  corrected comparator (see `notes/2026-11-10-comparator-retest.md`) classifies
+  hijacks by title divergence between the catalog copy and the registry row,
+  so catalog titles ARE evidence for these rows. The 188 title-less rows now
+  sit in UNRESOLVED/REGISTRY-ROW-INCOMPLETE buckets, not HIJACKED.
 
 ### KCL Madurai (Kalaignar Centenary Library OPAC, `122.184.84.190:1011`, Koha)
 

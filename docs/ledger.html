@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Ledger — 5,277 records · TN Fake-ISBN Audit</title>
 <meta name="description" content="Every screened catalog record from Anna Centenary Library (Chennai) and Kalaignar Centenary Library (Madurai): fake metadata, registry verdict, original title, acquisition date, price, verification links.">
-<link rel="stylesheet" href="style.css?v=2f5aa730">
+<link rel="stylesheet" href="style.css?v=f6f03426">
 <style>
   .controls { display:flex; flex-wrap:wrap; gap:10px; margin:18px 0 6px; align-items:center; }
   .controls input, .controls select {
@@ -45,7 +45,7 @@
 <div class="wrap">
 <p class="kicker">பதிவேடு · The Register</p>
 <h2>Every row is checkable</h2>
-<p class="dek">Screened against the isbn.gov.in registry 07–08 Nov 2026. "Registry says" is the <em>true</em> owner of that ISBN — if it names a different book, the catalog copy carries a stolen or fabricated number.</p>
+<p class="dek">Screened against the isbn.gov.in registry 07–08 Nov 2026; comparator corrected 10 Nov 2026 ([RETEST] — the earlier 812-hijack figure was an artifact and is retracted; see The Report). "Registry says" is the <em>true</em> owner of that ISBN — if it names a different book, the catalog copy carries a stolen or fabricated number.</p>
 
 <div class="controls">
   <input id="q" type="search" placeholder="Search title, author, ISBN, registrant…">
@@ -59,6 +59,9 @@
     <option value="HIJACKED">Hijacked (real ISBN, different book)</option>
     <option value="NEVER">Never in registry</option>
     <option value="NOISBN">No ISBN in catalog</option>
+    <option value="SAMEWORK">Same work, other edition/missing pub</option>
+    <option value="UNRESOLVED">Unresolved partial-title</option>
+    <option value="INCOMPLETE">Registry row incomplete</option>
   </select>
   <span class="count" id="count"></span>
 </div>
@@ -84,7 +87,12 @@
 const V = {
   "HIJACKED-ALLOCATED-ELSEWHERE": ["H","HIJACKED"],
   "NOT-IN-REGISTRY":              ["N","NOT-IN-REGISTRY"],
-  "NO-ISBN-IN-CATALOG":           ["X","NO-ISBN"]
+  "NO-ISBN-IN-CATALOG":           ["X","NO-ISBN"],
+  "EDITION-MISMATCH-SAME-WORK":   ["E","SAME WORK, OTHER EDITION"],
+  "TITLE-MATCH-PUB-MISSING":      ["T","TITLE MATCH — PUBLISHER NOT STATED"],
+  "UNRESOLVED-TITLE-PARTIAL":     ["U","UNRESOLVED — NEEDS HUMAN READ"],
+  "REGISTRY-ROW-INCOMPLETE":      ["I","REGISTRY ROW INCOMPLETE"],
+  "MALFORMED-ISBN":               ["X","MALFORMED ISBN"]
 };
 let ROWS = [];
 const esc = s => String(s??"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -110,6 +118,9 @@ function match(r){
   if (ver === "HIJACKED" && r._cls !== "H") return false;
   if (ver === "NEVER" && r._cls !== "N") return false;
   if (ver === "NOISBN" && r._cls !== "X") return false;
+  if (ver === "SAMEWORK" && r._cls !== "E" && r._cls !== "T") return false;
+  if (ver === "UNRESOLVED" && r._cls !== "U") return false;
+  if (ver === "INCOMPLETE" && r._cls !== "I") return false;
   if (!q) return true;
   return [r.fake_title, r.fake_author, r.isbn, r.registry_original_title,
           r.registry_original_publisher, r.registry_verdict, r.date_acquired]

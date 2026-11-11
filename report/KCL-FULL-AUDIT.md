@@ -1,3 +1,11 @@
+> **[RETEST 2026-11-10] The hijack counts in this report are superseded.**
+> The title comparator counted catalog formatting noise (series preambles, trailing
+> punctuation, edition suffixes) as "hijack". Corrected counts: **14 confirmed hijacks**
+> among KCL's 818 registry-hit ISBNs (not 812/99.3%), plus 50 unresolved partial-title
+> rows, 100 registry rows with no title to check, and 654 same-work rows (edition
+> variants / missing publisher). The 3,490 never-registered / 244 no-ISBN figures stand.
+> See `notes/2026-11-10-kcl-comparator-retest.md` and `scripts/kcl_full_audit.py`.
+
 # KCL full-catalog audit — every record, not just the 354
 
 **Date:** 2026-11-09 (interim — publisher attribution still enriching)
@@ -64,3 +72,27 @@ See `evidence/kcl-full-audit/SHA256SUMS.txt`:
 2. Publisher normalisation (trailing commas, transliteration variants) → definitive cluster table for the report.
 3. NOT-IN-REGISTRY deep pass on a stratified sample (50 records) to characterise that bucket honestly.
 4. Report + site integration once publisher attribution is complete.
+
+## Update 2026-11-11 — registry backfill-2 complete
+
+Backfill-2 (1,313 remaining ISBNs on suspicious-publisher records, run from the
+ocitwo Indian vantage, `data/kcl/backfill2-results.jsonl`, sha256
+`0528cc1a544afda3afa4babb5009d319078c6434502fb0c59e458b3886cbc4cc`): 235 registry
+rows returned, 1,078 confirmed absent. Verdicts reclassified.
+
+- KCL hijacked: 15 → **19** (+4 medical/nursing/pharmacy textbooks on CBS/S Chand/
+  Dream Kids World registrant ISBNs; 1 cross-script row quarantined, see below).
+- KCL never-registered: 3,429 → **3,178** (251 ISBNs moved into registered buckets:
+  +176 edition-mismatch, +126 title-match-pub-missing, +42 unresolved-partial,
+  +14 registry-row-incomplete).
+- New verdict bucket **UNRESOLVED-CROSS-SCRIPT (29)**: registry row exists, its
+  title is in a non-Latin script (mostly Bengali), machine comparison impossible —
+  quarantined, not counted as hijack. One of these (bib 212922,
+  978-93-5501-039-1: TNPSC objective-arithmetic shelf copy vs registry
+  "OBJECTIVE ARITHMETIC SSC AND RAILWAY EXAM SPECIAL", Himanshu Gupta, Tamil,
+  29/07/2021) may actually be the same work mislabelled by the transilteration
+  gap — left unresolved on purpose.
+- Combined two-library figures: 181 hijacked / 3,708 never-registered. Phoenix
+  imprint on 159 of 181 hijacked records (all Chennai).
+
+Claims: C64 registers the retest; C54/C56 carry supersession pointers.

@@ -181,6 +181,13 @@ footer .ta { font-size: 17px; }
 .v-HIJACKED { color: var(--red); }
 .v-NEVER-IN-REGISTRY { color: var(--maroon); }
 .v-NO-ISBN { color: var(--grey); }
+.v-H { color: var(--red); }
+.v-N { color: var(--maroon); }
+.v-X { color: var(--grey); }
+.v-E { color: #2e7d5b; }
+.v-T { color: #2e7d5b; }
+.v-U { color: var(--gold); }
+.v-I { color: var(--grey); }
 
 .wave {
   display: inline-block; background: var(--paper-deep); border: 1px solid var(--line);

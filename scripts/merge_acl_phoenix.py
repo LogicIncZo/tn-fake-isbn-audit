@@ -17,7 +17,7 @@ import csv, json, os, shutil, collections
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "docs", "data")
 
-audit = json.load(open(f"{ROOT}/data/acl-phoenix-audit.json"))
+audit = json.load(open(f"{ROOT}/data/acl-phoenix-audit-v2.json"))
 reg = {}
 for line in open(f"{ROOT}/data/full-registry-lookup.jsonl"):
     d = json.loads(line)
@@ -34,10 +34,10 @@ def reg_fields(isbn):
 old = list(csv.DictReader(open(f"{DATA}/final-classification.csv")))
 old_acl = [r for r in old if r["library"] == "ACL Chennai"]
 kcl = [r for r in old if r["library"] == "KCL Madurai"]
-old_acl_bibs = {r["biblio"] for r in old_acl}
+old_acl_by_bib = {r["biblio"]: r for r in old_acl}
+old_acl_bibs = set(old_acl_by_bib)
 overlap = old_acl_bibs & {str(a["biblio"]) for a in audit}
-if overlap:
-    print(f"WARNING: {len(overlap)} biblio overlap with old ACL wave: {sorted(overlap)[:5]}")
+print(f"v2 re-verdicts {len(overlap)} existing ACL rows in place")
 
 ver = json.load(open(f"{DATA}/fakeisbn-verification.json"))
 old_ver_acl = [r for r in ver if r["library"] == "ACL Chennai"]
@@ -48,20 +48,30 @@ CLS_HEADER = ["library","biblio","title","author","isbn","verdict",
               "registry_publisher","registry_title","date_acquired","price"]
 
 VERDICT_MAP = {"NEVER-ALLOCATED": "NOT-IN-REGISTRY",
-               "NEEDS-LOOKUP": "NO-ISBN-IN-CATALOG"}
+               "NEEDS-LOOKUP": "NO-ISBN-IN-CATALOG",
+               "UNRESOLVED-TITLE-PARTIAL": "UNRESOLVED-TITLE-PARTIAL",
+               "EDITION-MISMATCH-SAME-WORK": "EDITION-MISMATCH-SAME-WORK",
+               "REGISTRY-ROW-INCOMPLETE": "REGISTRY-ROW-INCOMPLETE"}
 new_cls, new_ver, led_rows = [], [], []
 skipped = 0
 for a in audit:
     bib = str(a["biblio"])
-    if bib in old_acl_bibs:
-        skipped += 1
-        continue
     isbn = a.get("isbn") or ""
     verdict = VERDICT_MAP.get(a["verdict"], a["verdict"])
     t, p, lang, pdate = reg_fields(isbn)
     dates = ";".join(a.get("date_acquired") or [])
     cost = sum(a.get("costs") or [])
     copies = a.get("copies") or ""
+    if bib in old_acl_by_bib:
+        old_cls_row = old_acl_by_bib[bib]
+        old_cls_row.update({"isbn": isbn, "verdict": verdict,
+                            "registry_publisher": p, "registry_title": t})
+    old_ver_row = next((r for r in old_ver_acl if str(r.get("biblio")) == bib), None)
+    if old_ver_row:
+        old_ver_row.update({"registry_verdict": verdict,
+                            "registry_original_title": a.get("registry_title") or t,
+                            "registry_original_publisher": a.get("registry_publisher") or p})
+        continue
     new_cls.append({
         "library": "ACL Chennai", "biblio": bib,
         "title": a.get("title") or "", "author": a.get("author") or "",
@@ -113,20 +123,18 @@ with open(f"{DATA}/final-classification.csv", "w", newline="") as f:
 
 json.dump(old_ver_acl + new_ver + kcl_ver, open(f"{DATA}/fakeisbn-verification.json", "w"),
           ensure_ascii=False, indent=1)
-VER_HEADER = list(new_ver[0].keys())
+VER_HEADER = list(new_ver[0].keys()) if new_ver else list(old_ver_acl[0].keys())
 with open(f"{DATA}/fakeisbn-verification.csv", "w", newline="") as f:
     w = csv.DictWriter(f, fieldnames=VER_HEADER)
     w.writeheader()
     for r in old_ver_acl + new_ver + kcl_ver:
         w.writerow({k: r.get(k, "") for k in VER_HEADER})
 
-with open(f"{DATA}/acl-phoenix-ledger.csv", "w", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=list(led_rows[0].keys()))
-    w.writeheader()
-    w.writerows(led_rows)
-
-shutil.copy(f"{ROOT}/data/full-registry-lookup.jsonl",
-            f"{DATA}/full-registry-lookup.jsonl")
+if led_rows:
+    with open(f"{DATA}/acl-phoenix-ledger.csv", "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=list(led_rows[0].keys()))
+        w.writeheader()
+        w.writerows(led_rows)
 
 cnt = collections.Counter(r["verdict"] for r in new_cls)
 copies = sum(int(r["copies"]) for r in led_rows if str(r["copies"]).isdigit())

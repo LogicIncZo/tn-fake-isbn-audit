@@ -1,3 +1,11 @@
+> **[RETEST 2026-11-10] The hijack counts in this report are superseded.**
+> The title comparator counted catalog formatting noise (series preambles, trailing
+> punctuation, edition suffixes) as "hijack". Corrected counts: **14 confirmed hijacks**
+> among KCL's 818 registry-hit ISBNs (not 812/99.3%), plus 50 unresolved partial-title
+> rows, 100 registry rows with no title to check, and 654 same-work rows (edition
+> variants / missing publisher). The 3,490 never-registered / 244 no-ISBN figures stand.
+> See `notes/2026-11-10-kcl-comparator-retest.md` and `scripts/kcl_full_audit.py`.
+
 # KCL full-catalog screen — interim (2026-11-09, 15:15 IST)
 
 Scope: every biblio record in the Anna Centenary Library… Kalaignar Centenary Library

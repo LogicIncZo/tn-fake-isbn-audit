@@ -15,18 +15,19 @@ isbn.gov.in registry.
 
 | Figure | Value | Source file |
 | --- | --- | --- |
-| Catalog records screened | 569 | `data/final-classification.csv` |
-| — ACL Chennai (full sweep + legacy 27) | 215 | `data/final-classification.csv` |
-| — KCL Madurai (full sweep) | 354 | `data/final-classification.csv` |
-| Records carrying an ISBN hijacked to another registrant | 382 | `data/final-classification.csv` (164 ACL + 218 KCL) |
-| ISBNs never allocated at all | 78 (51 ACL + 27 KCL) | same |
-| Records with no ISBN in catalog | 109 KCL | same |
-| Copies in hijacked records | 872 | `docs/data/fakeisbn-verification.json` |
+| Catalog records screened | 5,277 | `data/final-classification.csv` |
+| — ACL Chennai (Phoenix wave 698 + legacy 3) | 701 | `data/final-classification.csv` |
+| — KCL Madurai (full catalog) | 4,576 | `data/final-classification.csv` |
+| Records carrying an ISBN hijacked to another registrant (evidence on record) | 176 | `data/final-classification.csv` (162 ACL + 14 KCL) — [RETEST 2026-11-10: KCL was 218/812 under a buggy title comparator; corrected counts]
+| ISBNs never allocated at all | 4,020 (530 ACL + 3,490 KCL) | same |
+| Records with no ISBN in catalog | 251 (7 ACL + 244 KCL) + 24 malformed KCL | same |
+| Same-work on registry (edition variants / title match, not fraud) | 654 KCL + 1 ACL | same |
+| Copies in hijacked records | 312 | `docs/data/fakeisbn-verification.json` |
 | Visible acquisition cost (sum of OPAC-printed prices) | ₹1,83,823.22 (ACL ₹1,51,675.00 + KCL ₹32,148.22) | `docs/data/fakeisbn-verification.json` |
 | Wave dates, ACL | 13.04.2024 (293 copies), 22.08.2024 (250), 28.06.2024 (10) | same |
 | Wave dates, KCL | 12.06.2023 (366 copies), 13–14.06.2023 (75) | `data/kcl-books.jsonl` |
 | TN books vote for public libraries, 2026-27 BE | ₹136.00 crore (2025-26 BE ₹168.00 crore) | `data/budget/library-book-spend.csv` |
-| Dominant registry registrant of the hijacked ISBNs | "Thenmozhi B" (226 allocations), Hay House India (83) | `data/full-registry-lookup.jsonl` |
+| Dominant registry registrant of the hijacked ISBNs | "Thenmozhi B" (92 allocations), Hay House India (19) | `data/full-registry-lookup.jsonl` |
 
 Labels: catalog figures = read directly from public OPAC pages (L4: artifact on disk).
 Registry figures = live `isbn.gov.in` queries 07–08 Nov 2026 (L4: raw JSONL on disk).

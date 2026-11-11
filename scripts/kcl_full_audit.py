@@ -19,11 +19,29 @@ from collections import defaultdict
 ROOT = "/home/workspace/Projects/tn-fake-isbn-audit"
 DATA = f"{ROOT}/data"
 
-STOP = {"the", "a", "an", "of", "and", "in", "on", "for", "to", "by", "&"}
+STOP = {"the", "a", "an", "of", "and", "in", "on", "for", "to", "by", "&", "ed", "edition", "pb", "pbk", "vol", "volume", "reprint", "reissue", "revised", "new", "nd", "st", "rd", "th"}
+# bibliographic-format noise, present on one side only (catalog "(Pb 2022)",
+# registry "(Edition 2)") — stripping these is what the first classifier missed
+EDNOISE = {"edition", "ed", "eds", "edn", "pb", "pbk", "paperback", "hardcover",
+           "hardback", "reissue", "reprint", "vol", "vols", "volume", "volumes",
+           "pt", "part", "nd", "rev", "revised", "enlarged", "updated",
+           "first", "second", "third", "fourth", "fifth", "sixth", "seventh",
+           "eighth", "ninth", "tenth", "new"}
 def toks(s):
     s = re.sub(r"[^\w\s]", " ", (s or "").lower())
-    return {t for t in s.split() if t and t not in STOP and not t.isdigit()}
+    out = set()
+    for t in s.split():
+        if not t or t in STOP or t in EDNOISE:
+            continue
+        if t.isdigit() or re.fullmatch(r"\d+(st|nd|rd|th|ed|edn)", t):
+            continue
+        out.add(t)
+    return out
 def tover(a, b):
+    ta, tb = toks(a), toks(b)
+    if not ta or not tb: return 0.0
+    return len(ta & tb) / min(len(ta), len(tb))
+def atop(a, b):
     ta, tb = toks(a), toks(b)
     if not ta or not tb: return 0.0
     return len(ta & tb) / min(len(ta), len(tb))
@@ -61,6 +79,14 @@ for line in open(f"{DATA}/kcl-registry-full.jsonl"):
     if line.strip():
         r = json.loads(line); r["registry_total"] = r.get("total", r.get("registry_total", 0)); reg[r["isbn"]] = r
 
+# ---- 10 Nov backfill: valid ISBNs the stem-sweep cache never queried
+try:
+    for line in open(f"{DATA}/kcl-registry-backfill.jsonl"):
+        if line.strip():
+            r = json.loads(line); r["registry_total"] = r.get("total", r.get("registry_total", 0)); reg[r["isbn"]] = r
+except FileNotFoundError:
+    pass
+
 # ---- publisher enrichment from detail pages (122.184.84.190 front-end)
 import os
 detail_pubs = {}
@@ -82,6 +108,18 @@ for r in csv.DictReader(open(f"{DATA}/kcl-ledger.csv")):
 def norm_isbn(raw):
     d = re.sub(r"[^0-9Xx]", "", raw or "")
     return d if len(d) in (10, 13) else ""
+
+def cd_ok(d):
+    if len(d) == 13 and d.isdigit():
+        s = sum((1 if k % 2 == 0 else 3) * int(c) for k, c in enumerate(d[:12]))
+        return (10 - s % 10) % 10 == int(d[12])
+    if len(d) == 10 and re.fullmatch(r"\d{9}[\dXx]", d):
+        s = sum((10 - k) * (10 if c in "Xx" else int(c)) for k, c in enumerate(d))
+        return s % 11 == 0
+    return False
+
+
+
 
 def pub_from_imprint(raw):
     """'Chennai : Sri R J Y Publications, 2021 .' -> 'Sri R J Y Publications'"""
@@ -119,27 +157,72 @@ for b in order:
     if not isbn:
         verdict = "MALFORMED-ISBN" if (r.get("isbn") or "").strip() else "NO-ISBN-IN-CATALOG"
         rec["registry_verdict"] = verdict
-    elif not ent or ent.get("registry_total", 0) == 0:
+    elif ent and ent.get("error"):
+        rec["registry_verdict"] = "LOOKUP-ERROR"
+    elif ent and ent.get("error"):
+        rec["registry_verdict"] = "LOOKUP-ERROR"
+    elif not ent:
+        rec["registry_verdict"] = "NOT-IN-REGISTRY"
+    elif not cd_ok(isbn):
+        rec["registry_verdict"] = "MALFORMED-ISBN"; rec["bad_check_digit"] = True
+    elif ent.get("registry_total", 0) == 0:
         rec["registry_verdict"] = "NOT-IN-REGISTRY"
     else:
         rows = ent.get("rows") or []
         best, best_ov = None, 0.0
-        legit = False
         for row in rows:
-            rt = row.get("title", ""); rp = row.get("publisher", "")
-            ov = tover(fake_title, rt)
+            ov = tover(fake_title, row.get("title", ""))
             if ov > best_ov: best, best_ov = row, ov
-            if pubmatch(fake_pub or "", rp) and ov >= 0.75: legit = True
+        dconf = False
+        if best:
+            da = set(re.findall(r"\d+", fake_title.lower()))
+            dr = set(re.findall(r"\d+", (best.get("title") or "").lower()))
+            dconf = bool(da and dr and da != dr)
         rec["best_title_overlap"] = round(best_ov, 2)
-        if legit:
+        rec["digit_conflict"] = dconf
+        reg_title = (best.get("title", "") if best else "").strip()
+        # cross-script guard: a Tamil-script catalog title cannot token-overlap an
+        # English registry title; zero overlap there is not hijack evidence.
+        ta = re.sub(r"[\x00-\x7f]", "", fake_title)
+        tr_ = re.sub(r"[\x00-\x7f]", "", reg_title)
+        cross_script = bool((ta and not tr_) or (tr_ and not ta))
+        if best and cross_script:
+            rec["registry_verdict"] = "UNRESOLVED-CROSS-SCRIPT"
+            rec["registry_original_title"] = reg_title
+            rec["registry_original_publisher"] = best.get("publisher", "")
+            out.append(rec)
+            continue
+        same_work = (best is not None and best_ov >= 0.60 and not dconf)
+        reg_author = (best.get("Author", "") if best else "") or ""
+        aov = tover(fake_author, reg_author)
+        pub_ok = pubmatch(fake_pub or "", best.get("publisher", "")) if best else False
+        author_ok = aov >= 0.5
+        both_no_author = not fake_author.strip() and not reg_author.strip()
+        if best and same_work and (pub_ok or author_ok or (both_no_author and not (fake_pub or "").strip())):
             rec["registry_verdict"] = "LEGIT"
-        else:
-            rec["registry_verdict"] = "HIJACKED-ALLOCATED-ELSEWHERE"
+            rec["author_overlap"] = round(aov, 2)
+        elif best and same_work and not (fake_pub or "").strip():
+            rec["registry_verdict"] = "TITLE-MATCH-PUB-MISSING"
+            rec["author_overlap"] = round(aov, 2)
+        elif best and best_ov >= 0.60 and dconf:
+            rec["registry_verdict"] = "EDITION-MISMATCH-SAME-WORK"
+            rec["registry_original_title"] = best.get("title", "")
+            rec["registry_original_publisher"] = best.get("publisher", "")
+        elif not reg_title:
+            rec["registry_verdict"] = "REGISTRY-ROW-INCOMPLETE"
             if best:
-                rec["registry_original_title"] = best.get("title", "")
                 rec["registry_original_publisher"] = best.get("publisher", "")
-                rec["registry_original_author"] = best.get("Author", "")
                 rec["registry_isbn_number"] = best.get("isbn_number", "")
+        elif best_ov < 0.35:
+            rec["registry_verdict"] = "HIJACKED-ALLOCATED-ELSEWHERE"
+            rec["registry_original_title"] = best.get("title", "")
+            rec["registry_original_publisher"] = best.get("publisher", "")
+            rec["registry_original_author"] = best.get("Author", "")
+            rec["registry_isbn_number"] = best.get("isbn_number", "")
+        else:
+            rec["registry_verdict"] = "UNRESOLVED-TITLE-PARTIAL"
+            rec["registry_original_title"] = best.get("title", "")
+            rec["registry_original_publisher"] = best.get("publisher", "")
     out.append(rec)
     p = (html.unescape(rec.get("fake_publisher")) if rec.get("fake_publisher") else "") or "(publisher unknown — detail pages not harvested)"
     s = pubstats[p]
@@ -166,7 +249,7 @@ json.dump(out, open(f"{DATA}/kcl-full-audit.json", "w"), ensure_ascii=False, ind
 ver = defaultdict(int)
 for r in out: ver[r["registry_verdict"]] += 1
 print(f"records {len(out)}  unique bibs {len(books)}")
-for k in ("LEGIT", "HIJACKED-ALLOCATED-ELSEWHERE", "NOT-IN-REGISTRY", "NO-ISBN-IN-CATALOG", "MALFORMED-ISBN"):
+for k in ("LEGIT", "TITLE-MATCH-PUB-MISSING", "EDITION-MISMATCH-SAME-WORK", "HIJACKED-ALLOCATED-ELSEWHERE", "NOT-IN-REGISTRY", "NO-ISBN-IN-CATALOG", "MALFORMED-ISBN"):
     print(f"  {k}: {ver.get(k, 0)}")
 reg_l = [r for r in out if r["registry_verdict"] != "NO-ISBN-IN-CATALOG" and r.get("isbn")]
 print(f"ISBN-bearing screened: {len(reg_l)}")
